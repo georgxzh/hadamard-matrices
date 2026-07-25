@@ -34,6 +34,43 @@ No open-search experiments have been run.
 - Reproduction command: `python -m scripts.reproduce_h428`
 - Recorded wall time: 3.126743 seconds for generation and both verifiers
 
+## EXP-LP-001: exact framework and published small pairs
+
+- Status: reproduction; PASS
+- UTC start and end: literature audit and implementation on 2026-07-25;
+  deterministic artifact rerun started 2026-07-25T23:12:50.174573Z and
+  completed 0.112203 seconds later
+- Objective: implement the exact binary Legendre-pair, SDS, cyclotomic PSD,
+  compression, and bordered-Hadamard pipeline and reproduce published pairs
+- Primary sources: `fletcher2001`, `djokovic2015compression`, and
+  `kotsireas2021mod3`, audited from complete PDFs; structured-example context
+  from the accessible publisher text of `kotsireas2027pq2`
+- Mathematical constraints: every nonzero PAF shift; negative-support ordered
+  differences; every nonzero cyclotomic PSD sum; generic compression PAF
+  identities; exact 3/9/37 paths; complete final Hadamard Gram identities
+- Configuration file: none; fixed source signs in `src/legendre.py`
+- Random seed: not applicable; deterministic
+- Git commit: working tree on branch `agent/order-428-reproduction`; final
+  commit recorded by repository history
+- Hardware and software: Windows 11, AMD64 Family 25 Model 117, Python 3.14.6
+- CPU cores / peak memory / storage: one core / not instrumented; largest
+  matrix 56 by 56 / small CSV and text package under `results/legendre_examples`
+- Complete output: `results/legendre_examples/metadata.json`, H8/H12/H16/H56
+  CSVs, and both verifier reports and sidecars for every matrix
+- Exact checker: `src.legendre`, `src.verify_matrix`, and separately parsed,
+  bit-packed `src.verify_matrix_independent`
+- Result: LP(3), LP(5), LP(7), and LP(27) PASS all exact source constraints;
+  H8, H12, H16, and H56 PASS/PASS. Candidate hashes are in metadata.
+- Interpretation: successful reconstruction of the source sequences and the
+  `LP(n) -> H(2n+2)` theorem, including a length divisible by 3 and the
+  parameter 27=3*3^2
+- Limitations / failed cases: no LP(333) search was run and no order-668 result
+  is claimed. The newer structured LP(27) data remain unreproduced because the
+  publisher embeds signs in a dynamic figure, blocks the direct PDF, and does
+  not fully specify the trace convention in searchable text. An initial trace
+  interpretation was rejected when it failed to return base-field bits.
+- Reproduction command: `python -m scripts.reproduce_legendre_examples`
+
 ## Entry template
 
 - Experiment ID:

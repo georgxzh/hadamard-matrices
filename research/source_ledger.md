@@ -18,11 +18,11 @@ Labels:
 | `kharaghani2005` | P | all 7 pages of author PDF; formulas and sequences visually audited | order-428 warm-up | reproduced; dual exact verification |
 | `best2013turyn` | P | author PDF and arXiv record | independent TT definition/classification context | TT(36) implication checked |
 | `sagemath_tsequences` | S/software | current source and documentation | independent sequence-encoding/formula cross-check | decoded TT(36) agrees |
-| `fletcher2001` | P | metadata/open access link | LP(\(L\)) → HM(\(2L+2\)) | derivation pending |
+| `fletcher2001` | P | all 12 pages of open PDF; Theorem 3 array and Table 4 visually audited | LP(\(L\)) to HM(\(2L+2\)); small source pairs | implemented; LP(3,5,7,27) and H(8,12,16,56) dual-verified |
 | `georgiou2002` | P | repository metadata/abstract | multipliers and SDS formulation | pending |
-| `djokovic2015compression` | P | arXiv abstract | exact compression identities | implementation pending |
-| `kotsireas2021mod3` | P | arXiv abstract | length divisible by 3 constraints | pending |
-| `kotsireas2027pq2` | P, online 2026 | substantial publisher text | structured \(pq^2\) uncompression route | small cases pending |
+| `djokovic2015compression` | P | complete arXiv PDF; Definition 3 and Theorem 3 visually audited | exact compression identities | generic and 3/9/37 paths implemented and tested |
+| `kotsireas2021mod3` | P | complete arXiv PDF; Corollary 1 visually audited | length divisible by 3 exact PSD constraints | implemented; LP(27) special frequency reproduced |
+| `kotsireas2027pq2` | P, online 2026 | substantial publisher text; direct PDF blocked | structured \(pq^2\) uncompression route | theorem parameters audited; embedded LP data not recovered |
 | `kotsireas2025compression` | P | metadata | newer compression properties | full-text audit pending |
 | `cati2024database` | PP/software | arXiv and Sage docs | construction coverage/database | executable audit pending |
 | `eliahou2025modular` | P | open PDF text | modular near-result at 668 | pending |
@@ -58,8 +58,29 @@ The audited copy is research input and is not redistributed in this
 repository. The exact transcription and complete audit are in
 `order428_reproduction.md`.
 
+## Legendre source artifacts
+
+The following full-text research inputs were accessed on 2026-07-25 and are
+not redistributed in the repository:
+
+- `fletcher2001`: open journal PDF, SHA-256
+  `4d0bc39f392a24dfb0bec3a0f17961eab4dfffe85956a1204016110d029c82b5`;
+- `djokovic2015compression`: arXiv PDF, SHA-256
+  `a05f33d2d901e70440e17acb2a21988ab07ccda52b31dbc3398546a32a69bffb`;
+- `kotsireas2021mod3`: arXiv PDF, SHA-256
+  `4e9cc7adcdb9f57cdf16b53a511ebafac63f780bacbe05b5ea9cf73a52648f5`.
+
+The exact derivation, indexing conventions, formula-page audit, Table-4
+transcriptions, and redundant LP(27) glyph checks are in
+`legendre_framework.md`. Reproduction artifacts and both independent verifier
+reports are under `results/legendre_examples/`.
+
 ## Retrieval gaps
 
+- Obtain reliable source data for the structured LP(27), LP(45), LP(63), and
+  LP(75) reported in `kotsireas2027pq2`. The publisher figure is dynamic, its
+  direct PDF returned HTTP 403, and the displayed trace formula lacks a trace
+  convention sufficient for safe reconstruction.
 - Retrieve and inspect the proof/certificate artifacts for
   `ramos2026multipliers`.
 - Locate code and complete outputs underlying `chojecki2026status`.

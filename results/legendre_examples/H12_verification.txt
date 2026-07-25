@@ -1,0 +1,5 @@
+verifier: direct-integer
+status: PASS
+expected_order: 12
+candidate_sha256: 77b8a4c0d2ab12f7fa147d68071e29639892c032567cc326373e90b4bf6e558e
+detail: all 144 entries are ±1 and H H^T = 12 I_12 exactly

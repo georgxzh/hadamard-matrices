@@ -1,21 +1,21 @@
 # Direction selection
 
-Status: intentionally deferred.
+Status: provisional research direction selected; no expensive run authorized.
 
-The brief requires selection only after reproducing order 428, implementing
-the Legendre-pair pipeline, and auditing previous computation. Selecting now
-would outrun the evidence.
+Order 428 and the exact Legendre core are reproduced. Previous length-333
+computations are classified, but their external artifacts remain unaudited.
 
-Provisional candidates to compare later:
+**Primary:** prescribed factor-9 uncompression of the output-length-37 pair
+`A(37,3),B(37,3)` from the structured `pq^2` theorem.
 
-- multiplier-orbit search restricted to the nine small common subgroups not
-  excluded by the 2026 preprint, plus carefully distinguished translated or
-  asymmetric multiplier actions;
-- exact pseudo-Boolean/SAT uncompression of the \(p=37,q=3\) structured
-  compression;
-- exact cyclotomic or lattice encoding of spectral constraints;
-- alternative TT(56), Goethals–Seidel/SDS(167), Williamson(167), or cocyclic
-  constructions.
+- Recover and reproduce the newer structured LP(27), LP(45), and LP(63) first.
+- Form an exact bounded model with PAF, SDS, cyclotomic PSD, and compression.
+- Request approval after a resource and certificate estimate, before running.
 
-The eventual comparison will quantify variables, constraints, symmetry proof,
-certificate format, and expected compute budget before any large run.
+**Backup:** proof-producing pseudo-Boolean/SAT uncompression on independently
+audited 9-compressed classes and low-order multiplier cases.
+
+Common fixed multipliers of order at least nine and stochastic searches
+without an exact finishing stage are deprioritized.
+Full evidence labels, parameter constraints, gaps, and gates are recorded in
+`length333_audit.md`.

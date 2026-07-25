@@ -82,9 +82,9 @@ Bibliographic keys refer to `references/references.bib`.
 - **Family:** periodic autocorrelation / DFT and a structured block
   construction.
 - **Parameters for 668:** \(L=333\).
-- **Code/data:** open article; no modern reference implementation located.
-- **Reproducibility:** the implication is source-backed but not yet
-  independently reconstructed here.
+- **Code/data:** open article; exact repository reference implementation added.
+- **Reproducibility:** the complete implication is implemented; published
+  LP(3), LP(5), LP(7), and LP(27) yield dual-verified full matrices.
 - **Constraint extracted:** for all nonzero shifts,
   \(\operatorname{PAF}_a(s)+\operatorname{PAF}_b(s)=-2\); equivalently for
   nonzero frequencies the PSD sum is \(2L+2=668\).
@@ -98,7 +98,8 @@ Bibliographic keys refer to `references/references.bib`.
 - **Parameters for 333:** divisors \(3,9,37,111\) induce useful compressed
   lengths and aggregation factors.
 - **Code/data:** formulas are explicit; no canonical package required.
-- **Reproducibility:** suitable for an exact reference implementation.
+- **Reproducibility:** generic compression and the length-333 output lengths
+  3, 9, and 37 are implemented with exact PAF and cyclotomic PSD tests.
 - **Constraint extracted:** compressed entries have exact parity/range and
   compressed PAF is the sum of original PAF values in congruence classes.
 - **Gap:** compression feasibility is necessary, not generally sufficient for
@@ -110,7 +111,8 @@ Bibliographic keys refer to `references/references.bib`.
   pairs with length divisible by 3 and constructs several previously open
   lengths.
 - **Parameters for 333:** directly applicable because \(3\mid333\).
-- **Code/data:** arXiv text is available; associated code/data audit pending.
+- **Code/data:** complete arXiv PDF audited and its exact mod-3 identity
+  implemented; associated search data remain unaudited.
 - **Constraint extracted:** special-frequency values can be handled through
   integer/number-theoretic conditions rather than approximate complex FFTs.
 
@@ -125,8 +127,10 @@ Bibliographic keys refer to `references/references.bib`.
   LP(333), hence HM(668).
 - **Code/data:** Maple listings are included; article says other data are
   available on request.
-- **Reproducibility:** smaller reported pairs should be reconstructed before
-  trying \(p=37\).
+- **Reproducibility:** Fletcher's published LP(27) at the same parameter is
+  reproduced, but it is not this structured example. The newer paper's
+  embedded sign figure/direct PDF remains inaccessible, so its prescribed
+  9-compression has not been reproduced.
 - **Critical distinction:** the table's 333 row is a proposed route, not a
   constructed LP(333).
 
@@ -209,6 +213,6 @@ feasibility study before search.
 | Williamson(167) | four symmetric circulants | strong algebraic reduction | restrictive and no known quadruple |
 | cocyclic(668) | cocycle / relative difference set | group-theoretic structure | candidate groups and cohomology not audited |
 
-Order 428 is now reproduced. The next research phase is the exact
-Legendre-pair core and compression framework, followed by the small \(pq^2\)
-Legendre examples before selecting a high-cost route.
+Order 428 and the exact Legendre core are now reproduced. The next research
+phase is the length-333 artifact/certificate audit and a documented primary
+and backup direction decision before any high-cost search.

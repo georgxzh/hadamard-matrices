@@ -10,7 +10,7 @@ problem of constructing a Hadamard matrix of order 668.
 
 ## Current milestone
 
-The low-risk foundations and the published order-428 warm-up are complete:
+The low-risk foundations, order-428 warm-up, and exact Legendre core are complete:
 
 - a mathematical primer and an explicitly qualified literature map;
 - a source ledger that separates peer-reviewed results, preprints, software,
@@ -21,7 +21,13 @@ The low-risk foundations and the published order-428 warm-up are complete:
 - an exact reconstruction of the Kharaghani--Tayfeh-Rezaie order-428 result
   from its printed `TT(36)` source sequences;
 - a frozen `results/H428.csv` accepted by both independent exact verifiers;
-- a phase-ordered implementation plan for the Legendre-pair framework.
+- exact periodic autocorrelation, negative-support SDS, and cyclotomic PSD
+  certificates for binary Legendre pairs;
+- generic compression plus exact length-333 output paths of lengths 3, 9,
+  and 37;
+- published LP(3), LP(5), LP(7), and LP(27) source reproductions, yielding
+  H(8), H(12), H(16), and H(56), each accepted by both exact verifiers;
+- a phase-ordered plan and source-backed derivation for the remaining work.
 
 No expensive computation has been started.
 
@@ -67,8 +73,9 @@ python -m pytest
 
 See [research/primer.md](research/primer.md),
 [research/literature_map.md](research/literature_map.md), and
-[research/source_ledger.md](research/source_ledger.md). The next phase is
-specified in
+[research/source_ledger.md](research/source_ledger.md). The exact framework is
+derived in [research/legendre_framework.md](research/legendre_framework.md).
+The next phase is the length-333 artifact audit and direction decision in
 [research/legendre_framework_plan.md](research/legendre_framework_plan.md).
 
 ## Repository layout

@@ -1,11 +1,13 @@
 # Exact Legendre-pair framework: implementation plan
 
-Status: planned after the completed order-428 reproduction.
+Status: LP-1 through LP-3 complete; LP-4 complete for the published Table-4
+pairs at lengths 3, 5, 7, and 27, with the newer structured-pq-squared example
+still blocked on reliable source data. LP-5 is next.
 
 The target is an auditable exact framework, not an order-333 search. The
 phases below are deliberately sequential.
 
-## Phase LP-1: primary-source derivation
+## Phase LP-1: primary-source derivation -- complete
 
 1. Audit the complete Fletcher-Gysin-Seberry paper and the original
    difference-set formulation.
@@ -18,7 +20,7 @@ phases below are deliberately sequential.
 
 Deliverable: a derivation note with a small hand-checkable example.
 
-## Phase LP-2: exact core
+## Phase LP-2: exact core -- complete
 
 Implement pure functions for:
 
@@ -35,7 +37,7 @@ Implement pure functions for:
 Tests must cover valid and corrupted small pairs, all shifts, normalization
 equivalences, and a case that passes approximate but fails exact constraints.
 
-## Phase LP-3: compression identities
+## Phase LP-3: compression identities -- complete
 
 Audit `djokovic2015compression` in full, then implement generic
 \(m\)-compression where \(m\mid L\):
@@ -62,7 +64,7 @@ Specialized, tested views are required for length 333:
 Also test composition consistency, e.g. direct 3-compression equals
 9-compression followed by 3-compression.
 
-## Phase LP-4: published small reproductions
+## Phase LP-4: published small reproductions -- partial
 
 Reproduce at least two published Legendre pairs, including one length
 divisible by 3 and one reported `pq^2` example. For each:
@@ -74,7 +76,7 @@ divisible by 3 and one reported `pq^2` example. For each:
 
 Only after these pass should the length-333 code path be considered trusted.
 
-## Phase LP-5: length-333 audit and direction decision
+## Phase LP-5: length-333 audit and direction decision -- next
 
 1. Audit the complete artifacts and certificates behind recent
    length-333 computations.

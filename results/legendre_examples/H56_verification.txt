@@ -1,0 +1,5 @@
+verifier: direct-integer
+status: PASS
+expected_order: 56
+candidate_sha256: 53369c062e6dd6ef5f9b9039e2e4106b221d24958464f92f42d7278e293c29ab
+detail: all 3136 entries are ±1 and H H^T = 56 I_56 exactly
