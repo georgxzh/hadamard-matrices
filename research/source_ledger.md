@@ -15,7 +15,9 @@ Labels:
 | `sylvester1867` | P | metadata | doubling construction | reproduced in tests |
 | `paley1933` | P | metadata | quadratic-residue construction | prime cases reproduced |
 | `epoch2026` | S | full web page | benchmark statement and current label | checked 2026-07-25 |
-| `kharaghani2005` | P | abstract/metadata; full-text audit pending | order-428 warm-up | pending |
+| `kharaghani2005` | P | all 7 pages of author PDF; formulas and sequences visually audited | order-428 warm-up | reproduced; dual exact verification |
+| `best2013turyn` | P | author PDF and arXiv record | independent TT definition/classification context | TT(36) implication checked |
+| `sagemath_tsequences` | S/software | current source and documentation | independent sequence-encoding/formula cross-check | decoded TT(36) agrees |
 | `fletcher2001` | P | metadata/open access link | LP(\(L\)) → HM(\(2L+2\)) | derivation pending |
 | `georgiou2002` | P | repository metadata/abstract | multipliers and SDS formulation | pending |
 | `djokovic2015compression` | P | arXiv abstract | exact compression identities | implementation pending |
@@ -47,10 +49,17 @@ Evidence checked on 2026-07-25:
 **Conclusion:** order 668 remains open in the current sources audited. This is
 a literature-status conclusion, not a mathematical nonexistence theorem.
 
+## Order-428 source artifact
+
+The author-hosted `kharaghani2005` PDF was accessed on 2026-07-25 at
+<https://www.cs.uleth.ca/~hadi/research/h428.pdf>. Its SHA-256 is
+`1d6d5c0cf25d16db9e451b016ab2724fe974b079fe6c9a4f5d7a43967c855bd2`.
+The audited copy is research input and is not redistributed in this
+repository. The exact transcription and complete audit are in
+`order428_reproduction.md`.
+
 ## Retrieval gaps
 
-- Obtain a lawful full copy of `kharaghani2005` and double-transcribe its
-  sequence data.
 - Retrieve and inspect the proof/certificate artifacts for
   `ramos2026multipliers`.
 - Locate code and complete outputs underlying `chojecki2026status`.

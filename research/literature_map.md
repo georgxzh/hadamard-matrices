@@ -57,13 +57,17 @@ Bibliographic keys refer to `references/references.bib`.
 - **Family:** Turyn-type sequences → base sequences → T-sequences /
   Goethals–Seidel-related construction.
 - **Parameter identity:** \(428=4(71+36)=4\cdot107\).
-- **Code/data:** the article provides sequence-level construction information;
-  no maintained reference implementation has yet been located.
-- **Reproducibility:** pending. The abstract and metadata were audited; the
-  full formulas and displayed sequences must be transcribed twice and checked
-  against the paper before implementation.
-- **Ambiguities to resolve:** indexing origin, polynomial coefficient order,
-  zero padding, reversal matrices, and the precise base-to-T sequence map.
+- **Code/data:** the author-hosted full article provides all four source
+  sequences and every map needed to regenerate the matrix. SageMath's current
+  T-sequence module independently stores the same source data in hexadecimal.
+- **Reproducibility:** complete. The full paper was audited, its sequence page
+  visually transcribed and checked against SageMath's independent encoding,
+  every intermediate equation passed, and the generated complete matrix
+  passed both exact repository verifiers.
+- **Resolved conventions:** signs are read left-to-right with zero-based
+  indices; correlations before the circulant stage are nonperiodic; circulant
+  rows are right shifts; right multiplication by the back-diagonal identity
+  reverses columns. See `order428_reproduction.md`.
 - **Implication for 668:** later work on Turyn-type sequences states that a
   \(TT(56)\) would yield order 668 because
   \(668=4((2\cdot56-1)+56)=4(111+56)\). Existence of \(TT(56)\) is not known
@@ -205,5 +209,6 @@ feasibility study before search.
 | Williamson(167) | four symmetric circulants | strong algebraic reduction | restrictive and no known quadruple |
 | cocyclic(668) | cocycle / relative difference set | group-theoretic structure | candidate groups and cohomology not audited |
 
-The next research phase should reproduce 428 and the small \(pq^2\) Legendre
-examples before selecting a high-cost route.
+Order 428 is now reproduced. The next research phase is the exact
+Legendre-pair core and compression framework, followed by the small \(pq^2\)
+Legendre examples before selecting a high-cost route.

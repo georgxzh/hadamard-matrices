@@ -125,7 +125,9 @@ def verify(path: Path | str, order: int = DEFAULT_ORDER) -> IndependentResult:
     )
 
 
-def _write_report(result: IndependentResult, path: Path) -> str:
+def write_report(result: IndependentResult, path: Path) -> str:
+    """Write a deterministic report and candidate/report hash sidecar."""
+
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(result.render(), encoding="utf-8", newline="\n")
     report_hash = _file_hash(path)
@@ -152,7 +154,7 @@ def main(argv: Sequence[str] | None = None) -> int:
     result = verify(args.candidate, args.order)
     print(result.render(), end="")
     if args.report is not None:
-        print(f"report_sha256: {_write_report(result, args.report)}")
+        print(f"report_sha256: {write_report(result, args.report)}")
         print(f"hash_sidecar: {args.report}.sha256")
     return 0 if result.ok else 1
 

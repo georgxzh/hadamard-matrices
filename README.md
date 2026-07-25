@@ -10,8 +10,7 @@ problem of constructing a Hadamard matrix of order 668.
 
 ## Current milestone
 
-The repository starts with the low-risk foundations required before any open
-search:
+The low-risk foundations and the published order-428 warm-up are complete:
 
 - a mathematical primer and an explicitly qualified literature map;
 - a source ledger that separates peer-reviewed results, preprints, software,
@@ -19,9 +18,17 @@ search:
 - two independent exact CSV verifiers;
 - tests on Sylvester and Paley constructions, corrupted matrices, malformed
   inputs, and an approximately orthogonal near miss;
-- a concrete plan for reconstructing the published order-428 result.
+- an exact reconstruction of the Kharaghani--Tayfeh-Rezaie order-428 result
+  from its printed `TT(36)` source sequences;
+- a frozen `results/H428.csv` accepted by both independent exact verifiers;
+- a phase-ordered implementation plan for the Legendre-pair framework.
 
 No expensive computation has been started.
+
+The reproduced order-428 candidate has SHA-256
+`c00e3f86da7acdab1123fb9d2ed5fc887d5b86dd786662ab37e46a3072cc7869`.
+See [research/order428_reproduction.md](research/order428_reproduction.md)
+for the paper-to-code audit. This does not solve order 668.
 
 ## Exact verification
 
@@ -60,7 +67,9 @@ python -m pytest
 
 See [research/primer.md](research/primer.md),
 [research/literature_map.md](research/literature_map.md), and
-[research/source_ledger.md](research/source_ledger.md).
+[research/source_ledger.md](research/source_ledger.md). The next phase is
+specified in
+[research/legendre_framework_plan.md](research/legendre_framework_plan.md).
 
 ## Repository layout
 

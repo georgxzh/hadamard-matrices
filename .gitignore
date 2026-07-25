@@ -15,4 +15,5 @@ build/
 # ignore scratch files and temporary reports.
 results/tmp/
 experiments/tmp/
+tmp/
 *.tmp

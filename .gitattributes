@@ -1,0 +1,15 @@
+* text=auto
+
+# Canonical research artifacts are hashed byte-for-byte and must retain LF
+# line endings on every platform.
+*.csv text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+*.sha256 text eol=lf
+
+# Keep source and research documents stable across Windows and POSIX clones.
+*.py text eol=lf
+*.md text eol=lf
+*.bib text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
