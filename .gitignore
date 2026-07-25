@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest-tmp/
+.coverage
+htmlcov/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+.DS_Store
+
+# Candidate and experiment outputs can be large. Keep deliberate results, but
+# ignore scratch files and temporary reports.
+results/tmp/
+experiments/tmp/
+*.tmp
