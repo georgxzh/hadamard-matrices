@@ -55,12 +55,21 @@ are reproduced, including factor-9 compression. Its compressed rows differ
 from the newer prescribed `A(3,3),B(3,3)`, so it does not validate the newer
 uncompression mechanism.
 
-**Retrieval gap.** The newer source sequences are embedded as dynamic figures;
-the direct PDF is HTTP-403 blocked, publisher browser access presents a
-CAPTCHA, and the searchable trace expression does not specify a sufficient
-trace convention. The article says further data are available on request.
-The structured small examples must be recovered and exactly reproduced before
-scaling this route.
+**Retrieval gap — closed 2026-07-26.** The newer source sequences are embedded
+as dynamic figures; the direct PDF is HTTP-403 blocked and publisher browser
+access presents a CAPTCHA. Retrieval is no longer required: the rows are
+determined by the quadratic-character formula, and their compressed-Legendre
+property is proved from the Jacobsthal sum in `pq2_derivation.md`. The derived
+`A(37,3), B(37,3)` reproduce the `650` and `-18` constants tabulated above by
+an independent route. The factor-9 uncompression is reproduced end to end at
+`p=3, q=3`, recovering 7,614 binary LP(27) solutions and a dual-verified
+H(56).
+
+**Feasibility — resolved negatively.** One row of `A(37,3)` admits
+`126 * 84^36 ~ 2.4e71` binary uncompressions. Direct enumeration is impossible
+by about fifty orders of magnitude. The route survives only as a
+constraint-satisfaction problem, not as a search over candidates. See
+`pq2_derivation.md` section 5.
 
 ## Previously reported length-333 searches
 
@@ -160,8 +169,14 @@ compressed candidate sets.
 
 ## Next milestone
 
-Recover and independently audit the external artifacts for the structured
-small q-squared pairs, the reported 9-compressed count, and the common-
-multiplier certificates. Then produce a bounded exact model and resource
-estimate for the primary factor-9 uncompression. No expensive computation is
-authorized by this recommendation.
+Superseded in part on 2026-07-26. The structured q-squared pairs no longer
+require artifact recovery; they are derived and proved in `pq2_derivation.md`,
+and their direct-enumeration cost is settled. What remains:
+
+1. build the exact pseudo-Boolean/SAT uncompression model for
+   `A(37,3), B(37,3)`, validated at `p=3` against the 7,614 known solutions;
+2. independently audit the reported 9-compressed count and the
+   common-multiplier certificates;
+3. produce a variable, clause, memory, and certificate estimate.
+
+No expensive computation is authorized by this recommendation.

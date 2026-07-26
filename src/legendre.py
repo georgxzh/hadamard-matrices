@@ -356,6 +356,194 @@ def check_legendre_compression_constants(
     return True
 
 
+def quadratic_character(value: int, prime: int) -> int:
+    """Return the Legendre symbol ``(value | prime)`` for an odd prime.
+
+    The result is ``0`` when ``prime`` divides ``value``, ``1`` when ``value``
+    is a nonzero quadratic residue, and ``-1`` otherwise.
+    """
+
+    if prime < 3 or prime % 2 == 0:
+        raise ValueError(f"prime must be an odd prime; got {prime}")
+    if any(prime % factor == 0 for factor in range(3, int(prime**0.5) + 1, 2)):
+        raise ValueError(f"prime must be an odd prime; got {prime}")
+    residue = value % prime
+    if residue == 0:
+        return 0
+    return 1 if pow(residue, (prime - 1) // 2, prime) == 1 else -1
+
+
+def jacobsthal_shifted_character_sum(prime: int, shift: int) -> int:
+    """Return ``sum_j chi(j) * chi(j + shift)`` over ``Z/prime``.
+
+    This is the classical Jacobsthal sum.  It equals ``prime - 1`` when the
+    shift vanishes and ``-1`` otherwise; the function computes it directly so
+    that the identity is checked rather than assumed.
+    """
+
+    return sum(
+        quadratic_character(index, prime) * quadratic_character(index + shift, prime)
+        for index in range(prime)
+    )
+
+
+def structured_compressed_pair(
+    prime: int, factor_root: int
+) -> tuple[IntegerSequence, IntegerSequence]:
+    """Return the prescribed ``q**2``-compressed rows ``A(p,q)`` and ``B(p,q)``.
+
+    For odd primes ``p = prime`` and ``q = factor_root`` these are
+
+    ``A = [1, q*chi(1), ..., q*chi(p-1)]`` and
+    ``B = [1, -q*chi(1), ..., -q*chi(p-1)]``,
+
+    where ``chi`` is the quadratic character modulo ``p``.  They are the
+    length-``p`` compression, by aggregation factor ``q**2``, of a
+    hypothetical binary Legendre pair of length ``p * q**2``.
+
+    The pair is *derived* from the character formula rather than transcribed
+    from published tables, and
+    :func:`check_compressed_legendre_constants` proves that it satisfies every
+    exact necessary condition.  Whether it uncompresses to a binary pair is a
+    separate, open question for each ``(p, q)``.
+    """
+
+    if factor_root < 3 or factor_root % 2 == 0:
+        raise ValueError(f"factor_root must be an odd prime; got {factor_root}")
+    quadratic_character(1, prime)
+    quadratic_character(1, factor_root)
+    characters = tuple(quadratic_character(index, prime) for index in range(1, prime))
+    first = (1, *(factor_root * value for value in characters))
+    second = (1, *(-factor_root * value for value in characters))
+    return first, second
+
+
+@dataclass(frozen=True)
+class CompressedLegendreCheck:
+    """Exact result of checking compressed-Legendre necessary conditions."""
+
+    ok: bool
+    output_length: int
+    factor: int
+    uncompressed_length: int
+    row_sums: tuple[int, int]
+    zero_shift_value: int
+    zero_shift_expected: int
+    nonzero_shift_expected: int
+    failure_shift: int | None = None
+    failure_value: int | None = None
+    message: str = ""
+
+
+def check_compressed_legendre_constants(
+    first: Sequence[int], second: Sequence[int], factor: int
+) -> CompressedLegendreCheck:
+    """Check every exact condition a compressed binary Legendre pair must meet.
+
+    ``first`` and ``second`` are length-``d`` integer rows claimed to be the
+    ``factor``-fold compression of a binary Legendre pair of length
+    ``d * factor``.  The necessary conditions checked here are entry parity and
+    range, both row sums equal to ``+1``, and the combined periodic
+    autocorrelation constants
+
+    ``PAF_A(0) + PAF_B(0) = 2*d*factor - 2*(factor - 1)`` and
+    ``PAF_A(s) + PAF_B(s) = -2*factor`` for ``s != 0``.
+
+    Passing is necessary, never sufficient: a feasible compressed pair need not
+    uncompress to binary sequences.
+    """
+
+    _require_nonempty(first, "first")
+    if len(first) != len(second):
+        raise ValueError(f"length mismatch: {len(first)} != {len(second)}")
+    if factor <= 0:
+        raise ValueError("factor must be positive")
+    output_length = len(first)
+    uncompressed_length = output_length * factor
+    zero_expected = 2 * uncompressed_length - 2 * (factor - 1)
+    nonzero_expected = -2 * factor
+    sums = (sum(first), sum(second))
+
+    allowed = set(range(-factor, factor + 1, 2))
+    for name, row in (("first", first), ("second", second)):
+        for index, value in enumerate(row):
+            if value not in allowed:
+                return CompressedLegendreCheck(
+                    False,
+                    output_length,
+                    factor,
+                    uncompressed_length,
+                    sums,
+                    0,
+                    zero_expected,
+                    nonzero_expected,
+                    message=(
+                        f"{name}[{index}]={value} violates the exact range/parity "
+                        f"invariant for factor {factor}"
+                    ),
+                )
+    if sums != (1, 1):
+        return CompressedLegendreCheck(
+            False,
+            output_length,
+            factor,
+            uncompressed_length,
+            sums,
+            0,
+            zero_expected,
+            nonzero_expected,
+            message=f"row sums are {sums}; a normalized pair requires (1, 1)",
+        )
+
+    zero_value = periodic_autocorrelation(first, 0) + periodic_autocorrelation(second, 0)
+    if zero_value != zero_expected:
+        return CompressedLegendreCheck(
+            False,
+            output_length,
+            factor,
+            uncompressed_length,
+            sums,
+            zero_value,
+            zero_expected,
+            nonzero_expected,
+            failure_shift=0,
+            failure_value=zero_value,
+            message=f"combined PAF at shift 0 is {zero_value}; expected {zero_expected}",
+        )
+    for shift in range(1, output_length):
+        value = periodic_autocorrelation(first, shift) + periodic_autocorrelation(second, shift)
+        if value != nonzero_expected:
+            return CompressedLegendreCheck(
+                False,
+                output_length,
+                factor,
+                uncompressed_length,
+                sums,
+                zero_value,
+                zero_expected,
+                nonzero_expected,
+                failure_shift=shift,
+                failure_value=value,
+                message=(
+                    f"combined PAF is {value} at shift {shift}; expected {nonzero_expected}"
+                ),
+            )
+    return CompressedLegendreCheck(
+        True,
+        output_length,
+        factor,
+        uncompressed_length,
+        sums,
+        zero_value,
+        zero_expected,
+        nonzero_expected,
+        message=(
+            f"all {output_length} compressed PAF constants hold exactly for a "
+            f"length-{uncompressed_length} pair"
+        ),
+    )
+
+
 def _trim(polynomial: Sequence[int]) -> IntegerSequence:
     result = list(polynomial)
     while result and result[-1] == 0:
@@ -459,6 +647,30 @@ def check_legendre_psd_constraints(first: Sequence[int], second: Sequence[int]) 
     if len(first) != len(second):
         raise ValueError(f"length mismatch: {len(first)} != {len(second)}")
     target = 2 * len(first) + 2
+    return all(
+        (value := exact_psd_sum(first, second, frequency)).is_integer
+        and value.integer_value == target
+        for frequency in range(1, len(first))
+    )
+
+
+def check_compressed_legendre_psd(
+    first: Sequence[int], second: Sequence[int], factor: int
+) -> bool:
+    """Check exactly that every nonzero compressed PSD sum is ``2*L+2``.
+
+    Compression by residue classes samples the Fourier transform:
+    ``DFT_compressed(k) = DFT_original(k * factor)``.  A compressed pair of a
+    length-``L`` binary Legendre pair therefore satisfies
+    ``PSD_A(k) + PSD_B(k) = 2*L + 2`` at every nonzero frequency.  All values
+    are computed in cyclotomic arithmetic; no floating-point value is used.
+    """
+
+    if len(first) != len(second):
+        raise ValueError(f"length mismatch: {len(first)} != {len(second)}")
+    if factor <= 0:
+        raise ValueError("factor must be positive")
+    target = 2 * len(first) * factor + 2
     return all(
         (value := exact_psd_sum(first, second, frequency)).is_integer
         and value.integer_value == target

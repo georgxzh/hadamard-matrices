@@ -22,7 +22,7 @@ Labels:
 | `georgiou2002` | P | repository metadata/abstract | multipliers and SDS formulation | pending |
 | `djokovic2015compression` | P | complete arXiv PDF; Definition 3 and Theorem 3 visually audited | exact compression identities | generic and 3/9/37 paths implemented and tested |
 | `kotsireas2021mod3` | P | complete arXiv PDF; Corollary 1 visually audited | length divisible by 3 exact PSD constraints | implemented; LP(27) special frequency reproduced |
-| `kotsireas2027pq2` | P, online 2026 | substantial publisher text; direct PDF blocked | structured \(pq^2\) uncompression route | theorem parameters audited; embedded LP data not recovered |
+| `kotsireas2027pq2` | P, online 2026 | substantial publisher text; direct PDF blocked | structured \(pq^2\) uncompression route | route cited only; compressed rows independently **derived and proved**, not retrieved; factor-9 uncompression reproduced at \(p=3\) |
 | `kotsireas2025compression` | P | metadata | newer compression properties | full-text audit pending |
 | `cati2024database` | PP/software | arXiv and Sage docs | construction coverage/database | executable audit pending |
 | `eliahou2025modular` | P | open PDF text | modular near-result at 668 | pending |

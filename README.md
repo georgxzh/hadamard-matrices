@@ -27,9 +27,14 @@ The low-risk foundations, order-428 warm-up, and exact Legendre core are complet
   and 37;
 - published LP(3), LP(5), LP(7), and LP(27) source reproductions, yielding
   H(8), H(12), H(16), and H(56), each accepted by both exact verifiers;
+- an independent derivation and proof of the structured `pq^2` compressed pair,
+  replacing a blocked publisher artifact, plus an exhaustive factor-9
+  uncompression at `p=3` recovering 7,614 binary LP(27) solutions and a second,
+  distinct dual-verified H(56);
 - a phase-ordered plan and source-backed derivation for the remaining work.
 
-No expensive computation has been started.
+No expensive computation has been started. The largest run to date enumerated
+1,778,112 candidates on one core in 8.5 seconds.
 
 The reproduced order-428 candidate has SHA-256
 `c00e3f86da7acdab1123fb9d2ed5fc887d5b86dd786662ab37e46a3072cc7869`.
@@ -74,9 +79,21 @@ python -m pytest
 See [research/primer.md](research/primer.md),
 [research/literature_map.md](research/literature_map.md), and
 [research/source_ledger.md](research/source_ledger.md). The exact framework is
-derived in [research/legendre_framework.md](research/legendre_framework.md).
-The next phase is the length-333 artifact audit and direction decision in
-[research/legendre_framework_plan.md](research/legendre_framework_plan.md).
+derived in [research/legendre_framework.md](research/legendre_framework.md) and
+the structured `pq^2` route in
+[research/pq2_derivation.md](research/pq2_derivation.md). The current direction
+is recorded in
+[research/direction_selection.md](research/direction_selection.md).
+
+### Why order 668 is still open
+
+The `pq^2` route prescribes an exact 37-entry compressed pair whose binary
+preimages, if any, would be length-333 Legendre pairs and hence H(668). That
+compressed pair is now derived and certified here. Recovering a preimage by
+enumeration would require scanning about `2.4e71` candidates per row — roughly
+fifty orders of magnitude beyond reach. The obstruction is mathematical, not
+computational; see [research/pq2_derivation.md](research/pq2_derivation.md)
+section 5.
 
 ## Repository layout
 

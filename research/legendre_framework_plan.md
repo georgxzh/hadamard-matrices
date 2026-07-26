@@ -1,8 +1,11 @@
 # Exact Legendre-pair framework: implementation plan
 
-Status: LP-1 through LP-3 complete; LP-4 complete for the published Table-4
-pairs at lengths 3, 5, 7, and 27, with the newer structured-pq-squared example
-still blocked on reliable source data. LP-5 is next.
+Status: LP-1 through LP-4 complete. The Table-4 pairs at lengths 3, 5, 7, and
+27 are reproduced, and the structured `pq^2` example is no longer blocked: it
+was derived and proved rather than retrieved, and uncompressed exhaustively at
+`p=3` (see `pq2_derivation.md`). LP-5 is in progress; its artifact-audit item
+is partly superseded and its direction decision is recorded in
+`direction_selection.md`.
 
 The target is an auditable exact framework, not an order-333 search. The
 phases below are deliberately sequential.
@@ -64,7 +67,7 @@ Specialized, tested views are required for length 333:
 Also test composition consistency, e.g. direct 3-compression equals
 9-compression followed by 3-compression.
 
-## Phase LP-4: published small reproductions -- partial
+## Phase LP-4: published small reproductions -- complete
 
 Reproduce at least two published Legendre pairs, including one length
 divisible by 3 and one reported `pq^2` example. For each:
