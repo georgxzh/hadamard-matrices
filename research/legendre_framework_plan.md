@@ -79,7 +79,7 @@ divisible by 3 and one reported `pq^2` example. For each:
 
 Only after these pass should the length-333 code path be considered trusted.
 
-## Phase LP-5: length-333 audit and direction decision -- next
+## Phase LP-5: length-333 audit and direction decision -- in progress
 
 1. Audit the complete artifacts and certificates behind recent
    length-333 computations.
@@ -92,8 +92,9 @@ Only after these pass should the length-333 code path be considered trusted.
      \(333=37\cdot3^2\), if small examples reproduce;
    - **backup direction:** low-order separate-multiplier / translation
      symmetry or exact SAT/CP-SAT on compressed candidates;
-   - **deprioritized direction:** common multipliers of order at least 9,
-     subject to independent certificate audit.
+   - **deprioritized direction:** common multipliers of order at least 4 under
+     the current post-v1 artifact classification; ten machine-proof cases
+     still await a full local rerun.
 
 The decision report must distinguish theorem, reproduced computation,
 heuristic, conjecture, and open case. Any run expected to exceed four cores,

@@ -23,5 +23,9 @@ deterministically generated LP(333) model. The 15-MiB LP(333) OPB is generated
 under ignored `tmp/` rather than frozen here; its exact hash and size are in
 metadata. No solver search was run.
 
+`multiplier_audit/` records the exact external commit, certificate hashes,
+locally reproduced fixed-symmetry exclusions, release-archive checksum, and
+the cases whose full DRAT/MITM evidence was not rerun.
+
 No order-668 candidate is present. A near miss, compressed object, modular
 matrix, or heuristic optimum must not be named `H668.csv`.

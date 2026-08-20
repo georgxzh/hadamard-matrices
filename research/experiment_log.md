@@ -156,6 +156,46 @@ No open-search experiments have been run.
   no symmetry breaking has yet been proved or encoded
 - Reproduction command: `python -m scripts.build_uncompression_opb`
 
+## EXP-MULT-001: current common-multiplier artifact audit
+
+- Status: partial independent reproduction; PASS for the stated 15-family
+  subset, full 25-family claim not completely rerun
+- UTC start and end: 2026-08-20; exact start/end timestamps were not captured
+- Objective: audit the current primary artifact behind
+  `ramos2026multipliers`, reproduce its lightweight exact obstructions, and
+  establish the remaining proof gap
+- Mathematical constraints: subgroup classification in the mod-3 kernel;
+  mod-37 full-image obstruction; row-sum congruences; value-set
+  9-compression; shift-111 fibre/orbit bounds; CRT mod-8 obstruction
+- Configuration: external public commit
+  `691398b7634140269874a45024ed3041036cda9c`; release v1.0.0
+- Random seed: not applicable; all rerun checks deterministic
+- Git commit: working tree on branch `agent/order-428-reproduction`; final
+  commit recorded by repository history
+- Hardware and software: Windows 11; Python 3.14.6; NumPy 2.5.1; SymPy 1.14.0
+- CPU cores / peak memory / storage: at most three cores / not instrumented /
+  145,723,878-byte scratch clone+environment plus 198,965,602-byte release
+  download and checksum sidecar
+- Complete output: `results/multiplier_audit/metadata.json`; detailed commands,
+  hashes, claims, and limitations in `multiplier_artifact_audit.md`
+- Exact checker: source repository's standalone arithmetic verifiers,
+  regenerated classification/necessary-condition scripts, and supplemental
+  symbolic claim checkers
+- Result: locally reproduced impossible IDs
+  `2,6,7,8,9,10,12,16,17,18,24,25,26,27,29`; current artifact reports 25/30
+  impossible and open IDs `0,1,3,4,5`
+- Release integrity: 198,965,505-byte proof archive SHA-256 verified as
+  `49cc367a1cee8da1e10d662c68150eb6ae9b66a0ad21d80b4594d3a0a0749957`
+- Interpretation: common multiplier order at least four is excluded by the
+  current artifact classification, but only 15 exclusions were independently
+  rerun here
+- Limitations / failed cases: archive not extracted; DRAT/MITM/CP-SAT evidence
+  for IDs `11,13,14,15,19,20,21,22,23,28` not locally rerun because expanded
+  storage and verifier runtime were not bounded tightly enough in advance;
+  no conclusion about unrestricted LP(333) or H(668)
+- Reproduction commands: enumerated in `multiplier_artifact_audit.md`; all
+  executed against the exact external commit above
+
 ## Entry template
 
 - Experiment ID:

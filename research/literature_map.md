@@ -1,6 +1,6 @@
 # Literature map
 
-Last audited: 2026-07-25
+Last audited: 2026-08-20
 
 This is a working constraint map, not a claim of exhaustive coverage.
 Bibliographic keys refer to `references/references.bib`.
@@ -159,13 +159,15 @@ Bibliographic keys refer to `references/references.bib`.
   row-sum congruences, meet-in-the-middle enumeration, pseudo-Boolean systems,
   DRAT proofs, and arithmetic certificates.
 - **Parameters:** exactly length 333.
-- **Code/data:** the preprint states that solver cases have independently
-  checkable certificates; artifact URLs were not visible on the arXiv record
-  and must be obtained/audited.
-- **Reproducibility:** analytic arguments can be rederived; certificate cases
-  need artifact retrieval and independent checking.
+- **Post-v1 artifact:** `ramos2026artifacts` at audited commit `691398b`
+  reports 25/30 excluded, leaving only IDs `0,1,3,4,5` of order at most 3.
+- **Reproducibility:** 15 exclusions were locally rerun through standalone
+  arithmetic/census verifiers. The 198,965,505-byte v1.0.0 archive hash was
+  verified, but its ten remaining proof cases were not executed; see
+  `multiplier_artifact_audit.md`.
 - **Implication:** do not spend resources searching fixed common multipliers
-  of order at least 9.
+  of order at least 4 under the current artifact classification. The paper
+  alone rigorously rules out order at least 9.
 - **Strict scope:** says nothing about unrestricted pairs, separate multiplier
   groups, or multiplier-with-translation symmetry. It leaves HM(668) open.
 

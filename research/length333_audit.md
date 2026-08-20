@@ -99,20 +99,25 @@ infeasibility result.
 
 ### Common multipliers -- `ramos2026multipliers`
 
-**Theorem/preprint scope.** If both rows are fixed by the same subgroup of
-`(Z/333Z)^*`, the subgroup order is at most six. The paper reports that a
-mod-3 reduction leaves 30 subgroups, excludes 21 (including all 19 of order at
-least nine), and leaves nine low-order subgroups undecided.
+**Paper scope.** ArXiv v1 proves that if both rows are fixed by the same
+subgroup of `(Z/333Z)^*`, its order is at most six. It classifies 30 subgroups,
+excludes 21 (all 19 of order at least nine), and leaves nine low-order groups.
 
-**Artifact gap.** The preprint describes pseudo-Boolean cases, DRAT proofs,
-and arithmetic certificates, but the artifact URLs and certificate bundle
-were not recovered from the available record. Analytic arguments and every
-machine certificate still require an independent repository-level audit.
+**Post-v1 artifact state — partially reproduced.** The current
+`ramos2026artifacts` repository reports 25/30 impossible and open IDs
+`0,1,3,4,5`, all of order at most three. At commit `691398b`, this project
+locally reran exact checks excluding these 15 IDs:
+`2,6,7,8,9,10,12,16,17,18,24,25,26,27,29`. The v1.0.0 proof archive's
+198,965,505-byte download matches its
+published SHA-256, but it was not extracted or executed. The ten remaining
+machine exclusions are therefore artifact claims inspected but not locally
+reproduced. See `multiplier_artifact_audit.md`.
 
-**Strict consequence.** A common fixed multiplier of order at least nine is a
-bad search direction. The result does not exclude unrestricted pairs,
-different multiplier groups for the two rows, or multiplier actions composed
-with translation.
+**Strict consequence.** Common fixed multiplier order at least four is a bad
+search hypothesis according to the current artifact classification; the
+paper-alone bound remains order at most six. Neither result excludes
+unrestricted pairs, different multiplier groups for the two rows, or affine
+multiplier-with-translation actions.
 
 ## Constraint inventory before any search
 
@@ -138,29 +143,29 @@ objective, or a solver model without a checked witness is not sufficient.
 Use the exact output-length-37 pair `A(37,3),B(37,3)` from the proved
 compression theorem as a deliberately narrow hypothesis. This has the best
 current balance of mathematical structure and direct relevance to 333.
-Proceed through gates:
+The compressed rows, exact identities, direct-enumeration bound, unbroken OPB
+model, small-case validation, and certificate policy are complete. Proceed
+through the remaining gates:
 
-1. obtain and reproduce the newer structured LP(27), LP(45), and LP(63)
-   source data and prescribed compressions;
-2. translate the published Maple checks into the exact repository API;
-3. derive orbit, parity, PAF, and exact cyclotomic PSD constraints for all
-   binary uncompressions of `A(37,3),B(37,3)`;
-4. estimate variables, candidate counts, memory, and certificate format;
-5. request approval before any run expected to exceed four cores, 30 minutes,
-   or 10 GB.
+1. prove safe symmetry restrictions that preserve the prescribed compressed
+   class and document each independently;
+2. benchmark proof-logging PB backends on LP(27), including proof-check time
+   and memory;
+3. decide whether a bounded p=5 validation can stay within the approval gate;
+4. request approval with measured resources before any LP(333) solver run.
 
 This is a research hypothesis, not evidence that the conjectured
 uncompression exists at 333.
 
 ### Backup: exact pseudo-Boolean/SAT search on audited compressed classes
 
-After independently checking the prior 9-compressed counts and multiplier
-certificates, encode binary uncompression with exact cardinality and cyclic
-correlation constraints. Prefer proof-producing pseudo-Boolean/SAT tooling or
-a complete witness that the independent Python checkers can validate. Use
-only the nine surviving common-multiplier cases or separately proved
-row-specific/translation symmetries; retain an unrestricted compressed-class
-path so the symmetry hypothesis is not mistaken for the full problem.
+Finish the ten-case common-multiplier proof audit when its resources are
+bounded, and independently check the prior 9-compressed count. Reuse the exact
+cardinality/cyclic-correlation encoding over unrestricted compressed classes.
+If using common multipliers, the current artifact leaves only IDs
+`0,1,3,4,5`; retain an unrestricted path so that fixed-symmetry assumptions
+are not mistaken for the full problem. Prefer proof-producing tooling or a
+complete witness that the independent Python checkers can validate.
 
 This backup is less structurally elegant and likely larger, but it offers
 stronger certificate discipline and a controlled way to reuse audited
@@ -168,7 +173,8 @@ compressed candidate sets.
 
 ### Deprioritized
 
-- common fixed multipliers of order at least nine, subject to certificate audit;
+- common fixed multipliers of order at least four under the current artifact
+  classification, with the ten full machine-proof cases still marked pending;
 - stochastic order-333 searches without an exact finishing/certificate stage;
 - treating the 64-modular order-668 matrix, approximate PSDs, or compressed
   rows as a solution;
@@ -181,8 +187,8 @@ The structured rows, direct-enumeration cost, exact OPB model, small-case
 validation, input-size measurement, and certificate policy are complete. What
 remains, in order:
 
-1. independently audit the current common-multiplier repository and its
-   lightweight arithmetic verifiers;
+1. bound or obtain approval for the full common-multiplier DRAT/MITM audit of
+   the ten locally unreproduced exclusions;
 2. locate and audit the inputs behind the reported 12,017,243 9-compressed
    configurations;
 3. prove safe symmetry reductions for the prescribed OPB and benchmark a

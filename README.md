@@ -34,6 +34,9 @@ The low-risk foundations, order-428 warm-up, and exact Legendre core are complet
 - a deterministic exact pseudo-Boolean uncompression model, exhaustively
   validated on all 7,614 p=3 canonical matches, with an exact LP(333) model
   size and certificate plan but no solver search;
+- a versioned audit of the current common-multiplier artifacts, locally
+  reproducing 15 of 25 reported exclusions and recording the ten-case full
+  proof gap;
 - a phase-ordered plan and source-backed derivation for the remaining work.
 
 No expensive computation has been started. The largest run to date enumerated
@@ -89,6 +92,8 @@ is recorded in
 [research/direction_selection.md](research/direction_selection.md).
 The exact OPB derivation and resource audit are in
 [research/pb_uncompression_model.md](research/pb_uncompression_model.md).
+The common-multiplier artifact boundary is documented in
+[research/multiplier_artifact_audit.md](research/multiplier_artifact_audit.md).
 
 ### Why order 668 is still open
 

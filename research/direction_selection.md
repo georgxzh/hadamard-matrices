@@ -50,17 +50,20 @@ be publishable if it carries a checkable proof.
 
 ## Backup: audited compressed classes
 
-Independently check the reported 9-compressed counts and the common-multiplier
-certificates, then reuse the audited exact encoding over unrestricted
-compressed classes rather than the single prescribed one. Prefer
-proof-producing tooling or a complete witness checked by the independent
-Python pipeline. Retain an unrestricted path so any common-multiplier
-hypothesis is not mistaken for the full problem.
+The common-multiplier artifact audit locally reproduced 15 of 25 exclusions;
+the current classification leaves only IDs `0,1,3,4,5`, all of order at most
+three. Finish the ten-case full-proof audit when its resources are bounded,
+and independently check the reported 9-compressed counts. Then reuse the
+audited exact encoding over unrestricted compressed classes rather than the
+single prescribed one. Prefer proof-producing tooling or a complete witness
+checked by the independent Python pipeline. Retain an unrestricted path so
+any common-multiplier hypothesis is not mistaken for the full problem.
 
 ## Deprioritized
 
 - direct enumeration of any uncompression at `p >= 7`;
-- common fixed multipliers of order at least nine, subject to certificate audit;
+- common fixed multipliers of order at least four under the current artifact
+  classification (ten machine exclusions still await a full local proof run);
 - stochastic order-333 searches without an exact finishing stage;
 - treating the 64-modular order-668 matrix, approximate PSDs, or compressed
   rows as a solution.

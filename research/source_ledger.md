@@ -27,7 +27,8 @@ Labels:
 | `cati2024database` | PP/software | arXiv and Sage docs | construction coverage/database | executable audit pending |
 | `eliahou2025modular` | P | open PDF text | modular near-result at 668 | pending |
 | `chojecki2026status` | R | full PDF indexed | previous computational approach | claims not reproduced |
-| `ramos2026multipliers` | PP | arXiv abstract and HTML | latest exact common-multiplier obstruction | analytic/certificate audit pending |
+| `ramos2026multipliers` | PP | complete arXiv v1 HTML and metadata | paper's 21/30 common-multiplier exclusions | scope and formulas audited; paired artifact below |
+| `ramos2026artifacts` | PP/software | current public repository at commit `691398b`; v1.0.0 release and checksum | post-v1 25/30 classification and proof-carrying evidence | 15 exclusions locally rerun; archive hash verified; ten full proof cases not rerun |
 | `veripb2026` | S/software | official repository and proof-format documentation | OPB compatibility and certificate policy | format audited; solver/checker not yet installed or benchmarked |
 | `djokovic2009sds` | P/PP | arXiv abstract | SDS and Williamson alternatives | pending |
 | `djokovic2018gs` | P/PP | arXiv abstract | GS difference-family constraints | pending |
@@ -35,7 +36,7 @@ Labels:
 
 ## Current-open-status audit
 
-Evidence checked on 2026-07-25:
+Evidence checked on 2026-08-20:
 
 1. Epoch AI currently labels the order-668 task “Unsolved.”
 2. The 2024 construction database covers known constructions through 1208
@@ -45,7 +46,8 @@ Evidence checked on 2026-07-25:
    row as a conjectural route/future case, not a constructed LP(333).
 5. Ramos–Hulak–de Queiroz, submitted 2026-07-22, explicitly state that their
    common-multiplier restrictions leave unrestricted LP(333) and HM(668)
-   open.
+   open. The audited post-v1 artifact strengthens the fixed-symmetry
+   classification to 25/30 without changing that strict scope.
 
 **Conclusion:** order 668 remains open in the current sources audited. This is
 a literature-status conclusion, not a mathematical nonexistence theorem.
@@ -78,12 +80,12 @@ reports are under `results/legendre_examples/`.
 
 ## Retrieval gaps
 
-- Obtain reliable source data for the structured LP(27), LP(45), LP(63), and
-  LP(75) reported in `kotsireas2027pq2`. The publisher figure is dynamic, its
-  direct PDF returned HTTP 403, and the displayed trace formula lacks a trace
-  convention sufficient for safe reconstruction.
-- Retrieve and inspect the proof/certificate artifacts for
-  `ramos2026multipliers`.
+- The original structured LP(27), LP(45), LP(63), and LP(75) publisher figure
+  remains inaccessible, but this no longer blocks the project: the prescribed
+  compressed rows were independently derived and proved in
+  `pq2_derivation.md`.
+- Extract and run the full `ramos2026artifacts` DRAT/MITM bundle only after its
+  expanded storage and verifier runtime are bounded or separately approved.
 - Locate code and complete outputs underlying `chojecki2026status`.
 - Check SageMath's exact reason/dispatch trace for nonconstruction at 668.
 - Search citation indexes again before any major experiment or public claim.
@@ -94,3 +96,15 @@ Every substantive research note must cite a key present in the BibTeX file.
 When a statement was seen only in an abstract, that limitation is stated.
 Computational claims enter this ledger only with configuration, code commit,
 complete output, and an exact checker.
+
+## Common-multiplier artifact
+
+The public repository was audited at commit
+`691398b7634140269874a45024ed3041036cda9c` on 2026-08-20. Its current
+machine-readable classification reports 25 impossible families and open IDs
+`0,1,3,4,5`. Local exact reruns reproduced 15 exclusions. The v1.0.0 archive
+has 198,965,505 bytes and verified SHA-256
+`49cc367a1cee8da1e10d662c68150eb6ae9b66a0ad21d80b4594d3a0a0749957`.
+It was not extracted or fully checked. Exact commands, per-certificate hashes,
+post-v1 distinctions, and the ten-case gap are in
+`multiplier_artifact_audit.md` and `results/multiplier_audit/metadata.json`.
