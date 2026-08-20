@@ -166,7 +166,12 @@ def reproduce(output_directory: Path = DEFAULT_OUTPUT) -> dict[str, object]:
             "first_candidates_scanned": search.first_candidates,
             "second_candidates_scanned": search.second_candidates,
             "distinct_second_paf_vectors": search.distinct_second_vectors,
-            "legendre_pairs_found": search.pairs_found,
+            "canonical_matching_first_candidates": search.matched_first_candidates,
+            "ordered_legendre_pairs_found": search.ordered_pairs_found,
+            "enumerator_semantics": (
+                "canonical matches use one stored second-row representative per "
+                "PAF signature; ordered pairs include every second-row multiplicity"
+            ),
             "search_seconds": round(search_seconds, 6),
             "recovered_first": _signs(pair_first),
             "recovered_second": _signs(pair_second),

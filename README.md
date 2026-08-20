@@ -29,8 +29,11 @@ The low-risk foundations, order-428 warm-up, and exact Legendre core are complet
   H(8), H(12), H(16), and H(56), each accepted by both exact verifiers;
 - an independent derivation and proof of the structured `pq^2` compressed pair,
   replacing a blocked publisher artifact, plus an exhaustive factor-9
-  uncompression at `p=3` recovering 7,614 binary LP(27) solutions and a second,
-  distinct dual-verified H(56);
+  uncompression at `p=3` recovering 7,614 canonical matches (77,274 ordered
+  pairs with multiplicity) and a second, distinct dual-verified H(56);
+- a deterministic exact pseudo-Boolean uncompression model, exhaustively
+  validated on all 7,614 p=3 canonical matches, with an exact LP(333) model
+  size and certificate plan but no solver search;
 - a phase-ordered plan and source-backed derivation for the remaining work.
 
 No expensive computation has been started. The largest run to date enumerated
@@ -84,6 +87,8 @@ the structured `pq^2` route in
 [research/pq2_derivation.md](research/pq2_derivation.md). The current direction
 is recorded in
 [research/direction_selection.md](research/direction_selection.md).
+The exact OPB derivation and resource audit are in
+[research/pb_uncompression_model.md](research/pb_uncompression_model.md).
 
 ### Why order 668 is still open
 

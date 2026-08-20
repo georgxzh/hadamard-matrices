@@ -44,7 +44,8 @@ class UncompressionSearch:
     first_candidates: int
     second_candidates: int
     distinct_second_vectors: int
-    pairs_found: int
+    matched_first_candidates: int
+    ordered_pairs_found: int
     solutions: tuple[tuple[IntegerSequence, IntegerSequence], ...]
 
 
@@ -131,8 +132,11 @@ def search_uncompressions(
 
     ``limit`` optionally caps the number of candidates scanned on each side so
     that callers can probe cost before committing.  ``collect`` bounds how many
-    solution pairs are materialised as sequences; the count of matches is
-    reported in full regardless.
+    canonical solution pairs are materialised as sequences.  A canonical pair
+    uses the first stored second-row representative with the needed PAF
+    signature.  ``matched_first_candidates`` counts such first rows, whereas
+    ``ordered_pairs_found`` includes the full multiplicity of second rows with
+    that signature.
 
     Every returned pair is re-checked with :func:`check_legendre_pair`, so the
     bit-packed fast path can never by itself admit a wrong answer.
@@ -146,15 +150,19 @@ def search_uncompressions(
     length = output_length * factor
 
     table: dict[IntegerSequence, int] = {}
+    multiplicities: dict[IntegerSequence, int] = {}
     second_scanned = 0
     for mask in iter_uncompression_masks(second, factor):
         if limit is not None and second_scanned >= limit:
             break
         second_scanned += 1
-        table.setdefault(paf_signature(mask, length), mask)
+        signature = paf_signature(mask, length)
+        table.setdefault(signature, mask)
+        multiplicities[signature] = multiplicities.get(signature, 0) + 1
 
     solutions: list[tuple[IntegerSequence, IntegerSequence]] = []
-    pairs_found = 0
+    matched_first_candidates = 0
+    ordered_pairs_found = 0
     first_scanned = 0
     for mask in iter_uncompression_masks(first, factor):
         if limit is not None and first_scanned >= limit:
@@ -164,7 +172,8 @@ def search_uncompressions(
         partner = table.get(wanted)
         if partner is None:
             continue
-        pairs_found += 1
+        matched_first_candidates += 1
+        ordered_pairs_found += multiplicities[wanted]
         if len(solutions) < collect:
             left = mask_to_sequence(mask, length)
             right = mask_to_sequence(partner, length)
@@ -182,6 +191,7 @@ def search_uncompressions(
         first_candidates=first_scanned,
         second_candidates=second_scanned,
         distinct_second_vectors=len(table),
-        pairs_found=pairs_found,
+        matched_first_candidates=matched_first_candidates,
+        ordered_pairs_found=ordered_pairs_found,
         solutions=tuple(solutions),
     )

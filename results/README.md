@@ -17,5 +17,11 @@ a different compressed class from the Table 4 pair, so the two H(56) files have
 different hashes. The derivation is documented in
 `research/pq2_derivation.md`.
 
+`pb_uncompression/` holds the compact exact LP(27) OPB, a satisfying base
+assignment, and metadata for both the exhaustive small-case validation and the
+deterministically generated LP(333) model. The 15-MiB LP(333) OPB is generated
+under ignored `tmp/` rather than frozen here; its exact hash and size are in
+metadata. No solver search was run.
+
 No order-668 candidate is present. A near miss, compressed object, modular
 matrix, or heuristic optimum must not be named `H668.csv`.

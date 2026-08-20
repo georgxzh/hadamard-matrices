@@ -131,7 +131,8 @@ locked in by
 |---|---:|
 | uncompressions per row | 889,056 |
 | distinct PAF signatures on the B side | 88,821 |
-| binary Legendre pairs recovered | 7,614 |
+| canonical matching first rows | 7,614 |
+| ordered Legendre pairs, including second-signature multiplicity | 77,274 |
 | wall time (one core) | 8.5 s |
 
 The recovered LP(27) passes the all-shift PAF check, the
@@ -191,9 +192,11 @@ every necessary condition on a factor-`q^2` compressed binary Legendre pair:
 range, parity, row sums, all `p` autocorrelation constants, and all nonzero
 exact PSD sums.
 
-**Reproduced here.** At `p=3, q=3` the prescribed pair does uncompress; 7,614
-binary Legendre pairs of length 27 exist above it, and one yields a
-dual-verified H(56).
+**Reproduced here.** At `p=3, q=3` the prescribed pair does uncompress. The
+enumerator finds 7,614 first rows with a complementary second-row PAF
+signature, using one canonical second-row representative per signature. The
+full signature multiplicities give 77,274 ordered binary Legendre pairs of
+length 27 above this compressed class, and one yields a dual-verified H(56).
 
 **Not established.** That `A(37,3), B(37,3)` has any binary uncompression.
 Passing every compressed necessary condition does not imply a binary preimage

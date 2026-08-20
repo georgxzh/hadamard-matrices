@@ -3,7 +3,7 @@
   "compression": "length d*m to d by a[j+r*d], r=0..m-1",
   "cpu_cores_used": 1,
   "deterministic": true,
-  "elapsed_seconds_this_run": 9.249517,
+  "elapsed_seconds_this_run": 7.427609,
   "indexing": "zero-based; PAF shift i -> i+s mod length",
   "logical_cpu_count": 16,
   "peak_memory": "not instrumented; one PAF-vector table of about 10^5 entries",
@@ -382,20 +382,22 @@
   "python": "3.14.6",
   "random_seed": null,
   "source_of_compressed_rows": "derived from the quadratic-character formula and proved via the Jacobsthal sum; no publisher artifact was used",
-  "started_utc": "2026-07-26T02:33:37.885090+00:00",
+  "started_utc": "2026-08-20T18:16:04.294681+00:00",
   "status": "derived-source certification plus complete factor-9 uncompression at p=3; not an order-668 result",
   "uncompression": {
     "candidate": "results/pq2_uncompression/H56.csv",
     "candidate_sha256": "19b53864d3428d934d3330ca0a328c29c9b57f9e447268f575930fee777d896a",
+    "canonical_matching_first_candidates": 7614,
     "direct_report_sha256": "c9b5dcf2071c1dd7f4ae58ab6745fa1524615861b0f7cc939b59cf724e70ccd5",
     "distinct_second_paf_vectors": 88821,
     "dual_exact_verification": true,
+    "enumerator_semantics": "canonical matches use one stored second-row representative per PAF signature; ordered pairs include every second-row multiplicity",
     "factor": 9,
     "first_candidates_scanned": 889056,
     "independent_report_sha256": "48e8d0e2e56acb64c6e8a6e6dfefbdde5c16313bd1203853fce12186aa386871",
-    "legendre_pairs_found": 7614,
     "length": 27,
     "matrix_order": 56,
+    "ordered_legendre_pairs_found": 77274,
     "p": 3,
     "q": 3,
     "recovered_first": "-----+-+--++++-+--+++++-++-",
@@ -406,7 +408,7 @@
       13,
       12
     ],
-    "search_seconds": 9.185131,
+    "search_seconds": 7.36458,
     "second_candidates_scanned": 889056
   }
 }

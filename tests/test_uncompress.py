@@ -125,7 +125,8 @@ def test_factor_nine_uncompression_at_p3_yields_a_verified_legendre_pair() -> No
 
     assert search.uncompressed_length == 27
     assert search.first_candidates == search.second_candidates == uncompression_count(first, 9)
-    assert search.pairs_found > 0
+    assert search.matched_first_candidates == 7_614
+    assert search.ordered_pairs_found == 77_274
     assert search.solutions
 
     left, right = search.solutions[0]

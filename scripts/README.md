@@ -28,6 +28,15 @@ uncompresses the `p=3, q=3` case and dual-verifies the resulting H(56). It scans
 python -m scripts.reproduce_pq2_uncompression
 ```
 
+`build_uncompression_opb.py` writes the tracked LP(27) reference OPB,
+validates all 7,614 canonical p=3 matches against it, and streams the LP(333)
+model to ignored scratch storage solely to record exact structural counts,
+byte size, and SHA-256. It does not invoke a solver.
+
+```powershell
+python -m scripts.build_uncompression_opb
+```
+
 No open-search script targeting order 668 is present. Direct enumeration at
 `p=37, q=3` would require about `2.4e71` candidates per row; see
 `research/pq2_derivation.md`.

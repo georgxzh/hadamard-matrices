@@ -104,8 +104,9 @@ No open-search experiments have been run.
   `check_legendre_pair`.
 - Result: the derived pair passes every exact condition for
   `p in {3,5,7,11,13,37}` with `q=3` and `p in {5,7}` with `q=5`. At `p=3,q=3`,
-  both 889,056-candidate sides were enumerated in full and 7,614 binary
-  Legendre pairs recovered. Search wall time 8.487964 seconds. The resulting
+  both 889,056-candidate sides were enumerated in full. There are 7,614
+  canonical matching first rows and 77,274 ordered Legendre pairs after
+  including second-signature multiplicity. The resulting
   H(56) is PASS/PASS with SHA-256
   `19b53864d3428d934d3330ca0a328c29c9b57f9e447268f575930fee777d896a`.
 - Interpretation: the structured uncompression mechanism is reproduced from
@@ -121,6 +122,39 @@ No open-search experiments have been run.
   exceeds the approval gate and was not run. Satisfying every compressed
   necessary condition does not imply a binary uncompression exists.
 - Reproduction command: `python -m scripts.reproduce_pq2_uncompression`
+
+## EXP-PB-001: exact OPB uncompression model and exhaustive small-case check
+
+- Status: exact model construction and validation; PASS
+- UTC start and end: 2026-08-20T18:16:04.781103Z; completed 21.880116 seconds
+  later
+- Objective: encode binary uncompression of the structured compressed pair as
+  exact pseudo-Boolean constraints and measure the LP(333) reference input
+- Mathematical constraints: every residue-class cardinality; exact XOR at
+  every position and nonredundant shift; combined disagreement count `L+1`,
+  equivalent to combined PAF `-2`
+- Configuration file: none; deterministic `A(p,3),B(p,3)` for p=3 and p=37
+- Random seed: not applicable
+- Git commit: working tree on branch `agent/order-428-reproduction`; final
+  commit recorded by repository history
+- Hardware and software: Windows 11, AMD64 Family 25 Model 117, Python 3.14.6
+- CPU cores / peak memory / storage: one core / not instrumented / LP(333)
+  scratch OPB 15,681,010 bytes
+- Complete output: `results/pb_uncompression/metadata.json`, tracked LP(27)
+  OPB, and exact satisfying base witness; LP(333) OPB is reproducible ignored
+  scratch output with hash recorded in metadata
+- Exact checker: `src.pb_model.PBConstraint.satisfied_by`, independently fed
+  the canonical pairs produced by `src.uncompress`
+- Result: all 7,614 canonical p=3 matches satisfy all 2,827 model records;
+  those matches represent 77,274 ordered pairs. LP(333) has 111,222 variables,
+  442,464 OPB records, size 15,681,010 bytes, and SHA-256
+  `60d5eb303c36fb1dee95e40ffb82b858a64c737c704be18e59d0764726f23405`.
+- Interpretation: the prescribed length-333 uncompression problem now has a
+  deterministic, sound, complete, proof-oriented exact reference encoding
+- Limitations / failed cases: no solver was run; no LP(333) or H(668) is
+  claimed; solver memory and clauses for long equalities are backend-dependent;
+  no symmetry breaking has yet been proved or encoded
+- Reproduction command: `python -m scripts.build_uncompression_opb`
 
 ## Entry template
 

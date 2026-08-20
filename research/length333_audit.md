@@ -62,14 +62,22 @@ determined by the quadratic-character formula, and their compressed-Legendre
 property is proved from the Jacobsthal sum in `pq2_derivation.md`. The derived
 `A(37,3), B(37,3)` reproduce the `650` and `-18` constants tabulated above by
 an independent route. The factor-9 uncompression is reproduced end to end at
-`p=3, q=3`, recovering 7,614 binary LP(27) solutions and a dual-verified
-H(56).
+`p=3, q=3`, recovering 7,614 canonical matches (77,274 ordered pairs after
+including second-signature multiplicity) and a dual-verified H(56).
 
 **Feasibility — resolved negatively.** One row of `A(37,3)` admits
 `126 * 84^36 ~ 2.4e71` binary uncompressions. Direct enumeration is impossible
 by about fifty orders of magnitude. The route survives only as a
 constraint-satisfaction problem, not as a search over candidates. See
 `pq2_derivation.md` section 5.
+
+**Exact constraint model — complete 2026-08-20.** The unbroken OPB encoding
+has 111,222 variables and 442,464 constraint records. It was exhaustively
+validated against all 7,614 canonical p=3 matches. The generated LP(333) input
+is 15,681,010 bytes with SHA-256
+`60d5eb303c36fb1dee95e40ffb82b858a64c737c704be18e59d0764726f23405`.
+No solver was run. Soundness, completeness, counts, and certificate policy are
+proved and recorded in `pb_uncompression_model.md`.
 
 ## Previously reported length-333 searches
 
@@ -169,14 +177,15 @@ compressed candidate sets.
 
 ## Next milestone
 
-Superseded in part on 2026-07-26. The structured q-squared pairs no longer
-require artifact recovery; they are derived and proved in `pq2_derivation.md`,
-and their direct-enumeration cost is settled. What remains:
+The structured rows, direct-enumeration cost, exact OPB model, small-case
+validation, input-size measurement, and certificate policy are complete. What
+remains, in order:
 
-1. build the exact pseudo-Boolean/SAT uncompression model for
-   `A(37,3), B(37,3)`, validated at `p=3` against the 7,614 known solutions;
-2. independently audit the reported 9-compressed count and the
-   common-multiplier certificates;
-3. produce a variable, clause, memory, and certificate estimate.
+1. independently audit the current common-multiplier repository and its
+   lightweight arithmetic verifiers;
+2. locate and audit the inputs behind the reported 12,017,243 9-compressed
+   configurations;
+3. prove safe symmetry reductions for the prescribed OPB and benchmark a
+   proof-logging backend on LP(27) before proposing any larger solver run.
 
 No expensive computation is authorized by this recommendation.

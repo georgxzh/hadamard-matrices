@@ -1,7 +1,7 @@
 # Direction selection
 
-Status: revised 2026-07-26 after the pq^2 retrieval gap was closed by
-independent derivation. No expensive run authorized.
+Status: revised 2026-08-20 after the exact unbroken OPB reference model was
+built and exhaustively validated at p=3. No expensive run authorized.
 
 Order 428 and the exact Legendre core are reproduced. The structured pq^2
 compressed pair is now derived, proved, and reproduced at `p=3`.
@@ -25,20 +25,23 @@ the mathematical target and abandoned as a search method.**
 
 ## Primary: constraint-propagation uncompression
 
-Encode "binary uncompression of `A(37,3), B(37,3)`" as an exact
-pseudo-Boolean/SAT problem — 666 variables, 37 exact cardinality constraints
-per row, and the 332 combined PAF equations — and rely on propagation and
-learned clauses rather than enumeration. The compressed rows are now known
-exactly, so the model is fully specified.
+The exact pseudo-Boolean reference model is now implemented. Its 666 base
+variables expand to 111,222 variables after exact XOR linearization, with
+442,464 OPB records. The deterministic 14.955-MiB model has a frozen SHA-256
+and a VeriPB-oriented certificate plan. It contains no unproved symmetry
+break. See `pb_uncompression_model.md`.
 
 Gates before any run:
 
-1. build the model and validate it end to end at `p=3` against the 7,614
-   known solutions, then at `p=5` against ground truth if reachable;
+1. **Complete:** validate the exact model at `p=3`; all 7,614 canonical
+   matches passed, representing 77,274 ordered pairs with multiplicity;
 2. derive and add every proved symmetry break (translation, reversal, row
    swap, independent negation), documented separately;
-3. estimate variables, clauses, memory, and certificate format;
-4. request approval with that estimate before running.
+3. benchmark proof-logging PB backends on LP(27), measuring verifier time and
+   memory; do not assume a solver's UNSAT output is a certificate;
+4. decide whether a bounded p=5 validation can fit the approval gate;
+5. request approval with measured solver/proof estimates before any LP(333)
+   run.
 
 The honest prior is that this fails too. Passing every compressed necessary
 condition does not imply a binary preimage exists, and the source states the
@@ -48,9 +51,11 @@ be publishable if it carries a checkable proof.
 ## Backup: audited compressed classes
 
 Independently check the reported 9-compressed counts and the common-multiplier
-certificates, then run the same exact encoding over unrestricted compressed
-classes rather than the single prescribed one. Slower to set up, but it does
-not stake everything on one conjectural compressed pair.
+certificates, then reuse the audited exact encoding over unrestricted
+compressed classes rather than the single prescribed one. Prefer
+proof-producing tooling or a complete witness checked by the independent
+Python pipeline. Retain an unrestricted path so any common-multiplier
+hypothesis is not mistaken for the full problem.
 
 ## Deprioritized
 

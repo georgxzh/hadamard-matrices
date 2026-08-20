@@ -1,6 +1,6 @@
 # Source ledger
 
-Last audited: 2026-07-25
+Last audited: 2026-08-20
 
 Labels:
 
@@ -28,6 +28,7 @@ Labels:
 | `eliahou2025modular` | P | open PDF text | modular near-result at 668 | pending |
 | `chojecki2026status` | R | full PDF indexed | previous computational approach | claims not reproduced |
 | `ramos2026multipliers` | PP | arXiv abstract and HTML | latest exact common-multiplier obstruction | analytic/certificate audit pending |
+| `veripb2026` | S/software | official repository and proof-format documentation | OPB compatibility and certificate policy | format audited; solver/checker not yet installed or benchmarked |
 | `djokovic2009sds` | P/PP | arXiv abstract | SDS and Williamson alternatives | pending |
 | `djokovic2018gs` | P/PP | arXiv abstract | GS difference-family constraints | pending |
 | `deLauneyFlannery2000` | P | publisher abstract | cocyclic/RDS equivalence | pending |
