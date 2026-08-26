@@ -2,6 +2,7 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .pytest-tmp/
+.pytest-tmp*/
 .coverage
 htmlcov/
 .venv/
@@ -15,4 +16,5 @@ build/
 # ignore scratch files and temporary reports.
 results/tmp/
 experiments/tmp/
+tmp/
 *.tmp

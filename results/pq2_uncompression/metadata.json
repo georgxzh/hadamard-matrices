@@ -1,0 +1,414 @@
+{
+  "command": "python -m scripts.reproduce_pq2_uncompression",
+  "compression": "length d*m to d by a[j+r*d], r=0..m-1",
+  "cpu_cores_used": 1,
+  "deterministic": true,
+  "elapsed_seconds_this_run": 7.427609,
+  "indexing": "zero-based; PAF shift i -> i+s mod length",
+  "logical_cpu_count": 16,
+  "peak_memory": "not instrumented; one PAF-vector table of about 10^5 entries",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "prescribed_pair_certificates": [
+    {
+      "combined_paf_nonzero_shift": -18,
+      "combined_paf_zero_shift": 38,
+      "enumerated_here": true,
+      "exact_psd_sum": 56,
+      "factor": 9,
+      "first": [
+        1,
+        3,
+        -3
+      ],
+      "hadamard_order_if_uncompressible": 56,
+      "jacobsthal_sums": [
+        -1
+      ],
+      "p": 3,
+      "q": 3,
+      "row_sums": [
+        1,
+        1
+      ],
+      "second": [
+        1,
+        -3,
+        3
+      ],
+      "uncompressed_length": 27,
+      "uncompression_candidates_log10": 5.95,
+      "uncompression_candidates_one_row": "889056"
+    },
+    {
+      "combined_paf_nonzero_shift": -18,
+      "combined_paf_zero_shift": 74,
+      "enumerated_here": false,
+      "exact_psd_sum": 92,
+      "factor": 9,
+      "first": [
+        1,
+        3,
+        -3,
+        -3,
+        3
+      ],
+      "hadamard_order_if_uncompressible": 92,
+      "jacobsthal_sums": [
+        -1
+      ],
+      "p": 5,
+      "q": 3,
+      "row_sums": [
+        1,
+        1
+      ],
+      "second": [
+        1,
+        -3,
+        3,
+        3,
+        -3
+      ],
+      "uncompressed_length": 45,
+      "uncompression_candidates_log10": 9.8,
+      "uncompression_candidates_one_row": "6273179136"
+    },
+    {
+      "combined_paf_nonzero_shift": -18,
+      "combined_paf_zero_shift": 110,
+      "enumerated_here": false,
+      "exact_psd_sum": 128,
+      "factor": 9,
+      "first": [
+        1,
+        3,
+        3,
+        -3,
+        3,
+        -3,
+        -3
+      ],
+      "hadamard_order_if_uncompressible": 128,
+      "jacobsthal_sums": [
+        -1
+      ],
+      "p": 7,
+      "q": 3,
+      "row_sums": [
+        1,
+        1
+      ],
+      "second": [
+        1,
+        -3,
+        -3,
+        3,
+        -3,
+        3,
+        3
+      ],
+      "uncompressed_length": 63,
+      "uncompression_candidates_log10": 13.65,
+      "uncompression_candidates_one_row": "44263551983616"
+    },
+    {
+      "combined_paf_nonzero_shift": -18,
+      "combined_paf_zero_shift": 182,
+      "enumerated_here": false,
+      "exact_psd_sum": 200,
+      "factor": 9,
+      "first": [
+        1,
+        3,
+        -3,
+        3,
+        3,
+        3,
+        -3,
+        -3,
+        -3,
+        3,
+        -3
+      ],
+      "hadamard_order_if_uncompressible": 200,
+      "jacobsthal_sums": [
+        -1
+      ],
+      "p": 11,
+      "q": 3,
+      "row_sums": [
+        1,
+        1
+      ],
+      "second": [
+        1,
+        -3,
+        3,
+        -3,
+        -3,
+        -3,
+        3,
+        3,
+        3,
+        -3,
+        3
+      ],
+      "uncompressed_length": 99,
+      "uncompression_candidates_log10": 21.34,
+      "uncompression_candidates_one_row": "2203755482451359563776"
+    },
+    {
+      "combined_paf_nonzero_shift": -18,
+      "combined_paf_zero_shift": 218,
+      "enumerated_here": false,
+      "exact_psd_sum": 236,
+      "factor": 9,
+      "first": [
+        1,
+        3,
+        -3,
+        3,
+        3,
+        -3,
+        -3,
+        -3,
+        -3,
+        3,
+        3,
+        -3,
+        3
+      ],
+      "hadamard_order_if_uncompressible": 236,
+      "jacobsthal_sums": [
+        -1
+      ],
+      "p": 13,
+      "q": 3,
+      "row_sums": [
+        1,
+        1
+      ],
+      "second": [
+        1,
+        -3,
+        3,
+        -3,
+        -3,
+        3,
+        3,
+        3,
+        3,
+        -3,
+        -3,
+        3,
+        -3
+      ],
+      "uncompressed_length": 117,
+      "uncompression_candidates_log10": 25.19,
+      "uncompression_candidates_one_row": "15549698684176793082003456"
+    },
+    {
+      "combined_paf_nonzero_shift": -18,
+      "combined_paf_zero_shift": 650,
+      "enumerated_here": false,
+      "exact_psd_sum": 668,
+      "factor": 9,
+      "first": [
+        1,
+        3,
+        -3,
+        3,
+        3,
+        -3,
+        -3,
+        3,
+        -3,
+        3,
+        3,
+        3,
+        3,
+        -3,
+        -3,
+        -3,
+        3,
+        -3,
+        -3,
+        -3,
+        -3,
+        3,
+        -3,
+        -3,
+        -3,
+        3,
+        3,
+        3,
+        3,
+        -3,
+        3,
+        -3,
+        -3,
+        3,
+        3,
+        -3,
+        3
+      ],
+      "hadamard_order_if_uncompressible": 668,
+      "jacobsthal_sums": [
+        -1
+      ],
+      "p": 37,
+      "q": 3,
+      "row_sums": [
+        1,
+        1
+      ],
+      "second": [
+        1,
+        -3,
+        3,
+        -3,
+        -3,
+        3,
+        3,
+        -3,
+        3,
+        -3,
+        -3,
+        -3,
+        -3,
+        3,
+        3,
+        3,
+        -3,
+        3,
+        3,
+        3,
+        3,
+        -3,
+        3,
+        3,
+        3,
+        -3,
+        -3,
+        -3,
+        -3,
+        3,
+        -3,
+        3,
+        3,
+        -3,
+        -3,
+        3,
+        -3
+      ],
+      "uncompressed_length": 333,
+      "uncompression_candidates_log10": 71.37,
+      "uncompression_candidates_one_row": "236823526233141870227952221764922771204806522770091962048144255605538816"
+    },
+    {
+      "combined_paf_nonzero_shift": -50,
+      "combined_paf_zero_shift": 202,
+      "enumerated_here": false,
+      "exact_psd_sum": 252,
+      "factor": 25,
+      "first": [
+        1,
+        5,
+        -5,
+        -5,
+        5
+      ],
+      "hadamard_order_if_uncompressible": 252,
+      "jacobsthal_sums": [
+        -1
+      ],
+      "p": 5,
+      "q": 5,
+      "row_sums": [
+        1,
+        1
+      ],
+      "second": [
+        1,
+        -5,
+        5,
+        5,
+        -5
+      ],
+      "uncompressed_length": 125,
+      "uncompression_candidates_log10": 32.77,
+      "uncompression_candidates_one_row": "593691098932595144516240128000000"
+    },
+    {
+      "combined_paf_nonzero_shift": -50,
+      "combined_paf_zero_shift": 302,
+      "enumerated_here": false,
+      "exact_psd_sum": 352,
+      "factor": 25,
+      "first": [
+        1,
+        5,
+        5,
+        -5,
+        5,
+        -5,
+        -5
+      ],
+      "hadamard_order_if_uncompressible": 352,
+      "jacobsthal_sums": [
+        -1
+      ],
+      "p": 7,
+      "q": 5,
+      "row_sums": [
+        1,
+        1
+      ],
+      "second": [
+        1,
+        -5,
+        -5,
+        5,
+        -5,
+        5,
+        5
+      ],
+      "uncompressed_length": 175,
+      "uncompression_candidates_log10": 45.8,
+      "uncompression_candidates_one_row": "6343465867299876565972029371919992012800000000"
+    }
+  ],
+  "processor": "AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD",
+  "python": "3.14.6",
+  "random_seed": null,
+  "source_of_compressed_rows": "derived from the quadratic-character formula and proved via the Jacobsthal sum; no publisher artifact was used",
+  "started_utc": "2026-08-20T18:16:04.294681+00:00",
+  "status": "derived-source certification plus complete factor-9 uncompression at p=3; not an order-668 result",
+  "uncompression": {
+    "candidate": "results/pq2_uncompression/H56.csv",
+    "candidate_sha256": "19b53864d3428d934d3330ca0a328c29c9b57f9e447268f575930fee777d896a",
+    "canonical_matching_first_candidates": 7614,
+    "direct_report_sha256": "c9b5dcf2071c1dd7f4ae58ab6745fa1524615861b0f7cc939b59cf724e70ccd5",
+    "distinct_second_paf_vectors": 88821,
+    "dual_exact_verification": true,
+    "enumerator_semantics": "canonical matches use one stored second-row representative per PAF signature; ordered pairs include every second-row multiplicity",
+    "factor": 9,
+    "first_candidates_scanned": 889056,
+    "independent_report_sha256": "48e8d0e2e56acb64c6e8a6e6dfefbdde5c16313bd1203853fce12186aa386871",
+    "length": 27,
+    "matrix_order": 56,
+    "ordered_legendre_pairs_found": 77274,
+    "p": 3,
+    "q": 3,
+    "recovered_first": "-----+-+--++++-+--+++++-++-",
+    "recovered_second": "--+-+++---++--++--+-+++-+-+",
+    "sds_parameters": [
+      27,
+      13,
+      13,
+      12
+    ],
+    "search_seconds": 7.36458,
+    "second_candidates_scanned": 889056
+  }
+}

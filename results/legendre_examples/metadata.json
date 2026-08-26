@@ -1,0 +1,215 @@
+{
+  "command": "python -m scripts.reproduce_legendre_examples",
+  "compression": "length d*m to d by a[j+r*d], r=0..m-1",
+  "cpu_cores_used": 1,
+  "deterministic": true,
+  "dft_sign": "positive exp(2*pi*i/n); PSD certified in cyclotomic integer arithmetic",
+  "elapsed_seconds_this_run": 0.112203,
+  "examples": [
+    {
+      "candidate": "results/legendre_examples/H8.csv",
+      "candidate_sha256": "43d3038cde23ed4ec1459d4111e4692295ec4613185ded3f45db587b9dc8421d",
+      "combined_paf": [
+        6,
+        -2,
+        -2
+      ],
+      "compressions": {
+        "3": {
+          "factor": 1,
+          "first": [
+            1,
+            1,
+            -1
+          ],
+          "second": [
+            1,
+            1,
+            -1
+          ]
+        }
+      },
+      "direct_report_sha256": "29eaaf884e8a5ef5dadc7e468c59f61396ecf16f936a9c42ae19bea42155a630",
+      "dual_exact_verification": true,
+      "first": "++-",
+      "independent_report_sha256": "f3f7a503fc3badf9c6c6f8067aedf74bb00c0a88540ac01ccb32842a92b817a2",
+      "length": 3,
+      "matrix_order": 8,
+      "row_sums": [
+        1,
+        1
+      ],
+      "sds_parameters": [
+        3,
+        1,
+        1,
+        0
+      ],
+      "second": "++-",
+      "source": "Fletcher--Gysin--Seberry (2001), Table 4"
+    },
+    {
+      "candidate": "results/legendre_examples/H12.csv",
+      "candidate_sha256": "77b8a4c0d2ab12f7fa147d68071e29639892c032567cc326373e90b4bf6e558e",
+      "combined_paf": [
+        10,
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      "compressions": {},
+      "direct_report_sha256": "81da9bf29620ae04628624defb4532df3f695b5dfa5e34c487ced5053e9b7b50",
+      "dual_exact_verification": true,
+      "first": "+++--",
+      "independent_report_sha256": "07326e5b2c83091e746acc072b51a67b744c92e7e6ed7c830d24ece5bb7d25e9",
+      "length": 5,
+      "matrix_order": 12,
+      "row_sums": [
+        1,
+        1
+      ],
+      "sds_parameters": [
+        5,
+        2,
+        2,
+        1
+      ],
+      "second": "++-+-",
+      "source": "Fletcher--Gysin--Seberry (2001), Table 4"
+    },
+    {
+      "candidate": "results/legendre_examples/H16.csv",
+      "candidate_sha256": "fdb5ecc0a2ef69b0551371948c425d054960c60b7f34c65b1a79670dcc6f679c",
+      "combined_paf": [
+        14,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      "compressions": {},
+      "direct_report_sha256": "cc3924c0cb13cf89970699ede41ec4f7cec7426d69a6438ff7990fd1c1f6aefb",
+      "dual_exact_verification": true,
+      "first": "+++-+--",
+      "independent_report_sha256": "aab70a7022421b00cd86e591177558a55bb3d2dcb43e3519fa6bdb535d54b76d",
+      "length": 7,
+      "matrix_order": 16,
+      "row_sums": [
+        1,
+        1
+      ],
+      "sds_parameters": [
+        7,
+        3,
+        3,
+        2
+      ],
+      "second": "+++-+--",
+      "source": "Fletcher--Gysin--Seberry (2001), Table 4"
+    },
+    {
+      "candidate": "results/legendre_examples/H56.csv",
+      "candidate_sha256": "53369c062e6dd6ef5f9b9039e2e4106b221d24958464f92f42d7278e293c29ab",
+      "combined_paf": [
+        54,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      "compressions": {
+        "3": {
+          "factor": 9,
+          "first": [
+            1,
+            1,
+            -1
+          ],
+          "second": [
+            -3,
+            5,
+            -1
+          ]
+        },
+        "9": {
+          "factor": 3,
+          "first": [
+            -1,
+            1,
+            1,
+            3,
+            1,
+            -3,
+            -1,
+            -1,
+            1
+          ],
+          "second": [
+            -1,
+            -1,
+            1,
+            -1,
+            3,
+            -1,
+            -1,
+            3,
+            -1
+          ]
+        }
+      },
+      "direct_report_sha256": "d347bebdbeb277736c4144d4764ed0313a26a4c7a123c227df006c0478a04328",
+      "dual_exact_verification": true,
+      "first": "+++++-+-+-++++--++---+-----",
+      "independent_report_sha256": "1051323fe10feccb9f6cdcfeb02ec43e7dc0f50f84fd76ba574bf5a42dc37a95",
+      "length": 27,
+      "matrix_order": 56,
+      "row_sums": [
+        1,
+        1
+      ],
+      "sds_parameters": [
+        27,
+        13,
+        13,
+        12
+      ],
+      "second": "++-++--++--+-++++---+-+--+-",
+      "source": "Fletcher--Gysin--Seberry (2001), Table 4"
+    }
+  ],
+  "indexing": "zero-based; PAF shift i -> i+s mod length",
+  "logical_cpu_count": 16,
+  "peak_memory": "not instrumented; largest matrix is 56 x 56",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD",
+  "python": "3.14.6",
+  "random_seed": null,
+  "source_pdf_sha256": "4d0bc39f392a24dfb0bec3a0f17961eab4dfffe85956a1204016110d029c82b5",
+  "started_utc": "2026-07-25T23:12:50.174573+00:00",
+  "status": "published small-example reproduction; not an order-668 result"
+}
