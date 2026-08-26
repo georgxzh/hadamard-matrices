@@ -31,7 +31,9 @@ python -m scripts.reproduce_pq2_uncompression
 `build_uncompression_opb.py` writes the tracked LP(27) reference OPB,
 validates all 7,614 canonical p=3 matches against it, and streams the LP(333)
 model to ignored scratch storage solely to record exact structural counts,
-byte size, and SHA-256. It does not invoke a solver.
+byte size, and SHA-256. It also builds the translation-canonical variants,
+normalizes every p=3 match, and verifies the exact factor-81 ordered-pair
+reduction. It does not invoke a solver.
 
 ```powershell
 python -m scripts.build_uncompression_opb

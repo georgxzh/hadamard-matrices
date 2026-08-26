@@ -1,7 +1,7 @@
 # Direction selection
 
-Status: revised 2026-08-20 after the exact unbroken OPB reference model was
-built and exhaustively validated at p=3. No expensive run authorized.
+Status: revised 2026-08-25 after a free translation action was proved,
+encoded, and exhaustively validated at p=3. No expensive run authorized.
 
 Order 428 and the exact Legendre core are reproduced. The structured pq^2
 compressed pair is now derived, proved, and reproduced at `p=3`.
@@ -35,8 +35,10 @@ Gates before any run:
 
 1. **Complete:** validate the exact model at `p=3`; all 7,614 canonical
    matches passed, representing 77,274 ordered pairs with multiplicity;
-2. derive and add every proved symmetry break (translation, reversal, row
-   swap, independent negation), documented separately;
+2. **Complete for translations:** independent translations by 37 give a free
+   order-81 action on ordered pairs; the canonical OPB adds 16 inequalities
+   and was exhaustively validated. Reversal and multiplier actions are proved
+   but remain unencoded pending a combined canonicalization proof;
 3. benchmark proof-logging PB backends on LP(27), measuring verifier time and
    memory; do not assume a solver's UNSAT output is a certificate;
 4. decide whether a bounded p=5 validation can fit the approval gate;

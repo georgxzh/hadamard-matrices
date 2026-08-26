@@ -79,6 +79,15 @@ is 15,681,010 bytes with SHA-256
 No solver was run. Soundness, completeness, counts, and certificate policy are
 proved and recorded in `pb_uncompression_model.md`.
 
+**Translation symmetry — complete 2026-08-25.** Independent translations of
+the two rows by multiples of 37 form a free order-81 action because each
+residue-zero word has four negatives and full period nine. Sixteen exact OPB
+inequalities select the least cyclic residue-zero word in each row. The
+canonical model has 442,480 records, unchanged variable count, and was
+validated on every p=3 canonical match. Reversal and multiplier actions are
+proved but intentionally remain unencoded pending a combined canonicalization
+proof.
+
 ## Previously reported length-333 searches
 
 ### Nine-compressed enumeration -- `chojecki2026status`
@@ -147,8 +156,9 @@ The compressed rows, exact identities, direct-enumeration bound, unbroken OPB
 model, small-case validation, and certificate policy are complete. Proceed
 through the remaining gates:
 
-1. prove safe symmetry restrictions that preserve the prescribed compressed
-   class and document each independently;
+1. **Complete for translations:** the free order-81 action is encoded and
+   exhaustively validated; reversal and multiplier actions are documented but
+   not yet combined into a canonical encoding;
 2. benchmark proof-logging PB backends on LP(27), including proof-check time
    and memory;
 3. decide whether a bounded p=5 validation can stay within the approval gate;
@@ -191,7 +201,7 @@ remains, in order:
    the ten locally unreproduced exclusions;
 2. locate and audit the inputs behind the reported 12,017,243 9-compressed
    configurations;
-3. prove safe symmetry reductions for the prescribed OPB and benchmark a
-   proof-logging backend on LP(27) before proposing any larger solver run.
+3. benchmark a proof-logging backend on both unbroken and translation-
+   canonical LP(27) models before proposing any larger solver run.
 
 No expensive computation is authorized by this recommendation.

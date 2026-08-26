@@ -153,7 +153,41 @@ No open-search experiments have been run.
   deterministic, sound, complete, proof-oriented exact reference encoding
 - Limitations / failed cases: no solver was run; no LP(333) or H(668) is
   claimed; solver memory and clauses for long equalities are backend-dependent;
-  no symmetry breaking has yet been proved or encoded
+  this experiment's reference model is deliberately unbroken
+- Reproduction command: `python -m scripts.build_uncompression_opb`
+
+## EXP-SYM-001: free translation canonicalization
+
+- Status: exact derivation and exhaustive small-case validation; PASS
+- UTC start and end: started 2026-08-26T02:50:15.508795Z; completed 60.989648
+  seconds later
+- Objective: remove the independent translations by multiples of the
+  compressed length without excluding any prescribed Legendre pair
+- Mathematical constraints: translations preserve every compression class
+  and each row's PAF; residue-zero negative-bit words are constrained to their
+  least cyclic rotation by exact binary positional inequalities
+- Configuration: factor nine, compressed lengths 3 and 37; no random choices
+- Random seed: not applicable
+- Git commit: working tree on branch `agent/order-428-reproduction`; final
+  commit recorded by repository history
+- Hardware and software: Windows 11, AMD64 Family 25 Model 117, Python 3.14.6
+- CPU cores / peak memory / storage: one core / not instrumented / canonical
+  LP(333) scratch OPB 15,682,450 bytes
+- Complete output: `results/pb_uncompression/metadata.json`, tracked canonical
+  LP(27) OPB, and reproducible ignored LP(333) canonical OPB
+- Exact checker: all generated constraints evaluated by `src.pb_model`; PAF,
+  compression, reversal, and multiplier actions independently checked in
+  `tests/test_symmetry.py`
+- Result: 16 inequalities and no variables added; all 7,614 canonical p=3
+  matches normalize to satisfying assignments; 77,274 ordered pairs split
+  into exactly 954 free translation orbits of size 81. Canonical LP(333)
+  SHA-256 is
+  `b59bf0499931c3d751e41a15cd59631da86ab0e3b2dbd2718b016693fe680cea`.
+- Interpretation: the prescribed LP(333) search now has a proved
+  equisatisfiable translation-canonical model
+- Limitations / failed cases: reversal and common multiplier actions are
+  proved but not encoded because their interaction requires a separate
+  canonicalization proof; no solver was run and no H(668) is claimed
 - Reproduction command: `python -m scripts.build_uncompression_opb`
 
 ## EXP-MULT-001: current common-multiplier artifact audit

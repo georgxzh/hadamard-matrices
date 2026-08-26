@@ -108,10 +108,80 @@ enumeration, 11.92 seconds for all model checks, and 1.41 seconds to stream the
 LP(333) model. Full metadata and a satisfying LP(27) base assignment are under
 `results/pb_uncompression/`.
 
-## 5. Certificate and search policy
+## 5. Proved coordinate symmetries
 
-No symmetry break is present. This unbroken model is the reference against
-which any later optimized model must be proved equisatisfiable.
+Let `T_k x` denote translation by `k*d` positions. For each row separately,
+
+```text
+PAF_(T_k x)(s) = PAF_x(s)
+```
+
+by reindexing the PAF sum. Translation by `k*d` also permutes the `m`
+positions within every compression residue class, so it leaves every
+compressed entry unchanged. The two rows may therefore be translated
+independently, giving an exact `C_m x C_m` action on prescribed
+uncompressions.
+
+For each row, form the factor-length negative-sign bit word in residue class
+zero. The translation-canonical OPB requires this word to be no greater than
+any cyclic rotation, using binary positional weights. At factor nine this
+adds eight inequalities per row and no variables.
+
+For the structured rows, compressed entry zero is `1`, so the nine-position
+word has exactly four negative bits. A word of length nine with period one or
+three has a number of negative bits divisible by nine or three. Four is
+neither, so the word has full period nine. Thus each row action is free and
+the ordered-pair search space is reduced by exactly `9*9=81`.
+
+The canonical LP(333) variant has 111,222 variables and 442,480 OPB records.
+Its deterministic scratch artifact is 15,682,450 bytes, SHA-256
+`b59bf0499931c3d751e41a15cd59631da86ab0e3b2dbd2718b016693fe680cea`.
+The unbroken reference model and its previous hash are unchanged.
+
+Three additional actions are proved and tested but not yet encoded:
+
+1. independent reversal of either row, because `p=37` has
+   `chi(-1)=1`, each prescribed compressed row is reversal-invariant, and a
+   row's PAF is unchanged by reversal;
+2. a common coordinate multiplier `h` with `chi(h mod 37)=1`, which preserves
+   both compressed rows and permutes the shift equations simultaneously;
+3. a common nonsquare multiplier followed by row swap, which exchanges the
+   two prescribed compressed rows and restores their order.
+
+A general multiplier cannot be applied independently to the two rows because
+it sends their PAF values to potentially different shifts. Row swap alone,
+or row negation, also fails to preserve the ordered prescribed compression.
+These boundaries are explicit to prevent invalid symmetry breaking.
+
+## 6. Exhaustive symmetry validation
+
+All 7,614 p=3 canonical matches were independently translated into the new
+normal form and checked against all 2,843 canonical OPB records. Every match
+passed. They collapse to 846 normalized pairs because the enumerator stores
+only one second-row representative per PAF signature.
+
+For the complete ordered-pair count, the free `C_9 x C_9` action partitions
+77,274 pairs into exactly
+
+```text
+77,274 / 81 = 954
+```
+
+translation orbits. This is an exact group-action count, not a heuristic
+estimate.
+
+The tracked canonical LP(27) OPB is 88,533 bytes with SHA-256
+`be30ba592d737a525bbe778fb6ec657d1180cb76bf70f93bea623f8a229ebbb9`.
+The complete rerun took 60.99 seconds on one core, including enumeration,
+validation against both models, and streaming both LP(333) variants.
+
+## 7. Certificate and search policy
+
+The unbroken model remains the reference against which the translation-
+canonical model is proved equisatisfiable. The encoded inequalities implement
+only the independently proved translation action; the other coordinate
+symmetries above remain unencoded until their interaction has an equally
+explicit canonicalization proof.
 
 For a satisfiable result, retain the solver assignment and check the two base
 rows with the independent exact Legendre/SDS/PSD pipeline before constructing
@@ -121,5 +191,5 @@ OPB as its standard input and supports SAT/UNSAT certificates
 `veripb2026`. A solver status line without a checked proof is not accepted.
 
 No LP(333) solver run is authorized by this milestone. Backend selection,
-proof logging, solver-memory measurement, and any proved symmetry constraints
-must be completed before requesting approval for a bounded run.
+proof logging, and solver-memory measurement must be completed before
+requesting approval for a bounded run.

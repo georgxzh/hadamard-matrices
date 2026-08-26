@@ -34,6 +34,9 @@ The low-risk foundations, order-428 warm-up, and exact Legendre core are complet
 - a deterministic exact pseudo-Boolean uncompression model, exhaustively
   validated on all 7,614 p=3 canonical matches, with an exact LP(333) model
   size and certificate plan but no solver search;
+- a proved translation-canonical OPB variant reducing ordered prescribed
+  uncompressions by an exact factor of 81, again exhaustively validated at
+  p=3;
 - a versioned audit of the current common-multiplier artifacts, locally
   reproducing 15 of 25 reported exclusions and recording the ten-case full
   proof gap;

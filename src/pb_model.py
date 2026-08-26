@@ -74,6 +74,7 @@ class PBModelStats:
     xor_inequalities: int
     compression_equalities: int
     correlation_equalities: int
+    symmetry_inequalities: int
     constraint_records: int
     normalized_inequalities: int
 
@@ -95,10 +96,13 @@ class UncompressionPBModel:
         first_compressed: Sequence[int],
         second_compressed: Sequence[int],
         factor: int,
+        *,
+        canonical_translations: bool = False,
     ) -> None:
         self.first_compressed = tuple(first_compressed)
         self.second_compressed = tuple(second_compressed)
         self.factor = factor
+        self.canonical_translations = canonical_translations
         if not self.first_compressed:
             raise ValueError("compressed rows must be nonempty")
         if len(self.first_compressed) != len(self.second_compressed):
@@ -127,6 +131,7 @@ class UncompressionPBModel:
         xor_inequalities = 4 * xor
         compression_equalities = 2 * self.compressed_length
         correlation_equalities = self.half_shifts
+        symmetry_inequalities = 2 * (self.factor - 1) if self.canonical_translations else 0
         equalities = compression_equalities + correlation_equalities
         return PBModelStats(
             compressed_length=self.compressed_length,
@@ -138,8 +143,11 @@ class UncompressionPBModel:
             xor_inequalities=xor_inequalities,
             compression_equalities=compression_equalities,
             correlation_equalities=correlation_equalities,
-            constraint_records=xor_inequalities + equalities,
-            normalized_inequalities=xor_inequalities + 2 * equalities,
+            symmetry_inequalities=symmetry_inequalities,
+            constraint_records=xor_inequalities + equalities + symmetry_inequalities,
+            normalized_inequalities=(
+                xor_inequalities + 2 * equalities + symmetry_inequalities
+            ),
         )
 
     def _negative_count(self, target: int) -> int:
@@ -187,6 +195,32 @@ class UncompressionPBModel:
                     for step in range(self.factor)
                 )
                 yield PBConstraint(variables, "=", self._negative_count(target))
+
+        if self.canonical_translations:
+            # Translation by k*d rotates every residue class by k and leaves
+            # each row's PAF unchanged.  Compare the negative-sign bit word in
+            # residue class zero with each of its nontrivial rotations.  Binary
+            # positional weights encode exact lexicographic minimality.
+            weights = tuple(1 << (self.factor - 1 - step) for step in range(self.factor))
+            for row in (0, 1):
+                for rotation in range(1, self.factor):
+                    coefficients: dict[int, int] = {}
+                    for step, weight in enumerate(weights):
+                        original = self._position_variable(
+                            row, step * self.compressed_length
+                        )
+                        rotated = self._position_variable(
+                            row,
+                            ((step + rotation) % self.factor) * self.compressed_length,
+                        )
+                        coefficients[rotated] = coefficients.get(rotated, 0) + weight
+                        coefficients[original] = coefficients.get(original, 0) - weight
+                    terms = tuple(
+                        (coefficient, variable)
+                        for variable, coefficient in sorted(coefficients.items())
+                        if coefficient
+                    )
+                    yield PBConstraint(terms, ">=", 0)
 
         for row in (0, 1):
             for shift in range(1, self.half_shifts + 1):
@@ -258,6 +292,8 @@ class UncompressionPBModel:
             )
             stream.write("* x1..xL: first row; x(L+1)..x(2L): second row\n")
             stream.write("* remaining variables: row-major XORs by row, shift, position\n")
+            if self.canonical_translations:
+                stream.write("* translation canonicalization: enabled\n")
             for constraint in self.iter_constraints():
                 stream.write(constraint.to_opb())
 

@@ -21,7 +21,9 @@ different hashes. The derivation is documented in
 assignment, and metadata for both the exhaustive small-case validation and the
 deterministically generated LP(333) model. The 15-MiB LP(333) OPB is generated
 under ignored `tmp/` rather than frozen here; its exact hash and size are in
-metadata. No solver search was run.
+metadata. The directory also freezes the translation-canonical LP(27) OPB;
+the analogous LP(333) variant is reproducible scratch output. No solver search
+was run.
 
 `multiplier_audit/` records the exact external commit, certificate hashes,
 locally reproduced fixed-symmetry exclusions, release-archive checksum, and
