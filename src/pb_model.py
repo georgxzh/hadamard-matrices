@@ -88,6 +88,19 @@ class OPBArtifact:
     sha256: str
 
 
+def xor_constraints(left: int, right: int, xor: int) -> tuple[PBConstraint, ...]:
+    """Return the four exact convex-hull facets for ``xor = left XOR right``."""
+
+    if min(left, right, xor) <= 0:
+        raise ValueError("XOR variable indices must be positive")
+    return (
+        PBConstraint(((1, left), (1, right), (-1, xor)), ">=", 0),
+        PBConstraint(((-1, left), (-1, right), (-1, xor)), ">=", -2),
+        PBConstraint(((1, left), (-1, right), (1, xor)), ">=", 0),
+        PBConstraint(((-1, left), (1, right), (1, xor)), ">=", 0),
+    )
+
+
 class UncompressionPBModel:
     """Exact OPB encoding of binary preimages of two compressed rows."""
 
@@ -228,12 +241,7 @@ class UncompressionPBModel:
                     left = self._position_variable(row, index)
                     right = self._position_variable(row, (index + shift) % self.length)
                     xor = self.xor_variable(row, shift, index)
-                    # xor == left XOR right, as the four facets of its exact
-                    # binary convex hull.
-                    yield PBConstraint(((1, left), (1, right), (-1, xor)), ">=", 0)
-                    yield PBConstraint(((-1, left), (-1, right), (-1, xor)), ">=", -2)
-                    yield PBConstraint(((1, left), (-1, right), (1, xor)), ">=", 0)
-                    yield PBConstraint(((-1, left), (1, right), (1, xor)), ">=", 0)
+                    yield from xor_constraints(left, right, xor)
 
         for shift in range(1, self.half_shifts + 1):
             variables = tuple(

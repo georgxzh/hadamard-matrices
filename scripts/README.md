@@ -47,6 +47,15 @@ both unfixed models. It never runs LP(333).
 python -m scripts.benchmark_pb_backend --solver path\to\roundingsat.exe --verifier path\to\veripb.exe --probe-seconds 10
 ```
 
+`validate_p5_uncompression.py` reproduces the published structured LP(45),
+checks its two successive 3-compressions, validates both p=5 OPB models with
+VeriPB, and dual-verifies the resulting H(92). It supplies the known witness;
+it does not run an open search.
+
+```powershell
+python -m scripts.validate_p5_uncompression --verifier path\to\veripb.exe
+```
+
 No open-search script targeting order 668 is present. Direct enumeration at
 `p=37, q=3` would require about `2.4e71` candidates per row; see
 `research/pq2_derivation.md`.

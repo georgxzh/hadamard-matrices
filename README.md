@@ -3,7 +3,7 @@
 Rigorous, reproducible computational research toward the FrontierMath open
 problem of constructing a Hadamard matrix of order 668.
 
-> **Research status (2026-07-25): unsolved.** This repository does not contain
+> **Research status (2026-09-27): unsolved.** This repository does not contain
 > a Hadamard matrix of order 668. A candidate counts as a solution only after
 > two independent exact verifiers establish
 > \(H H^{\mathsf T}=668I_{668}\) for the complete \(668\times668\) ±1 matrix.
@@ -40,6 +40,8 @@ The low-risk foundations, order-428 warm-up, and exact Legendre core are complet
 - an end-to-end LP(27) RoundingSat/VeriPB certificate benchmark: four SAT
   certificates verify, while bounded unfixed searches time out and therefore
   do not justify an LP(333) run;
+- a primary-source reproduction of the structured LP(45), its successive
+  3-compressions, both p=5 OPB models, and a dual-verified H(92);
 - a versioned audit of the current common-multiplier artifacts, locally
   reproducing 15 of 25 reported exclusions and recording the ten-case full
   proof gap;
@@ -100,6 +102,8 @@ The exact OPB derivation and resource audit are in
 [research/pb_uncompression_model.md](research/pb_uncompression_model.md).
 The proof-backend benchmark and its negative search result are in
 [research/pb_backend_benchmark.md](research/pb_backend_benchmark.md).
+The bounded p=5 witness and encoding audit are in
+[research/p5_validation.md](research/p5_validation.md).
 The common-multiplier artifact boundary is documented in
 [research/multiplier_artifact_audit.md](research/multiplier_artifact_audit.md).
 

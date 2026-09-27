@@ -111,6 +111,21 @@ enumeration, 11.92 seconds for all model checks, and 1.41 seconds to stream the
 LP(333) model. Full metadata and a satisfying LP(27) base assignment are under
 `results/pb_uncompression/`.
 
+### Fixed-witness p=5 validation
+
+The structured LP(45) printed in `kotsireas2025compression` supplies an
+independent larger regression case. Its known witness passes all 7,952
+unbroken records; after independent row-translation normalization it passes
+all 7,968 canonical records. Complete assignments for both 2,070-variable
+models are accepted by VeriPB 3.0.2. This is not an open search: a row still
+has 6,273,179,136 possible preimages of the prescribed compression.
+
+At p=5, 1,980 of 2,070 variables and 7,920 of 7,952 records belong to the XOR
+layer. Exhaustive binary truth tables confirm that the four inequalities for
+each local XOR are exact and individually irredundant. The next encoding
+experiment therefore follows the source's two successive q-uncompressions
+rather than deleting a facet. See `p5_validation.md`.
+
 ## 5. Proved coordinate symmetries
 
 Let `T_k x` denote translation by `k*d` positions. For each row separately,

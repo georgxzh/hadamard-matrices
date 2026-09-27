@@ -127,10 +127,11 @@ Bibliographic keys refer to `references/references.bib`.
   LP(333), hence HM(668).
 - **Code/data:** Maple listings are included; article says other data are
   available on request.
-- **Reproducibility:** Fletcher's published LP(27) at the same parameter is
-  reproduced, but it is not this structured example. The newer paper's
-  embedded sign figure/direct PDF remains inaccessible, so its prescribed
-  9-compression has not been reproduced.
+- **Reproducibility:** the prescribed rows are independently derived for all
+  parameters used here. The structured LP(45) printed in
+  `kotsireas2025compression` is now transcribed and exactly reproduced,
+  including successive 3-compressions, H(92), and p=5 OPB certificates. The
+  later article's dynamic figure/direct PDF remains inaccessible.
 - **Critical distinction:** the table's 333 row is a proposed route, not a
   constructed LP(333).
 

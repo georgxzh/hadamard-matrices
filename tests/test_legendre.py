@@ -32,6 +32,7 @@ from src.legendre import (
     published_legendre_pair_5,
     published_legendre_pair_7,
     published_legendre_pair_27,
+    published_structured_legendre_pair_45,
 )
 from src.verify_matrix import verify as verify_direct
 from src.verify_matrix_independent import verify as verify_independent
@@ -70,6 +71,7 @@ def test_cyclic_convolution_uses_zero_based_modular_indices() -> None:
         published_legendre_pair_5,
         published_legendre_pair_7,
         published_legendre_pair_27,
+        published_structured_legendre_pair_45,
     ],
 )
 def test_published_pairs_satisfy_paf_psd_and_sds(factory) -> None:
@@ -107,6 +109,7 @@ def test_independent_row_negation_normalizes_without_changing_paf() -> None:
         (published_legendre_pair_5, 12),
         (published_legendre_pair_7, 16),
         (published_legendre_pair_27, 56),
+        (published_structured_legendre_pair_45, 92),
     ],
 )
 def test_published_pairs_construct_dual_verified_hadamard_matrices(
@@ -218,6 +221,20 @@ def test_published_length_27_pair_has_exact_3_and_9_compressions() -> None:
     assert exact_psd_at_third_root(compress(first, 3)) == 4
     assert exact_psd_at_third_root(compress(second, 3)) == 52
     assert exact_psd_sum(first, second, 9).integer_value == 56
+
+
+def test_published_structured_length_45_pair_has_exact_staged_compressions() -> None:
+    first, second = published_structured_legendre_pair_45()
+    prescribed = ((1, 3, -3, -3, 3), (1, -3, 3, 3, -3))
+    intermediate = (
+        (-3, -1, -1, -3, 1, 1, 3, -1, -1, -1, 3, 1, -1, 1, 3),
+        (-1, -1, -1, 1, -1, -1, -1, 1, 1, -1, 3, -1, 3, 1, -1),
+    )
+    assert (compress(first, 5), compress(second, 5)) == prescribed
+    assert (compress(first, 15), compress(second, 15)) == intermediate
+    assert (compress(intermediate[0], 5), compress(intermediate[1], 5)) == prescribed
+    assert check_legendre_compression_constants(first, second, 5)
+    assert check_legendre_compression_constants(first, second, 15)
 
 
 def test_invalid_inputs_are_rejected() -> None:

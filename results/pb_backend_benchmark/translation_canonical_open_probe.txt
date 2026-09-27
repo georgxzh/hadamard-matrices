@@ -92,52 +92,57 @@ c INPROCESSING
 c GARBAGE COLLECT
 c #Conflicts:      57000 | #Constraints:       8373
 c #Conflicts:      58000 | #Constraints:       9373
+c #Conflicts:      59000 | #Constraints:      10373
+c #Conflicts:      60000 | #Constraints:      11373
+c #Conflicts:      61000 | #Constraints:      12373
+c INPROCESSING
+c GARBAGE COLLECT
 c cpu time 11 s
-c deterministic time 331636998 3.32e+08
+c deterministic time 360055068 3.60e+08
 c optimization time 1 s
 c total solve time 10 s
 c core-guided solve time 0 s
-c propagation time 6 s
-c conflict analysis time 2 s
-c propagations 5734293
-c resolve steps 527775
-c decisions 75555
-c conflicts 58681
-c restarts 187
-c inprocessing phases 16
+c propagation time 4 s
+c conflict analysis time 7 s
+c propagations 6033085
+c resolve steps 555403
+c decisions 78925
+c conflicts 61441
+c restarts 189
+c inprocessing phases 17
 c input clauses 2808
 c input cardinalities 38
 c input general constraints 16
 c input average constraint length 3.52
 c input average constraint degree 2.87
-c learned clauses 49446
-c learned cardinalities 2168
-c learned general constraints 7066
-c learned average constraint length 61.62
-c learned average constraint degree 5.19
-c watched constraints 3921
-c counting constraints 3161
-c gcd simplifications 931
+c learned clauses 51814
+c learned cardinalities 2218
+c learned general constraints 7408
+c learned average constraint length 61.94
+c learned average constraint degree 5.21
+c watched constraints 4143
+c counting constraints 3281
+c gcd simplifications 976
 c detected cardinalities 15
-c weakened non-implied lits 1333240
-c weakened non-implying lits 2858
+c weakened non-implied lits 1397446
+c weakened non-implying lits 3003
 c original variables 756
-c clausal propagations 4945418
-c cardinality propagations 380108
-c watched propagations 18903
-c counting propagations 299154
-c watch lookups 103948956
-c watch backjump lookups 58215883
-c watch checks 131787873
-c propagation checks 17016762
-c constraint additions 8989678
-c trail pops 5867997
+c clausal propagations 5203852
+c cardinality propagations 397663
+c watched propagations 20351
+c counting propagations 316956
+c watch lookups 113363457
+c watch backjump lookups 64168927
+c watch checks 142644742
+c propagation checks 18119162
+c constraint additions 9473868
+c trail pops 6172901
 c formula constraints 2862
-c learned constraints 58680
+c learned constraints 61440
 c bound constraints 0
 c core-guided constraints 0
-c encountered formula constraints 423545
-c encountered learned constraints 162911
+c encountered formula constraints 445144
+c encountered learned constraints 171700
 c encountered bound constraints 0
 c encountered core-guided constraints 0
 c LP total time 0 s

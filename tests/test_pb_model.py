@@ -2,8 +2,11 @@
 
 from __future__ import annotations
 
-from src.legendre import structured_compressed_pair
-from src.pb_model import PBConstraint, UncompressionPBModel
+from src.legendre import (
+    published_structured_legendre_pair_45,
+    structured_compressed_pair,
+)
+from src.pb_model import PBConstraint, UncompressionPBModel, xor_constraints
 from src.symmetry import canonical_residue_translation, residue_zero_bits
 from src.uncompress import search_uncompressions
 
@@ -44,6 +47,53 @@ def test_p37_model_has_the_derived_exact_counts() -> None:
     assert model.stats.symmetry_inequalities == 0
     assert model.stats.constraint_records == 442_464
     assert model.stats.normalized_inequalities == 442_704
+
+
+def test_p5_model_counts_and_published_witness_are_exact() -> None:
+    compressed = structured_compressed_pair(5, 3)
+    first, second = published_structured_legendre_pair_45()
+    model = UncompressionPBModel(*compressed, 9)
+    assert model.stats.uncompressed_length == 45
+    assert model.stats.base_variables == 90
+    assert model.stats.xor_variables == 1_980
+    assert model.stats.variables == 2_070
+    assert model.stats.xor_inequalities == 7_920
+    assert model.stats.compression_equalities == 10
+    assert model.stats.correlation_equalities == 22
+    assert model.stats.constraint_records == 7_952
+    assert model.stats.normalized_inequalities == 7_984
+    assert model.first_failed_constraint(first, second) is None
+
+    canonical_first, _ = canonical_residue_translation(first, 5)
+    canonical_second, _ = canonical_residue_translation(second, 5)
+    canonical = UncompressionPBModel(*compressed, 9, canonical_translations=True)
+    assert canonical.stats.symmetry_inequalities == 16
+    assert canonical.stats.constraint_records == 7_968
+    assert canonical.stats.normalized_inequalities == 8_000
+    assert canonical.first_failed_constraint(canonical_first, canonical_second) is None
+
+
+def test_xor_facets_are_exact_and_individually_necessary() -> None:
+    facets = xor_constraints(1, 2, 3)
+    assignments = [
+        {1: left, 2: right, 3: value}
+        for left in (0, 1)
+        for right in (0, 1)
+        for value in (0, 1)
+    ]
+    accepted = {
+        (assignment[1], assignment[2], assignment[3])
+        for assignment in assignments
+        if all(facet.satisfied_by(assignment) for facet in facets)
+    }
+    assert accepted == {(0, 0, 0), (0, 1, 1), (1, 0, 1), (1, 1, 0)}
+    for omitted in range(4):
+        remaining = facets[:omitted] + facets[omitted + 1 :]
+        assert any(
+            assignment[3] != (assignment[1] ^ assignment[2])
+            and all(facet.satisfied_by(assignment) for facet in remaining)
+            for assignment in assignments
+        )
 
 
 def test_translation_canonical_model_counts_and_accepts_normalized_witness() -> None:

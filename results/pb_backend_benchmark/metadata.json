@@ -17,15 +17,15 @@
           "--time-limit=120",
           "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\pb_backend_benchmark\\translation_canonical_fixed.opb"
         ],
-        "elapsed_seconds": 0.068385,
+        "elapsed_seconds": 0.062784,
         "exit_code": 0,
         "externally_timed_out": false,
-        "peak_working_set_bytes": 6098944,
+        "peak_working_set_bytes": 6074368,
         "reported_status": "SATISFIABLE",
         "stdout": {
-          "bytes": 6482,
+          "bytes": 6391,
           "path": "results/pb_backend_benchmark/translation_canonical_roundingsat_fixed.txt",
-          "sha256": "0ee6a9a048c8bd0a035f5a307238e3307bb8ba41a395e1c1cc50c4f5fb7fd9c1"
+          "sha256": "92df008f57b8928fc08e1491018d7525b190efee7cf82f9aee6dd4614176aa79"
         }
       },
       "fixed_witness_veripb": {
@@ -35,15 +35,15 @@
           "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\pb_backend_benchmark\\translation_canonical_fixed.opb",
           "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\pb_backend_benchmark\\translation_canonical_roundingsat_fixed.pbp"
         ],
-        "elapsed_seconds": 0.03459,
+        "elapsed_seconds": 0.04043,
         "exit_code": 0,
         "externally_timed_out": false,
-        "peak_working_set_bytes": 9011200,
+        "peak_working_set_bytes": 8994816,
         "reported_status": null,
         "stdout": {
           "bytes": 179,
           "path": "results/pb_backend_benchmark/translation_canonical_roundingsat_fixed_veripb.txt",
-          "sha256": "75bd8072b0c33aefeaca4bf157613415b9cd94dd08dda3d37e2564c8d4f7ba9b"
+          "sha256": "52166c0d64a4dc8db5518eb49d54654cd52eff2ab616521f35217b8d92f8a887"
         }
       },
       "known_witness_certificate": {
@@ -64,15 +64,15 @@
           "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\pb_uncompression\\lp27_structured_translation_canonical.opb",
           "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\pb_backend_benchmark\\translation_canonical_known_witness.pbp"
         ],
-        "elapsed_seconds": 0.037368,
+        "elapsed_seconds": 0.040265,
         "exit_code": 0,
         "externally_timed_out": false,
         "peak_working_set_bytes": 8425472,
         "reported_status": null,
         "stdout": {
-          "bytes": 178,
+          "bytes": 179,
           "path": "results/pb_backend_benchmark/translation_canonical_known_witness_veripb.txt",
-          "sha256": "d65c5b9002582b3b77e3aa19e28601f9f2f52c5a53c659e3e3287b51a4147d76"
+          "sha256": "92189f6ed6143ea62daeb61665effd50a504e33d65426fbc20ab462fb92571fc"
         }
       },
       "opb": {
@@ -91,21 +91,21 @@
           "--time-limit=10",
           "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\pb_uncompression\\lp27_structured_translation_canonical.opb"
         ],
-        "elapsed_seconds": 11.039056,
+        "elapsed_seconds": 11.056014,
         "exit_code": 4,
         "externally_timed_out": false,
-        "peak_working_set_bytes": 12128256,
+        "peak_working_set_bytes": 12611584,
         "reported_status": "TIMELIMIT",
         "stdout": {
-          "bytes": 6215,
+          "bytes": 6223,
           "path": "results/pb_backend_benchmark/translation_canonical_open_probe.txt",
-          "sha256": "dde700315662be5ca8d9c7499a881ca8491ac878315899afc37cc0984f2b3f1d"
+          "sha256": "0d2db23b777611dd02df067010858a51eed8201e9cb3ae319584760b756060ba"
         }
       },
       "open_search_probe_proof": {
-        "bytes": 20623450,
+        "bytes": 21760828,
         "path": "tmp/pb_backend_benchmark/translation_canonical_open_probe.pbp",
-        "sha256": "136ead5c71a59ab905ca5eb7aa96932a321c896145f26959db9f80d83c311783",
+        "sha256": "80dc45d2f5eeacd55e13dee099f0271906db1465cb3c427fca20fa50a2eb5757",
         "tracked": false
       }
     },
@@ -126,15 +126,15 @@
           "--time-limit=120",
           "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\pb_backend_benchmark\\unbroken_fixed.opb"
         ],
-        "elapsed_seconds": 0.065938,
+        "elapsed_seconds": 0.070113,
         "exit_code": 0,
         "externally_timed_out": false,
-        "peak_working_set_bytes": 6098944,
+        "peak_working_set_bytes": 6103040,
         "reported_status": "SATISFIABLE",
         "stdout": {
-          "bytes": 6480,
+          "bytes": 6389,
           "path": "results/pb_backend_benchmark/unbroken_roundingsat_fixed.txt",
-          "sha256": "2ad9c296ca0845a69f1a7c2aea560b55596437fb49be39f18ec19140b256e143"
+          "sha256": "b45485bb85d49f49c1b66c776f39d4ba1cd188b5b80333550c13db77f81d935c"
         }
       },
       "fixed_witness_veripb": {
@@ -144,15 +144,15 @@
           "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\pb_backend_benchmark\\unbroken_fixed.opb",
           "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\pb_backend_benchmark\\unbroken_roundingsat_fixed.pbp"
         ],
-        "elapsed_seconds": 0.032939,
+        "elapsed_seconds": 0.038202,
         "exit_code": 0,
         "externally_timed_out": false,
-        "peak_working_set_bytes": 8900608,
+        "peak_working_set_bytes": 8888320,
         "reported_status": null,
         "stdout": {
           "bytes": 179,
           "path": "results/pb_backend_benchmark/unbroken_roundingsat_fixed_veripb.txt",
-          "sha256": "613f592f08b2521a09dab006eb19a4f4bf8e63d2c44f03a9243ed474aedc66ad"
+          "sha256": "ed9408cdd59f51e4818904875075ccde913169bc98f6839d9de00602c52b1756"
         }
       },
       "known_witness_certificate": {
@@ -173,15 +173,15 @@
           "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\pb_uncompression\\lp27_structured.opb",
           "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\pb_backend_benchmark\\unbroken_known_witness.pbp"
         ],
-        "elapsed_seconds": 0.100603,
+        "elapsed_seconds": 0.092715,
         "exit_code": 0,
         "externally_timed_out": false,
-        "peak_working_set_bytes": 8335360,
+        "peak_working_set_bytes": 8339456,
         "reported_status": null,
         "stdout": {
           "bytes": 179,
           "path": "results/pb_backend_benchmark/unbroken_known_witness_veripb.txt",
-          "sha256": "7ea3c54e0a29063680a0e6c5e0ae7d12c6be3e1513d10054c82dbcf8fd12d71c"
+          "sha256": "2afd47b4871fefdc94c6ea6aadf0a1617f261a0f346a2bf54090ed8479db3202"
         }
       },
       "opb": {
@@ -200,26 +200,26 @@
           "--time-limit=10",
           "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\pb_uncompression\\lp27_structured.opb"
         ],
-        "elapsed_seconds": 11.04812,
+        "elapsed_seconds": 11.046058,
         "exit_code": 4,
         "externally_timed_out": false,
-        "peak_working_set_bytes": 12111872,
+        "peak_working_set_bytes": 12574720,
         "reported_status": "TIMELIMIT",
         "stdout": {
-          "bytes": 5967,
+          "bytes": 6085,
           "path": "results/pb_backend_benchmark/unbroken_open_probe.txt",
-          "sha256": "98534d5b47a8d7a673f82d846dad6fdbdc56f0911326108b7b5000fbdc3f563a"
+          "sha256": "3936973d105161f56fad47e2485ec108d24fc5afc5a4ec3d6a393e68d741a006"
         }
       },
       "open_search_probe_proof": {
-        "bytes": 17868386,
+        "bytes": 19414411,
         "path": "tmp/pb_backend_benchmark/unbroken_open_probe.pbp",
-        "sha256": "2ef6263ddfb5528377efeebdb7f28652228fae5bd8466bc9b91ebc4bfbff1636",
+        "sha256": "c0ebd0881175b372534b976acc6687e7fbcab8aa51a7096bfceedc91ac99113b",
         "tracked": false
       }
     }
   },
-  "completed_utc": "2026-09-27T20:47:46.400131+00:00",
+  "completed_utc": "2026-09-27T20:59:11.951647+00:00",
   "cpu_cores_used_per_process": 1,
   "platform": "Windows-11-10.0.26200-SP0",
   "probe_seconds_each": 10,

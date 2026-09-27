@@ -1,7 +1,7 @@
 # Direction selection
 
-Status: revised 2026-09-27 after the LP(27) certificate pipeline was verified
-and bounded unfixed solver probes timed out. No expensive run authorized.
+Status: revised 2026-09-27 after the published structured LP(45) closed the
+p=5 validation gate. No expensive run authorized.
 
 Order 428 and the exact Legendre core are reproduced. The structured pq^2
 compressed pair is now derived, proved, and reproduced at `p=3`.
@@ -42,9 +42,19 @@ Gates before any run:
 3. **Pipeline complete, search benchmark negative:** RoundingSat and VeriPB
    interoperate with exact recorded proof sizes, time, and memory, but neither
    unfixed LP(27) model was solved within the tested bounds;
-4. run a bounded p=5 model validation and investigate stronger encodings;
+4. **Complete for fixed-witness validation:** the published structured LP(45)
+   passes both models and VeriPB, while the four-facet XOR gadgets are exact
+   and individually irredundant; the source's successive q-uncompression is
+   now the preferred encoding experiment;
 5. request approval with measured solver/proof estimates before any LP(333)
    run.
+
+The next implementation milestone is an exact two-stage `q=3` model with
+length-15 intermediate rows, validated against the reproduced LP(45) and the
+exhaustive LP(27) corpus. This follows the primary source's successful
+construction architecture and avoids treating local XOR-facet deletion as an
+optimization: exhaustive truth tables show that all four facets are required
+in the current direct reification.
 
 The honest prior is that this fails too. Passing every compressed necessary
 condition does not imply a binary preimage exists, and the source states the

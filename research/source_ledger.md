@@ -23,7 +23,7 @@ Labels:
 | `djokovic2015compression` | P | complete arXiv PDF; Definition 3 and Theorem 3 visually audited | exact compression identities | generic and 3/9/37 paths implemented and tested |
 | `kotsireas2021mod3` | P | complete arXiv PDF; Corollary 1 visually audited | length divisible by 3 exact PSD constraints | implemented; LP(27) special frequency reproduced |
 | `kotsireas2027pq2` | P, online 2026 | substantial publisher text; direct PDF blocked | structured \(pq^2\) uncompression route | route cited only; compressed rows independently **derived and proved**, not retrieved; factor-9 uncompression reproduced at \(p=3\) |
-| `kotsireas2025compression` | P | metadata | newer compression properties | full-text audit pending |
+| `kotsireas2025compression` | P | publisher HTML, especially Sections 4 and 5.3.2; direct PDF blocked | successive uncompression scheme and printed structured LP(45) | LP(45), both compression stages, p=5 OPB certificates, and H(92) reproduced |
 | `cati2024database` | PP/software | arXiv and Sage docs | construction coverage/database | executable audit pending |
 | `eliahou2025modular` | P | open PDF text | modular near-result at 668 | pending |
 | `chojecki2026status` | R | full PDF indexed | previous computational approach | claims not reproduced |
@@ -82,10 +82,10 @@ reports are under `results/legendre_examples/`.
 
 ## Retrieval gaps
 
-- The original structured LP(27), LP(45), LP(63), and LP(75) publisher figure
-  remains inaccessible, but this no longer blocks the project: the prescribed
-  compressed rows were independently derived and proved in
-  `pq2_derivation.md`.
+- The structured LP(45) rows are now recovered from the publisher HTML for
+  `kotsireas2025compression`. The dynamic figures/direct PDF for the later
+  `kotsireas2027pq2` article remain inaccessible; this does not block the
+  independently proved prescribed rows in `pq2_derivation.md`.
 - Extract and run the full `ramos2026artifacts` DRAT/MITM bundle only after its
   expanded storage and verifier runtime are bounded or separately approved.
 - Locate code and complete outputs underlying `chojecki2026status`.

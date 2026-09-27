@@ -746,3 +746,16 @@ def published_legendre_pair_27() -> tuple[IntegerSequence, IntegerSequence]:
         decode_signs("+++++-+-+-++++--++---+-----"),
         decode_signs("++-++--++--+-++++---+-+--+-"),
     )
+
+
+def published_structured_legendre_pair_45() -> tuple[IntegerSequence, IntegerSequence]:
+    """Return the structured LP(45) printed by Kotsireas et al. (2025).
+
+    The rows are transcribed in their displayed zero-to-44 order from section
+    5.3.2.  Their 9-compression is the prescribed ``p=5, q=3`` pair.
+    """
+
+    return (
+        decode_signs("-+----+++-+++-+----+++--+++-++--+-+++---+--++"),
+        decode_signs("-+-+---++-+-++---+-++----+-+--+--+--+++++++++"),
+    )

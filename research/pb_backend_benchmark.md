@@ -41,8 +41,8 @@ end.
 
 | case | direct VeriPB wall / peak | fixed RoundingSat wall / peak | fixed-proof VeriPB wall / peak |
 |---|---:|---:|---:|
-| unbroken | 0.101 s / 8.34 MB | 0.066 s / 6.10 MB | 0.033 s / 8.90 MB |
-| translation-canonical | 0.037 s / 8.43 MB | 0.068 s / 6.10 MB | 0.035 s / 9.01 MB |
+| unbroken | 0.093 s / 8.34 MB | 0.070 s / 6.10 MB | 0.038 s / 8.89 MB |
+| translation-canonical | 0.040 s / 8.43 MB | 0.063 s / 6.07 MB | 0.040 s / 8.99 MB |
 
 The timings are single observations for pipeline validation, not comparative
 performance claims. Complete commands, byte counts, hashes, exit codes, and
@@ -55,8 +55,8 @@ internal limit. Both returned `TIMELIMIT`:
 
 | model | wall time | peak working set | incomplete proof size |
 |---|---:|---:|---:|
-| unbroken | 11.048 s | 12.11 MB | 17,868,386 bytes |
-| translation-canonical | 11.039 s | 12.13 MB | 20,623,450 bytes |
+| unbroken | 11.046 s | 12.57 MB | 19,414,411 bytes |
+| translation-canonical | 11.056 s | 12.61 MB | 21,760,828 bytes |
 
 These are failed search attempts, not certificates. An earlier default
 LP-enabled unbroken run also timed out after 120 seconds and produced an
@@ -75,10 +75,11 @@ RoundingSat did not recover a known LP(27) witness under the tested bounded
 open configurations, so extrapolating this encoding directly to LP(333) would
 be unjustified.
 
-The next safe milestone is a bounded `p=5` model-validation experiment and an
-encoding audit aimed at eliminating or strengthening the large XOR auxiliary
-layer. No LP(333) solver run should be requested until a backend solves an
-unfixed smaller instance and its certificate verifies.
+The bounded p=5 fixed-witness validation is now complete; see
+`p5_validation.md`. The next safe milestone is an exact implementation of the
+paper's two-stage `q=3` uncompression model. No LP(333) solver run should be
+requested until a backend solves an unfixed smaller instance and its
+certificate verifies.
 
 Reproduction command:
 

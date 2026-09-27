@@ -95,6 +95,7 @@ def _run(command: Sequence[str], output: Path, *, timeout: float) -> dict[str, o
         if sample is not None:
             peak = max(peak, sample)
     text = output.read_text(encoding="utf-8", errors="replace")
+    output.write_text(text, encoding="utf-8", newline="\n")
     status_match = re.search(r"(?m)^s ([A-Z]+)$", text)
     return {
         "command": [str(part) for part in command],
@@ -118,8 +119,12 @@ def _signs(value: str) -> tuple[int, ...]:
 
 
 def _artifact(path: Path, *, tracked: bool) -> dict[str, object]:
+    try:
+        recorded_path = path.relative_to(REPOSITORY_ROOT).as_posix()
+    except ValueError:
+        recorded_path = str(path)
     return {
-        "path": path.relative_to(REPOSITORY_ROOT).as_posix(),
+        "path": recorded_path,
         "bytes": path.stat().st_size,
         "sha256": _sha256(path),
         "tracked": tracked,

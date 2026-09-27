@@ -5,15 +5,15 @@ uncompression reproduced at `p=3`; the `p=37, q=3` route is certified as a
 valid compressed pair but is **not** computationally reachable by direct
 enumeration.
 
-This note removes the blocking dependency recorded in `length333_audit.md`,
-where the newer `kotsireas2027pq2` source sequences could not be retrieved
-because the publisher embeds them in a dynamic figure, blocks the direct PDF
-with HTTP 403, and gates browser access behind a CAPTCHA.
+This note removes the blocking dependency recorded in `length333_audit.md`.
+The later `kotsireas2027pq2` dynamic figure and direct PDF remain unavailable,
+but the structured LP(45) has since been recovered independently from the
+publisher HTML of `kotsireas2025compression`; see `p5_validation.md`.
 
 **The sequences do not need to be retrieved. They are determined by a formula,
 and the formula's defining property is provable in a few lines.** Everything
 below is derived in this repository and covered by tests; no publisher
-artifact is used.
+artifact is needed for the general formula.
 
 ## 1. The prescribed rows
 

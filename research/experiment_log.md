@@ -177,7 +177,7 @@ length 333 or order 668.
 - Hardware and software: Windows 11, AMD64 Family 25 Model 117; Python 3.14.6;
   exact executable hashes in `results/pb_backend_benchmark/metadata.json`
 - CPU cores / peak memory / storage: one core; open probes peaked near 12 MB;
-  incomplete ten-second proofs were 17,868,386 and 20,623,450 bytes
+  latest incomplete ten-second proofs were 19,414,411 and 21,760,828 bytes
 - Complete output: `results/pb_backend_benchmark/`; incomplete open-search
   proofs remain ignored scratch artifacts identified by hash
 - Exact checker: VeriPB reported `VERIFIED SATISFIABLE` for complete assignment
@@ -195,6 +195,45 @@ length 333 or order 668.
 - Reproduction command: `python -m scripts.benchmark_pb_backend --solver
   tmp/tools/roundingsat/roundingsat.exe --verifier
   tmp/tools/veripb-3.0.2/bin/veripb.exe --probe-seconds 10`
+
+## EXP-PB-003: published LP(45) and bounded p=5 model validation
+
+- Status: primary-source fixed-witness reproduction; PASS
+- UTC start: 2026-09-27T20:58:41.134595Z; completed in 0.576737 seconds
+- Objective: close the bounded p=5 gate with a published structured witness,
+  validate both direct OPB variants, and audit the dominant XOR layer
+- Primary source: `kotsireas2025compression`, Section 5.3.2, publisher HTML;
+  direct PDF unavailable
+- Mathematical constraints: exact LP(45) PAF, SDS, cyclotomic PSD, direct
+  factor-9 and successive factor-3 compression, every OPB record, and H(92)
+  Gram identity
+- Configuration: `p=5`, `q=3`, factor 9; unbroken and independent-translation
+  canonical models; VeriPB 3.0.2
+- Random seed: not applicable; no search was run
+- Git commit: working tree on branch `agent/order-428-reproduction`; final
+  commit recorded by repository history
+- Hardware and software: Windows 11, AMD64 Family 25 Model 117; Python 3.14.6
+- CPU cores / peak memory / storage: one core; Python `tracemalloc` peak
+  1,478,512 bytes; tracked OPBs total 505,768 bytes
+- Complete output: `results/p5_validation/`; exact metadata and artifact hashes
+  in `metadata.json`
+- Exact checker: independent PAF/SDS/PSD code, every `src.pb_model` record,
+  two VeriPB SAT checks, and both independent H(92) verifiers
+- Result: the printed rows form an LP(45), successive 3-compressions recover
+  the prescribed pair, both OPB certificates report `VERIFIED SATISFIABLE`,
+  and H(92) hash
+  `b134f19a01280f1b7c473f1c3900d2a4bc751596ca6f4c247ddf19b68a45fd77`
+  passes both exact verifiers
+- Encoding audit: 1,980 of 2,070 variables are XOR auxiliaries and 7,920 of
+  7,952 unbroken records are XOR facets; exhaustive truth tables prove all
+  four facets individually necessary for this local reification
+- Interpretation: the direct model is exact at p=5, but local facet deletion
+  cannot address its dominant layer; implement the source's two-stage
+  q-uncompression next
+- Limitations / failed cases: fixed-witness validation does not measure open
+  search; no LP(333) run and no H(668) claim
+- Reproduction command: `python -m scripts.validate_p5_uncompression
+  --verifier tmp/tools/veripb-3.0.2/bin/veripb.exe`
 
 ## EXP-SYM-001: free translation canonicalization
 

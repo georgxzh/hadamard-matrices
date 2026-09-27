@@ -29,6 +29,10 @@ was run at LP(333).
 logs for both LP(27) models. It also records bounded open-search timeouts;
 those incomplete scratch proofs are hashed in metadata but are not tracked.
 
+`p5_validation/` freezes the published structured LP(45), its unbroken and
+translation-canonical OPB models and verified SAT certificates, and the
+dual-exactly-verified H(92). This is fixed-witness validation, not search.
+
 `multiplier_audit/` records the exact external commit, certificate hashes,
 locally reproduced fixed-symmetry exclusions, release-archive checksum, and
 the cases whose full DRAT/MITM evidence was not rerun.
