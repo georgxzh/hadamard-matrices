@@ -6,7 +6,7 @@ from src.legendre import (
     published_structured_legendre_pair_45,
     structured_compressed_pair,
 )
-from src.pb_model import PBConstraint, UncompressionPBModel, xor_constraints
+from src.pb_model import PBConstraint, UncompressionPBModel, and_constraints, xor_constraints
 from src.symmetry import canonical_residue_translation, residue_zero_bits
 from src.uncompress import search_uncompressions
 
@@ -91,6 +91,29 @@ def test_xor_facets_are_exact_and_individually_necessary() -> None:
         remaining = facets[:omitted] + facets[omitted + 1 :]
         assert any(
             assignment[3] != (assignment[1] ^ assignment[2])
+            and all(facet.satisfied_by(assignment) for facet in remaining)
+            for assignment in assignments
+        )
+
+
+def test_and_facets_are_exact_and_individually_necessary() -> None:
+    facets = and_constraints(1, 2, 3)
+    assignments = [
+        {1: left, 2: right, 3: value}
+        for left in (0, 1)
+        for right in (0, 1)
+        for value in (0, 1)
+    ]
+    accepted = {
+        (assignment[1], assignment[2], assignment[3])
+        for assignment in assignments
+        if all(facet.satisfied_by(assignment) for facet in facets)
+    }
+    assert accepted == {(0, 0, 0), (0, 1, 0), (1, 0, 0), (1, 1, 1)}
+    for omitted in range(3):
+        remaining = facets[:omitted] + facets[omitted + 1 :]
+        assert any(
+            assignment[3] != (assignment[1] & assignment[2])
             and all(facet.satisfied_by(assignment) for facet in remaining)
             for assignment in assignments
         )

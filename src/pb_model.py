@@ -101,6 +101,18 @@ def xor_constraints(left: int, right: int, xor: int) -> tuple[PBConstraint, ...]
     )
 
 
+def and_constraints(left: int, right: int, product: int) -> tuple[PBConstraint, ...]:
+    """Return the three exact convex-hull facets for ``product = left AND right``."""
+
+    if min(left, right, product) <= 0:
+        raise ValueError("AND variable indices must be positive")
+    return (
+        PBConstraint(((1, left), (-1, product)), ">=", 0),
+        PBConstraint(((1, right), (-1, product)), ">=", 0),
+        PBConstraint(((-1, left), (-1, right), (1, product)), ">=", -1),
+    )
+
+
 class UncompressionPBModel:
     """Exact OPB encoding of binary preimages of two compressed rows."""
 

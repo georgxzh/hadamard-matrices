@@ -25,9 +25,10 @@ and both second compressions before constructing an OPB model. For a fixed
 valid `(C,D)`, the resulting factor-three OPB is sound and complete for binary
 Legendre pairs whose first compression is exactly `(C,D)`.
 
-This scope is important: the implementation models and searches one supplied
-intermediate branch. It does not yet enumerate or solve for all possible
-intermediate pairs above `(A(p,3),B(p,3))`.
+This conditional model searches one supplied intermediate branch. The
+separate first-stage implementation now exhaustively enumerates all compatible
+intermediate pairs at p=3 and p=5; see `intermediate_stage.md`. It does not
+make the p=37 first-stage space enumerable.
 
 ## Generalized translation canonicalization
 
@@ -84,11 +85,12 @@ branches or LP(333).
 
 ## Next milestone
 
-Implement an exact first-stage generator/model for all length-`3p`
-intermediate pairs above the prescribed length-`p` rows. First validate its
-complete output at p=3, then require it to recover the published p=5 branch.
-Only after both stages have independently checkable coverage and the p=5
-second-stage search improves should a p=37 resource proposal be considered.
+The first-stage small-case gate is complete: exhaustive p=3/p=5 generation
+finds 792 and 10,476 ordered intermediate pairs respectively and recovers the
+published p=5 branch. Next, use those complete p=5 branches to evaluate exact
+branch filters and a bounded deterministic second-stage portfolio. Only after
+that benchmark and a non-enumerative p=37 first-stage design should a larger
+resource proposal be considered.
 
 Reproduction command:
 

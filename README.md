@@ -45,6 +45,9 @@ The low-risk foundations, order-428 warm-up, and exact Legendre core are complet
 - an exact conditional two-stage q=3 model: proof-producing staged searches
   solve both p=3 variants in under one second, while bounded p=5 searches
   time out and remain an explicit gap;
+- an exact first-stage q=3 model and exhaustive generator: p=3 has 792 and
+  p=5 has 10,476 ordered compatible intermediate pairs; the published p=5
+  branch is recovered and both known-branch certificates pass VeriPB;
 - a versioned audit of the current common-multiplier artifacts, locally
   reproducing 15 of 25 reported exclusions and recording the ten-case full
   proof gap;
@@ -109,6 +112,8 @@ The bounded p=5 witness and encoding audit are in
 [research/p5_validation.md](research/p5_validation.md).
 The successive-q branch model and proof benchmark are in
 [research/staged_uncompression.md](research/staged_uncompression.md).
+The complete small-case first-stage derivation and enumeration are in
+[research/intermediate_stage.md](research/intermediate_stage.md).
 The common-multiplier artifact boundary is documented in
 [research/multiplier_artifact_audit.md](research/multiplier_artifact_audit.md).
 

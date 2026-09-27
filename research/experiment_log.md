@@ -276,6 +276,47 @@ length 333 or order 668.
   --solver tmp/tools/roundingsat/roundingsat.exe --verifier
   tmp/tools/veripb-3.0.2/bin/veripb.exe --search-seconds 10`
 
+## EXP-PB-005: exhaustive first-stage q=3 intermediate generation
+
+- Status: exhaustive small-parameter enumeration and exact model; PASS
+- UTC completion: 2026-09-27T21:39:44.541739Z
+- Objective: implement the first stage of successive q-uncompression,
+  validate complete coverage at p=3, and recover the published p=5 branch
+- Primary source: successive-q architecture and LP(45) in
+  `kotsireas2025compression`; equations independently derived in
+  `intermediate_stage.md`
+- Mathematical constraints: every ordered residue triple in
+  `{-3,-1,1,3}^3`, exact second compression, zero and all nonredundant PAF
+  constants, exact two-bit entry encoding, XOR squares, and AND products
+- Configuration: p in `{3,5}`, q=3; deterministic PAF-signature hash join;
+  VeriPB 3.0.2
+- Random seed: not applicable
+- Git commit: working tree on branch `agent/order-428-reproduction`; final
+  commit recorded by repository history
+- Hardware and software: Windows 11, AMD64 Family 25 Model 117; Python 3.14.6
+- CPU cores / peak memory / storage: one core; p=5 `tracemalloc` peak
+  18,917,201 bytes; frozen package below 120 KB
+- Complete output: `results/intermediate_stage/`; models, certificates,
+  verifier transcripts, counts, timings, and hashes in `metadata.json`
+- Exact checker: independent enumeration/signature join, every
+  `IntermediatePBModel` record on representatives and known branches, and
+  VeriPB complete-assignment certificates
+- Result: p=3 enumerated 1,200 rows per side, 282 signatures per side, 25
+  matching signature classes, and 792 ordered pairs; p=5 enumerated 120,000
+  rows per side, 18,348 signatures per side, 208 matching classes, and 10,476
+  ordered pairs. The published p=5 branch was recovered exactly. VeriPB
+  accepted both known-branch certificates.
+- Runtime: 0.060484 seconds at p=3 and 15.293400 seconds at p=5 with
+  `tracemalloc` enabled
+- Interpretation: the source's first-stage small-case gate is complete and
+  independently modeled, but the exponential generator is not a p=37 method
+- Limitations / failed cases: the p=3 known branch belongs to a recovered
+  signature class but is not the deterministic representative stored for
+  that class; this is not a coverage failure. No final-binary p=5 portfolio,
+  LP(333), or order-668 computation was run.
+- Reproduction command: `python -m scripts.build_intermediate_stage
+  --verifier tmp/tools/veripb-3.0.2/bin/veripb.exe`
+
 ## EXP-SYM-001: free translation canonicalization
 
 - Status: exact derivation and exhaustive small-case validation; PASS

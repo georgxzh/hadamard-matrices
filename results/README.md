@@ -38,6 +38,10 @@ p=3 and p=5. Both p=3 open searches have VeriPB-checked SAT proofs and
 independently checked solver rows; bounded p=5 searches timed out, with their
 incomplete proofs retained only in ignored scratch storage.
 
+`intermediate_stage/` freezes the exact first-stage OPB models, known-branch
+SAT certificates, VeriPB transcripts, and exhaustive p=3/p=5 signature-join
+counts. The published p=5 intermediate branch is recovered exactly.
+
 `multiplier_audit/` records the exact external commit, certificate hashes,
 locally reproduced fixed-symmetry exclusions, release-archive checksum, and
 the cases whose full DRAT/MITM evidence was not rerun.

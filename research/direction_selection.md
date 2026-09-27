@@ -1,7 +1,8 @@
 # Direction selection
 
-Status: revised 2026-09-27 after the published structured LP(45) closed the
-p=5 validation gate. No expensive run authorized.
+Status: revised 2026-09-27 after exhaustive p=3/p=5 first-stage generation
+closed the successive-uncompression small-case gate. No expensive run
+authorized.
 
 Order 428 and the exact Legendre core are reproduced. The structured pq^2
 compressed pair is now derived, proved, and reproduced at `p=3`.
@@ -49,13 +50,15 @@ Gates before any run:
 5. request approval with measured solver/proof estimates before any LP(333)
    run.
 
-The conditional second-stage `q=3` model is now implemented. Fixed
-intermediate branches solve with checked proofs at p=3 but time out at p=5.
-The next milestone is complete first-stage generation of valid length-`3p`
-intermediate pairs, validated exhaustively at p=3 and required to recover the
-published p=5 branch. This follows the primary source's architecture and
-avoids treating local XOR-facet deletion as an optimization: exhaustive truth
-tables show that all four facets are required in the direct reification.
+The conditional second-stage `q=3` model is implemented. Fixed intermediate
+branches solve with checked proofs at p=3 but time out at p=5. The first stage
+is now also complete at small parameters: exhaustive generation gives 792
+ordered p=3 and 10,476 ordered p=5 intermediate pairs and recovers the
+published p=5 branch. This validates the source architecture, but also shows
+that the direct residue-product generator is not a p=37 algorithm. The next
+bounded step is a deterministic p=5 branch-filter/second-stage portfolio and
+a non-enumerative first-stage formulation for p=37. Exhaustive truth tables
+still show that all local XOR and AND facets are required.
 
 The honest prior is that this fails too. Passing every compressed necessary
 condition does not imply a binary preimage exists, and the source states the

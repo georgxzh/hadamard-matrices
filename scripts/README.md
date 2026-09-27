@@ -64,6 +64,15 @@ final binary rows. It never builds or solves LP(333).
 python -m scripts.benchmark_staged_uncompression --solver path\to\roundingsat.exe --verifier path\to\veripb.exe --search-seconds 10
 ```
 
+`build_intermediate_stage.py` exhaustively generates the first-stage
+length-`3p` intermediate pairs at p=3 and p=5, writes the independent exact
+OPB formulation, and checks known-branch certificates with VeriPB. It uses one
+core and never builds or solves LP(333).
+
+```powershell
+python -m scripts.build_intermediate_stage --verifier path\to\veripb.exe
+```
+
 No open-search script targeting order 668 is present. Direct enumeration at
 `p=37, q=3` would require about `2.4e71` candidates per row; see
 `research/pq2_derivation.md`.

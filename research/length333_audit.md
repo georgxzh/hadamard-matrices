@@ -168,9 +168,10 @@ through the remaining gates:
    not yet combined into a canonical encoding;
 2. **Complete for pipeline validation:** exact proof-check time, memory, and
    proof sizes are recorded; unfixed LP(27) solving remains unsuccessful;
-3. **Complete for fixed branches:** the conditional successive-q formulation
-   solves p=3 with checked proofs but times out at p=5; implement complete
-   first-stage intermediate generation next;
+3. **Complete at small first-stage parameters:** the conditional successive-q
+   formulation solves p=3 with checked proofs but times out at p=5; exhaustive
+   first-stage generation at p=3 and p=5 finds 792 and 10,476 ordered
+   intermediate pairs and recovers the published p=5 branch;
 4. request approval with measured resources before any LP(333) solver run.
 
 This is a research hypothesis, not evidence that the conjectured
@@ -210,8 +211,9 @@ remains, in order:
    the ten locally unreproduced exclusions;
 2. locate and audit the inputs behind the reported 12,017,243 9-compressed
    configurations;
-3. complete the paper's first-stage intermediate-pair generation and require
-   exhaustive p=3 coverage plus recovery of the published p=5 branch before
-   any larger solver proposal; bounded staged p=5 searches still time out.
+3. benchmark exact filtering and a bounded deterministic second-stage
+   portfolio on the complete p=5 intermediate set, then derive a
+   non-enumerative first-stage strategy for p=37; bounded staged p=5 searches
+   still time out.
 
 No expensive computation is authorized by this recommendation.

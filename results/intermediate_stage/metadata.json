@@ -1,0 +1,243 @@
+{
+  "algorithm": "enumerate all {-3,-1,1,3} residue triples and hash-join exact nonredundant PAF signatures",
+  "cases": {
+    "p3": {
+      "known_branch_certificate": {
+        "bytes": 1936,
+        "path": "results/intermediate_stage/p3_known_branch.pbp",
+        "sha256": "150ecf221c7452a0f5731429d5f3bb0d9f85feb74943bc6bf42fe9ff45f3e668"
+      },
+      "known_branch_recovered_as_stored_representative": false,
+      "known_intermediate_first": [
+        -1,
+        1,
+        1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        -3
+      ],
+      "known_intermediate_second": [
+        -1,
+        -1,
+        3,
+        -1,
+        1,
+        1,
+        3,
+        -3,
+        -1
+      ],
+      "known_signature_first": [
+        17,
+        1,
+        -7,
+        1,
+        -3
+      ],
+      "known_signature_second": [
+        33,
+        -7,
+        1,
+        -7,
+        -3
+      ],
+      "model_stats": {
+        "base_variables": 36,
+        "compression_equalities": 6,
+        "constraint_records": 947,
+        "correlation_equalities": 4,
+        "intermediate_length": 9,
+        "normalized_inequalities": 958,
+        "prescribed_length": 3,
+        "product_inequalities": 864,
+        "product_variables": 288,
+        "square_xor_inequalities": 72,
+        "square_xor_variables": 18,
+        "variables": 342,
+        "zero_shift_equalities": 1
+      },
+      "opb": {
+        "bytes": 25735,
+        "path": "results/intermediate_stage/p3_intermediate.opb",
+        "sha256": "87706a09fb885d77fe570935a36a5a3e57249f39132184c8488a1de31766c033"
+      },
+      "prescribed_first": [
+        1,
+        3,
+        -3
+      ],
+      "prescribed_second": [
+        1,
+        -3,
+        3
+      ],
+      "search": {
+        "elapsed_seconds": 0.060484,
+        "first_candidates": 1200,
+        "first_signatures": 282,
+        "ordered_pairs": 792,
+        "second_candidates": 1200,
+        "second_signatures": 282,
+        "signature_matches": 25,
+        "stored_representatives": 25,
+        "tracemalloc_peak_bytes": 221393
+      },
+      "verification": {
+        "command": [
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\veripb-3.0.2\\bin\\veripb.exe",
+          "--stats",
+          "results/intermediate_stage/p3_intermediate.opb",
+          "results/intermediate_stage/p3_known_branch.pbp"
+        ],
+        "elapsed_seconds": 0.026281,
+        "exit_code": 0,
+        "status": "VERIFIED SATISFIABLE",
+        "stdout": {
+          "bytes": 179,
+          "path": "results/intermediate_stage/p3_known_branch_veripb.txt",
+          "sha256": "286f19f481ece162eb779f672a73ef48bade71a2a9012ab64222bf594eb82b12"
+        }
+      }
+    },
+    "p5": {
+      "known_branch_certificate": {
+        "bytes": 5351,
+        "path": "results/intermediate_stage/p5_known_branch.pbp",
+        "sha256": "0161687dd8d1e2c5ab6c6533010448d022ac375c2a1476b9bbe97398829795c8"
+      },
+      "known_branch_recovered_as_stored_representative": true,
+      "known_intermediate_first": [
+        -3,
+        -1,
+        -1,
+        -3,
+        1,
+        1,
+        3,
+        -1,
+        -1,
+        -1,
+        3,
+        1,
+        -1,
+        1,
+        3
+      ],
+      "known_intermediate_second": [
+        -1,
+        -1,
+        -1,
+        1,
+        -1,
+        -1,
+        -1,
+        1,
+        1,
+        -1,
+        3,
+        -1,
+        3,
+        1,
+        -1
+      ],
+      "known_signature_first": [
+        55,
+        -1,
+        -13,
+        -5,
+        -1,
+        -9,
+        -1,
+        3
+      ],
+      "known_signature_second": [
+        31,
+        -5,
+        7,
+        -1,
+        -5,
+        3,
+        -5,
+        -9
+      ],
+      "model_stats": {
+        "base_variables": 60,
+        "compression_equalities": 10,
+        "constraint_records": 2658,
+        "correlation_equalities": 7,
+        "intermediate_length": 15,
+        "normalized_inequalities": 2676,
+        "prescribed_length": 5,
+        "product_inequalities": 2520,
+        "product_variables": 840,
+        "square_xor_inequalities": 120,
+        "square_xor_variables": 30,
+        "variables": 930,
+        "zero_shift_equalities": 1
+      },
+      "opb": {
+        "bytes": 72581,
+        "path": "results/intermediate_stage/p5_intermediate.opb",
+        "sha256": "78aea4104d72627a6d5585ef8ad14af70960d9efe73043bf059a48b0dfedd048"
+      },
+      "prescribed_first": [
+        1,
+        3,
+        -3,
+        -3,
+        3
+      ],
+      "prescribed_second": [
+        1,
+        -3,
+        3,
+        3,
+        -3
+      ],
+      "search": {
+        "elapsed_seconds": 15.2934,
+        "first_candidates": 120000,
+        "first_signatures": 18348,
+        "ordered_pairs": 10476,
+        "second_candidates": 120000,
+        "second_signatures": 18348,
+        "signature_matches": 208,
+        "stored_representatives": 32,
+        "tracemalloc_peak_bytes": 18917201
+      },
+      "verification": {
+        "command": [
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\veripb-3.0.2\\bin\\veripb.exe",
+          "--stats",
+          "results/intermediate_stage/p5_intermediate.opb",
+          "results/intermediate_stage/p5_known_branch.pbp"
+        ],
+        "elapsed_seconds": 0.034405,
+        "exit_code": 0,
+        "status": "VERIFIED SATISFIABLE",
+        "stdout": {
+          "bytes": 179,
+          "path": "results/intermediate_stage/p5_known_branch_veripb.txt",
+          "sha256": "6a929882074f43985442f7c362b20283e67970baeafc041375bf8419e28e7101"
+        }
+      }
+    }
+  },
+  "command": "python -m scripts.build_intermediate_stage --verifier tmp/tools/veripb-3.0.2/bin/veripb.exe",
+  "completed_utc": "2026-09-27T21:39:44.541739+00:00",
+  "cpu_cores_used": 1,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD",
+  "random_seed": null,
+  "source_basis": "successive q-uncompression in kotsireas2025compression",
+  "status": "exhaustive p=3/p=5 intermediate-stage enumeration and known-branch certificate verification; no LP(333) model and no order-668 result",
+  "verifier": {
+    "bytes": 2588160,
+    "path": "tmp/tools/veripb-3.0.2/bin/veripb.exe",
+    "sha256": "c3e3d547112c5cf0f9bf610438bb0b629a8699b85dcaa337ed0af55978bad676"
+  },
+  "verifier_version": "VeriPB 3.0.2"
+}
