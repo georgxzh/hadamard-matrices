@@ -49,12 +49,13 @@ Gates before any run:
 5. request approval with measured solver/proof estimates before any LP(333)
    run.
 
-The next implementation milestone is an exact two-stage `q=3` model with
-length-15 intermediate rows, validated against the reproduced LP(45) and the
-exhaustive LP(27) corpus. This follows the primary source's successful
-construction architecture and avoids treating local XOR-facet deletion as an
-optimization: exhaustive truth tables show that all four facets are required
-in the current direct reification.
+The conditional second-stage `q=3` model is now implemented. Fixed
+intermediate branches solve with checked proofs at p=3 but time out at p=5.
+The next milestone is complete first-stage generation of valid length-`3p`
+intermediate pairs, validated exhaustively at p=3 and required to recover the
+published p=5 branch. This follows the primary source's architecture and
+avoids treating local XOR-facet deletion as an optimization: exhaustive truth
+tables show that all four facets are required in the direct reification.
 
 The honest prior is that this fails too. Passing every compressed necessary
 condition does not imply a binary preimage exists, and the source states the

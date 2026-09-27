@@ -33,6 +33,11 @@ those incomplete scratch proofs are hashed in metadata but are not tracked.
 translation-canonical OPB models and verified SAT certificates, and the
 dual-exactly-verified H(92). This is fixed-witness validation, not search.
 
+`staged_uncompression/` freezes conditional factor-three branch models at
+p=3 and p=5. Both p=3 open searches have VeriPB-checked SAT proofs and
+independently checked solver rows; bounded p=5 searches timed out, with their
+incomplete proofs retained only in ignored scratch storage.
+
 `multiplier_audit/` records the exact external commit, certificate hashes,
 locally reproduced fixed-symmetry exclusions, release-archive checksum, and
 the cases whose full DRAT/MITM evidence was not rerun.

@@ -130,8 +130,11 @@ Bibliographic keys refer to `references/references.bib`.
 - **Reproducibility:** the prescribed rows are independently derived for all
   parameters used here. The structured LP(45) printed in
   `kotsireas2025compression` is now transcribed and exactly reproduced,
-  including successive 3-compressions, H(92), and p=5 OPB certificates. The
-  later article's dynamic figure/direct PDF remains inaccessible.
+  including successive 3-compressions, H(92), and p=5 OPB certificates. Its
+  conditional second-stage architecture is implemented: p=3 branches solve
+  with checked SAT assignments/proofs, while p=5 branches time out. Complete
+  first-stage intermediate generation remains open. The later article's
+  dynamic figure/direct PDF remains inaccessible.
 - **Critical distinction:** the table's 333 row is a proposed route, not a
   constructed LP(333).
 

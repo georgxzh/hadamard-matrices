@@ -111,11 +111,12 @@ class UncompressionPBModel:
         factor: int,
         *,
         canonical_translations: bool = False,
+        canonical_residues: tuple[int, int] | None = None,
     ) -> None:
         self.first_compressed = tuple(first_compressed)
         self.second_compressed = tuple(second_compressed)
         self.factor = factor
-        self.canonical_translations = canonical_translations
+        self.canonical_translations = canonical_translations or canonical_residues is not None
         if not self.first_compressed:
             raise ValueError("compressed rows must be nonempty")
         if len(self.first_compressed) != len(self.second_compressed):
@@ -124,6 +125,12 @@ class UncompressionPBModel:
             raise ValueError("factor must be positive")
         for target in (*self.first_compressed, *self.second_compressed):
             self._negative_count(target)
+        self.canonical_residues = canonical_residues or (0, 0)
+        if len(self.canonical_residues) != 2 or any(
+            not 0 <= residue < self.compressed_length
+            for residue in self.canonical_residues
+        ):
+            raise ValueError("canonical residues must be two valid compressed indices")
 
     @property
     def compressed_length(self) -> int:
@@ -215,16 +222,18 @@ class UncompressionPBModel:
             # residue class zero with each of its nontrivial rotations.  Binary
             # positional weights encode exact lexicographic minimality.
             weights = tuple(1 << (self.factor - 1 - step) for step in range(self.factor))
-            for row in (0, 1):
+            for row, residue in enumerate(self.canonical_residues):
                 for rotation in range(1, self.factor):
                     coefficients: dict[int, int] = {}
                     for step, weight in enumerate(weights):
                         original = self._position_variable(
-                            row, step * self.compressed_length
+                            row, residue + step * self.compressed_length
                         )
                         rotated = self._position_variable(
                             row,
-                            ((step + rotation) % self.factor) * self.compressed_length,
+                            residue
+                            + ((step + rotation) % self.factor)
+                            * self.compressed_length,
                         )
                         coefficients[rotated] = coefficients.get(rotated, 0) + weight
                         coefficients[original] = coefficients.get(original, 0) - weight
@@ -303,7 +312,13 @@ class UncompressionPBModel:
             stream.write("* x1..xL: first row; x(L+1)..x(2L): second row\n")
             stream.write("* remaining variables: row-major XORs by row, shift, position\n")
             if self.canonical_translations:
-                stream.write("* translation canonicalization: enabled\n")
+                if self.canonical_residues == (0, 0):
+                    stream.write("* translation canonicalization: enabled\n")
+                else:
+                    stream.write(
+                        "* translation canonicalization residues: "
+                        f"{self.canonical_residues[0]},{self.canonical_residues[1]}\n"
+                    )
             for constraint in self.iter_constraints():
                 stream.write(constraint.to_opb())
 

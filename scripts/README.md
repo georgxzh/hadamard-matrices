@@ -56,6 +56,14 @@ it does not run an open search.
 python -m scripts.validate_p5_uncompression --verifier path\to\veripb.exe
 ```
 
+`benchmark_staged_uncompression.py` validates fixed length-`3p` intermediate
+branches at p=3 and p=5, then runs bounded proof-producing searches over the
+final binary rows. It never builds or solves LP(333).
+
+```powershell
+python -m scripts.benchmark_staged_uncompression --solver path\to\roundingsat.exe --verifier path\to\veripb.exe --search-seconds 10
+```
+
 No open-search script targeting order 668 is present. Direct enumeration at
 `p=37, q=3` would require about `2.4e71` candidates per row; see
 `research/pq2_derivation.md`.

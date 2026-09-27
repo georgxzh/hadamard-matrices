@@ -124,7 +124,9 @@ At p=5, 1,980 of 2,070 variables and 7,920 of 7,952 records belong to the XOR
 layer. Exhaustive binary truth tables confirm that the four inequalities for
 each local XOR are exact and individually irredundant. The next encoding
 experiment therefore follows the source's two successive q-uncompressions
-rather than deleting a facet. See `p5_validation.md`.
+rather than deleting a facet. The conditional second stage now solves p=3
+with checked proofs but times out at p=5; see `p5_validation.md` and
+`staged_uncompression.md`.
 
 ## 5. Proved coordinate symmetries
 
@@ -211,5 +213,7 @@ OPB as its standard input and supports SAT/UNSAT certificates
 
 The LP(27) RoundingSat/VeriPB pipeline is now checked end to end, but bounded
 unfixed runs did not recover the known witness. See `pb_backend_benchmark.md`.
-No LP(333) solver run is authorized until a backend solves an unfixed smaller
-instance and its certificate verifies.
+Fixing a valid length-nine intermediate branch lets the staged model solve
+LP(27) with a verified proof, but the corresponding fixed LP(45) branch still
+times out. No LP(333) solver run is authorized until complete first-stage
+coverage and a successful unfixed smaller staged instance are established.

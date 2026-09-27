@@ -235,6 +235,47 @@ length 333 or order 668.
 - Reproduction command: `python -m scripts.validate_p5_uncompression
   --verifier tmp/tools/veripb-3.0.2/bin/veripb.exe`
 
+## EXP-PB-004: conditional successive-q branch benchmark
+
+- Status: exact conditional model; p=3 SAT/PASS, p=5 TIMELIMIT
+- UTC completion: 2026-09-27T21:15:16.185839Z
+- Objective: implement the source-backed second stage of successive
+  q-uncompression and test whether fixing a valid intermediate pair improves
+  proof-producing search
+- Primary source: successive-q architecture in `kotsireas2025compression`;
+  intermediate rows are computed exactly from repository LP(27) and LP(45)
+  witnesses
+- Mathematical constraints: intermediate range/parity, row sums, exact
+  compressed PAF constants, second compression to the prescribed rows, final
+  binary Legendre equations, and per-row translation canonicalization on an
+  aperiodic selected residue
+- Configuration: p in `{3,5}`, q=3, factor-three final uncompression;
+  RoundingSat commit `d4edbf7`, `--lp=0`, ten-second internal limit; VeriPB
+  3.0.2
+- Random seed: not exposed or set; solver runs are observations
+- Git commit: working tree on branch `agent/order-428-reproduction`; final
+  commit recorded by repository history
+- Hardware and software: Windows 11, AMD64 Family 25 Model 117; Python 3.14.6
+- CPU cores / peak memory / storage: one core; solver peak below 14 MB; p=3
+  complete proofs 1,638,002 and 2,527,594 bytes; p=5 incomplete scratch
+  proofs 20,712,367 and 22,182,057 bytes
+- Complete output: `results/staged_uncompression/`; incomplete proofs remain
+  ignored scratch artifacts identified by hash in metadata
+- Exact checker: `FactorThreeBranch`, every OPB record, exact PAF/SDS/PSD
+  checks on returned rows, and VeriPB verification of known-witness and solver
+  proofs
+- Result: p=3 unbroken SAT in 0.575 seconds and canonical SAT in 0.818
+  seconds; both solver assignments and proofs verify. The corresponding p=5
+  runs returned `TIMELIMIT` after approximately 11.05 seconds each
+- Interpretation: fixing a valid intermediate branch materially improves the
+  p=3 search over the timed-out one-stage model, but is insufficient at p=5
+- Limitations / failed cases: this is a conditional branch model, not complete
+  generation of all valid intermediate pairs; p=5 was not solved by search;
+  no LP(333) model or H(668) claim
+- Reproduction command: `python -m scripts.benchmark_staged_uncompression
+  --solver tmp/tools/roundingsat/roundingsat.exe --verifier
+  tmp/tools/veripb-3.0.2/bin/veripb.exe --search-seconds 10`
+
 ## EXP-SYM-001: free translation canonicalization
 
 - Status: exact derivation and exhaustive small-case validation; PASS

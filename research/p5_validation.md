@@ -77,10 +77,11 @@ admits a false XOR assignment. Thus no facet can be dropped from this direct
 per-disagreement reification while preserving exactness.
 
 This does not prove that all exact formulations require the same auxiliaries.
-It shows only that local deletion cannot improve the present formulation. The
-source-backed next step is instead an exact two-stage q-uncompression model,
-using the printed length-15 intermediate witness here as a regression case.
-That formulation must be validated at p=3 and p=5 before any larger proposal.
+It shows only that local deletion cannot improve the present formulation. A
+conditional two-stage q-uncompression branch model has now been implemented
+and validated at p=3 and p=5; see `staged_uncompression.md`. It solves p=3
+with checked proofs but times out at p=5, so complete first-stage intermediate
+generation is the next milestone.
 
 ## Reproduction
 

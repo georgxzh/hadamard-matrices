@@ -13,6 +13,7 @@ from src.symmetry import (
     cyclic_translate,
     least_cyclic_period,
     multiplier_permute,
+    residue_bits,
     residue_zero_bits,
     reverse_cyclic,
 )
@@ -43,6 +44,15 @@ def test_canonical_residue_translation_is_minimal_and_idempotent() -> None:
     assert bits == min(bits[step:] + bits[:step] for step in range(9))
     assert canonical_residue_translation(canonical, 5) == (canonical, 0)
     assert compress(canonical, 5) == compressed
+
+
+def test_canonical_translation_can_use_a_nonzero_residue() -> None:
+    sequence = (1, 1, -1, -1, 1, 1, 1, -1, -1)
+    canonical, offset = canonical_residue_translation(sequence, 3, residue=1)
+    bits = residue_bits(canonical, 3, residue=1)
+    assert offset % 3 == 0
+    assert bits == min(bits[step:] + bits[:step] for step in range(3))
+    assert canonical_residue_translation(canonical, 3, residue=1) == (canonical, 0)
 
 
 def test_structured_factor_nine_residue_zero_word_has_full_period() -> None:

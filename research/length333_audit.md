@@ -168,9 +168,9 @@ through the remaining gates:
    not yet combined into a canonical encoding;
 2. **Complete for pipeline validation:** exact proof-check time, memory, and
    proof sizes are recorded; unfixed LP(27) solving remains unsuccessful;
-3. **Complete for a fixed witness:** the published structured LP(45) validates
-   both p=5 models and the exact certificate path; implement and validate the
-   source-backed successive-q formulation next;
+3. **Complete for fixed branches:** the conditional successive-q formulation
+   solves p=3 with checked proofs but times out at p=5; implement complete
+   first-stage intermediate generation next;
 4. request approval with measured resources before any LP(333) solver run.
 
 This is a research hypothesis, not evidence that the conjectured
@@ -210,8 +210,8 @@ remains, in order:
    the ten locally unreproduced exclusions;
 2. locate and audit the inputs behind the reported 12,017,243 9-compressed
    configurations;
-3. implement the paper's successive-q uncompression as an exact model and
-   require it to reproduce LP(27) and the published LP(45) before any larger
-   solver proposal; the present direct-model LP(27) timeouts prohibit one.
+3. complete the paper's first-stage intermediate-pair generation and require
+   exhaustive p=3 coverage plus recovery of the published p=5 branch before
+   any larger solver proposal; bounded staged p=5 searches still time out.
 
 No expensive computation is authorized by this recommendation.

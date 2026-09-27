@@ -44,14 +44,27 @@ def multiplier_permute(sequence: Sequence[int], multiplier: int) -> IntegerSeque
     return tuple(source[(multiplier * index) % length] for index in range(length))
 
 
-def residue_zero_bits(sequence: Sequence[int], compressed_length: int) -> tuple[int, ...]:
-    """Return the negative-sign bits in residue class zero of a compression."""
+def residue_bits(
+    sequence: Sequence[int], compressed_length: int, residue: int = 0
+) -> tuple[int, ...]:
+    """Return negative-sign bits in one residue class of a compression."""
 
     source = _validate_sign_sequence(sequence)
     if compressed_length <= 0 or len(source) % compressed_length:
         raise ValueError("compressed length must be a positive divisor of the row length")
+    if not 0 <= residue < compressed_length:
+        raise ValueError("residue must lie in 0..compressed_length-1")
     factor = len(source) // compressed_length
-    return tuple(int(source[step * compressed_length] == -1) for step in range(factor))
+    return tuple(
+        int(source[residue + step * compressed_length] == -1)
+        for step in range(factor)
+    )
+
+
+def residue_zero_bits(sequence: Sequence[int], compressed_length: int) -> tuple[int, ...]:
+    """Return the negative-sign bits in residue class zero of a compression."""
+
+    return residue_bits(sequence, compressed_length, 0)
 
 
 def least_cyclic_period(values: Sequence[int]) -> int:
@@ -69,9 +82,9 @@ def least_cyclic_period(values: Sequence[int]) -> int:
 
 
 def canonical_residue_translation(
-    sequence: Sequence[int], compressed_length: int
+    sequence: Sequence[int], compressed_length: int, residue: int = 0
 ) -> tuple[IntegerSequence, int]:
-    """Choose the least residue-zero bit rotation under translations by ``d``.
+    """Choose the least selected-residue rotation under translations by ``d``.
 
     The returned offset is a multiple of ``compressed_length``.  Ties are
     resolved by the least nonnegative offset; for the structured factor-nine
@@ -80,7 +93,7 @@ def canonical_residue_translation(
     """
 
     source = _validate_sign_sequence(sequence)
-    bits = residue_zero_bits(source, compressed_length)
+    bits = residue_bits(source, compressed_length, residue)
     rotations = [bits[step:] + bits[:step] for step in range(len(bits))]
     best_step = min(range(len(bits)), key=lambda step: (rotations[step], step))
     offset = best_step * compressed_length
