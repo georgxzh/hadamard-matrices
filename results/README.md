@@ -23,7 +23,11 @@ deterministically generated LP(333) model. The 15-MiB LP(333) OPB is generated
 under ignored `tmp/` rather than frozen here; its exact hash and size are in
 metadata. The directory also freezes the translation-canonical LP(27) OPB;
 the analogous LP(333) variant is reproducible scratch output. No solver search
-was run.
+was run at LP(333).
+
+`pb_backend_benchmark/` freezes complete SAT certificates and verification
+logs for both LP(27) models. It also records bounded open-search timeouts;
+those incomplete scratch proofs are hashed in metadata but are not tracked.
 
 `multiplier_audit/` records the exact external commit, certificate hashes,
 locally reproduced fixed-symmetry exclusions, release-archive checksum, and

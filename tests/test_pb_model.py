@@ -92,5 +92,7 @@ def test_written_opb_header_and_hash_are_deterministic(tmp_path) -> None:
     assert first.sha256 == second.sha256
     assert first.bytes == second.bytes
     text = first.path.read_text(encoding="ascii")
-    assert text.startswith("* #variable= 2 #constraint= 2\n")
+    assert text.startswith(
+        "* #variable= 2 #constraint= 2 #equal= 2 intsize= 4\n"
+    )
     assert sum(line.endswith(" ;") for line in text.splitlines()) == 2

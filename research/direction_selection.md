@@ -1,7 +1,7 @@
 # Direction selection
 
-Status: revised 2026-08-25 after a free translation action was proved,
-encoded, and exhaustively validated at p=3. No expensive run authorized.
+Status: revised 2026-09-27 after the LP(27) certificate pipeline was verified
+and bounded unfixed solver probes timed out. No expensive run authorized.
 
 Order 428 and the exact Legendre core are reproduced. The structured pq^2
 compressed pair is now derived, proved, and reproduced at `p=3`.
@@ -39,9 +39,10 @@ Gates before any run:
    order-81 action on ordered pairs; the canonical OPB adds 16 inequalities
    and was exhaustively validated. Reversal and multiplier actions are proved
    but remain unencoded pending a combined canonicalization proof;
-3. benchmark proof-logging PB backends on LP(27), measuring verifier time and
-   memory; do not assume a solver's UNSAT output is a certificate;
-4. decide whether a bounded p=5 validation can fit the approval gate;
+3. **Pipeline complete, search benchmark negative:** RoundingSat and VeriPB
+   interoperate with exact recorded proof sizes, time, and memory, but neither
+   unfixed LP(27) model was solved within the tested bounds;
+4. run a bounded p=5 model validation and investigate stronger encodings;
 5. request approval with measured solver/proof estimates before any LP(333)
    run.
 

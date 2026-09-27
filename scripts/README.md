@@ -39,6 +39,14 @@ reduction. It does not invoke a solver.
 python -m scripts.build_uncompression_opb
 ```
 
+`benchmark_pb_backend.py` validates the complete LP(27) certificate pipeline
+with RoundingSat and VeriPB, then runs short one-core proof-logging probes on
+both unfixed models. It never runs LP(333).
+
+```powershell
+python -m scripts.benchmark_pb_backend --solver path\to\roundingsat.exe --verifier path\to\veripb.exe --probe-seconds 10
+```
+
 No open-search script targeting order 668 is present. Direct enumeration at
 `p=37, q=3` would require about `2.4e71` candidates per row; see
 `research/pq2_derivation.md`.

@@ -1,6 +1,6 @@
 # Source ledger
 
-Last audited: 2026-08-20
+Last audited: 2026-09-27
 
 Labels:
 
@@ -29,7 +29,9 @@ Labels:
 | `chojecki2026status` | R | full PDF indexed | previous computational approach | claims not reproduced |
 | `ramos2026multipliers` | PP | complete arXiv v1 HTML and metadata | paper's 21/30 common-multiplier exclusions | scope and formulas audited; paired artifact below |
 | `ramos2026artifacts` | PP/software | current public repository at commit `691398b`; v1.0.0 release and checksum | post-v1 25/30 classification and proof-carrying evidence | 15 exclusions locally rerun; archive hash verified; ten full proof cases not rerun |
-| `veripb2026` | S/software | official repository and proof-format documentation | OPB compatibility and certificate policy | format audited; solver/checker not yet installed or benchmarked |
+| `koops2025prooflogging` | P/software | complete open HTML and official metadata | RoundingSat/VeriPB certified PB workflow | toolchain reproduced on LP(27) |
+| `roundingsat2026` | S/software | official repository, current source, README, and Windows binary | proof-producing PB backend | fixed-witness proofs verified; bounded open probes timed out |
+| `veripb2026` | S/software | official 3.0.2 tagged source and documentation | OPB SAT-certificate verification | built locally; four LP(27) certificates accepted |
 | `djokovic2009sds` | P/PP | arXiv abstract | SDS and Williamson alternatives | pending |
 | `djokovic2018gs` | P/PP | arXiv abstract | GS difference-family constraints | pending |
 | `deLauneyFlannery2000` | P | publisher abstract | cocyclic/RDS equivalence | pending |

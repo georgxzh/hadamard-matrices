@@ -4,6 +4,8 @@
 # line endings on every platform.
 *.csv text eol=lf
 *.json text eol=lf
+*.opb text eol=lf
+*.pbp text eol=lf
 *.txt text eol=lf
 *.sha256 text eol=lf
 

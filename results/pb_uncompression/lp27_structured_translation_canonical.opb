@@ -1,4 +1,4 @@
-* #variable= 756 #constraint= 2843
+* #variable= 756 #constraint= 2843 #equal= 19 intsize= 4
 * x1..xL: first row; x(L+1)..x(2L): second row
 * remaining variables: row-major XORs by row, shift, position
 * translation canonicalization: enabled

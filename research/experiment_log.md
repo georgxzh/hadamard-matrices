@@ -1,6 +1,8 @@
 # Experiment log
 
-No open-search experiments have been run.
+No LP(333) open-search experiment has been run. The bounded LP(27) backend
+probes in EXP-PB-002 are failed small-instance searches, not evidence at
+length 333 or order 668.
 
 ## EXP-428-001: published construction reproduction
 
@@ -149,12 +151,50 @@ No open-search experiments have been run.
   those matches represent 77,274 ordered pairs. LP(333) has 111,222 variables,
   442,464 OPB records, size 15,681,010 bytes, and SHA-256
   `60d5eb303c36fb1dee95e40ffb82b858a64c737c704be18e59d0764726f23405`.
+  This historical hash was superseded on 2026-09-27 solely by adding the
+  proof-logger header fields `#equal` and `intsize`; constraints are unchanged
 - Interpretation: the prescribed length-333 uncompression problem now has a
   deterministic, sound, complete, proof-oriented exact reference encoding
 - Limitations / failed cases: no solver was run; no LP(333) or H(668) is
   claimed; solver memory and clauses for long equalities are backend-dependent;
   this experiment's reference model is deliberately unbroken
 - Reproduction command: `python -m scripts.build_uncompression_opb`
+
+## EXP-PB-002: LP(27) RoundingSat/VeriPB backend benchmark
+
+- Status: certificate pipeline PASS; unfixed open-search probes TIMELIMIT
+- UTC date: 2026-09-27; generated metadata contains the precise rerun timestamp
+- Objective: establish proof-producing solver/checker interoperability and
+  obtain bounded time, memory, and proof-size measurements before LP(333)
+- Mathematical constraints: exact unbroken and translation-canonical LP(27)
+  OPB models; no approximation and no random choices
+- Configuration: RoundingSat commit `d4edbf7`; VeriPB 3.0.2; one core per
+  process; LP disabled for reproducible ten-second open probes
+- Random seed: not exposed or set by RoundingSat; runs are observations, not
+  exhaustive classifications
+- Git commit: working tree on branch `agent/order-428-reproduction`; final
+  commit recorded by repository history
+- Hardware and software: Windows 11, AMD64 Family 25 Model 117; Python 3.14.6;
+  exact executable hashes in `results/pb_backend_benchmark/metadata.json`
+- CPU cores / peak memory / storage: one core; open probes peaked near 12 MB;
+  incomplete ten-second proofs were 17,868,386 and 20,623,450 bytes
+- Complete output: `results/pb_backend_benchmark/`; incomplete open-search
+  proofs remain ignored scratch artifacts identified by hash
+- Exact checker: VeriPB reported `VERIFIED SATISFIABLE` for complete assignment
+  certificates and RoundingSat-generated fixed-witness proofs for both models;
+  the rows also passed exact Legendre, compression, and all-model-record checks
+- Result: end-to-end proof pipeline verified; both unfixed ten-second probes
+  returned `TIMELIMIT`. An earlier default LP-enabled unbroken run timed out
+  after 120 seconds with a 158,697,560-byte incomplete proof; an LP-disabled
+  canonical probe timed out after 60 seconds
+- Interpretation: the certificate gate is complete, but current search
+  performance is inadequate even on a known satisfiable LP(27) instance
+- Limitations / failed cases: fixed-witness runs test interoperability rather
+  than search; short timeouts do not compare asymptotic performance; no
+  LP(333) run and no H(668) claim
+- Reproduction command: `python -m scripts.benchmark_pb_backend --solver
+  tmp/tools/roundingsat/roundingsat.exe --verifier
+  tmp/tools/veripb-3.0.2/bin/veripb.exe --probe-seconds 10`
 
 ## EXP-SYM-001: free translation canonicalization
 
@@ -183,6 +223,8 @@ No open-search experiments have been run.
   into exactly 954 free translation orbits of size 81. Canonical LP(333)
   SHA-256 is
   `b59bf0499931c3d751e41a15cd59631da86ab0e3b2dbd2718b016693fe680cea`.
+  This historical hash was superseded on 2026-09-27 solely by the extended
+  proof-compatible header; constraints are unchanged
 - Interpretation: the prescribed LP(333) search now has a proved
   equisatisfiable translation-canonical model
 - Limitations / failed cases: reversal and common multiplier actions are

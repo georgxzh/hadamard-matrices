@@ -1,0 +1,242 @@
+{
+  "cases": {
+    "translation_canonical": {
+      "fixed_witness_proof": {
+        "bytes": 29581,
+        "path": "results/pb_backend_benchmark/translation_canonical_roundingsat_fixed.pbp",
+        "sha256": "bc8b8790faa9e71cad1069bb3362d1cfad5c96591284566475d4afc56e281151",
+        "tracked": true
+      },
+      "fixed_witness_roundingsat": {
+        "command": [
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\roundingsat\\roundingsat.exe",
+          "--print-sol=1",
+          "--verbosity=1",
+          "--lp=0",
+          "--proof-log=C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\pb_backend_benchmark\\translation_canonical_roundingsat_fixed.pbp",
+          "--time-limit=120",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\pb_backend_benchmark\\translation_canonical_fixed.opb"
+        ],
+        "elapsed_seconds": 0.068385,
+        "exit_code": 0,
+        "externally_timed_out": false,
+        "peak_working_set_bytes": 6098944,
+        "reported_status": "SATISFIABLE",
+        "stdout": {
+          "bytes": 6482,
+          "path": "results/pb_backend_benchmark/translation_canonical_roundingsat_fixed.txt",
+          "sha256": "0ee6a9a048c8bd0a035f5a307238e3307bb8ba41a395e1c1cc50c4f5fb7fd9c1"
+        }
+      },
+      "fixed_witness_veripb": {
+        "command": [
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\veripb-3.0.2\\bin\\veripb.exe",
+          "--stats",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\pb_backend_benchmark\\translation_canonical_fixed.opb",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\pb_backend_benchmark\\translation_canonical_roundingsat_fixed.pbp"
+        ],
+        "elapsed_seconds": 0.03459,
+        "exit_code": 0,
+        "externally_timed_out": false,
+        "peak_working_set_bytes": 9011200,
+        "reported_status": null,
+        "stdout": {
+          "bytes": 179,
+          "path": "results/pb_backend_benchmark/translation_canonical_roundingsat_fixed_veripb.txt",
+          "sha256": "75bd8072b0c33aefeaca4bf157613415b9cd94dd08dda3d37e2564c8d4f7ba9b"
+        }
+      },
+      "known_witness_certificate": {
+        "bytes": 4134,
+        "path": "results/pb_backend_benchmark/translation_canonical_known_witness.pbp",
+        "sha256": "0d54711dcabadb957376ddbd636f9a819a1d3ebed575de8998b39089daa015d9",
+        "tracked": true
+      },
+      "known_witness_exact_checks": {
+        "all_opb_records": true,
+        "legendre_pair": true,
+        "prescribed_compression": true
+      },
+      "known_witness_veripb": {
+        "command": [
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\veripb-3.0.2\\bin\\veripb.exe",
+          "--stats",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\pb_uncompression\\lp27_structured_translation_canonical.opb",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\pb_backend_benchmark\\translation_canonical_known_witness.pbp"
+        ],
+        "elapsed_seconds": 0.037368,
+        "exit_code": 0,
+        "externally_timed_out": false,
+        "peak_working_set_bytes": 8425472,
+        "reported_status": null,
+        "stdout": {
+          "bytes": 178,
+          "path": "results/pb_backend_benchmark/translation_canonical_known_witness_veripb.txt",
+          "sha256": "d65c5b9002582b3b77e3aa19e28601f9f2f52c5a53c659e3e3287b51a4147d76"
+        }
+      },
+      "opb": {
+        "bytes": 88555,
+        "path": "results/pb_uncompression/lp27_structured_translation_canonical.opb",
+        "sha256": "6395e52bd04102237c2e9ba46ec5d4077dab2adc067943991faefd73919ae9c6",
+        "tracked": true
+      },
+      "open_search_probe": {
+        "command": [
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\roundingsat\\roundingsat.exe",
+          "--print-sol=1",
+          "--verbosity=1",
+          "--lp=0",
+          "--proof-log=C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\pb_backend_benchmark\\translation_canonical_open_probe.pbp",
+          "--time-limit=10",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\pb_uncompression\\lp27_structured_translation_canonical.opb"
+        ],
+        "elapsed_seconds": 11.039056,
+        "exit_code": 4,
+        "externally_timed_out": false,
+        "peak_working_set_bytes": 12128256,
+        "reported_status": "TIMELIMIT",
+        "stdout": {
+          "bytes": 6215,
+          "path": "results/pb_backend_benchmark/translation_canonical_open_probe.txt",
+          "sha256": "dde700315662be5ca8d9c7499a881ca8491ac878315899afc37cc0984f2b3f1d"
+        }
+      },
+      "open_search_probe_proof": {
+        "bytes": 20623450,
+        "path": "tmp/pb_backend_benchmark/translation_canonical_open_probe.pbp",
+        "sha256": "136ead5c71a59ab905ca5eb7aa96932a321c896145f26959db9f80d83c311783",
+        "tracked": false
+      }
+    },
+    "unbroken": {
+      "fixed_witness_proof": {
+        "bytes": 30285,
+        "path": "results/pb_backend_benchmark/unbroken_roundingsat_fixed.pbp",
+        "sha256": "3fa521ae7bd99c49fd7edb9018b84bd82ce6ca78cc231013eba73818a662ea7b",
+        "tracked": true
+      },
+      "fixed_witness_roundingsat": {
+        "command": [
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\roundingsat\\roundingsat.exe",
+          "--print-sol=1",
+          "--verbosity=1",
+          "--lp=0",
+          "--proof-log=C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\pb_backend_benchmark\\unbroken_roundingsat_fixed.pbp",
+          "--time-limit=120",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\pb_backend_benchmark\\unbroken_fixed.opb"
+        ],
+        "elapsed_seconds": 0.065938,
+        "exit_code": 0,
+        "externally_timed_out": false,
+        "peak_working_set_bytes": 6098944,
+        "reported_status": "SATISFIABLE",
+        "stdout": {
+          "bytes": 6480,
+          "path": "results/pb_backend_benchmark/unbroken_roundingsat_fixed.txt",
+          "sha256": "2ad9c296ca0845a69f1a7c2aea560b55596437fb49be39f18ec19140b256e143"
+        }
+      },
+      "fixed_witness_veripb": {
+        "command": [
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\veripb-3.0.2\\bin\\veripb.exe",
+          "--stats",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\pb_backend_benchmark\\unbroken_fixed.opb",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\pb_backend_benchmark\\unbroken_roundingsat_fixed.pbp"
+        ],
+        "elapsed_seconds": 0.032939,
+        "exit_code": 0,
+        "externally_timed_out": false,
+        "peak_working_set_bytes": 8900608,
+        "reported_status": null,
+        "stdout": {
+          "bytes": 179,
+          "path": "results/pb_backend_benchmark/unbroken_roundingsat_fixed_veripb.txt",
+          "sha256": "613f592f08b2521a09dab006eb19a4f4bf8e63d2c44f03a9243ed474aedc66ad"
+        }
+      },
+      "known_witness_certificate": {
+        "bytes": 4134,
+        "path": "results/pb_backend_benchmark/unbroken_known_witness.pbp",
+        "sha256": "67703527ac5fb9d09e20bc11fa0f72c4af241986b50f719b4e2672d1571eefd9",
+        "tracked": true
+      },
+      "known_witness_exact_checks": {
+        "all_opb_records": true,
+        "legendre_pair": true,
+        "prescribed_compression": true
+      },
+      "known_witness_veripb": {
+        "command": [
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\veripb-3.0.2\\bin\\veripb.exe",
+          "--stats",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\pb_uncompression\\lp27_structured.opb",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\pb_backend_benchmark\\unbroken_known_witness.pbp"
+        ],
+        "elapsed_seconds": 0.100603,
+        "exit_code": 0,
+        "externally_timed_out": false,
+        "peak_working_set_bytes": 8335360,
+        "reported_status": null,
+        "stdout": {
+          "bytes": 179,
+          "path": "results/pb_backend_benchmark/unbroken_known_witness_veripb.txt",
+          "sha256": "7ea3c54e0a29063680a0e6c5e0ae7d12c6be3e1513d10054c82dbcf8fd12d71c"
+        }
+      },
+      "opb": {
+        "bytes": 87251,
+        "path": "results/pb_uncompression/lp27_structured.opb",
+        "sha256": "071752e9e5d2f5ff9f7f669d8dd03bfc6d9452ced13a930cc24f39ad1fd92a08",
+        "tracked": true
+      },
+      "open_search_probe": {
+        "command": [
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\roundingsat\\roundingsat.exe",
+          "--print-sol=1",
+          "--verbosity=1",
+          "--lp=0",
+          "--proof-log=C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\pb_backend_benchmark\\unbroken_open_probe.pbp",
+          "--time-limit=10",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\pb_uncompression\\lp27_structured.opb"
+        ],
+        "elapsed_seconds": 11.04812,
+        "exit_code": 4,
+        "externally_timed_out": false,
+        "peak_working_set_bytes": 12111872,
+        "reported_status": "TIMELIMIT",
+        "stdout": {
+          "bytes": 5967,
+          "path": "results/pb_backend_benchmark/unbroken_open_probe.txt",
+          "sha256": "98534d5b47a8d7a673f82d846dad6fdbdc56f0911326108b7b5000fbdc3f563a"
+        }
+      },
+      "open_search_probe_proof": {
+        "bytes": 17868386,
+        "path": "tmp/pb_backend_benchmark/unbroken_open_probe.pbp",
+        "sha256": "2ef6263ddfb5528377efeebdb7f28652228fae5bd8466bc9b91ebc4bfbff1636",
+        "tracked": false
+      }
+    }
+  },
+  "completed_utc": "2026-09-27T20:47:46.400131+00:00",
+  "cpu_cores_used_per_process": 1,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "probe_seconds_each": 10,
+  "processor": "AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD",
+  "roundingsat_reported_commit": "d4edbf7",
+  "solver": {
+    "bytes": 2149376,
+    "path": "tmp/tools/roundingsat/roundingsat.exe",
+    "sha256": "12a98e4ca9e91cd0fe344e88760fe0eaced3c1e4cf377b5134379ef4fec9fedf",
+    "tracked": false
+  },
+  "status": "LP(27) certificate-pipeline benchmark only; bounded open probes are not evidence about LP(333) or order 668",
+  "verifier": {
+    "bytes": 2588160,
+    "path": "tmp/tools/veripb-3.0.2/bin/veripb.exe",
+    "sha256": "c3e3d547112c5cf0f9bf610438bb0b629a8699b85dcaa337ed0af55978bad676",
+    "tracked": false
+  },
+  "verifier_version": "VeriPB 3.0.2"
+}

@@ -1,7 +1,8 @@
 # Exact pseudo-Boolean uncompression model
 
-Status: implemented and validated 2026-08-20. This is a model-construction
-milestone, not an LP(333) search and not an order-668 result.
+Status: implemented and validated 2026-08-20; proof-compatible header audited
+2026-09-27. This is a model-construction milestone, not an LP(333) search and
+not an order-668 result.
 
 ## 1. Variables and conventions
 
@@ -79,11 +80,13 @@ The implementation is `src/pb_model.py`; the deterministic builder is
 | OPB constraint records | 2,827 | 442,464 |
 | inequalities after splitting equalities | 2,846 | 442,704 |
 
-The generated LP(333) OPB is exactly 15,681,010 bytes (14.955 MiB), SHA-256
-`60d5eb303c36fb1dee95e40ffb82b858a64c737c704be18e59d0764726f23405`.
+The generated LP(333) OPB is exactly 15,681,033 bytes (14.955 MiB), SHA-256
+`2c1fab74f89ac9d19ed01d8380732049d8f22d0f72d7d5446249ddfacb9915f7`.
 It is reproducible scratch output under `tmp/pb_models/`, not a tracked
 15-MiB source artifact. The compact tracked LP(27) model has SHA-256
-`3fa0c938127f82f1c977a8a01f2d1b281b68b288b923e230e46d8c5200dad1d7`.
+`071752e9e5d2f5ff9f7f669d8dd03bfc6d9452ced13a930cc24f39ad1fd92a08`.
+These hashes include the proof-compatible `#equal` and `intsize` header
+fields required by the current RoundingSat proof logger.
 
 The 442,224 XOR inequalities translate directly to 442,224 ternary CNF
 clauses. A total CNF clause count is deliberately not asserted: it depends on
@@ -134,9 +137,10 @@ neither, so the word has full period nine. Thus each row action is free and
 the ordered-pair search space is reduced by exactly `9*9=81`.
 
 The canonical LP(333) variant has 111,222 variables and 442,480 OPB records.
-Its deterministic scratch artifact is 15,682,450 bytes, SHA-256
-`b59bf0499931c3d751e41a15cd59631da86ab0e3b2dbd2718b016693fe680cea`.
-The unbroken reference model and its previous hash are unchanged.
+Its deterministic scratch artifact is 15,682,473 bytes, SHA-256
+`d8276301c0182363f8a798c5ccdcfa661fdbf48824b968ebd5a7264d2260ec15`.
+The canonical constraints are unchanged; only the proof-compatible header
+changes this artifact's historical hash.
 
 Three additional actions are proved and tested but not yet encoded:
 
@@ -170,8 +174,8 @@ For the complete ordered-pair count, the free `C_9 x C_9` action partitions
 translation orbits. This is an exact group-action count, not a heuristic
 estimate.
 
-The tracked canonical LP(27) OPB is 88,533 bytes with SHA-256
-`be30ba592d737a525bbe778fb6ec657d1180cb76bf70f93bea623f8a229ebbb9`.
+The tracked canonical LP(27) OPB is 88,555 bytes with SHA-256
+`6395e52bd04102237c2e9ba46ec5d4077dab2adc067943991faefd73919ae9c6`.
 The complete rerun took 60.99 seconds on one core, including enumeration,
 validation against both models, and streaming both LP(333) variants.
 
@@ -190,6 +194,7 @@ hash and a proof accepted by VeriPB, whose official documentation identifies
 OPB as its standard input and supports SAT/UNSAT certificates
 `veripb2026`. A solver status line without a checked proof is not accepted.
 
-No LP(333) solver run is authorized by this milestone. Backend selection,
-proof logging, and solver-memory measurement must be completed before
-requesting approval for a bounded run.
+The LP(27) RoundingSat/VeriPB pipeline is now checked end to end, but bounded
+unfixed runs did not recover the known witness. See `pb_backend_benchmark.md`.
+No LP(333) solver run is authorized until a backend solves an unfixed smaller
+instance and its certificate verifies.

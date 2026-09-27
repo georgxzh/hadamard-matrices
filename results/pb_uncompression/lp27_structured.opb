@@ -1,4 +1,4 @@
-* #variable= 756 #constraint= 2827
+* #variable= 756 #constraint= 2827 #equal= 19 intsize= 4
 * x1..xL: first row; x(L+1)..x(2L): second row
 * remaining variables: row-major XORs by row, shift, position
 +1 x1 +1 x4 +1 x7 +1 x10 +1 x13 +1 x16 +1 x19 +1 x22 +1 x25 = 4 ;

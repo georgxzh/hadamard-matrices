@@ -37,6 +37,9 @@ The low-risk foundations, order-428 warm-up, and exact Legendre core are complet
 - a proved translation-canonical OPB variant reducing ordered prescribed
   uncompressions by an exact factor of 81, again exhaustively validated at
   p=3;
+- an end-to-end LP(27) RoundingSat/VeriPB certificate benchmark: four SAT
+  certificates verify, while bounded unfixed searches time out and therefore
+  do not justify an LP(333) run;
 - a versioned audit of the current common-multiplier artifacts, locally
   reproducing 15 of 25 reported exclusions and recording the ten-case full
   proof gap;
@@ -95,6 +98,8 @@ is recorded in
 [research/direction_selection.md](research/direction_selection.md).
 The exact OPB derivation and resource audit are in
 [research/pb_uncompression_model.md](research/pb_uncompression_model.md).
+The proof-backend benchmark and its negative search result are in
+[research/pb_backend_benchmark.md](research/pb_backend_benchmark.md).
 The common-multiplier artifact boundary is documented in
 [research/multiplier_artifact_audit.md](research/multiplier_artifact_audit.md).
 

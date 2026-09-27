@@ -74,10 +74,10 @@ constraint-satisfaction problem, not as a search over candidates. See
 **Exact constraint model — complete 2026-08-20.** The unbroken OPB encoding
 has 111,222 variables and 442,464 constraint records. It was exhaustively
 validated against all 7,614 canonical p=3 matches. The generated LP(333) input
-is 15,681,010 bytes with SHA-256
-`60d5eb303c36fb1dee95e40ffb82b858a64c737c704be18e59d0764726f23405`.
-No solver was run. Soundness, completeness, counts, and certificate policy are
-proved and recorded in `pb_uncompression_model.md`.
+is 15,681,033 bytes with SHA-256
+`2c1fab74f89ac9d19ed01d8380732049d8f22d0f72d7d5446249ddfacb9915f7`.
+No LP(333) solver was run. Soundness, completeness, counts, and certificate
+policy are proved and recorded in `pb_uncompression_model.md`.
 
 **Translation symmetry — complete 2026-08-25.** Independent translations of
 the two rows by multiples of 37 form a free order-81 action because each
@@ -87,6 +87,13 @@ canonical model has 442,480 records, unchanged variable count, and was
 validated on every p=3 canonical match. Reversal and multiplier actions are
 proved but intentionally remain unencoded pending a combined canonicalization
 proof.
+
+**Proof backend — pipeline complete, open benchmark negative 2026-09-27.**
+RoundingSat produced SAT proofs for exact fixed-witness copies of both LP(27)
+models, and VeriPB 3.0.2 accepted those proofs plus two independently emitted
+complete-assignment certificates. Ten-second unfixed proof-logging probes
+timed out for both models; longer exploratory runs also timed out. This proves
+toolchain interoperability but does not justify extrapolation to LP(333).
 
 ## Previously reported length-333 searches
 
@@ -159,9 +166,9 @@ through the remaining gates:
 1. **Complete for translations:** the free order-81 action is encoded and
    exhaustively validated; reversal and multiplier actions are documented but
    not yet combined into a canonical encoding;
-2. benchmark proof-logging PB backends on LP(27), including proof-check time
-   and memory;
-3. decide whether a bounded p=5 validation can stay within the approval gate;
+2. **Complete for pipeline validation:** exact proof-check time, memory, and
+   proof sizes are recorded; unfixed LP(27) solving remains unsuccessful;
+3. run a bounded p=5 model-validation experiment and audit stronger encodings;
 4. request approval with measured resources before any LP(333) solver run.
 
 This is a research hypothesis, not evidence that the conjectured
@@ -201,7 +208,7 @@ remains, in order:
    the ten locally unreproduced exclusions;
 2. locate and audit the inputs behind the reported 12,017,243 9-compressed
    configurations;
-3. benchmark a proof-logging backend on both unbroken and translation-
-   canonical LP(27) models before proposing any larger solver run.
+3. improve the encoding until a proof-logging backend solves an unfixed small
+   model; the present LP(27) timeouts prohibit a larger solver proposal.
 
 No expensive computation is authorized by this recommendation.

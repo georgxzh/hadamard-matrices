@@ -288,7 +288,9 @@ class UncompressionPBModel:
         stats = self.stats
         with path.open("w", encoding="ascii", newline="\n") as stream:
             stream.write(
-                f"* #variable= {stats.variables} #constraint= {stats.constraint_records}\n"
+                f"* #variable= {stats.variables} #constraint= {stats.constraint_records} "
+                f"#equal= {stats.compression_equalities + stats.correlation_equalities} "
+                "intsize= 4\n"
             )
             stream.write("* x1..xL: first row; x(L+1)..x(2L): second row\n")
             stream.write("* remaining variables: row-major XORs by row, shift, position\n")
