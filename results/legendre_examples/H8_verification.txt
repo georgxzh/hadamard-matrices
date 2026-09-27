@@ -1,0 +1,5 @@
+verifier: direct-integer
+status: PASS
+expected_order: 8
+candidate_sha256: 43d3038cde23ed4ec1459d4111e4692295ec4613185ded3f45db587b9dc8421d
+detail: all 64 entries are ±1 and H H^T = 8 I_8 exactly

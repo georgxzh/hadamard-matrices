@@ -1,0 +1,5 @@
+Running VeriPB version 3.0.2
+Info: Switched to proof version 2.0 (it is recommended to migrate to proof version 3.0).
+s VERIFIED SATISFIABLE
+
+c statistic: time total: 0.0024477 s

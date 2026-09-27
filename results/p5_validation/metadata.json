@@ -1,0 +1,199 @@
+{
+  "command": "python -m scripts.validate_p5_uncompression --verifier tmp/tools/veripb-3.0.2/bin/veripb.exe",
+  "cpu_cores_used": 1,
+  "deterministic": true,
+  "elapsed_seconds_this_run": 0.576737,
+  "exact_checks": {
+    "all_translation_canonical_opb_records": true,
+    "all_unbroken_opb_records": true,
+    "cyclotomic_psd": true,
+    "direct_9_compression": true,
+    "legendre_paf": true,
+    "negative_support_sds": true,
+    "successive_3_compressions": true
+  },
+  "hadamard": {
+    "candidate": {
+      "bytes": 21026,
+      "path": "results/p5_validation/H92.csv",
+      "sha256": "b134f19a01280f1b7c473f1c3900d2a4bc751596ca6f4c247ddf19b68a45fd77",
+      "tracked": true
+    },
+    "direct_report_sha256": "fdcc2d19eb3eba0b031569a98c2b804ca2dff9aaedac975e9aaf0a27903f40c4",
+    "direct_verifier": true,
+    "independent_bitpacked_verifier": true,
+    "independent_report_sha256": "c117b6cf7b5ae94a578cb101af920731e22fcab3344bfdf9eb1d1825a51c28b9",
+    "order": 92
+  },
+  "logical_cpu_count": 16,
+  "models": {
+    "translation_canonical": {
+      "certificate": {
+        "bytes": 12423,
+        "path": "results/p5_validation/lp45_translation_canonical_known_witness.pbp",
+        "sha256": "c32fddf71c51992e43494c8c17cf052745c76a41519b660a3d33865f3d17daf6",
+        "tracked": true
+      },
+      "free_ordered_pair_reduction_factor": 81,
+      "normalizing_offsets": [
+        20,
+        20
+      ],
+      "opb": {
+        "bytes": 253540,
+        "path": "results/p5_validation/lp45_structured_translation_canonical.opb",
+        "sha256": "bbb2773520c77a68e3cbc37b8a402a51b557b66217942334a05df5925a3f311b",
+        "tracked": true
+      },
+      "stats": {
+        "base_variables": 90,
+        "compressed_length": 5,
+        "compression_equalities": 10,
+        "constraint_records": 7968,
+        "correlation_equalities": 22,
+        "factor": 9,
+        "normalized_inequalities": 8000,
+        "symmetry_inequalities": 16,
+        "uncompressed_length": 45,
+        "variables": 2070,
+        "xor_inequalities": 7920,
+        "xor_variables": 1980
+      },
+      "veripb": {
+        "command": [
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\veripb-3.0.2\\bin\\veripb.exe",
+          "--stats",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\p5_validation\\lp45_structured_translation_canonical.opb",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\p5_validation\\lp45_translation_canonical_known_witness.pbp"
+        ],
+        "elapsed_seconds": 0.023471,
+        "exit_code": 0,
+        "reported_status": "VERIFIED SATISFIABLE",
+        "stdout": {
+          "bytes": 179,
+          "path": "results/p5_validation/lp45_translation_canonical_known_witness_veripb.txt",
+          "sha256": "9508da70dfa713993d517553eec3b3a2db03f7478f9b7927ab694c2407fadf7d",
+          "tracked": true
+        }
+      }
+    },
+    "unbroken": {
+      "certificate": {
+        "bytes": 12423,
+        "path": "results/p5_validation/lp45_known_witness.pbp",
+        "sha256": "59c46ebff9d78e38a10152d0d67e72373bc2a4355d5ef18e2358a2539fb600a2",
+        "tracked": true
+      },
+      "opb": {
+        "bytes": 252228,
+        "path": "results/p5_validation/lp45_structured.opb",
+        "sha256": "f740d655b0b81a94340b2457303105c8adf0ca869c0258605a00d2b047a6523e",
+        "tracked": true
+      },
+      "stats": {
+        "base_variables": 90,
+        "compressed_length": 5,
+        "compression_equalities": 10,
+        "constraint_records": 7952,
+        "correlation_equalities": 22,
+        "factor": 9,
+        "normalized_inequalities": 7984,
+        "symmetry_inequalities": 0,
+        "uncompressed_length": 45,
+        "variables": 2070,
+        "xor_inequalities": 7920,
+        "xor_variables": 1980
+      },
+      "veripb": {
+        "command": [
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\veripb-3.0.2\\bin\\veripb.exe",
+          "--stats",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\p5_validation\\lp45_structured.opb",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\p5_validation\\lp45_known_witness.pbp"
+        ],
+        "elapsed_seconds": 0.027473,
+        "exit_code": 0,
+        "reported_status": "VERIFIED SATISFIABLE",
+        "stdout": {
+          "bytes": 179,
+          "path": "results/p5_validation/lp45_known_witness_veripb.txt",
+          "sha256": "be35a619ede1f5120bd1e32df63be0b5f2884c3ec78fa4b1d6d81ecd9debb367",
+          "tracked": true
+        }
+      }
+    }
+  },
+  "parameters": {
+    "factor": 9,
+    "length": 45,
+    "p": 5,
+    "q": 3
+  },
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD",
+  "python": "3.14.6",
+  "python_peak_tracemalloc_bytes": 1478512,
+  "random_seed": null,
+  "search_run": false,
+  "source": {
+    "access": "publisher HTML; direct PDF unavailable",
+    "accessed": "2026-09-27",
+    "bibtex_key": "kotsireas2025compression",
+    "doi": "10.1145/3747199.3747549",
+    "location": "section 5.3.2, LP(3^2 * 5)"
+  },
+  "staged_compression": {
+    "intermediate_first": [
+      -3,
+      -1,
+      -1,
+      -3,
+      1,
+      1,
+      3,
+      -1,
+      -1,
+      -1,
+      3,
+      1,
+      -1,
+      1,
+      3
+    ],
+    "intermediate_second": [
+      -1,
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      3,
+      -1,
+      3,
+      1,
+      -1
+    ],
+    "length_15_to_5_factor": 3,
+    "length_45_to_15_factor": 3
+  },
+  "started_utc": "2026-09-27T20:58:41.134595+00:00",
+  "status": "published LP(45) fixed-witness reproduction and p=5 model validation; not an open search and not an order-668 result",
+  "uncompression_candidates_one_row": "6273179136",
+  "verifier": {
+    "bytes": 2588160,
+    "path": "tmp/tools/veripb-3.0.2/bin/veripb.exe",
+    "sha256": "c3e3d547112c5cf0f9bf610438bb0b629a8699b85dcaa337ed0af55978bad676",
+    "tracked": false
+  },
+  "verifier_version": "VeriPB 3.0.2",
+  "witness": {
+    "bytes": 965,
+    "path": "results/p5_validation/lp45_witness.json",
+    "sha256": "eb506bc2399901f1ceaf21ff0c51c5174fe18c5c023475ab85f89f03b7b3aaab",
+    "tracked": true
+  }
+}

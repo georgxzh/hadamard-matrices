@@ -1,0 +1,47 @@
+{
+  "base_sequence_lengths": [
+    71,
+    71,
+    36,
+    36
+  ],
+  "candidate_sha256": "c00e3f86da7acdab1123fb9d2ed5fc887d5b86dd786662ab37e46a3072cc7869",
+  "command": "python -m scripts.reproduce_h428",
+  "construction": "Kharaghani--Tayfeh-Rezaie TT(36) -> BS(71,71,36,36) -> T(107) -> GS H(428)",
+  "correlation": "exact nonperiodic integer autocorrelation",
+  "cpu_cores_used": 1,
+  "deterministic": true,
+  "direct_report_sha256": "751c2fb0e3b4de1652cd3d4bca7fa1c8c6db21077986aadeecfb5f41e4c6ab9c",
+  "elapsed_seconds_this_run": 3.126743,
+  "independent_report_sha256": "f8557e714a8a24b58d8d5038dcd272f118f84e20c4c7a9bc7b0282452e7cb666",
+  "indexing": "zero-based; published signs read left-to-right",
+  "logical_cpu_count": 16,
+  "matrix_shape": [
+    428,
+    428
+  ],
+  "peak_memory": "not measured; matrix is 428 x 428 Python integers",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD",
+  "python": "3.14.6",
+  "random_seed": null,
+  "source_sequence_lengths": [
+    36,
+    36,
+    36,
+    35
+  ],
+  "source_sequence_sums": [
+    0,
+    6,
+    8,
+    5
+  ],
+  "storage_bytes": 455933,
+  "t_sequence_lengths": [
+    107,
+    107,
+    107,
+    107
+  ]
+}

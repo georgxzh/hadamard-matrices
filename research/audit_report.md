@@ -15,7 +15,13 @@ Status: Phase 5 has not started.
    shared fixed subgroup, not multiplier-with-translation or unrestricted
    pairs.
 5. **Conjectural \(pq^2\) row.** The published table identifies \(p=37,q=3\)
-   as a route to LP(333); it does not report constructing that row.
+   as a route to LP(333); it does not report constructing that row. As of
+   2026-07-26 this repository derives and certifies the compressed pair
+   \(A(37,3),B(37,3)\) independently, but certification is of *necessary*
+   conditions only. No binary uncompression at \(p=37\) is known, and direct
+   enumeration would need about \(2.4\times10^{71}\) candidates per row.
+   A certified compressed object must never be reported as progress toward a
+   matrix.
 6. **Approximate PSD.** A small floating-point objective is not exact
    autocorrelation and cannot certify a pair.
 
