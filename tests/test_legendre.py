@@ -24,6 +24,7 @@ from src.legendre import (
     exact_psd,
     exact_psd_at_third_root,
     exact_psd_sum,
+    factor_three_projection_shifts,
     legendre_pair_to_hadamard,
     normalize_legendre_pair,
     periodic_autocorrelation,
@@ -54,8 +55,20 @@ def test_periodic_autocorrelation_all_shifts(
     sequence: tuple[int, ...], expected: tuple[int, ...]
 ) -> None:
     assert periodic_autocorrelations(sequence) == expected
-    assert tuple(periodic_autocorrelation(sequence, shift) for shift in range(len(sequence))) == expected
+    assert tuple(
+        periodic_autocorrelation(sequence, shift) for shift in range(len(sequence))
+    ) == expected
     assert periodic_autocorrelation(sequence, -1) == expected[-1]
+
+
+def test_factor_three_projection_shift_set() -> None:
+    assert factor_three_projection_shifts(9) == tuple(range(1, 9))
+    assert factor_three_projection_shifts(15) == tuple(range(1, 15))
+    assert factor_three_projection_shifts(111) == tuple(range(1, 111))
+    with pytest.raises(ValueError, match="positive odd"):
+        factor_three_projection_shifts(0)
+    with pytest.raises(ValueError, match="positive odd"):
+        factor_three_projection_shifts(14)
 
 
 def test_cyclic_convolution_uses_zero_based_modular_indices() -> None:

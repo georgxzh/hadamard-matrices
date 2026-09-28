@@ -75,12 +75,12 @@ RoundingSat did not recover a known LP(27) witness under the tested bounded
 open configurations, so extrapolating this encoding directly to LP(333) would
 be unjustified.
 
-The bounded p=5 fixed-witness validation and conditional second-stage model
-are now complete; see `p5_validation.md` and `staged_uncompression.md`. The
-staged model solves p=3 with checked proofs but not p=5. The next safe
-milestone is complete first-stage intermediate generation. No LP(333) solver
-run should be requested until the full staged pipeline solves an unfixed
-smaller instance and its certificate verifies.
+The bounded p=5 validation, complete first-stage profile, and exact projected
+second-stage model are now available; see `p5_validation.md`,
+`p5_branch_portfolio.md`, and `projected_uncompression.md`. Exact enumeration
+solves balanced p=5 branches, but the projected open PB solver still times
+out. No LP(333) run should be requested before first-stage canonicalization
+and short p=5/p=7 scaling measurements.
 
 Reproduction command:
 

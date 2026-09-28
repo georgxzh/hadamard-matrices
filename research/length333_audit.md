@@ -174,7 +174,11 @@ through the remaining gates:
    intermediate pairs. The p=5 set reduces to 1,164 translation orbits; a
    three-branch exhaustive portfolio finds two satisfiable branches and one
    branch with no binary pair;
-4. request approval with measured resources before any LP(333) solver run.
+4. **Complete as a reference formulation:** the non-enumerative p=37
+   first-stage OPB has 49,506 variables and 147,538 records; the exact
+   factor-three projection reduces a future fixed-branch second stage to
+   73,926 variables and 293,372 records, with exhaustive p=3/p=5 validation;
+5. request approval with measured resources before any LP(333) solver run.
 
 This is a research hypothesis, not evidence that the conjectured
 uncompression exists at 333.
@@ -213,8 +217,9 @@ remains, in order:
    the ten locally unreproduced exclusions;
 2. locate and audit the inputs behind the reported 12,017,243 9-compressed
    configurations;
-3. derive a non-enumerative first-stage strategy for p=37 and stronger exact
-   second-stage projection keys, using the completed p=5 profile to estimate
-   resources before any larger proposal.
+3. prove and encode first-stage translation canonicalization, then benchmark
+   the first-stage model at p=5 and p=7 with short proof budgets. The current
+   projected second-stage model is smaller but a p=37 branch still has
+   `3^167` paired binary preimages.
 
 No expensive computation is authorized by this recommendation.

@@ -1,8 +1,8 @@
 # Direction selection
 
-Status: revised 2026-09-27 after exhaustive p=3/p=5 first-stage generation
-closed the successive-uncompression small-case gate. No expensive run
-authorized.
+Status: revised 2026-09-27 after instantiating the non-enumerative p=37 first
+stage and proving the exact projected factor-three second stage. No expensive
+run authorized.
 
 Order 428 and the exact Legendre core are reproduced. The structured pq^2
 compressed pair is now derived, proved, and reproduced at `p=3`.
@@ -50,16 +50,16 @@ Gates before any run:
 5. request approval with measured solver/proof estimates before any LP(333)
    run.
 
-The conditional second-stage `q=3` model is implemented. Fixed intermediate
-branches solve with checked proofs at p=3 but time out at p=5. The first stage
-is complete at small parameters: exhaustive generation gives 792 ordered p=3
-and 10,476 ordered p=5 intermediate pairs. Exact scan-cost ranking reduces
-the latter to 1,164 translation orbits; exhaustive searches of the first three
-find 27, 27, and zero ordered LP(45) pairs. This validates the staged
-architecture and the branch-ordering principle, but also shows that the
-direct residue-product generator is not a p=37 algorithm. The next step is a
-non-enumerative first-stage formulation and stronger exact second-stage
-projections. All local XOR and AND facets remain necessary.
+The staged route now has a non-enumerative p=37 first-stage OPB with 49,506
+variables and 147,538 records. For any valid intermediate branch, an exact
+projection theorem reduces the final PAF key to shifts `1..N-1`; at length 333
+this gives 73,926 variables and 293,372 records instead of 111,222 and
+442,612. Exhaustive p=3 and p=5 checks show that the projected and full keys
+return identical solution counts, and a p=5 witness certificate passes
+VeriPB. However, the p=5 projected open solver still times out in ten seconds,
+and a p=37 branch retains `3^167` paired preimages. The next step is proved
+first-stage translation canonicalization and short p=5/p=7 solver scaling,
+not a p=37 run. See `projected_uncompression.md`.
 
 The honest prior is that this fails too. Passing every compressed necessary
 condition does not imply a binary preimage exists, and the source states the

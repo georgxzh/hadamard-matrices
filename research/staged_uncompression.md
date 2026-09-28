@@ -85,12 +85,12 @@ branches or LP(333).
 
 ## Next milestone
 
-The first-stage small-case gate is complete: exhaustive p=3/p=5 generation
-finds 792 and 10,476 ordered intermediate pairs respectively. The p=5 set is
-now fully profiled and a three-branch exhaustive portfolio recovers binary
-pairs in the first two branches; see `p5_branch_portfolio.md`. A
-non-enumerative p=37 first-stage design and stronger exact second-stage
-projections are required before any larger resource proposal.
+The first-stage small-case gate is complete, and the non-enumerative p=37
+first-stage OPB is now instantiated. An exact factor-three projection reduces
+the sufficient final PAF shifts from 166 to 110 at length 333; see
+`projected_uncompression.md`. Before any larger proposal, prove first-stage
+translation canonicalization and benchmark p=5/p=7 scaling under short proof
+budgets.
 
 Reproduction command:
 

@@ -598,7 +598,12 @@ class FactorThreeBranch:
             residues.append(residue)
         return residues[0], residues[1]
 
-    def model(self, *, canonical_translations: bool = False) -> UncompressionPBModel:
+    def model(
+        self,
+        *,
+        canonical_translations: bool = False,
+        projected_correlations: bool = False,
+    ) -> UncompressionPBModel:
         """Return the exact binary uncompression model for this fixed branch."""
 
         return UncompressionPBModel(
@@ -607,6 +612,7 @@ class FactorThreeBranch:
             3,
             canonical_translations=canonical_translations,
             canonical_residues=(self.canonical_residues if canonical_translations else None),
+            factor_three_projection=projected_correlations,
         )
 
     def _validate(self) -> None:

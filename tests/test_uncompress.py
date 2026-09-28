@@ -2,7 +2,9 @@
 
 from __future__ import annotations
 
+import json
 from math import comb
+from pathlib import Path
 
 import pytest
 
@@ -13,6 +15,7 @@ from src.legendre import (
     check_legendre_psd_constraints,
     check_negative_support_sds,
     compress,
+    decode_signs,
     jacobsthal_shifted_character_sum,
     legendre_pair_to_hadamard,
     quadratic_character,
@@ -22,12 +25,15 @@ from src.uncompress import (
     iter_uncompression_masks,
     mask_to_sequence,
     paf_signature,
+    paf_signature_at_shifts,
+    search_factor_three_uncompressions,
     search_uncompressions,
     uncompression_count,
 )
 
 
 PRESCRIBED = [(3, 3), (5, 3), (7, 3), (11, 3), (13, 3), (37, 3), (5, 5), (7, 5)]
+REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
 
 
 def test_quadratic_character_matches_squares_modulo_seven() -> None:
@@ -112,6 +118,28 @@ def test_paf_signature_agrees_with_direct_autocorrelation() -> None:
         sequence = mask_to_sequence(mask, 9)
         expected = tuple(periodic_autocorrelation(sequence, shift) for shift in range(1, 5))
         assert paf_signature(mask, 9) == expected
+        assert paf_signature_at_shifts(mask, 9, (1, 3)) == (
+            expected[0],
+            expected[2],
+        )
+
+
+def test_projected_factor_three_join_is_exact_at_p3() -> None:
+    record = json.loads(
+        (REPOSITORY_ROOT / "results" / "pb_uncompression" / "lp27_witness.json").read_text(
+            encoding="utf-8"
+        )
+    )
+    binary = decode_signs(record["first"]), decode_signs(record["second"])
+    intermediate = compress(binary[0], 9), compress(binary[1], 9)
+    full = search_uncompressions(*intermediate, 3, collect=1)
+    projected = search_factor_three_uncompressions(*intermediate, collect=1)
+    assert projected.first_candidates == full.first_candidates == 6_561
+    assert projected.second_candidates == full.second_candidates == 729
+    assert projected.distinct_second_vectors == full.distinct_second_vectors == 243
+    assert projected.matched_first_candidates == full.matched_first_candidates == 45
+    assert projected.ordered_pairs_found == full.ordered_pairs_found == 135
+    assert projected.solutions == full.solutions
 
 
 def test_uncompression_count_for_p37_q3_is_astronomically_large() -> None:

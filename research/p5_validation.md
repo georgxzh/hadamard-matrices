@@ -80,8 +80,10 @@ This does not prove that all exact formulations require the same auxiliaries.
 It shows only that local deletion cannot improve the present formulation. A
 conditional two-stage q-uncompression branch model has now been implemented
 and validated at p=3 and p=5; see `staged_uncompression.md`. It solves p=3
-with checked proofs but times out at p=5, so complete first-stage intermediate
-generation is the next milestone.
+with checked proofs but times out at p=5. Complete p=5 first-stage generation,
+branch profiling, and the exact projected PAF key are now recorded in
+`intermediate_stage.md`, `p5_branch_portfolio.md`, and
+`projected_uncompression.md`.
 
 ## Reproduction
 

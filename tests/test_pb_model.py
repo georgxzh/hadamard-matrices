@@ -6,7 +6,13 @@ from src.legendre import (
     published_structured_legendre_pair_45,
     structured_compressed_pair,
 )
-from src.pb_model import PBConstraint, UncompressionPBModel, and_constraints, xor_constraints
+from src.pb_model import (
+    PBConstraint,
+    UncompressionPBModel,
+    and_constraints,
+    factor_three_projected_model_stats,
+    xor_constraints,
+)
 from src.symmetry import canonical_residue_translation, residue_zero_bits
 from src.uncompress import search_uncompressions
 
@@ -47,6 +53,19 @@ def test_p37_model_has_the_derived_exact_counts() -> None:
     assert model.stats.symmetry_inequalities == 0
     assert model.stats.constraint_records == 442_464
     assert model.stats.normalized_inequalities == 442_704
+
+
+def test_projected_factor_three_p37_counts_without_a_branch() -> None:
+    stats = factor_three_projected_model_stats(111)
+    assert stats.uncompressed_length == 333
+    assert stats.base_variables == 666
+    assert stats.xor_variables == 73_260
+    assert stats.variables == 73_926
+    assert stats.xor_inequalities == 293_040
+    assert stats.compression_equalities == 222
+    assert stats.correlation_equalities == 110
+    assert stats.constraint_records == 293_372
+    assert stats.normalized_inequalities == 293_704
 
 
 def test_p5_model_counts_and_published_witness_are_exact() -> None:

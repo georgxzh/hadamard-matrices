@@ -28,7 +28,11 @@ from itertools import combinations, product
 from math import comb
 from typing import Iterator, Sequence
 
-from src.legendre import check_legendre_pair
+from src.legendre import (
+    check_compressed_legendre_constants,
+    check_legendre_pair,
+    factor_three_projection_shifts,
+)
 
 
 IntegerSequence = tuple[int, ...]
@@ -112,9 +116,24 @@ def paf_signature(mask: int, length: int) -> IntegerSequence:
     ``PAF(s) == PAF(length - s)``.
     """
 
+    return paf_signature_at_shifts(mask, length, range(1, length // 2 + 1))
+
+
+def paf_signature_at_shifts(
+    mask: int, length: int, shifts: Sequence[int]
+) -> IntegerSequence:
+    """Return exact packed PAF values at an explicit ordered shift set."""
+
+    if length <= 0 or mask < 0 or mask >= 1 << length:
+        raise ValueError("mask must encode exactly a positive-length binary row")
+    selected = tuple(shifts)
+    if len(set(selected)) != len(selected) or any(
+        not 1 <= shift < length for shift in selected
+    ):
+        raise ValueError("PAF shifts must be distinct and lie in 1..length-1")
     full = (1 << length) - 1
     signature = []
-    for shift in range(1, length // 2 + 1):
+    for shift in selected:
         rotated = ((mask >> shift) | (mask << (length - shift))) & full
         signature.append(length - 2 * (mask ^ rotated).bit_count())
     return tuple(signature)
@@ -142,6 +161,53 @@ def search_uncompressions(
     bit-packed fast path can never by itself admit a wrong answer.
     """
 
+    return _search_uncompressions_at_shifts(
+        first,
+        second,
+        factor,
+        tuple(range(1, len(first) * factor // 2 + 1)),
+        limit=limit,
+        collect=collect,
+    )
+
+
+def search_factor_three_uncompressions(
+    first: Sequence[int],
+    second: Sequence[int],
+    *,
+    limit: int | None = None,
+    collect: int = 1,
+) -> UncompressionSearch:
+    """Exactly search a fixed valid factor-three branch with projected PAF keys.
+
+    Only shifts ``1..N-1`` are stored for intermediate length ``N``. The
+    omitted final Legendre equations follow exactly from the compression PAF
+    identities, PAF symmetry, and the zero-shift equation. Returned witnesses
+    are nevertheless checked at every final shift.
+    """
+
+    check = check_compressed_legendre_constants(first, second, 3)
+    if not check.ok:
+        raise ValueError(f"invalid factor-three intermediate pair: {check.message}")
+    return _search_uncompressions_at_shifts(
+        first,
+        second,
+        3,
+        factor_three_projection_shifts(len(first)),
+        limit=limit,
+        collect=collect,
+    )
+
+
+def _search_uncompressions_at_shifts(
+    first: Sequence[int],
+    second: Sequence[int],
+    factor: int,
+    shifts: Sequence[int],
+    *,
+    limit: int | None,
+    collect: int,
+) -> UncompressionSearch:
     if len(first) != len(second):
         raise ValueError(f"length mismatch: {len(first)} != {len(second)}")
     if collect < 0:
@@ -156,7 +222,7 @@ def search_uncompressions(
         if limit is not None and second_scanned >= limit:
             break
         second_scanned += 1
-        signature = paf_signature(mask, length)
+        signature = paf_signature_at_shifts(mask, length, shifts)
         table.setdefault(signature, mask)
         multiplicities[signature] = multiplicities.get(signature, 0) + 1
 
@@ -168,7 +234,9 @@ def search_uncompressions(
         if limit is not None and first_scanned >= limit:
             break
         first_scanned += 1
-        wanted = tuple(-2 - value for value in paf_signature(mask, length))
+        wanted = tuple(
+            -2 - value for value in paf_signature_at_shifts(mask, length, shifts)
+        )
         partner = table.get(wanted)
         if partner is None:
             continue

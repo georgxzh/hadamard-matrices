@@ -47,6 +47,11 @@ the three-branch exhaustive benchmark, an LP(45) recovered independently of
 the printed rows, its VeriPB-checked branch certificate, and a
 dual-exactly-verified H(92).
 
+`projected_uncompression/` freezes the projected p=5 OPB, exact witness and
+VeriPB certificate, bounded solver transcript, and metadata for the
+non-enumerative p=37 first-stage model. The 4.5-MB p=37 OPB and incomplete
+p=5 solver proof remain reproducible ignored scratch artifacts.
+
 `multiplier_audit/` records the exact external commit, certificate hashes,
 locally reproduced fixed-symmetry exclusions, release-archive checksum, and
 the cases whose full DRAT/MITM evidence was not rerun.

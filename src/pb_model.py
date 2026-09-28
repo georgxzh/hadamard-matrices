@@ -23,6 +23,11 @@ from hashlib import sha256
 from pathlib import Path
 from typing import Iterable, Iterator, Mapping, Sequence
 
+from src.legendre import (
+    check_compressed_legendre_constants,
+    factor_three_projection_shifts,
+)
+
 
 IntegerSequence = tuple[int, ...]
 
@@ -88,6 +93,38 @@ class OPBArtifact:
     sha256: str
 
 
+def factor_three_projected_model_stats(
+    intermediate_length: int, *, canonical_translations: bool = False
+) -> PBModelStats:
+    """Return structural counts before a concrete valid branch is available."""
+
+    shifts = factor_three_projection_shifts(intermediate_length)
+    length = 3 * intermediate_length
+    base = 2 * length
+    xor = 2 * len(shifts) * length
+    xor_inequalities = 4 * xor
+    compression_equalities = 2 * intermediate_length
+    correlation_equalities = len(shifts)
+    symmetry_inequalities = 4 if canonical_translations else 0
+    equalities = compression_equalities + correlation_equalities
+    return PBModelStats(
+        compressed_length=intermediate_length,
+        factor=3,
+        uncompressed_length=length,
+        base_variables=base,
+        xor_variables=xor,
+        variables=base + xor,
+        xor_inequalities=xor_inequalities,
+        compression_equalities=compression_equalities,
+        correlation_equalities=correlation_equalities,
+        symmetry_inequalities=symmetry_inequalities,
+        constraint_records=xor_inequalities + equalities + symmetry_inequalities,
+        normalized_inequalities=(
+            xor_inequalities + 2 * equalities + symmetry_inequalities
+        ),
+    )
+
+
 def xor_constraints(left: int, right: int, xor: int) -> tuple[PBConstraint, ...]:
     """Return the four exact convex-hull facets for ``xor = left XOR right``."""
 
@@ -124,10 +161,12 @@ class UncompressionPBModel:
         *,
         canonical_translations: bool = False,
         canonical_residues: tuple[int, int] | None = None,
+        factor_three_projection: bool = False,
     ) -> None:
         self.first_compressed = tuple(first_compressed)
         self.second_compressed = tuple(second_compressed)
         self.factor = factor
+        self.factor_three_projection = factor_three_projection
         self.canonical_translations = canonical_translations or canonical_residues is not None
         if not self.first_compressed:
             raise ValueError("compressed rows must be nonempty")
@@ -143,6 +182,27 @@ class UncompressionPBModel:
             for residue in self.canonical_residues
         ):
             raise ValueError("canonical residues must be two valid compressed indices")
+        if factor_three_projection:
+            if factor != 3:
+                raise ValueError("factor-three projection requires factor=3")
+            check = check_compressed_legendre_constants(
+                self.first_compressed,
+                self.second_compressed,
+                3,
+            )
+            if not check.ok:
+                raise ValueError(
+                    "factor-three projection requires a valid intermediate pair: "
+                    f"{check.message}"
+                )
+            self.correlation_shifts = factor_three_projection_shifts(
+                self.compressed_length
+            )
+        else:
+            self.correlation_shifts = tuple(range(1, self.half_shifts + 1))
+        self._shift_indices = {
+            shift: index for index, shift in enumerate(self.correlation_shifts)
+        }
 
     @property
     def compressed_length(self) -> int:
@@ -158,11 +218,16 @@ class UncompressionPBModel:
 
     @property
     def stats(self) -> PBModelStats:
+        if self.factor_three_projection:
+            return factor_three_projected_model_stats(
+                self.compressed_length,
+                canonical_translations=self.canonical_translations,
+            )
         base = 2 * self.length
-        xor = 2 * self.half_shifts * self.length
+        xor = 2 * len(self.correlation_shifts) * self.length
         xor_inequalities = 4 * xor
         compression_equalities = 2 * self.compressed_length
-        correlation_equalities = self.half_shifts
+        correlation_equalities = len(self.correlation_shifts)
         symmetry_inequalities = 2 * (self.factor - 1) if self.canonical_translations else 0
         equalities = compression_equalities + correlation_equalities
         return PBModelStats(
@@ -208,12 +273,13 @@ class UncompressionPBModel:
     def xor_variable(self, row: int, shift: int, index: int) -> int:
         if row not in {0, 1}:
             raise IndexError("row must be zero or one")
-        if not 1 <= shift <= self.half_shifts:
-            raise IndexError("shift is outside the nonredundant range")
+        if shift not in self._shift_indices:
+            raise IndexError("shift is outside the encoded range")
         if not 0 <= index < self.length:
             raise IndexError("sequence index is outside the row")
-        offset = row * self.half_shifts * self.length
-        offset += (shift - 1) * self.length + index
+        shift_index = self._shift_indices[shift]
+        offset = row * len(self.correlation_shifts) * self.length
+        offset += shift_index * self.length + index
         return 2 * self.length + 1 + offset
 
     def iter_constraints(self) -> Iterator[PBConstraint]:
@@ -257,14 +323,14 @@ class UncompressionPBModel:
                     yield PBConstraint(terms, ">=", 0)
 
         for row in (0, 1):
-            for shift in range(1, self.half_shifts + 1):
+            for shift in self.correlation_shifts:
                 for index in range(self.length):
                     left = self._position_variable(row, index)
                     right = self._position_variable(row, (index + shift) % self.length)
                     xor = self.xor_variable(row, shift, index)
                     yield from xor_constraints(left, right, xor)
 
-        for shift in range(1, self.half_shifts + 1):
+        for shift in self.correlation_shifts:
             variables = tuple(
                 (1, self.xor_variable(row, shift, index))
                 for row in (0, 1)
@@ -287,7 +353,7 @@ class UncompressionPBModel:
         for row_index, row in enumerate(rows):
             for index, sign in enumerate(row):
                 assignment[self._position_variable(row_index, index)] = int(sign == -1)
-            for shift in range(1, self.half_shifts + 1):
+            for shift in self.correlation_shifts:
                 for index, sign in enumerate(row):
                     assignment[self.xor_variable(row_index, shift, index)] = int(
                         sign != row[(index + shift) % self.length]
@@ -331,6 +397,10 @@ class UncompressionPBModel:
                         "* translation canonicalization residues: "
                         f"{self.canonical_residues[0]},{self.canonical_residues[1]}\n"
                     )
+            if self.factor_three_projection:
+                stream.write(
+                    "* factor-three projected correlations: shifts 1..compressed_length-1\n"
+                )
             for constraint in self.iter_constraints():
                 stream.write(constraint.to_opb())
 

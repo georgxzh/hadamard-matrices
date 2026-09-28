@@ -57,6 +57,9 @@ def test_factor_three_branch_accepts_known_witnesses(
     assert branch.final_length == 9 * prime
     assert tuple(uncompression_count(row, 3) for row in intermediate) == expected_counts
     assert branch.model().first_failed_constraint(first, second) is None
+    projected = branch.model(projected_correlations=True)
+    assert projected.correlation_shifts == tuple(range(1, 3 * prime))
+    assert projected.first_failed_constraint(first, second) is None
 
     residues = branch.canonical_residues
     canonical_first, _ = canonical_residue_translation(first, 3 * prime, residues[0])
@@ -113,6 +116,27 @@ def test_intermediate_model_has_derived_exact_counts() -> None:
     assert p5.stats.product_inequalities == 2_520
     assert p5.stats.constraint_records == 2_658
     assert p5.stats.normalized_inequalities == 2_676
+
+
+def test_projected_branch_models_have_derived_exact_counts() -> None:
+    for prime, factory, expected in (
+        (3, _lp27, (486, 432, 1_754, 1_780)),
+        (5, published_structured_legendre_pair_45, (1_350, 1_260, 5_084, 5_128)),
+    ):
+        first, second = factory()
+        prescribed = structured_compressed_pair(prime, 3)
+        intermediate = compress(first, 3 * prime), compress(second, 3 * prime)
+        model = FactorThreeBranch(*prescribed, *intermediate).model(
+            projected_correlations=True
+        )
+        assert (
+            model.stats.variables,
+            model.stats.xor_variables,
+            model.stats.constraint_records,
+            model.stats.normalized_inequalities,
+        ) == expected
+        assert sum(1 for _ in model.iter_constraints()) == model.stats.constraint_records
+        assert model.first_failed_constraint(first, second) is None
 
 
 @pytest.mark.parametrize(

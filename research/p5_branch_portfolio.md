@@ -73,10 +73,11 @@ this enumerator, nor does three branches estimate the satisfiable fraction of
 all 1,164 orbits.
 
 For p=37, direct intermediate generation and per-branch binary enumeration
-remain exponential. The next useful milestone is therefore mathematical:
-derive first-stage constraints that avoid materializing all residue triples,
-and investigate stronger exact second-stage projections or meet-in-the-middle
-keys. Any LP(333) run still requires a separate resource proposal and user
+remain exponential. The non-enumerative first-stage OPB and exact projected
+second-stage key are now implemented in `projected_uncompression.md`; they
+quantify rather than remove the remaining obstruction. The next gate is
+proved first-stage translation canonicalization and short p=5/p=7 solver
+scaling. Any LP(333) run still requires a separate resource proposal and user
 approval.
 
 Reproduction command:

@@ -132,9 +132,10 @@ Bibliographic keys refer to `references/references.bib`.
   `kotsireas2025compression` is now transcribed and exactly reproduced,
   including successive 3-compressions, H(92), and p=5 OPB certificates. Its
   conditional second-stage architecture is implemented: p=3 branches solve
-  with checked SAT assignments/proofs, while p=5 branches time out. Complete
-  first-stage intermediate generation remains open. The later article's
-  dynamic figure/direct PDF remains inaccessible.
+  with checked SAT assignments/proofs, while generic p=5 solver probes time
+  out. First-stage generation is complete at p=3/p=5, a non-enumerative p=37
+  OPB is measured, and an exact projected fixed-branch model is implemented.
+  The later article's dynamic figure/direct PDF remains inaccessible.
 - **Critical distinction:** the table's 333 row is a proposed route, not a
   constructed LP(333).
 

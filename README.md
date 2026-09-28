@@ -51,6 +51,9 @@ The low-risk foundations, order-428 warm-up, and exact Legendre core are complet
 - a complete p=5 branch profile reducing those pairs to 1,164 translation
   orbits, plus a three-branch exhaustive portfolio yielding exact solution
   counts 27, 27, and 0 and a distinct dual-verified H(92) artifact;
+- a non-enumerative p=37 first-stage OPB and an exact factor-three projection
+  theorem reducing a future fixed-branch length-333 model to 73,926 variables
+  and 293,372 records, validated exhaustively at p=3 and p=5;
 - a versioned audit of the current common-multiplier artifacts, locally
   reproducing 15 of 25 reported exclusions and recording the ten-case full
   proof gap;
@@ -119,6 +122,8 @@ The complete small-case first-stage derivation and enumeration are in
 [research/intermediate_stage.md](research/intermediate_stage.md).
 The exact p=5 branch ranking and bounded second-stage portfolio are in
 [research/p5_branch_portfolio.md](research/p5_branch_portfolio.md).
+The p=37 first-stage model and sufficient projected PAF key are derived in
+[research/projected_uncompression.md](research/projected_uncompression.md).
 The common-multiplier artifact boundary is documented in
 [research/multiplier_artifact_audit.md](research/multiplier_artifact_audit.md).
 

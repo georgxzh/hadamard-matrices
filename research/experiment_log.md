@@ -364,6 +364,54 @@ length 333 or order 668.
 - Reproduction command: `python -m scripts.benchmark_p5_branch_portfolio
   --verifier tmp/tools/veripb-3.0.2/bin/veripb.exe --portfolio-size 3`
 
+## EXP-PB-007: p=37 first-stage model and projected second stage
+
+- Status: exact derivation, model construction, and small-case validation;
+  PASS, with bounded solver probe TIMELIMIT
+- UTC completion: 2026-09-28T02:17:18Z; precise timestamp and timings are in
+  `results/projected_uncompression/metadata.json`
+- Objective: replace first-stage enumeration by an exact p=37 constraint model
+  and reduce fixed-branch second-stage correlation keys without weakening the
+  Legendre equations
+- Primary sources: compression identity and successive-q architecture from
+  `djokovic2015compression` and `kotsireas2025compression`; contemporary
+  PAF-vector matching context from the abstract of `lebedev2026quaternary`
+- Mathematical constraints: exact first-stage two-bit entry model, every
+  intermediate PAF equation, factor-three compression fibres, PAF symmetry,
+  full final PAF/SDS/cyclotomic-PSD checks, and projected OPB records
+- Configuration: p in `{3,5,37}`, q=3; p=37 OPB generation only; rank-1 p=5
+  exhaustive projected join; RoundingSat commit `d4edbf7`, LP disabled,
+  ten-second probe; VeriPB 3.0.2
+- Random seed: not applicable
+- Git commit: working tree on branch `agent/order-428-reproduction`; final
+  commit recorded by repository history
+- Hardware and software: Windows 11, AMD64 Family 25 Model 117; Python 3.14.6
+- CPU cores / peak memory / storage: one core; peak memory not instrumented;
+  p=37 scratch OPB 4,538,361 bytes; latest incomplete solver proof 22,935,001
+  bytes in ignored scratch storage
+- Complete output: `results/projected_uncompression/`; p=37 OPB remains
+  reproducible ignored scratch output with exact hash in metadata
+- Exact checker: p=3 full/projected exhaustive equality; p=5 projected/full
+  count agreement, complete final mathematical checks, every projected OPB
+  record, and VeriPB SAT verification
+- Result: p=37 first stage has 49,506 variables and 147,538 records. A future
+  fixed-branch projected length-333 model has 73,926 variables and 293,372
+  records, reductions of 37,296 and 149,240 from the full fixed-branch model.
+  The p=5 projected key recovers all 27 rank-1 pairs. VeriPB accepts the known
+  witness certificate.
+- Runtime: complete frozen run 17.903824 seconds; p=5 projected join 6.269527
+  seconds; solver probe about 11.04 seconds
+- Interpretation: the staged route now has non-enumerative exact models at
+  p=37 and a sufficient 110-coordinate fixed-branch key, but not a feasible
+  enumeration or demonstrated p=37 solve
+- Limitations / failed cases: the p=5 open projected solver probe returned
+  `TIMELIMIT`; its proof is incomplete. A p=37 branch still has `3^167`
+  binary preimage pairs, and the best balanced explicit row scan is about
+  `1.6e40`. No p=37 solver was invoked and no order-668 result is claimed.
+- Reproduction command: `python -m scripts.build_projected_uncompression
+  --solver tmp/tools/roundingsat/roundingsat.exe --verifier
+  tmp/tools/veripb-3.0.2/bin/veripb.exe --probe-seconds 10`
+
 ## EXP-SYM-001: free translation canonicalization
 
 - Status: exact derivation and exhaustive small-case validation; PASS

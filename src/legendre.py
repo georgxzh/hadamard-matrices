@@ -334,6 +334,22 @@ def check_compression_paf_identity(
     )
 
 
+def factor_three_projection_shifts(intermediate_length: int) -> tuple[int, ...]:
+    """Return the sufficient PAF shifts for a fixed factor-three branch.
+
+    Let a binary row of length ``3*N`` be 3-compressed to a fixed row of odd
+    length ``N``. For a pair of valid intermediate rows, enforcing the final
+    Legendre equations at shifts ``1..N-1`` implies every omitted equation:
+    compression supplies the sum over each three-shift fibre and PAF symmetry
+    supplies a second member, while the shift-``N`` equation follows from the
+    zero-shift compression identity.
+    """
+
+    if intermediate_length <= 0 or intermediate_length % 2 == 0:
+        raise ValueError("intermediate length must be a positive odd integer")
+    return tuple(range(1, intermediate_length))
+
+
 def check_legendre_compression_constants(
     first: Sequence[int], second: Sequence[int], output_length: int
 ) -> bool:

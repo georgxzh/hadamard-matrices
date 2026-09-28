@@ -215,5 +215,7 @@ The LP(27) RoundingSat/VeriPB pipeline is now checked end to end, but bounded
 unfixed runs did not recover the known witness. See `pb_backend_benchmark.md`.
 Fixing a valid length-nine intermediate branch lets the staged model solve
 LP(27) with a verified proof, but the corresponding fixed LP(45) branch still
-times out. No LP(333) solver run is authorized until complete first-stage
-coverage and a successful unfixed smaller staged instance are established.
+times out. Complete small-case first-stage coverage and an exact projected
+fixed-branch formulation are now available, but the projected p=5 solver also
+times out. No LP(333) solver run is authorized before first-stage
+canonicalization and short p=5/p=7 scaling measurements.

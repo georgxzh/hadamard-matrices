@@ -82,6 +82,16 @@ VeriPB-checked SAT certificate and dual-verifies the recovered H(92).
 python -m scripts.benchmark_p5_branch_portfolio --verifier path\to\veripb.exe --portfolio-size 3
 ```
 
+`build_projected_uncompression.py` writes the non-enumerative p=37
+first-stage OPB to ignored scratch storage, validates the sufficient
+factor-three projected PAF key at p=3 and p=5, checks a projected p=5 SAT
+certificate, and runs a bounded solver probe. It never solves an LP(333)
+model.
+
+```powershell
+python -m scripts.build_projected_uncompression --solver path\to\roundingsat.exe --verifier path\to\veripb.exe --probe-seconds 10
+```
+
 No open-search script targeting order 668 is present. Direct enumeration at
 `p=37, q=3` would require about `2.4e71` candidates per row; see
 `research/pq2_derivation.md`.
