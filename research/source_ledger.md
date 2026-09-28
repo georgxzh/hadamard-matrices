@@ -23,7 +23,7 @@ Labels:
 | `djokovic2015compression` | P | complete arXiv PDF; Definition 3 and Theorem 3 visually audited | exact compression identities | generic and 3/9/37 paths implemented and tested |
 | `kotsireas2021mod3` | P | complete arXiv PDF; Corollary 1 visually audited | length divisible by 3 exact PSD constraints | implemented; LP(27) special frequency reproduced |
 | `kotsireas2027pq2` | P, online 2026 | substantial publisher text; direct PDF blocked | structured \(pq^2\) uncompression route | route cited only; compressed rows independently **derived and proved**, not retrieved; factor-9 uncompression reproduced at \(p=3\) |
-| `kotsireas2025compression` | P | publisher HTML, especially Sections 4 and 5.3.2; direct PDF blocked | successive uncompression scheme and printed structured LP(45) | LP(45), both compression stages, exact first-stage models, exhaustive p=3/p=5 intermediate generation, conditional branch searches, p=5 certificates, and H(92) reproduced |
+| `kotsireas2025compression` | P | publisher HTML, especially Sections 4 and 5.3.2; direct PDF blocked | successive uncompression scheme and printed structured LP(45) | LP(45), both compression stages, exact first-stage models, exhaustive p=3/p=5 intermediate generation, p=5 branch portfolio, certificates, and H(92) reproductions completed |
 | `cati2024database` | PP/software | arXiv and Sage docs | construction coverage/database | executable audit pending |
 | `eliahou2025modular` | P | open PDF text | modular near-result at 668 | pending |
 | `chojecki2026status` | R | full PDF indexed | previous computational approach | claims not reproduced |

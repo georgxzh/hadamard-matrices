@@ -73,6 +73,15 @@ core and never builds or solves LP(333).
 python -m scripts.build_intermediate_stage --verifier path\to\veripb.exe
 ```
 
+`benchmark_p5_branch_portfolio.py` reduces all 10,476 p=5 intermediate pairs
+to their 1,164 independent-translation orbits, ranks them by exact binary-row
+scan cost, and exhaustively searches the first three branches. It also emits a
+VeriPB-checked SAT certificate and dual-verifies the recovered H(92).
+
+```powershell
+python -m scripts.benchmark_p5_branch_portfolio --verifier path\to\veripb.exe --portfolio-size 3
+```
+
 No open-search script targeting order 668 is present. Direct enumeration at
 `p=37, q=3` would require about `2.4e71` candidates per row; see
 `research/pq2_derivation.md`.

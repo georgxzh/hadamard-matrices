@@ -106,11 +106,12 @@ ten-second p=5 probes timed out even on the published branch.
 
 ## Next milestone
 
-Use the complete p=5 intermediate set to design a branch-ordering/filtering
-policy and measure the final factor-three solve on a bounded, deterministic
-sample. Before any p=37 proposal, derive a non-enumerative first-stage
-constraint/search strategy and estimate total proof volume from p=5. No
-LP(333) computation is authorized by this result.
+The complete p=5 set has now been reduced to 1,164 translation orbits and a
+three-branch exhaustive portfolio finds two satisfiable branches and one
+branch with no binary pair; see `p5_branch_portfolio.md`. Before any p=37
+proposal, derive a non-enumerative first-stage constraint/search strategy and
+stronger exact second-stage projections. No LP(333) computation is authorized
+by this result.
 
 Reproduction command:
 

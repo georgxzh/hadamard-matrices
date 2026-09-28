@@ -317,6 +317,53 @@ length 333 or order 668.
 - Reproduction command: `python -m scripts.build_intermediate_stage
   --verifier tmp/tools/veripb-3.0.2/bin/veripb.exe`
 
+## EXP-PB-006: p=5 branch profile and exhaustive portfolio
+
+- Status: complete branch profile plus bounded exhaustive searches; PASS
+- UTC completion: 2026-09-27; exact timestamp is in
+  `results/p5_branch_portfolio/metadata.json`
+- Objective: rank the complete p=5 intermediate set by exact second-stage
+  cost and test a deterministic three-branch portfolio
+- Primary source: successive-q architecture in `kotsireas2025compression`;
+  branch cost and translation reduction derived in
+  `p5_branch_portfolio.md`
+- Mathematical constraints: exact intermediate PAF join, independent free
+  translations, complete factor-three binary preimages, every final PAF
+  shift, SDS, cyclotomic PSD, both compression stages, fixed-branch OPB, and
+  complete H(92) Gram identities
+- Configuration: all 10,476 p=5 intermediate pairs profiled; first three of
+  1,164 translation-orbit representatives searched; smaller row used as the
+  signature table; VeriPB 3.0.2
+- Random seed: not applicable
+- Git commit: working tree on branch `agent/order-428-reproduction`; final
+  commit recorded by repository history
+- Hardware and software: Windows 11, AMD64 Family 25 Model 117; Python 3.14.6
+- CPU cores / peak memory / storage: one core; peak memory not instrumented;
+  smaller 177,147-row side stored; frozen catalog and result package below
+  1 MB
+- Complete output: `results/p5_branch_portfolio/`, including all 1,164
+  canonical branches, exact metadata, one witness, one VeriPB certificate,
+  and dual-verifier H(92) package
+- Exact checker: complete bit-packed PAF signature joins, independent PAF/SDS/
+  cyclotomic-PSD checks, every branch-model record, VeriPB, and two independent
+  exact matrix verifiers
+- Result: all branches have 23 magnitude-one entries in total and split into
+  1,164 free translation orbits. Ranks 1 and 2 each contain exactly 27 ordered
+  LP(45) pairs; rank 3 contains zero. The published branch ranks 771. The
+  selected H(92) SHA-256 is
+  `a2081037642e242729aebec4a94529f400dc49b326f69f6b74c0521b9ae33389`.
+- Runtime: complete script 29.612982 seconds; profile 4.931040 seconds;
+  branch searches 7.771051, 8.648980, and 7.816479 seconds
+- Interpretation: balanced intermediate branches make complete p=5 binary
+  joins practical and recover LP(45) witnesses independently of the printed
+  source rows; no inequivalence or novelty claim is made
+- Limitations / failed cases: rank-3 nonexistence is an exhaustive
+  computational branch result but lacks a standalone UNSAT proof; a separate
+  ten-second RoundingSat proof probe timed out. Three branches do not estimate
+  all-orbit satisfiability. No LP(333) or order-668 search was run.
+- Reproduction command: `python -m scripts.benchmark_p5_branch_portfolio
+  --verifier tmp/tools/veripb-3.0.2/bin/veripb.exe --portfolio-size 3`
+
 ## EXP-SYM-001: free translation canonicalization
 
 - Status: exact derivation and exhaustive small-case validation; PASS

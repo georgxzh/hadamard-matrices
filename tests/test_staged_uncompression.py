@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from collections import Counter
 import json
 from pathlib import Path
 
@@ -16,6 +17,8 @@ from src.legendre import (
 from src.staged_uncompression import (
     FactorThreeBranch,
     IntermediatePBModel,
+    canonical_intermediate_translation,
+    enumerate_intermediate_pairs,
     intermediate_signature,
     intermediate_uncompression_count,
     iter_intermediate_rows,
@@ -191,3 +194,50 @@ def test_p5_intermediate_search_recovers_the_published_branch() -> None:
     first, second = published_structured_legendre_pair_45()
     published_intermediate = compress(first, 15), compress(second, 15)
     assert published_intermediate in search.representative_pairs
+
+
+def test_complete_p5_pairs_split_into_free_translation_orbits() -> None:
+    prescribed = structured_compressed_pair(5, 3)
+    pairs = enumerate_intermediate_pairs(*prescribed)
+    canonical = enumerate_intermediate_pairs(*prescribed, canonical_translations=True)
+    assert len(pairs) == 10_476
+    assert len(canonical) == 1_164
+    assert len(pairs) == 9 * len(canonical)
+    assert Counter(
+        tuple(sum(abs(value) == 1 for value in row) for row in pair)
+        for pair in pairs
+    ) == {
+        (9, 14): 162,
+        (10, 13): 1_620,
+        (11, 12): 3_456,
+        (12, 11): 3_456,
+        (13, 10): 1_620,
+        (14, 9): 162,
+    }
+
+    ranked = sorted(
+        canonical,
+        key=lambda pair: (
+            sum(uncompression_count(row, 3) for row in pair),
+            max(uncompression_count(row, 3) for row in pair),
+            pair,
+        ),
+    )
+    first, second = ranked[0]
+    assert (uncompression_count(first, 3), uncompression_count(second, 3)) == (
+        177_147,
+        531_441,
+    )
+    assert canonical_intermediate_translation(first, 5) == (first, 0)
+    assert canonical_intermediate_translation(second, 5) == (second, 0)
+    assert compress(first, 5) == prescribed[0]
+    assert compress(second, 5) == prescribed[1]
+    assert IntermediatePBModel(*prescribed).first_failed_constraint(first, second) is None
+
+
+def test_intermediate_enumeration_rejects_an_accidental_p37_run() -> None:
+    prescribed = structured_compressed_pair(37, 3)
+    with pytest.raises(ValueError, match="exceeds the explicit per-side cap"):
+        search_intermediate_pairs(*prescribed)
+    with pytest.raises(ValueError, match="exceeds the explicit per-side cap"):
+        enumerate_intermediate_pairs(*prescribed)

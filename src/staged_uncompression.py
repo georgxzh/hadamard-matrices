@@ -124,8 +124,14 @@ def search_intermediate_pairs(
     prescribed_second: Sequence[int],
     *,
     max_representatives: int = 32,
+    max_candidates_per_side: int | None = 1_000_000,
 ) -> IntermediateSearch:
-    """Exhaustively join first-stage rows by complementary exact PAF signatures."""
+    """Exhaustively join first-stage rows by complementary exact PAF signatures.
+
+    The default cap admits the p=3 and p=5 validation cases but rejects a
+    larger accidental enumeration. Passing ``None`` removes the software
+    guard; it does not make a large run computationally appropriate.
+    """
 
     first_targets = tuple(prescribed_first)
     second_targets = tuple(prescribed_second)
@@ -138,6 +144,19 @@ def search_intermediate_pairs(
         raise ValueError(f"prescribed pair violates factor-nine constants: {check.message}")
     if max_representatives < 0:
         raise ValueError("max_representatives must be nonnegative")
+    if max_candidates_per_side is not None and max_candidates_per_side <= 0:
+        raise ValueError("candidate cap must be positive or None")
+    candidate_bounds = tuple(
+        intermediate_uncompression_count(row)
+        for row in (first_targets, second_targets)
+    )
+    if max_candidates_per_side is not None and any(
+        count > max_candidates_per_side for count in candidate_bounds
+    ):
+        raise ValueError(
+            f"intermediate row count {candidate_bounds} exceeds the explicit "
+            f"per-side cap {max_candidates_per_side}"
+        )
 
     # Map each signature to an exact multiplicity and its first deterministic row.
     signature_maps: list[dict[IntegerSequence, tuple[int, IntegerSequence]]] = []
@@ -189,6 +208,103 @@ def search_intermediate_pairs(
         ordered_pairs=ordered_pairs,
         representative_pairs=tuple(pairs),
     )
+
+
+def canonical_intermediate_translation(
+    row: Sequence[int], prescribed_length: int
+) -> tuple[IntegerSequence, int]:
+    """Choose the least of the three translations preserving 3-compression.
+
+    The returned offset is one of ``0``, ``p``, or ``2p`` for prescribed
+    length ``p``. Translation uses the same convention as
+    :func:`src.symmetry.cyclic_translate`.
+    """
+
+    source = tuple(row)
+    if prescribed_length <= 0 or len(source) != 3 * prescribed_length:
+        raise ValueError("intermediate row must have length three times p")
+    if any(value not in {-3, -1, 1, 3} for value in source):
+        raise ValueError("intermediate entries must be in {-3,-1,1,3}")
+    rotations = tuple(
+        tuple(
+            source[(index + step * prescribed_length) % len(source)]
+            for index in range(len(source))
+        )
+        for step in range(3)
+    )
+    best_step = min(range(3), key=lambda step: (rotations[step], step))
+    return rotations[best_step], best_step * prescribed_length
+
+
+def enumerate_intermediate_pairs(
+    prescribed_first: Sequence[int],
+    prescribed_second: Sequence[int],
+    *,
+    canonical_translations: bool = False,
+    max_candidates_per_side: int | None = 1_000_000,
+) -> tuple[IntermediatePair, ...]:
+    """Return every exact compatible intermediate pair at a tractable size.
+
+    This materializes full signature buckets. The default cap admits p=3 and
+    p=5 but rejects larger accidental runs; passing ``None`` explicitly
+    removes that guard. The current research workflow uses it only for p=3
+    and p=5.
+    """
+
+    first_targets = tuple(prescribed_first)
+    second_targets = tuple(prescribed_second)
+    if len(first_targets) != len(second_targets) or not first_targets:
+        raise ValueError("prescribed rows must have the same positive length")
+    if len(first_targets) % 2 == 0:
+        raise ValueError("prescribed length must be odd")
+    check = check_compressed_legendre_constants(first_targets, second_targets, 9)
+    if not check.ok:
+        raise ValueError(f"prescribed pair violates factor-nine constants: {check.message}")
+    if max_candidates_per_side is not None and max_candidates_per_side <= 0:
+        raise ValueError("candidate cap must be positive or None")
+    candidate_bounds = tuple(
+        intermediate_uncompression_count(row)
+        for row in (first_targets, second_targets)
+    )
+    if max_candidates_per_side is not None and any(
+        count > max_candidates_per_side for count in candidate_bounds
+    ):
+        raise ValueError(
+            f"intermediate row count {candidate_bounds} exceeds the explicit "
+            f"per-side cap {max_candidates_per_side}"
+        )
+
+    signature_maps: list[dict[IntegerSequence, list[IntegerSequence]]] = []
+    for prescribed in (first_targets, second_targets):
+        rows: dict[IntegerSequence, list[IntegerSequence]] = defaultdict(list)
+        for row in iter_intermediate_rows(prescribed):
+            rows[intermediate_signature(row)].append(row)
+        signature_maps.append(rows)
+
+    length = 3 * len(first_targets)
+    target = (6 * length - 4, *([-6] * (length // 2)))
+    pairs: list[IntermediatePair] = []
+    first_map, second_map = signature_maps
+    for signature, first_rows in first_map.items():
+        complement = tuple(
+            target_value - signature_value
+            for target_value, signature_value in zip(target, signature, strict=True)
+        )
+        for first_row in first_rows:
+            for second_row in second_map.get(complement, ()):
+                pairs.append((first_row, second_row))
+    if not canonical_translations:
+        return tuple(pairs)
+
+    p = len(first_targets)
+    canonical = {
+        (
+            canonical_intermediate_translation(first, p)[0],
+            canonical_intermediate_translation(second, p)[0],
+        )
+        for first, second in pairs
+    }
+    return tuple(sorted(canonical))
 
 
 class IntermediatePBModel:

@@ -86,11 +86,11 @@ branches or LP(333).
 ## Next milestone
 
 The first-stage small-case gate is complete: exhaustive p=3/p=5 generation
-finds 792 and 10,476 ordered intermediate pairs respectively and recovers the
-published p=5 branch. Next, use those complete p=5 branches to evaluate exact
-branch filters and a bounded deterministic second-stage portfolio. Only after
-that benchmark and a non-enumerative p=37 first-stage design should a larger
-resource proposal be considered.
+finds 792 and 10,476 ordered intermediate pairs respectively. The p=5 set is
+now fully profiled and a three-branch exhaustive portfolio recovers binary
+pairs in the first two branches; see `p5_branch_portfolio.md`. A
+non-enumerative p=37 first-stage design and stronger exact second-stage
+projections are required before any larger resource proposal.
 
 Reproduction command:
 

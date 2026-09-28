@@ -171,7 +171,9 @@ through the remaining gates:
 3. **Complete at small first-stage parameters:** the conditional successive-q
    formulation solves p=3 with checked proofs but times out at p=5; exhaustive
    first-stage generation at p=3 and p=5 finds 792 and 10,476 ordered
-   intermediate pairs and recovers the published p=5 branch;
+   intermediate pairs. The p=5 set reduces to 1,164 translation orbits; a
+   three-branch exhaustive portfolio finds two satisfiable branches and one
+   branch with no binary pair;
 4. request approval with measured resources before any LP(333) solver run.
 
 This is a research hypothesis, not evidence that the conjectured
@@ -211,9 +213,8 @@ remains, in order:
    the ten locally unreproduced exclusions;
 2. locate and audit the inputs behind the reported 12,017,243 9-compressed
    configurations;
-3. benchmark exact filtering and a bounded deterministic second-stage
-   portfolio on the complete p=5 intermediate set, then derive a
-   non-enumerative first-stage strategy for p=37; bounded staged p=5 searches
-   still time out.
+3. derive a non-enumerative first-stage strategy for p=37 and stronger exact
+   second-stage projection keys, using the completed p=5 profile to estimate
+   resources before any larger proposal.
 
 No expensive computation is authorized by this recommendation.

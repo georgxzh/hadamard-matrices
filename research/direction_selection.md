@@ -52,13 +52,14 @@ Gates before any run:
 
 The conditional second-stage `q=3` model is implemented. Fixed intermediate
 branches solve with checked proofs at p=3 but time out at p=5. The first stage
-is now also complete at small parameters: exhaustive generation gives 792
-ordered p=3 and 10,476 ordered p=5 intermediate pairs and recovers the
-published p=5 branch. This validates the source architecture, but also shows
-that the direct residue-product generator is not a p=37 algorithm. The next
-bounded step is a deterministic p=5 branch-filter/second-stage portfolio and
-a non-enumerative first-stage formulation for p=37. Exhaustive truth tables
-still show that all local XOR and AND facets are required.
+is complete at small parameters: exhaustive generation gives 792 ordered p=3
+and 10,476 ordered p=5 intermediate pairs. Exact scan-cost ranking reduces
+the latter to 1,164 translation orbits; exhaustive searches of the first three
+find 27, 27, and zero ordered LP(45) pairs. This validates the staged
+architecture and the branch-ordering principle, but also shows that the
+direct residue-product generator is not a p=37 algorithm. The next step is a
+non-enumerative first-stage formulation and stronger exact second-stage
+projections. All local XOR and AND facets remain necessary.
 
 The honest prior is that this fails too. Passing every compressed necessary
 condition does not imply a binary preimage exists, and the source states the

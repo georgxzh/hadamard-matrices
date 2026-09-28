@@ -42,6 +42,11 @@ incomplete proofs retained only in ignored scratch storage.
 SAT certificates, VeriPB transcripts, and exhaustive p=3/p=5 signature-join
 counts. The published p=5 intermediate branch is recovered exactly.
 
+`p5_branch_portfolio/` freezes all 1,164 translation-canonical p=5 branches,
+the three-branch exhaustive benchmark, an LP(45) recovered independently of
+the printed rows, its VeriPB-checked branch certificate, and a
+dual-exactly-verified H(92).
+
 `multiplier_audit/` records the exact external commit, certificate hashes,
 locally reproduced fixed-symmetry exclusions, release-archive checksum, and
 the cases whose full DRAT/MITM evidence was not rerun.
