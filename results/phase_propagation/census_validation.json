@@ -1,0 +1,8150 @@
+[
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1,
+    "representative_rank": 1,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 2,
+    "representative_rank": 1,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 3,
+    "representative_rank": 3,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 4,
+    "representative_rank": 3,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 5,
+    "representative_rank": 5,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 6,
+    "representative_rank": 5,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 7,
+    "representative_rank": 7,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 8,
+    "representative_rank": 7,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 9,
+    "representative_rank": 9,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 10,
+    "representative_rank": 9,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 11,
+    "representative_rank": 11,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 12,
+    "representative_rank": 11,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 13,
+    "representative_rank": 5,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 14,
+    "representative_rank": 5,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 15,
+    "representative_rank": 15,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 16,
+    "representative_rank": 15,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 17,
+    "representative_rank": 3,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 18,
+    "representative_rank": 3,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 19,
+    "representative_rank": 15,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 20,
+    "representative_rank": 15,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 21,
+    "representative_rank": 5,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 22,
+    "representative_rank": 5,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 23,
+    "representative_rank": 1,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 24,
+    "representative_rank": 1,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 25,
+    "representative_rank": 3,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 26,
+    "representative_rank": 3,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 27,
+    "representative_rank": 27,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 28,
+    "representative_rank": 27,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 29,
+    "representative_rank": 11,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 30,
+    "representative_rank": 11,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 31,
+    "representative_rank": 9,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 32,
+    "representative_rank": 9,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 33,
+    "representative_rank": 27,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 34,
+    "representative_rank": 27,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 35,
+    "representative_rank": 15,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 36,
+    "representative_rank": 15,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 37,
+    "representative_rank": 27,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 38,
+    "representative_rank": 27,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 39,
+    "representative_rank": 9,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 40,
+    "representative_rank": 9,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 41,
+    "representative_rank": 7,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 42,
+    "representative_rank": 7,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 43,
+    "representative_rank": 7,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 44,
+    "representative_rank": 7,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 45,
+    "representative_rank": 11,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 46,
+    "representative_rank": 11,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 47,
+    "representative_rank": 15,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 48,
+    "representative_rank": 15,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 49,
+    "representative_rank": 3,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 50,
+    "representative_rank": 3,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 51,
+    "representative_rank": 1,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 52,
+    "representative_rank": 1,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 53,
+    "representative_rank": 1,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 54,
+    "representative_rank": 1,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 55,
+    "representative_rank": 7,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 56,
+    "representative_rank": 7,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 57,
+    "representative_rank": 11,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 58,
+    "representative_rank": 11,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 59,
+    "representative_rank": 27,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 60,
+    "representative_rank": 27,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 61,
+    "representative_rank": 5,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 62,
+    "representative_rank": 5,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 63,
+    "representative_rank": 9,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 64,
+    "representative_rank": 9,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 65,
+    "representative_rank": 65,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 66,
+    "representative_rank": 66,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 67,
+    "representative_rank": 66,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 68,
+    "representative_rank": 65,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 69,
+    "representative_rank": 69,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 70,
+    "representative_rank": 69,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 71,
+    "representative_rank": 71,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 72,
+    "representative_rank": 71,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 73,
+    "representative_rank": 73,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 74,
+    "representative_rank": 73,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 75,
+    "representative_rank": 75,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 76,
+    "representative_rank": 75,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 77,
+    "representative_rank": 77,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 78,
+    "representative_rank": 77,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 79,
+    "representative_rank": 79,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 80,
+    "representative_rank": 79,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 81,
+    "representative_rank": 81,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 82,
+    "representative_rank": 81,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 83,
+    "representative_rank": 83,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 84,
+    "representative_rank": 83,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 85,
+    "representative_rank": 85,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 86,
+    "representative_rank": 85,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 87,
+    "representative_rank": 87,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 88,
+    "representative_rank": 87,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 89,
+    "representative_rank": 89,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 90,
+    "representative_rank": 90,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 91,
+    "representative_rank": 89,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 92,
+    "representative_rank": 90,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 93,
+    "representative_rank": 89,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 94,
+    "representative_rank": 89,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 95,
+    "representative_rank": 71,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 96,
+    "representative_rank": 71,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 97,
+    "representative_rank": 97,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 98,
+    "representative_rank": 97,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 99,
+    "representative_rank": 73,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 100,
+    "representative_rank": 73,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 101,
+    "representative_rank": 101,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 102,
+    "representative_rank": 101,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 103,
+    "representative_rank": 103,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 104,
+    "representative_rank": 103,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 105,
+    "representative_rank": 105,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 106,
+    "representative_rank": 105,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 107,
+    "representative_rank": 107,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 108,
+    "representative_rank": 107,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 109,
+    "representative_rank": 109,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 110,
+    "representative_rank": 109,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 111,
+    "representative_rank": 79,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 112,
+    "representative_rank": 79,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 113,
+    "representative_rank": 113,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 114,
+    "representative_rank": 113,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 115,
+    "representative_rank": 103,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 116,
+    "representative_rank": 103,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 117,
+    "representative_rank": 113,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 118,
+    "representative_rank": 113,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 119,
+    "representative_rank": 5,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 120,
+    "representative_rank": 5,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 121,
+    "representative_rank": 121,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 122,
+    "representative_rank": 121,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 123,
+    "representative_rank": 81,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 124,
+    "representative_rank": 81,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 125,
+    "representative_rank": 9,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 126,
+    "representative_rank": 9,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 127,
+    "representative_rank": 127,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 128,
+    "representative_rank": 127,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 129,
+    "representative_rank": 129,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 130,
+    "representative_rank": 130,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 131,
+    "representative_rank": 129,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 132,
+    "representative_rank": 130,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 133,
+    "representative_rank": 127,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 134,
+    "representative_rank": 127,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 135,
+    "representative_rank": 15,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 136,
+    "representative_rank": 15,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 137,
+    "representative_rank": 27,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 138,
+    "representative_rank": 27,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 139,
+    "representative_rank": 139,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 140,
+    "representative_rank": 139,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 141,
+    "representative_rank": 141,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 142,
+    "representative_rank": 141,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 143,
+    "representative_rank": 143,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 144,
+    "representative_rank": 143,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 145,
+    "representative_rank": 145,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 146,
+    "representative_rank": 145,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 147,
+    "representative_rank": 147,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 148,
+    "representative_rank": 147,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 149,
+    "representative_rank": 121,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 150,
+    "representative_rank": 121,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 151,
+    "representative_rank": 151,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 152,
+    "representative_rank": 151,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 153,
+    "representative_rank": 109,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 154,
+    "representative_rank": 151,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 155,
+    "representative_rank": 109,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 156,
+    "representative_rank": 151,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 157,
+    "representative_rank": 97,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 158,
+    "representative_rank": 97,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 159,
+    "representative_rank": 159,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 160,
+    "representative_rank": 159,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 161,
+    "representative_rank": 161,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 162,
+    "representative_rank": 162,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 163,
+    "representative_rank": 161,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 164,
+    "representative_rank": 162,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 165,
+    "representative_rank": 139,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 166,
+    "representative_rank": 139,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 167,
+    "representative_rank": 161,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 168,
+    "representative_rank": 161,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 169,
+    "representative_rank": 90,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 170,
+    "representative_rank": 90,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 171,
+    "representative_rank": 171,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 172,
+    "representative_rank": 171,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 173,
+    "representative_rank": 171,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 174,
+    "representative_rank": 171,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 175,
+    "representative_rank": 175,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 176,
+    "representative_rank": 175,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 177,
+    "representative_rank": 175,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 178,
+    "representative_rank": 175,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 179,
+    "representative_rank": 175,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 180,
+    "representative_rank": 175,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 181,
+    "representative_rank": 175,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 182,
+    "representative_rank": 175,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 183,
+    "representative_rank": 15,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 184,
+    "representative_rank": 15,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 185,
+    "representative_rank": 79,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 186,
+    "representative_rank": 79,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 187,
+    "representative_rank": 66,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 188,
+    "representative_rank": 66,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 189,
+    "representative_rank": 66,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 190,
+    "representative_rank": 66,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 191,
+    "representative_rank": 83,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 192,
+    "representative_rank": 83,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 193,
+    "representative_rank": 151,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 194,
+    "representative_rank": 151,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 195,
+    "representative_rank": 69,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 196,
+    "representative_rank": 69,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 197,
+    "representative_rank": 197,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 198,
+    "representative_rank": 197,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 199,
+    "representative_rank": 147,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 200,
+    "representative_rank": 147,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 201,
+    "representative_rank": 69,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 202,
+    "representative_rank": 69,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 203,
+    "representative_rank": 145,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 204,
+    "representative_rank": 145,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 205,
+    "representative_rank": 159,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 206,
+    "representative_rank": 159,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 207,
+    "representative_rank": 7,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 208,
+    "representative_rank": 7,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 209,
+    "representative_rank": 121,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 210,
+    "representative_rank": 121,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 211,
+    "representative_rank": 69,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 212,
+    "representative_rank": 69,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 213,
+    "representative_rank": 213,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 214,
+    "representative_rank": 213,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 215,
+    "representative_rank": 215,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 216,
+    "representative_rank": 215,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 217,
+    "representative_rank": 109,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 218,
+    "representative_rank": 109,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 219,
+    "representative_rank": 97,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 220,
+    "representative_rank": 97,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 221,
+    "representative_rank": 215,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 222,
+    "representative_rank": 213,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 223,
+    "representative_rank": 215,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 224,
+    "representative_rank": 213,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 225,
+    "representative_rank": 5,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 226,
+    "representative_rank": 5,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 227,
+    "representative_rank": 121,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 228,
+    "representative_rank": 121,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 229,
+    "representative_rank": 215,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 230,
+    "representative_rank": 215,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 231,
+    "representative_rank": 90,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 232,
+    "representative_rank": 90,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 233,
+    "representative_rank": 175,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 234,
+    "representative_rank": 175,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 235,
+    "representative_rank": 27,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 236,
+    "representative_rank": 27,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 237,
+    "representative_rank": 213,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 238,
+    "representative_rank": 213,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 239,
+    "representative_rank": 215,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 240,
+    "representative_rank": 215,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 241,
+    "representative_rank": 77,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 242,
+    "representative_rank": 77,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 243,
+    "representative_rank": 127,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 244,
+    "representative_rank": 127,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 245,
+    "representative_rank": 85,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 246,
+    "representative_rank": 87,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 247,
+    "representative_rank": 87,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 248,
+    "representative_rank": 85,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 249,
+    "representative_rank": 121,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 250,
+    "representative_rank": 121,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 251,
+    "representative_rank": 81,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 252,
+    "representative_rank": 81,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 253,
+    "representative_rank": 103,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 254,
+    "representative_rank": 103,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 255,
+    "representative_rank": 85,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 256,
+    "representative_rank": 85,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 257,
+    "representative_rank": 3,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 258,
+    "representative_rank": 3,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 259,
+    "representative_rank": 159,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 260,
+    "representative_rank": 159,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 261,
+    "representative_rank": 109,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 262,
+    "representative_rank": 109,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 263,
+    "representative_rank": 161,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 264,
+    "representative_rank": 162,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 265,
+    "representative_rank": 161,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 266,
+    "representative_rank": 162,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 267,
+    "representative_rank": 197,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 268,
+    "representative_rank": 197,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 269,
+    "representative_rank": 89,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 270,
+    "representative_rank": 89,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 271,
+    "representative_rank": 90,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 272,
+    "representative_rank": 90,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 273,
+    "representative_rank": 273,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 274,
+    "representative_rank": 273,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 275,
+    "representative_rank": 89,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 276,
+    "representative_rank": 89,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 277,
+    "representative_rank": 11,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 278,
+    "representative_rank": 11,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 279,
+    "representative_rank": 143,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 280,
+    "representative_rank": 143,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 281,
+    "representative_rank": 159,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 282,
+    "representative_rank": 159,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 283,
+    "representative_rank": 171,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 284,
+    "representative_rank": 171,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 285,
+    "representative_rank": 65,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 286,
+    "representative_rank": 65,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 287,
+    "representative_rank": 97,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 288,
+    "representative_rank": 97,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 289,
+    "representative_rank": 147,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 290,
+    "representative_rank": 147,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 291,
+    "representative_rank": 103,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 292,
+    "representative_rank": 103,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 293,
+    "representative_rank": 162,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 294,
+    "representative_rank": 162,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 295,
+    "representative_rank": 139,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 296,
+    "representative_rank": 139,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 297,
+    "representative_rank": 151,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 298,
+    "representative_rank": 151,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 299,
+    "representative_rank": 81,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 300,
+    "representative_rank": 81,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 301,
+    "representative_rank": 1,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 302,
+    "representative_rank": 1,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 303,
+    "representative_rank": 101,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 304,
+    "representative_rank": 101,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 305,
+    "representative_rank": 145,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 306,
+    "representative_rank": 145,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 307,
+    "representative_rank": 101,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 308,
+    "representative_rank": 101,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 309,
+    "representative_rank": 77,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 310,
+    "representative_rank": 77,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 311,
+    "representative_rank": 1,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 312,
+    "representative_rank": 1,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 313,
+    "representative_rank": 101,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 314,
+    "representative_rank": 101,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 315,
+    "representative_rank": 159,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 316,
+    "representative_rank": 159,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 317,
+    "representative_rank": 317,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 318,
+    "representative_rank": 317,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 319,
+    "representative_rank": 141,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 320,
+    "representative_rank": 141,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 321,
+    "representative_rank": 139,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 322,
+    "representative_rank": 139,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 323,
+    "representative_rank": 79,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 324,
+    "representative_rank": 79,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 325,
+    "representative_rank": 75,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 326,
+    "representative_rank": 75,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 327,
+    "representative_rank": 175,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 328,
+    "representative_rank": 175,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 329,
+    "representative_rank": 105,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 330,
+    "representative_rank": 105,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 331,
+    "representative_rank": 77,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 332,
+    "representative_rank": 77,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 333,
+    "representative_rank": 121,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 334,
+    "representative_rank": 121,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 335,
+    "representative_rank": 151,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 336,
+    "representative_rank": 151,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 337,
+    "representative_rank": 147,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 338,
+    "representative_rank": 147,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 339,
+    "representative_rank": 145,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 340,
+    "representative_rank": 145,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 341,
+    "representative_rank": 97,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 342,
+    "representative_rank": 73,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 343,
+    "representative_rank": 73,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 344,
+    "representative_rank": 97,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 345,
+    "representative_rank": 103,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 346,
+    "representative_rank": 103,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 347,
+    "representative_rank": 11,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 348,
+    "representative_rank": 11,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 349,
+    "representative_rank": 143,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 350,
+    "representative_rank": 143,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 351,
+    "representative_rank": 27,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 352,
+    "representative_rank": 27,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 353,
+    "representative_rank": 85,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 354,
+    "representative_rank": 85,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 355,
+    "representative_rank": 77,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 356,
+    "representative_rank": 77,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 357,
+    "representative_rank": 3,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 358,
+    "representative_rank": 3,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 359,
+    "representative_rank": 75,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 360,
+    "representative_rank": 75,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 361,
+    "representative_rank": 7,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 362,
+    "representative_rank": 7,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 363,
+    "representative_rank": 317,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 364,
+    "representative_rank": 317,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 365,
+    "representative_rank": 365,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 366,
+    "representative_rank": 365,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 367,
+    "representative_rank": 197,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 368,
+    "representative_rank": 141,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 369,
+    "representative_rank": 197,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 370,
+    "representative_rank": 141,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 371,
+    "representative_rank": 147,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 372,
+    "representative_rank": 147,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 373,
+    "representative_rank": 365,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 374,
+    "representative_rank": 365,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 375,
+    "representative_rank": 65,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 376,
+    "representative_rank": 65,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 377,
+    "representative_rank": 87,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 378,
+    "representative_rank": 87,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 379,
+    "representative_rank": 65,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 380,
+    "representative_rank": 65,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 381,
+    "representative_rank": 273,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 382,
+    "representative_rank": 273,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 383,
+    "representative_rank": 273,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 384,
+    "representative_rank": 273,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 385,
+    "representative_rank": 75,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 386,
+    "representative_rank": 75,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 387,
+    "representative_rank": 141,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 388,
+    "representative_rank": 141,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 389,
+    "representative_rank": 69,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 390,
+    "representative_rank": 69,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 391,
+    "representative_rank": 71,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 392,
+    "representative_rank": 71,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 393,
+    "representative_rank": 213,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 394,
+    "representative_rank": 213,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 395,
+    "representative_rank": 147,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 396,
+    "representative_rank": 147,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 397,
+    "representative_rank": 85,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 398,
+    "representative_rank": 87,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 399,
+    "representative_rank": 87,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 400,
+    "representative_rank": 85,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 401,
+    "representative_rank": 109,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 402,
+    "representative_rank": 109,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 403,
+    "representative_rank": 85,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 404,
+    "representative_rank": 85,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 405,
+    "representative_rank": 89,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 406,
+    "representative_rank": 89,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 407,
+    "representative_rank": 90,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 408,
+    "representative_rank": 90,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 409,
+    "representative_rank": 197,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 410,
+    "representative_rank": 197,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 411,
+    "representative_rank": 101,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 412,
+    "representative_rank": 101,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 413,
+    "representative_rank": 129,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 414,
+    "representative_rank": 129,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 415,
+    "representative_rank": 143,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 416,
+    "representative_rank": 143,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 417,
+    "representative_rank": 113,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 418,
+    "representative_rank": 113,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 419,
+    "representative_rank": 77,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 420,
+    "representative_rank": 77,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 421,
+    "representative_rank": 145,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 422,
+    "representative_rank": 145,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 423,
+    "representative_rank": 273,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 424,
+    "representative_rank": 273,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 425,
+    "representative_rank": 273,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 426,
+    "representative_rank": 273,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 427,
+    "representative_rank": 139,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 428,
+    "representative_rank": 139,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 429,
+    "representative_rank": 79,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 430,
+    "representative_rank": 79,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 431,
+    "representative_rank": 317,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 432,
+    "representative_rank": 317,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 433,
+    "representative_rank": 71,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 434,
+    "representative_rank": 71,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 435,
+    "representative_rank": 127,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 436,
+    "representative_rank": 127,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 437,
+    "representative_rank": 89,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 438,
+    "representative_rank": 89,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 439,
+    "representative_rank": 89,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 440,
+    "representative_rank": 90,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 441,
+    "representative_rank": 89,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 442,
+    "representative_rank": 90,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 443,
+    "representative_rank": 151,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 444,
+    "representative_rank": 109,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 445,
+    "representative_rank": 151,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 446,
+    "representative_rank": 109,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 447,
+    "representative_rank": 171,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 448,
+    "representative_rank": 171,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 449,
+    "representative_rank": 7,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 450,
+    "representative_rank": 7,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 451,
+    "representative_rank": 162,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 452,
+    "representative_rank": 162,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 453,
+    "representative_rank": 1,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 454,
+    "representative_rank": 1,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 455,
+    "representative_rank": 101,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 456,
+    "representative_rank": 101,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 457,
+    "representative_rank": 103,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 458,
+    "representative_rank": 103,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 459,
+    "representative_rank": 7,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 460,
+    "representative_rank": 7,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 461,
+    "representative_rank": 89,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 462,
+    "representative_rank": 89,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 463,
+    "representative_rank": 71,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 464,
+    "representative_rank": 71,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 465,
+    "representative_rank": 69,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 466,
+    "representative_rank": 69,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 467,
+    "representative_rank": 73,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 468,
+    "representative_rank": 73,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 469,
+    "representative_rank": 65,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 470,
+    "representative_rank": 66,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 471,
+    "representative_rank": 66,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 472,
+    "representative_rank": 65,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 473,
+    "representative_rank": 197,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 474,
+    "representative_rank": 197,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 475,
+    "representative_rank": 69,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 476,
+    "representative_rank": 69,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 477,
+    "representative_rank": 81,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 478,
+    "representative_rank": 81,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 479,
+    "representative_rank": 101,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 480,
+    "representative_rank": 101,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 481,
+    "representative_rank": 141,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 482,
+    "representative_rank": 141,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 483,
+    "representative_rank": 3,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 484,
+    "representative_rank": 3,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 485,
+    "representative_rank": 113,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 486,
+    "representative_rank": 113,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 487,
+    "representative_rank": 113,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 488,
+    "representative_rank": 113,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 489,
+    "representative_rank": 83,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 490,
+    "representative_rank": 83,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 491,
+    "representative_rank": 141,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 492,
+    "representative_rank": 197,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 493,
+    "representative_rank": 141,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 494,
+    "representative_rank": 197,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 495,
+    "representative_rank": 9,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 496,
+    "representative_rank": 9,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 497,
+    "representative_rank": 127,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 498,
+    "representative_rank": 127,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 499,
+    "representative_rank": 105,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 500,
+    "representative_rank": 105,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 501,
+    "representative_rank": 145,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 502,
+    "representative_rank": 145,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 503,
+    "representative_rank": 107,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 504,
+    "representative_rank": 107,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 505,
+    "representative_rank": 215,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 506,
+    "representative_rank": 213,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 507,
+    "representative_rank": 215,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 508,
+    "representative_rank": 213,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 509,
+    "representative_rank": 79,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 510,
+    "representative_rank": 79,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 511,
+    "representative_rank": 66,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 512,
+    "representative_rank": 66,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 513,
+    "representative_rank": 113,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 514,
+    "representative_rank": 113,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 515,
+    "representative_rank": 161,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 516,
+    "representative_rank": 161,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 517,
+    "representative_rank": 73,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 518,
+    "representative_rank": 73,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 519,
+    "representative_rank": 130,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 520,
+    "representative_rank": 130,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 521,
+    "representative_rank": 81,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 522,
+    "representative_rank": 81,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 523,
+    "representative_rank": 66,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 524,
+    "representative_rank": 66,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 525,
+    "representative_rank": 159,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 526,
+    "representative_rank": 159,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 527,
+    "representative_rank": 139,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 528,
+    "representative_rank": 139,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 529,
+    "representative_rank": 143,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 530,
+    "representative_rank": 143,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 531,
+    "representative_rank": 75,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 532,
+    "representative_rank": 75,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 533,
+    "representative_rank": 143,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 534,
+    "representative_rank": 143,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 535,
+    "representative_rank": 3,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 536,
+    "representative_rank": 3,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 537,
+    "representative_rank": 85,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 538,
+    "representative_rank": 85,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 539,
+    "representative_rank": 129,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 540,
+    "representative_rank": 129,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 541,
+    "representative_rank": 85,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 542,
+    "representative_rank": 85,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 543,
+    "representative_rank": 87,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 544,
+    "representative_rank": 87,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 545,
+    "representative_rank": 365,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 546,
+    "representative_rank": 365,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 547,
+    "representative_rank": 107,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 548,
+    "representative_rank": 107,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 549,
+    "representative_rank": 171,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 550,
+    "representative_rank": 171,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 551,
+    "representative_rank": 105,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 552,
+    "representative_rank": 105,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 553,
+    "representative_rank": 171,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 554,
+    "representative_rank": 171,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 555,
+    "representative_rank": 215,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 556,
+    "representative_rank": 215,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 557,
+    "representative_rank": 159,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 558,
+    "representative_rank": 159,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 559,
+    "representative_rank": 109,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 560,
+    "representative_rank": 151,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 561,
+    "representative_rank": 109,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 562,
+    "representative_rank": 151,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 563,
+    "representative_rank": 107,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 564,
+    "representative_rank": 107,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 565,
+    "representative_rank": 105,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 566,
+    "representative_rank": 105,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 567,
+    "representative_rank": 75,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 568,
+    "representative_rank": 75,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 569,
+    "representative_rank": 65,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 570,
+    "representative_rank": 65,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 571,
+    "representative_rank": 87,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 572,
+    "representative_rank": 87,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 573,
+    "representative_rank": 147,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 574,
+    "representative_rank": 147,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 575,
+    "representative_rank": 103,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 576,
+    "representative_rank": 103,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 577,
+    "representative_rank": 9,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 578,
+    "representative_rank": 9,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 579,
+    "representative_rank": 127,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 580,
+    "representative_rank": 127,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 581,
+    "representative_rank": 103,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 582,
+    "representative_rank": 103,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 583,
+    "representative_rank": 83,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 584,
+    "representative_rank": 83,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 585,
+    "representative_rank": 273,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 586,
+    "representative_rank": 273,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 587,
+    "representative_rank": 87,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 588,
+    "representative_rank": 87,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 589,
+    "representative_rank": 11,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 590,
+    "representative_rank": 11,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 591,
+    "representative_rank": 143,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 592,
+    "representative_rank": 143,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 593,
+    "representative_rank": 213,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 594,
+    "representative_rank": 213,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 595,
+    "representative_rank": 97,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 596,
+    "representative_rank": 97,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 597,
+    "representative_rank": 73,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 598,
+    "representative_rank": 73,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 599,
+    "representative_rank": 107,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 600,
+    "representative_rank": 107,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 601,
+    "representative_rank": 65,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 602,
+    "representative_rank": 66,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 603,
+    "representative_rank": 66,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 604,
+    "representative_rank": 65,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 605,
+    "representative_rank": 107,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 606,
+    "representative_rank": 107,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 607,
+    "representative_rank": 105,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 608,
+    "representative_rank": 105,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 609,
+    "representative_rank": 97,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 610,
+    "representative_rank": 97,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 611,
+    "representative_rank": 71,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 612,
+    "representative_rank": 71,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 613,
+    "representative_rank": 145,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 614,
+    "representative_rank": 145,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 615,
+    "representative_rank": 317,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 616,
+    "representative_rank": 317,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 617,
+    "representative_rank": 317,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 618,
+    "representative_rank": 317,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 619,
+    "representative_rank": 15,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 620,
+    "representative_rank": 15,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 621,
+    "representative_rank": 215,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 622,
+    "representative_rank": 215,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 623,
+    "representative_rank": 162,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 624,
+    "representative_rank": 162,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 625,
+    "representative_rank": 161,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 626,
+    "representative_rank": 161,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 627,
+    "representative_rank": 107,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 628,
+    "representative_rank": 107,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 629,
+    "representative_rank": 273,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 630,
+    "representative_rank": 273,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 631,
+    "representative_rank": 145,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 632,
+    "representative_rank": 145,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 633,
+    "representative_rank": 87,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 634,
+    "representative_rank": 87,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 635,
+    "representative_rank": 105,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 636,
+    "representative_rank": 105,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 637,
+    "representative_rank": 107,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 638,
+    "representative_rank": 107,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 639,
+    "representative_rank": 15,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 640,
+    "representative_rank": 15,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 641,
+    "representative_rank": 11,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 642,
+    "representative_rank": 11,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 643,
+    "representative_rank": 143,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 644,
+    "representative_rank": 143,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 645,
+    "representative_rank": 73,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 646,
+    "representative_rank": 73,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 647,
+    "representative_rank": 81,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 648,
+    "representative_rank": 81,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 649,
+    "representative_rank": 162,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 650,
+    "representative_rank": 162,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 651,
+    "representative_rank": 171,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 652,
+    "representative_rank": 171,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 653,
+    "representative_rank": 90,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 654,
+    "representative_rank": 90,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 655,
+    "representative_rank": 139,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 656,
+    "representative_rank": 139,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 657,
+    "representative_rank": 161,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 658,
+    "representative_rank": 161,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 659,
+    "representative_rank": 65,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 660,
+    "representative_rank": 66,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 661,
+    "representative_rank": 66,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 662,
+    "representative_rank": 65,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 663,
+    "representative_rank": 317,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 664,
+    "representative_rank": 317,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 665,
+    "representative_rank": 113,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 666,
+    "representative_rank": 113,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 667,
+    "representative_rank": 9,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 668,
+    "representative_rank": 9,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 669,
+    "representative_rank": 127,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 670,
+    "representative_rank": 127,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 671,
+    "representative_rank": 273,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 672,
+    "representative_rank": 273,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 673,
+    "representative_rank": 5,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 674,
+    "representative_rank": 5,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 675,
+    "representative_rank": 121,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 676,
+    "representative_rank": 121,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 677,
+    "representative_rank": 139,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 678,
+    "representative_rank": 139,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 679,
+    "representative_rank": 171,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 680,
+    "representative_rank": 171,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 681,
+    "representative_rank": 213,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 682,
+    "representative_rank": 213,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 683,
+    "representative_rank": 130,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 684,
+    "representative_rank": 130,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 685,
+    "representative_rank": 213,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 686,
+    "representative_rank": 213,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 687,
+    "representative_rank": 317,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 688,
+    "representative_rank": 317,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 689,
+    "representative_rank": 71,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 690,
+    "representative_rank": 71,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 691,
+    "representative_rank": 162,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 692,
+    "representative_rank": 162,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 693,
+    "representative_rank": 159,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 694,
+    "representative_rank": 159,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 695,
+    "representative_rank": 197,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 696,
+    "representative_rank": 141,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 697,
+    "representative_rank": 197,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 698,
+    "representative_rank": 141,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 699,
+    "representative_rank": 75,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 700,
+    "representative_rank": 75,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 701,
+    "representative_rank": 77,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 702,
+    "representative_rank": 77,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 703,
+    "representative_rank": 79,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 704,
+    "representative_rank": 79,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 705,
+    "representative_rank": 81,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 706,
+    "representative_rank": 81,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 707,
+    "representative_rank": 127,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 708,
+    "representative_rank": 127,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 709,
+    "representative_rank": 1,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 710,
+    "representative_rank": 1,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 711,
+    "representative_rank": 101,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 712,
+    "representative_rank": 101,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 713,
+    "representative_rank": 71,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 714,
+    "representative_rank": 71,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 715,
+    "representative_rank": 69,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 716,
+    "representative_rank": 69,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 717,
+    "representative_rank": 317,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 718,
+    "representative_rank": 317,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 719,
+    "representative_rank": 129,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 720,
+    "representative_rank": 130,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 721,
+    "representative_rank": 129,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 722,
+    "representative_rank": 130,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 723,
+    "representative_rank": 77,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 724,
+    "representative_rank": 77,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 725,
+    "representative_rank": 175,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 726,
+    "representative_rank": 175,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 727,
+    "representative_rank": 151,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 728,
+    "representative_rank": 109,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 729,
+    "representative_rank": 151,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 730,
+    "representative_rank": 109,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 731,
+    "representative_rank": 75,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 732,
+    "representative_rank": 75,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 733,
+    "representative_rank": 161,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 734,
+    "representative_rank": 161,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 735,
+    "representative_rank": 5,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 736,
+    "representative_rank": 5,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 737,
+    "representative_rank": 121,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 738,
+    "representative_rank": 121,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 739,
+    "representative_rank": 90,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 740,
+    "representative_rank": 90,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 741,
+    "representative_rank": 147,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 742,
+    "representative_rank": 147,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 743,
+    "representative_rank": 105,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 744,
+    "representative_rank": 105,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 745,
+    "representative_rank": 113,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 746,
+    "representative_rank": 113,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 747,
+    "representative_rank": 97,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 748,
+    "representative_rank": 73,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 749,
+    "representative_rank": 73,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 750,
+    "representative_rank": 97,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 751,
+    "representative_rank": 175,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 752,
+    "representative_rank": 175,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 753,
+    "representative_rank": 215,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 754,
+    "representative_rank": 215,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 755,
+    "representative_rank": 141,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 756,
+    "representative_rank": 197,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 757,
+    "representative_rank": 141,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 758,
+    "representative_rank": 197,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 759,
+    "representative_rank": 365,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 760,
+    "representative_rank": 365,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 761,
+    "representative_rank": 79,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 762,
+    "representative_rank": 79,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 763,
+    "representative_rank": 27,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 764,
+    "representative_rank": 27,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 765,
+    "representative_rank": 162,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 766,
+    "representative_rank": 162,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 767,
+    "representative_rank": 161,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 768,
+    "representative_rank": 161,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 769,
+    "representative_rank": 769,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 770,
+    "representative_rank": 769,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 771,
+    "representative_rank": 771,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 772,
+    "representative_rank": 771,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 773,
+    "representative_rank": 773,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 774,
+    "representative_rank": 773,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 775,
+    "representative_rank": 775,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 776,
+    "representative_rank": 775,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 777,
+    "representative_rank": 777,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 778,
+    "representative_rank": 777,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 779,
+    "representative_rank": 779,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 780,
+    "representative_rank": 779,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 781,
+    "representative_rank": 781,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 782,
+    "representative_rank": 775,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 783,
+    "representative_rank": 775,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 784,
+    "representative_rank": 773,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 785,
+    "representative_rank": 773,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 786,
+    "representative_rank": 786,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 787,
+    "representative_rank": 786,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 788,
+    "representative_rank": 788,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 789,
+    "representative_rank": 788,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 790,
+    "representative_rank": 777,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 791,
+    "representative_rank": 777,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 792,
+    "representative_rank": 792,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 793,
+    "representative_rank": 793,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 794,
+    "representative_rank": 793,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 795,
+    "representative_rank": 795,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 796,
+    "representative_rank": 795,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 797,
+    "representative_rank": 788,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 798,
+    "representative_rank": 788,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 799,
+    "representative_rank": 779,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 800,
+    "representative_rank": 779,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 801,
+    "representative_rank": 775,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 802,
+    "representative_rank": 775,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 803,
+    "representative_rank": 779,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 804,
+    "representative_rank": 779,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 805,
+    "representative_rank": 788,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 806,
+    "representative_rank": 788,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 807,
+    "representative_rank": 781,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 808,
+    "representative_rank": 795,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 809,
+    "representative_rank": 795,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 810,
+    "representative_rank": 786,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 811,
+    "representative_rank": 786,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 812,
+    "representative_rank": 792,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 813,
+    "representative_rank": 771,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 814,
+    "representative_rank": 771,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 815,
+    "representative_rank": 769,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 816,
+    "representative_rank": 769,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 817,
+    "representative_rank": 771,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 818,
+    "representative_rank": 771,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 819,
+    "representative_rank": 788,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 820,
+    "representative_rank": 788,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 821,
+    "representative_rank": 821,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 822,
+    "representative_rank": 821,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 823,
+    "representative_rank": 821,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 824,
+    "representative_rank": 821,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 825,
+    "representative_rank": 786,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 826,
+    "representative_rank": 786,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 827,
+    "representative_rank": 792,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 828,
+    "representative_rank": 795,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 829,
+    "representative_rank": 795,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 830,
+    "representative_rank": 793,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 831,
+    "representative_rank": 793,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 832,
+    "representative_rank": 773,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 833,
+    "representative_rank": 773,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 834,
+    "representative_rank": 777,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 835,
+    "representative_rank": 777,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 836,
+    "representative_rank": 781,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 837,
+    "representative_rank": 779,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 838,
+    "representative_rank": 779,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 839,
+    "representative_rank": 793,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 840,
+    "representative_rank": 793,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 841,
+    "representative_rank": 773,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 842,
+    "representative_rank": 773,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 843,
+    "representative_rank": 786,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 844,
+    "representative_rank": 786,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 845,
+    "representative_rank": 793,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 846,
+    "representative_rank": 793,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 847,
+    "representative_rank": 781,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 848,
+    "representative_rank": 769,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 849,
+    "representative_rank": 769,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 850,
+    "representative_rank": 775,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 851,
+    "representative_rank": 775,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 852,
+    "representative_rank": 777,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 853,
+    "representative_rank": 777,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 854,
+    "representative_rank": 771,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 855,
+    "representative_rank": 771,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 856,
+    "representative_rank": 769,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 857,
+    "representative_rank": 769,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 858,
+    "representative_rank": 795,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 859,
+    "representative_rank": 795,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 860,
+    "representative_rank": 792,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 861,
+    "representative_rank": 861,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 862,
+    "representative_rank": 862,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 863,
+    "representative_rank": 862,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 864,
+    "representative_rank": 861,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 865,
+    "representative_rank": 865,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 866,
+    "representative_rank": 865,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 867,
+    "representative_rank": 867,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 868,
+    "representative_rank": 868,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 869,
+    "representative_rank": 869,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 870,
+    "representative_rank": 868,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 871,
+    "representative_rank": 869,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 872,
+    "representative_rank": 872,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 873,
+    "representative_rank": 872,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 874,
+    "representative_rank": 874,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 875,
+    "representative_rank": 875,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 876,
+    "representative_rank": 874,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 877,
+    "representative_rank": 875,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 878,
+    "representative_rank": 788,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 879,
+    "representative_rank": 773,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 880,
+    "representative_rank": 773,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 881,
+    "representative_rank": 788,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 882,
+    "representative_rank": 786,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 883,
+    "representative_rank": 786,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 884,
+    "representative_rank": 884,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 885,
+    "representative_rank": 884,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 886,
+    "representative_rank": 777,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 887,
+    "representative_rank": 777,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 888,
+    "representative_rank": 865,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 889,
+    "representative_rank": 865,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 890,
+    "representative_rank": 781,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 891,
+    "representative_rank": 781,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 892,
+    "representative_rank": 771,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 893,
+    "representative_rank": 771,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 894,
+    "representative_rank": 865,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 895,
+    "representative_rank": 865,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 896,
+    "representative_rank": 896,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 897,
+    "representative_rank": 896,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 898,
+    "representative_rank": 821,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 899,
+    "representative_rank": 821,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 900,
+    "representative_rank": 872,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 901,
+    "representative_rank": 872,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 902,
+    "representative_rank": 868,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 903,
+    "representative_rank": 868,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 904,
+    "representative_rank": 769,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 905,
+    "representative_rank": 769,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 906,
+    "representative_rank": 867,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 907,
+    "representative_rank": 907,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 908,
+    "representative_rank": 907,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 909,
+    "representative_rank": 896,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 910,
+    "representative_rank": 896,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 911,
+    "representative_rank": 821,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 912,
+    "representative_rank": 821,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 913,
+    "representative_rank": 872,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 914,
+    "representative_rank": 914,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 915,
+    "representative_rank": 872,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 916,
+    "representative_rank": 914,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 917,
+    "representative_rank": 862,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 918,
+    "representative_rank": 862,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 919,
+    "representative_rank": 914,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 920,
+    "representative_rank": 914,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 921,
+    "representative_rank": 914,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 922,
+    "representative_rank": 914,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 923,
+    "representative_rank": 862,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 924,
+    "representative_rank": 862,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 925,
+    "representative_rank": 907,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 926,
+    "representative_rank": 907,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 927,
+    "representative_rank": 793,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 928,
+    "representative_rank": 793,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 929,
+    "representative_rank": 896,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 930,
+    "representative_rank": 896,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 931,
+    "representative_rank": 869,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 932,
+    "representative_rank": 869,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 933,
+    "representative_rank": 769,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 934,
+    "representative_rank": 769,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 935,
+    "representative_rank": 795,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 936,
+    "representative_rank": 795,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 937,
+    "representative_rank": 884,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 938,
+    "representative_rank": 884,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 939,
+    "representative_rank": 777,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 940,
+    "representative_rank": 777,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 941,
+    "representative_rank": 865,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 942,
+    "representative_rank": 865,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 943,
+    "representative_rank": 896,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 944,
+    "representative_rank": 896,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 945,
+    "representative_rank": 868,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 946,
+    "representative_rank": 868,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 947,
+    "representative_rank": 867,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 948,
+    "representative_rank": 792,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 949,
+    "representative_rank": 792,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 950,
+    "representative_rank": 867,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 951,
+    "representative_rank": 867,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 952,
+    "representative_rank": 914,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 953,
+    "representative_rank": 914,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 954,
+    "representative_rank": 868,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 955,
+    "representative_rank": 869,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 956,
+    "representative_rank": 868,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 957,
+    "representative_rank": 869,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 958,
+    "representative_rank": 914,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 959,
+    "representative_rank": 914,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 960,
+    "representative_rank": 786,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 961,
+    "representative_rank": 786,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 962,
+    "representative_rank": 884,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 963,
+    "representative_rank": 884,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 964,
+    "representative_rank": 914,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 965,
+    "representative_rank": 872,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 966,
+    "representative_rank": 872,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 967,
+    "representative_rank": 914,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 968,
+    "representative_rank": 793,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 969,
+    "representative_rank": 793,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 970,
+    "representative_rank": 896,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 971,
+    "representative_rank": 896,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 972,
+    "representative_rank": 907,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 973,
+    "representative_rank": 907,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 974,
+    "representative_rank": 872,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 975,
+    "representative_rank": 914,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 976,
+    "representative_rank": 872,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 977,
+    "representative_rank": 914,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 978,
+    "representative_rank": 862,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 979,
+    "representative_rank": 862,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 980,
+    "representative_rank": 875,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 981,
+    "representative_rank": 875,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 982,
+    "representative_rank": 773,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 983,
+    "representative_rank": 788,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 984,
+    "representative_rank": 788,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 985,
+    "representative_rank": 773,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 986,
+    "representative_rank": 793,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 987,
+    "representative_rank": 793,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 988,
+    "representative_rank": 862,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 989,
+    "representative_rank": 862,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 990,
+    "representative_rank": 907,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 991,
+    "representative_rank": 907,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 992,
+    "representative_rank": 786,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 993,
+    "representative_rank": 786,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 994,
+    "representative_rank": 884,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 995,
+    "representative_rank": 884,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 996,
+    "representative_rank": 861,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 997,
+    "representative_rank": 865,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 998,
+    "representative_rank": 865,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 999,
+    "representative_rank": 868,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1000,
+    "representative_rank": 868,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1001,
+    "representative_rank": 769,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1002,
+    "representative_rank": 769,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1003,
+    "representative_rank": 781,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1004,
+    "representative_rank": 781,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1005,
+    "representative_rank": 771,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1006,
+    "representative_rank": 771,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1007,
+    "representative_rank": 771,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1008,
+    "representative_rank": 771,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1009,
+    "representative_rank": 771,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1010,
+    "representative_rank": 771,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1011,
+    "representative_rank": 779,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1012,
+    "representative_rank": 775,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1013,
+    "representative_rank": 775,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1014,
+    "representative_rank": 779,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1015,
+    "representative_rank": 795,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1016,
+    "representative_rank": 795,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1017,
+    "representative_rank": 874,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1018,
+    "representative_rank": 874,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1019,
+    "representative_rank": 907,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1020,
+    "representative_rank": 907,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1021,
+    "representative_rank": 896,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1022,
+    "representative_rank": 896,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1023,
+    "representative_rank": 869,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1024,
+    "representative_rank": 869,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1025,
+    "representative_rank": 788,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1026,
+    "representative_rank": 773,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1027,
+    "representative_rank": 773,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1028,
+    "representative_rank": 788,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1029,
+    "representative_rank": 914,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1030,
+    "representative_rank": 872,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1031,
+    "representative_rank": 872,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1032,
+    "representative_rank": 914,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1033,
+    "representative_rank": 793,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1034,
+    "representative_rank": 793,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1035,
+    "representative_rank": 861,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1036,
+    "representative_rank": 861,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1037,
+    "representative_rank": 869,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1038,
+    "representative_rank": 869,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1039,
+    "representative_rank": 861,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1040,
+    "representative_rank": 777,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1041,
+    "representative_rank": 777,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1042,
+    "representative_rank": 865,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1043,
+    "representative_rank": 865,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1044,
+    "representative_rank": 896,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1045,
+    "representative_rank": 896,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1046,
+    "representative_rank": 792,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1047,
+    "representative_rank": 792,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1048,
+    "representative_rank": 867,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1049,
+    "representative_rank": 867,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1050,
+    "representative_rank": 777,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1051,
+    "representative_rank": 777,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1052,
+    "representative_rank": 865,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1053,
+    "representative_rank": 865,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1054,
+    "representative_rank": 779,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1055,
+    "representative_rank": 775,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1056,
+    "representative_rank": 775,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1057,
+    "representative_rank": 779,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1058,
+    "representative_rank": 769,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1059,
+    "representative_rank": 769,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1060,
+    "representative_rank": 779,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1061,
+    "representative_rank": 775,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1062,
+    "representative_rank": 775,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1063,
+    "representative_rank": 779,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1064,
+    "representative_rank": 872,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1065,
+    "representative_rank": 872,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1066,
+    "representative_rank": 874,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1067,
+    "representative_rank": 875,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1068,
+    "representative_rank": 874,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1069,
+    "representative_rank": 875,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1070,
+    "representative_rank": 884,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1071,
+    "representative_rank": 884,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1072,
+    "representative_rank": 875,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1073,
+    "representative_rank": 875,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1074,
+    "representative_rank": 773,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1075,
+    "representative_rank": 788,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1076,
+    "representative_rank": 788,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1077,
+    "representative_rank": 773,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1078,
+    "representative_rank": 862,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1079,
+    "representative_rank": 862,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1080,
+    "representative_rank": 795,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1081,
+    "representative_rank": 795,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1082,
+    "representative_rank": 872,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1083,
+    "representative_rank": 872,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1084,
+    "representative_rank": 869,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1085,
+    "representative_rank": 868,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1086,
+    "representative_rank": 868,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1087,
+    "representative_rank": 869,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1088,
+    "representative_rank": 884,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1089,
+    "representative_rank": 884,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1090,
+    "representative_rank": 907,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1091,
+    "representative_rank": 907,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1092,
+    "representative_rank": 884,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1093,
+    "representative_rank": 884,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1094,
+    "representative_rank": 907,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1095,
+    "representative_rank": 907,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1096,
+    "representative_rank": 865,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1097,
+    "representative_rank": 865,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1098,
+    "representative_rank": 779,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1099,
+    "representative_rank": 775,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1100,
+    "representative_rank": 775,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1101,
+    "representative_rank": 779,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1102,
+    "representative_rank": 869,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1103,
+    "representative_rank": 868,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1104,
+    "representative_rank": 868,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1105,
+    "representative_rank": 869,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1106,
+    "representative_rank": 862,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1107,
+    "representative_rank": 862,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1108,
+    "representative_rank": 861,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1109,
+    "representative_rank": 861,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1110,
+    "representative_rank": 795,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1111,
+    "representative_rank": 795,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1112,
+    "representative_rank": 862,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1113,
+    "representative_rank": 862,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1114,
+    "representative_rank": 874,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1115,
+    "representative_rank": 874,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1116,
+    "representative_rank": 896,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1117,
+    "representative_rank": 896,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1118,
+    "representative_rank": 868,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1119,
+    "representative_rank": 868,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1120,
+    "representative_rank": 867,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1121,
+    "representative_rank": 869,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1122,
+    "representative_rank": 869,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1123,
+    "representative_rank": 907,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1124,
+    "representative_rank": 907,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1125,
+    "representative_rank": 786,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1126,
+    "representative_rank": 786,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1127,
+    "representative_rank": 884,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1128,
+    "representative_rank": 884,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1129,
+    "representative_rank": 1129,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1130,
+    "representative_rank": 1129,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1131,
+    "representative_rank": 1131,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1132,
+    "representative_rank": 1131,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1133,
+    "representative_rank": 1133,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1134,
+    "representative_rank": 1133,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1135,
+    "representative_rank": 1133,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1136,
+    "representative_rank": 1133,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1137,
+    "representative_rank": 1133,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1138,
+    "representative_rank": 1133,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1139,
+    "representative_rank": 1131,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1140,
+    "representative_rank": 1131,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1141,
+    "representative_rank": 1133,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1142,
+    "representative_rank": 1133,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1143,
+    "representative_rank": 1133,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1144,
+    "representative_rank": 1133,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1145,
+    "representative_rank": 1129,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1146,
+    "representative_rank": 1129,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1147,
+    "representative_rank": 1131,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1148,
+    "representative_rank": 1131,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1149,
+    "representative_rank": 1131,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1150,
+    "representative_rank": 1131,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1151,
+    "representative_rank": 1133,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1152,
+    "representative_rank": 1133,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1153,
+    "representative_rank": 1131,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1154,
+    "representative_rank": 1131,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1155,
+    "representative_rank": 1131,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1156,
+    "representative_rank": 1131,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1157,
+    "representative_rank": 1131,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1158,
+    "representative_rank": 1131,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1159,
+    "representative_rank": 1133,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1160,
+    "representative_rank": 1133,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1161,
+    "representative_rank": 1131,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1162,
+    "representative_rank": 1131,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1163,
+    "representative_rank": 1133,
+    "status": "exact_match"
+  },
+  {
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1164,
+    "representative_rank": 1133,
+    "status": "exact_match"
+  }
+]

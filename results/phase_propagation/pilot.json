@@ -1,0 +1,51 @@
+{
+  "all_complete": true,
+  "completed_utc": "2026-09-29T20:48:49.791004+00:00",
+  "elapsed_seconds": 66.99918659997638,
+  "estimated_full_seconds_with_margin": 484.14434034962323,
+  "estimated_peak_worker_memory_bytes_with_margin": 420820992.0,
+  "estimated_storage_bytes": 10000000,
+  "reference_sha256": "8cf7c10075511c30a765c4bb36aa37924a6af8e835cd86f2ef82a98ff7bfe1ea",
+  "runner_sha256": "b9a993996e3b6cc66fddaa7c54b22697f729e527a136ca8d99e7eadeeee98c68",
+  "selected_ranks": [
+    1,
+    3,
+    105,
+    365,
+    769,
+    771,
+    861,
+    914,
+    1129,
+    1131,
+    1133
+  ],
+  "source_sha256": "bb6da26e126ff751c76670c0657f916486491e61526bf1031b4737b9ba5757f3",
+  "strata": [
+    {
+      "max_case_seconds": 9.97696379997069,
+      "representatives": 50,
+      "split": [
+        11,
+        12
+      ]
+    },
+    {
+      "max_case_seconds": 14.606198500026949,
+      "representatives": 26,
+      "split": [
+        10,
+        13
+      ]
+    },
+    {
+      "max_case_seconds": 29.893109900003765,
+      "representatives": 3,
+      "split": [
+        9,
+        14
+      ]
+    }
+  ],
+  "workers": 3
+}

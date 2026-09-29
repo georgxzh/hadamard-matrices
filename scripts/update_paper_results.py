@@ -16,6 +16,10 @@ def main():
     controls=json.loads((ROOT/'results/phase_controls/metadata.json').read_text())
     control_audit=json.loads((ROOT/'results/phase_controls/audit.json').read_text())
     isolated=json.loads((ROOT/'results/phase_controls/isolated_joins.json').read_text())
+    propagation=json.loads((ROOT/'results/phase_propagation/metadata.json').read_text())
+    propagation_audit=json.loads((ROOT/'results/phase_propagation/audit.json').read_text())
+    assert propagation['complete'] and propagation_audit['status']=='passed'
+    assert propagation_audit['manifest_sha256']==digest(ROOT/'results/phase_propagation/manifest.json')
     assert census['complete'] and audit['status']==control_audit['status']=='passed'
     assert audit['classification_sha256']==digest(ROOT/'results/p5_classification/classification.json')
     assert control_audit['metadata_sha256']==digest(ROOT/'results/phase_controls/metadata.json')
@@ -93,7 +97,11 @@ with a 39.04 MB Python-process peak and 206.90 MB of proof logs.
                'results/p5_classification/classification.json','results/p5_classification/audit.json',
                'results/p5_classification/manifest.json','results/phase_controls/metadata.json',
                'results/phase_controls/isolated_joins.json','results/phase_controls/audit.json',
-               'scripts/classify_p5_lifts.py','src/ternary_phase.py']
+               'scripts/classify_p5_lifts.py','src/ternary_phase.py',
+               'results/phase_propagation/metadata.json','results/phase_propagation/controls.json',
+               'results/phase_propagation/census_validation.json',
+               'results/phase_propagation/equivalence_crosswalk.json',
+               'results/phase_propagation/audit.json','results/phase_propagation/manifest.json']
     hashes=r'''The following SHA-256 values pin the principal evidence. The census
 manifest also pins every branch record and symmetry map. The supplementary
 \path{paper/artifact_manifest.json} pins the manuscript, scripts, tests,
@@ -115,6 +123,10 @@ and supporting records; it is regenerated only after the paper is updated.
            ROOT/'scripts/benchmark_phase_controls.py',ROOT/'scripts/benchmark_phase_isolated_joins.py',
            ROOT/'research/p5_classification.md',ROOT/'research/phase_controls.md',
            ROOT/'research/source_ledger.md',ROOT/'references/references.bib']
+    paths.extend(ROOT/p for p in ('src/phase_propagation.py','scripts/benchmark_phase_propagation.py',
+                                'scripts/crosswalk_p5_equivalence.py','scripts/audit_phase_propagation.py',
+                                'tests/test_phase_propagation.py','tests/test_p5_equivalence.py',
+                                'research/phase_propagation.md','research/direction_selection.md'))
     paths.extend(ROOT/p for p in artifacts)
     save(ROOT/'paper/artifact_manifest.json',{'algorithm':'sha256','files':[
         {'path':p.relative_to(ROOT).as_posix(),'bytes':p.stat().st_size,'sha256':digest(p)} for p in sorted(set(paths))]})

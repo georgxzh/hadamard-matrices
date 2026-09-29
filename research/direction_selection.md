@@ -106,6 +106,20 @@ condition does not imply a binary preimage exists, and the source states the
 universal uncompression claim as a conjecture. A negative result would still
 be publishable if it carries a checkable proof.
 
+## Follow-up result: phase propagation (2026-09-29 UTC)
+
+The proposed difference/cycle/PAF solver and a row-conditioned variant are
+implemented and audited; see `phase_propagation.md`. The latter reproduces
+every solution on all 1,164 p=5 branches using 79 direct representatives and
+proved bijections, but takes 3.56 times the join's summed recorded case time.
+Controlled ablations reduce nodes without improving elapsed time. Standalone
+difference search times out on p=5 controls, and the bounded p=7 experiments
+remain unresolved. Thus this implementation does not displace the join or
+justify scaling. Derive and validate a stronger safe single-row filter before
+another scaling experiment. Keep the PB baseline for certificates and avoid
+p=37 search. The literature convention conversion yields 63 classes within
+our subset; matching the historical representative list remains outstanding.
+
 ## Backup: audited compressed classes
 
 The common-multiplier artifact audit locally reproduced 15 of 25 exclusions;

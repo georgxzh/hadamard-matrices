@@ -141,3 +141,29 @@ post-v1 distinctions, and the ten-case gap are in
   or restricted-census novelty claim.
 
 The claim-by-claim ledger and proofs are in `../paper/manuscript.tex`.
+
+### Propagation and equivalence follow-up, 2026-09-29 UTC
+
+- `fletcher2001`, Section 5.4/Table 3: converted all 2,976 phase-gauged
+  solutions in our subset to the published operations (row exchange,
+  independent cyclic shifts/reversals, common decimation). The result is
+  **63 classes**: 61 with 48 records and two with 24. This is a restricted
+  subset conversion, not reproduction of the complete 3,058-class count.
+  The underlying historical list, stated to be available from the authors,
+  has not been retrieved or matched. No author contact was initiated.
+- `kotsireas2025compression`, Section 4: its trace/linear-complexity discard
+  invokes Conjecture 3.5. Our complete restricted census uses no such filter.
+- `lumsden2025periodic`, primary arXiv v3 Sections 3.4--5:
+  <https://arxiv.org/html/2408.15611v3>. Matching retains all combinations in
+  equal-signature buckets; multilevel compression, recursive uncompression,
+  and equivalence filtering are explicit precedents. The authors' software
+  <https://github.com/tylerlumsden/GolayPair> documents a general PAF constant,
+  including -2, but has not been run or benchmarked here. Our choice of exact
+  PAF coordinates does not make the generic joining method novel.
+- Phase-difference triangle supports, sum intervals, and partner-signature
+  bitsets now have an exact implementation and soundness argument. The
+  priority of this particular combination remains unresolved. A negative
+  timing result cannot establish novelty or rule out other implementations.
+
+Full-text gaps for `kotsireas2027pq2`, `perera2025fast`, and
+`turner2022decimation` remain open. No first-method or new-length claim is made.

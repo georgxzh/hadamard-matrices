@@ -19,6 +19,12 @@ primary-literature comparisons and explicit unresolved novelty questions.
 Length-45 classification already exists in the literature; this is a
 restricted reproducible census. No p=37 search was performed.
 
+The new phase-propagation search also reproduces every branch and solution
+in that census, but its row-conditioned variant is slower than the existing
+join in the recorded comparison. The restricted solutions occupy **63**
+classes under the published length-45 equivalence convention. Details and
+bounded p=7 outcomes are in [research/phase_propagation.md](research/phase_propagation.md).
+
 The low-risk foundations, order-428 warm-up, and exact Legendre core are complete:
 
 - a mathematical primer and an explicitly qualified literature map;

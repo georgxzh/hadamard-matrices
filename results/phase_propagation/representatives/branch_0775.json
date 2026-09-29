@@ -1,0 +1,56 @@
+{
+  "elapsed_seconds": 14.215851699991617,
+  "join_baseline": {
+    "canonical_pairs": 3,
+    "complete": true,
+    "elapsed_seconds": 4.0969855999574065,
+    "ordered_pairs": 27,
+    "solutions": [],
+    "stop_reason": "exhausted",
+    "stored_candidates": 19683,
+    "stored_signatures": 19683,
+    "streamed_candidates": 531441
+  },
+  "matches_reference": true,
+  "peak_working_set_bytes": 97804288,
+  "propagation": {
+    "canonical_lower_bound": 3,
+    "canonical_pairs": 3,
+    "complete": true,
+    "elapsed_seconds": 10.108689399959985,
+    "folded_bounds": true,
+    "node_limit": 5000000,
+    "ordered_pairs": 27,
+    "partner_filter": true,
+    "seconds_limit": 90,
+    "solutions": [
+      [
+        9233412627353,
+        34685084879514
+      ],
+      [
+        11436890226837,
+        5115140491838
+      ],
+      [
+        13915002077597,
+        24768614737418
+      ]
+    ],
+    "stats": {
+      "distinct_signatures": 19683,
+      "leaves": 3,
+      "nodes": 308353,
+      "pruned": 205566,
+      "stored_candidates": 19683
+    },
+    "stop_reason": "exhausted",
+    "stored_candidate_limit": 250000,
+    "stored_side": 0
+  },
+  "rank": 775,
+  "split": [
+    10,
+    13
+  ]
+}

@@ -78,8 +78,12 @@ and PB implementation checked here. Potentially useful formulation;
 novelty unresolved pending a full comparison with \cite{pq2}.\\
 Gray updates and PAF joins & Correlation-vector matching and divisor chains
 in the quaternary setting \cite{lebedev}; fast spectral search
-\cite{perera}. & Established general ideas. The particular ternary update
+\cite{perera}; matching and multilevel lifting \cite{lumsden}. & Established general ideas. The particular ternary update
 implementation is benchmarked; no new complexity bound is claimed.\\
+Difference propagation and partner bounds & Exact phase identity above;
+matching and recursive lifting precedents \cite{issac,lumsden}. & A concrete
+exact implementation audited here. Priority of the combined filters is
+unresolved; no asymptotic or performance improvement is claimed.\\
 All 1,164 prescribed intermediate orbits & Exhaustive length-45 classification
 already in \cite[Section 5.4, Table 3]{fletcher}; related compression families
 \cite{mod5}. & Restricted census is a potentially novel computational
@@ -106,13 +110,21 @@ binary length 333.
 Fletcher, Gysin, and Seberry already report 3,058 inequivalent length-45
 pairs in Table 3 of \cite{fletcher}, identifying row exchange, independent
 cyclic shifts and reversals, and common decimation. Our count uses a fixed
-ordered compression and keeps those multiplicities, so it cannot be compared
-numerically to 3,058 without converting conventions and obtaining their
-underlying list. That crosswalk is missing. Section 2, Tables 1--2 of
+ordered compression and keeps those multiplicities. We now convert our subset
+to their stated equivalence convention, obtaining 63 classes below. Their
+underlying list has not been obtained, so a record-by-record crosswalk is
+still missing. Section 2, Tables 1--2 of
 \cite{mod5} include length 45 and the magnitude pattern $(1,3,3,3,3)$
 used here, alongside $(1,1,1,3,5)$ and other spectral families. Our census
 does not cover these other prescriptions. No conjectural balance, trace,
 or linear-complexity filter is used to exclude a lift within our domain.
+In particular, the trace/linear-complexity discard in Section 4 of
+\cite{issac} invokes its Conjecture 3.5 and is not used here.
+Sections 3.4--5 of \cite{lumsden} give primary precedents for
+complementary-signature matching with all bucket combinations, multilevel
+compression, recursive uncompression, and equivalence filtering. Our exact
+integer PAF keys and phase-support filters are implementation choices within
+this established framework. We have not benchmarked their implementation.
 
 \section{Mathematical setup and exact compression}
 Indices of a length-$L$ sequence lie in $\Z_L$. For a real sequence $x$, put
@@ -273,6 +285,57 @@ transition, rather than eliminating the exponential enumeration.
 Join the two row streams by complementary PAF vectors. Signature buckets
 retain every multiplicity and, for the census, every matched binary pair.
 
+\subsection{Sound propagation and a row-conditioned search}
+For each ordered orientation $u<v$ of active positions, let
+$e_{uv}=a_v-a_u\in\Z_3$. A finite domain $D_{uv}\subseteq\Z_3$ is
+propagated against $e_{uv}+e_{vw}=e_{uw}$ on triangles. The implementation
+tabulates exact supports for all $8^3$ triples of domain masks. It either
+uses all triangles or only those incident with anchor 0. At singleton
+domains the latter suffice: setting $a_0=0$ and $a_v=e_{0v}$ realizes every
+edge, since $e_{uv}=e_{0v}-e_{0u}$.
+
+After grouping each edge's contribution, a projected PAF equation has form
+$\sum_e f_e(e)=T$. For current domains, set
+$l_e=\min_{h\in D_e}f_e(h)$ and $u_e=\max_{h\in D_e}f_e(h)$.
+Reject if $T\notin[\sum l_e,\sum u_e]$, and remove value $h\in D_e$
+if $T-f_e(h)\notin[\sum_{g\ne e}l_g,\sum_{g\ne e}u_g]$.
+\begin{proposition}
+Triangle-support and interval propagation preserve every feasible phase
+assignment. Exhaustive branching on the anchor edges, with exact leaf
+checks, enumerates each phase-gauged lift once.
+\end{proposition}
+\begin{proof}
+Every feasible triangle supplies a support to each selected value. The sum
+of all other selected edge contributions lies within their summed bounds,
+even when those edges are correlated. Thus neither rule deletes a feasible
+value. Anchored phases determine all edges uniquely, and branching assigns
+each such phase tuple exactly once. Theorem~\ref{thm:projected} and the exact
+phase identity give the leaf criterion. A stopped traversal gives only a
+lower bound, never an exact count.
+\end{proof}
+
+The row-conditioned variant first exhausts the smaller row and stores every
+phase tuple in its projected-signature bucket. For a partial assignment of
+the other row, all assigned edges contribute exactly; every remaining edge
+contributes a rigorous interval. No edge across a partial assignment is
+discarded. Besides the $N-1$ projected coordinates, optional folded features
+$\PAF(s)+\PAF(N-s)$ have target sum $-4$. For an edge of distance $r$
+and weight $w$, its folded contribution is $w$ for differences 0 or 2 and
+zero for difference 1, giving a tighter bound than two independent intervals.
+
+For each feature, a sorted index of target values stores cumulative bitsets
+of partner signatures. Intersecting the bitsets for the current feasible
+intervals removes signatures incompatible with at least one feature; it
+does not assert joint feasibility of surviving signatures. An empty
+intersection safely prunes the partial assignment. At a full assignment,
+exact complementary-key lookup emits every partner tuple in the bucket.
+Sound intervals preserve all feasible partners, and the complete stored
+row and phase traversal prove exhaustion. Multiplicities are therefore
+unchanged. Cycles hold by construction because this variant assigns phases
+directly. The precomputed row remains exponential in its active count;
+this is a decomposition between the two rows, with no omission of cross
+terms within either row and no new complexity bound.
+
 \section{Restricted census and verification methodology}
 The catalogue is all admissible intermediate pairs above \eqref{eq:prescribed}
 at $p=5$, modulo independent translations by five. Exhaustive intermediate
@@ -384,6 +447,26 @@ ordered indexed binary pairs with row sums 1 and prescribed compression.
 They are not counts modulo arbitrary shifts, reversal, decimation, row swap,
 sign changes, or Hadamard equivalence.
 
+\subsection{Conversion to the published equivalence convention}
+For each of the 2,976 canonical pairs, we take a numerical minimum over
+common units modulo 45, independent row bracelets (all cyclic shifts and
+reversals), and row exchange. Bracelet reduction commutes with subsequent
+decimation up to another bracelet operation. Thus the minimum over the 24
+units is an exact invariant for the operations in Section 5.4 of
+\cite{fletcher}. The mask order used to choose representatives is arbitrary
+and is recorded in the code; it need not match the older printed ordering.
+The result is 63 classes intersecting our prescribed subset: 61 contain 48
+phase-gauged records and two contain 24. Their intersections with the full
+prescribed ordered set therefore have sizes 3,888 and 1,944 respectively.
+These are intersection sizes, not full unrestricted orbit sizes.
+All 63 representatives pass exact full PAF and SDS checks. An independent
+tuple implementation checks the canonicalizer on all 1,024 length-five
+binary mask pairs and a deterministic sample of length-45 solutions.
+The conversion took 1.39 seconds and peaked at 41.46 MB, following a
+5.11-second pilot estimate. This computes our labels under the published
+convention; it neither reproduces the complete count 3,058 nor matches
+individual entries in the historical list.
+
 \section{Controlled experiments and limitations}
 Earlier bounded runs found all six tested $p=5$ first-stage PB instances
 satisfiable and timed out on all six $p=7$ first-stage instances. Translation
@@ -475,9 +558,75 @@ build, and limits. Model size does not imply solver speed. Censored ten-second
 probes cannot rank algorithms by time to completion. Enumeration remains
 exponential; a fixed $p=7$ branch with 32 active entries has $3^{30}$ paired
 assignments after the two phase gauges. No result justifies a $p=37$ search.
-The immediate research question is whether propagation of phase differences,
-cycle consistency, and weighted PAF sums can avoid enough enumeration while
-preserving all cross terms. That algorithm and its scalability are unproved.
+% PROPAGATION_RESULTS_BEGIN
+\subsection{Propagation validation and controlled ablations}
+An 11-case stratified pilot for the row-conditioned search completed in
+67.00 seconds on three workers. Its conservative estimates were 484.14
+seconds for the full comparison, 420.82 MB of worker memory, and 10 MB of
+storage. The full run reused the pilot cases and completed in 268.73 seconds.
+All 79 representatives exhausted; the proved bijections give exact count
+and solution-list agreement on all 1,164 branches, including all 460 empty
+branches. The largest worker peak was 98.56 MB (295.69 MB when conservatively
+multiplied by three). Pilot and full-run times must be added for a fresh run.
+
+The sum of recorded per-case propagation wall times was 755.60 seconds,
+versus 212.18 seconds for the existing join: a ratio of 3.56. These are
+concurrent three-worker measurements, with propagation preceding the join
+within each case; they are not CPU times or a randomized speed comparison.
+Propagation retains its solution masks while the baseline only counts
+matches. Both retain signature multiplicity. The result supplies no
+evidence that this propagation implementation is faster.
+
+A separate one-worker batch varied partner-signature filtering and folded
+PAF bounds, holding the row domain and exact leaf criterion fixed. Each
+configuration ran once, with no simultaneous repository computation other
+than document/file work. These are mechanism ablations, not estimates of
+a timing distribution:
+\begin{center}
+\begin{tabular}{llrrrr}
+\toprule
+Branch & Partner filter & Folded bounds & Nodes & Leaves & Seconds\\
+\midrule
+Rank 1 & off & off & 263668 & 167877 & 3.990\\
+Rank 1 & off & on  & 262579 & 163608 & 4.072\\
+Rank 1 & on  & off & 148315 & 3 & 7.665\\
+Rank 1 & on  & on  & 114763 & 3 & 8.688\\
+Rank 3 & off & off & 265345 & 169034 & 2.416\\
+Rank 3 & off & on  & 265162 & 165432 & 3.110\\
+Rank 3 & on  & off & 153769 & 0 & 5.709\\
+Rank 3 & on  & on  & 115366 & 0 & 6.129\\
+\bottomrule
+\end{tabular}
+\end{center}
+Leaves count full phase assignments reaching exact partner lookup, not
+solutions. Every rank-1 variant returned 27 ordered lifts and every rank-3
+variant proved zero. Partner filtering sharply reduces nodes and leaf
+lookups but costs more time; folded bounds further reduce nodes when the
+filter is on, again without improving these timings.
+
+The standalone difference solver with anchor or all triangles exhausted the
+$p=3$ control in 0.492 and 0.489 seconds respectively, returning all 135
+ordered lifts. Both variants timed out after ten seconds on each of ranks
+1 and 3 at $p=5$. The saved $p=7$ difference probe timed out after 30 seconds;
+its row-conditioned probe hit the 250,000-candidate cap after 1.74 seconds,
+before partner search. Their exact counts are null, and the branch remains
+unresolved. The complete control batch took 114.65 seconds and peaked at
+182.44 MB. The new JSON evidence package occupies about 0.71 MB.
+
+Tests exhaustively check all 512 triangle-domain triples, compare all four
+conditioned variants and both difference variants to independent binary
+enumeration at $p=3$, and verify that domain propagation preserves every one
+of the 2,976 known canonical $p=5$ solutions. The result audit also checks
+all frozen solution lists, symmetry transfers, null counts on stopped runs,
+and equivalence labels. Hashes cover inputs, implementations, and all cases.
+All 23 targeted tests passed, including the pre-existing ternary-phase tests;
+the historical 156-test full-suite result above predates this extension.
+These are implementation checks, not formal verification. The established
+join remains the strongest demonstrated route for this restricted census;
+neither the new propagation results nor the earlier censored PB runs show
+scaling to $p=7$. Reducing the larger single-row domain, with a proved safe
+filter and matched controls, remains an open research task.
+% PROPAGATION_RESULTS_END
 
 \section{Reproduction and outstanding work}
 Commands below are issued from the repository root using the recorded
@@ -493,6 +642,11 @@ The source is preserved; no rendered-PDF or layout verification is claimed.
 .venv/Scripts/python.exe -m scripts.benchmark_phase_isolated_joins
 .venv/Scripts/python.exe -m scripts.audit_p5_classification
 .venv/Scripts/python.exe -m scripts.audit_ternary_phase
+.venv/Scripts/python.exe -m scripts.benchmark_phase_propagation pilot --workers 3
+.venv/Scripts/python.exe -m scripts.benchmark_phase_propagation full --workers 3
+.venv/Scripts/python.exe -m scripts.benchmark_phase_propagation controls
+.venv/Scripts/python.exe -m scripts.crosswalk_p5_equivalence
+.venv/Scripts/python.exe -m scripts.audit_phase_propagation
 .venv/Scripts/python.exe -m pytest -q --basetemp=tmp/pytest_paper
 .venv/Scripts/python.exe -m scripts.update_paper_results
 \end{verbatim}
@@ -534,18 +688,31 @@ and supporting records; it is regenerated only after the paper is updated.
 {\footnotesize\texttt{17d68b9a74253485bb4b82d716db176ccf10c55b76c591ec229b1db23c5bb367}}
 \item[\normalfont\footnotesize\path{src/ternary_phase.py}] \hfill\break
 {\footnotesize\texttt{132c62ad74fe8e7d13b79de3e6b74ea648ab91da8073722a6e7cc8063bb235dc}}
+\item[\normalfont\footnotesize\path{results/phase_propagation/metadata.json}] \hfill\break
+{\footnotesize\texttt{ff164e24c20872680b6320eef39177a3c02049b0d70246759483ec127c7af716}}
+\item[\normalfont\footnotesize\path{results/phase_propagation/controls.json}] \hfill\break
+{\footnotesize\texttt{f071b3eadd854b716280134eb6638f618265071f6d56588cc750f1e9e821dfc8}}
+\item[\normalfont\footnotesize\path{results/phase_propagation/census_validation.json}] \hfill\break
+{\footnotesize\texttt{1fae392f84564e8f04a4f1e57adf7da4e27a8120216cc23df2b62d67a46c6cbe}}
+\item[\normalfont\footnotesize\path{results/phase_propagation/equivalence_crosswalk.json}] \hfill\break
+{\footnotesize\texttt{8b1f02e6a3a97ae2231dfdc2d3936a6715b3fa8320d3ea3a9f27b8723a660b50}}
+\item[\normalfont\footnotesize\path{results/phase_propagation/audit.json}] \hfill\break
+{\footnotesize\texttt{17c2451ce30046633060d2217e381b4ab1ba039ec68b4d5c950471584669a3f2}}
+\item[\normalfont\footnotesize\path{results/phase_propagation/manifest.json}] \hfill\break
+{\footnotesize\texttt{de757e2b62e6da07aa9ff5777b46bc586192cab827a794ca25bb9f9d7d851a27}}
 \end{description}
 % ARTIFACT_HASHES_END
 
 \paragraph{Open evidence and novelty questions.}
 Before a submission, complete the full-text comparison with the later
-$pq^2$ and fast spectral algorithms, compare any published length-45
-censuses under exactly matching equivalence conventions, and seek an
+$pq^2$ and fast spectral algorithms, obtain the historical length-45
+representative list to match the 63 converted subset classes, and seek an
 independent external replication. No formal exhaustion certificate is
 provided for enumeration. The current hardware sample and deterministic
 solver settings are too narrow for broad performance claims. $p=7$
 liftability of the saved branch remains unresolved. A successful general
-cross-term-aware decomposition and any applicability at $p=37$ remain open.
+cross-term-aware decomposition with demonstrated scaling and any applicability
+at $p=37$ remain open.
 
 \begin{thebibliography}{99}
 \bibitem{fletcher} R. J. Fletcher, M. Gysin, and J. Seberry.
@@ -588,5 +755,9 @@ A. Oertel, Y. K. Tan, and M. Vinyals.
 Practically feasible proof logging for pseudo-Boolean optimization.
 \emph{CP 2025}, LIPIcs 340, 21:1--21:27.
 \url{https://doi.org/10.4230/LIPIcs.CP.2025.21}.
+\bibitem{lumsden} T. Lumsden, I. Kotsireas, and C. Bright.
+New results on periodic Golay pairs. Primary preprint, version 3 (2025).
+\url{https://arxiv.org/abs/2408.15611v3}.
+Sections 3.4--5 provide the methodological comparison used here.
 \end{thebibliography}
 \end{document}

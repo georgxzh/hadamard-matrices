@@ -2,14 +2,19 @@
   "algorithm": "sha256",
   "files": [
     {
-      "bytes": 33337,
+      "bytes": 43986,
       "path": "paper/manuscript.tex",
-      "sha256": "78d41067870ebf1fe06b8d1ddeea86b54c32251bc4535e4f0f28409737e3e5c6"
+      "sha256": "893a8f400cfe7638f2edfd98830816c2424d62d2693979c34eab6f4e2a082a92"
     },
     {
-      "bytes": 10915,
+      "bytes": 11313,
       "path": "references/references.bib",
-      "sha256": "e9f8393ae8554308c505f545c8c0c5f7239c58ce3864dfc60a1bdc67858cd095"
+      "sha256": "f310070dafd04a159fba30e48296bcef65fa967357699b05a31ba207f8db4e9d"
+    },
+    {
+      "bytes": 8219,
+      "path": "research/direction_selection.md",
+      "sha256": "5649bb8326d64ec141c8137d3a229a6aa7987d371ecba85de39d51aa466c2443"
     },
     {
       "bytes": 6806,
@@ -22,9 +27,14 @@
       "sha256": "2b62cdd6a3dabd95f9451b2e1e00c02895f3cd9d45f9abfe111424e2ae47dff8"
     },
     {
-      "bytes": 9691,
+      "bytes": 6637,
+      "path": "research/phase_propagation.md",
+      "sha256": "6f7be5fd23c496c8d6fc40709604c541838087a7878ebe17efc0b8072f93cf1e"
+    },
+    {
+      "bytes": 11363,
       "path": "research/source_ledger.md",
-      "sha256": "1eb954d0c6525094bd24025a233fe3e5c726ca7f65df587f0b6f8e58f8edf7c8"
+      "sha256": "efcab0e8fbef6864c89a953edb81370aa87c1eb9b5bb9db0ea7a3f320d2c49ce"
     },
     {
       "bytes": 65014,
@@ -67,6 +77,36 @@
       "sha256": "2dc999add128bb32855ca0ceb8da43ab22348e591f5d8ba73e6005fa6c010b7c"
     },
     {
+      "bytes": 369,
+      "path": "results/phase_propagation/audit.json",
+      "sha256": "17c2451ce30046633060d2217e381b4ab1ba039ec68b4d5c950471584669a3f2"
+    },
+    {
+      "bytes": 158664,
+      "path": "results/phase_propagation/census_validation.json",
+      "sha256": "1fae392f84564e8f04a4f1e57adf7da4e27a8120216cc23df2b62d67a46c6cbe"
+    },
+    {
+      "bytes": 19206,
+      "path": "results/phase_propagation/controls.json",
+      "sha256": "f071b3eadd854b716280134eb6638f618265071f6d56588cc750f1e9e821dfc8"
+    },
+    {
+      "bytes": 404551,
+      "path": "results/phase_propagation/equivalence_crosswalk.json",
+      "sha256": "8b1f02e6a3a97ae2231dfdc2d3936a6715b3fa8320d3ea3a9f27b8723a660b50"
+    },
+    {
+      "bytes": 20004,
+      "path": "results/phase_propagation/manifest.json",
+      "sha256": "de757e2b62e6da07aa9ff5777b46bc586192cab827a794ca25bb9f9d7d851a27"
+    },
+    {
+      "bytes": 1020,
+      "path": "results/phase_propagation/metadata.json",
+      "sha256": "ff164e24c20872680b6320eef39177a3c02049b0d70246759483ec127c7af716"
+    },
+    {
       "bytes": 48766,
       "path": "results/ternary_phase/metadata.json",
       "sha256": "913e45f6c290bb27c603dd996446aab3b3d324ba82ccee7f51d5a0664f88a42f"
@@ -75,6 +115,11 @@
       "bytes": 9406,
       "path": "scripts/audit_p5_classification.py",
       "sha256": "273e8469195a5a3b2ddcfcbad6773612749172c6a6f4bf90b5dc5a47a7274231"
+    },
+    {
+      "bytes": 5467,
+      "path": "scripts/audit_phase_propagation.py",
+      "sha256": "f4f217c021b2e7ab745e3e1eca6a8fc6ca2d709c83cfd4a87cf8d161cf20c46b"
     },
     {
       "bytes": 4897,
@@ -92,14 +137,29 @@
       "sha256": "53fc741d5b4d998007af16263a56cb51628409bc9946f9ff9b75fedb47cb6260"
     },
     {
+      "bytes": 10043,
+      "path": "scripts/benchmark_phase_propagation.py",
+      "sha256": "b9a993996e3b6cc66fddaa7c54b22697f729e527a136ca8d99e7eadeeee98c68"
+    },
+    {
       "bytes": 18379,
       "path": "scripts/classify_p5_lifts.py",
       "sha256": "17d68b9a74253485bb4b82d716db176ccf10c55b76c591ec229b1db23c5bb367"
     },
     {
-      "bytes": 7589,
+      "bytes": 3530,
+      "path": "scripts/crosswalk_p5_equivalence.py",
+      "sha256": "e1206a2eef3cde5d32c5e1e1a7437305b4111ecd796f437e14a74ed627252907"
+    },
+    {
+      "bytes": 8695,
       "path": "scripts/update_paper_results.py",
-      "sha256": "20c3dc616de5423ab9a418a004b0d69218bec02caf8ae0b85f88d355f4d088a9"
+      "sha256": "ea54620a54658129774bf59a0afcc6a9ece00a5a29de04b2afff0863dd6de626"
+    },
+    {
+      "bytes": 14827,
+      "path": "src/phase_propagation.py",
+      "sha256": "bb6da26e126ff751c76670c0657f916486491e61526bf1031b4737b9ba5757f3"
     },
     {
       "bytes": 17889,
@@ -110,6 +170,16 @@
       "bytes": 3248,
       "path": "tests/test_p5_classification.py",
       "sha256": "9d3e7b668cb607afbce6abbe26174713ec45152d49cff711d3b1b988f261f9b1"
+    },
+    {
+      "bytes": 1134,
+      "path": "tests/test_p5_equivalence.py",
+      "sha256": "49f56211daefc3a0a00eb95ce6169b2d5a2295727fe1356d035d85cc67269c4f"
+    },
+    {
+      "bytes": 3938,
+      "path": "tests/test_phase_propagation.py",
+      "sha256": "a90aed7eb637e853b058645f6bd86ef8246174da92e1cb7257a68ee61258ca1d"
     }
   ]
 }

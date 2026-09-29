@@ -1,0 +1,26 @@
+{
+  "complete": true,
+  "completed_utc": "2026-09-29T20:55:11.871421+00:00",
+  "direct_cases": 79,
+  "direct_join_seconds_sum": 212.1828570998623,
+  "direct_propagation_seconds_sum": 755.6049563004635,
+  "elapsed_seconds": 268.72504960000515,
+  "limitation": "79 direct re-enumerations plus proved bijections cover 1164 orbits; both methods share PhaseRow formula, census binary enumerator is independent.",
+  "ordered_pair_histogram": {
+    "0": 460,
+    "27": 464,
+    "54": 192,
+    "81": 48
+  },
+  "peak_worker_bytes": 98562048,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.14.6",
+  "reference_sha256": "8cf7c10075511c30a765c4bb36aa37924a6af8e835cd86f2ef82a98ff7bfe1ea",
+  "runner_sha256": "b9a993996e3b6cc66fddaa7c54b22697f729e527a136ca8d99e7eadeeee98c68",
+  "source_sha256": "bb6da26e126ff751c76670c0657f916486491e61526bf1031b4737b9ba5757f3",
+  "status_counts": {
+    "exact_match": 1164
+  },
+  "validation_sha256": "1fae392f84564e8f04a4f1e57adf7da4e27a8120216cc23df2b62d67a46c6cbe",
+  "workers": 3
+}

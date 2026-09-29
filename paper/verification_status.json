@@ -1,7 +1,19 @@
 {
   "classification_audit": "results/p5_classification/audit.json",
-  "manifest_entries_checked": 135,
+  "manifest_entries_checked": 234,
+  "manifests_checked": [
+    "paper/artifact_manifest.json",
+    "results/p5_classification/manifest.json",
+    "results/phase_propagation/manifest.json"
+  ],
+  "manuscript_sha256": "893a8f400cfe7638f2edfd98830816c2424d62d2693979c34eab6f4e2a082a92",
   "no_p37_search": true,
+  "propagation_audit": "results/phase_propagation/audit.json",
+  "targeted_extension_tests": {
+    "command": ".venv/Scripts/python.exe -m pytest tests/test_phase_propagation.py tests/test_p5_equivalence.py tests/test_ternary_phase.py -q --basetemp=tmp/pytest_phase_final",
+    "provenance": "Completed tool output; old full-suite result predates this extension",
+    "reported_result": "23 passed in 11.32s"
+  },
   "ternary_and_controls_audit": "results/phase_controls/audit.json",
   "tests": {
     "command": ".venv/Scripts/python.exe -m pytest -q --basetemp=tmp/pytest_paper_audit",
