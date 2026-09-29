@@ -92,8 +92,10 @@ reports are under `results/legendre_examples/`.
 - Locate code and complete outputs underlying `chojecki2026status`.
 - Check SageMath's exact reason/dispatch trace for nonconstruction at 668.
 - Search citation indexes again before any major experiment or public claim.
-- Audit the complete `lebedev2026quaternary` preprint before making a novelty
-  claim about projected autocorrelation keys; only its abstract was used here.
+- Relevant full-text sections 4, 5 and 8 of `lebedev2026quaternary` were
+  audited on 2026-09-29 UTC for correlation-vector joins, divisor chains and
+  evidence levels. Its quaternary Gray map differs from our ternary traversal.
+  This supplies methodological precedent, not a binary LP(333) result.
 
 ## Citation discipline
 
@@ -113,3 +115,29 @@ has 198,965,505 bytes and verified SHA-256
 It was not extracted or fully checked. Exact commands, per-certificate hashes,
 post-v1 distinctions, and the ten-case gap are in
 `multiplier_artifact_audit.md` and `results/multiplier_audit/metadata.json`.
+
+## Paper-draft novelty audit, 2026-09-29 UTC
+
+- `fletcher2001`: primary journal PDF, Section 5.4/Table 3 checked again.
+  Exhaustive length-45 classification already reported (3,058 inequivalent
+  pairs). Our fixed-compression ordered census uses different conventions;
+  conversion to the complete old representative list is still missing.
+- `djokovic2015compression`: primary arXiv HTML, Theorem 3 and Section 6.
+  Exact compression identities and symmetry search are established.
+- `kotsireas2025compression`: indexed primary publisher text, Theorem 3.2,
+  equation (5), Section 4 and the printed small examples. The prescribed
+  character pair and two q-lifts are established, independently reproduced
+  here. The universal uncompression claim remains conjectural.
+- `kotsireas2023mod5`: primary arXiv v3, Section 2/Tables 1--2. The
+  `(1,3,3,3,3)` magnitude pattern is already listed at length 45, alongside
+  other families. Our exact census is confined to one ordered prescription.
+- `turner2022decimation`: publisher abstract/metadata only; full theory and
+  its relation to our concrete gauge still need comparison.
+- `perera2025fast`: publisher abstract/metadata only. The FFT-like search
+  algorithm benchmarks lengths 45 and 63. Our implementation timings are
+  not a comparison against this work and do not establish state-of-the-art.
+- `kotsireas2027pq2`: primary abstract/metadata checked, full algorithm and
+  tables still inaccessible. This is a material gap for any phase-formulation
+  or restricted-census novelty claim.
+
+The claim-by-claim ledger and proofs are in `../paper/manuscript.tex`.

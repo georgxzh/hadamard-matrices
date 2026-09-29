@@ -1,0 +1,592 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,booktabs,longtable,array}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{xurl}
+\hypersetup{colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue}
+\setlength{\emergencystretch}{2em}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newcommand{\PAF}{\operatorname{PAF}}
+\newcommand{\DFT}{\operatorname{DFT}}
+\newcommand{\PSD}{\operatorname{PSD}}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\ind}[1]{\mathbf 1_{\{#1\}}}
+\newcommand{\pending}[1]{\textbf{Unresolved:} #1}
+\title{Exact staged lifting of prescribed Legendre compressions:\\
+ternary phases, translation gauges, and a restricted length-45 census}
+\author{Working draft; authorship to be confirmed}
+\date{September 29, 2026 (UTC)}
+\begin{document}
+\maketitle
+\begin{abstract}
+We study binary lifts of a prescribed quadratic-character compression at
+length $9p$. Established compression identities give an exact two-stage
+formulation through length $3p$. We spell out translation gauges, a
+sufficient projected set of autocorrelation equations, and a ternary
+minority-layer parameterization retaining every cross term and layer carry.
+Two independent exhaustive enumerators support a restricted census for
+$p=5$: the domain consists of the 1,164 translation orbits of intermediate
+pairs above the specified length-five pair: 704 have lifts and 460 are empty,
+with exact multiplicities retained. This is not a classification of all Legendre
+pairs of length 45 or of Hadamard equivalence classes. Bounded $p=5,7$
+experiments compare exact enumeration with pseudo-Boolean (PB) encodings.
+Order 668 motivates the longer-term problem, but none of these experiments
+establish proximity to a solution; no $p=37$ search is performed.
+Novelty is provisional: compression, character prescriptions, successive
+lifting, symmetry reduction, and correlation matching have primary precedents.
+\end{abstract}
+
+\section{Scope and relation to primary literature}
+Binary Legendre pairs yield Hadamard matrices of order $2(L+1)$ through a
+standard two-core construction \cite{fletcher}. Thus $L=333=9\cdot37$ is one
+possible route to order 668. This paper studies small exact validation
+problems for that route. A lift satisfying compressed necessary conditions
+need not exist. We make no claim that an order-668 matrix is close, that the
+prescribed family must contain one, or that our timings extrapolate to $p=37$.
+
+The contribution under investigation is a reproducible restricted census,
+with explicit count conventions and independently checked computations,
+together with concrete exact formulations. The following ledger distinguishes
+mathematical provenance from what this repository has reproduced.
+
+\begin{longtable}{p{.22\linewidth}p{.35\linewidth}p{.35\linewidth}}
+\toprule
+Item & Primary comparison & Status in this draft\\\midrule
+\endhead
+PAF/PSD, SDS, and Hadamard connection & Fletcher, Gysin, and Seberry
+\cite{fletcher}; compression treatment \cite{compression}. & Established;
+integer identities and small witnesses independently checked.\\
+Exact compression and Fourier identities & Theorem 3 of
+\cite{compression}. & Established; proofs specialized here for auditability.\\
+Character prescription and successive $q$-lifts & Theorem 3.2, equation (5),
+and Section 4 of \cite{issac}. & Established; our derivation and staged
+implementation are independent reproductions, not new existence results.\\
+Translation/reversal/decimation reduction & Necklaces, bracelets, and charm
+bracelets in \cite{compression}; decimation reduction in \cite{issac};
+orbit counting in \cite{turner}. & Established principles. The explicit
+four-inequality gauge and 79-case restricted partition are concrete
+specializations; priority of these specializations is unresolved.\\
+Projected PAF theorem & Direct consequence of the compression identity and
+real PAF symmetry \cite{compression}. & Proved specialization; no claim of
+new underlying theory or of minimal equation count.\\
+Minority-layer phases and shared differences & Successive lifting already
+in \cite{issac}; compare the later $pq^2$ search \cite{pq2}. & Exact formulas
+and PB implementation checked here. Potentially useful formulation;
+novelty unresolved pending a full comparison with \cite{pq2}.\\
+Gray updates and PAF joins & Correlation-vector matching and divisor chains
+in the quaternary setting \cite{lebedev}; fast spectral search
+\cite{perera}. & Established general ideas. The particular ternary update
+implementation is benchmarked; no new complexity bound is claimed.\\
+All 1,164 prescribed intermediate orbits & Exhaustive length-45 classification
+already in \cite[Section 5.4, Table 3]{fletcher}; related compression families
+\cite{mod5}. & Restricted census is a potentially novel computational
+artifact, not a new length. Prior exhaustive counts must still be compared.\\
+Certificates and reproducibility & PB proof logging \cite{koops}; explicit
+evidence distinctions in \cite{lebedev}. & Established methodology applied
+here. Hashes identify files; they do not prove exhaustion.\\
+\bottomrule
+\end{longtable}
+
+\paragraph{Literature access and remaining gaps.}
+The full primary compression text and the relevant sections of the quaternary
+and multiple-of-five papers were read. The ISSAC primary publisher text identifies the exact
+prescription and successive-lifting algorithm. The publisher abstract and
+metadata of the later $pq^2$ paper were checked, but its full algorithm and
+tables have not been audited. Full comparisons with the low-complexity
+spectral algorithm and decimation-counting
+work remain incomplete. These are substantive novelty gaps. We do not claim
+a first algorithm, first classification, or state-of-the-art speed.
+The quaternary Gray map in \cite{lebedev} is distinct from the reflected
+ternary Gray traversal used here; quaternary existence results do not settle
+binary length 333.
+
+Fletcher, Gysin, and Seberry already report 3,058 inequivalent length-45
+pairs in Table 3 of \cite{fletcher}, identifying row exchange, independent
+cyclic shifts and reversals, and common decimation. Our count uses a fixed
+ordered compression and keeps those multiplicities, so it cannot be compared
+numerically to 3,058 without converting conventions and obtaining their
+underlying list. That crosswalk is missing. Section 2, Tables 1--2 of
+\cite{mod5} include length 45 and the magnitude pattern $(1,3,3,3,3)$
+used here, alongside $(1,1,1,3,5)$ and other spectral families. Our census
+does not cover these other prescriptions. No conjectural balance, trace,
+or linear-complexity filter is used to exclude a lift within our domain.
+
+\section{Mathematical setup and exact compression}
+Indices of a length-$L$ sequence lie in $\Z_L$. For a real sequence $x$, put
+\[
+ \PAF_x(s)=\sum_{i\in\Z_L}x_i x_{i+s},\qquad
+ \DFT_x(t)=\sum_{j\in\Z_L}x_j e^{2\pi\mathrm{i}jt/L},\qquad
+ \PSD_x(t)=|\DFT_x(t)|^2.
+\]
+A normalized binary Legendre pair is an ordered pair
+$(x,y)\in\{\pm1\}^L\times\{\pm1\}^L$, with odd $L$, both row sums 1,
+and
+\begin{equation}\label{eq:lp}
+ F(0)=2L,\quad F(s)=-2\ (s\ne0),\qquad
+ F(s)=\PAF_x(s)+\PAF_y(s).
+\end{equation}
+Its nonzero-frequency PSD sum is $2L+2$; its zero-frequency sum is 2.
+For negative supports $X,Y$, both sizes are $(L-1)/2$, and the combined
+number of ordered support differences at each nonzero shift is
+$\lambda=(L-3)/2$. Indeed,
+$\PAF_x(s)=L-4|X|+4|X\cap(X-s)|$. These identities permit independent
+integer PAF and SDS validation without floating-point tolerances.
+
+For $L=md$ define compression $C_d(x)_j=\sum_{k=0}^{m-1}x_{j+kd}$.
+The standard identities \cite{compression} are
+\begin{align}
+ \PAF_{C_d(x)}(r)&=\sum_{h=0}^{m-1}\PAF_x(r+hd),\label{eq:compress}\\
+ \DFT_{C_d(x)}(t)&=\DFT_x(mt),\label{eq:fourier}\\
+ C_e(C_d(x))&=C_e(x)\qquad(e\mid d\mid L).\label{eq:associate}
+\end{align}
+For completeness, expanding the left side of \eqref{eq:compress} gives
+all pairs of layers exactly once after grouping their difference modulo $m$.
+In \eqref{eq:fourier}, the exponential is constant on each residue class
+modulo $d$. Equation \eqref{eq:associate} follows by partitioning the same
+index set twice. For a Legendre pair, the compressed PAF sum is therefore
+$2L-2(m-1)$ at zero and $-2m$ elsewhere.
+
+Take $L=9p$, $N=3p$, with odd prime $p$, and let $\chi_p$ be the quadratic
+character, extended by $\chi_p(0)=0$. The prescribed length-$p$ pair is
+\begin{equation}\label{eq:prescribed}
+ A_0=B_0=1,\qquad A_j=3\chi_p(j),\quad B_j=-3\chi_p(j)\quad(j\ne0).
+\end{equation}
+This is the $q=3$ instance of the established prescription in
+\cite[Theorem 3.2]{issac}. Writing $A=e_0+3\chi_p$, $B=e_0-3\chi_p$
+cancels the mixed terms. The character autocorrelation is $p-1$ at zero
+and $-1$ elsewhere, yielding $18p-16$ and $-18$, respectively. Each row
+sums to 1. This verifies compressed necessary conditions, not liftability;
+the universal uncompression claim in \cite{issac} is conjectural.
+
+An admissible intermediate pair $(C,D)$ has length $N$, entries
+$\{-3,-1,1,3\}$, compressions $(A,B)$, and
+\begin{equation}\label{eq:intermediate}
+ G(0)=6N-4,\qquad G(r)=-6\ (r\ne0),\quad
+ G(r)=\PAF_C(r)+\PAF_D(r).
+\end{equation}
+Both row sums are 1. If $k_C,k_D$ count magnitude-one entries, then
+$18N-8(k_C+k_D)=6N-4$, hence
+\begin{equation}\label{eq:active}
+ k_C+k_D=(3N+1)/2=(9p+1)/2.
+\end{equation}
+For $p=5$, $(A,B)=((1,3,-3,-3,3),(1,-3,3,3,-3))$ and the active total is 23.
+
+\section{Translation conventions and a projected PAF theorem}
+At the first stage, independent translations of $C,D$ by multiples of $p$
+preserve the prescribed pair and all PAFs. Anchor a residue whose prescribed
+sum is $1$ or $-1$. Its three intermediate entries cannot all be equal,
+so its rotation orbit has size three. Each pair orbit consequently has size
+nine. The saved catalogue uses the lexicographically least entire row under
+these rotations, separately for each row.
+
+The PB implementation instead chooses the lexicographically least anchor
+triple. To encode it, write its entries as $c_i=3-2n_i$ with
+$n_i=u_i+2v_i\in\{0,1,2,3\}$. Maximizing $16n_0+4n_1+n_2$ among rotations
+is equivalent to
+\begin{equation}\label{eq:gauge}
+ 15n_0-12n_1-3n_2\ge0,\qquad
+ 12n_0+3n_1-15n_2\ge0.
+\end{equation}
+There are two inequalities per row, four per pair, with no added variables.
+Both conventions select one representative per orbit, but need not select
+the same representative. Witnesses must be translated before comparing them.
+
+For a fixed intermediate row, binary translations by $N$ preserve it.
+An active residue has exactly one minority sign among three layers. Setting
+the first active residue's minority layer to zero fixes this free action.
+For the present row-sum-one branches, active residues always exist, giving
+another factor nine for ordered binary pairs. This phase-zero gauge differs
+from the binary PB lexicographic negative-bit gauge: the latter selects
+minority layer 2 when the anchor compression is $+1$, and layer 0 when it
+is $-1$. Controlled encoding comparisons align these choices explicitly.
+
+\begin{theorem}[Sufficient projected shifts]\label{thm:projected}
+Suppose binary rows of length $3N$ compress to an admissible intermediate
+pair satisfying \eqref{eq:intermediate}. They form a Legendre pair if and
+only if $F(s)=-2$ for every $1\le s<N$.
+\end{theorem}
+\begin{proof}
+Necessity is immediate. For $1\le r<N$, compression gives
+$F(r)+F(r+N)+F(r+2N)=-6$. Real PAF symmetry and periodicity give
+$F(r+2N)=F(N-r)=-2$, so $F(r+N)=-2$. At zero, $F(0)=6N$ and
+$G(0)=F(0)+F(N)+F(2N)=6N-4$. Symmetry gives $F(N)=F(2N)=-2$.
+All shifts are covered, and compression preserves the row sums.
+\end{proof}
+This is a specialization of established compression theory, not a claim of
+minimality or of novel general compression. Dropping equations is justified
+only after checking the intermediate constants exactly.
+
+\section{Ternary phases and exact cross terms}
+For one intermediate row define $b_i=\operatorname{sgn}(C_i)$ and
+$d_i=-2b_i$ when $|C_i|=1$, otherwise $d_i=0$. Associate a phase
+$a_i\in\Z_3$ to each active residue. Every binary preimage is uniquely
+\begin{equation}\label{eq:decode}
+ x_{i+kN}=b_i+d_i\ind{k=a_i}\qquad(0\le i<N,\ k\in\Z_3).
+\end{equation}
+Inactive phases can be assigned arbitrarily because their coefficients vanish.
+For a shift $s=r+\ell N$, $0\le r<N$, put
+$j=(i+r)\bmod N$ and $h_i=\ell+\lfloor(i+r)/N\rfloor\pmod3$.
+Expanding \eqref{eq:decode} and summing over layers gives the exact identity
+\begin{equation}\label{eq:phase}
+ \PAF_x(s)=\sum_{i=0}^{N-1}
+ \left(3b_i b_j+d_i b_j+b_i d_j+
+ d_i d_j\ind{a_j-a_i=h_i}\right).
+\end{equation}
+The carry in $h_i$ is essential. Diagonal terms at multiples of $N$ are
+handled by the same formula. The derivation uses the fact that two minority
+indicators coincide in exactly one layer precisely when their phase
+difference equals $h_i$.
+
+\paragraph{PB encoding.}
+Use one-hot bits $X_{i,a}$ for phases and $D_{ij,h}$ for each unordered pair
+of active residues and each difference $h\in\Z_3$. Add exactly-one equations
+for each triple and nine implications per edge:
+\[
+ -X_{i,a}-X_{j,b}+D_{ij,b-a}\ge-1\qquad(a,b\in\Z_3).
+\]
+The selected endpoint phases force their unique difference bit. Conversely
+every phase assignment extends uniquely to all difference bits. Substitute
+these bits in \eqref{eq:phase}, with a fixed orientation and sign reversal
+when an edge is reversed, and impose shifts $1,\ldots,N-1$. Coefficients of
+the variable terms are multiples of four and can be divided by four along
+with the integer target. Fixing the anchor phase removes translations.
+This formulation is equivalent to binary lifting by
+Theorem~\ref{thm:projected}. It is not a relaxation.
+
+For $k_C,k_D$ active residues the encoding has $3(k_C+k_D)$ phase bits and
+$3\{\binom{k_C}{2}+\binom{k_D}{2}\}$ difference bits. Cross terms between
+any proposed partition of a row remain present. The interaction graph is
+complete within each row; a small separator or square-root search bound
+cannot be assumed.
+
+\paragraph{Exact enumeration and incremental updates.}
+With the anchor fixed, a row has $3^{k-1}$ assignments. Reflected ternary
+Gray order changes one phase per step. For active positions $u<v$ of
+distance $r$, its weight $d_ud_v$ contributes to projected coordinate $r$
+if $a_v-a_u=0$, to coordinate $N-r$ if the difference is 2, and to neither
+if it is 1. Removing and reinserting all incident-edge contributions updates
+the entire PAF vector exactly. This costs $O(k)$ arithmetic operations per
+transition, rather than eliminating the exponential enumeration.
+Join the two row streams by complementary PAF vectors. Signature buckets
+retain every multiplicity and, for the census, every matched binary pair.
+
+\section{Restricted census and verification methodology}
+The catalogue is all admissible intermediate pairs above \eqref{eq:prescribed}
+at $p=5$, modulo independent translations by five. Exhaustive intermediate
+enumeration gives 10,476 ordered pairs and 1,164 translation representatives.
+Its active-count strata have sizes 384 each for $(11,12),(12,11)$; 180 each
+for $(10,13),(13,10)$; and 18 each for $(9,14),(14,9)$.
+Ranks order these representatives by the existing repository's exact scan-cost
+rule and lexicographic tie breaking; the catalogue file fixes that order.
+
+\subsection{A bijective reduction to 79 direct enumerations}
+For $p=5$, $\chi_5(-1)=1$. Choose $u\in\Z_{15}^{\times}$, a common
+decimation, and independent signs $\epsilon_C,\epsilon_D\in\{\pm1\}$.
+Swap the two rows if $\chi_5(u)=-1$, then replace each row by
+$C_{\epsilon u i\bmod15}$ and restore its catalogue translation gauge.
+The prescription is preserved: the swap compensates for the nonsquare
+character, and independent reversals do not alter its character.
+Reversal preserves each real PAF, while common decimation permutes shifts.
+Every chosen unit modulo 15 is also a unit modulo 45. If the final
+catalogue-normalizing offset is $t\in\{0,5,10\}$, the corresponding binary
+map is
+\begin{equation}\label{eq:transfer}
+ x'_i=x_{\epsilon u(i+t)\bmod45},
+\end{equation}
+after the same possible row swap. Compression commutes with this map.
+It is a permutation, with an inverse, and preserves the full Legendre
+condition. Restoring the phase-zero gauge gives a bijection on translation
+classes of binary lifts. Thus exact lift counts transfer, including zero.
+
+Computing this action on the whole catalogue yields 79 disjoint classes:
+67 of size 16, 11 of size 8, and one of size 4. Every target retains its own
+rank, transformation, count, and solutions; the classes are computational
+reuse, not a redefinition of the reported census. No uniform multiplicity
+of 16 is assumed. The independent implementation checks every transformed
+positive witness and directly re-enumerates pilot targets to check transfer.
+
+\subsection{Two exhaustive enumerators and evidence levels}
+The first enumerator uses the ternary Gray update and the 14 projected
+PAF shifts. The second constructs binary residue masks by Cartesian products
+of negative-support subsets, without using the phase identity, and uses
+all 22 nonredundant length-45 PAF shifts. A mask $m$ is evaluated by
+$45-2\operatorname{popcount}(m\mathbin{\mathtt{xor}}\operatorname{rot}_s(m))$.
+For every directly enumerated representative, the programs compare expected
+candidate counts, complete projected-signature histograms including
+multiplicities, exact solution counts, and every matching mask pair.
+Matched pairs undergo direct integer full-PAF, negative-support SDS, and
+compression checks. The intermediate catalogue is regenerated separately.
+Known ranks 1 and 2 have 27 ordered lifts each; rank 3 is empty. The
+published structured length-45 witness maps to rank 771 and provides another
+positive control.
+
+An empty branch is recorded only after both enumerators exhaust their
+domains, or via a proved recorded bijection from such a branch. This is a
+verified computational nonexistence result conditional on the enumerator
+implementations and finite-domain coverage argument. It is not a standalone
+PB UNSAT certificate or a formally verified program. The implementations
+share the input catalogue and some final-check routines, so independence is
+at the enumeration and PAF-evaluation levels, not separate teams or hardware.
+SAT proof logs and compact witness certificates from PB runs are checked
+with VeriPB. A timeout, cap, or unverified solver status remains unresolved;
+it never contributes a zero to an exact census.
+
+\subsection{Pilot, resource gate, and census outcome}
+A 21-branch stratified pilot, including known positive and empty cases,
+completed in 205.25 seconds on four workers. A conservative direct scan of
+all 1,164 branches was estimated at 6,513.69 seconds, exceeding the
+repository's 30-minute per-run limit. The proved 79-case reduction gave a
+three-worker estimate of 763.19 seconds with 50\% margin, 1.43 GB of worker
+memory with margin, and 8.73 MB of result storage. The reduced run has a
+27-minute wall budget and 120-second per-branch deadlines. These fit the
+limits of four cores, 30 minutes per run, and 10 GB. Longer work requires
+prior approval.
+
+% CENSUS_RESULTS_BEGIN
+The reduced run completed in 394.57 seconds (6.58 minutes), with no unresolved
+branch. The 79 direct cases comprise 47 positive and 32 empty representatives.
+After transferring exact counts, the complete 1,164-branch census is:
+\begin{center}
+\begin{tabular}{rrr}
+\toprule
+Ordered lifts of a fixed intermediate pair & Phase-gauged lifts & Branches\\
+\midrule
+0 & 0 & 460\\
+27 & 3 & 464\\
+54 & 6 & 192\\
+81 & 9 & 48\\
+\midrule
+\multicolumn{2}{l}{Total branches (704 positive, 460 empty)} & 1,164\\
+\bottomrule
+\end{tabular}
+\end{center}
+There are 2,976 phase-gauged solutions, 26,784 ordered lifts summed over
+catalogue representatives, and 241,056 ordered binary pairs after restoring
+all prescribed intermediate translations. Rank 771 has 54 ordered lifts.
+The separate 13.84-second audit regenerated all intermediate pairs, checked
+every canonical solution by full PAF and SDS, inverted all recorded solution
+maps, compared all 21 direct pilot cases, recovered the published witness,
+and expanded all translations to verify that the 241,056 pairs are distinct.
+The largest recorded worker peak was 317.23 MB; three times this peak is a
+951.68 MB conservative worker-sum bound, not a simultaneous whole-system
+measurement. Classification records including the audit and manifest occupy
+about 1.14 MB. The run reused seven directly verified pilot representatives;
+pilot and reduced-run times must be added when budgeting a fresh reproduction.
+% CENSUS_RESULTS_END
+
+If $c_r$ is the phase-gauged count for catalogue rank $r$, the number of
+ordered binary lifts of that fixed intermediate pair is $9c_r$. Summing
+over all 10,476 intermediates gives $81\sum_{r=1}^{1164}c_r$. These are
+ordered indexed binary pairs with row sums 1 and prescribed compression.
+They are not counts modulo arbitrary shifts, reversal, decimation, row swap,
+sign changes, or Hadamard equivalence.
+
+\section{Controlled experiments and limitations}
+Earlier bounded runs found all six tested $p=5$ first-stage PB instances
+satisfiable and timed out on all six $p=7$ first-stage instances. Translation
+canonicalization reduced the exact domain but slowed each paired $p=5$
+solver comparison. A reproducible heuristic then acquired a $p=7$
+intermediate branch with active counts $(15,17)$; exact integer checks and
+VeriPB certify its intermediate constraints, not its binary liftability.
+Binary Legendre pairs of length 63 were already constructed in
+\cite{issac}; this branch acquisition is not a new existence result.
+
+The phase and projected binary models have respectively 171/454 and
+486/1,758 variables/records for the chosen $p=3$ branch; 432/1,249 and
+1,350/5,088 for $p=5$ rank 1; and 819/2,464 and 2,646/10,146 for the
+saved $p=7$ branch. In the earlier experiment both $p=3$ encodings solved,
+but all twelve ten-second $p=5,7$ probes timed out. Their gauges differed,
+so their timings alone do not isolate encoding effects. The $p=7$ phase
+join hit a 250,000-signature cap before streaming the partner row; zero
+matches at that point provides no nonexistence evidence.
+
+% CONTROL_RESULTS_BEGIN
+The controlled join comparison holds Gray traversal, mask maintenance,
+projected coordinates, byte keys, multiplicity buckets, and stream hashing
+fixed. Only the translation gauge and PAF evaluator change. Three repeats
+per configuration run in a deterministic shuffled order. Ordered stream
+hashes agree between the incremental and recomputed evaluators. Rank 1 gives
+27 ordered lifts and rank 3 gives zero in every trial. A separate timing
+batch ran with no concurrent repository computations; background OS load and
+CPU frequency were not controlled. Its medians and ranges are:
+\begin{center}
+\begin{tabular}{llrr}
+\toprule
+Branch / gauge & PAF evaluation & Median (s) & Range (s)\\
+\midrule
+Rank 1 / off & recompute & 5.737 & 5.387--7.314\\
+Rank 1 / off & incremental & 5.706 & 5.186--7.161\\
+Rank 1 / on & recompute & 1.879 & 1.807--2.590\\
+Rank 1 / on & incremental & 1.709 & 1.697--1.778\\
+Rank 3 / off & recompute & 5.903 & 5.450--10.115\\
+Rank 3 / off & incremental & 5.192 & 5.172--5.859\\
+Rank 3 / on & recompute & 1.839 & 1.803--2.499\\
+Rank 3 / on & incremental & 1.717 & 1.657--1.806\\
+\bottomrule
+\end{tabular}
+\end{center}
+The gauge reduces the two-row candidate scan exactly threefold,
+from 708,588 to 236,196, while the pair-orbit reduction is ninefold.
+With the gauge on, incremental updates improve the median by factors 1.10
+and 1.07 on ranks 1 and 3; the timing ranges overlap. This is materially
+less than the earlier single-trial comparison using different traversals.
+There is no robust large update-only speedup claim.
+
+The aligned PB comparison uses the same intermediate branches, projected
+shifts, and binary lexicographic anchor gauges in both encodings. It uses
+RoundingSat with LP reasoning disabled, restart multiplier 100, a ten-second
+internal limit, proof logging, and a fifteen-second external timeout.
+Three shuffled-order repetitions are timing replicates of deterministic
+search, not independent random seeds. The results are:
+\begin{center}
+\begin{tabular}{lll}
+\toprule
+Branch & Binary PB & Phase PB\\\midrule
+$p=3$ known & 3/3 SAT; 1.659 s & 3/3 SAT; 0.165 s\\
+$p=5$ rank 1 & 3/3 timeout; 11.087 s & 3/3 timeout; 11.087 s\\
+$p=7$ saved & 3/3 timeout; 11.088 s & 3/3 timeout; 11.074 s\\
+\bottomrule
+\end{tabular}
+\end{center}
+Each SAT result passed exact witness checks, full VeriPB proof verification,
+and compact certificate verification. Timeouts remain unresolved in solver
+records. The earlier 13.84-second census audit overlapped part of this PB
+batch, so these wall times have that additional limitation. It cannot alter
+the exact outcomes or justify ranking censored searches. The phase encoding
+wins the tiny positive control, while both encodings fail the tested larger
+budgets. Complete p=5 enumeration remains the stronger demonstrated route
+for this restricted task, not a demonstrated scalable algorithm.
+
+The artifact audit checked 139 hashes, regenerated 35 OPB files byte-for-byte,
+and reverified 19 SAT proofs/certificates. All 156 repository tests passed
+using an in-repository temporary directory. The first test attempt encountered
+a system-temporary-directory permission error; that run is not counted as a
+passing verification. The control batch took 253.16 seconds on one worker,
+with a 39.04 MB Python-process peak and 206.90 MB of proof logs.
+The separate join batch took 96.99 seconds; its measured process peak was 35.51 MB.
+
+% CONTROL_RESULTS_END
+
+All comparisons are local to the recorded implementation, branch, solver
+build, and limits. Model size does not imply solver speed. Censored ten-second
+probes cannot rank algorithms by time to completion. Enumeration remains
+exponential; a fixed $p=7$ branch with 32 active entries has $3^{30}$ paired
+assignments after the two phase gauges. No result justifies a $p=37$ search.
+The immediate research question is whether propagation of phase differences,
+cycle consistency, and weighted PAF sums can avoid enough enumeration while
+preserving all cross terms. That algorithm and its scalability are unproved.
+
+\section{Reproduction and outstanding work}
+Commands below are issued from the repository root using the recorded
+Python environment. This standalone source targets the native LaTeX editor;
+no external bibliography or data input is needed. Native compilation is
+currently unverified: the compiler environment reports ``Unable to find
+standard directories for platform'' before producing source diagnostics.
+The source is preserved; no rendered-PDF or layout verification is claimed.
+\begin{verbatim}
+.venv/Scripts/python.exe -m scripts.classify_p5_lifts --pilot --workers 4
+.venv/Scripts/python.exe -m scripts.classify_p5_lifts --full --workers 3
+.venv/Scripts/python.exe -m scripts.benchmark_phase_controls
+.venv/Scripts/python.exe -m scripts.benchmark_phase_isolated_joins
+.venv/Scripts/python.exe -m scripts.audit_p5_classification
+.venv/Scripts/python.exe -m scripts.audit_ternary_phase
+.venv/Scripts/python.exe -m pytest -q --basetemp=tmp/pytest_paper
+.venv/Scripts/python.exe -m scripts.update_paper_results
+\end{verbatim}
+The pilot and full classification are separate bounded runs. Independent
+auditing also has its own bounded command. Benchmark metadata records exact
+solver arguments, executable hashes, deterministic restart settings, proof
+locations, timestamps, and measurements. Failed or censored trials remain
+in the record. No command above initiates a length-333 search.
+Historical first-stage and phase runs are reproduced by
+\path{scripts/benchmark_intermediate_scaling.py} and
+\path{scripts/benchmark_ternary_phase.py}; their metadata records the complete
+commands, including solver/verifier paths and ten-second search limits.
+
+% ARTIFACT_HASHES_BEGIN
+The following SHA-256 values pin the principal evidence. The census
+manifest also pins every branch record and symmetry map. The supplementary
+\path{paper/artifact_manifest.json} pins the manuscript, scripts, tests,
+and supporting records; it is regenerated only after the paper is updated.
+\begin{description}
+\item[\normalfont\footnotesize\path{results/intermediate_scaling/metadata.json}] \hfill\break
+{\footnotesize\texttt{4e1e24fc535a2f818cd45cf28556b56fa4cea0c6817fd4fe55b36e3287903f90}}
+\item[\normalfont\footnotesize\path{results/ternary_phase/metadata.json}] \hfill\break
+{\footnotesize\texttt{913e45f6c290bb27c603dd996446aab3b3d324ba82ccee7f51d5a0664f88a42f}}
+\item[\normalfont\footnotesize\path{results/p5_branch_portfolio/canonical_branches.json}] \hfill\break
+{\footnotesize\texttt{6b8123e1c398fdc408c6efff323739bacf168468b93db46a4228e0a8d94ba35c}}
+\item[\normalfont\footnotesize\path{results/p5_classification/classification.json}] \hfill\break
+{\footnotesize\texttt{8cf7c10075511c30a765c4bb36aa37924a6af8e835cd86f2ef82a98ff7bfe1ea}}
+\item[\normalfont\footnotesize\path{results/p5_classification/audit.json}] \hfill\break
+{\footnotesize\texttt{0355f1de249a049db9bb4a88a78397860ed47f15605c3ec35f9431908c5b01d2}}
+\item[\normalfont\footnotesize\path{results/p5_classification/manifest.json}] \hfill\break
+{\footnotesize\texttt{57b17a1f512da294eba7e285b38bb311978b8a4af6cb8b0e75239ae7d4a18b75}}
+\item[\normalfont\footnotesize\path{results/phase_controls/metadata.json}] \hfill\break
+{\footnotesize\texttt{2dc999add128bb32855ca0ceb8da43ab22348e591f5d8ba73e6005fa6c010b7c}}
+\item[\normalfont\footnotesize\path{results/phase_controls/isolated_joins.json}] \hfill\break
+{\footnotesize\texttt{7f2eac56399470852f1ec3ebefab7a6dc8d2b51d88539c5b0bd1d20dd0602265}}
+\item[\normalfont\footnotesize\path{results/phase_controls/audit.json}] \hfill\break
+{\footnotesize\texttt{6761c4ec7c1124437383da0097342ec3fe77a32be013c652486b7ebfb00a3702}}
+\item[\normalfont\footnotesize\path{scripts/classify_p5_lifts.py}] \hfill\break
+{\footnotesize\texttt{17d68b9a74253485bb4b82d716db176ccf10c55b76c591ec229b1db23c5bb367}}
+\item[\normalfont\footnotesize\path{src/ternary_phase.py}] \hfill\break
+{\footnotesize\texttt{132c62ad74fe8e7d13b79de3e6b74ea648ab91da8073722a6e7cc8063bb235dc}}
+\end{description}
+% ARTIFACT_HASHES_END
+
+\paragraph{Open evidence and novelty questions.}
+Before a submission, complete the full-text comparison with the later
+$pq^2$ and fast spectral algorithms, compare any published length-45
+censuses under exactly matching equivalence conventions, and seek an
+independent external replication. No formal exhaustion certificate is
+provided for enumeration. The current hardware sample and deterministic
+solver settings are too narrow for broad performance claims. $p=7$
+liftability of the saved branch remains unresolved. A successful general
+cross-term-aware decomposition and any applicability at $p=37$ remain open.
+
+\begin{thebibliography}{99}
+\bibitem{fletcher} R. J. Fletcher, M. Gysin, and J. Seberry.
+Application of the discrete Fourier transform to the search for generalised
+Legendre pairs and Hadamard matrices. \emph{Australas. J. Combin.} 23
+(2001), 75--86.
+\url{https://ajc.maths.uq.edu.au/pdf/23/ocr-ajc-v23-p75.pdf}.
+\bibitem{compression} D. \v{Z}. \DJ{}okovi\'c and I. S. Kotsireas.
+Compression of periodic complementary sequences and applications.
+\emph{Designs, Codes and Cryptography} 74 (2015), 365--377.
+\url{https://doi.org/10.1007/s10623-013-9862-z}.
+Primary preprint: \url{https://arxiv.org/abs/1302.0571}.
+\bibitem{issac} I. S. Kotsireas, A. I. G\'omez, and D. G\'omez-P\'erez.
+On properties of Legendre pairs under compression.
+\emph{ISSAC 2025}, 79--86.
+\url{https://doi.org/10.1145/3747199.3747549}.
+\bibitem{pq2} I. Kotsireas, R. Gallardo-Cava, A. I. G\'omez, and
+D. G\'omez-P\'erez. On the search of binary Legendre pairs of length $pq^2$.
+\emph{J. Symbolic Computation} 138 (2027), 102606; online 2026.
+\url{https://doi.org/10.1016/j.jsc.2026.102606}.
+\bibitem{turner} J. S. Turner, D. A. Bulutoglu, D. Baczkowski, and A. J. Geyer.
+Counting the decimation classes of binary vectors with relatively prime
+length and density. \emph{J. Algebraic Combinatorics} 55 (2022), 61--87.
+\url{https://doi.org/10.1007/s10801-020-00990-z}.
+\bibitem{lebedev} N. Lebedev. Quaternary Legendre pairs of lengths
+42, 46, 52, 58, 66, 72, and 80. Preprint (2026).
+\url{https://arxiv.org/abs/2609.04589}. Methodological comparison only.
+\bibitem{perera} S. M. Perera and I. S. Kotsireas.
+A low-complexity algorithm to search for Legendre pairs.
+\emph{Linear Algebra and its Applications} 721 (2025), 149--171.
+\url{https://doi.org/10.1016/j.laa.2025.01.010}.
+\bibitem{mod5} I. S. Kotsireas, C. Koutschan, D. A. Bulutoglu,
+D. M. Arquette, J. S. Turner, and K. J. Ryan.
+Legendre pairs of lengths $\ell\equiv0\pmod5$.
+\emph{Special Matrices} 11 (2023), 20230105.
+\url{https://doi.org/10.1515/spma-2023-0105}.
+Primary preprint version 3: \url{https://arxiv.org/abs/2111.02105v3}.
+\bibitem{koops} W. Koops, D. Le Berre, M. O. Myreen, J. Nordstr\"om,
+A. Oertel, Y. K. Tan, and M. Vinyals.
+Practically feasible proof logging for pseudo-Boolean optimization.
+\emph{CP 2025}, LIPIcs 340, 21:1--21:27.
+\url{https://doi.org/10.4230/LIPIcs.CP.2025.21}.
+\end{thebibliography}
+\end{document}

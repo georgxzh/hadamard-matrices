@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from collections import Counter
+from itertools import product
 import json
 from pathlib import Path
 
@@ -18,6 +19,7 @@ from src.staged_uncompression import (
     FactorThreeBranch,
     IntermediatePBModel,
     canonical_intermediate_translation,
+    canonical_intermediate_residue_translation,
     enumerate_intermediate_pairs,
     intermediate_signature,
     intermediate_uncompression_count,
@@ -101,6 +103,7 @@ def test_intermediate_model_has_derived_exact_counts() -> None:
         "compression_equalities": 6,
         "zero_shift_equalities": 1,
         "correlation_equalities": 4,
+        "symmetry_inequalities": 0,
         "constraint_records": 947,
         "normalized_inequalities": 958,
     }
@@ -227,6 +230,18 @@ def test_complete_p5_pairs_split_into_free_translation_orbits() -> None:
     assert len(pairs) == 10_476
     assert len(canonical) == 1_164
     assert len(pairs) == 9 * len(canonical)
+    model = IntermediatePBModel(*prescribed, canonical_translations=True)
+    anchored = Counter(model.canonicalize_pair(*pair) for pair in pairs)
+    assert len(anchored) == 1_164
+    assert set(anchored.values()) == {9}
+    symmetry = tuple(model.iter_symmetry_constraints())
+    for pair in pairs:
+        assignment = {
+            model.bit_variable(r, i, bit): (((3 - value) // 2) >> bit) & 1
+            for r, row in enumerate(pair) for i, value in enumerate(row)
+            for bit in (0, 1)
+        }
+        assert all(c.satisfied_by(assignment) for c in symmetry) == (pair in anchored)
     assert Counter(
         tuple(sum(abs(value) == 1 for value in row) for row in pair)
         for pair in pairs
@@ -265,3 +280,52 @@ def test_intermediate_enumeration_rejects_an_accidental_p37_run() -> None:
         search_intermediate_pairs(*prescribed)
     with pytest.raises(ValueError, match="exceeds the explicit per-side cap"):
         enumerate_intermediate_pairs(*prescribed)
+
+
+def test_anchor_inequalities_exhaustively_select_one_rotation() -> None:
+    # Include tied minima and both target signs; inequalities must resolve ties.
+    for target in (-1, 1):
+        model = IntermediatePBModel(*structured_compressed_pair(3, 3),
+                                    canonical_translations=True)
+        constraints = tuple(model.iter_symmetry_constraints())[:2]
+        for triple in product((-3, -1, 1, 3), repeat=3):
+            if sum(triple) != target:
+                continue
+            accepted = []
+            for k in range(3):
+                rotated = triple[k:] + triple[:k]
+                row = tuple(rotated[i // 3] if i % 3 == 0 else 1 for i in range(9))
+                assignment = {
+                    model.bit_variable(0, 3 * i, bit): (((3 - v) // 2) >> bit) & 1
+                    for i, v in enumerate(rotated) for bit in (0, 1)
+                }
+                if all(c.satisfied_by(assignment) for c in constraints):
+                    accepted.append(rotated)
+                canonical, _ = canonical_intermediate_residue_translation(row, 3, 0)
+                assert canonical[::3] == min(triple[j:] + triple[:j] for j in range(3))
+            assert accepted == [min(triple[j:] + triple[:j] for j in range(3))]
+
+
+def test_p3_canonical_model_is_sound_complete_on_all_translation_orbits(tmp_path) -> None:
+    prescribed = structured_compressed_pair(3, 3)
+    model = IntermediatePBModel(*prescribed, canonical_translations=True)
+    pairs = enumerate_intermediate_pairs(*prescribed)
+    constraints = tuple(model.iter_constraints())
+    accepted = {pair for pair in pairs
+                if model.first_failed_constraint(*pair, constraints=constraints) is None}
+    assert len(accepted) == 88
+    assert accepted == {model.canonicalize_pair(*pair) for pair in pairs}
+    assert model.stats.variables == 342
+    assert model.stats.constraint_records == 951 == len(constraints)
+    assert model.stats.normalized_inequalities == 962
+    artifact = model.write_opb(tmp_path / "canonical.opb")
+    assert "#constraint= 951 #equal= 11" in artifact.path.read_text().splitlines()[0]
+
+
+def test_intermediate_anchor_validation() -> None:
+    with pytest.raises(ValueError, match="sum to"):
+        canonical_intermediate_residue_translation((1,) * 9, 3, 0)
+    with pytest.raises(ValueError, match="invalid canonical residue"):
+        canonical_intermediate_residue_translation((1,) * 9, 3, 3)
+    with pytest.raises(ValueError, match="requires a canonical"):
+        IntermediatePBModel(*structured_compressed_pair(3, 3)).canonicalize_pair((), ())

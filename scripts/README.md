@@ -92,6 +92,54 @@ model.
 python -m scripts.build_projected_uncompression --solver path\to\roundingsat.exe --verifier path\to\veripb.exe --probe-seconds 10
 ```
 
+`benchmark_intermediate_scaling.py` exhaustively validates first-stage
+translation canonicalization at p=3/p=5, compares unbroken and canonical
+p=5/p=7 PB models under three restart settings, and checks all SAT traces and
+compact witness certificates with VeriPB. It probes up to three discovered
+branches per p for binary lifts and compares PB with an exact PAF join on the
+known p=5 rank-1 branch. Runs are sequential, use 1..20 seconds per search
+(default 10), and never search p=37 or enumerate p=7. Incomplete proofs remain
+ignored scratch artifacts; a timeout has no UNSAT interpretation.
+
+```powershell
+python -m scripts.benchmark_intermediate_scaling --solver path\to\roundingsat.exe --verifier path\to\veripb.exe --search-seconds 10
+```
+
+`benchmark_ternary_phase.py` validates the minority-layer representation on
+all 7,290 row preimages of the p=3 reference branch, reproduces exact p=3/p=5
+join counts, and compares compact phase PB with projected binary PB. A
+bounded seeded heuristic acquires p=7 intermediate branches, accepting only
+exactly checked and VeriPB-certified branches. The phase join uses explicit
+time/candidate/signature caps and reports incomplete searches separately.
+The runner also compares packed and incremental PAF evaluation on exactly
+the same canonical domains; `--packed-controls-only` repeats only that part.
+
+```powershell
+python -m scripts.benchmark_ternary_phase --solver path\to\roundingsat.exe --verifier path\to\veripb.exe --search-seconds 10
+```
+
+
+
+The completed p=5 census and controlled phase experiments are reproduced by:
+
+```powershell
+python -m scripts.classify_p5_lifts --pilot --workers 4
+python -m scripts.classify_p5_lifts --full --workers 3
+python -m scripts.audit_p5_classification
+python -m scripts.benchmark_phase_controls
+python -m scripts.benchmark_phase_isolated_joins
+python -m scripts.audit_ternary_phase
+python -m scripts.update_paper_results
+```
+
+The full classifier requires a completed matching pilot and checks its
+resource estimate before launching. It uses explicit symmetry bijections to
+cover all 1,164 catalogue branches via 79 direct cases, each checked by two
+exhaustive enumerators. It preserves every solution and multiplicity.
+Run the isolated timing command without other repository computations.
+The audit commands do not infer nonexistence from timeouts. The paper updater
+inserts only completed, audited evidence into the standalone LaTeX source.
+
 No open-search script targeting order 668 is present. Direct enumeration at
 `p=37, q=3` would require about `2.4e71` candidates per row; see
 `research/pq2_derivation.md`.

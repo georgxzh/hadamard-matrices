@@ -1,0 +1,48 @@
+{
+  "catalog_sha256": "6b8123e1c398fdc408c6efff323739bacf168468b93db46a4228e0a8d94ba35c",
+  "classification_sha256": "8cf7c10075511c30a765c4bb36aa37924a6af8e835cd86f2ef82a98ff7bfe1ea",
+  "complete": true,
+  "completed_utc": "2026-09-29T01:07:39.481880+00:00",
+  "elapsed_seconds": 394.5740337999887,
+  "known_rank_counts": {
+    "1": 27,
+    "2": 27,
+    "3": 0,
+    "771": 54
+  },
+  "negative_evidence": "two independent exhaustive enumerations plus proved explicit symmetry bijections; no standalone PB UNSAT proof",
+  "ordered_solution_histogram": {
+    "0": 460,
+    "27": 464,
+    "54": 192,
+    "81": 48
+  },
+  "phase_source_sha256": "132c62ad74fe8e7d13b79de3e6b74ea648ab91da8073722a6e7cc8063bb235dc",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.14.6",
+  "resource_plan": {
+    "catalog_branches": 1164,
+    "estimated_peak_worker_memory_bytes_with_50_percent_margin": 1426083840.0,
+    "estimated_storage_bytes": 8728226.285714285,
+    "estimated_wall_seconds_with_50_percent_margin": 763.1853668004915,
+    "group_size_histogram": {
+      "4": 1,
+      "8": 11,
+      "16": 67
+    },
+    "hard_wall_seconds": 1620,
+    "per_branch_seconds": 120,
+    "proof": "independent reversals; common unit decimation; nonsquare swap; explicit bijections",
+    "representatives": 79,
+    "workers": 3
+  },
+  "source_sha256": "17d68b9a74253485bb4b82d716db176ccf10c55b76c591ec229b1db23c5bb367",
+  "status_counts": {
+    "sat": 704,
+    "verified_empty": 460
+  },
+  "sum_ordered_pairs_over_all_10476_intermediates": 241056,
+  "sum_ordered_pairs_over_translation_representatives": 26784,
+  "symmetry_maps_sha256": "8d6053e678cbf2ac6b91b25d786cd30b664e950a54018f4d3e7e6c978a71e222",
+  "workers": 3
+}

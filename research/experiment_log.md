@@ -488,6 +488,120 @@ length 333 or order 668.
 - Reproduction commands: enumerated in `multiplier_artifact_audit.md`; all
   executed against the exact external commit above
 
+## EXP-INTERMEDIATE-SCALING-001: first-stage symmetry and bounded p=5/p=7 PB
+
+- Status: exhaustive symmetry validation; bounded exploratory solver comparison
+- UTC start/end: 2026-09-28 02:38:36 to 02:41:06
+- Objective: prove first-stage translation canonicalization and test whether
+  the generic staged PB formulation merits scaling beyond small p
+- Mathematical constraints: exact compressed PAFs and prescribed compression;
+  least anchor triple under independent translations by p; exact projected
+  second-stage PAF equations with binary translation canonicalization
+- Configuration: RoundingSat with LP disabled and proof logging, restart
+  multipliers 50/100/200, ten-second internal search limits; VeriPB 3.0.2
+- Random seed: none; restart settings are deterministic sensitivity probes
+- Software/hardware: Python and Windows platform recorded in metadata;
+  executable hashes and every command frozen with outputs
+- Resources: 150.309042 seconds total wall; sequential single-core solvers;
+  largest sampled solver working set 18,231,296 bytes; 227,640,019 bytes of
+  ignored search traces; approximately 2.31 MB of frozen results
+- Complete output: `results/intermediate_scaling/metadata.json`
+- Exact checkers: all canonical p=3/p=5 pairs pass every OPB record; actual
+  solver assignments and independently decoded PAF/compression checks;
+  VeriPB verifies all eight successful search traces and compact certificates
+- Results: 792 -> 88 p=3 pairs and 10,476 -> 1,164 p=5 pairs, exactly nine
+  per orbit. Both p=3 and all six p=5 first-stage searches solve. All six p=7
+  first-stage searches and four p=5 binary-lift searches time out. The exact
+  rank-1 p=5 join recovers 27 pairs in 7.745979 seconds on the same branch
+  where canonical projected PB times out.
+- Interpretation: retain PB as a reference; prioritize an exact ternary
+  formulation retaining phase cross terms before further scaling
+- Limitations: no p=7 branch obtained; timeouts are not UNSAT; no performance
+  claim for an unimplemented decomposition; no p=37 solver run. Proof-v2
+  unchecked-deletion warning accepted only for independently verified SAT.
+- Reproduction: `python -m scripts.benchmark_intermediate_scaling --solver
+  tmp/tools/roundingsat/roundingsat.exe --verifier
+  tmp/tools/veripb-3.0.2/bin/veripb.exe --search-seconds 10`
+- Derivation and next implementation gate: `intermediate_scaling.md`
+
+## EXP-TERNARY-PHASE-001: exact cross terms and bounded p=5/p=7 lifts
+
+- Status: exact formulation and small-case exhaustive validation; bounded
+  exploratory PB comparison and heuristic intermediate acquisition
+- UTC main benchmark start/end: 2026-09-29 00:03:15 to 00:05:44;
+  supplemental controls have a separate timestamp in metadata
+- Objective: preserve phase cross terms while reducing the fixed-branch
+  encoding and per-candidate work; test the binary-lift bottleneck at p=5/7
+- Mathematical constraints: one ternary minority-layer phase per active
+  residue; exact shared differences; complete layer-carry-aware PAF formula;
+  projected shifts; proved independent row-translation gauges
+- Configuration: sequential RoundingSat, LP disabled, proof logging,
+  restart multipliers 50/100/200, ten-second solver budgets; VeriPB 3.0.2
+- Seed: 20260928 for p=7 intermediate acquisition, 89,695 iterations;
+  no random seed for deterministic PB runs
+- Exact results: 196,830 direct PAF checks; p=3 135 ordered pairs; p=5 rank 1
+  27 ordered pairs; complete compact-model certificates pass VeriPB. A p=7
+  intermediate branch is found in 3.871556 seconds and certified, with
+  active-row counts 15/17. Its binary liftability remains unknown.
+- PB results: both p=3 controls solve (binary 3.134790 s; phase 0.330354 s).
+  All twelve p=5/p=7 lift probes time out. Three preliminary twenty-second
+  first-stage p=7 PB probes also time out.
+- Same-domain join control: p=5 incremental 0.963585 s, packed 1.809603 s;
+  both return exactly 27. The p=7 join reaches 250,000 stored signatures
+  before any partner rows are scanned; zero matches is uninformative.
+- Resources: main wall time 148.791907 s, preliminary retries about 63.23 s,
+  supplemental controls 2.815672 s; maximum sampled main solver working set
+  14,528,512 bytes; Python peak memory not measured; scratch proofs
+  321,174,052 bytes; retained results about 2.67 MB
+- Complete output: `results/ternary_phase/metadata.json`,
+  `results/ternary_phase/p7_acquisition.json`; derivation `ternary_phase.md`
+- Interpretation: phase compression helps representation and small-case
+  enumeration, but generic PB still stalls. Next implement bounded exact
+  finite-domain phase propagation, including all cross terms and cycles.
+- Limitations: no p=7 binary pair, no completeness claim for the heuristic or
+  capped join, no p=37 solver run, no asymptotic speedup claim
+- Reproduction: `python -m scripts.benchmark_ternary_phase --solver
+  tmp/tools/roundingsat/roundingsat.exe --verifier
+  tmp/tools/veripb-3.0.2/bin/veripb.exe --search-seconds 10`
+
+## 2026-09-29: complete prescribed p=5 classification and paper draft
+
+- Status: exhaustive restricted census; controlled bounded benchmarks.
+- Domain: every one of the 1,164 intermediate translation orbits above the
+  prescribed p=5 character pair, with binary translations and multiplicities
+  tracked explicitly. No p=37 search.
+- Resource gate: 21-branch pilot, four workers, 205.248 s; naive estimate
+  6,513.693 s exceeded the per-run limit and was not executed. Proved
+  symmetries reduced direct cases to 79; three-worker estimate with margin
+  763.185 s, 1.426 GB worker memory, 8.73 MB result storage.
+- Result: reduced run 394.574 s; 704 positive and 460 empty branches, zero
+  unresolved. Ordered per-branch counts 0/27/54/81 occur 460/464/192/48 times.
+  All translations restored: 241,056 distinct ordered prescribed LP(45)s.
+- Exact checker: two exhaustive enumerators (ternary projected versus binary
+  full PAF), all-solution direct PAF/SDS/compression checks, 79 explicit
+  symmetry records, regenerated catalogue, 21 pilot comparisons, inverse
+  transfers, known published witness, and unique translation expansion.
+- Complete output and hashes: `results/p5_classification/`; independent
+  audit passed in 13.843 s. Details: `p5_classification.md`.
+- Controlled effects: three-repeat factorial joins hold Gray traversal and
+  gauge fixed; a separate 96.99-second timing batch avoids concurrent repo
+  jobs. Gauge cuts row count 3x, while incremental-update median gains with
+  gauge enabled are 1.10x/1.07x with overlapping ranges. Both aligned PB
+  encodings time out on all p=5/p=7 probes; phase PB solves the p=3 control
+  faster. Details and limitations: `phase_controls.md`.
+- Artifact audit: 139 hashes, 35 byte-identical regenerated OPBs, 19
+  reverified SAT logs/certificates. Repository tests: 156 passed using
+  in-repository temporary storage after the default temp path was denied.
+- Paper: `paper/manuscript.tex` includes proofs, literature comparison,
+  completed measurements, commands and hashes. Fletcher--Gysin--Seberry's
+  2001 exhaustive length-45 classification is explicitly credited; novelty
+  of the restricted artifact/formulations is unresolved. Native PDF
+  compilation is blocked by an environment error, not reported as successful.
+- Limitations: no formal enumeration/UNSAT certificate, no external
+  replication or old-classification crosswalk, incomplete full-text
+  comparison with later pq² and fast spectral algorithms. Saved p=7 branch
+  remains unresolved. No conclusion about proximity to order 668.
+
 ## Entry template
 
 - Experiment ID:

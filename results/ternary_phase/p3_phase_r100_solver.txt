@@ -1,0 +1,92 @@
+c RoundingSat 2
+c branch HEAD
+c commit d4edbf7
+c #variables 171 #constraints 447
+c #Conflicts:       1000 | #Constraints:       1446
+c cpu time 0 s
+c deterministic time 1118467 1.12e+06
+c optimization time 0 s
+c total solve time 0 s
+c core-guided solve time 0 s
+c propagation time 0 s
+c conflict analysis time 0 s
+c propagations 70838
+c resolve steps 20416
+c decisions 1724
+c conflicts 1329
+c restarts 9
+c inprocessing phases 0
+c input clauses 374
+c input cardinalities 73
+c input general constraints 0
+c input average constraint length 3.19
+c input average constraint degree 1.28
+c learned clauses 1225
+c learned cardinalities 29
+c learned general constraints 75
+c learned average constraint length 17.01
+c learned average constraint degree 2.15
+c watched constraints 54
+c counting constraints 21
+c gcd simplifications 4
+c detected cardinalities 0
+c weakened non-implied lits 10416
+c weakened non-implying lits 10
+c original variables 171
+c clausal propagations 32123
+c cardinality propagations 36447
+c watched propagations 191
+c counting propagations 688
+c watch lookups 256691
+c watch backjump lookups 34819
+c watch checks 399454
+c propagation checks 174726
+c constraint additions 106329
+c trail pops 73885
+c formula constraints 447
+c learned constraints 1329
+c bound constraints 0
+c core-guided constraints 0
+c encountered formula constraints 17545
+c encountered learned constraints 4200
+c encountered bound constraints 0
+c encountered core-guided constraints 0
+c LP total time 0 s
+c LP solve time 0 s
+c LP constraints added 0
+c LP constraints removed 0
+c LP pivots internal 0
+c LP pivots root 0
+c LP calls 0
+c LP optimalities 0
+c LP no pivot count 0
+c LP infeasibilities 0
+c LP valid Farkas constraints 0
+c LP learned Farkas constraints 0
+c LP basis resets 0
+c LP cycling count 0
+c LP singular count 0
+c LP no primal count 0
+c LP no farkas count 0
+c LP other issue count 0
+c LP Gomory cuts 0
+c LP learned cuts 0
+c LP deleted cuts 0
+c LP encountered Gomory constraints 0
+c LP encountered Farkas constraints 0
+c LP encountered learned Farkas constraints 0
+c CG auxiliary variables introduced 0
+c CG solutions found 0
+c CG cores constructed 0
+c CG core cardinality constraints returned 0
+c CG unit cores 0
+c CG single cores 0
+c CG blocks removed during cardinality reduction 0
+c CG first core best 0
+c CG decision core best 0
+c CG core reduction tie 0
+c CG core degree average 0.00
+c CG core slack average 0.00
+c CG core upper bound improvements 0
+s SATISFIABLE
+v x1 -x2 -x3 x4 -x5 -x6 -x7 -x8 x9 -x10 x11 -x12 -x13 x14 -x15 -x16 -x17 x18 -x19 x20 -x21 -x22 -x23 x24 x25 -x26 -x27 x28 -x29 -x30 -x31 x32 -x33 -x34 x35 -x36 -x37 -x38 x39 -x40 -x41 x42 x43 -x44 -x45 -x46 -x47 x48 -x49 x50 -x51 -x52 x53 -x54 -x55 -x56 x57 -x58 x59 -x60 -x61 -x62 x63 -x64 -x65 x66 -x67 x68 -x69 -x70 x71 -x72 -x73 -x74 x75 -x76 x77 -x78 -x79 -x80 x81 -x82 -x83 x84 -x85 -x86 x87 x88 -x89 -x90 -x91 -x92 x93 x94 -x95 -x96 x97 -x98 -x99 -x100 x101 -x102 x103 -x104 -x105 -x106 x107 -x108 -x109 x110 -x111 x112 -x113 -x114 -x115 x116 -x117 -x118 -x119 x120 x121 -x122 -x123 -x124 x125 -x126 x127 -x128 -x129 -x130 x131 -x132 -x133 x134 -x135 -x136 -x137 x138 -x139 -x140 x141 -x142 x143 -x144 -x145 x146 -x147 -x148 -x149 x150 -x151 -x152 x153 x154 -x155 -x156 -x157 x158 -x159 -x160 x161 -x162 -x163 x164 -x165 -x166 x167 -x168 x169 -x170 -x171

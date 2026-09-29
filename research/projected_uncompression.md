@@ -142,6 +142,12 @@ propagation than the generic two-bit product model. For the second stage, use
 the projected 110-shift formulation once a branch exists. A p=37 run still
 requires a separate resource estimate and approval.
 
+Follow-up completed: `intermediate_scaling.md` proves first-stage translation
+canonicalization and records bounded p=5/p=7 scaling. The generic PB model
+passed p=5 first-stage search but failed to solve p=7 within the tested
+budgets. A specialized ternary formulation preserving phase cross terms is
+now the recommended next implementation, with PB retained as a reference.
+
 Reproduction command:
 
 ```powershell

@@ -1,0 +1,12 @@
+{
+  "classification_audit": "results/p5_classification/audit.json",
+  "manifest_entries_checked": 135,
+  "no_p37_search": true,
+  "ternary_and_controls_audit": "results/phase_controls/audit.json",
+  "tests": {
+    "command": ".venv/Scripts/python.exe -m pytest -q --basetemp=tmp/pytest_paper_audit",
+    "earlier_attempt": "106 passed, 50 setup errors due to system temporary-directory permissions; resolved by repository-local basetemp",
+    "provenance": "Recorded from completed tool output, not a new test execution",
+    "reported_result": "156 passed in 1699.43s (0:28:19)"
+  }
+}

@@ -49,6 +49,7 @@ class IntermediatePBStats:
     compression_equalities: int
     zero_shift_equalities: int
     correlation_equalities: int
+    symmetry_inequalities: int
     constraint_records: int
     normalized_inequalities: int
 
@@ -236,6 +237,31 @@ def canonical_intermediate_translation(
     return rotations[best_step], best_step * prescribed_length
 
 
+def canonical_intermediate_residue_translation(
+    row: Sequence[int], prescribed_length: int, residue: int
+) -> tuple[IntegerSequence, int]:
+    """Minimize the anchor triple, unlike the full-row catalog convention.
+
+    A triple summing to +/-1 cannot be constant, so its three rotations
+    are distinct. This selects exactly one translation even with repeated
+    entries in the triple.
+    """
+
+    source = tuple(row)
+    if prescribed_length <= 0 or len(source) != 3 * prescribed_length:
+        raise ValueError("intermediate row must have length three times p")
+    if not 0 <= residue < prescribed_length:
+        raise ValueError("invalid canonical residue")
+    if any(value not in {-3, -1, 1, 3} for value in source):
+        raise ValueError("intermediate entries must be in {-3,-1,1,3}")
+    triple = tuple(source[residue + k * prescribed_length] for k in range(3))
+    if abs(sum(triple)) != 1:
+        raise ValueError("canonical residue must sum to +/-1")
+    step = min(range(3), key=lambda k: triple[k:] + triple[:k])
+    offset = step * prescribed_length
+    return source[offset:] + source[:offset], offset
+
+
 def enumerate_intermediate_pairs(
     prescribed_first: Sequence[int],
     prescribed_second: Sequence[int],
@@ -316,7 +342,8 @@ class IntermediatePBModel:
     """
 
     def __init__(
-        self, prescribed_first: Sequence[int], prescribed_second: Sequence[int]
+        self, prescribed_first: Sequence[int], prescribed_second: Sequence[int],
+        *, canonical_translations: bool = False,
     ) -> None:
         self.prescribed_first = tuple(prescribed_first)
         self.prescribed_second = tuple(prescribed_second)
@@ -333,6 +360,16 @@ class IntermediatePBModel:
             raise ValueError(
                 f"prescribed pair violates factor-nine constants: {check.message}"
             )
+        self.canonical_translations = canonical_translations
+        self.canonical_residues: tuple[int, ...] = ()
+        if canonical_translations:
+            residues = tuple(
+                next((i for i, value in enumerate(row) if abs(value) == 1), None)
+                for row in (self.prescribed_first, self.prescribed_second)
+            )
+            if any(residue is None for residue in residues):
+                raise ValueError("each prescribed row needs a +/-1 canonical residue")
+            self.canonical_residues = residues
 
     @property
     def prescribed_length(self) -> int:
@@ -357,6 +394,7 @@ class IntermediatePBModel:
         zero_equalities = 1
         correlation_equalities = self.half_shifts
         equalities = compression_equalities + zero_equalities + correlation_equalities
+        symmetry = 4 if self.canonical_translations else 0
         return IntermediatePBStats(
             prescribed_length=self.prescribed_length,
             intermediate_length=self.length,
@@ -369,12 +407,13 @@ class IntermediatePBModel:
             compression_equalities=compression_equalities,
             zero_shift_equalities=zero_equalities,
             correlation_equalities=correlation_equalities,
+            symmetry_inequalities=symmetry,
             constraint_records=square_inequalities
             + product_inequalities
-            + equalities,
+            + equalities + symmetry,
             normalized_inequalities=square_inequalities
             + product_inequalities
-            + 2 * equalities,
+            + 2 * equalities + symmetry,
         )
 
     def bit_variable(self, row: int, index: int, bit: int) -> int:
@@ -424,6 +463,8 @@ class IntermediatePBModel:
                     terms.append((1, self.bit_variable(row, index, 0)))
                     terms.append((2, self.bit_variable(row, index, 1)))
                 yield PBConstraint(tuple(terms), "=", self._negative_units(target))
+
+        yield from self.iter_symmetry_constraints()
 
         for row in (0, 1):
             for index in range(self.length):
@@ -475,6 +516,35 @@ class IntermediatePBModel:
                 "=",
                 product_target,
             )
+
+    def iter_symmetry_constraints(self) -> Iterator[PBConstraint]:
+        """Compare all rotations of a three-digit base-four anchor code.
+
+        Minimizing c is maximizing n=(3-c)/2. Coefficients are at most 30,
+        independent of p; no additional variables are needed.
+        """
+
+        weights = (16, 4, 1)
+        for row, residue in enumerate(self.canonical_residues):
+            for rotation in (1, 2):
+                yield PBConstraint(
+                    tuple(
+                        ((weights[k] - weights[(k - rotation) % 3]) * (1 << bit),
+                         self.bit_variable(row, residue + k * self.prescribed_length, bit))
+                        for k in range(3) for bit in (0, 1)
+                    ),
+                    ">=", 0,
+                )
+
+    def canonicalize_pair(
+        self, first: Sequence[int], second: Sequence[int]
+    ) -> IntermediatePair:
+        if not self.canonical_translations:
+            raise ValueError("canonicalize_pair requires a canonical model")
+        return tuple(
+            canonical_intermediate_residue_translation(row, self.prescribed_length, residue)[0]
+            for row, residue in zip((first, second), self.canonical_residues, strict=True)
+        )
 
     def assignment_for_pair(
         self, first: Sequence[int], second: Sequence[int]

@@ -111,8 +111,10 @@ three-branch exhaustive portfolio finds two satisfiable branches and one
 branch with no binary pair; see `p5_branch_portfolio.md`. The non-enumerative
 p=37 first-stage OPB and exact projected second-stage key are now implemented
 in `projected_uncompression.md`. The next gate is first-stage translation
-canonicalization and short p=5/p=7 solver scaling. No LP(333) computation is
-authorized by this result.
+canonicalization and short p=5/p=7 solver scaling. That gate is now complete:
+see `intermediate_scaling.md` for the factor-nine proof and bounded negative
+p=7 result. The next priority is an exact ternary formulation retaining cross
+terms. No LP(333) computation is authorized by these results.
 
 Reproduction command:
 

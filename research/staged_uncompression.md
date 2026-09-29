@@ -92,6 +92,11 @@ the sufficient final PAF shifts from 166 to 110 at length 333; see
 translation canonicalization and benchmark p=5/p=7 scaling under short proof
 budgets.
 
+This milestone is now complete; `intermediate_scaling.md` records the exact
+factor-nine symmetry reduction, six successful p=5 first-stage searches,
+six p=7 first-stage timeouts, and four further p=5 binary-lift timeouts. The
+next priority is a specialized ternary formulation preserving cross terms.
+
 Reproduction command:
 
 ```powershell

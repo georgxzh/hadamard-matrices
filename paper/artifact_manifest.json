@@ -1,0 +1,115 @@
+{
+  "algorithm": "sha256",
+  "files": [
+    {
+      "bytes": 33337,
+      "path": "paper/manuscript.tex",
+      "sha256": "78d41067870ebf1fe06b8d1ddeea86b54c32251bc4535e4f0f28409737e3e5c6"
+    },
+    {
+      "bytes": 10915,
+      "path": "references/references.bib",
+      "sha256": "e9f8393ae8554308c505f545c8c0c5f7239c58ce3864dfc60a1bdc67858cd095"
+    },
+    {
+      "bytes": 6806,
+      "path": "research/p5_classification.md",
+      "sha256": "f33ce252736c238611fd3454dcba05e34472afaeedaaae32171e1fa7bcdffc95"
+    },
+    {
+      "bytes": 5312,
+      "path": "research/phase_controls.md",
+      "sha256": "2b62cdd6a3dabd95f9451b2e1e00c02895f3cd9d45f9abfe111424e2ae47dff8"
+    },
+    {
+      "bytes": 9691,
+      "path": "research/source_ledger.md",
+      "sha256": "1eb954d0c6525094bd24025a233fe3e5c726ca7f65df587f0b6f8e58f8edf7c8"
+    },
+    {
+      "bytes": 65014,
+      "path": "results/intermediate_scaling/metadata.json",
+      "sha256": "4e1e24fc535a2f818cd45cf28556b56fa4cea0c6817fd4fe55b36e3287903f90"
+    },
+    {
+      "bytes": 596976,
+      "path": "results/p5_branch_portfolio/canonical_branches.json",
+      "sha256": "6b8123e1c398fdc408c6efff323739bacf168468b93db46a4228e0a8d94ba35c"
+    },
+    {
+      "bytes": 995,
+      "path": "results/p5_classification/audit.json",
+      "sha256": "0355f1de249a049db9bb4a88a78397860ed47f15605c3ec35f9431908c5b01d2"
+    },
+    {
+      "bytes": 665531,
+      "path": "results/p5_classification/classification.json",
+      "sha256": "8cf7c10075511c30a765c4bb36aa37924a6af8e835cd86f2ef82a98ff7bfe1ea"
+    },
+    {
+      "bytes": 21361,
+      "path": "results/p5_classification/manifest.json",
+      "sha256": "57b17a1f512da294eba7e285b38bb311978b8a4af6cb8b0e75239ae7d4a18b75"
+    },
+    {
+      "bytes": 3434,
+      "path": "results/phase_controls/audit.json",
+      "sha256": "6761c4ec7c1124437383da0097342ec3fe77a32be013c652486b7ebfb00a3702"
+    },
+    {
+      "bytes": 13599,
+      "path": "results/phase_controls/isolated_joins.json",
+      "sha256": "7f2eac56399470852f1ec3ebefab7a6dc8d2b51d88539c5b0bd1d20dd0602265"
+    },
+    {
+      "bytes": 62188,
+      "path": "results/phase_controls/metadata.json",
+      "sha256": "2dc999add128bb32855ca0ceb8da43ab22348e591f5d8ba73e6005fa6c010b7c"
+    },
+    {
+      "bytes": 48766,
+      "path": "results/ternary_phase/metadata.json",
+      "sha256": "913e45f6c290bb27c603dd996446aab3b3d324ba82ccee7f51d5a0664f88a42f"
+    },
+    {
+      "bytes": 9406,
+      "path": "scripts/audit_p5_classification.py",
+      "sha256": "273e8469195a5a3b2ddcfcbad6773612749172c6a6f4bf90b5dc5a47a7274231"
+    },
+    {
+      "bytes": 4897,
+      "path": "scripts/audit_ternary_phase.py",
+      "sha256": "6b42323c58c63b46819e0fd6c4226e2873a7a53e9fff59b58cd5b1c4f812a752"
+    },
+    {
+      "bytes": 9313,
+      "path": "scripts/benchmark_phase_controls.py",
+      "sha256": "32796bf68ce81437ca87458769f0e2b44e5a93dff93392264ebb1ae6c741efd5"
+    },
+    {
+      "bytes": 2718,
+      "path": "scripts/benchmark_phase_isolated_joins.py",
+      "sha256": "53fc741d5b4d998007af16263a56cb51628409bc9946f9ff9b75fedb47cb6260"
+    },
+    {
+      "bytes": 18379,
+      "path": "scripts/classify_p5_lifts.py",
+      "sha256": "17d68b9a74253485bb4b82d716db176ccf10c55b76c591ec229b1db23c5bb367"
+    },
+    {
+      "bytes": 7589,
+      "path": "scripts/update_paper_results.py",
+      "sha256": "20c3dc616de5423ab9a418a004b0d69218bec02caf8ae0b85f88d355f4d088a9"
+    },
+    {
+      "bytes": 17889,
+      "path": "src/ternary_phase.py",
+      "sha256": "132c62ad74fe8e7d13b79de3e6b74ea648ab91da8073722a6e7cc8063bb235dc"
+    },
+    {
+      "bytes": 3248,
+      "path": "tests/test_p5_classification.py",
+      "sha256": "9d3e7b668cb607afbce6abbe26174713ec45152d49cff711d3b1b988f261f9b1"
+    }
+  ]
+}

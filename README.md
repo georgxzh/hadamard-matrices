@@ -3,12 +3,21 @@
 Rigorous, reproducible computational research toward the FrontierMath open
 problem of constructing a Hadamard matrix of order 668.
 
-> **Research status (2026-09-27): unsolved.** This repository does not contain
+> **Research status (2026-09-29 UTC): unsolved.** This repository does not contain
 > a Hadamard matrix of order 668. A candidate counts as a solution only after
 > two independent exact verifiers establish
 > \(H H^{\mathsf T}=668I_{668}\) for the complete \(668\times668\) ±1 matrix.
 
 ## Current milestone
+
+The complete prescribed p=5 lift census is now audited: all **1,164**
+intermediate translation orbits are resolved, with **704 liftable** and
+**460 empty** branches. Exact counts, multiplicities, symmetry maps and
+independent checks are in [research/p5_classification.md](research/p5_classification.md).
+The research draft is [paper/manuscript.tex](paper/manuscript.tex), with
+primary-literature comparisons and explicit unresolved novelty questions.
+Length-45 classification already exists in the literature; this is a
+restricted reproducible census. No p=37 search was performed.
 
 The low-risk foundations, order-428 warm-up, and exact Legendre core are complete:
 
@@ -54,13 +63,23 @@ The low-risk foundations, order-428 warm-up, and exact Legendre core are complet
 - a non-enumerative p=37 first-stage OPB and an exact factor-three projection
   theorem reducing a future fixed-branch length-333 model to 73,926 variables
   and 293,372 records, validated exhaustively at p=3 and p=5;
+- proved first-stage translation canonicalization with an exact factor-nine
+  reduction, plus bounded p=5/p=7 scaling: all six p=5 first-stage searches
+  succeed, all six p=7 searches time out, and the p=5 binary-lift comparison
+  favors investigating a specialized cross-term-aware formulation;
+- an exact ternary phase formulation and incremental PAF join, reproducing
+  the p=3/p=5 counts and reducing fixed-branch PB model sizes; a seeded p=7
+  intermediate branch passes VeriPB, but all bounded p=5/p=7 binary-lift
+  probes still time out, motivating finite-domain phase propagation;
 - a versioned audit of the current common-multiplier artifacts, locally
   reproducing 15 of 25 reported exclusions and recording the ten-case full
   proof gap;
 - a phase-ordered plan and source-backed derivation for the remaining work.
 
-No expensive computation has been started. The largest run to date enumerated
-1,778,112 candidates on one core in 8.5 seconds.
+The census used a bounded 21-branch pilot followed by 79 direct symmetry
+representatives on three workers. The reduced run took 6.58 minutes and
+stayed within the repository's resource limits. It preserves an exact result
+for every one of the 1,164 original catalogue branches.
 
 The reproduced order-428 candidate has SHA-256
 `c00e3f86da7acdab1123fb9d2ed5fc887d5b86dd786662ab37e46a3072cc7869`.
@@ -124,6 +143,10 @@ The exact p=5 branch ranking and bounded second-stage portfolio are in
 [research/p5_branch_portfolio.md](research/p5_branch_portfolio.md).
 The p=37 first-stage model and sufficient projected PAF key are derived in
 [research/projected_uncompression.md](research/projected_uncompression.md).
+The canonicalization proof, bounded scaling results, and next solver decision
+are in [research/intermediate_scaling.md](research/intermediate_scaling.md).
+The implemented ternary model, exact join, and saved p=7 branch are described
+in [research/ternary_phase.md](research/ternary_phase.md).
 The common-multiplier artifact boundary is documented in
 [research/multiplier_artifact_audit.md](research/multiplier_artifact_audit.md).
 
