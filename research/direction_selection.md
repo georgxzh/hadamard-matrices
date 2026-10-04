@@ -1,6 +1,14 @@
 # Direction selection
 
-Status: revised 2026-09-29 UTC after completing the prescribed p=5 census.
+Status: revised 2026-10-04 UTC after the certified spectral milestone.
+The saved p=7 intermediate pair is now computationally verified empty by
+the compact join and an independent all-shift PAF enumerator. The prefix
+filter directly reproduces every p=5 branch and exact solution list.
+See `spectral_join.md` for proved exclusions, matched controls and limitations.
+The next gate is a bounded portfolio of other verified p=7 intermediate
+translation classes with fresh resource estimates. No p=37 search follows.
+
+The preceding census milestone remains complete:
 All 1,164 intermediate translation orbits are resolved: 704 liftable and 460
 empty, with every multiplicity preserved. See `p5_classification.md` and
 `../paper/manuscript.tex`. The independent enumeration and symmetry-transfer
@@ -94,7 +102,7 @@ an independent packed join on the same canonical p=5 domain (0.96 versus
 streaming partner rows. See `ternary_phase.md` for exact counts, proof,
 certificates, measurements, and the lack of a p=7 liftability conclusion.
 
-Next implement finite-domain propagation over the ternary phase differences,
+The next experiment proposed at that stage was finite-domain propagation over the ternary phase differences,
 cycle consistency, and weighted PAF sums. Check the known p=3/p=5 counts and
 an exhaustively empty p=5 branch before using the saved p=7 branch. Preserve
 all cross terms: the interaction graph is complete within each row, so a
@@ -133,7 +141,8 @@ any common-multiplier hypothesis is not mistaken for the full problem.
 
 ## Deprioritized
 
-- direct enumeration of any uncompression at `p >= 7`;
+- unrestricted direct enumeration at larger p; the saved p=7 fixed branch
+  has since been exhausted, but other branches need bounded pilots;
 - common fixed multipliers of order at least four under the current artifact
   classification (ten machine exclusions still await a full local proof run);
 - stochastic order-333 searches without an exact finishing stage;

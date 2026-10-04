@@ -167,3 +167,24 @@ The claim-by-claim ledger and proofs are in `../paper/manuscript.tex`.
 
 Full-text gaps for `kotsireas2027pq2`, `perera2025fast`, and
 `turner2022decimation` remain open. No first-method or new-length claim is made.
+
+### Certified spectral milestone, 2026-10-04 UTC
+
+- `fletcher2001`: primary journal PDF, Sections 5.1 and 5.3 reread:
+  <https://ajc.maths.uq.edu.au/pdf/23/ocr-ajc-v23-p75.pdf>.
+  Single-row PSD exclusion and filtering before matching are established.
+- `lumsden2025periodic`: primary arXiv v3, Sections 2 and 3.4--5 reread:
+  <https://arxiv.org/html/2408.15611v3>. PSD filtering, full matching buckets,
+  recursive uncompression and equivalence reduction precede this work.
+- `bright2019complexgolay`: full primary author text, Sections 3.3 and 3.5:
+  <https://cs.uwaterloo.ca/~cbright/reports/jsc-cgolay.pdf>, author preprint
+  <https://arxiv.org/abs/1907.11981>, DOI
+  <https://doi.org/10.1016/j.jsc.2019.10.013>. Partial-correlation conflicts,
+  FFT-based spectral exclusion with explicit numeric tolerance, precomputed
+  contributions and frequency ordering are precedents. This is a complex
+  aperiodic search; no periodic binary classification is inferred from it.
+
+The proved rational rectangle specialization and complete saved-branch p=7
+result are in `spectral_join.md`. Priority of that specialization is unresolved;
+native engineering speed is not a new complexity result. The full-text gaps
+listed above and historical LP(45) representative-list comparison remain.

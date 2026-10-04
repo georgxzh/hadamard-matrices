@@ -1,14 +1,25 @@
 {
   "classification_audit": "results/p5_classification/audit.json",
-  "manifest_entries_checked": 234,
+  "independent_p7_audit": "results/spectral_join/independent_audit.json",
+  "manifest_entries_checked": 5081,
   "manifests_checked": [
     "paper/artifact_manifest.json",
     "results/p5_classification/manifest.json",
-    "results/phase_propagation/manifest.json"
+    "results/phase_propagation/manifest.json",
+    "results/spectral_join/manifest.json"
   ],
-  "manuscript_sha256": "893a8f400cfe7638f2edfd98830816c2424d62d2693979c34eab6f4e2a082a92",
+  "manuscript_sha256": "5cdd826444bbbc72a9d8e83cfa0ef07bf745889fd2b7e2f41f6b9aead0d91eac",
   "no_p37_search": true,
   "propagation_audit": "results/phase_propagation/audit.json",
+  "spectral_artifact_files": 4796,
+  "spectral_audit": "results/spectral_join/audit.json",
+  "spectral_extension_tests": {
+    "command": ".venv/Scripts/python.exe -m pytest tests/test_spectral_join.py tests/test_phase_propagation.py tests/test_p5_equivalence.py tests/test_ternary_phase.py tests/test_p5_classification.py -q --basetemp=tmp/pytest_spectral_final",
+    "provenance": "Completed tool output on 2026-10-04; verifier records this result and does not rerun tests",
+    "reported_result": "35 passed in 22.29s"
+  },
+  "spectral_storage_bytes": 29654396,
+  "static_tex_checks": "balanced braces/environments; citations/references and result markers resolve; no PDF/layout check",
   "targeted_extension_tests": {
     "command": ".venv/Scripts/python.exe -m pytest tests/test_phase_propagation.py tests/test_p5_equivalence.py tests/test_ternary_phase.py -q --basetemp=tmp/pytest_phase_final",
     "provenance": "Completed tool output; old full-suite result predates this extension",

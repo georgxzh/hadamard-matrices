@@ -3,7 +3,7 @@
 Rigorous, reproducible computational research toward the FrontierMath open
 problem of constructing a Hadamard matrix of order 668.
 
-> **Research status (2026-09-29 UTC): unsolved.** This repository does not contain
+> **Research status (2026-10-04 UTC): unsolved.** This repository does not contain
 > a Hadamard matrix of order 668. A candidate counts as a solution only after
 > two independent exact verifiers establish
 > \(H H^{\mathsf T}=668I_{668}\) for the complete \(668\times668\) ±1 matrix.
@@ -24,6 +24,16 @@ in that census, but its row-conditioned variant is slower than the existing
 join in the recorded comparison. The restricted solutions occupy **63**
 classes under the published length-45 equivalence convention. Details and
 bounded p=7 outcomes are in [research/phase_propagation.md](research/phase_propagation.md).
+
+The certified spectral join now directly reproduces all 1,164 p=5 branches
+and exhausts the **saved p=7 intermediate pair with zero binary lifts**.
+An independent full-PAF enumeration confirms this restricted nonexistence
+result. On that one branch, prefix filtering takes 2.64 seconds versus
+26.13 seconds for the matched native unfiltered join; these are single-run
+engine timings, not a general scaling claim. Proofs, primary precedents,
+bounded pilots and reproducible evidence are in
+[research/spectral_join.md](research/spectral_join.md). Other p=7 branches
+remain unclassified. The next experiment is a bounded p=7 branch portfolio.
 
 The low-risk foundations, order-428 warm-up, and exact Legendre core are complete:
 

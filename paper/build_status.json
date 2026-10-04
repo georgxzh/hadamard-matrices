@@ -1,10 +1,10 @@
 {
   "diagnostic": "Unable to find standard directories for platform",
-  "native_compile_attempts": 2,
+  "native_compile_attempts": 3,
   "native_editor_open_request": "queued",
   "pdf_compilation_verified": false,
-  "prior_source_native_compile_attempts": 3,
-  "source_sha256": "893a8f400cfe7638f2edfd98830816c2424d62d2693979c34eab6f4e2a082a92",
+  "prior_source_native_compile_attempts": 5,
+  "source_sha256": "5cdd826444bbbc72a9d8e83cfa0ef07bf745889fd2b7e2f41f6b9aead0d91eac",
   "static_source_checks": "balanced braces/environments; all citations and references resolve",
   "status": "compiler_environment_unavailable",
   "visual_layout_verified": false

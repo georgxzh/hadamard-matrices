@@ -1,0 +1,28 @@
+{
+  "canonical_pairs": 2976,
+  "catalog_sha256": "6b8123e1c398fdc408c6efff323739bacf168468b93db46a4228e0a8d94ba35c",
+  "complete": true,
+  "direct_cases": 1164,
+  "elapsed_seconds": 63.90386290001334,
+  "engine_seconds_sum": {
+    "0": 42.1062997,
+    "2": 30.1361214
+  },
+  "implementation_sha256": "f55675cd7c9b190410d671a8ef521b109438291dea534000765a64f0c238a5d3",
+  "limitation": "Native baseline and spectral search share binary-mask PAF code; independent frozen census additionally uses phase enumeration.",
+  "native_sha256": "3bc0a21d0e69ede1ea4d9eaa7966b2cef6ac3c220335642c892c3d1a4163c328",
+  "ordered_pair_histogram": {
+    "0": 460,
+    "27": 464,
+    "54": 192,
+    "81": 48
+  },
+  "peak_worker_bytes": 8925184,
+  "pilot_cases_reused": 12,
+  "python_plus_native_worker_bound_bytes": 139542528,
+  "reference_sha256": "8cf7c10075511c30a765c4bb36aa37924a6af8e835cd86f2ef82a98ff7bfe1ea",
+  "runner_sha256": "54904d50f78ae4de209ff1500e13e5591f30b7c355955fa5584488f1841927a1",
+  "validation_sha256": "f2688408751a920e45acca26e8c805bb36ee630417ba2e67ba1714ef02b4e714",
+  "workers": 3,
+  "wrapper_sha256": "7ceb4d36c760261809117a8cb047e53ab27cd25c185da5ca2a86165422d82e24"
+}

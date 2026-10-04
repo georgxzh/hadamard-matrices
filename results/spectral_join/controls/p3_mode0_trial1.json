@@ -1,0 +1,110 @@
+{
+  "canonical_lower_bound": 15,
+  "canonical_pairs": 15,
+  "command": [
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\spectral_join.exe",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\spectral_join\\controls\\p3_mode0_trial1.input.txt",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\spectral_join\\controls\\p3_mode0_trial1.json"
+  ],
+  "complete": true,
+  "elapsed_seconds": 0.0010587,
+  "mode": 0,
+  "node_limit": 100000000,
+  "ordered_pairs": 135,
+  "peak_working_set_bytes": 5967872,
+  "probe": false,
+  "rows": [
+    {
+      "accepted": 2187,
+      "complete": true,
+      "elapsed_seconds": 9.29e-05,
+      "excluded_completions": 0,
+      "expected": 2187,
+      "full_rejections": 0,
+      "leaves": 2187,
+      "nodes": 3280,
+      "prefix_conflicts": 0
+    },
+    {
+      "accepted": 243,
+      "complete": true,
+      "elapsed_seconds": 1.76e-05,
+      "excluded_completions": 0,
+      "expected": 243,
+      "full_rejections": 0,
+      "leaves": 243,
+      "nodes": 364,
+      "prefix_conflicts": 0
+    }
+  ],
+  "seconds_limit": 120,
+  "solution_limit": 100000,
+  "solutions": [
+    [
+      68670258,
+      103641986
+    ],
+    [
+      70181796,
+      107943584
+    ],
+    [
+      76534548,
+      103220922
+    ],
+    [
+      80125856,
+      107824010
+    ],
+    [
+      80663428,
+      45029264
+    ],
+    [
+      83329826,
+      45028242
+    ],
+    [
+      86462256,
+      101152394
+    ],
+    [
+      90656544,
+      107943584
+    ],
+    [
+      95839106,
+      103118722
+    ],
+    [
+      100025218,
+      109908890
+    ],
+    [
+      102167330,
+      45033352
+    ],
+    [
+      109494048,
+      107419298
+    ],
+    [
+      111595280,
+      103118722
+    ],
+    [
+      128844596,
+      45028242
+    ],
+    [
+      128852772,
+      38737832
+    ]
+  ],
+  "stop_reason": "exhausted",
+  "stored_candidate_limit": 5000000,
+  "stored_side": 1,
+  "table_capacity_bytes": 14336,
+  "table_entries": 243,
+  "wrapper_elapsed_seconds": 0.04261730000143871
+}

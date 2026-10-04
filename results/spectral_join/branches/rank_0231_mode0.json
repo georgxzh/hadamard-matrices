@@ -1,0 +1,86 @@
+{
+  "canonical_lower_bound": 9,
+  "canonical_pairs": 9,
+  "command": [
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\spectral_join.exe",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\spectral_join\\branches\\rank_0231_mode0.input.txt",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\spectral_join\\branches\\rank_0231_mode0.json"
+  ],
+  "complete": true,
+  "elapsed_seconds": 0.0253167,
+  "mode": 0,
+  "node_limit": 100000000,
+  "ordered_pairs": 81,
+  "peak_working_set_bytes": 8826880,
+  "probe": false,
+  "rows": [
+    {
+      "accepted": 177147,
+      "complete": true,
+      "elapsed_seconds": 0.0213255,
+      "excluded_completions": 0,
+      "expected": 177147,
+      "full_rejections": 0,
+      "leaves": 177147,
+      "nodes": 265720,
+      "prefix_conflicts": 0
+    },
+    {
+      "accepted": 59049,
+      "complete": true,
+      "elapsed_seconds": 0.0035327,
+      "excluded_completions": 0,
+      "expected": 59049,
+      "full_rejections": 0,
+      "leaves": 59049,
+      "nodes": 88573,
+      "prefix_conflicts": 0
+    }
+  ],
+  "seconds_limit": 120,
+  "solution_limit": 100000,
+  "solutions": [
+    [
+      4616998089508,
+      3181944360470
+    ],
+    [
+      13520448246984,
+      2906881910038
+    ],
+    [
+      14894554739078,
+      4354468334098
+    ],
+    [
+      22829235434754,
+      30325900806034
+    ],
+    [
+      23516976099694,
+      12940366023698
+    ],
+    [
+      30798335111502,
+      19541550270866
+    ],
+    [
+      31144566830594,
+      1945291697938
+    ],
+    [
+      31761193472036,
+      914530873110
+    ],
+    [
+      32280303424390,
+      30261511816082
+    ]
+  ],
+  "stop_reason": "exhausted",
+  "stored_candidate_limit": 5000000,
+  "stored_side": 1,
+  "table_capacity_bytes": 2883584,
+  "table_entries": 59049,
+  "wrapper_elapsed_seconds": 0.07478179997997358
+}

@@ -1,0 +1,86 @@
+{
+  "canonical_lower_bound": 9,
+  "canonical_pairs": 9,
+  "command": [
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\spectral_join.exe",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\spectral_join\\branches\\rank_0267_mode2.input.txt",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\spectral_join\\branches\\rank_0267_mode2.json"
+  ],
+  "complete": true,
+  "elapsed_seconds": 0.0178729,
+  "mode": 2,
+  "node_limit": 100000000,
+  "ordered_pairs": 81,
+  "peak_working_set_bytes": 6148096,
+  "probe": false,
+  "rows": [
+    {
+      "accepted": 1821,
+      "complete": true,
+      "elapsed_seconds": 0.0052331,
+      "excluded_completions": 24894,
+      "expected": 59049,
+      "full_rejections": 32334,
+      "leaves": 34155,
+      "nodes": 62626,
+      "prefix_conflicts": 7596
+    },
+    {
+      "accepted": 1479,
+      "complete": true,
+      "elapsed_seconds": 0.0122383,
+      "excluded_completions": 101250,
+      "expected": 177147,
+      "full_rejections": 74418,
+      "leaves": 75897,
+      "nodes": 157261,
+      "prefix_conflicts": 28944
+    }
+  ],
+  "seconds_limit": 120,
+  "solution_limit": 100000,
+  "solutions": [
+    [
+      169264657322,
+      7721498493818
+    ],
+    [
+      458897216440,
+      22317945032282
+    ],
+    [
+      4824478638586,
+      5084797508690
+    ],
+    [
+      4927414203066,
+      3124290490906
+    ],
+    [
+      13395631047118,
+      26211196440692
+    ],
+    [
+      13704709313454,
+      20473172238110
+    ],
+    [
+      22242844971912,
+      1747190536760
+    ],
+    [
+      22449153343720,
+      7242441021778
+    ],
+    [
+      26846917595790,
+      6618204703324
+    ]
+  ],
+  "stop_reason": "exhausted",
+  "stored_candidate_limit": 5000000,
+  "stored_side": 0,
+  "table_capacity_bytes": 90112,
+  "table_entries": 1821,
+  "wrapper_elapsed_seconds": 0.0617398000031244
+}

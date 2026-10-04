@@ -18,7 +18,7 @@
 \title{Exact staged lifting of prescribed Legendre compressions:\\
 ternary phases, translation gauges, and a restricted length-45 census}
 \author{Working draft; authorship to be confirmed}
-\date{September 29, 2026 (UTC)}
+\date{October 4, 2026}
 \begin{document}
 \maketitle
 \begin{abstract}
@@ -33,6 +33,9 @@ pairs above the specified length-five pair: 704 have lifts and 460 are empty,
 with exact multiplicities retained. This is not a classification of all Legendre
 pairs of length 45 or of Hadamard equivalence classes. Bounded $p=5,7$
 experiments compare exact enumeration with pseudo-Boolean (PB) encodings.
+A certified spectral implementation reproduces the whole restricted census
+and exhausts one saved $p=7$ intermediate branch with zero binary lifts,
+independently confirmed using all nonredundant PAF shifts.
 Order 668 motivates the longer-term problem, but none of these experiments
 establish proximity to a solution; no $p=37$ search is performed.
 Novelty is provisional: compression, character prescriptions, successive
@@ -84,6 +87,12 @@ Difference propagation and partner bounds & Exact phase identity above;
 matching and recursive lifting precedents \cite{issac,lumsden}. & A concrete
 exact implementation audited here. Priority of the combined filters is
 unresolved; no asymptotic or performance improvement is claimed.\\
+Certified spectral pruning and compact joining & The PSD exclusion test in
+\cite[Section 5.1]{fletcher}; filtering and matching in
+\cite[Sections 2 and 3.4]{lumsden}. & Established PSD criterion reproduced
+with rational coefficient certificates and partial-phase rectangles.
+Priority of this specialization is unresolved; native execution is an
+engineering improvement, not a new complexity bound.\\
 All 1,164 prescribed intermediate orbits & Exhaustive length-45 classification
 already in \cite[Section 5.4, Table 3]{fletcher}; related compression families
 \cite{mod5}. & Restricted census is a potentially novel computational
@@ -125,6 +134,13 @@ complementary-signature matching with all bucket combinations, multilevel
 compression, recursive uncompression, and equivalence filtering. Our exact
 integer PAF keys and phase-support filters are implementation choices within
 this established framework. We have not benchmarked their implementation.
+Bright et al.\ \cite[Sections 3.3 and 3.5]{brightgolay} already combine
+partial-correlation conflicts with spectral filtering in a complex aperiodic
+Golay search. Their FFT filter uses an explicit numerical tolerance and
+precomputed contributions. Here the periodic binary PSD threshold is
+certified using rational coefficient bounds and rectangles for partial
+ternary assignments. This specialization is potentially useful, but its
+priority remains unresolved; it is not a new PSD exclusion principle.
 
 \section{Mathematical setup and exact compression}
 Indices of a length-$L$ sequence lie in $\Z_L$. For a real sequence $x$, put
@@ -335,6 +351,81 @@ unchanged. Cycles hold by construction because this variant assigns phases
 directly. The precomputed row remains exponential in its active count;
 this is a decomposition between the two rows, with no omission of cross
 terms within either row and no new complexity bound.
+
+\subsection{Certified spectral rectangles and compact exact joining}
+The earlier partner-support search exhausts a row before it can prune the
+other row, and reaches its storage cap on the saved $p=7$ branch. We instead
+filter each row against the established necessary condition
+$\PSD_x(f)\le 2L+2$ for nonzero frequencies \cite{fletcher,lumsden}.
+The implementation tests $1\le f\le\lfloor L/2\rfloor$ with $3\nmid f$;
+the omitted frequencies are fixed by the length-$N$ compression. Omitting
+any necessary test only weakens pruning and cannot remove a valid lift.
+
+Put $S=2^{20}$. Certified integers $c_{fi},s_{fi}$ approximate
+$S\cos(2\pi fi/L)$ and $S\sin(2\pi fi/L)$ respectively, with absolute error
+at most one. They are constructed without floating point: Machin's identity
+$\pi=16\arctan(1/5)-4\arctan(1/239)$ and alternating rational sums with
+32 and 31 terms enclose $\pi$. The interval is rounded outward to denominator
+$10^{40}$. Reduction of a cosine argument to $[0,\pi]$, monotonicity, and
+alternating cosine partial sums through indices 21 and 20 give lower and
+upper bounds. Each stored coefficient is checked to enclose the resulting
+interval within its center plus or minus one unit. Sine uses
+$\sin\theta=\cos(\pi/2-\theta)$. The coefficient files and generator are
+hashed, and the rational arithmetic is independently checked in tests.
+
+For a partial phase assignment $P$, write the approximate Fourier sum as
+\[
+ \widetilde R_f+\mathrm{i}\widetilde I_f
+ =\sum_{i=0}^{N-1}\sum_{k=0}^2 b_i(c_{f,i+kN}+\mathrm{i}s_{f,i+kN})
+ +\sum_{i\text{ active}}d_i(c_{f,i+a_iN}+\mathrm{i}s_{f,i+a_iN}).
+\]
+Assigned phases give exact integer contributions. For every unassigned
+phase, independently minimize and maximize its three possible real and
+imaginary contributions. Summing gives integer intervals
+$[R_f^-,R_f^+]$ and $[I_f^-,I_f^+]$. Component-wise extrema need not be
+simultaneously attainable: the rectangle is a relaxation containing every
+actual completion. Inflate each interval by $L$ at both endpoints to
+account for coefficient errors in the final binary sum. Let $r_f,t_f$ be
+the distances from zero to the two inflated intervals.
+\begin{proposition}[Safe spectral exclusion]\label{prop:spectral}
+If $r_f^2+t_f^2>S^2(2L+2)$ for any tested frequency, no completion of $P$
+can occur in a binary Legendre lift of the intermediate pair.
+\end{proposition}
+\begin{proof}
+For any completed binary row, the error in each approximate Fourier
+component is at most $\sum_i|x_i|=L$. Its scaled exact Fourier components
+therefore lie in the inflated rectangle, so its scaled PSD is at least
+$r_f^2+t_f^2$. A Legendre pair has PSD sum $2L+2$ at nonzero frequencies,
+and each PSD is nonnegative. The strict inequality contradicts this
+necessary condition. Squaring the complete Fourier sum includes every
+phase cross term; the rectangle relaxes these interactions without
+discarding their contribution from the exact leaf equations.
+\end{proof}
+
+The native search fixes each active anchor phase to zero and traverses all
+remaining phases in deterministic order. Mode 0 disables spectral tests;
+mode 1 tests only complete rows; mode 2 also tests partial assignments.
+Deleting a prefix in mode 2 excludes exactly $3^q$ assignments, where $q$
+phases remain unassigned. The sum of visited leaves and excluded completion
+masses must equal $3^{k-1}$ for every exhausted row. Each surviving row is
+encoded as its full negative-support bitmask. All projected PAF coordinates
+are evaluated by the exact rotation/popcount identity. A compact hash table
+stores an entry for every surviving mask, including repeated PAF signatures.
+Hash collisions require equality of the complete integer key; every equal
+signature entry is visited. Thus collisions cannot add or omit solutions,
+and bucket multiplicities are preserved.
+
+Complementary keys have sum $-2$ in all projected coordinates. Full PAF,
+row-sum, compression, and SDS checks validate the emitted masks. Theorem
+\ref{thm:projected} supplies the sufficiency argument, and all modes keep
+the original phase gauge and the factor-nine ordered multiplicity. Caps
+return null exact counts and separately record verified lower bounds.
+The native program accepts only intermediate lengths 9, 15, and 21; it
+cannot launch a $p=37$ search. This remains exponential row enumeration.
+All pruning arithmetic uses signed 64-bit integers. Each coordinate bound
+has absolute value at most $3L(S+1)+L$ after inflation, and for $L\le63$
+twice its square is below $2^{63}-1$. The threshold also fits; the tested
+integer exclusions therefore incur no overflow within the supported domain.
 
 \section{Restricted census and verification methodology}
 The catalogue is all admissible intermediate pairs above \eqref{eq:prescribed}
@@ -609,8 +700,9 @@ $p=3$ control in 0.492 and 0.489 seconds respectively, returning all 135
 ordered lifts. Both variants timed out after ten seconds on each of ranks
 1 and 3 at $p=5$. The saved $p=7$ difference probe timed out after 30 seconds;
 its row-conditioned probe hit the 250,000-candidate cap after 1.74 seconds,
-before partner search. Their exact counts are null, and the branch remains
-unresolved. The complete control batch took 114.65 seconds and peaked at
+before partner search. Their exact counts remain null in those historical
+records; the spectral milestone below subsequently resolves the branch.
+The complete control batch took 114.65 seconds and peaked at
 182.44 MB. The new JSON evidence package occupies about 0.71 MB.
 
 Tests exhaustively check all 512 triangle-domain triples, compare all four
@@ -622,11 +714,113 @@ and equivalence labels. Hashes cover inputs, implementations, and all cases.
 All 23 targeted tests passed, including the pre-existing ternary-phase tests;
 the historical 156-test full-suite result above predates this extension.
 These are implementation checks, not formal verification. The established
-join remains the strongest demonstrated route for this restricted census;
-neither the new propagation results nor the earlier censored PB runs show
-scaling to $p=7$. Reducing the larger single-row domain, with a proved safe
-filter and matched controls, remains an open research task.
+join was the strongest demonstrated route in this historical batch;
+neither those propagation results nor the earlier censored PB runs showed
+scaling to $p=7$. This negative result motivated the proved spectral filter
+and matched controls in the next milestone.
 % PROPAGATION_RESULTS_END
+
+% SPECTRAL_RESULTS_BEGIN
+\subsection{Spectral milestone: direct census validation and one empty $p=7$ branch}
+The 12-case pilot took 5.63 seconds on three workers,
+including native compilation and bounded $p=7$ row probes. Its estimates
+were 324.73 seconds and
+277.05 MB for the full
+$p=5$ validation, and 64.15
+seconds per $p=7$ method with a tenfold timing margin. The $p=7$ memory
+envelope was 1.2 GB; the initial storage estimate was 20 MB. These fit the
+four-core, 30-minute, 10-GB limits. The deterministic early-prefix probes
+are not a random sample or a proven runtime upper bound.
+
+The full validation finished in 63.90 seconds on three
+workers, reusing 12 pilot cases. Every one of the 1,164 catalogue branches
+was directly enumerated by both native modes 0 and 2, with no symmetry reuse.
+Exact solution lists agree with the independent frozen census: 460 empty
+branches, 464 with 27 ordered lifts, 192 with 54, and 48 with 81. All 2,976
+canonical mask pairs are retained. The conservative sum of Python-wrapper and
+native-worker peaks is 139.54
+MB; it sums process maxima, not simultaneous whole-system measurements.
+
+The sum of native engine times over the catalogue was
+42.11 seconds without spectral tests and
+30.14 seconds with prefix tests. These concurrent
+measurements do not isolate timing effects. A separate one-worker batch
+ran three shuffled replicates per configuration, with no concurrent
+repository experiment. Its medians, in seconds, are:
+\begin{center}
+\begin{tabular}{lrrrr}
+\toprule
+Branch & Existing Python join & Native, off & Native, leaf & Native, prefix\\
+\midrule
+$p=3$ & 0.0110 & 0.0012 & 0.0012 & 0.0015\\
+Rank 1 & 1.6556 & 0.0335 & 0.0342 & 0.0316\\
+Rank 3 & 1.5332 & 0.0387 & 0.0262 & 0.0257\\
+Rank 1133 & 10.9219 & 0.1782 & 0.1587 & 0.1143\\
+\bottomrule
+\end{tabular}
+\end{center}
+Native engine time excludes setup and process startup; wrapper wall times
+are recorded separately. The Python/native comparison changes execution
+language, traversal, PAF evaluation, and mask retention, so it is not an
+isolated measure of spectral pruning. The native modes share traversal,
+full-key lookup, mask retention, and exact verification. Prefix filtering
+improves the recorded $p=5$ medians but slows the tiny $p=3$ control.
+Ranges overlap on ranks 1 and 3; rank 1133 has disjoint recorded ranges
+(off: 0.164--0.179 s; prefix: 0.073--0.130 s). These three deterministic
+replicates are too narrow for a broad performance claim.
+
+All three native modes exhaust the saved length-21 intermediate pair at
+$p=7$ with \emph{zero} canonical and ordered binary lifts. The exact domains
+have $3^{14}=4{,}782{,}969$ and $3^{16}=43{,}046{,}721$ anchor-zero rows.
+The observed single-run resources are:
+\begin{center}
+\begin{tabular}{lrrr}
+\toprule
+Method & Engine seconds & Stored masks & Native peak (MB)\\
+\midrule
+Unfiltered & 26.135 & 4,782,969 & 375.66\\
+Leaf spectral & 4.186 & 38,907 & 8.91\\
+Prefix spectral & 2.635 & 38,907 & 8.91\\
+\bottomrule
+\end{tabular}
+\end{center}
+Leaf and prefix tests retain the same 38,907 stored-side rows and 28,134
+partner-side rows. Prefix exclusion accounts for 3,126,363 and 36,148,041
+complete phase tuples respectively, before visiting leaves. The compact
+table capacity falls from 369.10 MB to 2.88 MB. The prefix run is about
+9.9 times faster than this matched unfiltered run; this is one branch and
+one trial per method, not an estimate of general scaling. There is no
+binary witness because the branch is empty. The intermediate witness and
+its earlier checked constraints remain distinct from binary liftability.
+
+An additional independent auditor enumerates Cartesian binary residue
+patterns, uses the negative-support intersection PAF identity at all 31
+nonredundant shifts, and sorts fingerprints with exact full-key collision
+checks. It uses no spectral coefficients or projected equations. Positive
+and empty $p=5$ controls reproduce 27 and zero ordered lifts. A bounded
+pilot estimated 169.56 seconds and 406.11 MB; the complete $p=7$ audit
+enumerates all 4,782,969 and 43,046,721 rows and again returns zero, in
+54.75 seconds with a 140.52 MB native peak. This independently checks
+computational nonexistence for the saved intermediate pair, conditional
+on the two implementations and coverage arguments. It supplies no formal
+UNSAT certificate and does not exclude other $p=7$ intermediates or any
+length-63 Legendre pair in another branch.
+
+The next justified experiment is a bounded portfolio of other verified
+$p=7$ intermediate translation classes, initially with balanced active
+counts, retaining exact per-branch outcomes and new pilot gates. The
+single-row enumeration is still exponential, and no $p=37$ run follows
+from these results. Hashes below pin the coefficient certificates, all
+branch inputs/results, source, compiler configuration, and independent
+audit. The larger package exceeds its 20-MB storage estimate because it
+preserves each native input, while remaining far below the 10-GB limit.
+All 35 targeted tests passed in 22.29 seconds, including native modes,
+coefficient bounds, cap semantics, phase propagation, ternary formulation,
+equivalence conventions, and prior classification checks. The historical
+156-test full-suite result predates these extensions; it was not rerun here.
+The preserved spectral evidence occupies 29.65 MB.
+
+% SPECTRAL_RESULTS_END
 
 \section{Reproduction and outstanding work}
 Commands below are issued from the repository root using the recorded
@@ -647,14 +841,27 @@ The source is preserved; no rendered-PDF or layout verification is claimed.
 .venv/Scripts/python.exe -m scripts.benchmark_phase_propagation controls
 .venv/Scripts/python.exe -m scripts.crosswalk_p5_equivalence
 .venv/Scripts/python.exe -m scripts.audit_phase_propagation
+.venv/Scripts/python.exe -m scripts.benchmark_spectral_join pilot --workers 3
+.venv/Scripts/python.exe -m scripts.benchmark_spectral_join full --workers 3
+.venv/Scripts/python.exe -m scripts.benchmark_spectral_join controls
+.venv/Scripts/python.exe -m scripts.benchmark_spectral_join p7
+.venv/Scripts/python.exe -m scripts.audit_saved_p7
+.venv/Scripts/python.exe -m scripts.audit_spectral_join
 .venv/Scripts/python.exe -m pytest -q --basetemp=tmp/pytest_paper
 .venv/Scripts/python.exe -m scripts.update_paper_results
+.venv/Scripts/python.exe -m scripts.verify_spectral_paper
 \end{verbatim}
 The pilot and full classification are separate bounded runs. Independent
 auditing also has its own bounded command. Benchmark metadata records exact
 solver arguments, executable hashes, deterministic restart settings, proof
 locations, timestamps, and measurements. Failed or censored trials remain
 in the record. No command above initiates a length-333 search.
+The native pilot uses the installed GNU C++ 15.2.0 compiler, with
+\texttt{-std=c++17 -O3 -mpopcnt -static -Wl,--no-insert-timestamp -lpsapi}.
+The current launcher targets Windows x86 with popcount support and PSAPI
+memory measurements; porting and hardware comparisons remain untested.
+Generated executables live under \path{tmp/}; compiler, executable, source,
+and command hashes are recorded in the frozen metadata.
 Historical first-stage and phase runs are reproduced by
 \path{scripts/benchmark_intermediate_scaling.py} and
 \path{scripts/benchmark_ternary_phase.py}; their metadata records the complete
@@ -700,6 +907,24 @@ and supporting records; it is regenerated only after the paper is updated.
 {\footnotesize\texttt{17c2451ce30046633060d2217e381b4ab1ba039ec68b4d5c950471584669a3f2}}
 \item[\normalfont\footnotesize\path{results/phase_propagation/manifest.json}] \hfill\break
 {\footnotesize\texttt{de757e2b62e6da07aa9ff5777b46bc586192cab827a794ca25bb9f9d7d851a27}}
+\item[\normalfont\footnotesize\path{results/spectral_join/pilot.json}] \hfill\break
+{\footnotesize\texttt{740ed9dc90e7c9f7204b32fa7cb57196c1eebb7414a4373b67e2b48022dddcff}}
+\item[\normalfont\footnotesize\path{results/spectral_join/metadata.json}] \hfill\break
+{\footnotesize\texttt{41ecc4ee0680f76364b77aebd2103a983e3b321eceacf8d31e233d03dc492d82}}
+\item[\normalfont\footnotesize\path{results/spectral_join/controls.json}] \hfill\break
+{\footnotesize\texttt{757de3c0f978f8b2dd1689fffc8444ec7f64bc44689a0053afc67a4d65f110bb}}
+\item[\normalfont\footnotesize\path{results/spectral_join/p7_metadata.json}] \hfill\break
+{\footnotesize\texttt{0617942da643f3614d639ed086e3c7534bca41e1492f3ed5216bdbcd12c05f98}}
+\item[\normalfont\footnotesize\path{results/spectral_join/coefficients_63.json}] \hfill\break
+{\footnotesize\texttt{8d1faf4921c4d3959016ee816970fe5deee884ad63b85b20c8826a85c4108f3e}}
+\item[\normalfont\footnotesize\path{results/spectral_join/full_paf_p7.json}] \hfill\break
+{\footnotesize\texttt{87c2d69fa4ae97fce25ceb447c0db2cbef8fafc8e3fd36149a35c9920f1c89e5}}
+\item[\normalfont\footnotesize\path{results/spectral_join/independent_audit.json}] \hfill\break
+{\footnotesize\texttt{baeb2f8222f30a363c3c06dc19f2d17e494108c62d50c48552e8e29b0af3e4fa}}
+\item[\normalfont\footnotesize\path{results/spectral_join/audit.json}] \hfill\break
+{\footnotesize\texttt{27bc160182a6799a9b31d157c06f82d7640b5b3d06c89cfef7f90177ccf0d9a3}}
+\item[\normalfont\footnotesize\path{results/spectral_join/manifest.json}] \hfill\break
+{\footnotesize\texttt{39e56606c32b603d74e983471ebc4d98dea9d361b8ffaf570d7738e5c863d682}}
 \end{description}
 % ARTIFACT_HASHES_END
 
@@ -709,12 +934,18 @@ $pq^2$ and fast spectral algorithms, obtain the historical length-45
 representative list to match the 63 converted subset classes, and seek an
 independent external replication. No formal exhaustion certificate is
 provided for enumeration. The current hardware sample and deterministic
-solver settings are too narrow for broad performance claims. $p=7$
-liftability of the saved branch remains unresolved. A successful general
+solver settings are too narrow for broad performance claims. The saved $p=7$
+branch is computationally verified empty, while other intermediate branches
+remain unclassified. A successful general
 cross-term-aware decomposition with demonstrated scaling and any applicability
 at $p=37$ remain open.
 
 \begin{thebibliography}{99}
+\bibitem{brightgolay} C. Bright, I. Kotsireas, A. Heinle, and V. Ganesh.
+Complex Golay pairs up to length 28: a search via computer algebra and
+programmatic SAT. Primary author version (2019).
+\url{https://arxiv.org/abs/1907.11981}.
+\url{https://doi.org/10.1016/j.jsc.2019.10.013}.
 \bibitem{fletcher} R. J. Fletcher, M. Gysin, and J. Seberry.
 Application of the discrete Fourier transform to the search for generalised
 Legendre pairs and Hadamard matrices. \emph{Australas. J. Combin.} 23

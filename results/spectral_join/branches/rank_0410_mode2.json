@@ -1,0 +1,86 @@
+{
+  "canonical_lower_bound": 9,
+  "canonical_pairs": 9,
+  "command": [
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\spectral_join.exe",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\spectral_join\\branches\\rank_0410_mode2.input.txt",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\spectral_join\\branches\\rank_0410_mode2.json"
+  ],
+  "complete": true,
+  "elapsed_seconds": 0.0198413,
+  "mode": 2,
+  "node_limit": 100000000,
+  "ordered_pairs": 81,
+  "peak_working_set_bytes": 6148096,
+  "probe": false,
+  "rows": [
+    {
+      "accepted": 1821,
+      "complete": true,
+      "elapsed_seconds": 0.0051719,
+      "excluded_completions": 25272,
+      "expected": 59049,
+      "full_rejections": 31956,
+      "leaves": 33777,
+      "nodes": 62221,
+      "prefix_conflicts": 7704
+    },
+    {
+      "accepted": 1479,
+      "complete": true,
+      "elapsed_seconds": 0.0139054,
+      "excluded_completions": 100512,
+      "expected": 177147,
+      "full_rejections": 75156,
+      "leaves": 76635,
+      "nodes": 158647,
+      "prefix_conflicts": 29130
+    }
+  ],
+  "seconds_limit": 120,
+  "solution_limit": 100000,
+  "solutions": [
+    [
+      8819125711214,
+      26048123955256
+    ],
+    [
+      11312819777756,
+      16030687938584
+    ],
+    [
+      13243406592500,
+      24268295224016
+    ],
+    [
+      13494661065004,
+      20402376670792
+    ],
+    [
+      15736095039812,
+      7795186129504
+    ],
+    [
+      15862801293374,
+      20508438469208
+    ],
+    [
+      26857907140988,
+      24861370780810
+    ],
+    [
+      30826536083868,
+      12654788270842
+    ],
+    [
+      31230260322422,
+      33252794752594
+    ]
+  ],
+  "stop_reason": "exhausted",
+  "stored_candidate_limit": 5000000,
+  "stored_side": 0,
+  "table_capacity_bytes": 90112,
+  "table_entries": 1821,
+  "wrapper_elapsed_seconds": 0.0676101999997627
+}

@@ -1,0 +1,21 @@
+{
+  "binary_sha256": "00545a4f774e9be6be01daef2ba7618d49000d61807bbfa8e9c76507f7bc76d3",
+  "build_command": [
+    "C:\\msys64\\ucrt64\\bin\\g++.exe",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\src\\full_paf_audit.cpp",
+    "-o",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\full_paf_audit.exe",
+    "-std=c++17",
+    "-O3",
+    "-mpopcnt",
+    "-static",
+    "-Wl,--no-insert-timestamp",
+    "-lpsapi"
+  ],
+  "estimated_memory_bytes": 406110016,
+  "estimated_seconds_with_margin": 169.5624689097,
+  "estimated_storage_bytes": 1000000,
+  "limitation": "Stored-row prefix only; 10x runtime margin includes unknown streaming cost.",
+  "pilot_seconds": 0.0709026,
+  "source_sha256": "ec5b82ec6e56526b7b8025a91186a949b3fce143375784838ffbcc81cdc323ec"
+}

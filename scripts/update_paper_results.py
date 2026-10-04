@@ -20,6 +20,9 @@ def main():
     propagation_audit=json.loads((ROOT/'results/phase_propagation/audit.json').read_text())
     assert propagation['complete'] and propagation_audit['status']=='passed'
     assert propagation_audit['manifest_sha256']==digest(ROOT/'results/phase_propagation/manifest.json')
+    spectral_audit=json.loads((ROOT/'results/spectral_join/audit.json').read_text())
+    assert spectral_audit['status']=='passed'
+    assert spectral_audit['manifest_sha256']==digest(ROOT/'results/spectral_join/manifest.json')
     assert census['complete'] and audit['status']==control_audit['status']=='passed'
     assert audit['classification_sha256']==digest(ROOT/'results/p5_classification/classification.json')
     assert control_audit['metadata_sha256']==digest(ROOT/'results/phase_controls/metadata.json')
@@ -102,6 +105,11 @@ with a 39.04 MB Python-process peak and 206.90 MB of proof logs.
                'results/phase_propagation/census_validation.json',
                'results/phase_propagation/equivalence_crosswalk.json',
                'results/phase_propagation/audit.json','results/phase_propagation/manifest.json']
+    artifacts += ['results/spectral_join/pilot.json','results/spectral_join/metadata.json',
+                  'results/spectral_join/controls.json','results/spectral_join/p7_metadata.json',
+                  'results/spectral_join/coefficients_63.json','results/spectral_join/full_paf_p7.json',
+                  'results/spectral_join/independent_audit.json','results/spectral_join/audit.json',
+                  'results/spectral_join/manifest.json']
     hashes=r'''The following SHA-256 values pin the principal evidence. The census
 manifest also pins every branch record and symmetry map. The supplementary
 \path{paper/artifact_manifest.json} pins the manuscript, scripts, tests,
@@ -113,7 +121,8 @@ and supporting records; it is regenerated only after the paper is updated.
         hashes+=r'{\footnotesize\texttt{'+digest(ROOT/path)+'}}\n'
     hashes+=r'\end{description}'
     paper=ROOT/'paper/manuscript.tex'; text=paper.read_text()
-    for name,replacement in [('CONTROL_RESULTS',section),('ARTIFACT_HASHES',hashes)]:
+    from scripts.render_spectral_results import render
+    for name,replacement in [('CONTROL_RESULTS',section),('SPECTRAL_RESULTS',render()),('ARTIFACT_HASHES',hashes)]:
         pattern=f'% {name}_BEGIN\n.*?% {name}_END'
         text,count=re.subn(pattern,lambda _:f'% {name}_BEGIN\n{replacement}\n% {name}_END',text,flags=re.S)
         assert count==1
@@ -127,6 +136,10 @@ and supporting records; it is regenerated only after the paper is updated.
                                 'scripts/crosswalk_p5_equivalence.py','scripts/audit_phase_propagation.py',
                                 'tests/test_phase_propagation.py','tests/test_p5_equivalence.py',
                                 'research/phase_propagation.md','research/direction_selection.md'))
+    paths.extend(ROOT/p for p in ('src/spectral_join.cpp','src/spectral_join.py','src/full_paf_audit.cpp',
+             'scripts/benchmark_spectral_join.py','scripts/audit_saved_p7.py','scripts/audit_spectral_join.py',
+             'scripts/render_spectral_results.py','scripts/verify_spectral_paper.py',
+             'tests/test_spectral_join.py','research/spectral_join.md','.gitattributes'))
     paths.extend(ROOT/p for p in artifacts)
     save(ROOT/'paper/artifact_manifest.json',{'algorithm':'sha256','files':[
         {'path':p.relative_to(ROOT).as_posix(),'bytes':p.stat().st_size,'sha256':digest(p)} for p in sorted(set(paths))]})

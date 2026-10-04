@@ -2,19 +2,24 @@
   "algorithm": "sha256",
   "files": [
     {
-      "bytes": 43986,
+      "bytes": 450,
+      "path": ".gitattributes",
+      "sha256": "e03c461c594c443d7ed41b9844c6f4a9e87884e2d292fa36b8ee88f3757d1668"
+    },
+    {
+      "bytes": 57915,
       "path": "paper/manuscript.tex",
-      "sha256": "893a8f400cfe7638f2edfd98830816c2424d62d2693979c34eab6f4e2a082a92"
+      "sha256": "5cdd826444bbbc72a9d8e83cfa0ef07bf745889fd2b7e2f41f6b9aead0d91eac"
     },
     {
-      "bytes": 11313,
+      "bytes": 11845,
       "path": "references/references.bib",
-      "sha256": "f310070dafd04a159fba30e48296bcef65fa967357699b05a31ba207f8db4e9d"
+      "sha256": "0c9c0d5592fe7d3bfa95a98ef5c39054f3bab37dde8f5abc2fb47a45610730fc"
     },
     {
-      "bytes": 8219,
+      "bytes": 8826,
       "path": "research/direction_selection.md",
-      "sha256": "5649bb8326d64ec141c8137d3a229a6aa7987d371ecba85de39d51aa466c2443"
+      "sha256": "1e4900ffeb8b21cd75bf13037541bdf9768bfbf8873371b1649b1cf56ee18c9a"
     },
     {
       "bytes": 6806,
@@ -32,9 +37,14 @@
       "sha256": "6f7be5fd23c496c8d6fc40709604c541838087a7878ebe17efc0b8072f93cf1e"
     },
     {
-      "bytes": 11363,
+      "bytes": 12643,
       "path": "research/source_ledger.md",
-      "sha256": "efcab0e8fbef6864c89a953edb81370aa87c1eb9b5bb9db0ea7a3f320d2c49ce"
+      "sha256": "6e30d2923af3a8d819dcb150ab50368fd23e442202c9da5f08f079156803c662"
+    },
+    {
+      "bytes": 12673,
+      "path": "research/spectral_join.md",
+      "sha256": "6b3765be9ce5f30a3c54762466c3834f670b304232f94b6aa14fb283d1154b83"
     },
     {
       "bytes": 65014,
@@ -107,6 +117,51 @@
       "sha256": "ff164e24c20872680b6320eef39177a3c02049b0d70246759483ec127c7af716"
     },
     {
+      "bytes": 442,
+      "path": "results/spectral_join/audit.json",
+      "sha256": "27bc160182a6799a9b31d157c06f82d7640b5b3d06c89cfef7f90177ccf0d9a3"
+    },
+    {
+      "bytes": 39672,
+      "path": "results/spectral_join/coefficients_63.json",
+      "sha256": "8d1faf4921c4d3959016ee816970fe5deee884ad63b85b20c8826a85c4108f3e"
+    },
+    {
+      "bytes": 93504,
+      "path": "results/spectral_join/controls.json",
+      "sha256": "757de3c0f978f8b2dd1689fffc8444ec7f64bc44689a0053afc67a4d65f110bb"
+    },
+    {
+      "bytes": 797,
+      "path": "results/spectral_join/full_paf_p7.json",
+      "sha256": "87c2d69fa4ae97fce25ceb447c0db2cbef8fafc8e3fd36149a35c9920f1c89e5"
+    },
+    {
+      "bytes": 555,
+      "path": "results/spectral_join/independent_audit.json",
+      "sha256": "baeb2f8222f30a363c3c06dc19f2d17e494108c62d50c48552e8e29b0af3e4fa"
+    },
+    {
+      "bytes": 907750,
+      "path": "results/spectral_join/manifest.json",
+      "sha256": "39e56606c32b603d74e983471ebc4d98dea9d361b8ffaf570d7738e5c863d682"
+    },
+    {
+      "bytes": 1180,
+      "path": "results/spectral_join/metadata.json",
+      "sha256": "41ecc4ee0680f76364b77aebd2103a983e3b321eceacf8d31e233d03dc492d82"
+    },
+    {
+      "bytes": 6333,
+      "path": "results/spectral_join/p7_metadata.json",
+      "sha256": "0617942da643f3614d639ed086e3c7534bca41e1492f3ed5216bdbcd12c05f98"
+    },
+    {
+      "bytes": 1922,
+      "path": "results/spectral_join/pilot.json",
+      "sha256": "740ed9dc90e7c9f7204b32fa7cb57196c1eebb7414a4373b67e2b48022dddcff"
+    },
+    {
       "bytes": 48766,
       "path": "results/ternary_phase/metadata.json",
       "sha256": "913e45f6c290bb27c603dd996446aab3b3d324ba82ccee7f51d5a0664f88a42f"
@@ -120,6 +175,16 @@
       "bytes": 5467,
       "path": "scripts/audit_phase_propagation.py",
       "sha256": "f4f217c021b2e7ab745e3e1eca6a8fc6ca2d709c83cfd4a87cf8d161cf20c46b"
+    },
+    {
+      "bytes": 3645,
+      "path": "scripts/audit_saved_p7.py",
+      "sha256": "58f780ae2804cc5537303822586fdbac20cb2bfd0b5854c6300347cf84fc864f"
+    },
+    {
+      "bytes": 4905,
+      "path": "scripts/audit_spectral_join.py",
+      "sha256": "b267ea38f443fa81fa6e7343be8da0f360d9dade252703d316a941aae57bc40c"
     },
     {
       "bytes": 4897,
@@ -142,6 +207,11 @@
       "sha256": "b9a993996e3b6cc66fddaa7c54b22697f729e527a136ca8d99e7eadeeee98c68"
     },
     {
+      "bytes": 11631,
+      "path": "scripts/benchmark_spectral_join.py",
+      "sha256": "54904d50f78ae4de209ff1500e13e5591f30b7c355955fa5584488f1841927a1"
+    },
+    {
       "bytes": 18379,
       "path": "scripts/classify_p5_lifts.py",
       "sha256": "17d68b9a74253485bb4b82d716db176ccf10c55b76c591ec229b1db23c5bb367"
@@ -152,14 +222,39 @@
       "sha256": "e1206a2eef3cde5d32c5e1e1a7437305b4111ecd796f437e14a74ed627252907"
     },
     {
-      "bytes": 8695,
+      "bytes": 6633,
+      "path": "scripts/render_spectral_results.py",
+      "sha256": "080b2fba14d3b4fb12f5375b696199029cbb9665b194bb6c43aac85b3cb4266e"
+    },
+    {
+      "bytes": 9856,
       "path": "scripts/update_paper_results.py",
-      "sha256": "ea54620a54658129774bf59a0afcc6a9ece00a5a29de04b2afff0863dd6de626"
+      "sha256": "3f8f0e38a04382079114cbfc59c540395be56ef00432c58f7169eeee8c7e33f4"
+    },
+    {
+      "bytes": 3969,
+      "path": "scripts/verify_spectral_paper.py",
+      "sha256": "8d92f4a688fcd88f72f9a26e5431e8ffce013af99254d51611225c612c50ea0a"
+    },
+    {
+      "bytes": 5561,
+      "path": "src/full_paf_audit.cpp",
+      "sha256": "ec5b82ec6e56526b7b8025a91186a949b3fce143375784838ffbcc81cdc323ec"
     },
     {
       "bytes": 14827,
       "path": "src/phase_propagation.py",
       "sha256": "bb6da26e126ff751c76670c0657f916486491e61526bf1031b4737b9ba5757f3"
+    },
+    {
+      "bytes": 10876,
+      "path": "src/spectral_join.cpp",
+      "sha256": "f55675cd7c9b190410d671a8ef521b109438291dea534000765a64f0c238a5d3"
+    },
+    {
+      "bytes": 4950,
+      "path": "src/spectral_join.py",
+      "sha256": "7ceb4d36c760261809117a8cb047e53ab27cd25c185da5ca2a86165422d82e24"
     },
     {
       "bytes": 17889,
@@ -180,6 +275,11 @@
       "bytes": 3938,
       "path": "tests/test_phase_propagation.py",
       "sha256": "a90aed7eb637e853b058645f6bd86ef8246174da92e1cb7257a68ee61258ca1d"
+    },
+    {
+      "bytes": 2539,
+      "path": "tests/test_spectral_join.py",
+      "sha256": "13b40cf7f6edbe09f454ac94f109fb27120dc73c48f1ba64b402f5cbf2560b10"
     }
   ]
 }

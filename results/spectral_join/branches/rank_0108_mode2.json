@@ -1,0 +1,74 @@
+{
+  "canonical_lower_bound": 6,
+  "canonical_pairs": 6,
+  "command": [
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\spectral_join.exe",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\spectral_join\\branches\\rank_0108_mode2.input.txt",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\spectral_join\\branches\\rank_0108_mode2.json"
+  ],
+  "complete": true,
+  "elapsed_seconds": 0.019829,
+  "mode": 2,
+  "node_limit": 100000000,
+  "ordered_pairs": 54,
+  "peak_working_set_bytes": 6148096,
+  "probe": false,
+  "rows": [
+    {
+      "accepted": 1803,
+      "complete": true,
+      "elapsed_seconds": 0.005973,
+      "excluded_completions": 25002,
+      "expected": 59049,
+      "full_rejections": 32244,
+      "leaves": 34047,
+      "nodes": 62419,
+      "prefix_conflicts": 7566
+    },
+    {
+      "accepted": 1416,
+      "complete": true,
+      "elapsed_seconds": 0.0134642,
+      "excluded_completions": 101223,
+      "expected": 177147,
+      "full_rejections": 74508,
+      "leaves": 75924,
+      "nodes": 157846,
+      "prefix_conflicts": 29307
+    }
+  ],
+  "seconds_limit": 120,
+  "solution_limit": 100000,
+  "solutions": [
+    [
+      13760456468870,
+      17438731718746
+    ],
+    [
+      13932295595028,
+      7236804450808
+    ],
+    [
+      14058792139790,
+      4075609174352
+    ],
+    [
+      14851275927998,
+      29258591082576
+    ],
+    [
+      16105382326284,
+      912096287986
+    ],
+    [
+      17348870774822,
+      22764496469080
+    ]
+  ],
+  "stop_reason": "exhausted",
+  "stored_candidate_limit": 5000000,
+  "stored_side": 0,
+  "table_capacity_bytes": 90112,
+  "table_entries": 1803,
+  "wrapper_elapsed_seconds": 0.06366030001663603
+}

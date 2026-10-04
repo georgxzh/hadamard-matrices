@@ -1,0 +1,29 @@
+{
+  "canonical_pairs": null,
+  "command": [
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\full_paf_audit.exe",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\spectral_join\\full_paf_pilot.input.txt",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\spectral_join\\full_paf_pilot.json",
+    "200000",
+    "10",
+    "full-key"
+  ],
+  "complete": false,
+  "elapsed_seconds": 0.0709026,
+  "enumerated": [
+    200000,
+    0
+  ],
+  "expected": [
+    4782969,
+    43046721
+  ],
+  "ordered_pairs": null,
+  "peak_working_set_bytes": 10485760,
+  "row_seconds": [
+    0.0602019,
+    0
+  ],
+  "solutions": [],
+  "stop_reason": "candidate_limit"
+}
