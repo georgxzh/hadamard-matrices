@@ -23,6 +23,9 @@ def main():
     spectral_audit=json.loads((ROOT/'results/spectral_join/audit.json').read_text())
     assert spectral_audit['status']=='passed'
     assert spectral_audit['manifest_sha256']==digest(ROOT/'results/spectral_join/manifest.json')
+    portfolio_audit=json.loads((ROOT/'results/p7_portfolio/audit.json').read_text())
+    assert portfolio_audit['status']=='passed'
+    assert portfolio_audit['manifest_sha256']==digest(ROOT/'results/p7_portfolio/manifest.json')
     assert census['complete'] and audit['status']==control_audit['status']=='passed'
     assert audit['classification_sha256']==digest(ROOT/'results/p5_classification/classification.json')
     assert control_audit['metadata_sha256']==digest(ROOT/'results/phase_controls/metadata.json')
@@ -110,6 +113,12 @@ with a 39.04 MB Python-process peak and 206.90 MB of proof logs.
                   'results/spectral_join/coefficients_63.json','results/spectral_join/full_paf_p7.json',
                   'results/spectral_join/independent_audit.json','results/spectral_join/audit.json',
                   'results/spectral_join/manifest.json']
+    artifacts += ['results/p7_portfolio/starting_evidence.json','results/p7_portfolio/literature_access.json',
+                  'results/p7_portfolio/acquisition.json','results/p7_portfolio/portfolio.json',
+                  'results/p7_portfolio/pilot.json','results/p7_portfolio/join_pilot.json',
+                  'results/p7_portfolio/summary.json','results/p7_portfolio/independent.json',
+                  'results/p7_portfolio/publication_assessment.json',
+                  'results/p7_portfolio/audit.json','results/p7_portfolio/manifest.json']
     hashes=r'''The following SHA-256 values pin the principal evidence. The census
 manifest also pins every branch record and symmetry map. The supplementary
 \path{paper/artifact_manifest.json} pins the manuscript, scripts, tests,
@@ -122,7 +131,9 @@ and supporting records; it is regenerated only after the paper is updated.
     hashes+=r'\end{description}'
     paper=ROOT/'paper/manuscript.tex'; text=paper.read_text()
     from scripts.render_spectral_results import render
-    for name,replacement in [('CONTROL_RESULTS',section),('SPECTRAL_RESULTS',render()),('ARTIFACT_HASHES',hashes)]:
+    from scripts.render_p7_portfolio import render as render_portfolio
+    for name,replacement in [('CONTROL_RESULTS',section),('SPECTRAL_RESULTS',render()),
+                             ('P7_PORTFOLIO_RESULTS',render_portfolio()),('ARTIFACT_HASHES',hashes)]:
         pattern=f'% {name}_BEGIN\n.*?% {name}_END'
         text,count=re.subn(pattern,lambda _:f'% {name}_BEGIN\n{replacement}\n% {name}_END',text,flags=re.S)
         assert count==1
@@ -140,6 +151,9 @@ and supporting records; it is regenerated only after the paper is updated.
              'scripts/benchmark_spectral_join.py','scripts/audit_saved_p7.py','scripts/audit_spectral_join.py',
              'scripts/render_spectral_results.py','scripts/verify_spectral_paper.py',
              'tests/test_spectral_join.py','research/spectral_join.md','.gitattributes'))
+    paths.extend(ROOT/p for p in ('scripts/p7_study.py','scripts/p7_join_pilot.py','scripts/build_p7_study.py',
+             'scripts/render_p7_portfolio.py','scripts/check_p7_invariants.py',
+             'tests/test_p7_study.py','research/p7_portfolio.md'))
     paths.extend(ROOT/p for p in artifacts)
     save(ROOT/'paper/artifact_manifest.json',{'algorithm':'sha256','files':[
         {'path':p.relative_to(ROOT).as_posix(),'bytes':p.stat().st_size,'sha256':digest(p)} for p in sorted(set(paths))]})

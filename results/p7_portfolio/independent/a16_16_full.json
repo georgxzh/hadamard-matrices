@@ -1,0 +1,30 @@
+{
+  "canonical_pairs": 0,
+  "command": [
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\full_paf_audit.exe",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\p7_portfolio\\independent\\a16_16_full.input.txt",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\p7_portfolio\\independent\\a16_16_full.json",
+    "2000000000",
+    "180",
+    "full-key"
+  ],
+  "complete": true,
+  "elapsed_seconds": 18.9772786,
+  "enumerated": [
+    14348907,
+    14348907
+  ],
+  "expected": [
+    14348907,
+    14348907
+  ],
+  "ordered_pairs": 0,
+  "peak_working_set_bytes": 274419712,
+  "row_seconds": [
+    4.105977,
+    13.8251891
+  ],
+  "solutions": [],
+  "stop_reason": "exhausted",
+  "wrapper_elapsed_seconds": 19.007894599984866
+}

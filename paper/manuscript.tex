@@ -16,9 +16,9 @@
 \newcommand{\ind}[1]{\mathbf 1_{\{#1\}}}
 \newcommand{\pending}[1]{\textbf{Unresolved:} #1}
 \title{Exact staged lifting of prescribed Legendre compressions:\\
-ternary phases, translation gauges, and a restricted length-45 census}
+ternary phases, spectral bounds, and restricted branch censuses}
 \author{Working draft; authorship to be confirmed}
-\date{October 4, 2026}
+\date{October 6, 2026}
 \begin{document}
 \maketitle
 \begin{abstract}
@@ -34,8 +34,11 @@ with exact multiplicities retained. This is not a classification of all Legendre
 pairs of length 45 or of Hadamard equivalence classes. Bounded $p=5,7$
 experiments compare exact enumeration with pseudo-Boolean (PB) encodings.
 A certified spectral implementation reproduces the whole restricted census
-and exhausts one saved $p=7$ intermediate branch with zero binary lifts,
-independently confirmed using all nonredundant PAF shifts.
+and a deterministic portfolio exhausts four prescribed $p=7$ intermediate
+translation classes with zero binary lifts, independently confirmed using
+all nonredundant PAF shifts. Three shuffled serial replicates compare matched
+unfiltered, leaf-spectral and prefix-spectral joins across three active-count
+patterns. Prefix testing is not uniformly fastest in the recorded medians.
 Order 668 motivates the longer-term problem, but none of these experiments
 establish proximity to a solution; no $p=37$ search is performed.
 Novelty is provisional: compression, character prescriptions, successive
@@ -141,6 +144,17 @@ precomputed contributions. Here the periodic binary PSD threshold is
 certified using rational coefficient bounds and rectangles for partial
 ternary assignments. This specialization is potentially useful, but its
 priority remains unresolved; it is not a new PSD exclusion principle.
+
+For the present portfolio milestone, the indexed publisher introduction and
+Section 3--4 previews of \cite{perera} identify a Bluestein/FFTW structured
+DFT approach. Direct retrieval returned HTTP 403; the complete factorization
+and search/numerical conventions remain inaccessible. The indexed abstract
+of \cite{pq2} discusses compression, decimations, cosets and SDS, but full
+HTML/PDF retrieval again failed despite an open-access label. These partial
+comparisons do not settle algorithmic overlap or priority. They supply no
+benchmark baseline; a full-algorithm comparison remains a submission gap.
+The access attempts and exact scope are pinned in
+\path{results/p7_portfolio/literature_access.json}.
 
 \section{Mathematical setup and exact compression}
 Indices of a length-$L$ sequence lie in $\Z_L$. For a real sequence $x$, put
@@ -822,6 +836,191 @@ The preserved spectral evidence occupies 29.65 MB.
 
 % SPECTRAL_RESULTS_END
 
+\subsection{Portfolio domain and selection soundness}
+Let $k_C,k_D$ be the numbers of magnitude-one entries of the length-21
+intermediates. Their zero-shift compressed PAF equation gives
+\[
+ 122=\sum_i(C_i^2+D_i^2)=378-8(k_C+k_D),
+ \qquad k_C+k_D=32.
+\]
+Thus every such intermediate has $3^{k_C-1}3^{k_D-1}=3^{30}$ paired
+anchor-zero binary preimages. This is a direct consequence of the established
+zero-shift compression identity, not a new counting theorem. Balancing the
+active counts changes table/stream costs without changing this pair-domain
+size. We target several ordered splits to test that dependence.
+
+The acquisition objective adds a penalty for distance from a target split
+to the existing integer-PAF residual energy. It is only a heuristic proposal
+mechanism, never a constraint on admitted binary lifts. Every admitted
+intermediate is rechecked directly against its prescribed compression,
+all intermediate PAF constants, row sums, and first-stage OPB constraints.
+Selection fixes the exact finite domain before lift timings; no acquisition
+failure excludes any unacquired intermediate. Inside each admitted branch,
+the proved spectral rules, projected theorem and anchor gauge are unchanged,
+so all cross terms and multiplicities remain as in Proposition
+\ref{prop:spectral}. Results are conditional on the selected classes.
+
+% P7_PORTFOLIO_RESULTS_BEGIN
+\subsection{Bounded systematic $p=7$ portfolio}
+The starting commit \texttt{03876f3} was checked before extension:
+5,081 manifest entries matched, and a fresh consistency audit rechecked
+the frozen $p=5$ lists and saved $p=7$ evidence. Original artifacts remain
+unchanged. This was not a new exhaustive $p=5$ run.
+
+Targeted acquisition used the ordered splits $(12,20),(13,19),(14,18)$,
+$(15,17),(16,16)$, four seeds per split, 200,000 iterations and a 20-second
+wall guard per attempt. Seeds are $20261006+100j+h$, where $j$ indexes the
+listed split from zero and $h=0,1,2,3$. The 20 attempts
+took 54.04 seconds, producing 4
+verified intermediates, with 0 wall guards firing. The admitted
+pool contains the last three splits. Absence of an acquired $(12,20)$ or
+$(13,19)$ class is unresolved, not an impossibility result.
+
+For each acquired split select the minimum compact-JSON pair SHA-256,
+after the existing independent-translation-by-seven gauge and deduplication.
+Add the previous empty branch as a mandatory control. The resulting four
+ordered translation classes are frozen before lift pilots and outcomes.
+This targeted first-hit heuristic pool is neither exhaustive nor uniform;
+minimum-hash selection cannot remove acquisition bias. No row-exchange,
+reversal or decimation quotient changes the counts. Every binary lift keeps
+the anchor-zero phase convention and factor-nine ordered multiplicity.
+
+The prefix probes took 3.72 seconds.
+Because they omit joins, they underestimate unfiltered cost; a supplementary
+3.69-second real-key pilot capped
+stored masks at 250,000 and nodes at one million. Tenfold extrapolations
+are empirical early-prefix estimates, not time guarantees. The memory
+envelope is 1.68 GB; expected evidence is 30 MB with a conservative 1-GB
+storage allowance. These gates fit four cores, 30 minutes and 10 GB.
+All selected classes remain scheduled under equal budgets, regardless of
+their timing estimate. Each trial has 80 seconds, two billion nodes per row,
+15 million stored masks and 100,000 solutions as caps; any stop has null
+exact counts. Each serial batch has a 1,500-second controller guard and at
+most 960 seconds of capped engine work.
+
+Three batches shuffle the 12 branch/mode jobs with seeds 20261006,
+20261007 and 20261008, using one worker and no concurrent repository
+experiment. Their wall times are 171.50, 166.72, 160.38 seconds.
+All variants use the same frozen native executable. Modes 1 and 2 share
+bound maintenance; mode 0 disables it with the spectral tests. This ablation
+compares the entire spectral mechanism, and the leaf/prefix comparison
+isolates prefix testing. Python/native, PB, translation and incremental-PAF
+effects are not credited to this experiment.
+
+\begin{center}
+\begin{tabular}{lrrrr}
+\toprule
+Branch & Active counts & Off (s) & Leaf (s) & Prefix (s)\\
+\midrule
+control & 15,17 & 24.197 & 3.751 & 2.685\\
+a14\_18 & 14,18 & 68.352 & 9.612 & 6.031\\
+a15\_17 & 15,17 & 22.940 & 3.969 & 2.445\\
+a16\_16 & 16,16 & 14.113 & 2.536 & 2.723\\
+\bottomrule
+\end{tabular}
+\end{center}
+The following ranges expose repeat variability rather than treating a
+single median as robust improvement:
+\begin{center}
+\begin{tabular}{lrrr}
+\toprule
+Branch & Off range (s) & Leaf range (s) & Prefix range (s)\\
+\midrule
+control & 22.056--28.649 & 3.744--3.754 & 2.420--4.038\\
+a14\_18 & 68.192--69.726 & 9.238--9.795 & 5.213--7.285\\
+a15\_17 & 22.681--24.229 & 3.783--4.117 & 2.418--3.143\\
+a16\_16 & 13.841--14.858 & 2.233--2.666 & 1.718--3.952\\
+\bottomrule
+\end{tabular}
+\end{center}
+Engine time excludes native preparation. Python setup, process wall time,
+native wall minus engine, exact validation and total wrapper times are
+separately recorded; coefficient warmup is outside engines. Native residual
+includes startup and native pre/post work, not a pure setup measurement.
+Wrapper time is measured before the final JSON rewrite. OS load/frequency
+were not controlled. Repeats are deterministic timing replicates, not
+independent samples of classes or solutions.
+
+\begin{center}
+\begin{tabular}{lrrr}
+\toprule
+Prefix configuration & Python setup (ms) & Native residual (ms) & Wrapper (s)\\
+\midrule
+control & 8.33 & 24.37 & 2.718\\
+a14\_18 & 5.80 & 28.09 & 6.073\\
+a15\_17 & 5.26 & 24.87 & 2.476\\
+a16\_16 & 6.72 & 33.14 & 2.763\\
+\bottomrule
+\end{tabular}
+\end{center}
+These columns are separately recorded medians and need not add to the
+engine median. Full phase measurements for all configurations are preserved.
+
+\begin{center}
+\begin{tabular}{lrrrr}
+\toprule
+Branch & Ordered lifts & Independent complete & Audit (s) & Peak native (MB)\\
+\midrule
+control & 0 & yes & 43.758 & 375.03\\
+a14\_18 & 0 & yes & 84.903 & 98.21\\
+a15\_17 & 0 & yes & 36.257 & 375.03\\
+a16\_16 & 0 & yes & 18.977 & 744.39\\
+\bottomrule
+\end{tabular}
+\end{center}
+Prefix pruning retains the same rows as leaf testing. Its recorded
+survivors and coverage masses (identical across timing replicates) are:
+\begin{center}
+\begin{tabular}{lrrr}
+\toprule
+Branch & Kept rows C/D & Prefix excluded C/D & Prefix nodes\\
+\midrule
+control & 38,907/28,134 & 3,126,363/36,148,041 & 26,725,487\\
+a14\_18 & 37,185/17,865 & 846,162/116,297,190 & 58,161,374\\
+a15\_17 & 38,406/26,823 & 3,120,732/36,174,852 & 26,755,955\\
+a16\_16 & 36,258/36,762 & 10,864,629/10,860,957 & 18,667,898\\
+\bottomrule
+\end{tabular}
+\end{center}
+For the balanced class, prefix testing has median 2.723 s versus 2.536 s for leaf testing, despite fewer nodes. Its timing ranges overlap; this is an observed median regression, not a robust general ranking.
+The native trial peak is 744.39 MB. The preserved study package occupies 1.46 MB, below both pilot allowances. All 36 native trials exhaust, with no timeout or cap.
+The complete solution lists and exact counts agree across all completed variants: 4 of four branches are resolved.
+All four branches are empty in all 36 native trials. These records
+therefore contain no binary witness; every complete solution list is empty.
+Their intermediate witnesses were checked, and the prior full $p=5$ census
+still supplies positive exact controls. This does not establish nonexistence
+for any other intermediate or for the full prescribed $p=7$ family.
+Each independent check uses the unchanged binary-column enumerator,
+all 31 PAF shifts, the support-intersection identity, and exact sorted-key
+collision checks. A separate 200,000-row-per-class pilot preceded its
+180-second attempts. No spectral or projected filter is used. Complete
+checks enumerate both full row domains and compare exact solution lists;
+incomplete checks remain unresolved. The independent compiler/input are
+shared, so this is not an external replication or a formal UNSAT proof.
+Hashes pin coverage, excluded completion masses, every input/result and
+the separately measured setup/wrapper phases.
+Five new protocol tests passed in 1.59 seconds before timing, checking
+the translation class, witness rejection, and byte-identical input/row
+counter parity with the frozen wrapper under caps in all three modes.
+Both native binaries rebuilt byte-identically after timings. The historical
+35 targeted and 156 full-suite test records retain their original dates;
+they are not presented as fresh full-suite executions.
+
+\paragraph{Publication assessment.}
+This evidence supports a narrower restricted-census/reproducibility draft
+with a proved spectral specialization. It does not yet support priority or
+competitive-method claims: the full fast-spectral and $pq^2$ algorithms
+remain unaudited, the pool is small and biased, no positive $p=7$ branch is
+validated here, and external replication is missing. Prefix pruning need
+not improve on leaf filtering; bound-testing overhead must be reported with
+its node reduction. A publishable methods claim needs broader independent
+classes, a verified positive $p=7$ control, complete primary comparisons,
+and comparable external baselines. A future bounded acquisition should
+include unsuccessful strata and opposite row orientations without treating
+heuristic failure as an exclusion. No $p=37$ search is warranted or started.
+
+% P7_PORTFOLIO_RESULTS_END
+
 \section{Reproduction and outstanding work}
 Commands below are issued from the repository root using the recorded
 Python environment. This standalone source targets the native LaTeX editor;
@@ -847,6 +1046,17 @@ The source is preserved; no rendered-PDF or layout verification is claimed.
 .venv/Scripts/python.exe -m scripts.benchmark_spectral_join p7
 .venv/Scripts/python.exe -m scripts.audit_saved_p7
 .venv/Scripts/python.exe -m scripts.audit_spectral_join
+.venv/Scripts/python.exe -m scripts.p7_study acquire
+.venv/Scripts/python.exe -m scripts.build_p7_study
+.venv/Scripts/python.exe -m scripts.p7_study pilot
+.venv/Scripts/python.exe -m scripts.p7_join_pilot
+.venv/Scripts/python.exe -m scripts.p7_study trial --trial 0
+.venv/Scripts/python.exe -m scripts.p7_study trial --trial 1
+.venv/Scripts/python.exe -m scripts.p7_study trial --trial 2
+.venv/Scripts/python.exe -m scripts.p7_study independent-pilot
+.venv/Scripts/python.exe -m scripts.p7_study independent
+.venv/Scripts/python.exe -m scripts.check_p7_invariants
+.venv/Scripts/python.exe -m scripts.p7_study audit
 .venv/Scripts/python.exe -m pytest -q --basetemp=tmp/pytest_paper
 .venv/Scripts/python.exe -m scripts.update_paper_results
 .venv/Scripts/python.exe -m scripts.verify_spectral_paper
@@ -925,6 +1135,28 @@ and supporting records; it is regenerated only after the paper is updated.
 {\footnotesize\texttt{27bc160182a6799a9b31d157c06f82d7640b5b3d06c89cfef7f90177ccf0d9a3}}
 \item[\normalfont\footnotesize\path{results/spectral_join/manifest.json}] \hfill\break
 {\footnotesize\texttt{39e56606c32b603d74e983471ebc4d98dea9d361b8ffaf570d7738e5c863d682}}
+\item[\normalfont\footnotesize\path{results/p7_portfolio/starting_evidence.json}] \hfill\break
+{\footnotesize\texttt{7a03f22ba8184da092a42c1b5f9d680c1f86342a0d711d0ff9a6844c1f4f4ad9}}
+\item[\normalfont\footnotesize\path{results/p7_portfolio/literature_access.json}] \hfill\break
+{\footnotesize\texttt{56fc86179152087f16e683881701d6ac83449d84b0f600b3458a9947a3f563b6}}
+\item[\normalfont\footnotesize\path{results/p7_portfolio/acquisition.json}] \hfill\break
+{\footnotesize\texttt{70529a711430db3af3a59307ce96f50ec6b17806ed8c5f130403c0768f446051}}
+\item[\normalfont\footnotesize\path{results/p7_portfolio/portfolio.json}] \hfill\break
+{\footnotesize\texttt{89ddeb0ec8a73747779b6f12886caa663a42b51e2ffb1939c8bf353f77ef1b49}}
+\item[\normalfont\footnotesize\path{results/p7_portfolio/pilot.json}] \hfill\break
+{\footnotesize\texttt{3739e808a786b1c072e4f31cca3f4aabba0af4038d17be46372cf9ab87e1f0f8}}
+\item[\normalfont\footnotesize\path{results/p7_portfolio/join_pilot.json}] \hfill\break
+{\footnotesize\texttt{cd4b56046b24e69c837cbb86a97e7372617c499dac1fb57f7361011a2c3199c3}}
+\item[\normalfont\footnotesize\path{results/p7_portfolio/summary.json}] \hfill\break
+{\footnotesize\texttt{b681c2e4d26dbeb39c03ee96bc6995c1509b0fe2a58de7f2b4348c56c750a3d7}}
+\item[\normalfont\footnotesize\path{results/p7_portfolio/independent.json}] \hfill\break
+{\footnotesize\texttt{bd93a12b168abedec829aa93b3336c49b2f8b214c2c7e763620db5d3fa9b6bb0}}
+\item[\normalfont\footnotesize\path{results/p7_portfolio/publication_assessment.json}] \hfill\break
+{\footnotesize\texttt{08f406a47017d51fcd64ec32a2638c49eda98ec3eca03080fb5f80d3f16fdda2}}
+\item[\normalfont\footnotesize\path{results/p7_portfolio/audit.json}] \hfill\break
+{\footnotesize\texttt{f8431354917f8b7d377978b8b7e3d3a8016547ad94f783489b76e0bf05a2a63f}}
+\item[\normalfont\footnotesize\path{results/p7_portfolio/manifest.json}] \hfill\break
+{\footnotesize\texttt{40fe52a4f632660d5e786ffb23cc50b0cdff464e0aecf0b2b8cd29fa5724e8a7}}
 \end{description}
 % ARTIFACT_HASHES_END
 
@@ -935,7 +1167,8 @@ representative list to match the 63 converted subset classes, and seek an
 independent external replication. No formal exhaustion certificate is
 provided for enumeration. The current hardware sample and deterministic
 solver settings are too narrow for broad performance claims. The saved $p=7$
-branch is computationally verified empty, while other intermediate branches
+branch and three further portfolio classes are computationally verified
+empty, while other intermediate branches
 remain unclassified. A successful general
 cross-term-aware decomposition with demonstrated scaling and any applicability
 at $p=37$ remain open.

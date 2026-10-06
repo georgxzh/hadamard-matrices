@@ -3,7 +3,7 @@
 Rigorous, reproducible computational research toward the FrontierMath open
 problem of constructing a Hadamard matrix of order 668.
 
-> **Research status (2026-10-04 UTC): unsolved.** This repository does not contain
+> **Research status (2026-10-06): unsolved.** This repository does not contain
 > a Hadamard matrix of order 668. A candidate counts as a solution only after
 > two independent exact verifiers establish
 > \(H H^{\mathsf T}=668I_{668}\) for the complete \(668\times668\) ±1 matrix.
@@ -33,7 +33,17 @@ result. On that one branch, prefix filtering takes 2.64 seconds versus
 engine timings, not a general scaling claim. Proofs, primary precedents,
 bounded pilots and reproducible evidence are in
 [research/spectral_join.md](research/spectral_join.md). Other p=7 branches
-remain unclassified. The next experiment is a bounded p=7 branch portfolio.
+remain unclassified.
+
+The subsequent deterministic p=7 portfolio now resolves **four translation
+classes across three active-count patterns**, all with zero binary lifts.
+All **36** shuffled serial native trials exhaust, and an independent full-PAF
+enumerator confirms each class. The observed balanced-case median favors
+leaf-only filtering over prefix testing, with overlapping ranges. The
+selection, bounded pilots, timing phases and paper assessment are in
+[research/p7_portfolio.md](research/p7_portfolio.md). The evidence supports
+a restricted census/reproducibility draft; full literature comparisons,
+a positive p=7 control and external replication remain outstanding.
 
 The low-risk foundations, order-428 warm-up, and exact Legendre core are complete:
 

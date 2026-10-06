@@ -1,0 +1,13 @@
+{
+  "classes_checked": 4,
+  "deterministic_row_counters": true,
+  "limits": "One worker; measured batch times <1500 seconds; native memory within pilot envelope; evidence <1GB.",
+  "native_peak_bytes": 744386560,
+  "native_trial_stops": 0,
+  "selection_reproduced": true,
+  "source_sha256": "d5274b75daf524ba0d3264e121dc44e0e41f51a73b7278d15d1f949a4888a26b",
+  "status": "passed",
+  "storage_bytes_before_final_manifests": 1425884,
+  "survivor_counts_leaf_prefix_equal": true,
+  "trials_checked": 36
+}

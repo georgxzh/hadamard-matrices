@@ -1,0 +1,11 @@
+{
+  "branches": 4,
+  "completed_branches": 4,
+  "elapsed_seconds": 0.6091774000087753,
+  "independent_completed": 4,
+  "limitation": "Input/full-witness/frozen-result/coverage audit, not a formal exhaustion certificate.",
+  "manifest_entries": 159,
+  "manifest_sha256": "40fe52a4f632660d5e786ffb23cc50b0cdff464e0aecf0b2b8cd29fa5724e8a7",
+  "status": "passed",
+  "storage_bytes": 1463033
+}

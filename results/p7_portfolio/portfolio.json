@@ -1,0 +1,263 @@
+{
+  "absent_patterns": [
+    [
+      12,
+      20
+    ],
+    [
+      13,
+      19
+    ]
+  ],
+  "branches": [
+    {
+      "active_counts": [
+        15,
+        17
+      ],
+      "id": "control",
+      "pair": [
+        [
+          -3,
+          1,
+          1,
+          -3,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -3,
+          3,
+          1,
+          1,
+          -1,
+          1,
+          -3,
+          -1
+        ],
+        [
+          -1,
+          -1,
+          -1,
+          1,
+          -3,
+          -1,
+          3,
+          1,
+          -1,
+          1,
+          1,
+          -1,
+          3,
+          1,
+          1,
+          -1,
+          -3,
+          1,
+          1,
+          1,
+          -1
+        ]
+      ],
+      "row_domains": [
+        4782969,
+        43046721
+      ],
+      "selection": "previous empty control",
+      "sha256": "3060284cc1850248e8baf91f3c92677b8b9269211c714e86b03125b030727aef"
+    },
+    {
+      "active_counts": [
+        14,
+        18
+      ],
+      "id": "a14_18",
+      "pair": [
+        [
+          -1,
+          1,
+          -1,
+          -1,
+          1,
+          1,
+          -3,
+          -1,
+          -1,
+          1,
+          -3,
+          3,
+          -1,
+          -1,
+          3,
+          3,
+          3,
+          1,
+          -1,
+          -3,
+          1
+        ],
+        [
+          -1,
+          -1,
+          1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          -3,
+          -3,
+          3,
+          -1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          1,
+          -1,
+          1,
+          1
+        ]
+      ],
+      "row_domains": [
+        1594323,
+        129140163
+      ],
+      "selection": "minimum pair SHA256 among fixed-seed successes in stratum",
+      "sha256": "2ebee99c56d503bbaddfe62bcb8d31a8ed2b9f6cb02fd7a36e2afa539eef18e9"
+    },
+    {
+      "active_counts": [
+        15,
+        17
+      ],
+      "id": "a15_17",
+      "pair": [
+        [
+          -1,
+          3,
+          1,
+          -1,
+          -1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          3,
+          -3,
+          -3,
+          1,
+          -1,
+          1,
+          -1,
+          1,
+          -3,
+          -1
+        ],
+        [
+          -1,
+          -1,
+          1,
+          3,
+          -1,
+          3,
+          1,
+          1,
+          -1,
+          -3,
+          1,
+          -1,
+          -1,
+          3,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          -1
+        ]
+      ],
+      "row_domains": [
+        4782969,
+        43046721
+      ],
+      "selection": "minimum pair SHA256 among fixed-seed successes in stratum",
+      "sha256": "6ba7b0b8fc2838a1151d46b1099f8755eeb6c49ec65ce80db675dbc0377271f0"
+    },
+    {
+      "active_counts": [
+        16,
+        16
+      ],
+      "id": "a16_16",
+      "pair": [
+        [
+          -1,
+          3,
+          1,
+          -1,
+          1,
+          -3,
+          -3,
+          1,
+          1,
+          1,
+          -3,
+          3,
+          1,
+          1,
+          1,
+          -1,
+          1,
+          1,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          -1,
+          1,
+          1,
+          -1,
+          3,
+          -1,
+          3,
+          1,
+          1,
+          -3,
+          -1,
+          -1,
+          -3,
+          -1,
+          3
+        ]
+      ],
+      "row_domains": [
+        14348907,
+        14348907
+      ],
+      "selection": "minimum pair SHA256 among fixed-seed successes in stratum",
+      "sha256": "0eb5d89652fc596e04f029e0a0368d6551407d08cbdc09a788337704953980aa"
+    }
+  ],
+  "distinct_translation_classes": 4,
+  "rule": "one minimum-SHA class per acquired ordered active pattern plus prior control; fixed before lift pilot",
+  "selection_before_lift_search": true,
+  "source_sha256": "ee0d8ef5f93ab17770251979b61afce859e8a956fe140152bae1f6506040b0cc",
+  "symmetry": "Ordered rows, independent shifts by 7 canonicalized; binary anchor-zero gauge, ordered lift multiplier 9."
+}

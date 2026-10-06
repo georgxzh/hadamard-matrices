@@ -1,6 +1,6 @@
 # Source ledger
 
-Last audited: 2026-09-27
+Last audited: 2026-10-06
 
 Labels:
 
@@ -188,3 +188,26 @@ The proved rational rectangle specialization and complete saved-branch p=7
 result are in `spectral_join.md`. Priority of that specialization is unresolved;
 native engineering speed is not a new complexity result. The full-text gaps
 listed above and historical LP(45) representative-list comparison remain.
+
+### Systematic p=7 portfolio comparison, 2026-10-06
+
+- `perera2025fast`: indexed primary publisher introduction and Section 3/4
+  previews identify Bluestein/FFTW Fourier evaluation. Direct HTML returned
+  403; complete factorization, numerical safeguards and search conventions
+  remain inaccessible. The author-institution page links to DOI metadata,
+  not an accessible full text. No code or comparative baseline was run.
+- `kotsireas2027pq2`: indexed primary publisher abstract/metadata checked;
+  direct HTML/PDF retrieval still failed despite the open-access label.
+  Full phase/pruning/decimation details remain unaudited. Targeted repository
+  and preprint searches did not recover complete primary manuscripts.
+- `kotsireas2025compression`: primary Section 4.1 reread for successive
+  lifting and the explicitly conjectural trace/linear-complexity discard.
+  LP(63) existence is a prior result; its printed witness was not recovered
+  or added as a positive portfolio control in this milestone.
+
+The candidate-contribution ledger and access URLs are frozen in
+`../results/p7_portfolio/literature_access.json`. Priority of the rational
+partial-phase specialization and the restricted-census artifact remains
+unresolved. The preferred paper scope is census/reproducibility with proved
+specializations, contingent on completed evidence, full comparisons and
+external replication; no new existence or competitive-method claim follows.

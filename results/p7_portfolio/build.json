@@ -1,0 +1,45 @@
+{
+  "commands": [
+    [
+      "C:\\msys64\\ucrt64\\bin\\g++.exe",
+      "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\src\\spectral_join.cpp",
+      "-o",
+      "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\spectral_join.exe",
+      "-std=c++17",
+      "-O3",
+      "-mpopcnt",
+      "-static",
+      "-Wl,--no-insert-timestamp",
+      "-lpsapi"
+    ],
+    [
+      "C:\\msys64\\ucrt64\\bin\\g++.exe",
+      "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\src\\full_paf_audit.cpp",
+      "-o",
+      "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\full_paf_audit.exe",
+      "-std=c++17",
+      "-O3",
+      "-mpopcnt",
+      "-static",
+      "-Wl,--no-insert-timestamp",
+      "-lpsapi"
+    ]
+  ],
+  "compiler_sha256": "6a04eb37164c195b14f104a84a679fd5ce855cbc6d49dda0d340362019b8b61d",
+  "elapsed_seconds": 5.588191499991808,
+  "flags": [
+    "-std=c++17",
+    "-O3",
+    "-mpopcnt",
+    "-static",
+    "-Wl,--no-insert-timestamp",
+    "-lpsapi"
+  ],
+  "independent_sha256": "00545a4f774e9be6be01daef2ba7618d49000d61807bbfa8e9c76507f7bc76d3",
+  "limitation": "Byte-identical rebuild with the installed pinned compiler; other toolchains/OS are untested.",
+  "native_sha256": "3bc0a21d0e69ede1ea4d9eaa7966b2cef6ac3c220335642c892c3d1a4163c328",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "portfolio_sha256": "89ddeb0ec8a73747779b6f12886caa663a42b51e2ffb1939c8bf353f77ef1b49",
+  "python": "3.14.6",
+  "script_sha256": "ee0d8ef5f93ab17770251979b61afce859e8a956fe140152bae1f6506040b0cc"
+}

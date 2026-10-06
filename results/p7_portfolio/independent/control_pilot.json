@@ -1,0 +1,30 @@
+{
+  "canonical_pairs": null,
+  "command": [
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\full_paf_audit.exe",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\p7_portfolio\\independent\\control_pilot.input.txt",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\p7_portfolio\\independent\\control_pilot.json",
+    "200000",
+    "10",
+    "full-key"
+  ],
+  "complete": false,
+  "elapsed_seconds": 0.0851164,
+  "enumerated": [
+    200000,
+    0
+  ],
+  "expected": [
+    4782969,
+    43046721
+  ],
+  "ordered_pairs": null,
+  "peak_working_set_bytes": 10432512,
+  "row_seconds": [
+    0.0722226,
+    0
+  ],
+  "solutions": [],
+  "stop_reason": "candidate_limit",
+  "wrapper_elapsed_seconds": 0.11793750000651926
+}

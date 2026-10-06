@@ -6,7 +6,8 @@ from scripts.classify_p5_lifts import ROOT,digest,save
 
 def main():
     manifests=['paper/artifact_manifest.json','results/p5_classification/manifest.json',
-               'results/phase_propagation/manifest.json','results/spectral_join/manifest.json']
+               'results/phase_propagation/manifest.json','results/spectral_join/manifest.json',
+               'results/p7_portfolio/manifest.json']
     checked=0
     for name in manifests:
         for entry in json.loads((ROOT/name).read_text())['files']:
@@ -32,7 +33,7 @@ def main():
     labels=set(re.findall(r'\\label\{([^}]+)\}',source))
     for reference in re.findall(r'\\(?:eqref|ref)\{([^}]+)\}',source):
         assert reference in labels,reference
-    for marker in ('CONTROL_RESULTS','PROPAGATION_RESULTS','SPECTRAL_RESULTS','ARTIFACT_HASHES'):
+    for marker in ('CONTROL_RESULTS','PROPAGATION_RESULTS','SPECTRAL_RESULTS','P7_PORTFOLIO_RESULTS','ARTIFACT_HASHES'):
         assert paper.read_text().count(f'% {marker}_BEGIN')==1
         assert paper.read_text().count(f'% {marker}_END')==1
     pilot=json.loads((ROOT/'results/spectral_join/pilot.json').read_text())
@@ -57,6 +58,12 @@ def main():
         'command':'.venv/Scripts/python.exe -m pytest tests/test_spectral_join.py tests/test_phase_propagation.py tests/test_p5_equivalence.py tests/test_ternary_phase.py tests/test_p5_classification.py -q --basetemp=tmp/pytest_spectral_final',
         'reported_result':'35 passed in 22.29s',
         'provenance':'Completed tool output on 2026-10-04; verifier records this result and does not rerun tests'}
+    record.update(p7_portfolio_audit='results/p7_portfolio/audit.json',
+                  p7_portfolio_storage_bytes=sum(p.stat().st_size for p in (ROOT/'results/p7_portfolio').rglob('*') if p.is_file()))
+    record['p7_protocol_tests']={
+        'command':'.venv/Scripts/python.exe -m pytest tests/test_p7_study.py -q --basetemp=tmp/pytest_p7_protocol',
+        'reported_result':'5 passed in 1.59s',
+        'provenance':'Completed tool output on 2026-10-06, before portfolio timings; verifier does not rerun tests'}
     save(ROOT/'paper/verification_status.json',record)
     print(json.dumps({'manifest_entries_checked':checked,'spectral_artifact_files':len(files),
                       'spectral_storage_bytes':storage,'static_tex_checks':'passed',

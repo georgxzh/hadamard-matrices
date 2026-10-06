@@ -1,15 +1,23 @@
 {
   "classification_audit": "results/p5_classification/audit.json",
   "independent_p7_audit": "results/spectral_join/independent_audit.json",
-  "manifest_entries_checked": 5081,
+  "manifest_entries_checked": 5258,
   "manifests_checked": [
     "paper/artifact_manifest.json",
     "results/p5_classification/manifest.json",
     "results/phase_propagation/manifest.json",
-    "results/spectral_join/manifest.json"
+    "results/spectral_join/manifest.json",
+    "results/p7_portfolio/manifest.json"
   ],
-  "manuscript_sha256": "5cdd826444bbbc72a9d8e83cfa0ef07bf745889fd2b7e2f41f6b9aead0d91eac",
+  "manuscript_sha256": "1ac54eb73fd446730e1b40fdb849265dee9f4008cd35a84d493fdfd84aadc1ee",
   "no_p37_search": true,
+  "p7_portfolio_audit": "results/p7_portfolio/audit.json",
+  "p7_portfolio_storage_bytes": 1463422,
+  "p7_protocol_tests": {
+    "command": ".venv/Scripts/python.exe -m pytest tests/test_p7_study.py -q --basetemp=tmp/pytest_p7_protocol",
+    "provenance": "Completed tool output on 2026-10-06, before portfolio timings; verifier does not rerun tests",
+    "reported_result": "5 passed in 1.59s"
+  },
   "propagation_audit": "results/phase_propagation/audit.json",
   "spectral_artifact_files": 4796,
   "spectral_audit": "results/spectral_join/audit.json",

@@ -1,0 +1,519 @@
+{
+  "bias": "Fixed-seed targeted annealing successes, not all classes or a random sample; wall guard may censor acquisition.",
+  "complete": true,
+  "elapsed_seconds": 54.040234500018414,
+  "patterns": [
+    [
+      12,
+      20
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      14,
+      18
+    ],
+    [
+      15,
+      17
+    ],
+    [
+      16,
+      16
+    ]
+  ],
+  "records": [
+    {
+      "best_energy": 8,
+      "elapsed_seconds": 2.919782299955841,
+      "guard_fired": false,
+      "iteration_limit": 200000,
+      "iterations": 200000,
+      "pair": null,
+      "seconds_limit": 20,
+      "seed": 20261006,
+      "status": "acquisition_unresolved",
+      "target": [
+        12,
+        20
+      ]
+    },
+    {
+      "best_energy": 4,
+      "elapsed_seconds": 2.6111137000261806,
+      "guard_fired": false,
+      "iteration_limit": 200000,
+      "iterations": 200000,
+      "pair": null,
+      "seconds_limit": 20,
+      "seed": 20261007,
+      "status": "acquisition_unresolved",
+      "target": [
+        12,
+        20
+      ]
+    },
+    {
+      "best_energy": 2,
+      "elapsed_seconds": 2.489148300024681,
+      "guard_fired": false,
+      "iteration_limit": 200000,
+      "iterations": 200000,
+      "pair": null,
+      "seconds_limit": 20,
+      "seed": 20261008,
+      "status": "acquisition_unresolved",
+      "target": [
+        12,
+        20
+      ]
+    },
+    {
+      "best_energy": 2,
+      "elapsed_seconds": 2.5675803999765776,
+      "guard_fired": false,
+      "iteration_limit": 200000,
+      "iterations": 200000,
+      "pair": null,
+      "seconds_limit": 20,
+      "seed": 20261009,
+      "status": "acquisition_unresolved",
+      "target": [
+        12,
+        20
+      ]
+    },
+    {
+      "best_energy": 2,
+      "elapsed_seconds": 3.0054994000238366,
+      "guard_fired": false,
+      "iteration_limit": 200000,
+      "iterations": 200000,
+      "pair": null,
+      "seconds_limit": 20,
+      "seed": 20261106,
+      "status": "acquisition_unresolved",
+      "target": [
+        13,
+        19
+      ]
+    },
+    {
+      "best_energy": 2,
+      "elapsed_seconds": 2.6700718000065535,
+      "guard_fired": false,
+      "iteration_limit": 200000,
+      "iterations": 200000,
+      "pair": null,
+      "seconds_limit": 20,
+      "seed": 20261107,
+      "status": "acquisition_unresolved",
+      "target": [
+        13,
+        19
+      ]
+    },
+    {
+      "best_energy": 2,
+      "elapsed_seconds": 2.442294500011485,
+      "guard_fired": false,
+      "iteration_limit": 200000,
+      "iterations": 200000,
+      "pair": null,
+      "seconds_limit": 20,
+      "seed": 20261108,
+      "status": "acquisition_unresolved",
+      "target": [
+        13,
+        19
+      ]
+    },
+    {
+      "best_energy": 4,
+      "elapsed_seconds": 2.5949726999970153,
+      "guard_fired": false,
+      "iteration_limit": 200000,
+      "iterations": 200000,
+      "pair": null,
+      "seconds_limit": 20,
+      "seed": 20261109,
+      "status": "acquisition_unresolved",
+      "target": [
+        13,
+        19
+      ]
+    },
+    {
+      "best_energy": 0,
+      "elapsed_seconds": 2.0078073000186123,
+      "guard_fired": false,
+      "iteration_limit": 200000,
+      "iterations": 150563,
+      "pair": [
+        [
+          -1,
+          1,
+          -1,
+          -1,
+          1,
+          1,
+          -3,
+          -1,
+          -1,
+          1,
+          -3,
+          3,
+          -1,
+          -1,
+          3,
+          3,
+          3,
+          1,
+          -1,
+          -3,
+          1
+        ],
+        [
+          -1,
+          -1,
+          1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          -3,
+          -3,
+          3,
+          -1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          1,
+          -1,
+          1,
+          1
+        ]
+      ],
+      "seconds_limit": 20,
+      "seed": 20261206,
+      "status": "verified_intermediate",
+      "target": [
+        14,
+        18
+      ]
+    },
+    {
+      "best_energy": 0,
+      "elapsed_seconds": 0.5336881999974139,
+      "guard_fired": false,
+      "iteration_limit": 200000,
+      "iterations": 41496,
+      "pair": [
+        [
+          -1,
+          3,
+          1,
+          -3,
+          3,
+          1,
+          1,
+          1,
+          -1,
+          1,
+          3,
+          -1,
+          -1,
+          -3,
+          1,
+          1,
+          1,
+          -3,
+          1,
+          -3,
+          -1
+        ],
+        [
+          -1,
+          -1,
+          -3,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          1,
+          -1,
+          -1,
+          1,
+          1,
+          -1,
+          1,
+          3,
+          -1,
+          3,
+          1
+        ]
+      ],
+      "seconds_limit": 20,
+      "seed": 20261207,
+      "status": "verified_intermediate",
+      "target": [
+        14,
+        18
+      ]
+    },
+    {
+      "best_energy": 2,
+      "elapsed_seconds": 2.7718782000010833,
+      "guard_fired": false,
+      "iteration_limit": 200000,
+      "iterations": 200000,
+      "pair": null,
+      "seconds_limit": 20,
+      "seed": 20261208,
+      "status": "acquisition_unresolved",
+      "target": [
+        14,
+        18
+      ]
+    },
+    {
+      "best_energy": 2,
+      "elapsed_seconds": 2.8550440999679267,
+      "guard_fired": false,
+      "iteration_limit": 200000,
+      "iterations": 200000,
+      "pair": null,
+      "seconds_limit": 20,
+      "seed": 20261209,
+      "status": "acquisition_unresolved",
+      "target": [
+        14,
+        18
+      ]
+    },
+    {
+      "best_energy": 2,
+      "elapsed_seconds": 2.6705945000285283,
+      "guard_fired": false,
+      "iteration_limit": 200000,
+      "iterations": 200000,
+      "pair": null,
+      "seconds_limit": 20,
+      "seed": 20261306,
+      "status": "acquisition_unresolved",
+      "target": [
+        15,
+        17
+      ]
+    },
+    {
+      "best_energy": 2,
+      "elapsed_seconds": 2.6904001000220887,
+      "guard_fired": false,
+      "iteration_limit": 200000,
+      "iterations": 200000,
+      "pair": null,
+      "seconds_limit": 20,
+      "seed": 20261307,
+      "status": "acquisition_unresolved",
+      "target": [
+        15,
+        17
+      ]
+    },
+    {
+      "best_energy": 2,
+      "elapsed_seconds": 2.4681750000454485,
+      "guard_fired": false,
+      "iteration_limit": 200000,
+      "iterations": 200000,
+      "pair": null,
+      "seconds_limit": 20,
+      "seed": 20261308,
+      "status": "acquisition_unresolved",
+      "target": [
+        15,
+        17
+      ]
+    },
+    {
+      "best_energy": 0,
+      "elapsed_seconds": 2.677895399974659,
+      "guard_fired": false,
+      "iteration_limit": 200000,
+      "iterations": 165101,
+      "pair": [
+        [
+          -1,
+          3,
+          1,
+          -1,
+          -1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          3,
+          -3,
+          -3,
+          1,
+          -1,
+          1,
+          -1,
+          1,
+          -3,
+          -1
+        ],
+        [
+          -1,
+          -1,
+          1,
+          3,
+          -1,
+          3,
+          1,
+          1,
+          -1,
+          -3,
+          1,
+          -1,
+          -1,
+          3,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          -1
+        ]
+      ],
+      "seconds_limit": 20,
+      "seed": 20261309,
+      "status": "verified_intermediate",
+      "target": [
+        15,
+        17
+      ]
+    },
+    {
+      "best_energy": 0,
+      "elapsed_seconds": 1.9922881000093184,
+      "guard_fired": false,
+      "iteration_limit": 200000,
+      "iterations": 84956,
+      "pair": [
+        [
+          -1,
+          3,
+          1,
+          -1,
+          1,
+          -3,
+          -3,
+          1,
+          1,
+          1,
+          -3,
+          3,
+          1,
+          1,
+          1,
+          -1,
+          1,
+          1,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          -1,
+          1,
+          1,
+          -1,
+          3,
+          -1,
+          3,
+          1,
+          1,
+          -3,
+          -1,
+          -1,
+          -3,
+          -1,
+          3
+        ]
+      ],
+      "seconds_limit": 20,
+      "seed": 20261406,
+      "status": "verified_intermediate",
+      "target": [
+        16,
+        16
+      ]
+    },
+    {
+      "best_energy": 2,
+      "elapsed_seconds": 4.375127599982079,
+      "guard_fired": false,
+      "iteration_limit": 200000,
+      "iterations": 200000,
+      "pair": null,
+      "seconds_limit": 20,
+      "seed": 20261407,
+      "status": "acquisition_unresolved",
+      "target": [
+        16,
+        16
+      ]
+    },
+    {
+      "best_energy": 2,
+      "elapsed_seconds": 3.887374199985061,
+      "guard_fired": false,
+      "iteration_limit": 200000,
+      "iterations": 200000,
+      "pair": null,
+      "seconds_limit": 20,
+      "seed": 20261408,
+      "status": "acquisition_unresolved",
+      "target": [
+        16,
+        16
+      ]
+    },
+    {
+      "best_energy": 2,
+      "elapsed_seconds": 3.6927214000024833,
+      "guard_fired": false,
+      "iteration_limit": 200000,
+      "iterations": 200000,
+      "pair": null,
+      "seconds_limit": 20,
+      "seed": 20261409,
+      "status": "acquisition_unresolved",
+      "target": [
+        16,
+        16
+      ]
+    }
+  ],
+  "seeds_per_pattern": 4,
+  "source_sha256": "ee0d8ef5f93ab17770251979b61afce859e8a956fe140152bae1f6506040b0cc"
+}

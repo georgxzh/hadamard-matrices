@@ -1,6 +1,18 @@
 # Direction selection
 
-Status: revised 2026-10-04 UTC after the certified spectral milestone.
+Status: revised 2026-10-06 after the bounded p=7 portfolio.
+Four ordered intermediate translation classes across three active-count
+patterns are exhausted and empty in all 36 native trials and all four
+independent full-PAF checks. Leaf/prefix survivor counts agree. Prefix testing
+is not uniformly fastest in recorded medians; its balanced-case ranges
+overlap leaf testing. See `p7_portfolio.md` for selection bias and limits.
+Prefer a restricted census/reproducibility draft, with full priority/source
+comparisons and external replication before submission. Next acquire a
+verified positive p=7 control and test broader predetermined strata; safe
+prefix cadence/frequency ordering is a justified matched ablation. Do not
+infer full-family nonexistence or initiate p=37 search.
+
+Previous certified spectral milestone (2026-10-04):
 The saved p=7 intermediate pair is now computationally verified empty by
 the compact join and an independent all-shift PAF enumerator. The prefix
 filter directly reproduces every p=5 branch and exact solution list.

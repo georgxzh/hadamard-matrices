@@ -1,0 +1,49 @@
+{
+  "canonical_lower_bound": 0,
+  "canonical_pairs": null,
+  "command": [
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\spectral_join.exe",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\p7_portfolio\\pilot\\control_m1.input.txt",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\p7_portfolio\\pilot\\control_m1.json"
+  ],
+  "complete": false,
+  "elapsed_seconds": 0.1081296,
+  "mode": 1,
+  "node_limit": 400000,
+  "ordered_pairs": null,
+  "peak_working_set_bytes": 5517312,
+  "probe": true,
+  "rows": [
+    {
+      "accepted": 2097,
+      "complete": false,
+      "elapsed_seconds": 0.0443334,
+      "excluded_completions": 0,
+      "expected": 4782969,
+      "full_rejections": 264564,
+      "leaves": 266661,
+      "nodes": 400000,
+      "prefix_conflicts": 0
+    },
+    {
+      "accepted": 187,
+      "complete": false,
+      "elapsed_seconds": 0.0628531,
+      "excluded_completions": 0,
+      "expected": 43046721,
+      "full_rejections": 266474,
+      "leaves": 266661,
+      "nodes": 400000,
+      "prefix_conflicts": 0
+    }
+  ],
+  "seconds_limit": 10,
+  "solution_limit": 100000,
+  "solutions": [],
+  "stop_reason": "probe",
+  "stored_candidate_limit": 5000000,
+  "stored_side": 0,
+  "table_capacity_bytes": 4096,
+  "table_entries": 0,
+  "wrapper_elapsed_seconds": 0.17116649996023625
+}

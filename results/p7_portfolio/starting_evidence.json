@@ -1,0 +1,17 @@
+{
+  "starting_commit": "03876f3747a7f1505dd84d128ef4dbade115ab67",
+  "verified_manifest_entries": 5081,
+  "fresh_spectral_audit": {
+    "elapsed_seconds": 7.55790309997974,
+    "independent_p7_result": "exhausted_full_PAF_no_lifts",
+    "limitation": "Frozen evidence consistency and exact witness checks, not a new enumeration or formal proof certificate.",
+    "manifest_entries": 4806,
+    "manifest_sha256": "39e56606c32b603d74e983471ebc4d98dea9d361b8ffaf570d7738e5c863d682",
+    "p5_branches": 1164,
+    "p5_canonical_pairs": 2976,
+    "p7_ordered_pairs": 0,
+    "status": "passed"
+  },
+  "verification_command": "python -m scripts.verify_spectral_paper; python -m scripts.audit_spectral_join",
+  "limitation": "Fresh evidence consistency audit, not a rerun of the complete census."
+}

@@ -1,0 +1,94 @@
+{
+  "compiler_sha256": "6a04eb37164c195b14f104a84a679fd5ce855cbc6d49dda0d340362019b8b61d",
+  "elapsed_seconds": 3.7194737999816425,
+  "estimated_storage_bytes": 30000000,
+  "estimates": [
+    {
+      "estimate_seconds_10x": 8.32676041276875,
+      "id": "control",
+      "mode": 0
+    },
+    {
+      "estimate_seconds_10x": 109.41244265811375,
+      "id": "control",
+      "mode": 1
+    },
+    {
+      "estimate_seconds_10x": 183.067444944495,
+      "id": "control",
+      "mode": 2
+    },
+    {
+      "estimate_seconds_10x": 36.17102967987375,
+      "id": "a14_18",
+      "mode": 0
+    },
+    {
+      "estimate_seconds_10x": 292.1730720986812,
+      "id": "a14_18",
+      "mode": 1
+    },
+    {
+      "estimate_seconds_10x": 543.5948357862862,
+      "id": "a14_18",
+      "mode": 2
+    },
+    {
+      "estimate_seconds_10x": 11.279030091885001,
+      "id": "a15_17",
+      "mode": 0
+    },
+    {
+      "estimate_seconds_10x": 111.10417879341375,
+      "id": "a15_17",
+      "mode": 1
+    },
+    {
+      "estimate_seconds_10x": 196.01686717251752,
+      "id": "a15_17",
+      "mode": 2
+    },
+    {
+      "estimate_seconds_10x": 6.41132481733875,
+      "id": "a16_16",
+      "mode": 0
+    },
+    {
+      "estimate_seconds_10x": 63.03272166788625,
+      "id": "a16_16",
+      "mode": 1
+    },
+    {
+      "estimate_seconds_10x": 95.741718811335,
+      "id": "a16_16",
+      "mode": 2
+    }
+  ],
+  "flags": [
+    "-std=c++17",
+    "-O3",
+    "-mpopcnt",
+    "-static",
+    "-Wl,--no-insert-timestamp",
+    "-lpsapi"
+  ],
+  "limitation": "Early-prefix probes, empirical timing estimates; full-domain memory bound includes table capacity/reallocation, not a whole-system measurement.",
+  "limits": {
+    "bytes": 10000000000,
+    "cores": 4,
+    "seconds": 1800
+  },
+  "max_trial_batch_seconds": 1500,
+  "memory_envelope_bytes": 1676395008,
+  "native_sha256": "3bc0a21d0e69ede1ea4d9eaa7966b2cef6ac3c220335642c892c3d1a4163c328",
+  "node_cap": 2000000000,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "portfolio_sha256": "89ddeb0ec8a73747779b6f12886caa663a42b51e2ffb1939c8bf353f77ef1b49",
+  "python": "3.14.6",
+  "script_sha256": "ee0d8ef5f93ab17770251979b61afce859e8a956fe140152bae1f6506040b0cc",
+  "seconds_per_trial": 80,
+  "solution_cap": 100000,
+  "table_cap": 15000000,
+  "timing_margin": 10,
+  "workers": 1
+}
