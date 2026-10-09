@@ -7,7 +7,7 @@ from scripts.classify_p5_lifts import ROOT,digest,save
 def main():
     manifests=['paper/artifact_manifest.json','results/p5_classification/manifest.json',
                'results/phase_propagation/manifest.json','results/spectral_join/manifest.json',
-               'results/p7_portfolio/manifest.json']
+               'results/p7_portfolio/manifest.json','results/p7_positive_control/manifest.json']
     checked=0
     for name in manifests:
         for entry in json.loads((ROOT/name).read_text())['files']:
@@ -33,7 +33,7 @@ def main():
     labels=set(re.findall(r'\\label\{([^}]+)\}',source))
     for reference in re.findall(r'\\(?:eqref|ref)\{([^}]+)\}',source):
         assert reference in labels,reference
-    for marker in ('CONTROL_RESULTS','PROPAGATION_RESULTS','SPECTRAL_RESULTS','P7_PORTFOLIO_RESULTS','ARTIFACT_HASHES'):
+    for marker in ('CONTROL_RESULTS','PROPAGATION_RESULTS','SPECTRAL_RESULTS','P7_PORTFOLIO_RESULTS','P7_POSITIVE_RESULTS','ARTIFACT_HASHES'):
         assert paper.read_text().count(f'% {marker}_BEGIN')==1
         assert paper.read_text().count(f'% {marker}_END')==1
     pilot=json.loads((ROOT/'results/spectral_join/pilot.json').read_text())
@@ -60,6 +60,12 @@ def main():
         'provenance':'Completed tool output on 2026-10-04; verifier records this result and does not rerun tests'}
     record.update(p7_portfolio_audit='results/p7_portfolio/audit.json',
                   p7_portfolio_storage_bytes=sum(p.stat().st_size for p in (ROOT/'results/p7_portfolio').rglob('*') if p.is_file()))
+    positive=json.loads((ROOT/'results/p7_positive_control/audit.json').read_text())
+    assert positive['manifest_sha256']==digest(ROOT/'results/p7_positive_control/manifest.json')
+    assert positive['summary']['complete'] and positive['summary']['canonical_pairs']==3 and positive['summary']['ordered_pairs']==27
+    record.update(p7_positive_audit='results/p7_positive_control/audit.json',
+                  p7_positive_storage_bytes=sum(p.stat().st_size for p in (ROOT/'results/p7_positive_control').rglob('*') if p.is_file()),
+                  p7_positive_outcome='Published prescribed LP(63) reproduced; positive fixed branch independently exhausted: 3 canonical / 27 ordered lifts')
     record['p7_protocol_tests']={
         'command':'.venv/Scripts/python.exe -m pytest tests/test_p7_study.py -q --basetemp=tmp/pytest_p7_protocol',
         'reported_result':'5 passed in 1.59s',

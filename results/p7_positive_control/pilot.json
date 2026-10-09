@@ -1,0 +1,28 @@
+{
+  "batch_seconds_guard": 900,
+  "estimates": [
+    {
+      "estimated_seconds_10x": 2.25150493350375,
+      "mode": 0
+    },
+    {
+      "estimated_seconds_10x": 20.72532810106125,
+      "mode": 1
+    },
+    {
+      "estimated_seconds_10x": 38.63814487718625,
+      "mode": 2
+    }
+  ],
+  "limitation": "Early-prefix probes with empirical 10x margin, not a proven runtime bound; conservative table allocation/reallocation envelope.",
+  "memory_envelope_bytes": 1676395008,
+  "native_sha256": "3bc0a21d0e69ede1ea4d9eaa7966b2cef6ac3c220335642c892c3d1a4163c328",
+  "node_cap": 2000000000,
+  "script_sha256": "2c7cca300de51addf269227570d532dc9aaafc29f3f0a7c7c93720006d52abb5",
+  "seconds_per_trial": 180,
+  "solution_cap": 100000,
+  "storage_envelope_bytes": 100000000,
+  "table_cap": 14348907,
+  "witness_sha256": "f2b7a2479c0c25c715ad25541bb99a1ba92f0f80362965cc31928d5d12362cfc",
+  "workers": 1
+}

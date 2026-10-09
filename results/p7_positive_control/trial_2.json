@@ -1,0 +1,29 @@
+{
+  "batch_wall_seconds": 19.25760040000023,
+  "coefficient_warmup_seconds": 0.5636969000006502,
+  "concurrent_experiments": false,
+  "order": [
+    0,
+    2,
+    1
+  ],
+  "records": [
+    {
+      "contains_published_control": true,
+      "mode": 0,
+      "result_path": "results/p7_positive_control/trials/m0_t2.json"
+    },
+    {
+      "contains_published_control": true,
+      "mode": 2,
+      "result_path": "results/p7_positive_control/trials/m2_t2.json"
+    },
+    {
+      "contains_published_control": true,
+      "mode": 1,
+      "result_path": "results/p7_positive_control/trials/m1_t2.json"
+    }
+  ],
+  "seed": 20261011,
+  "workers": 1
+}

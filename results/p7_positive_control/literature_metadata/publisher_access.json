@@ -1,0 +1,47 @@
+{
+  "interpretation": "A success must be inspected for algorithm text; HTTP success alone is not full-text access.",
+  "records": [
+    {
+      "bytes": 1817,
+      "date": "2026-10-09",
+      "http_status": 200,
+      "label": "fast_spectral",
+      "local_untracked_path": "tmp/p7_literature/fast_spectral_default.xml",
+      "scope": "Official Crossref-advertised publisher text-mining endpoint, unauthenticated GET; no access workaround.",
+      "sha256": "b93d3b791deddce708c3f06f95ca32da9ab0ec3b3dd25129c6b4189f2b0b4b8a",
+      "status": "payload_retrieved",
+      "url": "https://api.elsevier.com/content/article/PII:S0024379525000102?httpAccept=text/xml",
+      "view": "default"
+    },
+    {
+      "date": "2026-10-09",
+      "error": "HTTP Error 401: Unauthorized",
+      "label": "fast_spectral",
+      "scope": "Official Crossref-advertised publisher text-mining endpoint, unauthenticated GET; no access workaround.",
+      "status": "unavailable",
+      "url": "https://api.elsevier.com/content/article/PII:S0024379525000102?httpAccept=text/xml&view=FULL",
+      "view": "FULL"
+    },
+    {
+      "bytes": 2033,
+      "date": "2026-10-09",
+      "http_status": 200,
+      "label": "pq_squared",
+      "local_untracked_path": "tmp/p7_literature/pq_squared_default.xml",
+      "scope": "Official Crossref-advertised publisher text-mining endpoint, unauthenticated GET; no access workaround.",
+      "sha256": "aa59ac7436ff4de9965fb2140ae92ca4ee69d2e9ead34e1f5f1ceb64ccfbfb2c",
+      "status": "payload_retrieved",
+      "url": "https://api.elsevier.com/content/article/PII:S0747717126000544?httpAccept=text/xml",
+      "view": "default"
+    },
+    {
+      "date": "2026-10-09",
+      "error": "HTTP Error 401: Unauthorized",
+      "label": "pq_squared",
+      "scope": "Official Crossref-advertised publisher text-mining endpoint, unauthenticated GET; no access workaround.",
+      "status": "unavailable",
+      "url": "https://api.elsevier.com/content/article/PII:S0747717126000544?httpAccept=text/xml&view=FULL",
+      "view": "FULL"
+    }
+  ]
+}

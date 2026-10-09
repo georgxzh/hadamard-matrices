@@ -172,11 +172,13 @@ they are not presented as fresh full-suite executions.
 This evidence supports a narrower restricted-census/reproducibility draft
 with a proved spectral specialization. It does not yet support priority or
 competitive-method claims: the full fast-spectral and $pq^2$ algorithms
-remain unaudited, the pool is small and biased, no positive $p=7$ branch is
-validated here, and external replication is missing. Prefix pruning need
+remain unaudited, the pool is small and biased, this October 6 portfolio
+contains no positive branch, and external replication is missing. The
+subsequent positive-control subsection closes that validation gap without
+changing the frozen pool. Prefix pruning need
 not improve on leaf filtering; bound-testing overhead must be reported with
 its node reduction. A publishable methods claim needs broader independent
-classes, a verified positive $p=7$ control, complete primary comparisons,
+classes, completed positive controls, complete primary comparisons,
 and comparable external baselines. A future bounded acquisition should
 include unsuccessful strata and opposite row orientations without treating
 heuristic failure as an exclusion. No $p=37$ search is warranted or started.

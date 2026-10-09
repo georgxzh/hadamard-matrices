@@ -1,0 +1,36 @@
+{
+  "full_run_cap_seconds": 180,
+  "interpretation": "Real hash-table prefix pilot includes matching setup; caps are unresolved, no exact branch counts. Timing extrapolation may underestimate resizing and nonuniform prefixes.",
+  "limits": {
+    "node_cap": 400000,
+    "seconds_per_trial": 5,
+    "solution_cap": 1000,
+    "table_cap": 200000
+  },
+  "memory_envelope_bytes": 1676395008,
+  "records": [
+    {
+      "estimated_seconds_10x": 30.67723582354088,
+      "mode": 0,
+      "peak_bytes": 17985536,
+      "status": "unresolved",
+      "stop_reason": "stored_candidate_limit"
+    },
+    {
+      "estimated_seconds_10x": 31.646899906983027,
+      "mode": 1,
+      "peak_bytes": 6086656,
+      "status": "unresolved",
+      "stop_reason": "node_limit"
+    },
+    {
+      "estimated_seconds_10x": 21.94803706542056,
+      "mode": 2,
+      "peak_bytes": 6164480,
+      "status": "unresolved",
+      "stop_reason": "node_limit"
+    }
+  ],
+  "storage_envelope_bytes": 100000000,
+  "workers": 1
+}

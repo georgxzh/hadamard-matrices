@@ -1,0 +1,471 @@
+{
+  "message": {
+    "DOI": "10.1016/j.jsc.2026.102606",
+    "ISSN": [
+      "0747-7171"
+    ],
+    "URL": "https://doi.org/10.1016/j.jsc.2026.102606",
+    "alternative-id": [
+      "S0747717126000544"
+    ],
+    "article-number": "102606",
+    "assertion": [
+      {
+        "label": "This article is maintained by",
+        "name": "publisher",
+        "value": "Elsevier"
+      },
+      {
+        "label": "Article Title",
+        "name": "articletitle",
+        "value": "On the search of binary Legendre pairs of length pq2"
+      },
+      {
+        "label": "Journal Title",
+        "name": "journaltitle",
+        "value": "Journal of Symbolic Computation"
+      },
+      {
+        "label": "CrossRef DOI link to publisher maintained version",
+        "name": "articlelink",
+        "value": "https://doi.org/10.1016/j.jsc.2026.102606"
+      },
+      {
+        "label": "Content Type",
+        "name": "content_type",
+        "value": "article"
+      },
+      {
+        "label": "Copyright",
+        "name": "copyright",
+        "value": "\u00a9 2026 The Authors. Published by Elsevier Ltd."
+      }
+    ],
+    "author": [
+      {
+        "affiliation": [],
+        "family": "Kotsireas",
+        "given": "Ilias",
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ],
+        "sequence": "first"
+      },
+      {
+        "affiliation": [],
+        "family": "Gallardo-Cava",
+        "given": "Roberto",
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ],
+        "sequence": "additional"
+      },
+      {
+        "affiliation": [],
+        "family": "G\u00f3mez",
+        "given": "Ana Isabel",
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ],
+        "sequence": "additional"
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5780-2165",
+        "affiliation": [],
+        "authenticated-orcid": false,
+        "family": "G\u00f3mez-P\u00e9rez",
+        "given": "Domingo",
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ],
+        "sequence": "additional"
+      }
+    ],
+    "container-title": [
+      "Journal of Symbolic Computation"
+    ],
+    "content-domain": {
+      "crossmark-restriction": true,
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          10
+        ]
+      ],
+      "date-time": "2026-07-10T16:15:33Z",
+      "timestamp": 1783700133000
+    },
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          31
+        ]
+      ],
+      "date-time": "2026-08-31T14:22:36Z",
+      "timestamp": 1788186156000
+    },
+    "funder": [
+      {
+        "DOI": "10.13039/100014440",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "asserted-by": "publisher",
+            "id": "10.13039/100014440",
+            "id-type": "DOI"
+          }
+        ],
+        "name": "Ministerio de Ciencia, Innovaci\u00f3n y Universidades"
+      },
+      {
+        "DOI": "10.13039/501100008530",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "asserted-by": "publisher",
+            "id": "10.13039/501100008530",
+            "id-type": "DOI"
+          }
+        ],
+        "name": "European Regional Development Fund"
+      },
+      {
+        "DOI": "10.13039/501100011033",
+        "award": [
+          "PCI2024-155063-2"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "PCI2024-155063-2"
+            ]
+          }
+        ],
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "asserted-by": "publisher",
+            "id": "10.13039/501100011033",
+            "id-type": "DOI"
+          }
+        ],
+        "name": "State Agency of Research"
+      },
+      {
+        "DOI": "10.13039/501100011033",
+        "award": [
+          "PID2023-151238OA-I00"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "PID2023-151238OA-I00"
+            ]
+          }
+        ],
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "asserted-by": "publisher",
+            "id": "10.13039/501100011033",
+            "id-type": "DOI"
+          }
+        ],
+        "name": "State Agency of Research"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          31
+        ]
+      ],
+      "date-time": "2026-08-31T15:15:22Z",
+      "timestamp": 1788189322122,
+      "version": "build-2803163510"
+    },
+    "is-referenced-by-count": 0,
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "0747-7171"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2027,
+          1
+        ]
+      ]
+    },
+    "language": "en",
+    "license": [
+      {
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "start": {
+          "date-parts": [
+            [
+              2027,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2027-01-01T00:00:00Z",
+          "timestamp": 1798761600000
+        }
+      },
+      {
+        "URL": "https://www.elsevier.com/legal/tdmrep-license",
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "start": {
+          "date-parts": [
+            [
+              2027,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2027-01-01T00:00:00Z",
+          "timestamp": 1798761600000
+        }
+      },
+      {
+        "URL": "http://creativecommons.org/licenses/by/4.0/",
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              13
+            ]
+          ],
+          "date-time": "2026-07-13T00:00:00Z",
+          "timestamp": 1783900800000
+        }
+      }
+    ],
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0747717126000544?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0747717126000544?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "member": "78",
+    "original-title": [],
+    "page": "102606",
+    "prefix": "10.1016",
+    "published": {
+      "date-parts": [
+        [
+          2027,
+          1
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2027,
+          1
+        ]
+      ]
+    },
+    "publisher": "Elsevier BV",
+    "reference": [
+      {
+        "article-title": "Introduction to Analytic Number Theory",
+        "author": "Apostol",
+        "key": "10.1016/j.jsc.2026.102606_br0010",
+        "year": "1976"
+      },
+      {
+        "article-title": "Application of the discrete Fourier transform to the search for generalised Legendre pairs and Hadamard matrices",
+        "author": "Fletcher",
+        "first-page": "75",
+        "journal-title": "Australas. J. Comb.",
+        "key": "10.1016/j.jsc.2026.102606_br0020",
+        "volume": "23",
+        "year": "2001"
+      },
+      {
+        "DOI": "10.1112/S0025579300015734",
+        "article-title": "Character sums with exponential functions",
+        "author": "Friedlander",
+        "doi-asserted-by": "crossref",
+        "first-page": "75",
+        "journal-title": "Mathematika",
+        "key": "10.1016/j.jsc.2026.102606_br0030",
+        "volume": "47",
+        "year": "2000"
+      },
+      {
+        "DOI": "10.1090/S0025-5718-00-01196-0",
+        "article-title": "Exhaustive determination of (1023, 511, 255)-cyclic difference sets",
+        "author": "Gaal",
+        "doi-asserted-by": "crossref",
+        "first-page": "357",
+        "journal-title": "Math. Comput.",
+        "key": "10.1016/j.jsc.2026.102606_br0040",
+        "volume": "70",
+        "year": "2001"
+      },
+      {
+        "author": "Golomb",
+        "key": "10.1016/j.jsc.2026.102606_br0050",
+        "series-title": "Signal Design for Good Correlation: For Wireless Communication, Cryptography, and Radar",
+        "year": "2005"
+      },
+      {
+        "article-title": "On properties of Legendre pairs under compression",
+        "author": "Kotsireas",
+        "first-page": "79",
+        "key": "10.1016/j.jsc.2026.102606_br0060",
+        "series-title": "Proceedings of the 2025 International Symposium on Symbolic and Algebraic Computation",
+        "year": "2025"
+      },
+      {
+        "DOI": "10.1002/jcd.21806",
+        "article-title": "Legendre pairs of lengths \u2113\u22610(mod3)",
+        "author": "Kotsireas",
+        "doi-asserted-by": "crossref",
+        "first-page": "870",
+        "journal-title": "J. Comb. Des.",
+        "key": "10.1016/j.jsc.2026.102606_br0070",
+        "volume": "29",
+        "year": "2021"
+      },
+      {
+        "DOI": "10.5206/mt.v5i1.21835",
+        "article-title": "Meta-programming with maple and C",
+        "author": "Kotsireas",
+        "doi-asserted-by": "crossref",
+        "journal-title": "Maple Trans.",
+        "key": "10.1016/j.jsc.2026.102606_br0080",
+        "volume": "5",
+        "year": "2025"
+      },
+      {
+        "article-title": "Legendre pairs of lengths \u2113 \u2261 0 (mod 5)",
+        "author": "Kotsireas",
+        "journal-title": "Spec. Matrices",
+        "key": "10.1016/j.jsc.2026.102606_br0090",
+        "volume": "11",
+        "year": "2023"
+      },
+      {
+        "article-title": "Quaternary Legendre pairs",
+        "author": "Kotsireas",
+        "first-page": "289",
+        "key": "10.1016/j.jsc.2026.102606_br0100",
+        "series-title": "New Advances in Designs, Codes and Cryptography",
+        "year": "2024"
+      },
+      {
+        "author": "Mullen",
+        "key": "10.1016/j.jsc.2026.102606_br0110",
+        "series-title": "Handbook of Finite Fields, vol. 17",
+        "year": "2013"
+      },
+      {
+        "DOI": "10.1007/s10623-013-9862-z",
+        "article-title": "Compression of periodic complementary sequences and applications",
+        "author": "\u0110okovi\u0107",
+        "doi-asserted-by": "crossref",
+        "first-page": "365",
+        "journal-title": "Des. Codes Cryptogr.",
+        "key": "10.1016/j.jsc.2026.102606_br0120",
+        "volume": "74",
+        "year": "2015"
+      },
+      {
+        "DOI": "10.1007/BF01175029",
+        "article-title": "Bemerkungen \u00fcber die verteilung der quadratischen reste",
+        "author": "Perron",
+        "doi-asserted-by": "crossref",
+        "first-page": "122",
+        "journal-title": "Math. Z.",
+        "key": "10.1016/j.jsc.2026.102606_br0130",
+        "volume": "56",
+        "year": "1952"
+      },
+      {
+        "author": "Seberry",
+        "key": "10.1016/j.jsc.2026.102606_br0140",
+        "series-title": "Hadamard Matrices: Constructions Using Number Theory and Linear Algebra",
+        "year": "2020"
+      },
+      {
+        "article-title": "Tournaments and Hadamard matrices",
+        "author": "Szekeres",
+        "first-page": "269",
+        "journal-title": "Enseign. Math.",
+        "key": "10.1016/j.jsc.2026.102606_br0150",
+        "volume": "15",
+        "year": "1969"
+      }
+    ],
+    "reference-count": 15,
+    "references-count": 15,
+    "relation": {},
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0747717126000544"
+      }
+    },
+    "score": 1,
+    "short-container-title": [
+      "Journal of Symbolic Computation"
+    ],
+    "short-title": [],
+    "source": "Crossref",
+    "special_numbering": "C",
+    "subject": [],
+    "subtitle": [],
+    "title": [
+      "On the search of binary Legendre pairs of length pq2"
+    ],
+    "type": "journal-article",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "volume": "138"
+  },
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "status": "ok"
+}

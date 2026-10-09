@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-09",
+  "primary_witness": {
+    "url": "https://doi.org/10.1145/3747199.3747549",
+    "section": "5.3.3",
+    "access": "Targeted primary publisher indexed HTML: complete printed numerical a63/b63 block and compression values retrieved; direct fetch 403",
+    "queries": ["site:dl.acm.org/doi/10.1145/3747199.3747549 63 sequences", "site:dl.acm.org/doi/10.1145/3747199.3747549 5.3.3"],
+    "independently_checked": "Signs, length, row sums, all full PAF shifts, negative-support SDS, compression family and translation/phase mapping",
+    "not_checked": "Finite-field trace representation and linear-complexity claims"
+  },
+  "fast_spectral": {
+    "doi": "10.1016/j.laa.2025.01.010",
+    "publisher_url": "https://www.sciencedirect.com/science/article/pii/S0024379525000102",
+    "institution_url": "https://portfolio.erau.edu/en/publications/a-low-complexity-algorithm-to-search-for-legendre-pairs/",
+    "read": "Primary indexed publisher abstract/preview and author institution publication metadata",
+    "full_algorithm_read": false,
+    "known_from_primary_abstract": ["Arbitrary odd sequence length", "Matrix spectral/Gershgorin analysis", "FFT-like DFT computation", "C numerical comparisons at 45 and 63"],
+    "unknown": ["Exact enumerated domain and quotient", "Search-loop pruning", "Matching and bucket multiplicities", "Lifting details", "Floating-point error safeguards and final acceptance"],
+    "lawful_copy_attempts": ["Publisher HTML/PDF fetch unavailable", "Institution record supplies DOI only", "Targeted author/repository/arXiv/code searches locate no usable full copy", "OpenAlex lists publisher DOI only, no PDF URL", "Crossref publisher API default returns coredata only; FULL view returns HTTP 401"]
+  },
+  "pq_squared": {
+    "doi": "10.1016/j.jsc.2026.102606",
+    "publisher_url": "https://www.sciencedirect.com/science/article/pii/S0747717126000544",
+    "read": "Primary indexed publisher abstract and bibliographic/license metadata",
+    "full_algorithm_read": false,
+    "known_from_primary_abstract": ["Length pq^2, fixed partial sums", "Decimation, coset and SDS techniques"],
+    "unknown": ["Exact search domain and symmetry quotient", "Detailed pruning rules", "Matching and multiplicity conventions", "Lifting order", "Arithmetic and verification safeguards"],
+    "lawful_copy_attempts": ["Publisher HTML/PDF fetch unavailable", "Targeted author/URJC/Cantabria/preprint/code searches locate no usable full copy; Cantabria repository blocked by robots.txt", "OpenAlex lists publisher DOI only, no PDF URL", "Crossref publisher API default returns coredata and CC BY 4.0 license only; FULL view returns HTTP 401"]
+  },
+  "interpretation": "No claim that inaccessible algorithms omit our specializations. Search failure does not establish absence of a lawful copy. Metadata and HTTP success do not imply algorithm access.",
+  "access_control": "No workaround, credentials, paywall bypass or author messaging used. Public metadata HTTP receipts and payload hashes preserved in literature_metadata/.",
+  "priority_status": "Unresolved; no first-method or matched literature-performance claim"
+}

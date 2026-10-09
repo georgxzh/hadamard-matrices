@@ -18,7 +18,7 @@
 \title{Exact staged lifting of prescribed Legendre compressions:\\
 ternary phases, spectral bounds, and restricted branch censuses}
 \author{Working draft; authorship to be confirmed}
-\date{October 6, 2026}
+\date{October 9, 2026}
 \begin{document}
 \maketitle
 \begin{abstract}
@@ -39,6 +39,11 @@ translation classes with zero binary lifts, independently confirmed using
 all nonredundant PAF shifts. Three shuffled serial replicates compare matched
 unfiltered, leaf-spectral and prefix-spectral joins across three active-count
 patterns. Prefix testing is not uniformly fastest in the recorded medians.
+A published prescribed length-63 witness is independently reproduced;
+its positive intermediate branch is exhausted by all three matched modes
+and a separate full-PAF enumerator, yielding three anchor-fixed pairs or
+27 ordered fixed-intermediate lifts. This deliberately selected control
+does not turn the portfolio into an unbiased sample or a global census.
 Order 668 motivates the longer-term problem, but none of these experiments
 establish proximity to a solution; no $p=37$ search is performed.
 Novelty is provisional: compression, character prescriptions, successive
@@ -1010,23 +1015,213 @@ they are not presented as fresh full-suite executions.
 This evidence supports a narrower restricted-census/reproducibility draft
 with a proved spectral specialization. It does not yet support priority or
 competitive-method claims: the full fast-spectral and $pq^2$ algorithms
-remain unaudited, the pool is small and biased, no positive $p=7$ branch is
-validated here, and external replication is missing. Prefix pruning need
+remain unaudited, the pool is small and biased, this October 6 portfolio
+contains no positive branch, and external replication is missing. The
+subsequent positive-control subsection closes that validation gap without
+changing the frozen pool. Prefix pruning need
 not improve on leaf filtering; bound-testing overhead must be reported with
 its node reduction. A publishable methods claim needs broader independent
-classes, a verified positive $p=7$ control, complete primary comparisons,
+classes, completed positive controls, complete primary comparisons,
 and comparable external baselines. A future bounded acquisition should
 include unsuccessful strata and opposite row orientations without treating
 heuristic failure as an exclusion. No $p=37$ search is warranted or started.
 
 % P7_PORTFOLIO_RESULTS_END
 
+
+% P7_POSITIVE_RESULTS_BEGIN
+\subsection{Published positive $p=7$ control (October 9, 2026)}
+The previous portfolio and its assessment above are frozen historical evidence.
+The next control is deliberately selected from a published positive example,
+not from the heuristic pool: Section 5.3.3 of \cite{issac} prints two length-63
+rows. The primary publisher's indexed HTML supplied the numerical block;
+direct retrieval returned HTTP 403. \path{results/p7_positive_control/witness.json}
+pins its locator, transcription, signs and verification vectors. We use the
+first printed element as index zero. Standalone nested integer loops verify
+all 62 nonzero PAF sums are $-2$, both row sums are 1, and the combined
+negative-support difference counts are 30 (each block has size 31).
+The printed pair has exactly the prescribed length-seven compression
+\[
+(1,3,3,-3,3,-3,-3),\qquad(1,-3,-3,3,-3,3,3).
+\]
+It therefore validates the prescribed family, beyond merely testing an
+unrelated domain. Its existence is established literature, independently
+reproduced here; trace and linear-complexity assertions are not reverified.
+
+\paragraph{Normalization and count convention.}
+The length-21 rows are minimized independently among shifts $0,7,14$;
+the chosen shifts are 0 and 14. In each binary row the first active minority
+phase is then moved to zero by a further shift of 21. With the convention
+$x'[j]=x[(j+t)\bmod63]$, the recovered primary representative has total
+shifts 21 and 35 and negative masks
+\[
+7677489779817452654,\qquad 5050907891639286294.
+\]
+The resulting intermediate is
+\begin{align*}
+C={}&(-1,-1,-1,-1,1,-3,-1,-1,3,1,1,\\
+ &\hspace{1em}1,-1,-1,3,1,3,-3,1,1,-1),\\
+D={}&(-1,-3,1,1,-3,3,3,1,1,-3,1,\\
+ &\hspace{1em}-1,-1,-1,1,-1,-1,1,1,1,1).
+\end{align*}
+This translation class differs from the four frozen empty classes.
+
+\begin{proposition}
+This normalization preserves every PAF equation, and each anchor-fixed
+pair above $(C,D)$ represents exactly nine ordered fixed-intermediate lifts.
+\end{proposition}
+\begin{proof}
+For any cyclic shift $t$, replacing the summation index $j$ by $j+t$ in
+$\sum_jx[j+t]x[j+s+t]$ preserves $\PAF_x(s)$. A shift by 7 at length 21
+preserves length-seven compression. A binary shift by 21 preserves $(C,D)$
+and subtracts one from each minority phase modulo 3. Since each row has
+active residues, neither nontrivial such shift fixes it. Each independent
+row action is free of size three; their product has size nine. This is the
+existing gauge applied to a known witness and introduces no pruning rule
+or additional exchange, reversal or decimation quotient.
+\end{proof}
+
+\paragraph{Resource gates and controlled recovery.}
+Both rows have 16 active entries, giving $3^{15}=14,348,907$ anchor-fixed
+candidates each. The 400,000-node probes omit table work; in particular
+their mode-zero estimate understates the join cost. Real capped table
+pilots preceded full attempts, with 10-fold empirical timing extrapolations
+of 30.68, 31.65 and 21.95 seconds for off, leaf and prefix modes.
+These pilot caps remain unresolved, not exact branch outcomes.
+The conservative allocation/reallocation envelope is 1.676 GB and the
+storage allowance 100 MB. Full attempts use one worker, a 180-second time
+cap, two billion nodes per row, 14,348,907 stored masks and 100,000 solutions.
+Three serial batches shuffle the three modes with seeds 20261009--20261011.
+The native implementation and compiler binary hashes match the frozen
+baseline; only the control harness is new. The old virtual-environment
+launcher could not find its base executable, so the bundled Python 3.12.14
+was used. Timing phases are measured separately; no concurrent experiment
+ran, while background OS load and clock frequency were not controlled.
+
+\begin{center}
+\begin{tabular}{lrrr}
+\toprule
+Mode & Engine median (s) & Range (s) & Wrapper median (s)\\\midrule
+Off & 15.298 & 14.060--15.825 & 15.364\\
+Leaf spectral & 2.477 & 2.259--3.582 & 2.520\\
+Prefix spectral & 2.212 & 1.730--2.591 & 2.256\\
+\bottomrule
+\end{tabular}
+\end{center}
+All nine trials exhaust to identical complete lists containing the published
+control: three anchor-fixed pairs and 27 ordered lifts of this fixed
+intermediate. \path{solutions.json} expands and verifies all 27 distinct
+ordered masks; repeated PAF keys retain every mask in the native table.
+This is a conditional count, not a count of the entire prescribed family.
+Leaf/prefix timing ranges overlap, so their median order supports no
+universal ranking. Median setup costs are 0.006--0.007 seconds; native
+process time minus engine time is 0.031--0.051 seconds; witness validation
+adds approximately 0.003 seconds. Exact per-run phases are retained.
+Leaf and prefix modes retain 35,223 and 34,746 masks on the two sides.
+Prefix mode excludes 10,821,357 and 10,850,193 completion masses before
+leaves. Every exhausted row satisfies its exact coverage identity.
+The three batch walls are 22.31, 20.75, 19.26 seconds. The largest native process peak is 744.65 MB.
+
+The independent full-PAF pilot enumerates 200,000 candidates and estimates
+92.39 seconds with a tenfold margin and a 1.118 GB envelope. After all
+native sets agree, the unchanged binary-column enumerator exhausts both
+full row domains using all 31 nonredundant PAF shifts and support-intersection
+keys, with no spectral or projected filter.
+It returns the same three pairs and ordered count 27 in 23.16 seconds, with peak 274.91 MB.
+Standalone definition/SDS checks additionally verify every emitted
+pair at all 62 nonzero shifts, including the 27 expanded ordered pairs.
+This is independent implementation evidence, sharing input and compiler,
+not external replication or a formal exhaustion certificate. The four old
+empty classes and all frozen census/source manifests remain byte-identical;
+the baseline read-only audit checked 5,258 manifest entries without rerunning
+the censuses. The new complete list closes the positive-control gap but
+does not create an unbiased five-class sample or a global $p=7$ census.
+
+\paragraph{Full-algorithm access and revised publication assessment.}
+The primary abstract of \cite{perera} describes arbitrary odd-length DFT
+computation using matrix spectra and an FFT-like algorithm; \cite{pq2}
+describes fixed partial sums at length $pq^2$ with decimation, coset and SDS
+techniques. Neither full algorithm was retrieved. Publisher HTML/PDF,
+author/institutional records, targeted repository/preprint/code searches,
+and public Crossref/OpenAlex location discovery were checked lawfully.
+The institutional record for \cite{perera} links only the DOI; metadata
+lists only publisher locations for both papers. The advertised publisher
+API returns only core metadata in its default view and HTTP 401 for FULL
+view. The $pq^2$ paper is marked CC BY 4.0, but its algorithm body remains
+inaccessible in this session. Failed discovery does not prove no copy exists.
+\path{literature_access.json} records the limits; no missing procedure is
+assumed absent and no paywall workaround or author messaging is used.
+
+\begin{longtable}{p{.18\linewidth}p{.33\linewidth}p{.38\linewidth}}
+\toprule
+Dimension & This audited implementation & Limits of primary comparison\\\midrule
+\endhead
+Domain & Fixed prescribed branch at $L=27,45,63$. & Fast spectral abstract:
+odd lengths; $pq^2$ abstract: fixed partial sums. Exact domains unaudited.\\
+Symmetry & Ordered rows; intermediate translations and free phase anchors. &
+Fast spectral quotient unknown; $pq^2$ mentions decimation/cosets, exact
+quotient and multiplicities unknown.\\
+Pruning & Necessary PSD ceiling, rational partial rectangles, strict rejection. &
+Fast spectral matrix/DFT framework known from abstract; detailed search
+tests in both algorithms unknown.\\
+Matching & Exact projected PAF keys, complete buckets, full collision checks. &
+Both full matching algorithms inaccessible.\\
+Lifting & Bijective ternary columns with every cross term and carry. &
+Both full lifting procedures inaccessible; compression is established.\\
+Numerical safety & Certified integer coefficients and final integer PAFs. &
+Error bounds, tolerances and acceptance checks of both algorithms unaudited.\\
+\bottomrule
+\end{longtable}
+
+The strongest defensible contribution remains a restricted census and
+reproducibility artifact: the complete 1,164-class $p=5$ census, four
+conditional empty $p=7$ classes and one complete positive fixed branch,
+with explicit multiplicities, proved specializations and controlled filter
+ablation. Compression, PSD exclusion, matching and published LP(63)
+existence are established; their reproduction here is not a new existence
+result. Priority of the rational prefix rectangle and conditional census
+artifact remains unresolved. A competitive methods or first-method paper
+is not supported. Before submission, obtain full primary algorithms and
+code, compare the historical complete length-45 lists, secure external
+replication and an archival release, confirm authorship and verify PDF
+compilation/layout. Broader predetermined $p=7$ sampling may be needed
+depending on the chosen scope. Evidence gaps take priority over further
+optimization; no extrapolation to $p=37$ or proximity to order 668 follows.
+
+\paragraph{Reproduction.}
+Use the frozen executable hashes; the current harness allows a fresh output
+directory inside the repository. Python 3.12.14 was used in this milestone.
+\begin{verbatim}
+# PowerShell: set to the bundled or an equivalent Python executable.
+$positivePython = 'python'
+$env:HADAMARD_POSITIVE_OUT = 'tmp/p7_positive_replication'
+& $positivePython -m scripts.p7_positive_control setup
+& $positivePython -m scripts.p7_positive_control pilot
+& $positivePython -m scripts.p7_positive_control join-pilot
+& $positivePython -m scripts.p7_positive_control trial 0
+& $positivePython -m scripts.p7_positive_control trial 1
+& $positivePython -m scripts.p7_positive_control trial 2
+& $positivePython -m scripts.p7_positive_control independent-pilot
+& $positivePython -m scripts.p7_positive_control independent
+& $positivePython -m scripts.p7_positive_control audit
+Remove-Item Env:HADAMARD_POSITIVE_OUT
+\end{verbatim}
+The initial and timing protocol snapshots preserve the actual source hashes
+used before later audit refinements. Fresh runs use the current script;
+their caps remain unresolved if exhaustion fails. See
+\path{research/p7_positive_control.md} for exact runtime/build paths and the
+lawful metadata probe command. The positive-control manifest pins all
+inputs, complete sets, pilot limits, timing phases and literature receipts.
+
+% P7_POSITIVE_RESULTS_END
+
 \section{Reproduction and outstanding work}
 Commands below are issued from the repository root using the recorded
 Python environment. This standalone source targets the native LaTeX editor;
 no external bibliography or data input is needed. Native compilation is
-currently unverified: the compiler environment reports ``Unable to find
-standard directories for platform'' before producing source diagnostics.
+currently unverified: the latest Windows compiler environment reports
+``setup refresh had errors'' before producing source diagnostics; earlier
+attempts reported missing standard platform directories.
 The source is preserved; no rendered-PDF or layout verification is claimed.
 \begin{verbatim}
 .venv/Scripts/python.exe -m scripts.classify_p5_lifts --pilot --workers 4
@@ -1157,8 +1352,33 @@ and supporting records; it is regenerated only after the paper is updated.
 {\footnotesize\texttt{f8431354917f8b7d377978b8b7e3d3a8016547ad94f783489b76e0bf05a2a63f}}
 \item[\normalfont\footnotesize\path{results/p7_portfolio/manifest.json}] \hfill\break
 {\footnotesize\texttt{40fe52a4f632660d5e786ffb23cc50b0cdff464e0aecf0b2b8cd29fa5724e8a7}}
+\item[\normalfont\footnotesize\path{results/p7_positive_control/baseline.json}] \hfill\break
+{\footnotesize\texttt{d681fe88d3c08b5d5b8176900978d72a9fe08d54f8709324a113debd87c77b7f}}
+\item[\normalfont\footnotesize\path{results/p7_positive_control/witness.json}] \hfill\break
+{\footnotesize\texttt{f2b7a2479c0c25c715ad25541bb99a1ba92f0f80362965cc31928d5d12362cfc}}
+\item[\normalfont\footnotesize\path{results/p7_positive_control/pilot.json}] \hfill\break
+{\footnotesize\texttt{22704789ab6abb18f0963d72a3c3ec021a7b149569a310bb06fa5abc8f528f24}}
+\item[\normalfont\footnotesize\path{results/p7_positive_control/join_pilot.json}] \hfill\break
+{\footnotesize\texttt{3037c96be60cf08d887275831ec2e5ed2debc0f827bfc4bb80310efd89a4a2a2}}
+\item[\normalfont\footnotesize\path{results/p7_positive_control/independent_pilot.json}] \hfill\break
+{\footnotesize\texttt{a64054bb6f5768d5b5f4e373ba005d4d0c8e4455895f3a67f9d10ba10d32bc51}}
+\item[\normalfont\footnotesize\path{results/p7_positive_control/independent/full.json}] \hfill\break
+{\footnotesize\texttt{1ff504f0a5ec93acc739310c6e0cdb0c524c9b333d1ad1090516823fdb87ee03}}
+\item[\normalfont\footnotesize\path{results/p7_positive_control/summary.json}] \hfill\break
+{\footnotesize\texttt{a4d8b65d26f0f1475790576f1023a9b2a52f38f265365ff5709e6d31657813b8}}
+\item[\normalfont\footnotesize\path{results/p7_positive_control/solutions.json}] \hfill\break
+{\footnotesize\texttt{e1909aafacf15059be8c6fb17fb3e4e5c681e49401fe9d40969ef3589b4fe7e6}}
+\item[\normalfont\footnotesize\path{results/p7_positive_control/literature_access.json}] \hfill\break
+{\footnotesize\texttt{ba104e59fe8a44493183bf47a40fcf5711f30363275272d14dca2cedd644ec6d}}
+\item[\normalfont\footnotesize\path{results/p7_positive_control/publication_assessment.json}] \hfill\break
+{\footnotesize\texttt{21846c469d19543b1dbb38f3809e77d46a2ea582598efcf1ff15fb2143fb5c71}}
+\item[\normalfont\footnotesize\path{results/p7_positive_control/audit.json}] \hfill\break
+{\footnotesize\texttt{aa5d645b056f6b0368a23fd3ed929acc4887565eab29e0a5af9d3ba74fcfed8e}}
+\item[\normalfont\footnotesize\path{results/p7_positive_control/manifest.json}] \hfill\break
+{\footnotesize\texttt{401fc0a74866f7f0aa9cac01e18a7d1072ccbb110c553188ae5b5b93d6b184fd}}
 \end{description}
 % ARTIFACT_HASHES_END
+
 
 \paragraph{Open evidence and novelty questions.}
 Before a submission, complete the full-text comparison with the later
@@ -1168,7 +1388,8 @@ independent external replication. No formal exhaustion certificate is
 provided for enumeration. The current hardware sample and deterministic
 solver settings are too narrow for broad performance claims. The saved $p=7$
 branch and three further portfolio classes are computationally verified
-empty, while other intermediate branches
+empty, and the published positive control has a complete conditional lift
+list, while other intermediate branches
 remain unclassified. A successful general
 cross-term-aware decomposition with demonstrated scaling and any applicability
 at $p=37$ remain open.

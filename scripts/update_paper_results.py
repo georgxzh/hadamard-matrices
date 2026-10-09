@@ -26,6 +26,11 @@ def main():
     portfolio_audit=json.loads((ROOT/'results/p7_portfolio/audit.json').read_text())
     assert portfolio_audit['status']=='passed'
     assert portfolio_audit['manifest_sha256']==digest(ROOT/'results/p7_portfolio/manifest.json')
+    positive_audit=json.loads((ROOT/'results/p7_positive_control/audit.json').read_text())
+    assert positive_audit['summary']['complete']
+    assert positive_audit['manifest_sha256']==digest(ROOT/'results/p7_positive_control/manifest.json')
+    for entry in json.loads((ROOT/'results/p7_positive_control/manifest.json').read_text())['files']:
+        assert digest(ROOT/entry['path'])==entry['sha256'],entry['path']
     assert census['complete'] and audit['status']==control_audit['status']=='passed'
     assert audit['classification_sha256']==digest(ROOT/'results/p5_classification/classification.json')
     assert control_audit['metadata_sha256']==digest(ROOT/'results/phase_controls/metadata.json')
@@ -119,6 +124,12 @@ with a 39.04 MB Python-process peak and 206.90 MB of proof logs.
                   'results/p7_portfolio/summary.json','results/p7_portfolio/independent.json',
                   'results/p7_portfolio/publication_assessment.json',
                   'results/p7_portfolio/audit.json','results/p7_portfolio/manifest.json']
+    artifacts += ['results/p7_positive_control/baseline.json','results/p7_positive_control/witness.json',
+                  'results/p7_positive_control/pilot.json','results/p7_positive_control/join_pilot.json',
+                  'results/p7_positive_control/independent_pilot.json','results/p7_positive_control/independent/full.json',
+                  'results/p7_positive_control/summary.json','results/p7_positive_control/solutions.json',
+                  'results/p7_positive_control/literature_access.json','results/p7_positive_control/publication_assessment.json',
+                  'results/p7_positive_control/audit.json','results/p7_positive_control/manifest.json']
     hashes=r'''The following SHA-256 values pin the principal evidence. The census
 manifest also pins every branch record and symmetry map. The supplementary
 \path{paper/artifact_manifest.json} pins the manuscript, scripts, tests,
@@ -132,11 +143,18 @@ and supporting records; it is regenerated only after the paper is updated.
     paper=ROOT/'paper/manuscript.tex'; text=paper.read_text()
     from scripts.render_spectral_results import render
     from scripts.render_p7_portfolio import render as render_portfolio
+    from scripts.render_p7_positive import render as render_positive
     for name,replacement in [('CONTROL_RESULTS',section),('SPECTRAL_RESULTS',render()),
-                             ('P7_PORTFOLIO_RESULTS',render_portfolio()),('ARTIFACT_HASHES',hashes)]:
+                             ('P7_PORTFOLIO_RESULTS',render_portfolio()),
+                             ('P7_POSITIVE_RESULTS',render_positive()),('ARTIFACT_HASHES',hashes)]:
         pattern=f'% {name}_BEGIN\n.*?% {name}_END'
         text,count=re.subn(pattern,lambda _:f'% {name}_BEGIN\n{replacement}\n% {name}_END',text,flags=re.S)
         assert count==1
+    positive_block=re.search(r'% P7_POSITIVE_RESULTS_BEGIN\n.*?% P7_POSITIVE_RESULTS_END',text,re.S).group(0)
+    text=text.replace(positive_block+'\n','')
+    heading=r'\section{Reproduction and outstanding work}'
+    assert text.count(heading)==1
+    text=text.replace(heading,positive_block+'\n\n'+heading)
     paper.write_text(text,encoding='utf-8',newline='\n')
     paths=[paper,Path(__file__),ROOT/'tests/test_p5_classification.py',
            ROOT/'scripts/audit_p5_classification.py',ROOT/'scripts/audit_ternary_phase.py',
@@ -154,6 +172,8 @@ and supporting records; it is regenerated only after the paper is updated.
     paths.extend(ROOT/p for p in ('scripts/p7_study.py','scripts/p7_join_pilot.py','scripts/build_p7_study.py',
              'scripts/render_p7_portfolio.py','scripts/check_p7_invariants.py',
              'tests/test_p7_study.py','research/p7_portfolio.md'))
+    paths.extend(ROOT/p for p in ('scripts/p7_positive_control.py','scripts/probe_p7_literature.py',
+             'scripts/render_p7_positive.py','research/p7_positive_control.md'))
     paths.extend(ROOT/p for p in artifacts)
     save(ROOT/'paper/artifact_manifest.json',{'algorithm':'sha256','files':[
         {'path':p.relative_to(ROOT).as_posix(),'bytes':p.stat().st_size,'sha256':digest(p)} for p in sorted(set(paths))]})

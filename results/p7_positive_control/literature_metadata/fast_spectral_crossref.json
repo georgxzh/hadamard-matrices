@@ -1,0 +1,789 @@
+{
+  "message": {
+    "DOI": "10.1016/j.laa.2025.01.010",
+    "ISSN": [
+      "0024-3795"
+    ],
+    "URL": "https://doi.org/10.1016/j.laa.2025.01.010",
+    "alternative-id": [
+      "S0024379525000102"
+    ],
+    "assertion": [
+      {
+        "label": "This article is maintained by",
+        "name": "publisher",
+        "value": "Elsevier"
+      },
+      {
+        "label": "Article Title",
+        "name": "articletitle",
+        "value": "A low-complexity algorithm to search for Legendre pairs"
+      },
+      {
+        "label": "Journal Title",
+        "name": "journaltitle",
+        "value": "Linear Algebra and its Applications"
+      },
+      {
+        "label": "CrossRef DOI link to publisher maintained version",
+        "name": "articlelink",
+        "value": "https://doi.org/10.1016/j.laa.2025.01.010"
+      },
+      {
+        "label": "Content Type",
+        "name": "content_type",
+        "value": "article"
+      },
+      {
+        "label": "Copyright",
+        "name": "copyright",
+        "value": "\u00a9 2025 Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies."
+      }
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-3975-3742",
+        "affiliation": [],
+        "authenticated-orcid": false,
+        "family": "Perera",
+        "given": "Sirani M.",
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ],
+        "sequence": "first"
+      },
+      {
+        "affiliation": [],
+        "family": "Kotsireas",
+        "given": "Ilias S.",
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ],
+        "sequence": "additional"
+      }
+    ],
+    "container-title": [
+      "Linear Algebra and its Applications"
+    ],
+    "content-domain": {
+      "crossmark-restriction": true,
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          13
+        ]
+      ],
+      "date-time": "2025-01-13T16:29:39Z",
+      "timestamp": 1736785779000
+    },
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          16
+        ]
+      ],
+      "date-time": "2025-06-16T21:50:28Z",
+      "timestamp": 1750110628000
+    },
+    "funder": [
+      {
+        "DOI": "10.13039/100000001",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "asserted-by": "publisher",
+            "id": "10.13039/100000001",
+            "id-type": "DOI"
+          }
+        ],
+        "name": "National Science Foundation"
+      },
+      {
+        "DOI": "10.13039/100000148",
+        "award": [
+          "2229473"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2229473"
+            ]
+          }
+        ],
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "asserted-by": "publisher",
+            "id": "10.13039/100000148",
+            "id-type": "DOI"
+          }
+        ],
+        "name": "National Science Foundation Division of Electrical Communications and Cyber Systems"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          5
+        ]
+      ],
+      "date-time": "2026-09-05T03:55:02Z",
+      "timestamp": 1788580502536,
+      "version": "build-2803163510"
+    },
+    "is-referenced-by-count": 2,
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "0024-3795"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          9
+        ]
+      ]
+    },
+    "language": "en",
+    "license": [
+      {
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2025-09-01T00:00:00Z",
+          "timestamp": 1756684800000
+        }
+      },
+      {
+        "URL": "https://www.elsevier.com/legal/tdmrep-license",
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2025-09-01T00:00:00Z",
+          "timestamp": 1756684800000
+        }
+      },
+      {
+        "URL": "http://www.elsevier.com/open-access/userlicense/1.0/",
+        "content-version": "am",
+        "delay-in-days": 635,
+        "start": {
+          "date-parts": [
+            [
+              2027,
+              5,
+              29
+            ]
+          ],
+          "date-time": "2027-05-29T00:00:00Z",
+          "timestamp": 1811548800000
+        }
+      },
+      {
+        "URL": "https://doi.org/10.15223/policy-017",
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2025-09-01T00:00:00Z",
+          "timestamp": 1756684800000
+        }
+      },
+      {
+        "URL": "https://doi.org/10.15223/policy-037",
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2025-09-01T00:00:00Z",
+          "timestamp": 1756684800000
+        }
+      },
+      {
+        "URL": "https://doi.org/10.15223/policy-012",
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2025-09-01T00:00:00Z",
+          "timestamp": 1756684800000
+        }
+      },
+      {
+        "URL": "https://doi.org/10.15223/policy-029",
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2025-09-01T00:00:00Z",
+          "timestamp": 1756684800000
+        }
+      },
+      {
+        "URL": "https://doi.org/10.15223/policy-004",
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2025-09-01T00:00:00Z",
+          "timestamp": 1756684800000
+        }
+      }
+    ],
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0024379525000102?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0024379525000102?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "member": "78",
+    "original-title": [],
+    "page": "149-171",
+    "prefix": "10.1016",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          9
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          9
+        ]
+      ]
+    },
+    "publisher": "Elsevier BV",
+    "reference": [
+      {
+        "article-title": "Combinatorial Theory",
+        "author": "Hall",
+        "key": "10.1016/j.laa.2025.01.010_br0010",
+        "year": "1998"
+      },
+      {
+        "author": "Stinson",
+        "key": "10.1016/j.laa.2025.01.010_br0020",
+        "series-title": "Combinatorial Designs - Constructions and Analysis",
+        "year": "2004"
+      },
+      {
+        "article-title": "Structured Hadamard conjecture",
+        "author": "Kotsireas",
+        "first-page": "215",
+        "key": "10.1016/j.laa.2025.01.010_br0030",
+        "series-title": "Number Theory and Related Fields",
+        "year": "2013"
+      },
+      {
+        "article-title": "Application of the discrete Fourier transform to the search for generalised Legendre pairs and Hadamard matrices",
+        "author": "Fletcher",
+        "first-page": "75",
+        "journal-title": "Australas. J. Comb.",
+        "key": "10.1016/j.laa.2025.01.010_br0040",
+        "volume": "23",
+        "year": "2001"
+      },
+      {
+        "article-title": "Legendre pairs of lengths \u2113\u22610(mod5)",
+        "author": "Kotsireas",
+        "journal-title": "Spec. Matrices",
+        "key": "10.1016/j.laa.2025.01.010_br0050",
+        "volume": "11",
+        "year": "2023"
+      },
+      {
+        "DOI": "10.1007/s10623-013-9862-z",
+        "article-title": "Compression of periodic complementary sequences and applications",
+        "author": "Djokovic",
+        "doi-asserted-by": "crossref",
+        "first-page": "365",
+        "issue": "2",
+        "journal-title": "Des. Codes Cryptogr.",
+        "key": "10.1016/j.laa.2025.01.010_br0060",
+        "volume": "74",
+        "year": "2015"
+      },
+      {
+        "article-title": "Structured Matrices in Mathematics, Computer Science, and Engineering",
+        "author": "Olshevsky",
+        "key": "10.1016/j.laa.2025.01.010_br0070",
+        "volume": "vol. 280\u2013281",
+        "year": "2001"
+      },
+      {
+        "article-title": "Fast Algorithms for Structured Matrices: Theory and Applications",
+        "author": "Olshevsky",
+        "key": "10.1016/j.laa.2025.01.010_br0080",
+        "volume": "vol. 323",
+        "year": "2003"
+      },
+      {
+        "author": "Kailath",
+        "key": "10.1016/j.laa.2025.01.010_br0090",
+        "series-title": "Fast Reliable Algorithms for Matrices with Structure",
+        "year": "1999"
+      },
+      {
+        "key": "10.1016/j.laa.2025.01.010_br0100",
+        "series-title": "Exploiting Hidden Structure in Matrix Computations: Algorithms and Applications",
+        "year": "2016"
+      },
+      {
+        "DOI": "10.1007/978-3-030-04088-8",
+        "article-title": "Structured Matrices in Numerical Linear Algebra: Analysis, Algorithms, and Applications",
+        "author": "Bini",
+        "doi-asserted-by": "crossref",
+        "key": "10.1016/j.laa.2025.01.010_br0110",
+        "year": "2019"
+      },
+      {
+        "article-title": "Communications, computation, control and signal processing",
+        "author": "Paulraj",
+        "key": "10.1016/j.laa.2025.01.010_br0120",
+        "series-title": "A Tribute to Thomas Kailath",
+        "year": "1997"
+      },
+      {
+        "DOI": "10.1109/ACCESS.2020.2970342",
+        "article-title": "Radix-2 self-recursive algorithms for Vandermonde-type matrices and true-time-delay multi-beam antenna arrays",
+        "author": "Perera",
+        "doi-asserted-by": "crossref",
+        "first-page": "25498",
+        "journal-title": "IEEE Access",
+        "key": "10.1016/j.laa.2025.01.010_br0130",
+        "volume": "8",
+        "year": "2020"
+      },
+      {
+        "DOI": "10.1109/TSP.2022.3231182",
+        "article-title": "Fast dvm algorithm for wideband time-delay multi-beam beamformers",
+        "author": "Perera",
+        "doi-asserted-by": "crossref",
+        "first-page": "5913",
+        "journal-title": "IEEE Trans. Signal Process.",
+        "key": "10.1016/j.laa.2025.01.010_br0140",
+        "volume": "70",
+        "year": "2022"
+      },
+      {
+        "article-title": "A low-complexity algorithm to digitally uncouple the mutual coupling effect in antenna arrays",
+        "author": "Perera",
+        "journal-title": "J. Comput. Appl. Math.",
+        "key": "10.1016/j.laa.2025.01.010_br0150",
+        "year": "2023"
+      },
+      {
+        "DOI": "10.1109/ACCESS.2021.3120051",
+        "article-title": "Sparse matrix-based low-complexity, recursive, radix-2 algorithms for discrete sine transforms",
+        "author": "Perera",
+        "doi-asserted-by": "crossref",
+        "first-page": "141181",
+        "journal-title": "IEEE Access",
+        "key": "10.1016/j.laa.2025.01.010_br0160",
+        "volume": "9",
+        "year": "2021"
+      },
+      {
+        "DOI": "10.1137/17M1114557",
+        "article-title": "Lowest complexity self recursive radix-2 dct ii/iii algorithms",
+        "author": "Perera",
+        "doi-asserted-by": "crossref",
+        "first-page": "664",
+        "issue": "2",
+        "journal-title": "SIAM J. Matrix Anal. Appl.",
+        "key": "10.1016/j.laa.2025.01.010_br0170",
+        "volume": "39",
+        "year": "2018"
+      },
+      {
+        "article-title": "Efficient split-radix and radix-4 dct algorithms and applications",
+        "author": "Perera",
+        "first-page": "184",
+        "key": "10.1016/j.laa.2025.01.010_br0180",
+        "series-title": "Proc. The Analysis of Experimental Algorithms",
+        "volume": "vol. 11544",
+        "year": "2019"
+      },
+      {
+        "article-title": "Complexity reduction, self/completely recursive, radix-2 dct i/iv algorithms",
+        "author": "Perera",
+        "first-page": "1",
+        "issue": "112936",
+        "journal-title": "J. Comput. Appl. Math.",
+        "key": "10.1016/j.laa.2025.01.010_br0190",
+        "volume": "379",
+        "year": "2020"
+      },
+      {
+        "DOI": "10.1109/TSP.2021.3099623",
+        "article-title": "Low-complexity scaling methods for dct-ii approximation",
+        "author": "Coelho",
+        "doi-asserted-by": "crossref",
+        "first-page": "4557",
+        "journal-title": "IEEE Trans. Signal Process.",
+        "key": "10.1016/j.laa.2025.01.010_br0200",
+        "volume": "69",
+        "year": "2021"
+      },
+      {
+        "DOI": "10.1016/j.laa.2017.05.050",
+        "article-title": "Signal flow graph approach to efficient and forward stable dst algorithms",
+        "author": "Perera",
+        "doi-asserted-by": "crossref",
+        "first-page": "360",
+        "journal-title": "Linear Algebra Appl.",
+        "key": "10.1016/j.laa.2025.01.010_br0210",
+        "volume": "542",
+        "year": "2018"
+      },
+      {
+        "author": "Higham",
+        "key": "10.1016/j.laa.2025.01.010_br0220",
+        "series-title": "Accuracy and Stability of Numerical Algorithms",
+        "year": "1996"
+      },
+      {
+        "DOI": "10.1007/s00211-007-0114-x",
+        "article-title": "Fast linear algebra is stable",
+        "author": "Demmel",
+        "doi-asserted-by": "crossref",
+        "first-page": "59",
+        "journal-title": "Numer. Math.",
+        "key": "10.1016/j.laa.2025.01.010_br0230",
+        "volume": "108",
+        "year": "2007"
+      },
+      {
+        "author": "Borodin",
+        "key": "10.1016/j.laa.2025.01.010_br0240",
+        "series-title": "The Computational Complexity of Algebraic and Numeric Problems",
+        "year": "1975"
+      },
+      {
+        "author": "B\u00fcrgisser",
+        "key": "10.1016/j.laa.2025.01.010_br0250",
+        "series-title": "Algebraic Complexity Theory",
+        "year": "1997"
+      },
+      {
+        "DOI": "10.1137/1020096",
+        "article-title": "A survey of parallel algorithms in numerical linear algebra",
+        "author": "Heller",
+        "doi-asserted-by": "crossref",
+        "first-page": "740",
+        "journal-title": "SIAM Rev.",
+        "key": "10.1016/j.laa.2025.01.010_br0260",
+        "volume": "20",
+        "year": "1978"
+      },
+      {
+        "DOI": "10.1090/S0025-5718-1965-0178586-1",
+        "article-title": "An algorithm for the machine calculation of complex Fourier series",
+        "author": "Cooley",
+        "doi-asserted-by": "crossref",
+        "first-page": "297",
+        "journal-title": "Math. Comput.",
+        "key": "10.1016/j.laa.2025.01.010_br0270",
+        "volume": "19",
+        "year": "1965"
+      },
+      {
+        "article-title": "An economical method for calculating the discrete Fourier transform",
+        "author": "Yavne",
+        "first-page": "115",
+        "key": "10.1016/j.laa.2025.01.010_br0280",
+        "series-title": "Proc. AFIPS Fall Joint Computer Conf.",
+        "volume": "vol. 33",
+        "year": "1968"
+      },
+      {
+        "DOI": "10.1109/TSP.2006.882087",
+        "article-title": "A modified split-radix fft with fewer arithmetic operations",
+        "author": "Johnson",
+        "doi-asserted-by": "crossref",
+        "first-page": "111",
+        "issue": "1",
+        "journal-title": "IEEE Trans.",
+        "key": "10.1016/j.laa.2025.01.010_br0290",
+        "volume": "55",
+        "year": "2007"
+      },
+      {
+        "author": "Golub",
+        "key": "10.1016/j.laa.2025.01.010_br0300",
+        "series-title": "Matrix Computations",
+        "year": "2013"
+      },
+      {
+        "article-title": "Circulant Matrices",
+        "author": "David",
+        "key": "10.1016/j.laa.2025.01.010_br0310",
+        "volume": "vol. 1",
+        "year": "1979"
+      },
+      {
+        "DOI": "10.1016/0024-3795(94)90189-9",
+        "article-title": "Complexity of multiplication with vectors for structured matrices",
+        "author": "Gohberg",
+        "doi-asserted-by": "crossref",
+        "first-page": "163",
+        "journal-title": "Linear Algebra Appl.",
+        "key": "10.1016/j.laa.2025.01.010_br0320",
+        "volume": "202",
+        "year": "1994"
+      },
+      {
+        "article-title": "Fast algorithms with preprocessing for matrix-vector multiplication problems",
+        "author": "Gohberg",
+        "first-page": "411",
+        "issue": "4",
+        "journal-title": "J. Complex. Linear Algebra Appl.",
+        "key": "10.1016/j.laa.2025.01.010_br0330",
+        "volume": "10",
+        "year": "1994"
+      },
+      {
+        "DOI": "10.1002/jcd.21806",
+        "article-title": "Legendre pairs of lengths \u2113\u22610(mod3)",
+        "author": "Kotsireas",
+        "doi-asserted-by": "crossref",
+        "first-page": "870",
+        "issue": "12",
+        "journal-title": "J. Comb. Des.",
+        "key": "10.1016/j.laa.2025.01.010_br0340",
+        "volume": "29",
+        "year": "2021"
+      },
+      {
+        "DOI": "10.1016/j.tcs.2008.06.002",
+        "article-title": "Heuristic algorithms for Hadamard matrices with two circulant cores",
+        "author": "Chiarandini",
+        "doi-asserted-by": "crossref",
+        "first-page": "274",
+        "issue": "1\u20133",
+        "journal-title": "Theor. Comput. Sci.",
+        "key": "10.1016/j.laa.2025.01.010_br0350",
+        "volume": "407",
+        "year": "2008"
+      },
+      {
+        "author": "Davis",
+        "key": "10.1016/j.laa.2025.01.010_br0360",
+        "series-title": "Circulant Matrices",
+        "year": "1970"
+      },
+      {
+        "article-title": "Matrix structures in queuing models",
+        "author": "Bini",
+        "first-page": "65",
+        "key": "10.1016/j.laa.2025.01.010_br0370",
+        "series-title": "Exploiting Hidden Structure in Matrix Computations: Algorithms and Applications",
+        "volume": "vol. 2173",
+        "year": "2016"
+      },
+      {
+        "article-title": "\u00dcber die Abgrenzung der Eigenwerte einer Matrix",
+        "author": "Gerschgorin",
+        "first-page": "749",
+        "journal-title": "Bull. Acad. Sci. URSS, Cl. Sci. Math.",
+        "key": "10.1016/j.laa.2025.01.010_br0380",
+        "volume": "6",
+        "year": "1931"
+      },
+      {
+        "author": "Varga",
+        "key": "10.1016/j.laa.2025.01.010_br0390",
+        "series-title": "Gersgorin and His Circles",
+        "year": "2004"
+      },
+      {
+        "article-title": "Wavelets",
+        "author": "Strang",
+        "first-page": "250",
+        "issue": "3",
+        "journal-title": "Am. Sci.",
+        "key": "10.1016/j.laa.2025.01.010_br0400",
+        "volume": "82",
+        "year": "1994"
+      },
+      {
+        "author": "Loan",
+        "key": "10.1016/j.laa.2025.01.010_br0410",
+        "series-title": "Computational Frameworks for the Fast Fourier Transform",
+        "year": "1992"
+      },
+      {
+        "DOI": "10.1109/MCISE.2000.814652",
+        "article-title": "Guest editors introduction to the top 10 algorithms",
+        "author": "Dongarra",
+        "doi-asserted-by": "crossref",
+        "first-page": "22",
+        "issue": "1",
+        "journal-title": "Comput. Sci. Eng.",
+        "key": "10.1016/j.laa.2025.01.010_br0420",
+        "volume": "2",
+        "year": "2000"
+      },
+      {
+        "author": "Burrus",
+        "key": "10.1016/j.laa.2025.01.010_br0430",
+        "series-title": "Fast Fourier Transforms",
+        "year": "2018"
+      },
+      {
+        "author": "Burrus",
+        "key": "10.1016/j.laa.2025.01.010_br0440",
+        "series-title": "Fast Fourier Transforms",
+        "year": "2012"
+      },
+      {
+        "DOI": "10.1109/PROC.1968.6477",
+        "article-title": "Discrete Fourier transforms when the number of data samples is prime",
+        "author": "Rader",
+        "doi-asserted-by": "crossref",
+        "first-page": "1107",
+        "journal-title": "Proc. IEEE",
+        "key": "10.1016/j.laa.2025.01.010_br0450",
+        "volume": "56",
+        "year": "1968"
+      },
+      {
+        "DOI": "10.1109/JPROC.2004.840301",
+        "article-title": "The design and implementation of fftw3",
+        "author": "Frigo",
+        "doi-asserted-by": "crossref",
+        "first-page": "216",
+        "journal-title": "Proc. IEEE",
+        "key": "10.1016/j.laa.2025.01.010_br0460",
+        "volume": "93",
+        "year": "2005"
+      },
+      {
+        "DOI": "10.1109/TAU.1970.1162132",
+        "article-title": "A linear filtering approach to the computation of discrete Fourier transform",
+        "author": "Bluestein",
+        "doi-asserted-by": "crossref",
+        "first-page": "451",
+        "issue": "4",
+        "journal-title": "IEEE Trans. Audio Electroacoust.",
+        "key": "10.1016/j.laa.2025.01.010_br0470",
+        "volume": "18",
+        "year": "1970"
+      },
+      {
+        "DOI": "10.1073/pnas.73.4.1005",
+        "article-title": "On computing the discrete Fourier transform",
+        "author": "Winograd",
+        "doi-asserted-by": "crossref",
+        "first-page": "1005",
+        "issue": "4",
+        "journal-title": "Proc. Natl. Acad. Sci.",
+        "key": "10.1016/j.laa.2025.01.010_br0480",
+        "volume": "73",
+        "year": "1976"
+      }
+    ],
+    "reference-count": 48,
+    "references-count": 48,
+    "relation": {},
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0024379525000102"
+      }
+    },
+    "score": 1,
+    "short-container-title": [
+      "Linear Algebra and its Applications"
+    ],
+    "short-title": [],
+    "source": "Crossref",
+    "special_numbering": "C",
+    "subject": [],
+    "subtitle": [],
+    "title": [
+      "A low-complexity algorithm to search for Legendre pairs"
+    ],
+    "type": "journal-article",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "volume": "721"
+  },
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "status": "ok"
+}

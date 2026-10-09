@@ -1,0 +1,79 @@
+{
+  "records": [
+    {
+      "date": "2026-10-09",
+      "http_status": 200,
+      "label": "fast_spectral",
+      "locations": [
+        {
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1016/j.laa.2025.01.010",
+          "pdf_url": null
+        }
+      ],
+      "provider": "openalex",
+      "status": "metadata_retrieved",
+      "url": "https://api.openalex.org/works?filter=doi%3A10.1016%2Fj.laa.2025.01.010&select=id%2Ctitle%2Clocations%2Copen_access"
+    },
+    {
+      "date": "2026-10-09",
+      "http_status": 200,
+      "label": "fast_spectral",
+      "links": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0024379525000102?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0024379525000102?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "provider": "crossref",
+      "status": "metadata_retrieved",
+      "url": "https://api.crossref.org/works/10.1016%2Fj.laa.2025.01.010"
+    },
+    {
+      "date": "2026-10-09",
+      "http_status": 200,
+      "label": "pq_squared",
+      "locations": [
+        {
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1016/j.jsc.2026.102606",
+          "pdf_url": null
+        }
+      ],
+      "provider": "openalex",
+      "status": "metadata_retrieved",
+      "url": "https://api.openalex.org/works?filter=doi%3A10.1016%2Fj.jsc.2026.102606&select=id%2Ctitle%2Clocations%2Copen_access"
+    },
+    {
+      "date": "2026-10-09",
+      "http_status": 200,
+      "label": "pq_squared",
+      "links": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0747717126000544?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0747717126000544?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "provider": "crossref",
+      "status": "metadata_retrieved",
+      "url": "https://api.crossref.org/works/10.1016%2Fj.jsc.2026.102606"
+    }
+  ],
+  "scope": "Metadata only; no full-text audit inferred."
+}

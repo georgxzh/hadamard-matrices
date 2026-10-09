@@ -1,0 +1,13 @@
+{
+  "checked_entries": 5258,
+  "git_head": "69aa1ae2634a27f1468bf7279222b288a10a0471",
+  "independent_sha256": "00545a4f774e9be6be01daef2ba7618d49000d61807bbfa8e9c76507f7bc76d3",
+  "manifests": {
+    "paper/artifact_manifest.json": "d622a81f5c52bbf0e3fdb8517c09ab807e5307f378a84a6ec72e72db0ccc3012",
+    "results/p5_classification/manifest.json": "57b17a1f512da294eba7e285b38bb311978b8a4af6cb8b0e75239ae7d4a18b75",
+    "results/p7_portfolio/manifest.json": "40fe52a4f632660d5e786ffb23cc50b0cdff464e0aecf0b2b8cd29fa5724e8a7",
+    "results/phase_propagation/manifest.json": "de757e2b62e6da07aa9ff5777b46bc586192cab827a794ca25bb9f9d7d851a27",
+    "results/spectral_join/manifest.json": "39e56606c32b603d74e983471ebc4d98dea9d361b8ffaf570d7738e5c863d682"
+  },
+  "native_sha256": "3bc0a21d0e69ede1ea4d9eaa7966b2cef6ac3c220335642c892c3d1a4163c328"
+}

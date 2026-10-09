@@ -1,11 +1,17 @@
 {
-  "diagnostic": "Unable to find standard directories for platform",
+  "diagnostic": "exec failed: windows sandbox: helper_unknown_error: setup refresh had errors",
   "native_compile_attempts": 1,
   "prior_editor_open_request": "queued",
   "editor_action": "Existing source edited in place; no tab opened or closed by this milestone",
   "pdf_compilation_verified": false,
-  "prior_source_native_compile_attempts": 8,
-  "source_sha256": "1ac54eb73fd446730e1b40fdb849265dee9f4008cd35a84d493fdfd84aadc1ee",
+  "prior_source_native_compile_attempts": 11,
+  "milestone_native_compile_attempts": 3,
+  "milestone_attempted_source_hashes": [
+    "61cf35ab1be45a473e1b4106bf15cf2457a135a02f275c6acf076503b6dece7e",
+    "2fd52caf105b3947925664b54960f7662d753cf0fb7ef5cc31cbc9ac5d29a35a",
+    "da8f2673fcd9360df64eb71c6f2ea995fb80a52e21b78ce82c74a0d8c6aaa93c"
+  ],
+  "source_sha256": "da8f2673fcd9360df64eb71c6f2ea995fb80a52e21b78ce82c74a0d8c6aaa93c",
   "static_source_checks": "balanced braces/environments; all citations and references resolve",
   "status": "compiler_environment_unavailable",
   "visual_layout_verified": false
