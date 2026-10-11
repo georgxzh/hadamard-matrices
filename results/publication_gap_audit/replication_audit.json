@@ -1,0 +1,9 @@
+{
+  "direct_p5_branches": 1164,
+  "direct_p7_branches": 5,
+  "exact_mask_sets_equal": true,
+  "frozen_result_files_unchanged": 5513,
+  "pairs_checked_by_definition": 2979,
+  "scope": "Second local compiler/STL/runtime with existing independent full-PAF source, same host and frozen inputs; not external replication or a formal certificate.",
+  "status": "passed"
+}

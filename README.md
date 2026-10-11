@@ -42,8 +42,14 @@ enumerator confirms each class. The observed balanced-case median favors
 leaf-only filtering over prefix testing, with overlapping ranges. The
 selection, bounded pilots, timing phases and paper assessment are in
 [research/p7_portfolio.md](research/p7_portfolio.md). The evidence supports
-a restricted census/reproducibility draft; full literature comparisons,
-a positive p=7 control and external replication remain outstanding.
+a restricted census/reproducibility draft. The published positive p=7 control
+has since been exhausted: three anchor-fixed pairs / 27 ordered
+fixed-intermediate lifts. Full literature comparison, the historical-list
+crosswalk and external replication remain outstanding. The
+[publication-gap audit](research/publication_gap_audit.md) records the
+separate Clang/MSVC replication, conditional branch/class incidence, access
+limitations and revised paper scope. It does not establish novelty or
+submission readiness.
 
 The low-risk foundations, order-428 warm-up, and exact Legendre core are complete:
 

@@ -1,0 +1,83 @@
+{
+  "authorization": "Public read-only endpoints. No contacts, credentials, paywall bypass or full-text request sent.",
+  "records": [
+    {
+      "date": "2026-10-10",
+      "error": "HTTP Error 403: Forbidden",
+      "label": "fast_publisher",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0024379525000102"
+    },
+    {
+      "date": "2026-10-10",
+      "error": "HTTP Error 403: Forbidden",
+      "label": "fast_pdf",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0024379525000102/pdfft?isDTMRedir=true&download=true"
+    },
+    {
+      "date": "2026-10-10",
+      "error": "HTTP Error 403: Forbidden",
+      "label": "pq_publisher",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0747717126000544"
+    },
+    {
+      "date": "2026-10-10",
+      "error": "HTTP Error 403: Forbidden",
+      "label": "pq_pdf",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0747717126000544/pdfft?isDTMRedir=true&download=true"
+    },
+    {
+      "bytes": 11056,
+      "content_type": "application/json",
+      "date": "2026-10-10",
+      "http_status": 200,
+      "interpretation": "Metadata only, not algorithm text.",
+      "label": "fast_locations",
+      "locations": [
+        {
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1016/j.laa.2025.01.010",
+          "pdf_url": null
+        }
+      ],
+      "sha256": "f2e876c2070737234fcc3384563ef1a1f97cf38995f71f21d930de3911c986c7",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.laa.2025.01.010"
+    },
+    {
+      "bytes": 11036,
+      "content_type": "application/json",
+      "date": "2026-10-10",
+      "http_status": 200,
+      "interpretation": "Metadata only, not algorithm text.",
+      "label": "pq_locations",
+      "locations": [
+        {
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1016/j.jsc.2026.102606",
+          "pdf_url": null
+        }
+      ],
+      "sha256": "72f449455d1a27fcab98507beee6fed4a088ddc4854b5792864488e1962771e4",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.jsc.2026.102606"
+    },
+    {
+      "bytes": 869866,
+      "content_type": "application/pdf",
+      "date": "2026-10-10",
+      "http_status": 200,
+      "label": "historical_journal",
+      "local_untracked_copy": "tmp/publication_gap_audit/historical_journal.pdf",
+      "sha256": "4d0bc39f392a24dfb0bec3a0f17961eab4dfffe85956a1204016110d029c82b5",
+      "url": "https://ajc.maths.uq.edu.au/pdf/23/ocr-ajc-v23-p75.pdf"
+    },
+    {
+      "bytes": 181715,
+      "content_type": "application/pdf",
+      "date": "2026-10-10",
+      "http_status": 200,
+      "label": "historical_author",
+      "local_untracked_copy": "tmp/publication_gap_audit/historical_author.pdf",
+      "sha256": "17ddb1ac246f768320d3712de32a526531e74e62463cfe9655168e8705c19ac0",
+      "url": "https://documents.uow.edu.au/~jennie/WEBPDF/2001_02.pdf"
+    }
+  ]
+}

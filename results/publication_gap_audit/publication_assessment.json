@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-10",
+  "baseline_commit": "e76084054f594f2af89831cc377d88994ba7b4e6",
+  "candidate_contribution": "An auditable complete conditional lifting dataset over the 1,164 prescribed p=5 intermediate translation classes, including exact multiplicities and branch/class incidence, supplemented by five exhausted p=7 fibers and exact-arithmetic reproducibility software.",
+  "preferred_scope": "Narrow reproducibility/software paper under development",
+  "submission_ready": false,
+  "novelty_established": false,
+  "established": ["Compression and PAF/PSD identities", "Quadratic-character prescription and successive lifting", "Equivalence reduction and complementary-signature matching", "Published LP(45) classification and LP(63) existence"],
+  "reproduced": ["Frozen complete restricted p=5 census", "Four frozen empty p=7 classes", "Published positive p=7 class with 3 anchor-fixed / 27 ordered lifts"],
+  "new_artifact": "Conditional incidence: 460, 496, 160, 48 branches meet 0, 1, 2, 3 LP equivalence classes, respectively; 960 nonzero branch/class entries.",
+  "information_boundary": "Conditional fibers are not displayed by a global class count, but can in principle be derived from a complete historical list by exact orbit expansion and compression. Incremental publication priority is unresolved.",
+  "replication_boundary": "Fresh Clang/MSVC compiler/STL/runtime execution of the existing independent full-PAF auditor on the same local Windows host and catalogue. Not a third implementation or external replication. Completeness and exact-list agreement are recorded separately in replication_audit.json.",
+  "open_gates": [
+    "Read complete fast-spectral and pq-squared algorithms/code lawfully; domain, symmetry, pruning, multiplicity, lifting and numeric conventions remain unaudited for both.",
+    "Obtain and crosswalk the complete historical length-45 representative list; author/journal PDFs contain only counts and samples.",
+    "External independent replication and stable archival release.",
+    "Authorship, exposition and visual PDF layout review; built-in compilation succeeded on October 11, 2026.",
+    "No standalone formal exhaustion certificate; evaluate whether the intended venue requires one."
+  ],
+  "additional_experimentation": "Broader predetermined p=7 sampling only if statistical or scaling claims are pursued; more optimization does not resolve publication priority.",
+  "not_supported": ["First classification", "New LP length", "New general search principle", "Methods priority", "Literature performance superiority", "Submission readiness", "Proximity to order 668"],
+  "no_p37_search": true,
+  "no_author_contact": true
+}

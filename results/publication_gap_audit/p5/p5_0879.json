@@ -1,0 +1,83 @@
+{
+  "canonical_pairs": 3,
+  "command": [
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\publication_gap_audit\\full_paf_clang.exe",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\publication_gap_audit\\p5_0879.txt",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\publication_gap_audit\\p5\\p5_0879.json",
+    "150000000",
+    "240",
+    "full-key"
+  ],
+  "complete": true,
+  "elapsed_seconds": 0.3311384,
+  "enumerated": [
+    531441,
+    19683
+  ],
+  "exact_set_matches_frozen": true,
+  "executable_sha256": "1f486d3b716ac368ed4668a7d0c047d3e44c91e81d57d86269865320b8f1710c",
+  "expected": [
+    531441,
+    19683
+  ],
+  "id": "p5_0879",
+  "input_sha256": "4a05a7db450a73e95fc73d3644de005af5887aec3119fbd7c9b6fcbe03b9883a",
+  "ordered_pairs": 27,
+  "pair": [
+    [
+      -1,
+      -1,
+      -1,
+      -3,
+      1,
+      1,
+      3,
+      -1,
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      1
+    ],
+    [
+      -3,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      3,
+      -3,
+      3,
+      3,
+      -1
+    ]
+  ],
+  "peak_working_set_bytes": 4837376,
+  "row_seconds": [
+    0.3145526,
+    0.0141866
+  ],
+  "solutions": [
+    [
+      2800197547160,
+      20168186645125
+    ],
+    [
+      9495608480014,
+      3079024921477
+    ],
+    [
+      28481136474286,
+      20366291077609
+    ]
+  ],
+  "stop_reason": "exhausted",
+  "wrapper_seconds": 0.3588661000103457
+}

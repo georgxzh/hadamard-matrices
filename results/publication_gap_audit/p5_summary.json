@@ -1,0 +1,16 @@
+{
+  "attempted_cases": 1164,
+  "canonical_pairs": 2976,
+  "complete": true,
+  "completed_cases": 1164,
+  "count_interpretation": "Sum is a lower bound unless complete=true; caps/timeouts unresolved.",
+  "elapsed_seconds": 364.7846792000055,
+  "max_peak_working_set_bytes": 5951488,
+  "ordered_count_histogram": {
+    "0": 460,
+    "27": 464,
+    "54": 192,
+    "81": 48
+  },
+  "requested_cases": 1164
+}

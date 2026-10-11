@@ -1,0 +1,10 @@
+{
+  "build_source_harness_executable_hashes": "matched",
+  "compilation_status": "success; see latex_status.json",
+  "date": "2026-10-11",
+  "evidence_bytes": 2884921,
+  "evidence_files": 1192,
+  "evidence_storage_scope": "results/publication_gap_audit excluding final_checks.json and manifest.json to avoid self-reference",
+  "frozen_result_files_unchanged": 5513,
+  "visual_layout": "unverified"
+}

@@ -19,14 +19,28 @@ result blocks after rerunning the corresponding audits:
 .venv/Scripts/python.exe -m scripts.update_paper_results
 ```
 
-The source was requested in the native editor. Three native compilation
-attempts returned `Unable to find standard directories for platform`, an
-environment error before source diagnostics. Consequently **PDF compilation
-and visual layout are unverified**. No terminal TeX installation was added.
-The source and editor request were preserved. The final build-status record
-documents this limitation separately from successful computational audits.
+The source remains in the native editor. Earlier compilation attempts failed
+with missing platform directories or `setup refresh had errors`. The built-in
+desktop compiler succeeded on October 11, 2026. **Visual PDF layout remains
+unverified**. No terminal TeX installation was added. The current result and
+saved-source hash are in `../results/publication_gap_audit/latex_status.json`.
 
-Outstanding scholarly work: compare the later pq² and fast spectral
-algorithms in full, obtain/crosswalk earlier length-45 representatives under
-matching conventions, and seek independent external replication. The p=7
-saved branch is still unresolved. Authorship is intentionally left pending.
+The October 10 publication-gap audit is in
+`../research/publication_gap_audit.md`. Publisher/author/repository searches
+did not recover full fast-spectral/pq² algorithms or the historical complete
+length-45 list; priority and the historical crosswalk remain unresolved.
+The positive p=7 control is complete: three anchor-fixed pairs, 27 ordered
+fixed-intermediate lifts. All four negative p=7 classes are exhausted.
+
+New Clang/MSVC replication and the branch/class incidence artifact are kept
+separately under `../results/publication_gap_audit/`. This is local toolchain
+replication, not independent external replication. The strongest candidate
+is a conditional census and reproducibility/software contribution, with no
+claim of first classification, algorithmic priority, or submission readiness.
+Authorship, archival release, external replication and visual PDF layout review
+remain gates alongside the literature gaps.
+
+After a completed new replication, use
+`python -m scripts.render_publication_gap` to refresh its manuscript section
+and supplementary manifests. The older updater handles historical blocks;
+run the new renderer afterward if using it. Neither renderer compiles TeX.

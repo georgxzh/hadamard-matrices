@@ -1,0 +1,14 @@
+{
+  "attempted_cases": 5,
+  "canonical_pairs": 3,
+  "complete": true,
+  "completed_cases": 5,
+  "count_interpretation": "Sum is a lower bound unless complete=true; caps/timeouts unresolved.",
+  "elapsed_seconds": 322.9101751999988,
+  "max_peak_working_set_bytes": 388575232,
+  "ordered_count_histogram": {
+    "0": 4,
+    "27": 1
+  },
+  "requested_cases": 5
+}
