@@ -1,0 +1,60 @@
+{
+  "algorithm": "sha256",
+  "files": [
+    {
+      "bytes": 17504,
+      "path": "research/conditional_fiber_theorem.md",
+      "sha256": "a3a8d071d30f59b57cc0295733e57e98acaf90148b1569af95ea65c600938f59"
+    },
+    {
+      "bytes": 439053,
+      "path": "results/fiber_structure/audit.json",
+      "sha256": "8674632cf759b65bfc135faeee41daa45c0db8a921a96aa2f943bb883ffbc1f0"
+    },
+    {
+      "bytes": 415,
+      "path": "results/fiber_structure/baseline.json",
+      "sha256": "f52e032f7f9e0e12aafa194608d53ec66d1a3c337cd695a4c5edacff5dac5a9f"
+    },
+    {
+      "bytes": 1462,
+      "path": "results/fiber_structure/checks.json",
+      "sha256": "2e28e24052c51fbeef451e539315483cf935a976848115c111adee6e980899e6"
+    },
+    {
+      "bytes": 554,
+      "path": "results/fiber_structure/final_checks.json",
+      "sha256": "e9dadbbc32ba3ad58f6dfa2afdccacfebc507098b27dc718c57c7417f27a54f7"
+    },
+    {
+      "bytes": 662,
+      "path": "results/fiber_structure/latex_status.json",
+      "sha256": "c2f4d1b4f0cb1e6eb74ba46ebafe56172d1cd716f57813a38d601ab934380c86"
+    },
+    {
+      "bytes": 4644,
+      "path": "results/fiber_structure/literature.json",
+      "sha256": "cade2c230dc5d431f0c05631510071451b3c0a52d6ba8322128ccb764ea682ab"
+    },
+    {
+      "bytes": 1681,
+      "path": "results/fiber_structure/pilot.json",
+      "sha256": "038b6feab1b48b267d54cc58c69c8d6d9507e0caee148225f58e02d936168189"
+    },
+    {
+      "bytes": 9860,
+      "path": "scripts/audit_fiber_structure.py",
+      "sha256": "20a182a48c440f362733b28621bc272e6cd92d2f1b4110332068a2670a65abfc"
+    },
+    {
+      "bytes": 1917,
+      "path": "scripts/package_fiber_structure.py",
+      "sha256": "e9662b45daee3381516f2694a9dfc922ddaba3a1ef2fc57e77965397a2451818"
+    },
+    {
+      "bytes": 2036,
+      "path": "tests/test_fiber_structure.py",
+      "sha256": "ea49f224022186d95fcaabb0190757c82f9760b07f545d052dc06b7ec2663a34"
+    }
+  ]
+}

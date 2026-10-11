@@ -18,7 +18,7 @@
 \title{Exact staged lifting of prescribed Legendre compressions:\\
 ternary phases, spectral bounds, and restricted branch censuses}
 \author{Working draft; authorship to be confirmed}
-\date{October 10, 2026}
+\date{October 11, 2026}
 \begin{document}
 \maketitle
 \begin{abstract}
@@ -55,6 +55,13 @@ replication. A publication-gap audit identifies conditional branch/class
 incidence and reproducibility software as the strongest candidate contribution;
 missing full algorithms and the historical representative list prevent a
 priority or submission-readiness claim.
+A focused mathematical audit proves a prime-kernel divisibility corollary:
+for odd prime $q\mid N$, fixed length-$N$ compression fibers of normalized
+binary Legendre pairs of length $qN$ have ordered size divisible by $q^3$.
+It explains the ternary factor 27 and yields a third phase gauge. The underlying
+one-row multiplier obstruction has an explicit prior public derivation;
+these consequences strengthen the exposition without establishing a new
+research-paper contribution.
 \end{abstract}
 
 \section{Scope and relation to primary literature}
@@ -272,6 +279,147 @@ All shifts are covered, and compression preserves the row sums.
 This is a specialization of established compression theory, not a claim of
 minimality or of novel general compression. Dropping equations is justified
 only after checking the intermediate constants exactly.
+
+\section{A prime-kernel divisibility corollary}\label{sec:fiber}
+The extra factor three in the phase-gauged census suggests a structural
+question beyond the two translation gauges. We prove its general explanation,
+while explicitly attributing the underlying obstruction. The public
+prime-square obstruction in \cite{kernelissue}, and its incorporated proof
+and provenance in \cite{kernelreport}, preclude a first-obstruction claim.
+The latter also reports prior affine-symmetry work whose cited archive was
+not accessible here. The fiber-count and gauge conclusions below are useful
+corollaries of this mechanism and standard orbit counting; their priority is
+unresolved. They do not establish a substantive original theorem sufficient
+to change the reproducibility/software assessment.
+
+For this section let $q$ be an odd prime, $N$ an odd multiple of $q$, and
+$L=qN$. Fix an indexed ordered length-$N$ compression pair $(C,D)$, both
+of row sum one. Let $\mathcal F(C,D)$ be the set of normalized binary
+Legendre pairs with exactly these compressions. All counts in $\mathcal F$
+are ordered; row exchange and other equivalences are not divided out.
+Let $\mu_x,\mu_y$ count monochromatic $q$-entry columns in the binary rows.
+The compression identity gives
+\begin{equation}\label{eq:fiberenergy}
+ E:=\sum_i(C_i^2+D_i^2)=2qN-2(q-1),\qquad
+ \mu_x+\mu_y\le\frac{2(N-1)}{q+1}.
+\end{equation}
+Indeed, every odd column sum has square at least one; each monochromatic
+column has square $q^2$, so $E\ge2N+(q^2-1)(\mu_x+\mu_y)$.
+For $q=3$ the inequality is an equality. This energy accounting is a
+standard compression consequence.
+
+\begin{proposition}[Affine kernel obstruction]\label{prop:kernel}
+No row of such a Legendre pair is fixed by
+$j\mapsto(1+aN)j+bN$ with $a\not\equiv0\pmod q$.
+\end{proposition}
+\begin{proof}
+As $q\mid N$, on column $i$ this map sends layer $k$ to
+$k+ai+b\pmod q$. Unless $i\equiv-b/a\pmod q$ it is a $q$-cycle,
+forcing the entire column to be monochromatic. Thus even one invariant
+row has at least $N-N/q$ monochromatic columns. This exceeds the pair's
+budget in \eqref{eq:fiberenergy}: after multiplying by $q(q+1)$, the
+difference is $N(q^2-2q-1)+2q>0$ for $q\ge3$. This is a contradiction.
+\end{proof}
+An arbitrary translation in an affine stabilizer reduces to $bN$ here:
+compression would otherwise give a nonidentity cyclic stabilizer of $C$.
+An integer row of sum one cannot have such a stabilizer, since a cycle
+length greater than one would divide its row sum. This also proves
+translation freeness without a genericity assumption.
+
+\begin{theorem}[Conditional fiber divisibility]\label{thm:fiber}
+Put $(T_bx)_j=x_{j+bN}$ and $(M_ax)_j=x_{(1+aN)j}$ for $a,b\in\Z_q$.
+The group
+\[
+ \mathcal G=\{(x,y)\mapsto(T_bM_ax,T_cM_ay):a,b,c\in\Z_q\}
+       \cong\Z_q^3
+\]
+acts freely on $\mathcal F(C,D)$. Hence $|\mathcal F(C,D)|=q^3r$ for
+some integer $r\ge0$. After independent translations by $N$, the fiber
+has $qr$ elements. Its intersection with any class under common unit
+decimation, independent shifts and reversals, and row exchange has the
+same respective divisibilities $q^3$ and $q$.
+\end{theorem}
+\begin{proof}
+Since $N^2\equiv0\pmod{qN}$, the $q$ distinct units $1+aN$ multiply
+by addition of their parameters and commute with translations by $N$.
+They form the kernel of reduction of units modulo $qN$ to units modulo
+$N$. The column action preserves the fixed compression. Translations
+preserve each row PAF, and the common multiplier permutes pair PAF shifts
+by $s\mapsto(1+aN)s$; thus $\mathcal G$ preserves the fiber.
+A stabilizer with $a\ne0$ contradicts Proposition~\ref{prop:kernel}.
+For $a=0$, row-sum-one translation freeness forces $b=c=0$.
+All orbits therefore have $q^3$ members. The subgroup of independent
+translations has order $q^2$; any kernel element fixing one of its orbits
+would give a nonidentity stabilizer in $\mathcal G$. Finally, every
+operation in $\mathcal G$ is among the stated global equivalences, so
+each intersection is a union of whole $\mathcal G$-orbits.
+\end{proof}
+
+There is no assumption that $N/q$ is prime or coprime to $q$, and no
+character prescription is required. Empty fibers are included. Composite
+$q$ is not covered by the cycle argument. If $q\nmid N$ the conclusion
+can fail: normalized binary length-three pairs all compress to $(1),(1)$
+and give nine ordered lifts, not a multiple of 27. Without the Legendre
+condition, at $q=N=3$ the pair $C=D=(1,3,-3)$ has nine binary preimage
+pairs; its squared energy 38 violates the required 14. Quotients by larger
+equivalence groups can have additional stabilizers and need not retain
+these divisibilities.
+
+\paragraph{An explicit third ternary gauge.}
+Return to $q=3$ and the minority phases used below. Each intermediate row
+has active columns in at least two residue classes modulo three; otherwise
+its at least $2N/3$ monochromatic columns violate \eqref{eq:fiberenergy}.
+Let $i_0$ be the first active column of the first row and $i_1$ the first
+with $i_1\not\equiv i_0\pmod3$. After applying $M_t$ and restoring both
+existing phase-zero anchors, the first-row phases become
+\[
+ a'_i=a_i-t(i-i_0)\pmod3.
+\]
+Exactly one $t$ makes $a'_{i_1}=0$. Fixing this additional phase therefore
+selects one pair from each 27-element orbit. The existing enumerators still
+use only two anchors; no frozen implementation or count was altered, and no
+speed improvement was measured.
+
+\paragraph{Finite checks and a failed stronger conjecture.}
+A read-only integer audit of all 1,169 completed branches checks the action
+on all 2,979 saved phase-gauged pairs, finding 992 $p=5$ kernel orbits and
+one positive $p=7$ orbit. Every triple remains in its local equivalence
+class and the third gauge selects exactly one member. All 960 nonzero
+$p=5$ branch/class entries are multiples of three, as the theorem predicts.
+The stronger single-orbit assertion is false: 928 entries contain one
+orbit and 32 contain two. Rank 129, local class 60, is an explicit
+counterexample with six saved mask pairs, recorded in
+\path{results/fiber_structure/audit.json}. The theorem does not predict
+the observed incidence degrees eight and sixteen, the maximum count 81,
+or which admissible branches are empty.
+
+The same audit finds that every saved first-row full PAF signature changes
+under the kernel generator. Consequently the divisibility applies to the
+whole fiber and class intersections, not individually to matching buckets.
+Complete bucket multiplicities and full-key collision checks remain essential.
+The elementary sum of products of complementary bucket sizes is established
+counting, not a further theorem. A tiny separate length-nine enumeration
+finds 18 nonempty length-three-compression fibers of size 54. Finite affine
+orbit checks at $(q,N)=(3,3),(5,5)$ corroborate the energy obstruction;
+neither substitutes for the proof. No spectral calculation enters this proof
+or these checks, and no completed lifting census was repeated.
+
+\paragraph{Prior art and remaining question.}
+Theorem 2.3, Corollaries 2.4--2.5 and Theorem 3.2 of \cite{turner77}
+(preprint pp.~5--6 and 8--9) already count decompression multiplicities
+using multiplier groups under coprime-factor hypotheses. Those hypotheses
+do not directly cover $q\mid N$. The public July 24 obstruction
+\cite{kernelissue} explicitly states the general prime-square case;
+\cite{kernelreport} incorporates the ternary proof and reports prior
+affine work with a Lean formalization. The latter archive was not obtained
+or checked. We therefore present the theorem as an attributed derivation
+and counting corollary, with no priority claim. The complete proof,
+candidate ranking, counterexamples, source-access limits and commands are
+in \path{research/conditional_fiber_theorem.md}; the new manifest pins
+the accompanying evidence. A meaningful unresolved target is a structural
+obstruction to the residual phase fibers after this free action is removed,
+capable of distinguishing empty intermediates that already satisfy all
+compressed energy equations.
 
 \section{Ternary phases and exact cross terms}
 For one intermediate row define $b_i=\operatorname{sgn}(C_i)$ and
@@ -1419,7 +1567,8 @@ no external bibliography or data input is needed. The built-in desktop
 compiler succeeded on October 11, 2026, after earlier environment failures
 reported missing platform directories and ``setup refresh had errors.''
 The saved-source hash and compiler result are recorded in
-\path{results/publication_gap_audit/latex_status.json}.
+\path{results/fiber_structure/latex_status.json} for this revision; the earlier
+publication-gap compiler record is preserved separately.
 Visual inspection of the rendered PDF and layout remains unverified.
 \begin{verbatim}
 .venv/Scripts/python.exe -m scripts.classify_p5_lifts --pilot --workers 4
@@ -1594,6 +1743,20 @@ cross-term-aware decomposition with demonstrated scaling and any applicability
 at $p=37$ remain open.
 
 \begin{thebibliography}{99}
+\bibitem{turner77} J. Turner, I. Kotsireas, D. Bulutoglu, and A. Geyer.
+A Legendre pair of length 77 using complementary binary matrices with fixed
+marginals. \emph{Designs, Codes and Cryptography} 89 (2021), 1321--1333.
+Primary preprint: \url{https://arxiv.org/abs/2101.10918}.
+\bibitem{kernelissue} Claude with Patrick White (account \texttt{byclaude}).
+A small extension to your id2 classification. Public primary research
+communication, issue 2, July 24, 2026; claim/proof and generalization paragraphs.
+\url{https://github.com/Arthur742Ramos/hadamard-668-multiplier-obstructions/issues/2}.
+\bibitem{kernelreport} A. F. Ramos and contributors.
+A congruence-kernel obstruction for multiplier ID 2. Repository report,
+Theorem, Proof, and Provenance sections; accessed October 11, 2026.
+\url{https://github.com/Arthur742Ramos/hadamard-668-multiplier-obstructions/blob/main/lp333/id2_congruence_kernel/report.md}.
+Its cited affine-symmetry archive, \url{https://doi.org/10.5281/zenodo.21779001},
+was inaccessible in this audit; no verification of its formal proof is claimed.
 \bibitem{brightgolay} C. Bright, I. Kotsireas, A. Heinle, and V. Ganesh.
 Complex Golay pairs up to length 28: a search via computer algebra and
 programmatic SAT. Primary author version (2019).

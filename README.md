@@ -51,6 +51,14 @@ separate Clang/MSVC replication, conditional branch/class incidence, access
 limitations and revised paper scope. It does not establish novelty or
 submission readiness.
 
+The [conditional-fiber investigation](research/conditional_fiber_theorem.md)
+proves that fixed length-N compression fibers of normalized binary Legendre
+pairs of length qN have ordered size divisible by q³ when N is odd and q is
+an odd prime dividing N. It explains the factor 27
+and supplies a third ternary phase gauge. The underlying multiplier obstruction
+has explicit prior art; this attributed corollary does not establish a new
+research-paper contribution. All 2,979 saved pairs pass the new action audit.
+
 The low-risk foundations, order-428 warm-up, and exact Legendre core are complete:
 
 - a mathematical primer and an explicitly qualified literature map;

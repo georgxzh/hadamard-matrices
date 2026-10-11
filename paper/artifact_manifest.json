@@ -7,14 +7,19 @@
       "sha256": "e03c461c594c443d7ed41b9844c6f4a9e87884e2d292fa36b8ee88f3757d1668"
     },
     {
-      "bytes": 96485,
+      "bytes": 106145,
       "path": "paper/manuscript.tex",
-      "sha256": "3e59e051179d3afd6dec828c589c25b312fe65b5b802616e57d15eb1e3be98a6"
+      "sha256": "eecce61a7a33ddbab61341866e58faee9d108a664a0295f5194c59530f7e0a2a"
     },
     {
       "bytes": 11900,
       "path": "references/references.bib",
       "sha256": "c0180de7b84dc76a72a93dbecd948f0da9b5921328a997243e6857cb1ed946ea"
+    },
+    {
+      "bytes": 17504,
+      "path": "research/conditional_fiber_theorem.md",
+      "sha256": "a3a8d071d30f59b57cc0295733e57e98acaf90148b1569af95ea65c600938f59"
     },
     {
       "bytes": 9586,
@@ -60,6 +65,46 @@
       "bytes": 12673,
       "path": "research/spectral_join.md",
       "sha256": "6b3765be9ce5f30a3c54762466c3834f670b304232f94b6aa14fb283d1154b83"
+    },
+    {
+      "bytes": 439053,
+      "path": "results/fiber_structure/audit.json",
+      "sha256": "8674632cf759b65bfc135faeee41daa45c0db8a921a96aa2f943bb883ffbc1f0"
+    },
+    {
+      "bytes": 415,
+      "path": "results/fiber_structure/baseline.json",
+      "sha256": "f52e032f7f9e0e12aafa194608d53ec66d1a3c337cd695a4c5edacff5dac5a9f"
+    },
+    {
+      "bytes": 1462,
+      "path": "results/fiber_structure/checks.json",
+      "sha256": "2e28e24052c51fbeef451e539315483cf935a976848115c111adee6e980899e6"
+    },
+    {
+      "bytes": 554,
+      "path": "results/fiber_structure/final_checks.json",
+      "sha256": "e9dadbbc32ba3ad58f6dfa2afdccacfebc507098b27dc718c57c7417f27a54f7"
+    },
+    {
+      "bytes": 662,
+      "path": "results/fiber_structure/latex_status.json",
+      "sha256": "c2f4d1b4f0cb1e6eb74ba46ebafe56172d1cd716f57813a38d601ab934380c86"
+    },
+    {
+      "bytes": 4644,
+      "path": "results/fiber_structure/literature.json",
+      "sha256": "cade2c230dc5d431f0c05631510071451b3c0a52d6ba8322128ccb764ea682ab"
+    },
+    {
+      "bytes": 1923,
+      "path": "results/fiber_structure/manifest.json",
+      "sha256": "50d0f6107b6843daa969985fd5d78f315f4d843cd34ed133de9bfc9228fb8991"
+    },
+    {
+      "bytes": 1681,
+      "path": "results/fiber_structure/pilot.json",
+      "sha256": "038b6feab1b48b267d54cc58c69c8d6d9507e0caee148225f58e02d936168189"
     },
     {
       "bytes": 65014,
@@ -6267,6 +6312,11 @@
       "sha256": "913e45f6c290bb27c603dd996446aab3b3d324ba82ccee7f51d5a0664f88a42f"
     },
     {
+      "bytes": 9860,
+      "path": "scripts/audit_fiber_structure.py",
+      "sha256": "20a182a48c440f362733b28621bc272e6cd92d2f1b4110332068a2670a65abfc"
+    },
+    {
       "bytes": 9406,
       "path": "scripts/audit_p5_classification.py",
       "sha256": "273e8469195a5a3b2ddcfcbad6773612749172c6a6f4bf90b5dc5a47a7274231"
@@ -6347,6 +6397,11 @@
       "sha256": "ee0d8ef5f93ab17770251979b61afce859e8a956fe140152bae1f6506040b0cc"
     },
     {
+      "bytes": 1917,
+      "path": "scripts/package_fiber_structure.py",
+      "sha256": "e9662b45daee3381516f2694a9dfc922ddaba3a1ef2fc57e77965397a2451818"
+    },
+    {
       "bytes": 3271,
       "path": "scripts/probe_p7_literature.py",
       "sha256": "96f8ec66f338bf273f7c11e4efa063dee2c39d1b948a1204c3afc6fca625ae08"
@@ -6420,6 +6475,11 @@
       "bytes": 17889,
       "path": "src/ternary_phase.py",
       "sha256": "132c62ad74fe8e7d13b79de3e6b74ea648ab91da8073722a6e7cc8063bb235dc"
+    },
+    {
+      "bytes": 2036,
+      "path": "tests/test_fiber_structure.py",
+      "sha256": "ea49f224022186d95fcaabb0190757c82f9760b07f545d052dc06b7ec2663a34"
     },
     {
       "bytes": 3248,

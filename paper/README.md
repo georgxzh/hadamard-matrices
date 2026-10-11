@@ -23,7 +23,9 @@ The source remains in the native editor. Earlier compilation attempts failed
 with missing platform directories or `setup refresh had errors`. The built-in
 desktop compiler succeeded on October 11, 2026. **Visual PDF layout remains
 unverified**. No terminal TeX installation was added. The current result and
-saved-source hash are in `../results/publication_gap_audit/latex_status.json`.
+saved-source hash for that version are in
+`../results/publication_gap_audit/latex_status.json`. The later mathematical
+revision has its own check in `../results/fiber_structure/latex_status.json`.
 
 The October 10 publication-gap audit is in
 `../research/publication_gap_audit.md`. Publisher/author/repository searches
@@ -44,3 +46,13 @@ After a completed new replication, use
 `python -m scripts.render_publication_gap` to refresh its manuscript section
 and supplementary manifests. The older updater handles historical blocks;
 run the new renderer afterward if using it. Neither renderer compiles TeX.
+
+The October 11 mathematical investigation is in
+`../research/conditional_fiber_theorem.md`. Section 4 proves a general
+prime-kernel divisibility corollary, gives a third ternary gauge, and records
+a counterexample to single-orbit branch/class incidence. Direct primary prior
+art covers the underlying obstruction, so the narrower paper assessment remains.
+The new proof uses only integer identities. Its action audit reuses the frozen
+solutions; it does not repeat their enumeration. Current hashes are refreshed
+with `python -m scripts.package_fiber_structure`, which leaves all old result
+manifests unchanged.

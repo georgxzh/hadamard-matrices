@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-11",
+  "tests": {
+    "command": ".venv/Scripts/python.exe -m pytest tests/test_fiber_structure.py -q --basetemp=tmp/pytest_fiber_structure",
+    "result": "4 passed in 0.13 seconds",
+    "warning": "Pytest could not create cache path; test execution passed.",
+    "scope": "Coordinate versus layer action, phase formula on all 126 normalized length-nine rows, tiny LP counts and omitted-hypothesis counterexamples, exhaustive signs on small affine coordinate orbits."
+  },
+  "proof_review": {
+    "scope": "Self-contained algebraic proof and manual adversarial review; no proof assistant or external referee.",
+    "checks": ["q divides N makes N squared zero modulo qN", "nonzero field increment is a full q-cycle", "monochromatic budget rules out one-row affine stabilizers", "row sum one rules out pure translations and arbitrary compressed shift stabilizers", "common decimation permutes both PAF vectors by the same unit", "class intersections are unions of free group orbits without needing normality", "larger quotients and individual signature buckets have no asserted divisibility", "empty fibers and repeated prime N/q are included"]
+  },
+  "historical_tests": "Previous enumeration and compiler/runtime replication evidence is preserved; not rerun or relabeled external replication.",
+  "numerics": "All mathematical and finite action checks use exact integers; no spectral computation. Timers are resource observations only."
+}

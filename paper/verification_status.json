@@ -1,7 +1,9 @@
 {
   "classification_audit": "results/p5_classification/audit.json",
+  "fiber_structure_audit": "results/fiber_structure/audit.json",
+  "fiber_structure_manifest": "results/fiber_structure/manifest.json",
   "independent_p7_audit": "results/spectral_join/independent_audit.json",
-  "manifest_entries_checked": 6529,
+  "manifest_entries_checked": 6541,
   "manifests_checked": [
     "paper/artifact_manifest.json",
     "results/p5_classification/manifest.json",
@@ -10,11 +12,11 @@
     "results/p7_portfolio/manifest.json",
     "results/p7_positive_control/manifest.json"
   ],
-  "manuscript_sha256": "3e59e051179d3afd6dec828c589c25b312fe65b5b802616e57d15eb1e3be98a6",
+  "manuscript_sha256": "eecce61a7a33ddbab61341866e58faee9d108a664a0295f5194c59530f7e0a2a",
   "native_latex_compilation": {
     "date": "2026-10-11",
-    "record": "results/publication_gap_audit/latex_status.json",
-    "source_sha256": "3e59e051179d3afd6dec828c589c25b312fe65b5b802616e57d15eb1e3be98a6",
+    "record": "results/fiber_structure/latex_status.json",
+    "source_sha256": "eecce61a7a33ddbab61341866e58faee9d108a664a0295f5194c59530f7e0a2a",
     "status": "success",
     "visual_layout": "unverified"
   },
