@@ -18,7 +18,7 @@
 \title{Exact staged lifting of prescribed Legendre compressions:\\
 ternary phases, spectral bounds, and restricted branch censuses}
 \author{Working draft; authorship to be confirmed}
-\date{October 11, 2026}
+\date{October 12, 2026}
 \begin{document}
 \maketitle
 \begin{abstract}
@@ -62,6 +62,10 @@ It explains the ternary factor 27 and yields a third phase gauge. The underlying
 one-row multiplier obstruction has an explicit prior public derivation;
 these consequences strengthen the exposition without establishing a new
 research-paper contribution.
+An exact simultaneous-compression margin obstruction is then proved and
+challenged on every frozen branch. It rejects none. A positive and an empty
+branch have identical margin profiles and alternate feasible sets, proving
+that this relaxation loses information needed to explain residual emptiness.
 \end{abstract}
 
 \section{Scope and relation to primary literature}
@@ -420,6 +424,163 @@ the accompanying evidence. A meaningful unresolved target is a structural
 obstruction to the residual phase fibers after this free action is removed,
 capable of distinguishing empty intermediates that already satisfy all
 compressed energy equations.
+
+\section{A residual obstruction and its information loss}\label{sec:residual}
+The selected follow-up target is simultaneous binary feasibility of the
+fixed length-$3p$ compression and an alternate length-nine compression.
+We prove a sound obstruction, then establish its failure to distinguish
+the matched frozen branches. This is a negative mathematical case study;
+it supplies no new proof of emptiness for those branches.
+Simultaneous decompression and fixed-marginal binary matrices have a primary
+precedent in \cite[Section 3]{turner77}: Definition 3.1, equations (8),(9),
+Theorem 3.2, and the matrix discussion on PDF pages 6--9. That construction
+uses pairwise coprime factors. Here the two lengths share the factor three,
+so one applies the standard matrix construction separately in each common
+residue. The binary margin criterion below is classical; its integral-flow
+background is \cite[pp.~1075--1078]{gale}. No new margin theorem is claimed.
+
+Write $K_m x$ for compression to length $m$. Throughout this section $p$ is
+odd and coprime to three, $L=9p$, $N=3p$, and the fixed intermediates $C,D$
+have entries in $\{-3,-1,1,3\}$ and sum one in each row. Computation below
+is restricted to $p=5,7$.
+
+\begin{proposition}[Exact common-preimage criterion]\label{prop:margins}
+Let $U\in\{-p,-p+2,\ldots,p\}^9$. For each $r\in\{0,1,2\}$ put
+\[
+ S_a=(3-C_{r+3a})/2\quad(0\leq a<p),\qquad
+ R_b=(p-U_{r+3b})/2\quad(0\leq b<3).
+\]
+A binary sign vector $x$ with $K_Nx=C$, $K_9x=U$ exists if and only if
+in every block the degree totals agree and
+\begin{equation}\label{eq:margin}
+ \sum_{b=1}^k R_{(b)}\leq\sum_{a=0}^{p-1}\min(k,S_a),\qquad k=1,2,3,
+\end{equation}
+where $R_{(1)}\geq R_{(2)}\geq R_{(3)}$. Degrees are integers in the
+ranges $0\leq R_b\leq p$, $0\leq S_a\leq3$.
+\end{proposition}
+\begin{proof}
+The congruences $j\equiv r+3a\pmod{3p}$ and
+$j\equiv r+3b\pmod9$ identify one coordinate modulo $9p$ by CRT.
+Negative-entry indicators form three independent $3\times p$ binary
+matrices with row degrees $R$ and column degrees $S$. Necessity follows
+by counting ones in any $k$ rows.
+
+For sufficiency, use source-to-row capacities $R_b$, all row-to-column
+capacities one, and column-to-sink capacities $S_a$. Let $T$ be the
+common total. A cut with row set $A$ and column set $B$ on the source
+side has capacity
+\[
+ T-\sum_{b\in A}R_b+|A|(p-|B|)+\sum_{a\in B}S_a.
+\]
+Minimizing over $B$ replaces the last two terms by
+$\sum_a\min(|A|,S_a)$. For $|A|=k$, the largest row sum is the sum of
+the $k$ largest degrees, so \eqref{eq:margin} makes every cut at least $T$.
+Starting from zero, augment along residual source-to-sink paths by their
+minimum residual capacities. These are integers; each augmentation raises
+the value by at least one, and the value is bounded by $T$. If this process
+stopped below $T$, the residual-reachable vertices would give a cut of that
+smaller value, a contradiction. The resulting integral flow of value $T$
+gives the required binary matrix. Reconstruct the signs by CRT in all blocks.
+\end{proof}
+
+Let $M(C)$ be the set of $U$ passing Proposition~\ref{prop:margins}, and
+define $E(C,D)\subseteq M(C)\times M(D)$ by
+\begin{equation}\label{eq:alternate}
+ \sum_i(U_i^2+V_i^2)=16p+2,\qquad
+ \PAF_U(s)+\PAF_V(s)=-2p\quad(1\leq s\leq8).
+\end{equation}
+\begin{proposition}[Necessary obstruction on the quotient]
+If $E(C,D)=\varnothing$, the conditional Legendre fiber is empty.
+This necessary condition is invariant under the independent $N$-translations
+and common kernel multipliers $1+tN$, $t\in\Z/3\Z$.
+\end{proposition}
+\begin{proof}
+Every genuine lift supplies simultaneous preimages. Expanding compression
+gives $\PAF_{K_9x}(s)=\sum_{h=0}^{p-1}\PAF_x(s+9h)$.
+For $1\leq s\leq8$ the pair sum is $-2p$; at zero it is
+$2L-2(p-1)=16p+2$. Thus its alternate pair belongs to $E$.
+For a unit $u$ and offset $v$,
+$K_m(x_{u j+v})_i=(K_mx)_{u i+v\bmod m}$.
+Taking $u=1+tN$ and offsets $aN,bN$ preserves $C,D$ and induces a
+common unit decimation and independent shifts on the alternate rows.
+These preserve \eqref{eq:alternate}; transforming the binary preimages
+preserves their existence. This proves invariance and the implication.
+\end{proof}
+
+\begin{proposition}[Information lost by the margin profile]\label{prop:profile}
+If two intermediate pairs have the same six labeled multisets of entries
+in each residue modulo three, their $E$ sets are exactly equal.
+\end{proposition}
+\begin{proof}
+Permuting columns of any CRT block changes neither possible row margins
+nor their ordered length-nine labels. Equivalently, the right sides of
+\eqref{eq:margin} depend only on column multisets. Hence both $M$ sets
+are unchanged. The remaining conditions depend only on $U,V$.
+\end{proof}
+
+\paragraph{Matched counterexample after the third gauge.}
+Ranks 277 and 279 in the frozen $p=5$ census have active counts $(12,11)$,
+identical first rows, and equal profiles. Rank 277 has three phase-gauged
+pairs (27 ordered lifts, one residual kernel orbit); rank 279 has none.
+Both have exactly 2,943 ordered alternate pairs in $E$. An actual
+rank-277 pair, in the negative-support bit-mask convention, is
+$(5988272173974,31425271139033)$. Permuting the second row's CRT columns
+to the rank-279 intermediate gives $(5988272173974,31468172020371)$.
+The two pairs have the identical alternate compressions
+\[
+ U=(-1,1,-1,1,-3,1,-1,1,3),\quad
+ V=(-3,3,1,-1,1,5,-1,-3,-1).
+\]
+They satisfy \eqref{eq:alternate}, yet the transferred binary pair has
+full PAF sum 2 at shift 3. After imposing the third gauge of
+Section~\ref{sec:fiber}, its masks are
+$(22487656929184,9405125214970)$ and its shift-2 PAF sum is $-6$.
+Its alternate pair still coincides with the gauged positive witness's pair.
+All masks, intermediate rows, and violated shifts are saved in
+\path{results/residual_obstruction/counterexample.json}.
+The failed pair alone refutes sufficiency for that pair; refuting
+existential liftability of the branch also uses the frozen empty census.
+No new standalone exhaustion certificate is asserted.
+
+\paragraph{Complete bounded challenge.}
+The 1,164 frozen intermediates give 668 distinct labeled profiles; 18
+profiles mix positive and empty branches. The count of profiles has no
+relation to a Hadamard order. A two-case pilot predicted 161.70 seconds
+with a factor-three margin. The complete new projection run took 73.16
+seconds on one worker, rejecting none of the 1,164 branches, including
+all 460 empty ones. A separate $p=7$ projection pilot predicted 21.04
+seconds with a tenfold margin. The five completed classes all pass:
+the positive, control, $(14,18)$, further $(15,17)$ and $(16,16)$ branches
+have respectively 10,476, 10,755, 11,925, 11,943 and 12,006 alternate pairs.
+These are ordered compressed pairs, not binary lifts or free-action orbit
+counts; division by 27 is not justified. The full follow-up audit including
+hashing took 14.04 seconds. Guards were 1,200 and 120 seconds; each pilot
+budgeted 200 MB memory and 2 MB output (estimates, not measured peaks).
+No cap or timeout occurred, and no binary lifting exhaustion was repeated.
+
+Matching uses exact integer energy and PAF shifts 1--4; real PAF symmetry
+supplies shifts 5--8. The individual energy cutoff $16p-7$ is safe because
+each partner has nine odd coordinates. Four focused tests passed, including
+all 512 binary $3\times3$ matrices against all 4,096 degree pairs, exact
+row-set equality for the matched branches, every saved alternate witness,
+and the counterexample under every kernel element. These are local checks,
+not external replication or a substitute for the proofs.
+
+Proposition~\ref{prop:profile} proves that additional rules using only the
+same profile or $E$ cannot separate this matched pair. It leaves
+order-sensitive constraints on actual matrices and phases open.
+The selected approach therefore does not explain residual emptiness.
+Its useful result is an attributed relaxation and an exact limitation;
+the narrow reproducibility/software assessment remains unchanged.
+Proofs, source locations, commands and limits are detailed in
+\path{research/residual_compression_obstruction.md};
+\path{results/residual_obstruction/manifest.json} pins this study's evidence.
+The counterexample SHA-256 is
+\begin{center}\footnotesize\texttt{8eeb9bf7bbdcd96c2d046c769f3efae9396142c2df5457aa03eeafe622450f23}\end{center}
+and the audit SHA-256 is
+\begin{center}\footnotesize\texttt{1e798d5a92017a2ca93db7ed9a74431e26d6aad7c48dda81588d2690ef75ad60}\end{center}
+All 6,715 baseline result files are unchanged; the ordered path/hash digest
+is recorded with starting commit and environment in the audit.
 
 \section{Ternary phases and exact cross terms}
 For one intermediate row define $b_i=\operatorname{sgn}(C_i)$ and
@@ -1531,7 +1692,9 @@ methods or general classification research-paper claim is not supported.
 Submission remains gated by the full algorithm/priority comparison,
 historical-list crosswalk, external replication and archival release,
 authorship/expository review, and visual PDF layout review. The built-in
-compiler succeeded on October 11; visual layout inspection remains pending.
+compiler status for the October 12 source is recorded below; visual layout
+inspection remains pending. The residual margin obstruction rejects no
+frozen empty branch and supports no upgrade of this assessment.
 No standalone formal exhaustion certificate is available. Broader
 predetermined $p=7$ strata are needed for statistical/scaling claims, not
 as a substitute for these evidence gaps. More optimization is not the next
@@ -1564,12 +1727,20 @@ mathematical exhaustion. Principal hashes follow.
 Commands below are issued from the repository root using the recorded
 Python environment. This standalone source targets the native LaTeX editor;
 no external bibliography or data input is needed. The built-in desktop
-compiler succeeded on October 11, 2026, after earlier environment failures
-reported missing platform directories and ``setup refresh had errors.''
-The saved-source hash and compiler result are recorded in
-\path{results/fiber_structure/latex_status.json} for this revision; the earlier
-publication-gap compiler record is preserved separately.
+compiler result for the October 12 source and its saved-source hash are
+recorded in \path{results/residual_obstruction/latex_status.json}.
+The earlier successful October 11 compile and publication-gap compiler
+records are preserved separately and do not validate these later edits.
 Visual inspection of the rendered PDF and layout remains unverified.
+The residual study is reproduced in a disposable checkout with:
+\begin{verbatim}
+.venv/Scripts/python.exe -m scripts.residual_compression_obstruction pilot
+.venv/Scripts/python.exe -m scripts.residual_compression_obstruction census
+.venv/Scripts/python.exe -m scripts.audit_residual_obstruction
+.venv/Scripts/python.exe -m pytest tests/test_residual_obstruction.py -q
+\end{verbatim}
+These commands overwrite only the new study's outputs. The commands below
+document earlier studies and need not be rerun to verify their frozen records.
 \begin{verbatim}
 .venv/Scripts/python.exe -m scripts.classify_p5_lifts --pilot --workers 4
 .venv/Scripts/python.exe -m scripts.classify_p5_lifts --full --workers 3
@@ -1743,6 +1914,9 @@ cross-term-aware decomposition with demonstrated scaling and any applicability
 at $p=37$ remain open.
 
 \begin{thebibliography}{99}
+\bibitem{gale} D. Gale. A theorem on flows in networks.
+\emph{Pacific Journal of Mathematics} 7 (1957), 1073--1082.
+Publisher full text: \url{https://msp.org/pjm/1957/7-2/pjm-v7-n2-p04-p.pdf}.
 \bibitem{turner77} J. Turner, I. Kotsireas, D. Bulutoglu, and A. Geyer.
 A Legendre pair of length 77 using complementary binary matrices with fixed
 marginals. \emph{Designs, Codes and Cryptography} 89 (2021), 1321--1333.

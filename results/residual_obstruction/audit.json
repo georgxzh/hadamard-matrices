@@ -1,0 +1,295 @@
+{
+  "base_commit": "be92dfea374da4d4b621452ac9e30776ec067a36",
+  "complete": true,
+  "frozen_results": {
+    "files": 6715,
+    "ordered_path_sha256_digest": "29de06d2cba75f725c4f983b965c325eaa43e93d63ff268b95884c6712049a21"
+  },
+  "frozen_results_unchanged": true,
+  "matrix_truth_table": {
+    "degree_pairs": 4096,
+    "feasible_degree_pairs": 328,
+    "matrices": 512
+  },
+  "mixed_profile_groups": [
+    [
+      277,
+      279,
+      347
+    ],
+    [
+      317,
+      568,
+      616
+    ],
+    [
+      318,
+      567,
+      615
+    ],
+    [
+      359,
+      431,
+      688
+    ],
+    [
+      360,
+      432,
+      687
+    ],
+    [
+      363,
+      385,
+      618
+    ],
+    [
+      364,
+      386,
+      617
+    ],
+    [
+      589,
+      591,
+      641
+    ],
+    [
+      663,
+      718,
+      731
+    ],
+    [
+      664,
+      717,
+      732
+    ],
+    [
+      788,
+      819,
+      919,
+      959
+    ],
+    [
+      789,
+      820,
+      920,
+      958
+    ],
+    [
+      797,
+      805,
+      921,
+      953
+    ],
+    [
+      798,
+      806,
+      922,
+      952
+    ],
+    [
+      878,
+      914,
+      964,
+      1075
+    ],
+    [
+      881,
+      916,
+      967,
+      1076
+    ],
+    [
+      975,
+      983,
+      1025,
+      1029
+    ],
+    [
+      977,
+      984,
+      1028,
+      1032
+    ]
+  ],
+  "p5_cases": 1164,
+  "p5_empty_cases": 460,
+  "p5_rejections": 0,
+  "p7_cases": [
+    {
+      "alternate_rows": [
+        10404,
+        8532
+      ],
+      "empty_relaxation": false,
+      "example": [
+        [
+          -3,
+          -1,
+          -1,
+          3,
+          1,
+          1,
+          -1,
+          3,
+          -1
+        ],
+        [
+          -5,
+          -3,
+          3,
+          -1,
+          -1,
+          1,
+          5,
+          -1,
+          3
+        ]
+      ],
+      "id": "positive",
+      "matching_pairs": 10476,
+      "seconds": 0.42076040000029025
+    },
+    {
+      "alternate_rows": [
+        9429,
+        9351
+      ],
+      "empty_relaxation": false,
+      "example": [
+        [
+          -3,
+          1,
+          3,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          1
+        ],
+        [
+          -3,
+          -3,
+          1,
+          3,
+          1,
+          -3,
+          7,
+          -1,
+          -1
+        ]
+      ],
+      "id": "control",
+      "matching_pairs": 10755,
+      "seconds": 0.43237049999879673
+    },
+    {
+      "alternate_rows": [
+        7983,
+        16197
+      ],
+      "empty_relaxation": false,
+      "example": [
+        [
+          -3,
+          1,
+          3,
+          1,
+          -3,
+          1,
+          -1,
+          -1,
+          3
+        ],
+        [
+          -7,
+          -1,
+          1,
+          1,
+          3,
+          -1,
+          3,
+          1,
+          1
+        ]
+      ],
+      "id": "a14_18",
+      "matching_pairs": 11925,
+      "seconds": 0.47859779999998864
+    },
+    {
+      "alternate_rows": [
+        8739,
+        14670
+      ],
+      "empty_relaxation": false,
+      "example": [
+        [
+          -3,
+          1,
+          1,
+          -1,
+          -3,
+          3,
+          1,
+          -1,
+          3
+        ],
+        [
+          -5,
+          -1,
+          1,
+          -3,
+          1,
+          -1,
+          5,
+          3,
+          1
+        ]
+      ],
+      "id": "a15_17",
+      "matching_pairs": 11943,
+      "seconds": 0.5958519000014348
+    },
+    {
+      "alternate_rows": [
+        10548,
+        10314
+      ],
+      "empty_relaxation": false,
+      "example": [
+        [
+          -3,
+          -1,
+          -1,
+          -1,
+          3,
+          1,
+          -1,
+          1,
+          3
+        ],
+        [
+          -5,
+          -3,
+          3,
+          -3,
+          3,
+          -1,
+          3,
+          3,
+          1
+        ]
+      ],
+      "id": "a16_16",
+      "matching_pairs": 12006,
+      "seconds": 0.5779895999985456
+    }
+  ],
+  "platform": "Windows-11-10.0.26200-SP0",
+  "profiles": 668,
+  "python": "3.14.6",
+  "scope": "Exact projection relaxation and counterexample audit; no new binary census or external replication.",
+  "script_sha256": "739d7cd61b25dd49d4d99939326a3fc8429b457b8852da51110807b889746de2",
+  "seconds": 13.816449099998863
+}

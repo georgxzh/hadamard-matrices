@@ -1,0 +1,474 @@
+{
+  "alternate_matching_pairs": 2943,
+  "claim_refuted": "Simultaneous binary feasibility plus all length-nine compressed LP equations implies liftability.",
+  "empty_rank": 279,
+  "false_positive": {
+    "alternate_compression": [
+      [
+        -1,
+        1,
+        -1,
+        1,
+        -3,
+        1,
+        -1,
+        1,
+        3
+      ],
+      [
+        -3,
+        3,
+        1,
+        -1,
+        1,
+        5,
+        -1,
+        -3,
+        -1
+      ]
+    ],
+    "full_paf_violations": [
+      {
+        "paf_sum": 2,
+        "shift": 3
+      },
+      {
+        "paf_sum": -10,
+        "shift": 5
+      },
+      {
+        "paf_sum": -6,
+        "shift": 6
+      },
+      {
+        "paf_sum": 6,
+        "shift": 7
+      },
+      {
+        "paf_sum": -14,
+        "shift": 8
+      },
+      {
+        "paf_sum": 10,
+        "shift": 10
+      },
+      {
+        "paf_sum": -6,
+        "shift": 11
+      },
+      {
+        "paf_sum": -6,
+        "shift": 12
+      },
+      {
+        "paf_sum": 2,
+        "shift": 13
+      },
+      {
+        "paf_sum": -6,
+        "shift": 17
+      },
+      {
+        "paf_sum": 2,
+        "shift": 19
+      },
+      {
+        "paf_sum": -6,
+        "shift": 20
+      },
+      {
+        "paf_sum": 2,
+        "shift": 21
+      },
+      {
+        "paf_sum": 2,
+        "shift": 22
+      },
+      {
+        "paf_sum": 2,
+        "shift": 23
+      },
+      {
+        "paf_sum": 2,
+        "shift": 24
+      },
+      {
+        "paf_sum": -6,
+        "shift": 25
+      },
+      {
+        "paf_sum": 2,
+        "shift": 26
+      },
+      {
+        "paf_sum": -6,
+        "shift": 28
+      },
+      {
+        "paf_sum": 2,
+        "shift": 32
+      },
+      {
+        "paf_sum": -6,
+        "shift": 33
+      },
+      {
+        "paf_sum": -6,
+        "shift": 34
+      },
+      {
+        "paf_sum": 10,
+        "shift": 35
+      },
+      {
+        "paf_sum": -14,
+        "shift": 37
+      },
+      {
+        "paf_sum": 6,
+        "shift": 38
+      },
+      {
+        "paf_sum": -6,
+        "shift": 39
+      },
+      {
+        "paf_sum": -10,
+        "shift": 40
+      },
+      {
+        "paf_sum": 2,
+        "shift": 42
+      }
+    ],
+    "masks": [
+      5988272173974,
+      31468172020371
+    ]
+  },
+  "fixed_compressions": [
+    [
+      [
+        -1,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        -3,
+        -3,
+        1,
+        1,
+        3,
+        -1,
+        1,
+        1
+      ],
+      [
+        -3,
+        -1,
+        1,
+        -1,
+        -3,
+        1,
+        -1,
+        1,
+        3,
+        -1,
+        3,
+        -1,
+        1,
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        -1,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        -3,
+        -3,
+        1,
+        1,
+        3,
+        -1,
+        1,
+        1
+      ],
+      [
+        -1,
+        -3,
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        3,
+        -3,
+        3,
+        1,
+        1,
+        1,
+        1
+      ]
+    ]
+  ],
+  "positive": {
+    "alternate_compression": [
+      [
+        -1,
+        1,
+        -1,
+        1,
+        -3,
+        1,
+        -1,
+        1,
+        3
+      ],
+      [
+        -3,
+        3,
+        1,
+        -1,
+        1,
+        5,
+        -1,
+        -3,
+        -1
+      ]
+    ],
+    "full_paf_violations": [],
+    "masks": [
+      5988272173974,
+      31425271139033
+    ]
+  },
+  "positive_rank": 277,
+  "shared_profile": [
+    [
+      -1,
+      -1,
+      -1,
+      1,
+      1
+    ],
+    [
+      -3,
+      -1,
+      1,
+      1,
+      1
+    ],
+    [
+      -3,
+      1,
+      1,
+      1,
+      3
+    ],
+    [
+      -3,
+      -1,
+      -1,
+      -1,
+      1
+    ],
+    [
+      -3,
+      -1,
+      1,
+      1,
+      3
+    ],
+    [
+      -1,
+      1,
+      1,
+      1,
+      3
+    ]
+  ],
+  "third_gauge_false_positive": {
+    "alternate_compression": [
+      [
+        -1,
+        -3,
+        3,
+        1,
+        1,
+        -1,
+        -1,
+        1,
+        1
+      ],
+      [
+        -1,
+        3,
+        5,
+        -3,
+        1,
+        -1,
+        -1,
+        -3,
+        1
+      ]
+    ],
+    "full_paf_violations": [
+      {
+        "paf_sum": -6,
+        "shift": 2
+      },
+      {
+        "paf_sum": 2,
+        "shift": 3
+      },
+      {
+        "paf_sum": -6,
+        "shift": 4
+      },
+      {
+        "paf_sum": -6,
+        "shift": 5
+      },
+      {
+        "paf_sum": -6,
+        "shift": 6
+      },
+      {
+        "paf_sum": -14,
+        "shift": 7
+      },
+      {
+        "paf_sum": 2,
+        "shift": 8
+      },
+      {
+        "paf_sum": -10,
+        "shift": 10
+      },
+      {
+        "paf_sum": 2,
+        "shift": 11
+      },
+      {
+        "paf_sum": -6,
+        "shift": 12
+      },
+      {
+        "paf_sum": 2,
+        "shift": 17
+      },
+      {
+        "paf_sum": 10,
+        "shift": 20
+      },
+      {
+        "paf_sum": 2,
+        "shift": 21
+      },
+      {
+        "paf_sum": 6,
+        "shift": 22
+      },
+      {
+        "paf_sum": 6,
+        "shift": 23
+      },
+      {
+        "paf_sum": 2,
+        "shift": 24
+      },
+      {
+        "paf_sum": 10,
+        "shift": 25
+      },
+      {
+        "paf_sum": 2,
+        "shift": 28
+      },
+      {
+        "paf_sum": -6,
+        "shift": 33
+      },
+      {
+        "paf_sum": 2,
+        "shift": 34
+      },
+      {
+        "paf_sum": -10,
+        "shift": 35
+      },
+      {
+        "paf_sum": 2,
+        "shift": 37
+      },
+      {
+        "paf_sum": -14,
+        "shift": 38
+      },
+      {
+        "paf_sum": -6,
+        "shift": 39
+      },
+      {
+        "paf_sum": -6,
+        "shift": 40
+      },
+      {
+        "paf_sum": -6,
+        "shift": 41
+      },
+      {
+        "paf_sum": 2,
+        "shift": 42
+      },
+      {
+        "paf_sum": -6,
+        "shift": 43
+      }
+    ],
+    "masks": [
+      22487656929184,
+      9405125214970
+    ]
+  },
+  "third_gauge_positive": {
+    "alternate_compression": [
+      [
+        -1,
+        -3,
+        3,
+        1,
+        1,
+        -1,
+        -1,
+        1,
+        1
+      ],
+      [
+        -1,
+        3,
+        5,
+        -3,
+        1,
+        -1,
+        -1,
+        -3,
+        1
+      ]
+    ],
+    "full_paf_violations": [],
+    "masks": [
+      22487656929184,
+      11681458143385
+    ]
+  }
+}

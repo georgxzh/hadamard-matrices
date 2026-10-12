@@ -3,7 +3,7 @@
   "fiber_structure_audit": "results/fiber_structure/audit.json",
   "fiber_structure_manifest": "results/fiber_structure/manifest.json",
   "independent_p7_audit": "results/spectral_join/independent_audit.json",
-  "manifest_entries_checked": 6541,
+  "manifest_entries_checked": 6554,
   "manifests_checked": [
     "paper/artifact_manifest.json",
     "results/p5_classification/manifest.json",
@@ -12,11 +12,11 @@
     "results/p7_portfolio/manifest.json",
     "results/p7_positive_control/manifest.json"
   ],
-  "manuscript_sha256": "eecce61a7a33ddbab61341866e58faee9d108a664a0295f5194c59530f7e0a2a",
+  "manuscript_sha256": "69e6f7555d5872d78924b60b56dfb494bd3c4c17f8d15899c492089ccc0536a6",
   "native_latex_compilation": {
-    "date": "2026-10-11",
-    "record": "results/fiber_structure/latex_status.json",
-    "source_sha256": "eecce61a7a33ddbab61341866e58faee9d108a664a0295f5194c59530f7e0a2a",
+    "date": "2026-10-12",
+    "record": "results/residual_obstruction/latex_status.json",
+    "source_sha256": "69e6f7555d5872d78924b60b56dfb494bd3c4c17f8d15899c492089ccc0536a6",
     "status": "success",
     "visual_layout": "unverified"
   },
@@ -34,6 +34,16 @@
   "propagation_audit": "results/phase_propagation/audit.json",
   "publication_gap_audit": "results/publication_gap_audit/replication_audit.json",
   "publication_gap_manifest_entries_checked": 1198,
+  "residual_obstruction_audit": "results/residual_obstruction/audit.json",
+  "residual_obstruction_manifest": "results/residual_obstruction/manifest.json",
+  "residual_obstruction_tests": {
+    "command": ".venv/Scripts/python.exe -m pytest tests/test_residual_obstruction.py -q --basetemp=tmp/pytest_residual_obstruction",
+    "date": "2026-10-12",
+    "exit_code": 0,
+    "provenance": "Recorded from completed command output, not inferred from source inspection.",
+    "result": "4 passed, 1 warning in 0.25s",
+    "warnings": "Pytest could not create its cache nodeids path (WinError 183). The Python launcher also printed a real-location diagnostic; execution completed successfully."
+  },
   "spectral_artifact_files": 4796,
   "spectral_audit": "results/spectral_join/audit.json",
   "spectral_extension_tests": {

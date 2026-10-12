@@ -1,0 +1,40 @@
+{
+  "controller_limit_seconds": 120,
+  "estimate_seconds_10x": 21.038020000014512,
+  "memory_estimate_bytes": 200000000,
+  "positive_case": {
+    "alternate_rows": [
+      10404,
+      8532
+    ],
+    "empty_relaxation": false,
+    "example": [
+      [
+        -3,
+        -1,
+        -1,
+        3,
+        1,
+        1,
+        -1,
+        3,
+        -1
+      ],
+      [
+        -5,
+        -3,
+        3,
+        -1,
+        -1,
+        1,
+        5,
+        -1,
+        3
+      ]
+    ],
+    "matching_pairs": 10476,
+    "seconds": 0.42076040000029025
+  },
+  "storage_estimate_bytes": 2000000,
+  "workers": 1
+}

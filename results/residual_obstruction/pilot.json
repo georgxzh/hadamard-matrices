@@ -1,0 +1,82 @@
+{
+  "cases": [
+    {
+      "alternate_rows": [
+        2295,
+        3267
+      ],
+      "empty_relaxation": false,
+      "example": [
+        [
+          -3,
+          1,
+          3,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          3
+        ],
+        [
+          -5,
+          -1,
+          -1,
+          1,
+          -1,
+          1,
+          3,
+          1,
+          3
+        ]
+      ],
+      "frozen_count": 3,
+      "matching_pairs": 2889,
+      "rank": 1,
+      "seconds": 0.04521810000005644
+    },
+    {
+      "alternate_rows": [
+        2637,
+        3402
+      ],
+      "empty_relaxation": false,
+      "example": [
+        [
+          -3,
+          1,
+          1,
+          -1,
+          -1,
+          3,
+          1,
+          1,
+          -1
+        ],
+        [
+          -3,
+          -1,
+          -1,
+          1,
+          3,
+          -3,
+          5,
+          1,
+          -1
+        ]
+      ],
+      "frozen_count": 0,
+      "matching_pairs": 3492,
+      "rank": 3,
+      "seconds": 0.04715050000231713
+    }
+  ],
+  "complete": true,
+  "controller_limit_seconds": 1200,
+  "estimated_full_seconds": 161.69863139872905,
+  "estimated_memory_bytes": 200000000,
+  "estimated_output_bytes": 2000000,
+  "script_sha256": "7f9eca0c7d1c14bad781cd7689791ad39e0847c39f2494076eda0d05310b5e44",
+  "seconds": 0.09261089999927208,
+  "worker_count": 1
+}
