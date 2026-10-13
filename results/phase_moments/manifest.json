@@ -1,0 +1,95 @@
+{
+  "algorithm": "sha256",
+  "files": [
+    {
+      "bytes": 20694,
+      "path": "research/phase_moment_obstruction.md",
+      "sha256": "bc5ab546c9134a1c5838e52165a68964dee863ad9e2d0755704a036d1b4ea77e"
+    },
+    {
+      "bytes": 801721,
+      "path": "results/phase_moments/audit.json",
+      "sha256": "034497265a8005bd9766f93f2d790712f1c590087845fbb71cae8c8580076888"
+    },
+    {
+      "bytes": 16206,
+      "path": "results/phase_moments/audit_pilot.json",
+      "sha256": "faf5c5b7d2ff643dd3fd7741b18c6616b437aab8d4ad184d1a477f1807e1fd5d"
+    },
+    {
+      "bytes": 1251,
+      "path": "results/phase_moments/defect_factorization.json",
+      "sha256": "ed2a5e9e42e1876192cf0359c0204d415f918ab08778dde5390bdd363abb3f28"
+    },
+    {
+      "bytes": 6311,
+      "path": "results/phase_moments/enumeration_pilot.json",
+      "sha256": "514acb556eef782fd8f5d66fa379f7b3424a6ce767c6f1a2a384e819ee98a7cd"
+    },
+    {
+      "bytes": 2116,
+      "path": "results/phase_moments/enumeration_summary.json",
+      "sha256": "ba5a8cc6f60918ca4919dae29de6eed4f931a91b19c3ba1858e0436254f52a00"
+    },
+    {
+      "bytes": 80196,
+      "path": "results/phase_moments/pilot.json",
+      "sha256": "9a4642c418b654076a7a297c5c9c7f11b6b22dccf1de396da8fdf20b9fd26ebc"
+    },
+    {
+      "bytes": 500997,
+      "path": "results/phase_moments/rank_277.json",
+      "sha256": "fe221025c096ea2a252e30639e47bd519f415028024527765d0de4bc24bddb1a"
+    },
+    {
+      "bytes": 504838,
+      "path": "results/phase_moments/rank_279.json",
+      "sha256": "64e353409204b77b90ca5a240266fa9d50e87b36f59ee9c62a526a305a5739c0"
+    },
+    {
+      "bytes": 1932,
+      "path": "results/phase_moments/refinement_challenge.json",
+      "sha256": "8d754a29176e079732cc80e4c0d5c6eaf7458f090da724be91cb63108e22fa37"
+    },
+    {
+      "bytes": 925,
+      "path": "results/phase_moments/verification.json",
+      "sha256": "24619f2b32e642f714efb73ac7a63fca242ca25b659f794504ff9dc73bd5666e"
+    },
+    {
+      "bytes": 5669,
+      "path": "scripts/audit_phase_moments.py",
+      "sha256": "a662b32a329b399068e855ca03f896b64d3fc9ccde03d42e8caf1e07bb961d5c"
+    },
+    {
+      "bytes": 1766,
+      "path": "scripts/challenge_phase_moment_refinement.py",
+      "sha256": "6cd020be0c3190c2191ebe398332f7faddd42c05bc6fae4102599d5f01b99db4"
+    },
+    {
+      "bytes": 1334,
+      "path": "scripts/factor_phase_moment_defect.py",
+      "sha256": "d9ec3219310bec36c6b045b7721ca2f53093317815e331ccac9ebfa0ef357dc7"
+    },
+    {
+      "bytes": 1133,
+      "path": "scripts/package_phase_moments.py",
+      "sha256": "2d85fce9be9158e62364a76e2036d4bc985b6958f3fbc877af494cf4b8c5bcdd"
+    },
+    {
+      "bytes": 4449,
+      "path": "scripts/phase_moment_obstruction.py",
+      "sha256": "0db07fb209daecffb56bafa2c906a04631deff79cec67fbae47d9eb6db361772"
+    },
+    {
+      "bytes": 5607,
+      "path": "scripts/study_phase_moments.py",
+      "sha256": "6441d4e950ee504a3f88921a8e1273a87f663bfce077930e0858245cd133b3c9"
+    },
+    {
+      "bytes": 4224,
+      "path": "tests/test_phase_moments.py",
+      "sha256": "77f82b7a7e98407ed972816586f3f373d34ec602126f693fbf7d2b26a86e1157"
+    }
+  ]
+}

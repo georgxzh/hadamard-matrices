@@ -1,0 +1,88 @@
+{
+  "cases": [
+    {
+      "diagnostic": {
+        "defect_histogram": {
+          "-2": 89,
+          "-1": 3018,
+          "0": 9925,
+          "1": 3036,
+          "2": 80
+        },
+        "exact_pairs": [
+          [
+            22487656929184,
+            11681458143385
+          ]
+        ],
+        "greedy_shifts": [
+          4,
+          21,
+          2,
+          22,
+          3,
+          14,
+          5,
+          11,
+          6,
+          12,
+          1,
+          10
+        ],
+        "greedy_survivors": 1,
+        "interpretation": "Finite diagnostic on enumerated modular solutions, not an explanatory theorem or independent full census.",
+        "smallest_empty_shift_intersection_up_to_size_four": null
+      },
+      "free_variables": 13,
+      "linear_rank_with_gauges": 10,
+      "modular_solution_count": 734,
+      "range_begin": 0,
+      "range_complete": true,
+      "range_end": 1594323,
+      "rank": 277,
+      "seconds": 40.81655730001512,
+      "total_linear_assignments": 1594323
+    },
+    {
+      "diagnostic": {
+        "defect_histogram": {
+          "-2": 85,
+          "-1": 3047,
+          "0": 10021,
+          "1": 3037,
+          "2": 90
+        },
+        "exact_pairs": [],
+        "greedy_shifts": [
+          8,
+          2,
+          16,
+          3,
+          4,
+          21,
+          1,
+          5,
+          7,
+          12,
+          6
+        ],
+        "greedy_survivors": 0,
+        "interpretation": "Finite diagnostic on enumerated modular solutions, not an explanatory theorem or independent full census.",
+        "smallest_empty_shift_intersection_up_to_size_four": null
+      },
+      "free_variables": 13,
+      "linear_rank_with_gauges": 10,
+      "modular_solution_count": 740,
+      "range_begin": 0,
+      "range_complete": true,
+      "range_end": 1594323,
+      "rank": 279,
+      "seconds": 38.42750459999661,
+      "total_linear_assignments": 1594323
+    }
+  ],
+  "complete": true,
+  "new_run_seconds": 79.03798350002035,
+  "pilot_reused": true,
+  "script_sha256": "6441d4e950ee504a3f88921a8e1273a87f663bfce077930e0858245cd133b3c9"
+}
