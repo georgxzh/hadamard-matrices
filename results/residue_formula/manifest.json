@@ -1,0 +1,66 @@
+{
+  "algorithm": "sha256",
+  "base_commit": "d441e0d8bfe6052c6574ca3702f1b3d40129ff7e",
+  "files": [
+    {
+      "bytes": 23071,
+      "path": "research/residue_carry_formula.md",
+      "sha256": "d2a1798d49e8aa572a89dabeeab6cf804df73504b6846a2154b0083df438773c"
+    },
+    {
+      "bytes": 11985,
+      "path": "results/residue_formula/audit.json",
+      "sha256": "fd4780e42fd8a62010bf218cffaca2dc7dde7e15dfa8defff10577a719076051"
+    },
+    {
+      "bytes": 3198,
+      "path": "results/residue_formula/challenges.json",
+      "sha256": "b191ba19ab6044484fdb8b357ba16bb285c266b3b4382fd18f8bc0277ae0088d"
+    },
+    {
+      "bytes": 634,
+      "path": "results/residue_formula/integrity.json",
+      "sha256": "3ccb4d6318182edcc960a37bf11ce979030ecf3553fe26ae5f340b17ee2e5824"
+    },
+    {
+      "bytes": 211,
+      "path": "results/residue_formula/pilot.json",
+      "sha256": "9327120d535d4efc2e9e3ad114502645c59d34d5d0330d9192f0c3c0f36bad71"
+    },
+    {
+      "bytes": 210,
+      "path": "results/residue_formula/positive_pilot.json",
+      "sha256": "9d05218314cdcf56641c8a42dfab09059d9706f080f4a6134858092a3cc0e1ee"
+    },
+    {
+      "bytes": 736,
+      "path": "results/residue_formula/test_run.json",
+      "sha256": "d0179db6a6a0b9efb52f7e167c9f49e127f536eede2aefb56f22094838e0b8e4"
+    },
+    {
+      "bytes": 6529,
+      "path": "scripts/audit_residue_formula.py",
+      "sha256": "fe4b3c3ce67c89cd5d300c68acef4718b558fdc380c8a705bcb05b27370813a3"
+    },
+    {
+      "bytes": 2441,
+      "path": "scripts/challenge_residue_formula.py",
+      "sha256": "d4c17944e49b1affa16fff7d295b0509e6a945feffefe64b72416ae25e707683"
+    },
+    {
+      "bytes": 2376,
+      "path": "scripts/package_residue_formula.py",
+      "sha256": "96f3b8bf82c727b1446018e717469cf3e53b1614a4c1861109791fa12adb8685"
+    },
+    {
+      "bytes": 4708,
+      "path": "scripts/residue_formula.py",
+      "sha256": "3c0fe473147acabb0c84731bb58e1bad851912866cec615ae5b79a5b2a81d731"
+    },
+    {
+      "bytes": 3226,
+      "path": "tests/test_residue_formula.py",
+      "sha256": "968bef02871903a54a260842daeb2ed321cd24ff09faeeb2206c0b2740b3bd17"
+    }
+  ]
+}
