@@ -1,0 +1,103 @@
+{
+  "characteristic": 3,
+  "interpretation": "Next residue on saved modulo-nine survivors; not a structural nonvanishing proof.",
+  "modulus": [
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "records": [
+    {
+      "J": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "masks": [
+        22487656929184,
+        11681458143385
+      ],
+      "passes_K9": true,
+      "pi_valuation": "infinity",
+      "rank": 277
+    },
+    {
+      "J": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "masks": [
+        18570512807384,
+        19927795344025
+      ],
+      "passes_K9": false,
+      "pi_valuation": 12,
+      "rank": 277
+    },
+    {
+      "J": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "masks": [
+        31210651353580,
+        20580563788346
+      ],
+      "passes_K9": false,
+      "pi_valuation": 12,
+      "rank": 279
+    },
+    {
+      "J": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "masks": [
+        416258831260,
+        11737627988606
+      ],
+      "passes_K9": false,
+      "pi_valuation": 12,
+      "rank": 279
+    },
+    {
+      "J": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "masks": [
+        428621558224,
+        824046633594
+      ],
+      "passes_K9": false,
+      "pi_valuation": 12,
+      "rank": 279
+    },
+    {
+      "J": [
+        1,
+        0,
+        2,
+        2
+      ],
+      "masks": [
+        442312790436,
+        2830005805622
+      ],
+      "passes_K9": true,
+      "pi_valuation": 12,
+      "rank": 279
+    }
+  ]
+}

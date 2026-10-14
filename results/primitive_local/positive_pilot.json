@@ -1,0 +1,9 @@
+{
+  "cap_seconds": 120,
+  "estimate_seconds_5x": 19.31757312002883,
+  "memory_estimate_bytes": 100000000,
+  "pairs": 25,
+  "seconds": 0.032455600000048435,
+  "storage_estimate_bytes": 2000000,
+  "workers": 1
+}
