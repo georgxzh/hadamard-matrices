@@ -1,0 +1,8 @@
+{
+  "command": ".venv/Scripts/python.exe -m pytest tests/test_compression_residue.py -q -p no:cacheprovider --basetemp=tmp/pytest_compression_residue",
+  "date": "2026-10-15",
+  "exit_code": 0,
+  "passed": 4,
+  "pytest_reported_seconds": 0.22,
+  "notes": "One worker. The known Python launcher location diagnostic appeared. All assertions passed."
+}

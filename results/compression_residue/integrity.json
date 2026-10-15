@@ -1,0 +1,38 @@
+{
+  "base_commit": "aff70e5307492a65b61fddfabed92634edb6788f",
+  "baseline": {
+    "manuscript_sha256": "69e6f7555d5872d78924b60b56dfb494bd3c4c17f8d15899c492089ccc0536a6",
+    "paper_files": 5,
+    "result_files": 6748,
+    "result_ordered_path_sha256_digest": "f11be534f21d8ac9f8f6afd29dca2a89d8607d0812c4b58511e142f7383bb7ea",
+    "total_bytes": 57555136
+  },
+  "cap_seconds": 120,
+  "caps_hit": false,
+  "explanatory_empty_fiber_theorem_proved": false,
+  "git_blobs_match_except_preserved_legacy_crlf": [
+    {
+      "git_lf_sha256": "903bc91ca23e57e825930c2c3e991bd0c1b7cbd49fcafffcc970713ddfd11aef",
+      "local_sha256": "148e7a7fa395297efcde7389933dbec83fe6bdc10ef0e1aef691352e00189a1c",
+      "path": "results/projected_uncompression/p5_rank1_solver_probe.txt"
+    },
+    {
+      "git_lf_sha256": "a4992d4b690d5b65af450cc53f1580879a669ffdf121c5fb1da8615f71d6753c",
+      "local_sha256": "cea97bef562f89d2dc77729036b4c5bc7861072546dc97e0a3a6839391a6a605",
+      "path": "results/ternary_phase/p7_acquisition.json"
+    }
+  ],
+  "inherited_raw_aggregate_matches_frozen_record": true,
+  "manuscript_edited_or_compiled": false,
+  "memory_estimate_bytes": 100000000,
+  "no_inherited_tracked_file_changed": true,
+  "originality_established": false,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "preceding_manifests_checked": [
+    "primitive_local",
+    "residue_formula"
+  ],
+  "python": "3.14.6",
+  "seconds": 7.484776400000555,
+  "workers": 1
+}

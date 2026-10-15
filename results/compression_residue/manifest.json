@@ -1,0 +1,51 @@
+{
+  "algorithm": "sha256",
+  "base_commit": "aff70e5307492a65b61fddfabed92634edb6788f",
+  "files": [
+    {
+      "bytes": 22063,
+      "path": "research/compression_residue_coupling.md",
+      "sha256": "fc950f5f78d7ed00f75ba23900601d6fcec3aecaad2a2be606d12fa2cdc35d07"
+    },
+    {
+      "bytes": 281984,
+      "path": "results/compression_residue/audit.json",
+      "sha256": "b55f2c261abb480d501d5c89bc7b066efd2525579bc03e5cde7416c7b61b6432"
+    },
+    {
+      "bytes": 1449,
+      "path": "results/compression_residue/integrity.json",
+      "sha256": "2866a43d72f0c12847bedc1184dc5e4c529d4a9a2ae5dfbf087636bf3db91a9c"
+    },
+    {
+      "bytes": 210,
+      "path": "results/compression_residue/pilot.json",
+      "sha256": "4c5a3128d3384ffbddbbc717f16ec6aa0053b79444412891e2413fae2036bbf2"
+    },
+    {
+      "bytes": 350,
+      "path": "results/compression_residue/tests.json",
+      "sha256": "e0ba6a605373efef4385a814ee889acb0354285adc5105e3018a951d695ae704"
+    },
+    {
+      "bytes": 5774,
+      "path": "scripts/audit_compression_residue.py",
+      "sha256": "914e4ab03592c1204a89f10731dc4736e659d1986e49d56dabf3c485fa11872f"
+    },
+    {
+      "bytes": 3889,
+      "path": "scripts/compression_residue.py",
+      "sha256": "f6a5508fd3ddeead78be64520f5b1c997b375cd65ee6c2ae4fd27eb1e2f76744"
+    },
+    {
+      "bytes": 5130,
+      "path": "scripts/package_compression_residue.py",
+      "sha256": "895e6c165ce51f3deca493ea30ce9fcbe416c552ad7a7ef7c0f5f4b72d1ee1e3"
+    },
+    {
+      "bytes": 3633,
+      "path": "tests/test_compression_residue.py",
+      "sha256": "749062c0bb5c56ff3d13243f8586553af42b0f587e0482f68ef970a39428445a"
+    }
+  ]
+}
