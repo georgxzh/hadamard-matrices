@@ -1,0 +1,10 @@
+{
+  "cap_seconds": 120,
+  "estimated_memory_bytes": 100000000,
+  "estimated_new_storage_bytes": 200000,
+  "estimates_not_measurements": true,
+  "projected_seconds_5x": 1.8602324998937547,
+  "saved_points": 2,
+  "seconds": 0.012001499999314547,
+  "workers": 1
+}

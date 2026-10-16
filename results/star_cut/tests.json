@@ -1,0 +1,6 @@
+{
+  "command": ".venv/Scripts/python.exe -m pytest tests/test_star_cut.py -q -p no:cacheprovider --basetemp=tmp/pytest_star_cut",
+  "exit_code": 0,
+  "output": ".... [100%]\n4 passed in 0.10s\n",
+  "test_sha256": "3a88db15c6a9f5a5d95dd47ee4f787d2806e998d1d6f51e258cd260e3a9b5c3f"
+}
