@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-16",
+  "command": ".venv/Scripts/python.exe -m pytest tests/test_event_compression.py -q -p no:cacheprovider --basetemp=tmp/pytest_event_compression",
+  "exit_code": 0,
+  "passed": 5,
+  "pytest_reported_seconds": 0.13,
+  "workers": 1
+}

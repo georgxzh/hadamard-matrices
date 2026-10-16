@@ -1,0 +1,11 @@
+{
+  "cap_seconds": 120,
+  "estimate_seconds_5x": 9.397061000017857,
+  "expectation_rows": 6,
+  "memory_estimate_bytes": 150000000,
+  "products_checked": 324,
+  "saved_records": 2,
+  "seconds": 0.060626200000115205,
+  "storage_estimate_bytes": 3000000,
+  "workers": 1
+}
