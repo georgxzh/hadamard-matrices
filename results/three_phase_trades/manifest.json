@@ -1,0 +1,51 @@
+{
+  "algorithm": "sha256",
+  "base_commit": "f92a7b3740e4b301a9574b8ae7e61fd9c0dd7bac",
+  "files": [
+    {
+      "bytes": 23720,
+      "path": "research/three_phase_trades.md",
+      "sha256": "245a8b06c8d69522450d76530339a7268b682579ab2d3bc287cf8a0a0d412798"
+    },
+    {
+      "bytes": 154155,
+      "path": "results/three_phase_trades/audit.json",
+      "sha256": "b66857fcfdf85e28ce80335918ddd9b67a1c3b402314890542149944c2efaa0c"
+    },
+    {
+      "bytes": 1509,
+      "path": "results/three_phase_trades/integrity.json",
+      "sha256": "052bae617a219a59a68863c7523475775a7cb67cef053818a27edd9809409f12"
+    },
+    {
+      "bytes": 61395,
+      "path": "results/three_phase_trades/pilot.json",
+      "sha256": "9063049138c5a794d9a99a5990cc6050498e8de302cbdab5e3097f594af983e6"
+    },
+    {
+      "bytes": 254,
+      "path": "results/three_phase_trades/tests.json",
+      "sha256": "2f406a05a7098cd5d6a54dbdadf9eb9ab20c032c07ebb929c497dd2e8c2e1d99"
+    },
+    {
+      "bytes": 6856,
+      "path": "scripts/audit_three_phase_trades.py",
+      "sha256": "d137802cf01065317fe6b9d478a8861f75a1b78210f8f57e507e085134fd12fb"
+    },
+    {
+      "bytes": 4840,
+      "path": "scripts/package_three_phase_trades.py",
+      "sha256": "bda206d04a0a83da98891497d26a55aec9c79748ae7dff6949498568630d9c21"
+    },
+    {
+      "bytes": 3584,
+      "path": "scripts/three_phase_trades.py",
+      "sha256": "edc3536fa8af66b78474e2fb388148505430702d771edcbee194364eef46e26b"
+    },
+    {
+      "bytes": 3066,
+      "path": "tests/test_three_phase_trades.py",
+      "sha256": "7d5c68aebc1d37e745ba857dc4631f6866f6b605169cd80ef518710b2f04f573"
+    }
+  ]
+}
