@@ -1,0 +1,8173 @@
+{
+  "base_commit": "2b7e9c712c23cf859e1bd54146f8a39bc2424724",
+  "cap_seconds": 120,
+  "caps_hit": false,
+  "checks": [
+    {
+      "charge_fiber_counts": [
+        {
+          "count": 864,
+          "groups": [
+            {
+              "count": 8,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 2,
+              "positive_free": 2,
+              "residual": [
+                1,
+                -1,
+                0
+              ],
+              "residue": 0,
+              "side": 0
+            },
+            {
+              "count": 1,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 0,
+              "positive_free": 3,
+              "residual": [
+                3,
+                0,
+                0
+              ],
+              "residue": 1,
+              "side": 0
+            },
+            {
+              "count": 3,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 0,
+              "positive_free": 3,
+              "residual": [
+                0,
+                2,
+                1
+              ],
+              "residue": 2,
+              "side": 0
+            },
+            {
+              "count": 12,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 3,
+              "positive_free": 1,
+              "residual": [
+                -1,
+                0,
+                -1
+              ],
+              "residue": 0,
+              "side": 1
+            },
+            {
+              "count": 1,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 0,
+              "positive_free": 2,
+              "residual": [
+                0,
+                0,
+                2
+              ],
+              "residue": 1,
+              "side": 1
+            },
+            {
+              "count": 3,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 1,
+              "positive_free": 3,
+              "residual": [
+                -1,
+                2,
+                1
+              ],
+              "residue": 2,
+              "side": 1
+            }
+          ],
+          "scope": "All gauge-respecting assignments at M; no primitive-domain filtering."
+        },
+        {
+          "count": 360,
+          "groups": [
+            {
+              "count": 8,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 2,
+              "positive_free": 2,
+              "residual": [
+                1,
+                -1,
+                0
+              ],
+              "residue": 0,
+              "side": 0
+            },
+            {
+              "count": 1,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 0,
+              "positive_free": 3,
+              "residual": [
+                3,
+                0,
+                0
+              ],
+              "residue": 1,
+              "side": 0
+            },
+            {
+              "count": 3,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 0,
+              "positive_free": 3,
+              "residual": [
+                0,
+                2,
+                1
+              ],
+              "residue": 2,
+              "side": 0
+            },
+            {
+              "count": 5,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 2,
+              "positive_free": 1,
+              "residual": [
+                0,
+                0,
+                -1
+              ],
+              "residue": 0,
+              "side": 1
+            },
+            {
+              "count": 1,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 1,
+              "positive_free": 2,
+              "residual": [
+                -1,
+                0,
+                2
+              ],
+              "residue": 1,
+              "side": 1
+            },
+            {
+              "count": 3,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 1,
+              "positive_free": 3,
+              "residual": [
+                -1,
+                2,
+                1
+              ],
+              "residue": 2,
+              "side": 1
+            }
+          ],
+          "scope": "All gauge-respecting assignments at M; no primitive-domain filtering."
+        }
+      ],
+      "source": {
+        "B": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "F": [
+          [
+            0,
+            -2,
+            0,
+            -1,
+            0,
+            1,
+            -2,
+            1,
+            -1,
+            2,
+            0,
+            1,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            -1,
+            1,
+            0,
+            1,
+            -2,
+            1,
+            -1
+          ],
+          [
+            -1,
+            0,
+            -1,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            -2,
+            1,
+            -1,
+            0,
+            -1,
+            1,
+            0,
+            0,
+            -1,
+            -2,
+            1,
+            -1,
+            1,
+            -1,
+            0
+          ]
+        ],
+        "G": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "J": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "Q": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "S": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charges": [
+          {
+            "beta": [
+              -1,
+              1,
+              3
+            ],
+            "charges": [
+              [
+                0,
+                -1,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ],
+            "row": [
+              -1,
+              -3,
+              3,
+              1,
+              1,
+              -1,
+              -1,
+              1,
+              1
+            ]
+          },
+          {
+            "beta": [
+              -3,
+              1,
+              3
+            ],
+            "charges": [
+              [
+                -1,
+                0,
+                -1
+              ],
+              [
+                -1,
+                0,
+                2
+              ],
+              [
+                -1,
+                2,
+                1
+              ]
+            ],
+            "row": [
+              -1,
+              3,
+              5,
+              -3,
+              1,
+              -1,
+              -1,
+              -3,
+              1
+            ]
+          }
+        ],
+        "combined_PAF": [
+          90,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2
+        ],
+        "full_domain": true,
+        "masks": [
+          22487656929184,
+          11681458143385
+        ],
+        "phases": [
+          0,
+          0,
+          2,
+          0,
+          1,
+          0,
+          2,
+          0,
+          0,
+          1,
+          1,
+          2,
+          0,
+          2,
+          1,
+          2,
+          0,
+          0,
+          0,
+          0,
+          1,
+          2,
+          0
+        ],
+        "tensor": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "source_hypotheses": [
+        {
+          "at_most_five": true,
+          "group_sizes": [
+            5,
+            4,
+            3
+          ],
+          "thin_groups": [
+            {
+              "balanced_energy": 3,
+              "charges": [
+                0,
+                2,
+                1
+              ],
+              "energy": 5,
+              "positions": [
+                2,
+                5,
+                14
+              ],
+              "residue": 2,
+              "signs": [
+                1,
+                1,
+                1
+              ],
+              "uneven": true
+            }
+          ],
+          "uniform_structural_hypothesis": true
+        },
+        {
+          "at_most_five": true,
+          "group_sizes": [
+            4,
+            3,
+            4
+          ],
+          "thin_groups": [
+            {
+              "balanced_energy": 1,
+              "charges": [
+                -1,
+                0,
+                2
+              ],
+              "energy": 5,
+              "positions": [
+                1,
+                7,
+                13
+              ],
+              "residue": 1,
+              "signs": [
+                -1,
+                1,
+                1
+              ],
+              "uneven": true
+            }
+          ],
+          "uniform_structural_hypothesis": true
+        }
+      ],
+      "source_rank": 277,
+      "target": {
+        "B": [
+          0,
+          0,
+          -1,
+          1,
+          -1,
+          -1,
+          -1,
+          -3,
+          1,
+          0,
+          -2,
+          1,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          3,
+          1,
+          2,
+          2,
+          1,
+          3,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          1,
+          -2,
+          0,
+          1,
+          -3,
+          -1,
+          -1,
+          -1,
+          1,
+          -1,
+          0
+        ],
+        "F": [
+          [
+            0,
+            -2,
+            0,
+            -1,
+            0,
+            1,
+            -2,
+            1,
+            -1,
+            2,
+            0,
+            1,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            -1,
+            1,
+            0,
+            1,
+            -2,
+            1,
+            -1
+          ],
+          [
+            -2,
+            1,
+            -2,
+            1,
+            0,
+            1,
+            2,
+            0,
+            0,
+            -1,
+            1,
+            -1,
+            0,
+            -1,
+            2,
+            0,
+            0,
+            -2,
+            0,
+            0,
+            -1,
+            2,
+            -1,
+            1
+          ]
+        ],
+        "G": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "J": null,
+        "Q": [
+          1,
+          -3,
+          -4,
+          -4
+        ],
+        "S": [
+          -1,
+          -6,
+          -2,
+          4,
+          2,
+          2,
+          -2,
+          -2,
+          4,
+          0,
+          -7,
+          1,
+          0,
+          5,
+          1,
+          -2,
+          -4,
+          0,
+          2,
+          -3,
+          5,
+          2,
+          7,
+          6
+        ],
+        "charges": [
+          {
+            "beta": [
+              -1,
+              1,
+              3
+            ],
+            "charges": [
+              [
+                0,
+                -1,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ],
+            "row": [
+              -1,
+              -3,
+              3,
+              1,
+              1,
+              -1,
+              -1,
+              1,
+              1
+            ]
+          },
+          {
+            "beta": [
+              -3,
+              1,
+              3
+            ],
+            "charges": [
+              [
+                -1,
+                0,
+                -1
+              ],
+              [
+                -1,
+                0,
+                2
+              ],
+              [
+                -1,
+                2,
+                1
+              ]
+            ],
+            "row": [
+              -1,
+              3,
+              5,
+              -3,
+              1,
+              -1,
+              -1,
+              -3,
+              1
+            ]
+          }
+        ],
+        "combined_PAF": [
+          90,
+          -2,
+          -6,
+          2,
+          -6,
+          -6,
+          -6,
+          -14,
+          2,
+          -2,
+          -10,
+          2,
+          -6,
+          -2,
+          -2,
+          -2,
+          -2,
+          2,
+          -2,
+          -2,
+          10,
+          2,
+          6,
+          6,
+          2,
+          10,
+          -2,
+          -2,
+          2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -6,
+          2,
+          -10,
+          -2,
+          2,
+          -14,
+          -6,
+          -6,
+          -6,
+          2,
+          -6,
+          -2
+        ],
+        "full_domain": false,
+        "masks": [
+          22487656929184,
+          9405125214970
+        ],
+        "phases": [
+          0,
+          0,
+          2,
+          0,
+          1,
+          0,
+          2,
+          0,
+          0,
+          1,
+          1,
+          2,
+          0,
+          2,
+          2,
+          1,
+          1,
+          2,
+          0,
+          1,
+          1,
+          2,
+          0
+        ],
+        "tensor": [
+          [
+            -1,
+            1,
+            -2,
+            -2,
+            5,
+            2
+          ],
+          [
+            -2,
+            -1,
+            -1,
+            -4,
+            1,
+            -2
+          ],
+          [
+            0,
+            -1,
+            -2,
+            0,
+            -2,
+            -7
+          ],
+          [
+            -2,
+            1,
+            0,
+            -4,
+            -4,
+            -3
+          ]
+        ]
+      },
+      "target_hypotheses": [
+        {
+          "at_most_five": true,
+          "group_sizes": [
+            5,
+            4,
+            3
+          ],
+          "thin_groups": [
+            {
+              "balanced_energy": 3,
+              "charges": [
+                0,
+                2,
+                1
+              ],
+              "energy": 5,
+              "positions": [
+                2,
+                5,
+                14
+              ],
+              "residue": 2,
+              "signs": [
+                1,
+                1,
+                1
+              ],
+              "uneven": true
+            }
+          ],
+          "uniform_structural_hypothesis": true
+        },
+        {
+          "at_most_five": true,
+          "group_sizes": [
+            4,
+            3,
+            4
+          ],
+          "thin_groups": [
+            {
+              "balanced_energy": 1,
+              "charges": [
+                -1,
+                0,
+                2
+              ],
+              "energy": 5,
+              "positions": [
+                4,
+                7,
+                13
+              ],
+              "residue": 1,
+              "signs": [
+                -1,
+                1,
+                1
+              ],
+              "uneven": true
+            }
+          ],
+          "uniform_structural_hypothesis": true
+        }
+      ],
+      "target_rank": 279,
+      "transport": {
+        "anchor_subtracted": 0,
+        "before_anchor_normalization": [
+          0,
+          0,
+          2,
+          0,
+          1,
+          0,
+          2,
+          0,
+          0,
+          1,
+          1,
+          2,
+          0,
+          2,
+          2,
+          1,
+          1,
+          2,
+          0,
+          1,
+          1,
+          2,
+          0
+        ],
+        "compressed_row_shift_mod9": 0,
+        "mapping": [
+          {
+            "integer_displacement": 18,
+            "k_mod5": 2,
+            "new": 4,
+            "nu": 1,
+            "old": 1,
+            "sign": -1
+          },
+          {
+            "integer_displacement": 0,
+            "k_mod5": 0,
+            "new": 2,
+            "nu": 0,
+            "old": 2,
+            "sign": 1
+          },
+          {
+            "integer_displacement": 27,
+            "k_mod5": 3,
+            "new": 0,
+            "nu": 2,
+            "old": 3,
+            "sign": -1
+          },
+          {
+            "integer_displacement": 36,
+            "k_mod5": 4,
+            "new": 11,
+            "nu": 2,
+            "old": 5,
+            "sign": 1
+          },
+          {
+            "integer_displacement": 27,
+            "k_mod5": 3,
+            "new": 3,
+            "nu": 2,
+            "old": 6,
+            "sign": -1
+          },
+          {
+            "integer_displacement": 0,
+            "k_mod5": 0,
+            "new": 7,
+            "nu": 0,
+            "old": 7,
+            "sign": 1
+          },
+          {
+            "integer_displacement": 27,
+            "k_mod5": 3,
+            "new": 6,
+            "nu": 2,
+            "old": 9,
+            "sign": -1
+          },
+          {
+            "integer_displacement": 9,
+            "k_mod5": 1,
+            "new": 5,
+            "nu": 1,
+            "old": 11,
+            "sign": -1
+          },
+          {
+            "integer_displacement": 0,
+            "k_mod5": 0,
+            "new": 12,
+            "nu": 0,
+            "old": 12,
+            "sign": 1
+          },
+          {
+            "integer_displacement": 0,
+            "k_mod5": 0,
+            "new": 13,
+            "nu": 0,
+            "old": 13,
+            "sign": 1
+          },
+          {
+            "integer_displacement": 0,
+            "k_mod5": 0,
+            "new": 14,
+            "nu": 0,
+            "old": 14,
+            "sign": 1
+          }
+        ],
+        "phases": [
+          0,
+          0,
+          2,
+          0,
+          1,
+          0,
+          2,
+          0,
+          0,
+          1,
+          1,
+          2,
+          0,
+          2,
+          2,
+          1,
+          1,
+          2,
+          0,
+          1,
+          1,
+          2,
+          0
+        ]
+      }
+    },
+    {
+      "charge_fiber_counts": [
+        {
+          "count": 10368,
+          "groups": [
+            {
+              "count": 8,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 2,
+              "positive_free": 2,
+              "residual": [
+                -1,
+                1,
+                0
+              ],
+              "residue": 0,
+              "side": 0
+            },
+            {
+              "count": 3,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 0,
+              "positive_free": 3,
+              "residual": [
+                1,
+                2,
+                0
+              ],
+              "residue": 1,
+              "side": 0
+            },
+            {
+              "count": 6,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 0,
+              "positive_free": 3,
+              "residual": [
+                1,
+                1,
+                1
+              ],
+              "residue": 2,
+              "side": 0
+            },
+            {
+              "count": 12,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 3,
+              "positive_free": 1,
+              "residual": [
+                0,
+                -1,
+                -1
+              ],
+              "residue": 0,
+              "side": 1
+            },
+            {
+              "count": 2,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 0,
+              "positive_free": 2,
+              "residual": [
+                0,
+                1,
+                1
+              ],
+              "residue": 1,
+              "side": 1
+            },
+            {
+              "count": 3,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 1,
+              "positive_free": 3,
+              "residual": [
+                -1,
+                1,
+                2
+              ],
+              "residue": 2,
+              "side": 1
+            }
+          ],
+          "scope": "All gauge-respecting assignments at M; no primitive-domain filtering."
+        },
+        {
+          "count": 1728,
+          "groups": [
+            {
+              "count": 8,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 2,
+              "positive_free": 2,
+              "residual": [
+                -1,
+                1,
+                0
+              ],
+              "residue": 0,
+              "side": 0
+            },
+            {
+              "count": 3,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 0,
+              "positive_free": 3,
+              "residual": [
+                1,
+                2,
+                0
+              ],
+              "residue": 1,
+              "side": 0
+            },
+            {
+              "count": 6,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 0,
+              "positive_free": 3,
+              "residual": [
+                1,
+                1,
+                1
+              ],
+              "residue": 2,
+              "side": 0
+            },
+            {
+              "count": 2,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 2,
+              "positive_free": 1,
+              "residual": [
+                1,
+                -1,
+                -1
+              ],
+              "residue": 0,
+              "side": 1
+            },
+            {
+              "count": 2,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 1,
+              "positive_free": 2,
+              "residual": [
+                -1,
+                1,
+                1
+              ],
+              "residue": 1,
+              "side": 1
+            },
+            {
+              "count": 3,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 1,
+              "positive_free": 3,
+              "residual": [
+                -1,
+                1,
+                2
+              ],
+              "residue": 2,
+              "side": 1
+            }
+          ],
+          "scope": "All gauge-respecting assignments at M; no primitive-domain filtering."
+        }
+      ],
+      "source": {
+        "B": [
+          0,
+          0,
+          -3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -3,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          -3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -3,
+          0
+        ],
+        "F": [
+          [
+            -1,
+            -1,
+            0,
+            -1,
+            1,
+            0,
+            2,
+            0,
+            -1,
+            -1,
+            1,
+            1,
+            0,
+            1,
+            -1,
+            1,
+            0,
+            -1,
+            -2,
+            0,
+            2,
+            0,
+            0,
+            -1
+          ],
+          [
+            -2,
+            -1,
+            0,
+            1,
+            0,
+            -1,
+            0,
+            1,
+            -1,
+            -1,
+            0,
+            0,
+            1,
+            1,
+            -1,
+            -1,
+            0,
+            -1,
+            -2,
+            0,
+            0,
+            2,
+            0,
+            -1
+          ]
+        ],
+        "G": [
+          0,
+          6,
+          -3,
+          0,
+          -3,
+          -3,
+          0,
+          -3,
+          6
+        ],
+        "J": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "Q": [
+          0,
+          0,
+          -6,
+          3
+        ],
+        "S": [
+          0,
+          -9,
+          0,
+          0,
+          0,
+          0,
+          0,
+          9,
+          0,
+          0,
+          -9,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          9,
+          0,
+          -9,
+          0,
+          0,
+          9,
+          0
+        ],
+        "charges": [
+          {
+            "beta": [
+              -1,
+              1,
+              3
+            ],
+            "charges": [
+              [
+                -2,
+                1,
+                0
+              ],
+              [
+                0,
+                2,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ]
+            ],
+            "row": [
+              3,
+              1,
+              1,
+              -3,
+              -3,
+              1,
+              -1,
+              1,
+              1
+            ]
+          },
+          {
+            "beta": [
+              -3,
+              1,
+              3
+            ],
+            "charges": [
+              [
+                0,
+                -1,
+                -1
+              ],
+              [
+                -1,
+                1,
+                1
+              ],
+              [
+                -1,
+                1,
+                2
+              ]
+            ],
+            "row": [
+              -3,
+              3,
+              5,
+              -1,
+              -1,
+              1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        ],
+        "combined_PAF": [
+          90,
+          -2,
+          -14,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -14,
+          -2,
+          -2,
+          -2,
+          22,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          22,
+          -2,
+          -2,
+          -2,
+          -14,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -14,
+          -2
+        ],
+        "full_domain": true,
+        "masks": [
+          18570512807384,
+          19927795344025
+        ],
+        "phases": [
+          0,
+          0,
+          2,
+          1,
+          0,
+          1,
+          0,
+          2,
+          0,
+          2,
+          0,
+          2,
+          0,
+          2,
+          1,
+          2,
+          0,
+          0,
+          2,
+          0,
+          1,
+          0,
+          2
+        ],
+        "tensor": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            -9,
+            0,
+            0,
+            -9,
+            0
+          ],
+          [
+            0,
+            0,
+            9,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "source_hypotheses": [
+        {
+          "at_most_five": true,
+          "group_sizes": [
+            5,
+            4,
+            3
+          ],
+          "thin_groups": [
+            {
+              "balanced_energy": 3,
+              "charges": [
+                1,
+                1,
+                1
+              ],
+              "energy": 3,
+              "positions": [
+                2,
+                5,
+                14
+              ],
+              "residue": 2,
+              "signs": [
+                1,
+                1,
+                1
+              ],
+              "uneven": false
+            }
+          ],
+          "uniform_structural_hypothesis": false
+        },
+        {
+          "at_most_five": true,
+          "group_sizes": [
+            4,
+            3,
+            4
+          ],
+          "thin_groups": [
+            {
+              "balanced_energy": 1,
+              "charges": [
+                -1,
+                1,
+                1
+              ],
+              "energy": 3,
+              "positions": [
+                1,
+                7,
+                13
+              ],
+              "residue": 1,
+              "signs": [
+                -1,
+                1,
+                1
+              ],
+              "uneven": true
+            }
+          ],
+          "uniform_structural_hypothesis": true
+        }
+      ],
+      "source_rank": 277,
+      "target": {
+        "B": [
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          -2,
+          -1,
+          0,
+          0,
+          0,
+          -2,
+          1,
+          -4,
+          0,
+          0,
+          0,
+          4,
+          0,
+          2,
+          0,
+          2,
+          1,
+          1,
+          2,
+          0,
+          2,
+          0,
+          4,
+          0,
+          0,
+          0,
+          -4,
+          1,
+          -2,
+          0,
+          0,
+          0,
+          -1,
+          -2,
+          0,
+          0,
+          -1,
+          0,
+          0
+        ],
+        "F": [
+          [
+            -1,
+            -1,
+            0,
+            -1,
+            1,
+            0,
+            2,
+            0,
+            -1,
+            -1,
+            1,
+            1,
+            0,
+            1,
+            -1,
+            1,
+            0,
+            -1,
+            -2,
+            0,
+            2,
+            0,
+            0,
+            -1
+          ],
+          [
+            -2,
+            0,
+            -1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            -2,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "G": [
+          0,
+          6,
+          -3,
+          0,
+          -3,
+          -3,
+          0,
+          -3,
+          6
+        ],
+        "J": null,
+        "Q": [
+          -2,
+          -6,
+          -8,
+          3
+        ],
+        "S": [
+          -5,
+          -4,
+          2,
+          2,
+          2,
+          2,
+          -1,
+          3,
+          1,
+          -3,
+          -4,
+          -4,
+          6,
+          -4,
+          2,
+          -4,
+          0,
+          6,
+          -2,
+          0,
+          0,
+          7,
+          5,
+          4
+        ],
+        "charges": [
+          {
+            "beta": [
+              -1,
+              1,
+              3
+            ],
+            "charges": [
+              [
+                -2,
+                1,
+                0
+              ],
+              [
+                0,
+                2,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ]
+            ],
+            "row": [
+              3,
+              1,
+              1,
+              -3,
+              -3,
+              1,
+              -1,
+              1,
+              1
+            ]
+          },
+          {
+            "beta": [
+              -3,
+              1,
+              3
+            ],
+            "charges": [
+              [
+                0,
+                -1,
+                -1
+              ],
+              [
+                -1,
+                1,
+                1
+              ],
+              [
+                -1,
+                1,
+                2
+              ]
+            ],
+            "row": [
+              -3,
+              3,
+              5,
+              -1,
+              -1,
+              1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        ],
+        "combined_PAF": [
+          90,
+          -2,
+          -2,
+          -6,
+          -2,
+          -2,
+          -10,
+          -6,
+          -2,
+          -2,
+          -2,
+          -10,
+          2,
+          -18,
+          -2,
+          -2,
+          -2,
+          14,
+          -2,
+          6,
+          -2,
+          6,
+          2,
+          2,
+          6,
+          -2,
+          6,
+          -2,
+          14,
+          -2,
+          -2,
+          -2,
+          -18,
+          2,
+          -10,
+          -2,
+          -2,
+          -2,
+          -6,
+          -10,
+          -2,
+          -2,
+          -6,
+          -2,
+          -2
+        ],
+        "full_domain": false,
+        "masks": [
+          18570512807384,
+          18269935608570
+        ],
+        "phases": [
+          0,
+          0,
+          2,
+          1,
+          0,
+          1,
+          0,
+          2,
+          0,
+          2,
+          0,
+          2,
+          0,
+          2,
+          2,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          2
+        ],
+        "tensor": [
+          [
+            -2,
+            0,
+            -2,
+            -4,
+            0,
+            2
+          ],
+          [
+            -4,
+            -2,
+            -2,
+            -8,
+            -4,
+            2
+          ],
+          [
+            -3,
+            -8,
+            -3,
+            -6,
+            -4,
+            0
+          ],
+          [
+            -1,
+            1,
+            6,
+            -2,
+            -1,
+            6
+          ]
+        ]
+      },
+      "target_hypotheses": [
+        {
+          "at_most_five": true,
+          "group_sizes": [
+            5,
+            4,
+            3
+          ],
+          "thin_groups": [
+            {
+              "balanced_energy": 3,
+              "charges": [
+                1,
+                1,
+                1
+              ],
+              "energy": 3,
+              "positions": [
+                2,
+                5,
+                14
+              ],
+              "residue": 2,
+              "signs": [
+                1,
+                1,
+                1
+              ],
+              "uneven": false
+            }
+          ],
+          "uniform_structural_hypothesis": false
+        },
+        {
+          "at_most_five": true,
+          "group_sizes": [
+            4,
+            3,
+            4
+          ],
+          "thin_groups": [
+            {
+              "balanced_energy": 1,
+              "charges": [
+                -1,
+                1,
+                1
+              ],
+              "energy": 3,
+              "positions": [
+                4,
+                7,
+                13
+              ],
+              "residue": 1,
+              "signs": [
+                -1,
+                1,
+                1
+              ],
+              "uneven": true
+            }
+          ],
+          "uniform_structural_hypothesis": true
+        }
+      ],
+      "target_rank": 279,
+      "transport": {
+        "anchor_subtracted": 0,
+        "before_anchor_normalization": [
+          0,
+          0,
+          2,
+          1,
+          0,
+          1,
+          0,
+          2,
+          0,
+          2,
+          0,
+          2,
+          0,
+          2,
+          2,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          2
+        ],
+        "compressed_row_shift_mod9": 0,
+        "mapping": [
+          {
+            "integer_displacement": 18,
+            "k_mod5": 2,
+            "new": 4,
+            "nu": 1,
+            "old": 1,
+            "sign": -1
+          },
+          {
+            "integer_displacement": 0,
+            "k_mod5": 0,
+            "new": 2,
+            "nu": 0,
+            "old": 2,
+            "sign": 1
+          },
+          {
+            "integer_displacement": 27,
+            "k_mod5": 3,
+            "new": 0,
+            "nu": 2,
+            "old": 3,
+            "sign": -1
+          },
+          {
+            "integer_displacement": 36,
+            "k_mod5": 4,
+            "new": 11,
+            "nu": 2,
+            "old": 5,
+            "sign": 1
+          },
+          {
+            "integer_displacement": 27,
+            "k_mod5": 3,
+            "new": 3,
+            "nu": 2,
+            "old": 6,
+            "sign": -1
+          },
+          {
+            "integer_displacement": 0,
+            "k_mod5": 0,
+            "new": 7,
+            "nu": 0,
+            "old": 7,
+            "sign": 1
+          },
+          {
+            "integer_displacement": 27,
+            "k_mod5": 3,
+            "new": 6,
+            "nu": 2,
+            "old": 9,
+            "sign": -1
+          },
+          {
+            "integer_displacement": 9,
+            "k_mod5": 1,
+            "new": 5,
+            "nu": 1,
+            "old": 11,
+            "sign": -1
+          },
+          {
+            "integer_displacement": 0,
+            "k_mod5": 0,
+            "new": 12,
+            "nu": 0,
+            "old": 12,
+            "sign": 1
+          },
+          {
+            "integer_displacement": 0,
+            "k_mod5": 0,
+            "new": 13,
+            "nu": 0,
+            "old": 13,
+            "sign": 1
+          },
+          {
+            "integer_displacement": 0,
+            "k_mod5": 0,
+            "new": 14,
+            "nu": 0,
+            "old": 14,
+            "sign": 1
+          }
+        ],
+        "phases": [
+          0,
+          0,
+          2,
+          1,
+          0,
+          1,
+          0,
+          2,
+          0,
+          2,
+          0,
+          2,
+          0,
+          2,
+          2,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "charge_fiber_counts": [
+        {
+          "count": 6300,
+          "groups": [
+            {
+              "count": 2,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 2,
+              "positive_free": 2,
+              "residual": [
+                -1,
+                -1,
+                2
+              ],
+              "residue": 0,
+              "side": 0
+            },
+            {
+              "count": 3,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 0,
+              "positive_free": 3,
+              "residual": [
+                1,
+                0,
+                2
+              ],
+              "residue": 1,
+              "side": 0
+            },
+            {
+              "count": 6,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 0,
+              "positive_free": 3,
+              "residual": [
+                1,
+                1,
+                1
+              ],
+              "residue": 2,
+              "side": 0
+            },
+            {
+              "count": 5,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 2,
+              "positive_free": 1,
+              "residual": [
+                0,
+                0,
+                -1
+              ],
+              "residue": 0,
+              "side": 1
+            },
+            {
+              "count": 5,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 1,
+              "positive_free": 2,
+              "residual": [
+                0,
+                1,
+                0
+              ],
+              "residue": 1,
+              "side": 1
+            },
+            {
+              "count": 7,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 1,
+              "positive_free": 3,
+              "residual": [
+                0,
+                2,
+                0
+              ],
+              "residue": 2,
+              "side": 1
+            }
+          ],
+          "scope": "All gauge-respecting assignments at M; no primitive-domain filtering."
+        },
+        {
+          "count": 6048,
+          "groups": [
+            {
+              "count": 2,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 2,
+              "positive_free": 2,
+              "residual": [
+                -1,
+                -1,
+                2
+              ],
+              "residue": 0,
+              "side": 0
+            },
+            {
+              "count": 3,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 0,
+              "positive_free": 3,
+              "residual": [
+                1,
+                0,
+                2
+              ],
+              "residue": 1,
+              "side": 0
+            },
+            {
+              "count": 6,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 0,
+              "positive_free": 3,
+              "residual": [
+                1,
+                1,
+                1
+              ],
+              "residue": 2,
+              "side": 0
+            },
+            {
+              "count": 12,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 3,
+              "positive_free": 1,
+              "residual": [
+                -1,
+                0,
+                -1
+              ],
+              "residue": 0,
+              "side": 1
+            },
+            {
+              "count": 2,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 0,
+              "positive_free": 2,
+              "residual": [
+                1,
+                1,
+                0
+              ],
+              "residue": 1,
+              "side": 1
+            },
+            {
+              "count": 7,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 1,
+              "positive_free": 3,
+              "residual": [
+                0,
+                2,
+                0
+              ],
+              "residue": 2,
+              "side": 1
+            }
+          ],
+          "scope": "All gauge-respecting assignments at M; no primitive-domain filtering."
+        }
+      ],
+      "source": {
+        "B": [
+          0,
+          0,
+          -3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -3,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          -3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -3,
+          0
+        ],
+        "F": [
+          [
+            -2,
+            -1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            -1,
+            0,
+            1,
+            0,
+            0,
+            -1,
+            -1,
+            -1,
+            0,
+            -1,
+            2,
+            1,
+            1,
+            0,
+            -1
+          ],
+          [
+            -2,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            -1,
+            -1,
+            0,
+            1,
+            0,
+            1,
+            -2,
+            0,
+            0,
+            0,
+            -2,
+            -1,
+            2,
+            1,
+            -1,
+            -2
+          ]
+        ],
+        "G": [
+          0,
+          6,
+          -3,
+          0,
+          -3,
+          -3,
+          0,
+          -3,
+          6
+        ],
+        "J": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "Q": [
+          0,
+          0,
+          -6,
+          3
+        ],
+        "S": [
+          0,
+          -9,
+          0,
+          0,
+          0,
+          0,
+          0,
+          9,
+          0,
+          0,
+          -9,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          9,
+          0,
+          -9,
+          0,
+          0,
+          9,
+          0
+        ],
+        "charges": [
+          {
+            "beta": [
+              -1,
+              1,
+              3
+            ],
+            "charges": [
+              [
+                -2,
+                -1,
+                2
+              ],
+              [
+                0,
+                0,
+                2
+              ],
+              [
+                1,
+                1,
+                1
+              ]
+            ],
+            "row": [
+              3,
+              1,
+              1,
+              1,
+              1,
+              1,
+              -5,
+              -3,
+              1
+            ]
+          },
+          {
+            "beta": [
+              -3,
+              1,
+              3
+            ],
+            "charges": [
+              [
+                -1,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                2,
+                0
+              ]
+            ],
+            "row": [
+              -1,
+              1,
+              3,
+              -3,
+              -1,
+              -1,
+              -1,
+              1,
+              3
+            ]
+          }
+        ],
+        "combined_PAF": [
+          90,
+          -2,
+          -14,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -14,
+          -2,
+          -2,
+          -2,
+          22,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          22,
+          -2,
+          -2,
+          -2,
+          -14,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -14,
+          -2
+        ],
+        "full_domain": true,
+        "masks": [
+          31210651353580,
+          20580563788346
+        ],
+        "phases": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          2,
+          2,
+          0,
+          2,
+          1,
+          1,
+          2,
+          0,
+          2,
+          2,
+          1,
+          0,
+          2
+        ],
+        "tensor": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            -9,
+            0,
+            0,
+            -9,
+            0
+          ],
+          [
+            0,
+            0,
+            9,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "source_hypotheses": [
+        {
+          "at_most_five": true,
+          "group_sizes": [
+            5,
+            4,
+            3
+          ],
+          "thin_groups": [
+            {
+              "balanced_energy": 3,
+              "charges": [
+                1,
+                1,
+                1
+              ],
+              "energy": 3,
+              "positions": [
+                2,
+                5,
+                14
+              ],
+              "residue": 2,
+              "signs": [
+                1,
+                1,
+                1
+              ],
+              "uneven": false
+            }
+          ],
+          "uniform_structural_hypothesis": false
+        },
+        {
+          "at_most_five": true,
+          "group_sizes": [
+            4,
+            3,
+            4
+          ],
+          "thin_groups": [
+            {
+              "balanced_energy": 1,
+              "charges": [
+                0,
+                1,
+                0
+              ],
+              "energy": 1,
+              "positions": [
+                4,
+                7,
+                13
+              ],
+              "residue": 1,
+              "signs": [
+                -1,
+                1,
+                1
+              ],
+              "uneven": false
+            }
+          ],
+          "uniform_structural_hypothesis": false
+        }
+      ],
+      "source_rank": 279,
+      "target": {
+        "B": [
+          0,
+          0,
+          -2,
+          -1,
+          0,
+          -1,
+          2,
+          -1,
+          0,
+          -2,
+          1,
+          0,
+          -1,
+          -3,
+          0,
+          0,
+          0,
+          5,
+          2,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          2,
+          5,
+          0,
+          0,
+          0,
+          -3,
+          -1,
+          0,
+          1,
+          -2,
+          0,
+          -1,
+          2,
+          -1,
+          0,
+          -1,
+          -2,
+          0
+        ],
+        "F": [
+          [
+            -2,
+            -1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            -1,
+            0,
+            1,
+            0,
+            0,
+            -1,
+            -1,
+            -1,
+            0,
+            -1,
+            2,
+            1,
+            1,
+            0,
+            -1
+          ],
+          [
+            0,
+            -1,
+            1,
+            -1,
+            0,
+            0,
+            2,
+            -1,
+            -1,
+            0,
+            0,
+            2,
+            -1,
+            1,
+            -2,
+            1,
+            0,
+            0,
+            -2,
+            0,
+            1,
+            1,
+            -1,
+            -2
+          ]
+        ],
+        "G": [
+          0,
+          6,
+          -3,
+          0,
+          -3,
+          -3,
+          0,
+          -3,
+          6
+        ],
+        "J": null,
+        "Q": [
+          2,
+          2,
+          -3,
+          6
+        ],
+        "S": [
+          -1,
+          -8,
+          1,
+          -2,
+          1,
+          -2,
+          7,
+          6,
+          1,
+          -5,
+          -6,
+          0,
+          -2,
+          0,
+          0,
+          2,
+          -1,
+          8,
+          0,
+          -7,
+          -1,
+          3,
+          9,
+          2
+        ],
+        "charges": [
+          {
+            "beta": [
+              -1,
+              1,
+              3
+            ],
+            "charges": [
+              [
+                -2,
+                -1,
+                2
+              ],
+              [
+                0,
+                0,
+                2
+              ],
+              [
+                1,
+                1,
+                1
+              ]
+            ],
+            "row": [
+              3,
+              1,
+              1,
+              1,
+              1,
+              1,
+              -5,
+              -3,
+              1
+            ]
+          },
+          {
+            "beta": [
+              -3,
+              1,
+              3
+            ],
+            "charges": [
+              [
+                -1,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                2,
+                0
+              ]
+            ],
+            "row": [
+              -1,
+              1,
+              3,
+              -3,
+              -1,
+              -1,
+              -1,
+              1,
+              3
+            ]
+          }
+        ],
+        "combined_PAF": [
+          90,
+          -2,
+          -10,
+          -6,
+          -2,
+          -6,
+          6,
+          -6,
+          -2,
+          -10,
+          2,
+          -2,
+          -6,
+          -14,
+          -2,
+          -2,
+          -2,
+          18,
+          6,
+          -2,
+          -2,
+          -2,
+          2,
+          2,
+          -2,
+          -2,
+          -2,
+          6,
+          18,
+          -2,
+          -2,
+          -2,
+          -14,
+          -6,
+          -2,
+          2,
+          -10,
+          -2,
+          -6,
+          6,
+          -6,
+          -2,
+          -6,
+          -10,
+          -2
+        ],
+        "full_domain": false,
+        "masks": [
+          31210651353580,
+          20511827012217
+        ],
+        "phases": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          2,
+          2,
+          0,
+          2,
+          1,
+          0,
+          2,
+          2,
+          1,
+          1,
+          1,
+          0,
+          2
+        ],
+        "tensor": [
+          [
+            4,
+            -2,
+            2,
+            2,
+            -1,
+            1
+          ],
+          [
+            2,
+            0,
+            0,
+            4,
+            0,
+            0
+          ],
+          [
+            7,
+            -8,
+            -1,
+            2,
+            -7,
+            -2
+          ],
+          [
+            7,
+            1,
+            8,
+            2,
+            -1,
+            1
+          ]
+        ]
+      },
+      "target_hypotheses": [
+        {
+          "at_most_five": true,
+          "group_sizes": [
+            5,
+            4,
+            3
+          ],
+          "thin_groups": [
+            {
+              "balanced_energy": 3,
+              "charges": [
+                1,
+                1,
+                1
+              ],
+              "energy": 3,
+              "positions": [
+                2,
+                5,
+                14
+              ],
+              "residue": 2,
+              "signs": [
+                1,
+                1,
+                1
+              ],
+              "uneven": false
+            }
+          ],
+          "uniform_structural_hypothesis": false
+        },
+        {
+          "at_most_five": true,
+          "group_sizes": [
+            4,
+            3,
+            4
+          ],
+          "thin_groups": [
+            {
+              "balanced_energy": 1,
+              "charges": [
+                0,
+                1,
+                0
+              ],
+              "energy": 1,
+              "positions": [
+                1,
+                7,
+                13
+              ],
+              "residue": 1,
+              "signs": [
+                -1,
+                1,
+                1
+              ],
+              "uneven": false
+            }
+          ],
+          "uniform_structural_hypothesis": false
+        }
+      ],
+      "target_rank": 277,
+      "transport": {
+        "anchor_subtracted": 0,
+        "before_anchor_normalization": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          2,
+          2,
+          0,
+          2,
+          1,
+          0,
+          2,
+          2,
+          1,
+          1,
+          1,
+          0,
+          2
+        ],
+        "compressed_row_shift_mod9": 0,
+        "mapping": [
+          {
+            "integer_displacement": 18,
+            "k_mod5": 2,
+            "new": 3,
+            "nu": 1,
+            "old": 0,
+            "sign": -1
+          },
+          {
+            "integer_displacement": 0,
+            "k_mod5": 0,
+            "new": 2,
+            "nu": 0,
+            "old": 2,
+            "sign": 1
+          },
+          {
+            "integer_displacement": 18,
+            "k_mod5": 2,
+            "new": 6,
+            "nu": 1,
+            "old": 3,
+            "sign": -1
+          },
+          {
+            "integer_displacement": 27,
+            "k_mod5": 3,
+            "new": 1,
+            "nu": 2,
+            "old": 4,
+            "sign": -1
+          },
+          {
+            "integer_displacement": 36,
+            "k_mod5": 4,
+            "new": 11,
+            "nu": 2,
+            "old": 5,
+            "sign": -1
+          },
+          {
+            "integer_displacement": 18,
+            "k_mod5": 2,
+            "new": 9,
+            "nu": 1,
+            "old": 6,
+            "sign": -1
+          },
+          {
+            "integer_displacement": 0,
+            "k_mod5": 0,
+            "new": 7,
+            "nu": 0,
+            "old": 7,
+            "sign": 1
+          },
+          {
+            "integer_displacement": 9,
+            "k_mod5": 1,
+            "new": 5,
+            "nu": 1,
+            "old": 11,
+            "sign": 1
+          },
+          {
+            "integer_displacement": 0,
+            "k_mod5": 0,
+            "new": 12,
+            "nu": 0,
+            "old": 12,
+            "sign": 1
+          },
+          {
+            "integer_displacement": 0,
+            "k_mod5": 0,
+            "new": 13,
+            "nu": 0,
+            "old": 13,
+            "sign": 1
+          },
+          {
+            "integer_displacement": 0,
+            "k_mod5": 0,
+            "new": 14,
+            "nu": 0,
+            "old": 14,
+            "sign": 1
+          }
+        ],
+        "phases": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          2,
+          2,
+          0,
+          2,
+          1,
+          0,
+          2,
+          2,
+          1,
+          1,
+          1,
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "charge_fiber_counts": [
+        {
+          "count": 720,
+          "groups": [
+            {
+              "count": 2,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 2,
+              "positive_free": 2,
+              "residual": [
+                1,
+                1,
+                -2
+              ],
+              "residue": 0,
+              "side": 0
+            },
+            {
+              "count": 3,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 0,
+              "positive_free": 3,
+              "residual": [
+                0,
+                2,
+                1
+              ],
+              "residue": 1,
+              "side": 0
+            },
+            {
+              "count": 1,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 0,
+              "positive_free": 3,
+              "residual": [
+                3,
+                0,
+                0
+              ],
+              "residue": 2,
+              "side": 0
+            },
+            {
+              "count": 2,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 2,
+              "positive_free": 1,
+              "residual": [
+                -1,
+                1,
+                -1
+              ],
+              "residue": 0,
+              "side": 1
+            },
+            {
+              "count": 5,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 1,
+              "positive_free": 2,
+              "residual": [
+                0,
+                0,
+                1
+              ],
+              "residue": 1,
+              "side": 1
+            },
+            {
+              "count": 12,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 1,
+              "positive_free": 3,
+              "residual": [
+                1,
+                1,
+                0
+              ],
+              "residue": 2,
+              "side": 1
+            }
+          ],
+          "scope": "All gauge-respecting assignments at M; no primitive-domain filtering."
+        },
+        {
+          "count": 432,
+          "groups": [
+            {
+              "count": 2,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 2,
+              "positive_free": 2,
+              "residual": [
+                1,
+                1,
+                -2
+              ],
+              "residue": 0,
+              "side": 0
+            },
+            {
+              "count": 3,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 0,
+              "positive_free": 3,
+              "residual": [
+                0,
+                2,
+                1
+              ],
+              "residue": 1,
+              "side": 0
+            },
+            {
+              "count": 1,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 0,
+              "positive_free": 3,
+              "residual": [
+                3,
+                0,
+                0
+              ],
+              "residue": 2,
+              "side": 0
+            },
+            {
+              "count": 3,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 3,
+              "positive_free": 1,
+              "residual": [
+                -2,
+                1,
+                -1
+              ],
+              "residue": 0,
+              "side": 1
+            },
+            {
+              "count": 2,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 0,
+              "positive_free": 2,
+              "residual": [
+                1,
+                0,
+                1
+              ],
+              "residue": 1,
+              "side": 1
+            },
+            {
+              "count": 12,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 1,
+              "positive_free": 3,
+              "residual": [
+                1,
+                1,
+                0
+              ],
+              "residue": 2,
+              "side": 1
+            }
+          ],
+          "scope": "All gauge-respecting assignments at M; no primitive-domain filtering."
+        }
+      ],
+      "source": {
+        "B": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -6,
+          0,
+          0,
+          -6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "F": [
+          [
+            -2,
+            -2,
+            0,
+            1,
+            2,
+            0,
+            1,
+            0,
+            1,
+            0,
+            -1,
+            -1,
+            1,
+            2,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            0,
+            2,
+            1,
+            1
+          ],
+          [
+            -1,
+            1,
+            1,
+            1,
+            0,
+            -1,
+            1,
+            -2,
+            1,
+            0,
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            -2,
+            1,
+            -2,
+            0
+          ]
+        ],
+        "G": [
+          6,
+          0,
+          0,
+          -3,
+          0,
+          0,
+          -3,
+          0,
+          0
+        ],
+        "J": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "Q": [
+          3,
+          9,
+          3,
+          3
+        ],
+        "S": [
+          9,
+          0,
+          0,
+          -9,
+          0,
+          0,
+          0,
+          0,
+          0,
+          9,
+          0,
+          0,
+          -9,
+          0,
+          0,
+          9,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -18,
+          0,
+          0
+        ],
+        "charges": [
+          {
+            "beta": [
+              -1,
+              1,
+              3
+            ],
+            "charges": [
+              [
+                0,
+                1,
+                -2
+              ],
+              [
+                -1,
+                2,
+                1
+              ],
+              [
+                3,
+                0,
+                0
+              ]
+            ],
+            "row": [
+              -1,
+              3,
+              -3,
+              -3,
+              -3,
+              3,
+              3,
+              -1,
+              3
+            ]
+          },
+          {
+            "beta": [
+              -3,
+              1,
+              3
+            ],
+            "charges": [
+              [
+                -2,
+                1,
+                -1
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                1,
+                1,
+                0
+              ]
+            ],
+            "row": [
+              1,
+              1,
+              1,
+              -5,
+              1,
+              1,
+              -1,
+              -1,
+              3
+            ]
+          }
+        ],
+        "combined_PAF": [
+          90,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          10,
+          -2,
+          -2,
+          10,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -26,
+          -2,
+          -2,
+          -26,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          10,
+          -2,
+          -2,
+          10,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2
+        ],
+        "full_domain": true,
+        "masks": [
+          416258831260,
+          11737627988606
+        ],
+        "phases": [
+          0,
+          0,
+          0,
+          2,
+          0,
+          1,
+          1,
+          0,
+          1,
+          2,
+          0,
+          1,
+          0,
+          0,
+          2,
+          1,
+          1,
+          2,
+          2,
+          2,
+          0,
+          2,
+          1
+        ],
+        "tensor": [
+          [
+            0,
+            0,
+            0,
+            9,
+            0,
+            0
+          ],
+          [
+            9,
+            0,
+            0,
+            18,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            9,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            9,
+            0,
+            0
+          ]
+        ]
+      },
+      "source_hypotheses": [
+        {
+          "at_most_five": true,
+          "group_sizes": [
+            5,
+            4,
+            3
+          ],
+          "thin_groups": [
+            {
+              "balanced_energy": 3,
+              "charges": [
+                3,
+                0,
+                0
+              ],
+              "energy": 9,
+              "positions": [
+                2,
+                5,
+                14
+              ],
+              "residue": 2,
+              "signs": [
+                1,
+                1,
+                1
+              ],
+              "uneven": true
+            }
+          ],
+          "uniform_structural_hypothesis": true
+        },
+        {
+          "at_most_five": true,
+          "group_sizes": [
+            4,
+            3,
+            4
+          ],
+          "thin_groups": [
+            {
+              "balanced_energy": 1,
+              "charges": [
+                0,
+                0,
+                1
+              ],
+              "energy": 1,
+              "positions": [
+                4,
+                7,
+                13
+              ],
+              "residue": 1,
+              "signs": [
+                -1,
+                1,
+                1
+              ],
+              "uneven": false
+            }
+          ],
+          "uniform_structural_hypothesis": false
+        }
+      ],
+      "source_rank": 279,
+      "target": {
+        "B": [
+          0,
+          -1,
+          2,
+          -1,
+          1,
+          2,
+          -1,
+          2,
+          0,
+          2,
+          2,
+          0,
+          0,
+          -2,
+          1,
+          0,
+          0,
+          0,
+          1,
+          -1,
+          -4,
+          -1,
+          -2,
+          -2,
+          -1,
+          -4,
+          -1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          -2,
+          0,
+          0,
+          2,
+          2,
+          0,
+          2,
+          -1,
+          2,
+          1,
+          -1,
+          2,
+          -1
+        ],
+        "F": [
+          [
+            -2,
+            -2,
+            0,
+            1,
+            2,
+            0,
+            1,
+            0,
+            1,
+            0,
+            -1,
+            -1,
+            1,
+            2,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            0,
+            2,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            -1,
+            -2,
+            1,
+            -1,
+            1,
+            -2,
+            1,
+            -1,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            1,
+            -1,
+            0,
+            -2,
+            1
+          ]
+        ],
+        "G": [
+          6,
+          0,
+          0,
+          -3,
+          0,
+          0,
+          -3,
+          0,
+          0
+        ],
+        "J": null,
+        "Q": [
+          -5,
+          0,
+          1,
+          2
+        ],
+        "S": [
+          -2,
+          6,
+          5,
+          -1,
+          -5,
+          -2,
+          -1,
+          0,
+          -1,
+          1,
+          8,
+          0,
+          1,
+          -10,
+          0,
+          0,
+          5,
+          4,
+          -1,
+          1,
+          -7,
+          -1,
+          -10,
+          -5
+        ],
+        "charges": [
+          {
+            "beta": [
+              -1,
+              1,
+              3
+            ],
+            "charges": [
+              [
+                0,
+                1,
+                -2
+              ],
+              [
+                -1,
+                2,
+                1
+              ],
+              [
+                3,
+                0,
+                0
+              ]
+            ],
+            "row": [
+              -1,
+              3,
+              -3,
+              -3,
+              -3,
+              3,
+              3,
+              -1,
+              3
+            ]
+          },
+          {
+            "beta": [
+              -3,
+              1,
+              3
+            ],
+            "charges": [
+              [
+                -2,
+                1,
+                -1
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                1,
+                1,
+                0
+              ]
+            ],
+            "row": [
+              1,
+              1,
+              1,
+              -5,
+              1,
+              1,
+              -1,
+              -1,
+              3
+            ]
+          }
+        ],
+        "combined_PAF": [
+          90,
+          -6,
+          6,
+          -6,
+          2,
+          6,
+          -6,
+          6,
+          -2,
+          6,
+          6,
+          -2,
+          -2,
+          -10,
+          2,
+          -2,
+          -2,
+          -2,
+          2,
+          -6,
+          -18,
+          -6,
+          -10,
+          -10,
+          -6,
+          -18,
+          -6,
+          2,
+          -2,
+          -2,
+          -2,
+          2,
+          -10,
+          -2,
+          -2,
+          6,
+          6,
+          -2,
+          6,
+          -6,
+          6,
+          2,
+          -6,
+          6,
+          -6
+        ],
+        "full_domain": false,
+        "masks": [
+          416258831260,
+          11780645031997
+        ],
+        "phases": [
+          0,
+          0,
+          0,
+          2,
+          0,
+          1,
+          1,
+          0,
+          1,
+          2,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          2,
+          1
+        ],
+        "tensor": [
+          [
+            -3,
+            -2,
+            2,
+            0,
+            -7,
+            -5
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            -2,
+            -4,
+            4,
+            -1,
+            1,
+            5
+          ],
+          [
+            -1,
+            -4,
+            4,
+            1,
+            1,
+            5
+          ]
+        ]
+      },
+      "target_hypotheses": [
+        {
+          "at_most_five": true,
+          "group_sizes": [
+            5,
+            4,
+            3
+          ],
+          "thin_groups": [
+            {
+              "balanced_energy": 3,
+              "charges": [
+                3,
+                0,
+                0
+              ],
+              "energy": 9,
+              "positions": [
+                2,
+                5,
+                14
+              ],
+              "residue": 2,
+              "signs": [
+                1,
+                1,
+                1
+              ],
+              "uneven": true
+            }
+          ],
+          "uniform_structural_hypothesis": true
+        },
+        {
+          "at_most_five": true,
+          "group_sizes": [
+            4,
+            3,
+            4
+          ],
+          "thin_groups": [
+            {
+              "balanced_energy": 1,
+              "charges": [
+                0,
+                0,
+                1
+              ],
+              "energy": 1,
+              "positions": [
+                1,
+                7,
+                13
+              ],
+              "residue": 1,
+              "signs": [
+                -1,
+                1,
+                1
+              ],
+              "uneven": false
+            }
+          ],
+          "uniform_structural_hypothesis": false
+        }
+      ],
+      "target_rank": 277,
+      "transport": {
+        "anchor_subtracted": 0,
+        "before_anchor_normalization": [
+          0,
+          0,
+          0,
+          2,
+          0,
+          1,
+          1,
+          0,
+          1,
+          2,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          2,
+          1
+        ],
+        "compressed_row_shift_mod9": 0,
+        "mapping": [
+          {
+            "integer_displacement": 18,
+            "k_mod5": 2,
+            "new": 3,
+            "nu": 1,
+            "old": 0,
+            "sign": -1
+          },
+          {
+            "integer_displacement": 0,
+            "k_mod5": 0,
+            "new": 2,
+            "nu": 0,
+            "old": 2,
+            "sign": 1
+          },
+          {
+            "integer_displacement": 18,
+            "k_mod5": 2,
+            "new": 6,
+            "nu": 1,
+            "old": 3,
+            "sign": -1
+          },
+          {
+            "integer_displacement": 27,
+            "k_mod5": 3,
+            "new": 1,
+            "nu": 2,
+            "old": 4,
+            "sign": -1
+          },
+          {
+            "integer_displacement": 36,
+            "k_mod5": 4,
+            "new": 11,
+            "nu": 2,
+            "old": 5,
+            "sign": -1
+          },
+          {
+            "integer_displacement": 18,
+            "k_mod5": 2,
+            "new": 9,
+            "nu": 1,
+            "old": 6,
+            "sign": -1
+          },
+          {
+            "integer_displacement": 0,
+            "k_mod5": 0,
+            "new": 7,
+            "nu": 0,
+            "old": 7,
+            "sign": 1
+          },
+          {
+            "integer_displacement": 9,
+            "k_mod5": 1,
+            "new": 5,
+            "nu": 1,
+            "old": 11,
+            "sign": 1
+          },
+          {
+            "integer_displacement": 0,
+            "k_mod5": 0,
+            "new": 12,
+            "nu": 0,
+            "old": 12,
+            "sign": 1
+          },
+          {
+            "integer_displacement": 0,
+            "k_mod5": 0,
+            "new": 13,
+            "nu": 0,
+            "old": 13,
+            "sign": 1
+          },
+          {
+            "integer_displacement": 0,
+            "k_mod5": 0,
+            "new": 14,
+            "nu": 0,
+            "old": 14,
+            "sign": 1
+          }
+        ],
+        "phases": [
+          0,
+          0,
+          0,
+          2,
+          0,
+          1,
+          1,
+          0,
+          1,
+          2,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "charge_fiber_counts": [
+        {
+          "count": 5400,
+          "groups": [
+            {
+              "count": 8,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 2,
+              "positive_free": 2,
+              "residual": [
+                0,
+                -1,
+                1
+              ],
+              "residue": 0,
+              "side": 0
+            },
+            {
+              "count": 3,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 0,
+              "positive_free": 3,
+              "residual": [
+                0,
+                2,
+                1
+              ],
+              "residue": 1,
+              "side": 0
+            },
+            {
+              "count": 3,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 0,
+              "positive_free": 3,
+              "residual": [
+                1,
+                2,
+                0
+              ],
+              "residue": 2,
+              "side": 0
+            },
+            {
+              "count": 5,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 2,
+              "positive_free": 1,
+              "residual": [
+                0,
+                -1,
+                0
+              ],
+              "residue": 0,
+              "side": 1
+            },
+            {
+              "count": 5,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 1,
+              "positive_free": 2,
+              "residual": [
+                1,
+                0,
+                0
+              ],
+              "residue": 1,
+              "side": 1
+            },
+            {
+              "count": 3,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 1,
+              "positive_free": 3,
+              "residual": [
+                -1,
+                2,
+                1
+              ],
+              "residue": 2,
+              "side": 1
+            }
+          ],
+          "scope": "All gauge-respecting assignments at M; no primitive-domain filtering."
+        },
+        {
+          "count": 2592,
+          "groups": [
+            {
+              "count": 8,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 2,
+              "positive_free": 2,
+              "residual": [
+                0,
+                -1,
+                1
+              ],
+              "residue": 0,
+              "side": 0
+            },
+            {
+              "count": 3,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 0,
+              "positive_free": 3,
+              "residual": [
+                0,
+                2,
+                1
+              ],
+              "residue": 1,
+              "side": 0
+            },
+            {
+              "count": 3,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 0,
+              "positive_free": 3,
+              "residual": [
+                1,
+                2,
+                0
+              ],
+              "residue": 2,
+              "side": 0
+            },
+            {
+              "count": 12,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 3,
+              "positive_free": 1,
+              "residual": [
+                -1,
+                -1,
+                0
+              ],
+              "residue": 0,
+              "side": 1
+            },
+            {
+              "count": 1,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 0,
+              "positive_free": 2,
+              "residual": [
+                2,
+                0,
+                0
+              ],
+              "residue": 1,
+              "side": 1
+            },
+            {
+              "count": 3,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 1,
+              "positive_free": 3,
+              "residual": [
+                -1,
+                2,
+                1
+              ],
+              "residue": 2,
+              "side": 1
+            }
+          ],
+          "scope": "All gauge-respecting assignments at M; no primitive-domain filtering."
+        }
+      ],
+      "source": {
+        "B": [
+          0,
+          6,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -3,
+          -3,
+          0,
+          -3,
+          -3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -3,
+          -3,
+          0,
+          -3,
+          -3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          6
+        ],
+        "F": [
+          [
+            -3,
+            -2,
+            -1,
+            0,
+            2,
+            0,
+            2,
+            0,
+            0,
+            -2,
+            -1,
+            0,
+            2,
+            2,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            0,
+            1,
+            2,
+            1,
+            0
+          ],
+          [
+            -2,
+            -1,
+            -2,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            -1,
+            -1,
+            -1,
+            0,
+            0,
+            2,
+            0,
+            0,
+            -2,
+            -2,
+            -2,
+            -1,
+            0,
+            0,
+            1
+          ]
+        ],
+        "G": [
+          0,
+          3,
+          3,
+          0,
+          -6,
+          -6,
+          0,
+          3,
+          3
+        ],
+        "J": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "Q": [
+          6,
+          9,
+          9,
+          9
+        ],
+        "S": [
+          0,
+          18,
+          18,
+          0,
+          0,
+          0,
+          0,
+          -9,
+          -9,
+          0,
+          9,
+          9,
+          0,
+          -9,
+          -9,
+          0,
+          0,
+          0,
+          0,
+          9,
+          9,
+          0,
+          -9,
+          -9
+        ],
+        "charges": [
+          {
+            "beta": [
+              -1,
+              1,
+              3
+            ],
+            "charges": [
+              [
+                -1,
+                -1,
+                1
+              ],
+              [
+                -1,
+                2,
+                1
+              ],
+              [
+                1,
+                2,
+                0
+              ]
+            ],
+            "row": [
+              1,
+              3,
+              1,
+              1,
+              -3,
+              -1,
+              -3,
+              -1,
+              3
+            ]
+          },
+          {
+            "beta": [
+              -3,
+              1,
+              3
+            ],
+            "charges": [
+              [
+                -1,
+                -1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                -1,
+                2,
+                1
+              ]
+            ],
+            "row": [
+              -1,
+              -1,
+              5,
+              -1,
+              1,
+              -1,
+              -3,
+              1,
+              1
+            ]
+          }
+        ],
+        "combined_PAF": [
+          90,
+          22,
+          22,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -14,
+          -14,
+          -2,
+          -14,
+          -14,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -14,
+          -14,
+          -2,
+          -14,
+          -14,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          22,
+          22
+        ],
+        "full_domain": true,
+        "masks": [
+          428621558224,
+          824046633594
+        ],
+        "phases": [
+          0,
+          0,
+          2,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          2,
+          0,
+          0,
+          0,
+          2,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          0
+        ],
+        "tensor": [
+          [
+            0,
+            9,
+            0,
+            0,
+            9,
+            0
+          ],
+          [
+            0,
+            9,
+            9,
+            0,
+            9,
+            0
+          ],
+          [
+            0,
+            9,
+            0,
+            0,
+            18,
+            0
+          ],
+          [
+            0,
+            9,
+            0,
+            0,
+            9,
+            9
+          ]
+        ]
+      },
+      "source_hypotheses": [
+        {
+          "at_most_five": true,
+          "group_sizes": [
+            5,
+            4,
+            3
+          ],
+          "thin_groups": [
+            {
+              "balanced_energy": 3,
+              "charges": [
+                1,
+                2,
+                0
+              ],
+              "energy": 5,
+              "positions": [
+                2,
+                5,
+                14
+              ],
+              "residue": 2,
+              "signs": [
+                1,
+                1,
+                1
+              ],
+              "uneven": true
+            }
+          ],
+          "uniform_structural_hypothesis": true
+        },
+        {
+          "at_most_five": true,
+          "group_sizes": [
+            4,
+            3,
+            4
+          ],
+          "thin_groups": [
+            {
+              "balanced_energy": 1,
+              "charges": [
+                1,
+                0,
+                0
+              ],
+              "energy": 1,
+              "positions": [
+                4,
+                7,
+                13
+              ],
+              "residue": 1,
+              "signs": [
+                -1,
+                1,
+                1
+              ],
+              "uneven": false
+            }
+          ],
+          "uniform_structural_hypothesis": false
+        }
+      ],
+      "source_rank": 279,
+      "target": {
+        "B": [
+          0,
+          2,
+          3,
+          0,
+          0,
+          1,
+          2,
+          3,
+          1,
+          -1,
+          1,
+          0,
+          -1,
+          -2,
+          -1,
+          0,
+          -1,
+          -1,
+          1,
+          0,
+          -2,
+          -1,
+          -4,
+          -4,
+          -1,
+          -2,
+          0,
+          1,
+          -1,
+          -1,
+          0,
+          -1,
+          -2,
+          -1,
+          0,
+          1,
+          -1,
+          1,
+          3,
+          2,
+          1,
+          0,
+          0,
+          3,
+          2
+        ],
+        "F": [
+          [
+            -3,
+            -2,
+            -1,
+            0,
+            2,
+            0,
+            2,
+            0,
+            0,
+            -2,
+            -1,
+            0,
+            2,
+            2,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            0,
+            1,
+            2,
+            1,
+            0
+          ],
+          [
+            -2,
+            -2,
+            -1,
+            1,
+            0,
+            -1,
+            2,
+            0,
+            0,
+            -1,
+            -1,
+            -1,
+            1,
+            0,
+            1,
+            -1,
+            0,
+            -1,
+            -2,
+            -1,
+            -1,
+            3,
+            0,
+            0
+          ]
+        ],
+        "G": [
+          0,
+          3,
+          3,
+          0,
+          -6,
+          -6,
+          0,
+          3,
+          3
+        ],
+        "J": null,
+        "Q": [
+          2,
+          6,
+          10,
+          5
+        ],
+        "S": [
+          2,
+          10,
+          8,
+          -2,
+          -3,
+          0,
+          4,
+          -2,
+          -5,
+          -1,
+          7,
+          3,
+          -4,
+          -8,
+          -3,
+          3,
+          3,
+          1,
+          1,
+          4,
+          0,
+          -2,
+          -12,
+          -10
+        ],
+        "charges": [
+          {
+            "beta": [
+              -1,
+              1,
+              3
+            ],
+            "charges": [
+              [
+                -1,
+                -1,
+                1
+              ],
+              [
+                -1,
+                2,
+                1
+              ],
+              [
+                1,
+                2,
+                0
+              ]
+            ],
+            "row": [
+              1,
+              3,
+              1,
+              1,
+              -3,
+              -1,
+              -3,
+              -1,
+              3
+            ]
+          },
+          {
+            "beta": [
+              -3,
+              1,
+              3
+            ],
+            "charges": [
+              [
+                -1,
+                -1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                -1,
+                2,
+                1
+              ]
+            ],
+            "row": [
+              -1,
+              -1,
+              5,
+              -1,
+              1,
+              -1,
+              -3,
+              1,
+              1
+            ]
+          }
+        ],
+        "combined_PAF": [
+          90,
+          6,
+          10,
+          -2,
+          -2,
+          2,
+          6,
+          10,
+          2,
+          -6,
+          2,
+          -2,
+          -6,
+          -10,
+          -6,
+          -2,
+          -6,
+          -6,
+          2,
+          -2,
+          -10,
+          -6,
+          -18,
+          -18,
+          -6,
+          -10,
+          -2,
+          2,
+          -6,
+          -6,
+          -2,
+          -6,
+          -10,
+          -6,
+          -2,
+          2,
+          -6,
+          2,
+          10,
+          6,
+          2,
+          -2,
+          -2,
+          10,
+          6
+        ],
+        "full_domain": false,
+        "masks": [
+          428621558224,
+          2404597219929
+        ],
+        "phases": [
+          0,
+          0,
+          2,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          2,
+          0,
+          0,
+          0,
+          2,
+          1,
+          2,
+          2,
+          2,
+          2,
+          0,
+          1,
+          1,
+          0
+        ],
+        "tensor": [
+          [
+            3,
+            3,
+            0,
+            3,
+            0,
+            -3
+          ],
+          [
+            3,
+            3,
+            3,
+            6,
+            3,
+            0
+          ],
+          [
+            5,
+            2,
+            5,
+            4,
+            7,
+            7
+          ],
+          [
+            4,
+            -2,
+            1,
+            2,
+            5,
+            5
+          ]
+        ]
+      },
+      "target_hypotheses": [
+        {
+          "at_most_five": true,
+          "group_sizes": [
+            5,
+            4,
+            3
+          ],
+          "thin_groups": [
+            {
+              "balanced_energy": 3,
+              "charges": [
+                1,
+                2,
+                0
+              ],
+              "energy": 5,
+              "positions": [
+                2,
+                5,
+                14
+              ],
+              "residue": 2,
+              "signs": [
+                1,
+                1,
+                1
+              ],
+              "uneven": true
+            }
+          ],
+          "uniform_structural_hypothesis": true
+        },
+        {
+          "at_most_five": true,
+          "group_sizes": [
+            4,
+            3,
+            4
+          ],
+          "thin_groups": [
+            {
+              "balanced_energy": 1,
+              "charges": [
+                1,
+                0,
+                0
+              ],
+              "energy": 1,
+              "positions": [
+                1,
+                7,
+                13
+              ],
+              "residue": 1,
+              "signs": [
+                -1,
+                1,
+                1
+              ],
+              "uneven": false
+            }
+          ],
+          "uniform_structural_hypothesis": false
+        }
+      ],
+      "target_rank": 277,
+      "transport": {
+        "anchor_subtracted": 0,
+        "before_anchor_normalization": [
+          0,
+          0,
+          2,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          2,
+          0,
+          0,
+          0,
+          2,
+          1,
+          2,
+          2,
+          2,
+          2,
+          0,
+          1,
+          1,
+          0
+        ],
+        "compressed_row_shift_mod9": 0,
+        "mapping": [
+          {
+            "integer_displacement": 18,
+            "k_mod5": 2,
+            "new": 3,
+            "nu": 1,
+            "old": 0,
+            "sign": -1
+          },
+          {
+            "integer_displacement": 0,
+            "k_mod5": 0,
+            "new": 2,
+            "nu": 0,
+            "old": 2,
+            "sign": 1
+          },
+          {
+            "integer_displacement": 18,
+            "k_mod5": 2,
+            "new": 6,
+            "nu": 1,
+            "old": 3,
+            "sign": -1
+          },
+          {
+            "integer_displacement": 27,
+            "k_mod5": 3,
+            "new": 1,
+            "nu": 2,
+            "old": 4,
+            "sign": -1
+          },
+          {
+            "integer_displacement": 36,
+            "k_mod5": 4,
+            "new": 11,
+            "nu": 2,
+            "old": 5,
+            "sign": -1
+          },
+          {
+            "integer_displacement": 18,
+            "k_mod5": 2,
+            "new": 9,
+            "nu": 1,
+            "old": 6,
+            "sign": -1
+          },
+          {
+            "integer_displacement": 0,
+            "k_mod5": 0,
+            "new": 7,
+            "nu": 0,
+            "old": 7,
+            "sign": 1
+          },
+          {
+            "integer_displacement": 9,
+            "k_mod5": 1,
+            "new": 5,
+            "nu": 1,
+            "old": 11,
+            "sign": 1
+          },
+          {
+            "integer_displacement": 0,
+            "k_mod5": 0,
+            "new": 12,
+            "nu": 0,
+            "old": 12,
+            "sign": 1
+          },
+          {
+            "integer_displacement": 0,
+            "k_mod5": 0,
+            "new": 13,
+            "nu": 0,
+            "old": 13,
+            "sign": 1
+          },
+          {
+            "integer_displacement": 0,
+            "k_mod5": 0,
+            "new": 14,
+            "nu": 0,
+            "old": 14,
+            "sign": 1
+          }
+        ],
+        "phases": [
+          0,
+          0,
+          2,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          2,
+          0,
+          0,
+          0,
+          2,
+          1,
+          2,
+          2,
+          2,
+          2,
+          0,
+          1,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "charge_fiber_counts": [
+        {
+          "count": 810,
+          "groups": [
+            {
+              "count": 15,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 2,
+              "positive_free": 2,
+              "residual": [
+                0,
+                0,
+                0
+              ],
+              "residue": 0,
+              "side": 0
+            },
+            {
+              "count": 3,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 0,
+              "positive_free": 3,
+              "residual": [
+                1,
+                0,
+                2
+              ],
+              "residue": 1,
+              "side": 0
+            },
+            {
+              "count": 3,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 0,
+              "positive_free": 3,
+              "residual": [
+                2,
+                1,
+                0
+              ],
+              "residue": 2,
+              "side": 0
+            },
+            {
+              "count": 2,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 2,
+              "positive_free": 1,
+              "residual": [
+                1,
+                -1,
+                -1
+              ],
+              "residue": 0,
+              "side": 1
+            },
+            {
+              "count": 1,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 1,
+              "positive_free": 2,
+              "residual": [
+                0,
+                2,
+                -1
+              ],
+              "residue": 1,
+              "side": 1
+            },
+            {
+              "count": 3,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 1,
+              "positive_free": 3,
+              "residual": [
+                2,
+                1,
+                -1
+              ],
+              "residue": 2,
+              "side": 1
+            }
+          ],
+          "scope": "All gauge-respecting assignments at M; no primitive-domain filtering."
+        },
+        {
+          "count": 4860,
+          "groups": [
+            {
+              "count": 15,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 2,
+              "positive_free": 2,
+              "residual": [
+                0,
+                0,
+                0
+              ],
+              "residue": 0,
+              "side": 0
+            },
+            {
+              "count": 3,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 0,
+              "positive_free": 3,
+              "residual": [
+                1,
+                0,
+                2
+              ],
+              "residue": 1,
+              "side": 0
+            },
+            {
+              "count": 3,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 0,
+              "positive_free": 3,
+              "residual": [
+                2,
+                1,
+                0
+              ],
+              "residue": 2,
+              "side": 0
+            },
+            {
+              "count": 12,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 3,
+              "positive_free": 1,
+              "residual": [
+                -1,
+                0,
+                -1
+              ],
+              "residue": 0,
+              "side": 1
+            },
+            {
+              "count": 1,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 0,
+              "positive_free": 2,
+              "residual": [
+                0,
+                0,
+                2
+              ],
+              "residue": 1,
+              "side": 1
+            },
+            {
+              "count": 3,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 1,
+              "positive_free": 3,
+              "residual": [
+                -1,
+                2,
+                1
+              ],
+              "residue": 2,
+              "side": 1
+            }
+          ],
+          "scope": "All gauge-respecting assignments at M; no primitive-domain filtering."
+        }
+      ],
+      "source": {
+        "B": [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          3,
+          0,
+          0,
+          3,
+          0,
+          0,
+          -3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -3,
+          0,
+          0,
+          -6,
+          0,
+          0,
+          -6,
+          0,
+          0,
+          -3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -3,
+          0,
+          0,
+          3,
+          0,
+          0,
+          3,
+          0,
+          0,
+          6,
+          0,
+          0
+        ],
+        "F": [
+          [
+            -3,
+            -3,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            -2,
+            -2,
+            -1,
+            2,
+            1,
+            0,
+            -1,
+            -1,
+            0,
+            -1,
+            -2,
+            -1,
+            3,
+            2,
+            1
+          ],
+          [
+            -2,
+            0,
+            1,
+            -1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            -1,
+            0,
+            -1,
+            0,
+            1,
+            -1,
+            0,
+            0,
+            1,
+            -1,
+            1,
+            0,
+            1,
+            1,
+            0
+          ]
+        ],
+        "G": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "J": [
+          1,
+          0,
+          2,
+          2
+        ],
+        "Q": [
+          3,
+          9,
+          6,
+          -3
+        ],
+        "S": [
+          18,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -9,
+          0,
+          0,
+          18,
+          0,
+          0,
+          -18,
+          0,
+          0,
+          9,
+          0,
+          0,
+          9,
+          0,
+          0,
+          -27,
+          0,
+          0
+        ],
+        "charges": [
+          {
+            "beta": [
+              -1,
+              1,
+              3
+            ],
+            "charges": [
+              [
+                -1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                2
+              ],
+              [
+                2,
+                1,
+                0
+              ]
+            ],
+            "row": [
+              1,
+              1,
+              -1,
+              -1,
+              1,
+              1,
+              -1,
+              -3,
+              3
+            ]
+          },
+          {
+            "beta": [
+              -3,
+              1,
+              3
+            ],
+            "charges": [
+              [
+                0,
+                -1,
+                -1
+              ],
+              [
+                0,
+                2,
+                -1
+              ],
+              [
+                2,
+                1,
+                -1
+              ]
+            ],
+            "row": [
+              -3,
+              1,
+              -1,
+              -1,
+              -3,
+              1,
+              -1,
+              3,
+              5
+            ]
+          }
+        ],
+        "combined_PAF": [
+          90,
+          -2,
+          -2,
+          22,
+          -2,
+          -2,
+          10,
+          -2,
+          -2,
+          10,
+          -2,
+          -2,
+          -14,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -14,
+          -2,
+          -2,
+          -26,
+          -2,
+          -2,
+          -26,
+          -2,
+          -2,
+          -14,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -14,
+          -2,
+          -2,
+          10,
+          -2,
+          -2,
+          10,
+          -2,
+          -2,
+          22,
+          -2,
+          -2
+        ],
+        "full_domain": true,
+        "masks": [
+          442312790436,
+          2830005805622
+        ],
+        "phases": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          0,
+          0,
+          0,
+          2,
+          2,
+          0,
+          1,
+          2,
+          1,
+          0,
+          1
+        ],
+        "tensor": [
+          [
+            0,
+            0,
+            0,
+            9,
+            0,
+            0
+          ],
+          [
+            9,
+            0,
+            0,
+            18,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            18,
+            0,
+            0
+          ],
+          [
+            -9,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "source_hypotheses": [
+        {
+          "at_most_five": true,
+          "group_sizes": [
+            5,
+            4,
+            3
+          ],
+          "thin_groups": [
+            {
+              "balanced_energy": 3,
+              "charges": [
+                2,
+                1,
+                0
+              ],
+              "energy": 5,
+              "positions": [
+                2,
+                5,
+                14
+              ],
+              "residue": 2,
+              "signs": [
+                1,
+                1,
+                1
+              ],
+              "uneven": true
+            }
+          ],
+          "uniform_structural_hypothesis": true
+        },
+        {
+          "at_most_five": true,
+          "group_sizes": [
+            4,
+            3,
+            4
+          ],
+          "thin_groups": [
+            {
+              "balanced_energy": 1,
+              "charges": [
+                0,
+                2,
+                -1
+              ],
+              "energy": 5,
+              "positions": [
+                4,
+                7,
+                13
+              ],
+              "residue": 1,
+              "signs": [
+                -1,
+                1,
+                1
+              ],
+              "uneven": true
+            }
+          ],
+          "uniform_structural_hypothesis": true
+        }
+      ],
+      "source_rank": 279,
+      "target": {
+        "B": [
+          0,
+          0,
+          2,
+          4,
+          2,
+          0,
+          2,
+          1,
+          -1,
+          2,
+          1,
+          -3,
+          -2,
+          -1,
+          -1,
+          0,
+          1,
+          -1,
+          -2,
+          1,
+          -1,
+          -4,
+          0,
+          0,
+          -4,
+          -1,
+          1,
+          -2,
+          -1,
+          1,
+          0,
+          -1,
+          -1,
+          -2,
+          -3,
+          1,
+          2,
+          -1,
+          1,
+          2,
+          0,
+          2,
+          4,
+          2,
+          0
+        ],
+        "F": [
+          [
+            -3,
+            -3,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            -2,
+            -2,
+            -1,
+            2,
+            1,
+            0,
+            -1,
+            -1,
+            0,
+            -1,
+            -2,
+            -1,
+            3,
+            2,
+            1
+          ],
+          [
+            0,
+            0,
+            -1,
+            -1,
+            0,
+            -1,
+            -1,
+            0,
+            0,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            0,
+            0,
+            -1,
+            0,
+            1,
+            -1,
+            0,
+            -1,
+            0
+          ]
+        ],
+        "G": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "J": null,
+        "Q": [
+          3,
+          8,
+          7,
+          2
+        ],
+        "S": [
+          12,
+          5,
+          3,
+          0,
+          4,
+          -2,
+          -6,
+          -1,
+          -1,
+          12,
+          5,
+          -5,
+          -12,
+          -4,
+          -2,
+          6,
+          3,
+          1,
+          6,
+          7,
+          -3,
+          -18,
+          -3,
+          -1
+        ],
+        "charges": [
+          {
+            "beta": [
+              -1,
+              1,
+              3
+            ],
+            "charges": [
+              [
+                -1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                2
+              ],
+              [
+                2,
+                1,
+                0
+              ]
+            ],
+            "row": [
+              1,
+              1,
+              -1,
+              -1,
+              1,
+              1,
+              -1,
+              -3,
+              3
+            ]
+          },
+          {
+            "beta": [
+              -3,
+              1,
+              3
+            ],
+            "charges": [
+              [
+                -1,
+                0,
+                -1
+              ],
+              [
+                -1,
+                0,
+                2
+              ],
+              [
+                -1,
+                2,
+                1
+              ]
+            ],
+            "row": [
+              -1,
+              3,
+              5,
+              -3,
+              1,
+              -1,
+              -1,
+              -3,
+              1
+            ]
+          }
+        ],
+        "combined_PAF": [
+          90,
+          -2,
+          6,
+          14,
+          6,
+          -2,
+          6,
+          2,
+          -6,
+          6,
+          2,
+          -14,
+          -10,
+          -6,
+          -6,
+          -2,
+          2,
+          -6,
+          -10,
+          2,
+          -6,
+          -18,
+          -2,
+          -2,
+          -18,
+          -6,
+          2,
+          -10,
+          -6,
+          2,
+          -2,
+          -6,
+          -6,
+          -10,
+          -14,
+          2,
+          6,
+          -6,
+          2,
+          6,
+          -2,
+          6,
+          14,
+          6,
+          -2
+        ],
+        "full_domain": false,
+        "masks": [
+          442312790436,
+          11681324191889
+        ],
+        "phases": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          0,
+          2,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        "tensor": [
+          [
+            0,
+            0,
+            2,
+            6,
+            -3,
+            4
+          ],
+          [
+            6,
+            2,
+            2,
+            12,
+            -5,
+            7
+          ],
+          [
+            0,
+            1,
+            0,
+            12,
+            2,
+            6
+          ],
+          [
+            -6,
+            2,
+            1,
+            0,
+            1,
+            8
+          ]
+        ]
+      },
+      "target_hypotheses": [
+        {
+          "at_most_five": true,
+          "group_sizes": [
+            5,
+            4,
+            3
+          ],
+          "thin_groups": [
+            {
+              "balanced_energy": 3,
+              "charges": [
+                2,
+                1,
+                0
+              ],
+              "energy": 5,
+              "positions": [
+                2,
+                5,
+                14
+              ],
+              "residue": 2,
+              "signs": [
+                1,
+                1,
+                1
+              ],
+              "uneven": true
+            }
+          ],
+          "uniform_structural_hypothesis": true
+        },
+        {
+          "at_most_five": true,
+          "group_sizes": [
+            4,
+            3,
+            4
+          ],
+          "thin_groups": [
+            {
+              "balanced_energy": 1,
+              "charges": [
+                -1,
+                0,
+                2
+              ],
+              "energy": 5,
+              "positions": [
+                1,
+                7,
+                13
+              ],
+              "residue": 1,
+              "signs": [
+                -1,
+                1,
+                1
+              ],
+              "uneven": true
+            }
+          ],
+          "uniform_structural_hypothesis": true
+        }
+      ],
+      "target_rank": 277,
+      "transport": {
+        "anchor_subtracted": 1,
+        "before_anchor_normalization": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        "compressed_row_shift_mod9": 3,
+        "mapping": [
+          {
+            "integer_displacement": 18,
+            "k_mod5": 2,
+            "new": 3,
+            "nu": 1,
+            "old": 0,
+            "sign": -1
+          },
+          {
+            "integer_displacement": 0,
+            "k_mod5": 0,
+            "new": 2,
+            "nu": 0,
+            "old": 2,
+            "sign": 1
+          },
+          {
+            "integer_displacement": 18,
+            "k_mod5": 2,
+            "new": 6,
+            "nu": 1,
+            "old": 3,
+            "sign": -1
+          },
+          {
+            "integer_displacement": 27,
+            "k_mod5": 3,
+            "new": 1,
+            "nu": 2,
+            "old": 4,
+            "sign": -1
+          },
+          {
+            "integer_displacement": 36,
+            "k_mod5": 4,
+            "new": 11,
+            "nu": 2,
+            "old": 5,
+            "sign": -1
+          },
+          {
+            "integer_displacement": 18,
+            "k_mod5": 2,
+            "new": 9,
+            "nu": 1,
+            "old": 6,
+            "sign": -1
+          },
+          {
+            "integer_displacement": 0,
+            "k_mod5": 0,
+            "new": 7,
+            "nu": 0,
+            "old": 7,
+            "sign": 1
+          },
+          {
+            "integer_displacement": 9,
+            "k_mod5": 1,
+            "new": 5,
+            "nu": 1,
+            "old": 11,
+            "sign": 1
+          },
+          {
+            "integer_displacement": 0,
+            "k_mod5": 0,
+            "new": 12,
+            "nu": 0,
+            "old": 12,
+            "sign": 1
+          },
+          {
+            "integer_displacement": 0,
+            "k_mod5": 0,
+            "new": 13,
+            "nu": 0,
+            "old": 13,
+            "sign": 1
+          },
+          {
+            "integer_displacement": 0,
+            "k_mod5": 0,
+            "new": 14,
+            "nu": 0,
+            "old": 14,
+            "sign": 1
+          }
+        ],
+        "phases": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          0,
+          2,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ]
+      }
+    },
+    {
+      "charge_fiber_counts": [
+        {
+          "count": 4320,
+          "groups": [
+            {
+              "count": 8,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 2,
+              "positive_free": 2,
+              "residual": [
+                -1,
+                0,
+                1
+              ],
+              "residue": 0,
+              "side": 0
+            },
+            {
+              "count": 3,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 0,
+              "positive_free": 3,
+              "residual": [
+                1,
+                2,
+                0
+              ],
+              "residue": 1,
+              "side": 0
+            },
+            {
+              "count": 3,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 0,
+              "positive_free": 3,
+              "residual": [
+                2,
+                0,
+                1
+              ],
+              "residue": 2,
+              "side": 0
+            },
+            {
+              "count": 1,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 2,
+              "positive_free": 1,
+              "residual": [
+                0,
+                1,
+                -2
+              ],
+              "residue": 0,
+              "side": 1
+            },
+            {
+              "count": 5,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 1,
+              "positive_free": 2,
+              "residual": [
+                0,
+                1,
+                0
+              ],
+              "residue": 1,
+              "side": 1
+            },
+            {
+              "count": 12,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 1,
+              "positive_free": 3,
+              "residual": [
+                1,
+                0,
+                1
+              ],
+              "residue": 2,
+              "side": 1
+            }
+          ],
+          "scope": "All gauge-respecting assignments at M; no primitive-domain filtering."
+        },
+        {
+          "count": 2592,
+          "groups": [
+            {
+              "count": 8,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 2,
+              "positive_free": 2,
+              "residual": [
+                -1,
+                0,
+                1
+              ],
+              "residue": 0,
+              "side": 0
+            },
+            {
+              "count": 3,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 0,
+              "positive_free": 3,
+              "residual": [
+                1,
+                2,
+                0
+              ],
+              "residue": 1,
+              "side": 0
+            },
+            {
+              "count": 3,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 0,
+              "positive_free": 3,
+              "residual": [
+                2,
+                0,
+                1
+              ],
+              "residue": 2,
+              "side": 0
+            },
+            {
+              "count": 3,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 3,
+              "positive_free": 1,
+              "residual": [
+                1,
+                -2,
+                -1
+              ],
+              "residue": 0,
+              "side": 1
+            },
+            {
+              "count": 1,
+              "fixed_charge": [
+                -1,
+                0,
+                0
+              ],
+              "negative_free": 0,
+              "positive_free": 2,
+              "residual": [
+                2,
+                0,
+                0
+              ],
+              "residue": 1,
+              "side": 1
+            },
+            {
+              "count": 12,
+              "fixed_charge": [
+                0,
+                0,
+                0
+              ],
+              "negative_free": 1,
+              "positive_free": 3,
+              "residual": [
+                0,
+                1,
+                1
+              ],
+              "residue": 2,
+              "side": 1
+            }
+          ],
+          "scope": "All gauge-respecting assignments at M; no primitive-domain filtering."
+        }
+      ],
+      "source": {
+        "B": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          3,
+          -3,
+          0,
+          0,
+          0,
+          0,
+          -3,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          -3,
+          0,
+          0,
+          0,
+          0,
+          -3,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          -3,
+          0,
+          0,
+          0,
+          0,
+          -3,
+          3,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "F": [
+          [
+            0,
+            -1,
+            2,
+            -1,
+            1,
+            0,
+            1,
+            0,
+            -1,
+            0,
+            1,
+            1,
+            -2,
+            1,
+            -1,
+            1,
+            0,
+            0,
+            -1,
+            0,
+            2,
+            -1,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0,
+            1,
+            -1,
+            -2,
+            -1,
+            0,
+            1,
+            0,
+            0,
+            -1,
+            1,
+            1,
+            -1,
+            0,
+            0,
+            2,
+            1,
+            0,
+            -1,
+            0,
+            1,
+            0
+          ]
+        ],
+        "G": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "J": null,
+        "Q": [
+          -3,
+          0,
+          -3,
+          6
+        ],
+        "S": [
+          0,
+          3,
+          3,
+          0,
+          -6,
+          3,
+          0,
+          9,
+          -6,
+          0,
+          0,
+          0,
+          0,
+          -9,
+          0,
+          0,
+          6,
+          6,
+          0,
+          -3,
+          -3,
+          0,
+          0,
+          -3
+        ],
+        "charges": [
+          {
+            "beta": [
+              -1,
+              1,
+              3
+            ],
+            "charges": [
+              [
+                -2,
+                0,
+                1
+              ],
+              [
+                0,
+                2,
+                0
+              ],
+              [
+                2,
+                0,
+                1
+              ]
+            ],
+            "row": [
+              3,
+              1,
+              -1,
+              -1,
+              -3,
+              3,
+              -3,
+              1,
+              1
+            ]
+          },
+          {
+            "beta": [
+              -3,
+              1,
+              3
+            ],
+            "charges": [
+              [
+                -1,
+                1,
+                -2
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                1
+              ]
+            ],
+            "row": [
+              -1,
+              1,
+              1,
+              -5,
+              -1,
+              3,
+              1,
+              1,
+              1
+            ]
+          }
+        ],
+        "combined_PAF": [
+          90,
+          -2,
+          -2,
+          -2,
+          -2,
+          10,
+          -2,
+          10,
+          -14,
+          -2,
+          -2,
+          -2,
+          -2,
+          -14,
+          -2,
+          -2,
+          -2,
+          10,
+          -2,
+          -2,
+          -14,
+          -2,
+          -2,
+          -2,
+          -2,
+          -14,
+          -2,
+          -2,
+          10,
+          -2,
+          -2,
+          -2,
+          -14,
+          -2,
+          -2,
+          -2,
+          -2,
+          -14,
+          10,
+          -2,
+          10,
+          -2,
+          -2,
+          -2,
+          -2
+        ],
+        "full_domain": false,
+        "masks": [
+          22964264347100,
+          2872821395978
+        ],
+        "phases": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          2,
+          0,
+          0,
+          0,
+          2,
+          0,
+          1,
+          2,
+          0,
+          0,
+          0,
+          1,
+          2,
+          0,
+          0,
+          1
+        ],
+        "tensor": [
+          [
+            0,
+            3,
+            -3,
+            0,
+            -3,
+            -6
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            -6,
+            -3,
+            0,
+            -3,
+            3
+          ],
+          [
+            0,
+            3,
+            6,
+            0,
+            6,
+            3
+          ]
+        ]
+      },
+      "source_hypotheses": [
+        {
+          "at_most_five": true,
+          "group_sizes": [
+            5,
+            4,
+            3
+          ],
+          "thin_groups": [
+            {
+              "balanced_energy": 3,
+              "charges": [
+                2,
+                0,
+                1
+              ],
+              "energy": 5,
+              "positions": [
+                2,
+                5,
+                14
+              ],
+              "residue": 2,
+              "signs": [
+                1,
+                1,
+                1
+              ],
+              "uneven": true
+            }
+          ],
+          "uniform_structural_hypothesis": true
+        },
+        {
+          "at_most_five": true,
+          "group_sizes": [
+            4,
+            3,
+            4
+          ],
+          "thin_groups": [
+            {
+              "balanced_energy": 1,
+              "charges": [
+                0,
+                1,
+                0
+              ],
+              "energy": 1,
+              "positions": [
+                4,
+                7,
+                13
+              ],
+              "residue": 1,
+              "signs": [
+                -1,
+                1,
+                1
+              ],
+              "uneven": false
+            }
+          ],
+          "uniform_structural_hypothesis": false
+        }
+      ],
+      "source_rank": 279,
+      "target": {
+        "B": [
+          0,
+          -2,
+          -3,
+          0,
+          2,
+          -1,
+          -1,
+          2,
+          -1,
+          0,
+          2,
+          1,
+          0,
+          -1,
+          1,
+          0,
+          1,
+          4,
+          0,
+          -3,
+          -1,
+          1,
+          -1,
+          -1,
+          1,
+          -1,
+          -3,
+          0,
+          4,
+          1,
+          0,
+          1,
+          -1,
+          0,
+          1,
+          2,
+          0,
+          -1,
+          2,
+          -1,
+          -1,
+          2,
+          0,
+          -3,
+          -2
+        ],
+        "F": [
+          [
+            0,
+            -1,
+            2,
+            -1,
+            1,
+            0,
+            1,
+            0,
+            -1,
+            0,
+            1,
+            1,
+            -2,
+            1,
+            -1,
+            1,
+            0,
+            0,
+            -1,
+            0,
+            2,
+            -1,
+            0,
+            -1
+          ],
+          [
+            -2,
+            -2,
+            0,
+            2,
+            0,
+            0,
+            1,
+            0,
+            -1,
+            -1,
+            -1,
+            0,
+            1,
+            0,
+            -1,
+            -1,
+            0,
+            -1,
+            0,
+            -1,
+            2,
+            1,
+            0,
+            -1
+          ]
+        ],
+        "G": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "J": null,
+        "Q": [
+          -2,
+          0,
+          -4,
+          1
+        ],
+        "S": [
+          -2,
+          -10,
+          0,
+          2,
+          1,
+          -8,
+          -1,
+          10,
+          0,
+          -1,
+          -4,
+          1,
+          2,
+          2,
+          -2,
+          -2,
+          0,
+          10,
+          0,
+          -11,
+          -6,
+          3,
+          7,
+          -5
+        ],
+        "charges": [
+          {
+            "beta": [
+              -1,
+              1,
+              3
+            ],
+            "charges": [
+              [
+                -2,
+                0,
+                1
+              ],
+              [
+                0,
+                2,
+                0
+              ],
+              [
+                2,
+                0,
+                1
+              ]
+            ],
+            "row": [
+              3,
+              1,
+              -1,
+              -1,
+              -3,
+              3,
+              -3,
+              1,
+              1
+            ]
+          },
+          {
+            "beta": [
+              -3,
+              1,
+              3
+            ],
+            "charges": [
+              [
+                1,
+                -2,
+                -1
+              ],
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                1
+              ]
+            ],
+            "row": [
+              -5,
+              -1,
+              3,
+              1,
+              1,
+              1,
+              -1,
+              1,
+              1
+            ]
+          }
+        ],
+        "combined_PAF": [
+          90,
+          -10,
+          -14,
+          -2,
+          6,
+          -6,
+          -6,
+          6,
+          -6,
+          -2,
+          6,
+          2,
+          -2,
+          -6,
+          2,
+          -2,
+          2,
+          14,
+          -2,
+          -14,
+          -6,
+          2,
+          -6,
+          -6,
+          2,
+          -6,
+          -14,
+          -2,
+          14,
+          2,
+          -2,
+          2,
+          -6,
+          -2,
+          2,
+          6,
+          -2,
+          -6,
+          6,
+          -6,
+          -6,
+          6,
+          -2,
+          -14,
+          -10
+        ],
+        "full_domain": false,
+        "masks": [
+          22964264347100,
+          20022552265305
+        ],
+        "phases": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          2,
+          0,
+          0,
+          0,
+          2,
+          0,
+          2,
+          2,
+          1,
+          1,
+          2,
+          2,
+          0,
+          1,
+          1,
+          2
+        ],
+        "tensor": [
+          [
+            -1,
+            -6,
+            8,
+            -2,
+            -6,
+            1
+          ],
+          [
+            -2,
+            2,
+            2,
+            -4,
+            1,
+            1
+          ],
+          [
+            -1,
+            -8,
+            5,
+            -2,
+            -10,
+            4
+          ],
+          [
+            -1,
+            -3,
+            10,
+            -2,
+            0,
+            -1
+          ]
+        ]
+      },
+      "target_hypotheses": [
+        {
+          "at_most_five": true,
+          "group_sizes": [
+            5,
+            4,
+            3
+          ],
+          "thin_groups": [
+            {
+              "balanced_energy": 3,
+              "charges": [
+                2,
+                0,
+                1
+              ],
+              "energy": 5,
+              "positions": [
+                2,
+                5,
+                14
+              ],
+              "residue": 2,
+              "signs": [
+                1,
+                1,
+                1
+              ],
+              "uneven": true
+            }
+          ],
+          "uniform_structural_hypothesis": true
+        },
+        {
+          "at_most_five": true,
+          "group_sizes": [
+            4,
+            3,
+            4
+          ],
+          "thin_groups": [
+            {
+              "balanced_energy": 1,
+              "charges": [
+                1,
+                0,
+                0
+              ],
+              "energy": 1,
+              "positions": [
+                1,
+                7,
+                13
+              ],
+              "residue": 1,
+              "signs": [
+                -1,
+                1,
+                1
+              ],
+              "uneven": false
+            }
+          ],
+          "uniform_structural_hypothesis": false
+        }
+      ],
+      "target_rank": 277,
+      "transport": {
+        "anchor_subtracted": 2,
+        "before_anchor_normalization": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          2,
+          0,
+          0,
+          0,
+          2,
+          2,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          2,
+          0,
+          0,
+          1
+        ],
+        "compressed_row_shift_mod9": 6,
+        "mapping": [
+          {
+            "integer_displacement": 18,
+            "k_mod5": 2,
+            "new": 3,
+            "nu": 1,
+            "old": 0,
+            "sign": -1
+          },
+          {
+            "integer_displacement": 0,
+            "k_mod5": 0,
+            "new": 2,
+            "nu": 0,
+            "old": 2,
+            "sign": 1
+          },
+          {
+            "integer_displacement": 18,
+            "k_mod5": 2,
+            "new": 6,
+            "nu": 1,
+            "old": 3,
+            "sign": -1
+          },
+          {
+            "integer_displacement": 27,
+            "k_mod5": 3,
+            "new": 1,
+            "nu": 2,
+            "old": 4,
+            "sign": -1
+          },
+          {
+            "integer_displacement": 36,
+            "k_mod5": 4,
+            "new": 11,
+            "nu": 2,
+            "old": 5,
+            "sign": -1
+          },
+          {
+            "integer_displacement": 18,
+            "k_mod5": 2,
+            "new": 9,
+            "nu": 1,
+            "old": 6,
+            "sign": -1
+          },
+          {
+            "integer_displacement": 0,
+            "k_mod5": 0,
+            "new": 7,
+            "nu": 0,
+            "old": 7,
+            "sign": 1
+          },
+          {
+            "integer_displacement": 9,
+            "k_mod5": 1,
+            "new": 5,
+            "nu": 1,
+            "old": 11,
+            "sign": 1
+          },
+          {
+            "integer_displacement": 0,
+            "k_mod5": 0,
+            "new": 12,
+            "nu": 0,
+            "old": 12,
+            "sign": 1
+          },
+          {
+            "integer_displacement": 0,
+            "k_mod5": 0,
+            "new": 13,
+            "nu": 0,
+            "old": 13,
+            "sign": 1
+          },
+          {
+            "integer_displacement": 0,
+            "k_mod5": 0,
+            "new": 14,
+            "nu": 0,
+            "old": 14,
+            "sign": 1
+          }
+        ],
+        "phases": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          2,
+          0,
+          0,
+          0,
+          2,
+          0,
+          2,
+          2,
+          1,
+          1,
+          2,
+          2,
+          0,
+          1,
+          1,
+          2
+        ]
+      }
+    }
+  ],
+  "new_assignments_total": 7,
+  "pilot_reused": 1,
+  "saved_relaxations": [
+    {
+      "exact_compression_members": 0,
+      "full_9O_members": 0,
+      "mean_B_G_Q_S_zero": true,
+      "rank": 277,
+      "saved_members": 27,
+      "scope": "Saved convex mean only; not a conditional witness."
+    },
+    {
+      "exact_compression_members": 0,
+      "full_9O_members": 0,
+      "mean_B_G_Q_S_zero": true,
+      "rank": 279,
+      "saved_members": 27,
+      "scope": "Saved convex mean only; not a conditional witness."
+    }
+  ],
+  "search_performed": false,
+  "seconds": 0.05162320000817999,
+  "source_hashes": {
+    "results/compression_residue/audit.json": "b55f2c261abb480d501d5c89bc7b066efd2525579bc03e5cde7416c7b61b6432",
+    "results/p5_branch_portfolio/canonical_branches.json": "6b8123e1c398fdc408c6efff323739bacf168468b93db46a4228e0a8d94ba35c",
+    "scripts/audit_global_charge.py": "cfdfea75570e53d446c94311f136614f07ddd58bcd81a719fc89fd3293250d4b",
+    "scripts/global_charge.py": "d416c54ef5aec3f201cb10a416c9404191f2d7f9053eb8d47bfe66c4ff9970c8"
+  },
+  "stage": "audit",
+  "workers": 1
+}
