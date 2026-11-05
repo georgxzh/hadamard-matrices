@@ -11,7 +11,9 @@
 
 # Keep source and research documents stable across Windows and POSIX clones.
 *.py text eol=lf
+*.cpp text eol=lf
 *.md text eol=lf
 *.bib text eol=lf
+*.tex text eol=lf
 .gitignore text eol=lf
 .gitattributes text eol=lf

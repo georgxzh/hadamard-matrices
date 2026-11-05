@@ -1,7 +1,38 @@
 # Direction selection
 
-Status: revised 2026-09-27 after the published structured LP(45) closed the
-p=5 validation gate. No expensive run authorized.
+Status: revised 2026-10-06 after the bounded p=7 portfolio.
+Four ordered intermediate translation classes across three active-count
+patterns are exhausted and empty in all 36 native trials and all four
+independent full-PAF checks. Leaf/prefix survivor counts agree. Prefix testing
+is not uniformly fastest in recorded medians; its balanced-case ranges
+overlap leaf testing. See `p7_portfolio.md` for selection bias and limits.
+Prefer a restricted census/reproducibility draft, with full priority/source
+comparisons and external replication before submission. Next acquire a
+verified positive p=7 control and test broader predetermined strata; safe
+prefix cadence/frequency ordering is a justified matched ablation. Do not
+infer full-family nonexistence or initiate p=37 search.
+
+Previous certified spectral milestone (2026-10-04):
+The saved p=7 intermediate pair is now computationally verified empty by
+the compact join and an independent all-shift PAF enumerator. The prefix
+filter directly reproduces every p=5 branch and exact solution list.
+See `spectral_join.md` for proved exclusions, matched controls and limitations.
+The next gate is a bounded portfolio of other verified p=7 intermediate
+translation classes with fresh resource estimates. No p=37 search follows.
+
+The preceding census milestone remains complete:
+All 1,164 intermediate translation orbits are resolved: 704 liftable and 460
+empty, with every multiplicity preserved. See `p5_classification.md` and
+`../paper/manuscript.tex`. The independent enumeration and symmetry-transfer
+audit passed. This restricted census is not a new LP(45) existence result or
+a first length-45 classification; Fletcher--Gysin--Seberry already reported
+an exhaustive classification in 2001. Novelty of this artifact remains open.
+
+Earlier direction assessment after implementing the exact ternary phase
+formulation and comparing bounded p=5/p=7 binary lifting. Prioritize
+finite-domain propagation on phase differences and weighted PAF sums, with
+the binary and phase PB models as exact references. No p=37 solver run has
+been started.
 
 Order 428 and the exact Legendre core are reproduced. The structured pq^2
 compressed pair is now derived, proved, and reproduced at `p=3`.
@@ -23,7 +54,7 @@ engineering effort changes that.
 **Prescribed factor-9 uncompression at `p=37, q=3` is therefore retained as
 the mathematical target and abandoned as a search method.**
 
-## Primary: constraint-propagation uncompression
+## Primary: cross-term-aware uncompression with an exact PB reference
 
 The exact pseudo-Boolean reference model is now implemented. Its 666 base
 variables expand to 111,222 variables after exact XOR linearization, with
@@ -49,17 +80,65 @@ Gates before any run:
 5. request approval with measured solver/proof estimates before any LP(333)
    run.
 
-The next implementation milestone is an exact two-stage `q=3` model with
-length-15 intermediate rows, validated against the reproduced LP(45) and the
-exhaustive LP(27) corpus. This follows the primary source's successful
-construction architecture and avoids treating local XOR-facet deletion as an
-optimization: exhaustive truth tables show that all four facets are required
-in the current direct reification.
+The staged route now has a non-enumerative p=37 first-stage OPB with 49,506
+variables and 147,538 records. For any valid intermediate branch, an exact
+projection theorem reduces the final PAF key to shifts `1..N-1`; at length 333
+this gives 73,926 variables and 293,372 records instead of 111,222 and
+442,612. Exhaustive p=3 and p=5 checks show that the projected and full keys
+return identical solution counts, and a p=5 witness certificate passes
+VeriPB. However, the p=5 projected open solver still times out in ten seconds,
+and a p=37 branch retains `3^167` paired preimages. See
+`projected_uncompression.md`.
+
+The next gate has now been completed: four anchor-triple inequalities give
+an exact factor-nine first-stage translation reduction, exhaustively audited
+at p=3 and p=5. All six p=5 first-stage PB searches succeeded, but all six p=7
+searches timed out at ten seconds; canonicalization slowed every paired p=5
+comparison. Four projected canonical p=5 binary-lift probes also timed out.
+On the known SAT rank-1 branch, the complete exact PAF join recovered 27
+pairs in 7.75 seconds while PB timed out. See `intermediate_scaling.md` for
+the proofs, complete timings, certificates, and limitations.
+
+The subsequent implementation exposed the exact weighted ternary
+phase-difference interactions, preserving cross terms and layer carries.
+It passes 196,830 direct PAF checks over the fixed p=3 branch's row preimages
+and reproduces the p=5 rank-1 count of 27. The phase PB model has 432
+variables and 1,249 records at that p=5 branch, compared with 1,350 and
+5,088 in the binary projected model. A seeded heuristic acquired an exact,
+VeriPB-certified p=7 intermediate branch in 3.87 seconds.
+
+All twelve ten-second p=5/p=7 binary-lift probes, comparing both encodings
+at three restart settings, still time out. The incremental phase join beats
+an independent packed join on the same canonical p=5 domain (0.96 versus
+1.81 seconds), but the p=7 join reaches its 250,000-signature cap before
+streaming partner rows. See `ternary_phase.md` for exact counts, proof,
+certificates, measurements, and the lack of a p=7 liftability conclusion.
+
+The next experiment proposed at that stage was finite-domain propagation over the ternary phase differences,
+cycle consistency, and weighted PAF sums. Check the known p=3/p=5 counts and
+an exhaustively empty p=5 branch before using the saved p=7 branch. Preserve
+all cross terms: the interaction graph is complete within each row, so a
+small separator cannot be assumed. Keep both PB models as correctness and
+certificate references. These results do not justify a p=37 run.
 
 The honest prior is that this fails too. Passing every compressed necessary
 condition does not imply a binary preimage exists, and the source states the
 universal uncompression claim as a conjecture. A negative result would still
 be publishable if it carries a checkable proof.
+
+## Follow-up result: phase propagation (2026-09-29 UTC)
+
+The proposed difference/cycle/PAF solver and a row-conditioned variant are
+implemented and audited; see `phase_propagation.md`. The latter reproduces
+every solution on all 1,164 p=5 branches using 79 direct representatives and
+proved bijections, but takes 3.56 times the join's summed recorded case time.
+Controlled ablations reduce nodes without improving elapsed time. Standalone
+difference search times out on p=5 controls, and the bounded p=7 experiments
+remain unresolved. Thus this implementation does not displace the join or
+justify scaling. Derive and validate a stronger safe single-row filter before
+another scaling experiment. Keep the PB baseline for certificates and avoid
+p=37 search. The literature convention conversion yields 63 classes within
+our subset; matching the historical representative list remains outstanding.
 
 ## Backup: audited compressed classes
 
@@ -74,7 +153,8 @@ any common-multiplier hypothesis is not mistaken for the full problem.
 
 ## Deprioritized
 
-- direct enumeration of any uncompression at `p >= 7`;
+- unrestricted direct enumeration at larger p; the saved p=7 fixed branch
+  has since been exhausted, but other branches need bounded pilots;
 - common fixed multipliers of order at least four under the current artifact
   classification (ten machine exclusions still await a full local proof run);
 - stochastic order-333 searches without an exact finishing stage;

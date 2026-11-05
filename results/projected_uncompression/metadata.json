@@ -1,0 +1,181 @@
+{
+  "command": "python -m scripts.build_projected_uncompression --solver tmp/tools/roundingsat/roundingsat.exe --verifier tmp/tools/veripb-3.0.2/bin/veripb.exe --probe-seconds 10",
+  "cpu_cores_used": 1,
+  "elapsed_seconds_this_run": 17.903824,
+  "logical_cpu_count": 16,
+  "p37_first_stage": {
+    "opb": {
+      "bytes": 4538361,
+      "path": "tmp/projected_uncompression/p37_first_stage.opb",
+      "sha256": "475713cbd08c927e5b3373cd0e7b41d9be09d350ab02140f418a9df052454d7e",
+      "tracked": false
+    },
+    "solved": false,
+    "stats": {
+      "base_variables": 444,
+      "compression_equalities": 74,
+      "constraint_records": 147538,
+      "correlation_equalities": 55,
+      "intermediate_length": 111,
+      "normalized_inequalities": 147668,
+      "prescribed_length": 37,
+      "product_inequalities": 146520,
+      "product_variables": 48840,
+      "square_xor_inequalities": 888,
+      "square_xor_variables": 222,
+      "variables": 49506,
+      "zero_shift_equalities": 1
+    }
+  },
+  "p37_fixed_branch_second_stage_dimensions": {
+    "full": {
+      "base_variables": 666,
+      "compressed_length": 111,
+      "compression_equalities": 222,
+      "constraint_records": 442612,
+      "correlation_equalities": 166,
+      "factor": 3,
+      "normalized_inequalities": 443000,
+      "symmetry_inequalities": 0,
+      "uncompressed_length": 333,
+      "variables": 111222,
+      "xor_inequalities": 442224,
+      "xor_variables": 110556
+    },
+    "projected": {
+      "base_variables": 666,
+      "compressed_length": 111,
+      "compression_equalities": 222,
+      "constraint_records": 293372,
+      "correlation_equalities": 110,
+      "factor": 3,
+      "normalized_inequalities": 293704,
+      "symmetry_inequalities": 0,
+      "uncompressed_length": 333,
+      "variables": 73926,
+      "xor_inequalities": 293040,
+      "xor_variables": 73260
+    },
+    "record_reduction": 149240,
+    "requires_valid_intermediate_branch": true,
+    "variable_reduction": 37296
+  },
+  "p3_validation": {
+    "agrees_with_full_key_search": true,
+    "distinct_second_vectors": 243,
+    "first_candidates": 6561,
+    "matched_first_candidates": 45,
+    "ordered_pairs_found": 135,
+    "second_candidates": 729
+  },
+  "p5_validation": {
+    "agrees_with_full_key_search": true,
+    "bounded_solver_probe": {
+      "command": [
+        "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\roundingsat\\roundingsat.exe",
+        "--print-sol=1",
+        "--verbosity=1",
+        "--lp=0",
+        "--proof-log=C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\projected_uncompression\\p5_rank1_projected_search.pbp",
+        "--time-limit=10",
+        "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\projected_uncompression\\p5_rank1_projected.opb"
+      ],
+      "elapsed_seconds": 11.033646,
+      "exit_code": 4,
+      "proof_complete": false,
+      "proof_log": {
+        "bytes": 22935001,
+        "path": "tmp/projected_uncompression/p5_rank1_projected_search.pbp",
+        "sha256": "e978dc0808bdb3c3c5e4fc794885637219c127501479e7c572e58c303a007752",
+        "tracked": false
+      },
+      "reported_status": "TIMELIMIT",
+      "stdout": {
+        "bytes": 5860,
+        "path": "results/projected_uncompression/p5_rank1_solver_probe.txt",
+        "sha256": "148e7a7fa395297efcde7389933dbec83fe6bdc10ef0e1aef691352e00189a1c",
+        "tracked": true
+      }
+    },
+    "branch_rank": 1,
+    "certificate": {
+      "bytes": 7751,
+      "path": "results/projected_uncompression/p5_rank1_witness.pbp",
+      "sha256": "3b5c902fb21054713bfd59ca56c44134828ab1f8a6a80499c122570326c5c61d",
+      "tracked": true
+    },
+    "distinct_stored_vectors": 59001,
+    "elapsed_seconds": 6.269527,
+    "first_candidates": 177147,
+    "full_key_coordinates": 22,
+    "matched_streamed_rows": 9,
+    "model_stats": {
+      "base_variables": 90,
+      "compressed_length": 15,
+      "compression_equalities": 30,
+      "constraint_records": 5084,
+      "correlation_equalities": 14,
+      "factor": 3,
+      "normalized_inequalities": 5128,
+      "symmetry_inequalities": 0,
+      "uncompressed_length": 45,
+      "variables": 1350,
+      "xor_inequalities": 5040,
+      "xor_variables": 1260
+    },
+    "opb": {
+      "bytes": 159337,
+      "path": "results/projected_uncompression/p5_rank1_projected.opb",
+      "sha256": "b659631bf58c14d5bde2a17632d7909d6a9fcc11cc4f7215760178f1cffe640d",
+      "tracked": true
+    },
+    "ordered_pairs_found": 27,
+    "orientation": "second row streamed; first row stored",
+    "second_candidates": 531441,
+    "signature_coordinates": 14,
+    "veripb": {
+      "command": [
+        "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\veripb-3.0.2\\bin\\veripb.exe",
+        "--stats",
+        "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\projected_uncompression\\p5_rank1_projected.opb",
+        "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\projected_uncompression\\p5_rank1_witness.pbp"
+      ],
+      "elapsed_seconds": 0.032599,
+      "exit_code": 0,
+      "reported_status": "VERIFIED SATISFIABLE",
+      "stdout": {
+        "bytes": 179,
+        "path": "results/projected_uncompression/p5_rank1_witness_veripb.txt",
+        "sha256": "48af12d328ad87d4b3822a0a3805f9d39460bafc4543f6face5fcdc165df028b",
+        "tracked": true
+      }
+    },
+    "witness": {
+      "bytes": 497,
+      "path": "results/projected_uncompression/p5_rank1_witness.json",
+      "sha256": "3a7efb73f58c9bb0aecee2741b2af2c49cdd7880ce7328c16e52bd25a0883cb2",
+      "tracked": true
+    }
+  },
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD",
+  "projection_theorem": "for a fixed valid factor-three intermediate pair of odd length N, final PAF equations at shifts 1..N-1 imply every omitted shift",
+  "python": "3.14.6",
+  "random_seed": null,
+  "solver": {
+    "bytes": 2149376,
+    "path": "tmp/tools/roundingsat/roundingsat.exe",
+    "sha256": "12a98e4ca9e91cd0fe344e88760fe0eaced3c1e4cf377b5134379ef4fec9fedf",
+    "tracked": false
+  },
+  "solver_reported_commit": "d4edbf7",
+  "started_utc": "2026-09-28T02:17:00.411599+00:00",
+  "status": "non-enumerative p=37 first-stage model plus exact projected second-stage validation; no LP(333) solve and no order-668 result",
+  "verifier": {
+    "bytes": 2588160,
+    "path": "tmp/tools/veripb-3.0.2/bin/veripb.exe",
+    "sha256": "c3e3d547112c5cf0f9bf610438bb0b629a8699b85dcaa337ed0af55978bad676",
+    "tracked": false
+  },
+  "verifier_version": "VeriPB 3.0.2"
+}

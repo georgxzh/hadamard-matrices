@@ -1,0 +1,65 @@
+{
+  "algorithm": "sha256",
+  "files": [
+    {
+      "bytes": 12937,
+      "path": "research/residual_compression_obstruction.md",
+      "sha256": "a1915fd432687bf6955b2d68fa67da4a1be514f08ceea44fbf3b264b8b07062a"
+    },
+    {
+      "bytes": 4263,
+      "path": "results/residual_obstruction/audit.json",
+      "sha256": "1e798d5a92017a2ca93db7ed9a74431e26d6aad7c48dda81588d2690ef75ad60"
+    },
+    {
+      "bytes": 615681,
+      "path": "results/residual_obstruction/census.json",
+      "sha256": "83820b7fc1c00d03519c34f0e18e2e5688fc2b46eb2011655957876bcd16cc7a"
+    },
+    {
+      "bytes": 6330,
+      "path": "results/residual_obstruction/counterexample.json",
+      "sha256": "8eeb9bf7bbdcd96c2d046c769f3efae9396142c2df5457aa03eeafe622450f23"
+    },
+    {
+      "bytes": 580,
+      "path": "results/residual_obstruction/latex_status.json",
+      "sha256": "50b1353dd5972e173d9421ea82e032384ff63a4b9f551740a32870266c568cb1"
+    },
+    {
+      "bytes": 614,
+      "path": "results/residual_obstruction/p7_pilot.json",
+      "sha256": "8018ca16bc318e9592487e13afaa505791a4266a6b7279f63e83817a6b2be4e5"
+    },
+    {
+      "bytes": 1396,
+      "path": "results/residual_obstruction/pilot.json",
+      "sha256": "0fa9fdf87908b8ff8a6192d7d9cbc9c22bf2e933e6cd968f6ff44b86353ca32c"
+    },
+    {
+      "bytes": 492,
+      "path": "results/residual_obstruction/tests.json",
+      "sha256": "e2323d8f0d208972b2ad818c0027c752a52d88a01b2d2a411e67785b6770efb4"
+    },
+    {
+      "bytes": 7443,
+      "path": "scripts/audit_residual_obstruction.py",
+      "sha256": "739d7cd61b25dd49d4d99939326a3fc8429b457b8852da51110807b889746de2"
+    },
+    {
+      "bytes": 2396,
+      "path": "scripts/package_residual_obstruction.py",
+      "sha256": "1e7fa8e3b490d52c379351a8802de9433d353adaf9c3031d6ea85fb5cb91913f"
+    },
+    {
+      "bytes": 3603,
+      "path": "scripts/residual_compression_obstruction.py",
+      "sha256": "7f9eca0c7d1c14bad781cd7689791ad39e0847c39f2494076eda0d05310b5e44"
+    },
+    {
+      "bytes": 2692,
+      "path": "tests/test_residual_obstruction.py",
+      "sha256": "3fbce665d5280193832534582e436f78c65cdce77d2c48dd320ae262d2c16c09"
+    }
+  ]
+}

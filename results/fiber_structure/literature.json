@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-11",
+  "purpose": "Focused antecedent search for the prime-kernel obstruction and conditional fiber counts; no messages or contacts.",
+  "queries": [
+    "Legendre pairs compression multipliers stabilizer orbit number decompressions prime squared divisibility",
+    "Legendre pairs multiplier group compression uncompression stabilizer q squared",
+    "Legendre pair of length 77 compression multiplier theorem 2.4",
+    "Legendre pairs divisible 27",
+    "Legendre congruence kernel",
+    "Blackthorn prime-square Legendre",
+    "21779001"
+  ],
+  "sources": [
+    {
+      "url": "https://arxiv.org/pdf/2101.10918",
+      "title": "A Legendre pair of length 77 using complementary binary matrices with fixed marginals",
+      "access": "Full 17-page primary preprint accessible and relevant statements and proofs read; HTML v2 endpoint returned internal error.",
+      "locations": "Section 2, Theorem 2.3 and Corollaries 2.4-2.5, preprint pages 5-6; Section 3, Theorem 3.2, pages 8-9.",
+      "comparison": "Multiplier/decompression orbit counts are established. Coprime factor hypotheses do not directly cover the present repeated-prime case."
+    },
+    {
+      "url": "https://github.com/Arthur742Ramos/hadamard-668-multiplier-obstructions/issues/2",
+      "title": "A small extension to your id2 classification",
+      "source_date": "2026-07-24",
+      "author_as_stated": "Account byclaude; signed Claude, working with Patrick White",
+      "access": "Full issue body read; primary public research communication, not peer-reviewed article.",
+      "locations": "Claim and Proof sketch paragraphs; One more thing paragraph explicitly gives the odd-prime-square one-row congruence-kernel obstruction.",
+      "comparison": "Direct antecedent for the central obstruction. General prime case was explicitly stated before this investigation."
+    },
+    {
+      "url": "https://github.com/Arthur742Ramos/hadamard-668-multiplier-obstructions/blob/main/lp333/id2_congruence_kernel/report.md",
+      "raw_url": "https://raw.githubusercontent.com/Arthur742Ramos/hadamard-668-multiplier-obstructions/main/lp333/id2_congruence_kernel/report.md",
+      "access": "Full report read in HTML and raw Markdown.",
+      "locations": "Theorem; Proof; Provenance and independent corroboration (raw lines 58-67).",
+      "comparison": "Incorporates the one-row obstruction and attributes a broader prime-square result including affine symmetries and Lean 4 formalization to Benedek Ben Blackthorn. The latter is a report about an unread archive, not a verified formalization here."
+    },
+    {
+      "url": "https://github.com/Arthur742Ramos/hadamard-668-multiplier-obstructions/pull/5",
+      "access": "Full conversation metadata and What changed / Why read.",
+      "locations": "Merged August 10, 2026; What changed and Why explicitly integrate issue 2 and attribution.",
+      "comparison": "Documents incorporation before the current investigation; no messages sent and no external code executed."
+    },
+    {
+      "url": "https://arxiv.org/html/2607.20765v1",
+      "access": "Full HTML accessible; Sections 2.1-2.2 and relevant obstruction/provenance context read. Version-2 HTML retrieval returned internal error.",
+      "locations": "Lemma 2.4; Definition 2.6 and following distinction from multipliers with translation; Section 3 and version-1 subgroup table.",
+      "comparison": "Background compression and fixed-common-multiplier scope; v1 predates the later incorporated kernel obstruction. No search at length 333 performed."
+    }
+  ],
+  "inaccessible": [
+    {"url":"https://doi.org/10.5281/zenodo.21779001","result":"Web tool inaccessible/internal error; archive not read."},
+    {"url":"https://zenodo.org/records/21779001","result":"Web tool internal error; archive not read."},
+    {"url":"https://zenodo.org/api/records/21779001","result":"Web tool inaccessible/internal error; formalization not checked."}
+  ],
+  "inherited_gaps": "Fast-spectral and pq-squared full algorithms and historical complete length-45 list remain unresolved as documented in the frozen October 10 ledger; not inferred from abstracts or unnecessarily reprobed.",
+  "assessment": "Underlying obstruction has direct prior public evidence. Current fiber divisibility and third gauge are useful attributed corollaries; priority of their precise formulation unresolved. No substantive original theorem or submission-readiness claim.",
+  "source_limit": "Dynamic GitHub pages identify the stated public dates; no archival authenticity or Lean verification is asserted. No publisher text beyond accessible primary sources was inferred."
+}

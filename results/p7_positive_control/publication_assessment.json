@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-09",
+  "preferred_scope": "Restricted census and reproducibility paper with proved specializations",
+  "precise_candidate_contribution": "An auditable complete conditional p=5 census over the 1,164 prescribed intermediate translation classes, preserving mask multiplicities, supplemented by five individually exhausted p=7 classes, four empty and one positive, and matched certified spectral-filter ablations.",
+  "positive_control_gap": "Closed: primary ISSAC 2025 LP(63) witness belongs exactly to the prescribed family; all nine native trials and the independent full-PAF enumerator exhaust its branch to the same three canonical pairs, 27 ordered fixed-intermediate lifts.",
+  "established": ["Compression, character prescription, successive lifting, PAF/PSD and SDS identities", "PSD exclusion, symmetry reduction and correlation matching", "Published LP(63) existence"],
+  "independent_reproductions": ["Primary published LP(63), all 62 PAF equations and SDS", "Complete restricted p=5 census and frozen four empty p=7 classes", "Positive fixed p=7 branch count and complete mask sets using two native implementations plus standalone witness checks"],
+  "potential_specializations": ["Certified rational partial-phase rectangle filter; priority unresolved", "Conditional census and its detailed count/equivalence crosswalk; historical-list novelty unresolved"],
+  "not_supported": ["A first algorithm", "New LP length", "Methods priority or competitive speed against the inaccessible algorithms", "Classification or average scaling of all p=7 classes", "Uniform prefix advantage over leaf filtering", "Proximity to order 668"],
+  "submission_gates": [
+    "Obtain and read full fast-spectral and pq-squared algorithms/code lawfully; compare exact domains, symmetries, matching multiplicities, lifting and numerical safeguards.",
+    "Crosswalk against historical complete length-45 representative lists and determine the incremental value of the restricted artifact.",
+    "External replication using a separate environment/compiler and a stable archival release.",
+    "Broader predetermined p=7 strata only if required by the selected paper scope; one deliberately chosen positive control is not an unbiased sample.",
+    "Confirm authorship, refine exposition, verify TeX compilation and layout. No formal enumeration certificate currently exists."
+  ],
+  "next_priority": "Evidence and literature/replication gaps before additional optimization",
+  "no_p37_search": true
+}

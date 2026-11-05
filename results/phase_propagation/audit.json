@@ -1,0 +1,10 @@
+{
+  "branches": 1164,
+  "canonical_solutions": 2976,
+  "direct_cases": 79,
+  "elapsed_seconds": 1.3282476000022143,
+  "equivalence_classes": 63,
+  "limitation": "Frozen-result consistency audit; fresh exhaustion is the pilot/full command, not this audit.",
+  "manifest_sha256": "de757e2b62e6da07aa9ff5777b46bc586192cab827a794ca25bb9f9d7d851a27",
+  "status": "passed"
+}

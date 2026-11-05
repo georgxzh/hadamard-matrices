@@ -1,0 +1,9 @@
+{
+  "base_commit": "0c23a7e2989ba863e33817a49b6b934c526598ea",
+  "frozen_results": {
+    "files": 6707,
+    "ordered_path_sha256_digest": "63932958f91f822b9b798cbb34c65ea74d4c1363e9944c6aa8b285453faa3e9a"
+  },
+  "old_paper_manifest_sha256": "9af3ffdf8ebc570c7294a0e7bfc87f8c20f6eb8bf30a6c6d9cc20e7cd13206c7",
+  "old_publication_manifest_sha256": "37c81ccfa78bf7d5402ec4ef006826121aff6b21a8111b014b091aa47261d6ca"
+}

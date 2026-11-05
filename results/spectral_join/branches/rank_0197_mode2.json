@@ -1,0 +1,86 @@
+{
+  "canonical_lower_bound": 9,
+  "canonical_pairs": 9,
+  "command": [
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\spectral_join.exe",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\spectral_join\\branches\\rank_0197_mode2.input.txt",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\spectral_join\\branches\\rank_0197_mode2.json"
+  ],
+  "complete": true,
+  "elapsed_seconds": 0.019364,
+  "mode": 2,
+  "node_limit": 100000000,
+  "ordered_pairs": 81,
+  "peak_working_set_bytes": 6148096,
+  "probe": false,
+  "rows": [
+    {
+      "accepted": 1821,
+      "complete": true,
+      "elapsed_seconds": 0.005497,
+      "excluded_completions": 24930,
+      "expected": 59049,
+      "full_rejections": 32298,
+      "leaves": 34119,
+      "nodes": 62662,
+      "prefix_conflicts": 7656
+    },
+    {
+      "accepted": 1479,
+      "complete": true,
+      "elapsed_seconds": 0.0128946,
+      "excluded_completions": 100719,
+      "expected": 177147,
+      "full_rejections": 74949,
+      "leaves": 76428,
+      "nodes": 157963,
+      "prefix_conflicts": 28881
+    }
+  ],
+  "seconds_limit": 120,
+  "solution_limit": 100000,
+  "solutions": [
+    [
+      467979964844,
+      18274767967558
+    ],
+    [
+      972287359414,
+      22041397399130
+    ],
+    [
+      3211843719588,
+      6626786132810
+    ],
+    [
+      7053440967062,
+      25932478124858
+    ],
+    [
+      9250316540318,
+      927362046034
+    ],
+    [
+      13674668788130,
+      22629154937358
+    ],
+    [
+      20208926306730,
+      21521167798386
+    ],
+    [
+      22419022381476,
+      5329587787290
+    ],
+    [
+      27418078646658,
+      23393833435774
+    ]
+  ],
+  "stop_reason": "exhausted",
+  "stored_candidate_limit": 5000000,
+  "stored_side": 0,
+  "table_capacity_bytes": 90112,
+  "table_entries": 1821,
+  "wrapper_elapsed_seconds": 0.0684078999911435
+}

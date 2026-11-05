@@ -235,6 +235,183 @@ length 333 or order 668.
 - Reproduction command: `python -m scripts.validate_p5_uncompression
   --verifier tmp/tools/veripb-3.0.2/bin/veripb.exe`
 
+## EXP-PB-004: conditional successive-q branch benchmark
+
+- Status: exact conditional model; p=3 SAT/PASS, p=5 TIMELIMIT
+- UTC completion: 2026-09-27T21:15:16.185839Z
+- Objective: implement the source-backed second stage of successive
+  q-uncompression and test whether fixing a valid intermediate pair improves
+  proof-producing search
+- Primary source: successive-q architecture in `kotsireas2025compression`;
+  intermediate rows are computed exactly from repository LP(27) and LP(45)
+  witnesses
+- Mathematical constraints: intermediate range/parity, row sums, exact
+  compressed PAF constants, second compression to the prescribed rows, final
+  binary Legendre equations, and per-row translation canonicalization on an
+  aperiodic selected residue
+- Configuration: p in `{3,5}`, q=3, factor-three final uncompression;
+  RoundingSat commit `d4edbf7`, `--lp=0`, ten-second internal limit; VeriPB
+  3.0.2
+- Random seed: not exposed or set; solver runs are observations
+- Git commit: working tree on branch `agent/order-428-reproduction`; final
+  commit recorded by repository history
+- Hardware and software: Windows 11, AMD64 Family 25 Model 117; Python 3.14.6
+- CPU cores / peak memory / storage: one core; solver peak below 14 MB; p=3
+  complete proofs 1,638,002 and 2,527,594 bytes; p=5 incomplete scratch
+  proofs 20,712,367 and 22,182,057 bytes
+- Complete output: `results/staged_uncompression/`; incomplete proofs remain
+  ignored scratch artifacts identified by hash in metadata
+- Exact checker: `FactorThreeBranch`, every OPB record, exact PAF/SDS/PSD
+  checks on returned rows, and VeriPB verification of known-witness and solver
+  proofs
+- Result: p=3 unbroken SAT in 0.575 seconds and canonical SAT in 0.818
+  seconds; both solver assignments and proofs verify. The corresponding p=5
+  runs returned `TIMELIMIT` after approximately 11.05 seconds each
+- Interpretation: fixing a valid intermediate branch materially improves the
+  p=3 search over the timed-out one-stage model, but is insufficient at p=5
+- Limitations / failed cases: this is a conditional branch model, not complete
+  generation of all valid intermediate pairs; p=5 was not solved by search;
+  no LP(333) model or H(668) claim
+- Reproduction command: `python -m scripts.benchmark_staged_uncompression
+  --solver tmp/tools/roundingsat/roundingsat.exe --verifier
+  tmp/tools/veripb-3.0.2/bin/veripb.exe --search-seconds 10`
+
+## EXP-PB-005: exhaustive first-stage q=3 intermediate generation
+
+- Status: exhaustive small-parameter enumeration and exact model; PASS
+- UTC completion: 2026-09-27T21:39:44.541739Z
+- Objective: implement the first stage of successive q-uncompression,
+  validate complete coverage at p=3, and recover the published p=5 branch
+- Primary source: successive-q architecture and LP(45) in
+  `kotsireas2025compression`; equations independently derived in
+  `intermediate_stage.md`
+- Mathematical constraints: every ordered residue triple in
+  `{-3,-1,1,3}^3`, exact second compression, zero and all nonredundant PAF
+  constants, exact two-bit entry encoding, XOR squares, and AND products
+- Configuration: p in `{3,5}`, q=3; deterministic PAF-signature hash join;
+  VeriPB 3.0.2
+- Random seed: not applicable
+- Git commit: working tree on branch `agent/order-428-reproduction`; final
+  commit recorded by repository history
+- Hardware and software: Windows 11, AMD64 Family 25 Model 117; Python 3.14.6
+- CPU cores / peak memory / storage: one core; p=5 `tracemalloc` peak
+  18,917,201 bytes; frozen package below 120 KB
+- Complete output: `results/intermediate_stage/`; models, certificates,
+  verifier transcripts, counts, timings, and hashes in `metadata.json`
+- Exact checker: independent enumeration/signature join, every
+  `IntermediatePBModel` record on representatives and known branches, and
+  VeriPB complete-assignment certificates
+- Result: p=3 enumerated 1,200 rows per side, 282 signatures per side, 25
+  matching signature classes, and 792 ordered pairs; p=5 enumerated 120,000
+  rows per side, 18,348 signatures per side, 208 matching classes, and 10,476
+  ordered pairs. The published p=5 branch was recovered exactly. VeriPB
+  accepted both known-branch certificates.
+- Runtime: 0.060484 seconds at p=3 and 15.293400 seconds at p=5 with
+  `tracemalloc` enabled
+- Interpretation: the source's first-stage small-case gate is complete and
+  independently modeled, but the exponential generator is not a p=37 method
+- Limitations / failed cases: the p=3 known branch belongs to a recovered
+  signature class but is not the deterministic representative stored for
+  that class; this is not a coverage failure. No final-binary p=5 portfolio,
+  LP(333), or order-668 computation was run.
+- Reproduction command: `python -m scripts.build_intermediate_stage
+  --verifier tmp/tools/veripb-3.0.2/bin/veripb.exe`
+
+## EXP-PB-006: p=5 branch profile and exhaustive portfolio
+
+- Status: complete branch profile plus bounded exhaustive searches; PASS
+- UTC completion: 2026-09-27; exact timestamp is in
+  `results/p5_branch_portfolio/metadata.json`
+- Objective: rank the complete p=5 intermediate set by exact second-stage
+  cost and test a deterministic three-branch portfolio
+- Primary source: successive-q architecture in `kotsireas2025compression`;
+  branch cost and translation reduction derived in
+  `p5_branch_portfolio.md`
+- Mathematical constraints: exact intermediate PAF join, independent free
+  translations, complete factor-three binary preimages, every final PAF
+  shift, SDS, cyclotomic PSD, both compression stages, fixed-branch OPB, and
+  complete H(92) Gram identities
+- Configuration: all 10,476 p=5 intermediate pairs profiled; first three of
+  1,164 translation-orbit representatives searched; smaller row used as the
+  signature table; VeriPB 3.0.2
+- Random seed: not applicable
+- Git commit: working tree on branch `agent/order-428-reproduction`; final
+  commit recorded by repository history
+- Hardware and software: Windows 11, AMD64 Family 25 Model 117; Python 3.14.6
+- CPU cores / peak memory / storage: one core; peak memory not instrumented;
+  smaller 177,147-row side stored; frozen catalog and result package below
+  1 MB
+- Complete output: `results/p5_branch_portfolio/`, including all 1,164
+  canonical branches, exact metadata, one witness, one VeriPB certificate,
+  and dual-verifier H(92) package
+- Exact checker: complete bit-packed PAF signature joins, independent PAF/SDS/
+  cyclotomic-PSD checks, every branch-model record, VeriPB, and two independent
+  exact matrix verifiers
+- Result: all branches have 23 magnitude-one entries in total and split into
+  1,164 free translation orbits. Ranks 1 and 2 each contain exactly 27 ordered
+  LP(45) pairs; rank 3 contains zero. The published branch ranks 771. The
+  selected H(92) SHA-256 is
+  `a2081037642e242729aebec4a94529f400dc49b326f69f6b74c0521b9ae33389`.
+- Runtime: complete script 29.612982 seconds; profile 4.931040 seconds;
+  branch searches 7.771051, 8.648980, and 7.816479 seconds
+- Interpretation: balanced intermediate branches make complete p=5 binary
+  joins practical and recover LP(45) witnesses independently of the printed
+  source rows; no inequivalence or novelty claim is made
+- Limitations / failed cases: rank-3 nonexistence is an exhaustive
+  computational branch result but lacks a standalone UNSAT proof; a separate
+  ten-second RoundingSat proof probe timed out. Three branches do not estimate
+  all-orbit satisfiability. No LP(333) or order-668 search was run.
+- Reproduction command: `python -m scripts.benchmark_p5_branch_portfolio
+  --verifier tmp/tools/veripb-3.0.2/bin/veripb.exe --portfolio-size 3`
+
+## EXP-PB-007: p=37 first-stage model and projected second stage
+
+- Status: exact derivation, model construction, and small-case validation;
+  PASS, with bounded solver probe TIMELIMIT
+- UTC completion: 2026-09-28T02:17:18Z; precise timestamp and timings are in
+  `results/projected_uncompression/metadata.json`
+- Objective: replace first-stage enumeration by an exact p=37 constraint model
+  and reduce fixed-branch second-stage correlation keys without weakening the
+  Legendre equations
+- Primary sources: compression identity and successive-q architecture from
+  `djokovic2015compression` and `kotsireas2025compression`; contemporary
+  PAF-vector matching context from the abstract of `lebedev2026quaternary`
+- Mathematical constraints: exact first-stage two-bit entry model, every
+  intermediate PAF equation, factor-three compression fibres, PAF symmetry,
+  full final PAF/SDS/cyclotomic-PSD checks, and projected OPB records
+- Configuration: p in `{3,5,37}`, q=3; p=37 OPB generation only; rank-1 p=5
+  exhaustive projected join; RoundingSat commit `d4edbf7`, LP disabled,
+  ten-second probe; VeriPB 3.0.2
+- Random seed: not applicable
+- Git commit: working tree on branch `agent/order-428-reproduction`; final
+  commit recorded by repository history
+- Hardware and software: Windows 11, AMD64 Family 25 Model 117; Python 3.14.6
+- CPU cores / peak memory / storage: one core; peak memory not instrumented;
+  p=37 scratch OPB 4,538,361 bytes; latest incomplete solver proof 22,935,001
+  bytes in ignored scratch storage
+- Complete output: `results/projected_uncompression/`; p=37 OPB remains
+  reproducible ignored scratch output with exact hash in metadata
+- Exact checker: p=3 full/projected exhaustive equality; p=5 projected/full
+  count agreement, complete final mathematical checks, every projected OPB
+  record, and VeriPB SAT verification
+- Result: p=37 first stage has 49,506 variables and 147,538 records. A future
+  fixed-branch projected length-333 model has 73,926 variables and 293,372
+  records, reductions of 37,296 and 149,240 from the full fixed-branch model.
+  The p=5 projected key recovers all 27 rank-1 pairs. VeriPB accepts the known
+  witness certificate.
+- Runtime: complete frozen run 17.903824 seconds; p=5 projected join 6.269527
+  seconds; solver probe about 11.04 seconds
+- Interpretation: the staged route now has non-enumerative exact models at
+  p=37 and a sufficient 110-coordinate fixed-branch key, but not a feasible
+  enumeration or demonstrated p=37 solve
+- Limitations / failed cases: the p=5 open projected solver probe returned
+  `TIMELIMIT`; its proof is incomplete. A p=37 branch still has `3^167`
+  binary preimage pairs, and the best balanced explicit row scan is about
+  `1.6e40`. No p=37 solver was invoked and no order-668 result is claimed.
+- Reproduction command: `python -m scripts.build_projected_uncompression
+  --solver tmp/tools/roundingsat/roundingsat.exe --verifier
+  tmp/tools/veripb-3.0.2/bin/veripb.exe --probe-seconds 10`
+
 ## EXP-SYM-001: free translation canonicalization
 
 - Status: exact derivation and exhaustive small-case validation; PASS
@@ -310,6 +487,120 @@ length 333 or order 668.
   no conclusion about unrestricted LP(333) or H(668)
 - Reproduction commands: enumerated in `multiplier_artifact_audit.md`; all
   executed against the exact external commit above
+
+## EXP-INTERMEDIATE-SCALING-001: first-stage symmetry and bounded p=5/p=7 PB
+
+- Status: exhaustive symmetry validation; bounded exploratory solver comparison
+- UTC start/end: 2026-09-28 02:38:36 to 02:41:06
+- Objective: prove first-stage translation canonicalization and test whether
+  the generic staged PB formulation merits scaling beyond small p
+- Mathematical constraints: exact compressed PAFs and prescribed compression;
+  least anchor triple under independent translations by p; exact projected
+  second-stage PAF equations with binary translation canonicalization
+- Configuration: RoundingSat with LP disabled and proof logging, restart
+  multipliers 50/100/200, ten-second internal search limits; VeriPB 3.0.2
+- Random seed: none; restart settings are deterministic sensitivity probes
+- Software/hardware: Python and Windows platform recorded in metadata;
+  executable hashes and every command frozen with outputs
+- Resources: 150.309042 seconds total wall; sequential single-core solvers;
+  largest sampled solver working set 18,231,296 bytes; 227,640,019 bytes of
+  ignored search traces; approximately 2.31 MB of frozen results
+- Complete output: `results/intermediate_scaling/metadata.json`
+- Exact checkers: all canonical p=3/p=5 pairs pass every OPB record; actual
+  solver assignments and independently decoded PAF/compression checks;
+  VeriPB verifies all eight successful search traces and compact certificates
+- Results: 792 -> 88 p=3 pairs and 10,476 -> 1,164 p=5 pairs, exactly nine
+  per orbit. Both p=3 and all six p=5 first-stage searches solve. All six p=7
+  first-stage searches and four p=5 binary-lift searches time out. The exact
+  rank-1 p=5 join recovers 27 pairs in 7.745979 seconds on the same branch
+  where canonical projected PB times out.
+- Interpretation: retain PB as a reference; prioritize an exact ternary
+  formulation retaining phase cross terms before further scaling
+- Limitations: no p=7 branch obtained; timeouts are not UNSAT; no performance
+  claim for an unimplemented decomposition; no p=37 solver run. Proof-v2
+  unchecked-deletion warning accepted only for independently verified SAT.
+- Reproduction: `python -m scripts.benchmark_intermediate_scaling --solver
+  tmp/tools/roundingsat/roundingsat.exe --verifier
+  tmp/tools/veripb-3.0.2/bin/veripb.exe --search-seconds 10`
+- Derivation and next implementation gate: `intermediate_scaling.md`
+
+## EXP-TERNARY-PHASE-001: exact cross terms and bounded p=5/p=7 lifts
+
+- Status: exact formulation and small-case exhaustive validation; bounded
+  exploratory PB comparison and heuristic intermediate acquisition
+- UTC main benchmark start/end: 2026-09-29 00:03:15 to 00:05:44;
+  supplemental controls have a separate timestamp in metadata
+- Objective: preserve phase cross terms while reducing the fixed-branch
+  encoding and per-candidate work; test the binary-lift bottleneck at p=5/7
+- Mathematical constraints: one ternary minority-layer phase per active
+  residue; exact shared differences; complete layer-carry-aware PAF formula;
+  projected shifts; proved independent row-translation gauges
+- Configuration: sequential RoundingSat, LP disabled, proof logging,
+  restart multipliers 50/100/200, ten-second solver budgets; VeriPB 3.0.2
+- Seed: 20260928 for p=7 intermediate acquisition, 89,695 iterations;
+  no random seed for deterministic PB runs
+- Exact results: 196,830 direct PAF checks; p=3 135 ordered pairs; p=5 rank 1
+  27 ordered pairs; complete compact-model certificates pass VeriPB. A p=7
+  intermediate branch is found in 3.871556 seconds and certified, with
+  active-row counts 15/17. Its binary liftability remains unknown.
+- PB results: both p=3 controls solve (binary 3.134790 s; phase 0.330354 s).
+  All twelve p=5/p=7 lift probes time out. Three preliminary twenty-second
+  first-stage p=7 PB probes also time out.
+- Same-domain join control: p=5 incremental 0.963585 s, packed 1.809603 s;
+  both return exactly 27. The p=7 join reaches 250,000 stored signatures
+  before any partner rows are scanned; zero matches is uninformative.
+- Resources: main wall time 148.791907 s, preliminary retries about 63.23 s,
+  supplemental controls 2.815672 s; maximum sampled main solver working set
+  14,528,512 bytes; Python peak memory not measured; scratch proofs
+  321,174,052 bytes; retained results about 2.67 MB
+- Complete output: `results/ternary_phase/metadata.json`,
+  `results/ternary_phase/p7_acquisition.json`; derivation `ternary_phase.md`
+- Interpretation: phase compression helps representation and small-case
+  enumeration, but generic PB still stalls. Next implement bounded exact
+  finite-domain phase propagation, including all cross terms and cycles.
+- Limitations: no p=7 binary pair, no completeness claim for the heuristic or
+  capped join, no p=37 solver run, no asymptotic speedup claim
+- Reproduction: `python -m scripts.benchmark_ternary_phase --solver
+  tmp/tools/roundingsat/roundingsat.exe --verifier
+  tmp/tools/veripb-3.0.2/bin/veripb.exe --search-seconds 10`
+
+## 2026-09-29: complete prescribed p=5 classification and paper draft
+
+- Status: exhaustive restricted census; controlled bounded benchmarks.
+- Domain: every one of the 1,164 intermediate translation orbits above the
+  prescribed p=5 character pair, with binary translations and multiplicities
+  tracked explicitly. No p=37 search.
+- Resource gate: 21-branch pilot, four workers, 205.248 s; naive estimate
+  6,513.693 s exceeded the per-run limit and was not executed. Proved
+  symmetries reduced direct cases to 79; three-worker estimate with margin
+  763.185 s, 1.426 GB worker memory, 8.73 MB result storage.
+- Result: reduced run 394.574 s; 704 positive and 460 empty branches, zero
+  unresolved. Ordered per-branch counts 0/27/54/81 occur 460/464/192/48 times.
+  All translations restored: 241,056 distinct ordered prescribed LP(45)s.
+- Exact checker: two exhaustive enumerators (ternary projected versus binary
+  full PAF), all-solution direct PAF/SDS/compression checks, 79 explicit
+  symmetry records, regenerated catalogue, 21 pilot comparisons, inverse
+  transfers, known published witness, and unique translation expansion.
+- Complete output and hashes: `results/p5_classification/`; independent
+  audit passed in 13.843 s. Details: `p5_classification.md`.
+- Controlled effects: three-repeat factorial joins hold Gray traversal and
+  gauge fixed; a separate 96.99-second timing batch avoids concurrent repo
+  jobs. Gauge cuts row count 3x, while incremental-update median gains with
+  gauge enabled are 1.10x/1.07x with overlapping ranges. Both aligned PB
+  encodings time out on all p=5/p=7 probes; phase PB solves the p=3 control
+  faster. Details and limitations: `phase_controls.md`.
+- Artifact audit: 139 hashes, 35 byte-identical regenerated OPBs, 19
+  reverified SAT logs/certificates. Repository tests: 156 passed using
+  in-repository temporary storage after the default temp path was denied.
+- Paper: `paper/manuscript.tex` includes proofs, literature comparison,
+  completed measurements, commands and hashes. Fletcher--Gysin--Seberry's
+  2001 exhaustive length-45 classification is explicitly credited; novelty
+  of the restricted artifact/formulations is unresolved. Native PDF
+  compilation is blocked by an environment error, not reported as successful.
+- Limitations: no formal enumeration/UNSAT certificate, no external
+  replication or old-classification crosswalk, incomplete full-text
+  comparison with later pq² and fast spectral algorithms. Saved p=7 branch
+  remains unresolved. No conclusion about proximity to order 668.
 
 ## Entry template
 

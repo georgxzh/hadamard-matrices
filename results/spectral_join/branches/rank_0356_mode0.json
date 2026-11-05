@@ -1,0 +1,86 @@
+{
+  "canonical_lower_bound": 9,
+  "canonical_pairs": 9,
+  "command": [
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\spectral_join.exe",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\spectral_join\\branches\\rank_0356_mode0.input.txt",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\spectral_join\\branches\\rank_0356_mode0.json"
+  ],
+  "complete": true,
+  "elapsed_seconds": 0.0252733,
+  "mode": 0,
+  "node_limit": 100000000,
+  "ordered_pairs": 81,
+  "peak_working_set_bytes": 8822784,
+  "probe": false,
+  "rows": [
+    {
+      "accepted": 59049,
+      "complete": true,
+      "elapsed_seconds": 0.0037031,
+      "excluded_completions": 0,
+      "expected": 59049,
+      "full_rejections": 0,
+      "leaves": 59049,
+      "nodes": 88573,
+      "prefix_conflicts": 0
+    },
+    {
+      "accepted": 177147,
+      "complete": true,
+      "elapsed_seconds": 0.0205985,
+      "excluded_completions": 0,
+      "expected": 177147,
+      "full_rejections": 0,
+      "leaves": 177147,
+      "nodes": 265720,
+      "prefix_conflicts": 0
+    }
+  ],
+  "seconds_limit": 120,
+  "solution_limit": 100000,
+  "solutions": [
+    [
+      8965713274260,
+      27586127788226
+    ],
+    [
+      9912657292700,
+      29922854228162
+    ],
+    [
+      10187032160404,
+      20025037683826
+    ],
+    [
+      10393586677916,
+      20377311768786
+    ],
+    [
+      11439014863886,
+      26484467170546
+    ],
+    [
+      12194767631502,
+      28196267219008
+    ],
+    [
+      26625949545756,
+      29295437479154
+    ],
+    [
+      27656882200732,
+      20044399114320
+    ],
+    [
+      29855809709062,
+      28840555040976
+    ]
+  ],
+  "stop_reason": "exhausted",
+  "stored_candidate_limit": 5000000,
+  "stored_side": 0,
+  "table_capacity_bytes": 2883584,
+  "table_entries": 59049,
+  "wrapper_elapsed_seconds": 0.06829300001845695
+}

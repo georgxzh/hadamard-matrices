@@ -1,0 +1,86 @@
+{
+  "canonical_lower_bound": 9,
+  "canonical_pairs": 9,
+  "command": [
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\spectral_join.exe",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\spectral_join\\branches\\rank_0740_mode0.input.txt",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\spectral_join\\branches\\rank_0740_mode0.json"
+  ],
+  "complete": true,
+  "elapsed_seconds": 0.0336672,
+  "mode": 0,
+  "node_limit": 100000000,
+  "ordered_pairs": 81,
+  "peak_working_set_bytes": 8884224,
+  "probe": false,
+  "rows": [
+    {
+      "accepted": 177147,
+      "complete": true,
+      "elapsed_seconds": 0.029133,
+      "excluded_completions": 0,
+      "expected": 177147,
+      "full_rejections": 0,
+      "leaves": 177147,
+      "nodes": 265720,
+      "prefix_conflicts": 0
+    },
+    {
+      "accepted": 59049,
+      "complete": true,
+      "elapsed_seconds": 0.0039297,
+      "excluded_completions": 0,
+      "expected": 59049,
+      "full_rejections": 0,
+      "leaves": 59049,
+      "nodes": 88573,
+      "prefix_conflicts": 0
+    }
+  ],
+  "seconds_limit": 120,
+  "solution_limit": 100000,
+  "solutions": [
+    [
+      6890700715260,
+      28660003498800
+    ],
+    [
+      7573616504984,
+      29139161172326
+    ],
+    [
+      7921405967256,
+      28625639566288
+    ],
+    [
+      13371840436568,
+      20310850595366
+    ],
+    [
+      13732332485128,
+      28782681508450
+    ],
+    [
+      14870735657384,
+      29609185896544
+    ],
+    [
+      15738308695996,
+      20070337669734
+    ],
+    [
+      16416579304732,
+      20379579115730
+    ],
+    [
+      16923397896648,
+      28713963080322
+    ]
+  ],
+  "stop_reason": "exhausted",
+  "stored_candidate_limit": 5000000,
+  "stored_side": 1,
+  "table_capacity_bytes": 2883584,
+  "table_entries": 59049,
+  "wrapper_elapsed_seconds": 0.08973910001805052
+}

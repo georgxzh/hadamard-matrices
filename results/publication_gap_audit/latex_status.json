@@ -1,0 +1,21 @@
+{
+  "compilation": "success",
+  "date": "2026-10-11",
+  "earlier_environment_failures": [
+    "Unable to find standard directories for platform",
+    "exec failed: windows sandbox: helper_unknown_error: setup refresh had errors"
+  ],
+  "manuscript_sha256": "3e59e051179d3afd6dec828c589c25b312fe65b5b802616e57d15eb1e3be98a6",
+  "note": "Successful built-in compiler check on the final saved source; no terminal TeX installation or visual PDF review.",
+  "result": {
+    "content": [
+      {
+        "text": "{\"path\":\"C:/Users/georg/OneDrive/Documents/math problems/epoch ai/hadamard matrices/paper/manuscript.tex\",\"kind\":\"success\",\"message\":\"The current source compiled successfully with the desktop editor's compiler.\"}",
+        "type": "text"
+      }
+    ],
+    "isError": false
+  },
+  "tool": "mcp__codex_app__compile_latex_document",
+  "visual_pdf_layout": "unverified"
+}

@@ -1,0 +1,13 @@
+{
+  "binary_sha256": "00545a4f774e9be6be01daef2ba7618d49000d61807bbfa8e9c76507f7bc76d3",
+  "controls": [
+    27,
+    0
+  ],
+  "limitation": "Independent enumeration and full-PAF lookup; shared input and compiler, no formal exhaustion certificate.",
+  "ordered_pairs": 0,
+  "result_sha256": "87c2d69fa4ae97fce25ceb447c0db2cbef8fafc8e3fd36149a35c9920f1c89e5",
+  "script_sha256": "58f780ae2804cc5537303822586fdbac20cb2bfd0b5854c6300347cf84fc864f",
+  "source_sha256": "ec5b82ec6e56526b7b8025a91186a949b3fce143375784838ffbcc81cdc323ec",
+  "status": "passed"
+}

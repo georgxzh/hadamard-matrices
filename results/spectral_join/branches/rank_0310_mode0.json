@@ -1,0 +1,86 @@
+{
+  "canonical_lower_bound": 9,
+  "canonical_pairs": 9,
+  "command": [
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\spectral_join.exe",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\spectral_join\\branches\\rank_0310_mode0.input.txt",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\spectral_join\\branches\\rank_0310_mode0.json"
+  ],
+  "complete": true,
+  "elapsed_seconds": 0.0481484,
+  "mode": 0,
+  "node_limit": 100000000,
+  "ordered_pairs": 81,
+  "peak_working_set_bytes": 8826880,
+  "probe": false,
+  "rows": [
+    {
+      "accepted": 59049,
+      "complete": true,
+      "elapsed_seconds": 0.0066763,
+      "excluded_completions": 0,
+      "expected": 59049,
+      "full_rejections": 0,
+      "leaves": 59049,
+      "nodes": 88573,
+      "prefix_conflicts": 0
+    },
+    {
+      "accepted": 177147,
+      "complete": true,
+      "elapsed_seconds": 0.040311,
+      "excluded_completions": 0,
+      "expected": 177147,
+      "full_rejections": 0,
+      "leaves": 177147,
+      "nodes": 265720,
+      "prefix_conflicts": 0
+    }
+  ],
+  "seconds_limit": 120,
+  "solution_limit": 100000,
+  "solutions": [
+    [
+      6465482777986,
+      33177934547674
+    ],
+    [
+      7560531670406,
+      33006375513832
+    ],
+    [
+      14710040730526,
+      29329516455946
+    ],
+    [
+      15259494956434,
+      34223727168218
+    ],
+    [
+      16910373222282,
+      21597195970714
+    ],
+    [
+      17458685845910,
+      6755803852392
+    ],
+    [
+      22423332435848,
+      11549123660984
+    ],
+    [
+      31769248632192,
+      34086560836314
+    ],
+    [
+      32872987988352,
+      6790196554330
+    ]
+  ],
+  "stop_reason": "exhausted",
+  "stored_candidate_limit": 5000000,
+  "stored_side": 0,
+  "table_capacity_bytes": 2883584,
+  "table_entries": 59049,
+  "wrapper_elapsed_seconds": 0.10180460000992753
+}

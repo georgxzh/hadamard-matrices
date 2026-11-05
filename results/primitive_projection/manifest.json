@@ -1,0 +1,51 @@
+{
+  "algorithm": "sha256",
+  "base_commit": "44f0f1786c5a23f4231e2dcebea04acf1cce4fcb",
+  "files": [
+    {
+      "bytes": 21933,
+      "path": "research/primitive_projection_assessment.md",
+      "sha256": "9d470925441ec4ebbf0e87c1e0d779aae7672d3e4d186555c2c3155931be4c04"
+    },
+    {
+      "bytes": 65460,
+      "path": "results/primitive_projection/audit.json",
+      "sha256": "bee4dae44a850fd2390f691e958611e29f198bae52c2feff144d43cbda2b68d5"
+    },
+    {
+      "bytes": 1640,
+      "path": "results/primitive_projection/integrity.json",
+      "sha256": "ae9912076bb3cd77867c8ccf086f5a394e170d2c2b8cf0a1371bed69ac43aa5b"
+    },
+    {
+      "bytes": 8587,
+      "path": "results/primitive_projection/pilot.json",
+      "sha256": "16e2e164fd7b7fbf766a44eac559d357bb48f8578f5592054348d4ef509f350f"
+    },
+    {
+      "bytes": 258,
+      "path": "results/primitive_projection/tests.json",
+      "sha256": "5e6c275901f2293769d4f0941e0901554b17ee319cb423435a17ca718d05f4a9"
+    },
+    {
+      "bytes": 3997,
+      "path": "scripts/audit_primitive_projection.py",
+      "sha256": "549671be7361869e12edd2782bfaf39b88698ba4a8cd2d6392074c1646f8c8f8"
+    },
+    {
+      "bytes": 4983,
+      "path": "scripts/package_primitive_projection.py",
+      "sha256": "70632885204e5db50581ff4d6b110a29f0bf29940a1df2f028f915740c8381f3"
+    },
+    {
+      "bytes": 1564,
+      "path": "scripts/primitive_projection.py",
+      "sha256": "c4ad7d1730b4921e7fb5907d81b4439eb499af82bae7adfd82ca4e923094b9fa"
+    },
+    {
+      "bytes": 2099,
+      "path": "tests/test_primitive_projection.py",
+      "sha256": "2750e9650fd4ed5c855fedb5e5817fcafade6993fd6fa852777be653590a6be9"
+    }
+  ]
+}

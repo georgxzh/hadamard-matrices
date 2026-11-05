@@ -1,0 +1,7998 @@
+{
+  "branch_class_multiplicity_histogram": {
+    "3": 928,
+    "6": 32
+  },
+  "branches": [
+    {
+      "class_multiplicities": {
+        "53": 3
+      },
+      "rank": 1
+    },
+    {
+      "class_multiplicities": {
+        "53": 3
+      },
+      "rank": 2
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 3
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 4
+    },
+    {
+      "class_multiplicities": {
+        "54": 3
+      },
+      "rank": 5
+    },
+    {
+      "class_multiplicities": {
+        "54": 3
+      },
+      "rank": 6
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 7
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 8
+    },
+    {
+      "class_multiplicities": {
+        "6": 3
+      },
+      "rank": 9
+    },
+    {
+      "class_multiplicities": {
+        "6": 3
+      },
+      "rank": 10
+    },
+    {
+      "class_multiplicities": {
+        "31": 3
+      },
+      "rank": 11
+    },
+    {
+      "class_multiplicities": {
+        "31": 3
+      },
+      "rank": 12
+    },
+    {
+      "class_multiplicities": {
+        "54": 3
+      },
+      "rank": 13
+    },
+    {
+      "class_multiplicities": {
+        "54": 3
+      },
+      "rank": 14
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 15
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 16
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 17
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 18
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 19
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 20
+    },
+    {
+      "class_multiplicities": {
+        "54": 3
+      },
+      "rank": 21
+    },
+    {
+      "class_multiplicities": {
+        "54": 3
+      },
+      "rank": 22
+    },
+    {
+      "class_multiplicities": {
+        "53": 3
+      },
+      "rank": 23
+    },
+    {
+      "class_multiplicities": {
+        "53": 3
+      },
+      "rank": 24
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 25
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 26
+    },
+    {
+      "class_multiplicities": {
+        "8": 3,
+        "41": 3
+      },
+      "rank": 27
+    },
+    {
+      "class_multiplicities": {
+        "8": 3,
+        "41": 3
+      },
+      "rank": 28
+    },
+    {
+      "class_multiplicities": {
+        "31": 3
+      },
+      "rank": 29
+    },
+    {
+      "class_multiplicities": {
+        "31": 3
+      },
+      "rank": 30
+    },
+    {
+      "class_multiplicities": {
+        "6": 3
+      },
+      "rank": 31
+    },
+    {
+      "class_multiplicities": {
+        "6": 3
+      },
+      "rank": 32
+    },
+    {
+      "class_multiplicities": {
+        "8": 3,
+        "41": 3
+      },
+      "rank": 33
+    },
+    {
+      "class_multiplicities": {
+        "8": 3,
+        "41": 3
+      },
+      "rank": 34
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 35
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 36
+    },
+    {
+      "class_multiplicities": {
+        "8": 3,
+        "41": 3
+      },
+      "rank": 37
+    },
+    {
+      "class_multiplicities": {
+        "8": 3,
+        "41": 3
+      },
+      "rank": 38
+    },
+    {
+      "class_multiplicities": {
+        "6": 3
+      },
+      "rank": 39
+    },
+    {
+      "class_multiplicities": {
+        "6": 3
+      },
+      "rank": 40
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 41
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 42
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 43
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 44
+    },
+    {
+      "class_multiplicities": {
+        "31": 3
+      },
+      "rank": 45
+    },
+    {
+      "class_multiplicities": {
+        "31": 3
+      },
+      "rank": 46
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 47
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 48
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 49
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 50
+    },
+    {
+      "class_multiplicities": {
+        "53": 3
+      },
+      "rank": 51
+    },
+    {
+      "class_multiplicities": {
+        "53": 3
+      },
+      "rank": 52
+    },
+    {
+      "class_multiplicities": {
+        "53": 3
+      },
+      "rank": 53
+    },
+    {
+      "class_multiplicities": {
+        "53": 3
+      },
+      "rank": 54
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 55
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 56
+    },
+    {
+      "class_multiplicities": {
+        "31": 3
+      },
+      "rank": 57
+    },
+    {
+      "class_multiplicities": {
+        "31": 3
+      },
+      "rank": 58
+    },
+    {
+      "class_multiplicities": {
+        "8": 3,
+        "41": 3
+      },
+      "rank": 59
+    },
+    {
+      "class_multiplicities": {
+        "8": 3,
+        "41": 3
+      },
+      "rank": 60
+    },
+    {
+      "class_multiplicities": {
+        "54": 3
+      },
+      "rank": 61
+    },
+    {
+      "class_multiplicities": {
+        "54": 3
+      },
+      "rank": 62
+    },
+    {
+      "class_multiplicities": {
+        "6": 3
+      },
+      "rank": 63
+    },
+    {
+      "class_multiplicities": {
+        "6": 3
+      },
+      "rank": 64
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 65
+    },
+    {
+      "class_multiplicities": {
+        "19": 3
+      },
+      "rank": 66
+    },
+    {
+      "class_multiplicities": {
+        "19": 3
+      },
+      "rank": 67
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 68
+    },
+    {
+      "class_multiplicities": {
+        "2": 3
+      },
+      "rank": 69
+    },
+    {
+      "class_multiplicities": {
+        "2": 3
+      },
+      "rank": 70
+    },
+    {
+      "class_multiplicities": {
+        "30": 3
+      },
+      "rank": 71
+    },
+    {
+      "class_multiplicities": {
+        "30": 3
+      },
+      "rank": 72
+    },
+    {
+      "class_multiplicities": {
+        "11": 3
+      },
+      "rank": 73
+    },
+    {
+      "class_multiplicities": {
+        "11": 3
+      },
+      "rank": 74
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 75
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 76
+    },
+    {
+      "class_multiplicities": {
+        "13": 3,
+        "29": 3,
+        "45": 3
+      },
+      "rank": 77
+    },
+    {
+      "class_multiplicities": {
+        "13": 3,
+        "29": 3,
+        "45": 3
+      },
+      "rank": 78
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 79
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 80
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 81
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 82
+    },
+    {
+      "class_multiplicities": {
+        "50": 3
+      },
+      "rank": 83
+    },
+    {
+      "class_multiplicities": {
+        "50": 3
+      },
+      "rank": 84
+    },
+    {
+      "class_multiplicities": {
+        "18": 3,
+        "49": 3
+      },
+      "rank": 85
+    },
+    {
+      "class_multiplicities": {
+        "18": 3,
+        "49": 3
+      },
+      "rank": 86
+    },
+    {
+      "class_multiplicities": {
+        "52": 3
+      },
+      "rank": 87
+    },
+    {
+      "class_multiplicities": {
+        "52": 3
+      },
+      "rank": 88
+    },
+    {
+      "class_multiplicities": {
+        "51": 3
+      },
+      "rank": 89
+    },
+    {
+      "class_multiplicities": {
+        "23": 3,
+        "28": 3,
+        "59": 3
+      },
+      "rank": 90
+    },
+    {
+      "class_multiplicities": {
+        "51": 3
+      },
+      "rank": 91
+    },
+    {
+      "class_multiplicities": {
+        "23": 3,
+        "28": 3,
+        "59": 3
+      },
+      "rank": 92
+    },
+    {
+      "class_multiplicities": {
+        "51": 3
+      },
+      "rank": 93
+    },
+    {
+      "class_multiplicities": {
+        "51": 3
+      },
+      "rank": 94
+    },
+    {
+      "class_multiplicities": {
+        "30": 3
+      },
+      "rank": 95
+    },
+    {
+      "class_multiplicities": {
+        "30": 3
+      },
+      "rank": 96
+    },
+    {
+      "class_multiplicities": {
+        "12": 3
+      },
+      "rank": 97
+    },
+    {
+      "class_multiplicities": {
+        "12": 3
+      },
+      "rank": 98
+    },
+    {
+      "class_multiplicities": {
+        "11": 3
+      },
+      "rank": 99
+    },
+    {
+      "class_multiplicities": {
+        "11": 3
+      },
+      "rank": 100
+    },
+    {
+      "class_multiplicities": {
+        "57": 3
+      },
+      "rank": 101
+    },
+    {
+      "class_multiplicities": {
+        "57": 3
+      },
+      "rank": 102
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 103
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 104
+    },
+    {
+      "class_multiplicities": {
+        "10": 3
+      },
+      "rank": 105
+    },
+    {
+      "class_multiplicities": {
+        "10": 3
+      },
+      "rank": 106
+    },
+    {
+      "class_multiplicities": {
+        "14": 3,
+        "46": 3
+      },
+      "rank": 107
+    },
+    {
+      "class_multiplicities": {
+        "14": 3,
+        "46": 3
+      },
+      "rank": 108
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 109
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 110
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 111
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 112
+    },
+    {
+      "class_multiplicities": {
+        "63": 3
+      },
+      "rank": 113
+    },
+    {
+      "class_multiplicities": {
+        "63": 3
+      },
+      "rank": 114
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 115
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 116
+    },
+    {
+      "class_multiplicities": {
+        "63": 3
+      },
+      "rank": 117
+    },
+    {
+      "class_multiplicities": {
+        "63": 3
+      },
+      "rank": 118
+    },
+    {
+      "class_multiplicities": {
+        "54": 3
+      },
+      "rank": 119
+    },
+    {
+      "class_multiplicities": {
+        "54": 3
+      },
+      "rank": 120
+    },
+    {
+      "class_multiplicities": {
+        "43": 3
+      },
+      "rank": 121
+    },
+    {
+      "class_multiplicities": {
+        "43": 3
+      },
+      "rank": 122
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 123
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 124
+    },
+    {
+      "class_multiplicities": {
+        "6": 3
+      },
+      "rank": 125
+    },
+    {
+      "class_multiplicities": {
+        "6": 3
+      },
+      "rank": 126
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 127
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 128
+    },
+    {
+      "class_multiplicities": {
+        "60": 6
+      },
+      "rank": 129
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 130
+    },
+    {
+      "class_multiplicities": {
+        "60": 6
+      },
+      "rank": 131
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 132
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 133
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 134
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 135
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 136
+    },
+    {
+      "class_multiplicities": {
+        "8": 3,
+        "41": 3
+      },
+      "rank": 137
+    },
+    {
+      "class_multiplicities": {
+        "8": 3,
+        "41": 3
+      },
+      "rank": 138
+    },
+    {
+      "class_multiplicities": {
+        "25": 3,
+        "44": 3
+      },
+      "rank": 139
+    },
+    {
+      "class_multiplicities": {
+        "25": 3,
+        "44": 3
+      },
+      "rank": 140
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 141
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 142
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 143
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 144
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 145
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 146
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 147
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 148
+    },
+    {
+      "class_multiplicities": {
+        "43": 3
+      },
+      "rank": 149
+    },
+    {
+      "class_multiplicities": {
+        "43": 3
+      },
+      "rank": 150
+    },
+    {
+      "class_multiplicities": {
+        "1": 3,
+        "24": 3
+      },
+      "rank": 151
+    },
+    {
+      "class_multiplicities": {
+        "1": 3,
+        "24": 3
+      },
+      "rank": 152
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 153
+    },
+    {
+      "class_multiplicities": {
+        "1": 3,
+        "24": 3
+      },
+      "rank": 154
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 155
+    },
+    {
+      "class_multiplicities": {
+        "1": 3,
+        "24": 3
+      },
+      "rank": 156
+    },
+    {
+      "class_multiplicities": {
+        "12": 3
+      },
+      "rank": 157
+    },
+    {
+      "class_multiplicities": {
+        "12": 3
+      },
+      "rank": 158
+    },
+    {
+      "class_multiplicities": {
+        "22": 3
+      },
+      "rank": 159
+    },
+    {
+      "class_multiplicities": {
+        "22": 3
+      },
+      "rank": 160
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 161
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 162
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 163
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 164
+    },
+    {
+      "class_multiplicities": {
+        "25": 3,
+        "44": 3
+      },
+      "rank": 165
+    },
+    {
+      "class_multiplicities": {
+        "25": 3,
+        "44": 3
+      },
+      "rank": 166
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 167
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 168
+    },
+    {
+      "class_multiplicities": {
+        "23": 3,
+        "28": 3,
+        "59": 3
+      },
+      "rank": 169
+    },
+    {
+      "class_multiplicities": {
+        "23": 3,
+        "28": 3,
+        "59": 3
+      },
+      "rank": 170
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 171
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 172
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 173
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 174
+    },
+    {
+      "class_multiplicities": {
+        "5": 3,
+        "48": 3
+      },
+      "rank": 175
+    },
+    {
+      "class_multiplicities": {
+        "5": 3,
+        "48": 3
+      },
+      "rank": 176
+    },
+    {
+      "class_multiplicities": {
+        "5": 3,
+        "48": 3
+      },
+      "rank": 177
+    },
+    {
+      "class_multiplicities": {
+        "5": 3,
+        "48": 3
+      },
+      "rank": 178
+    },
+    {
+      "class_multiplicities": {
+        "5": 3,
+        "48": 3
+      },
+      "rank": 179
+    },
+    {
+      "class_multiplicities": {
+        "5": 3,
+        "48": 3
+      },
+      "rank": 180
+    },
+    {
+      "class_multiplicities": {
+        "5": 3,
+        "48": 3
+      },
+      "rank": 181
+    },
+    {
+      "class_multiplicities": {
+        "5": 3,
+        "48": 3
+      },
+      "rank": 182
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 183
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 184
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 185
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 186
+    },
+    {
+      "class_multiplicities": {
+        "19": 3
+      },
+      "rank": 187
+    },
+    {
+      "class_multiplicities": {
+        "19": 3
+      },
+      "rank": 188
+    },
+    {
+      "class_multiplicities": {
+        "19": 3
+      },
+      "rank": 189
+    },
+    {
+      "class_multiplicities": {
+        "19": 3
+      },
+      "rank": 190
+    },
+    {
+      "class_multiplicities": {
+        "50": 3
+      },
+      "rank": 191
+    },
+    {
+      "class_multiplicities": {
+        "50": 3
+      },
+      "rank": 192
+    },
+    {
+      "class_multiplicities": {
+        "1": 3,
+        "24": 3
+      },
+      "rank": 193
+    },
+    {
+      "class_multiplicities": {
+        "1": 3,
+        "24": 3
+      },
+      "rank": 194
+    },
+    {
+      "class_multiplicities": {
+        "2": 3
+      },
+      "rank": 195
+    },
+    {
+      "class_multiplicities": {
+        "2": 3
+      },
+      "rank": 196
+    },
+    {
+      "class_multiplicities": {
+        "15": 3,
+        "32": 3,
+        "61": 3
+      },
+      "rank": 197
+    },
+    {
+      "class_multiplicities": {
+        "15": 3,
+        "32": 3,
+        "61": 3
+      },
+      "rank": 198
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 199
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 200
+    },
+    {
+      "class_multiplicities": {
+        "2": 3
+      },
+      "rank": 201
+    },
+    {
+      "class_multiplicities": {
+        "2": 3
+      },
+      "rank": 202
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 203
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 204
+    },
+    {
+      "class_multiplicities": {
+        "22": 3
+      },
+      "rank": 205
+    },
+    {
+      "class_multiplicities": {
+        "22": 3
+      },
+      "rank": 206
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 207
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 208
+    },
+    {
+      "class_multiplicities": {
+        "43": 3
+      },
+      "rank": 209
+    },
+    {
+      "class_multiplicities": {
+        "43": 3
+      },
+      "rank": 210
+    },
+    {
+      "class_multiplicities": {
+        "2": 3
+      },
+      "rank": 211
+    },
+    {
+      "class_multiplicities": {
+        "2": 3
+      },
+      "rank": 212
+    },
+    {
+      "class_multiplicities": {
+        "7": 3
+      },
+      "rank": 213
+    },
+    {
+      "class_multiplicities": {
+        "7": 3
+      },
+      "rank": 214
+    },
+    {
+      "class_multiplicities": {
+        "17": 3
+      },
+      "rank": 215
+    },
+    {
+      "class_multiplicities": {
+        "17": 3
+      },
+      "rank": 216
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 217
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 218
+    },
+    {
+      "class_multiplicities": {
+        "12": 3
+      },
+      "rank": 219
+    },
+    {
+      "class_multiplicities": {
+        "12": 3
+      },
+      "rank": 220
+    },
+    {
+      "class_multiplicities": {
+        "17": 3
+      },
+      "rank": 221
+    },
+    {
+      "class_multiplicities": {
+        "7": 3
+      },
+      "rank": 222
+    },
+    {
+      "class_multiplicities": {
+        "17": 3
+      },
+      "rank": 223
+    },
+    {
+      "class_multiplicities": {
+        "7": 3
+      },
+      "rank": 224
+    },
+    {
+      "class_multiplicities": {
+        "54": 3
+      },
+      "rank": 225
+    },
+    {
+      "class_multiplicities": {
+        "54": 3
+      },
+      "rank": 226
+    },
+    {
+      "class_multiplicities": {
+        "43": 3
+      },
+      "rank": 227
+    },
+    {
+      "class_multiplicities": {
+        "43": 3
+      },
+      "rank": 228
+    },
+    {
+      "class_multiplicities": {
+        "17": 3
+      },
+      "rank": 229
+    },
+    {
+      "class_multiplicities": {
+        "17": 3
+      },
+      "rank": 230
+    },
+    {
+      "class_multiplicities": {
+        "23": 3,
+        "28": 3,
+        "59": 3
+      },
+      "rank": 231
+    },
+    {
+      "class_multiplicities": {
+        "23": 3,
+        "28": 3,
+        "59": 3
+      },
+      "rank": 232
+    },
+    {
+      "class_multiplicities": {
+        "5": 3,
+        "48": 3
+      },
+      "rank": 233
+    },
+    {
+      "class_multiplicities": {
+        "5": 3,
+        "48": 3
+      },
+      "rank": 234
+    },
+    {
+      "class_multiplicities": {
+        "8": 3,
+        "41": 3
+      },
+      "rank": 235
+    },
+    {
+      "class_multiplicities": {
+        "8": 3,
+        "41": 3
+      },
+      "rank": 236
+    },
+    {
+      "class_multiplicities": {
+        "7": 3
+      },
+      "rank": 237
+    },
+    {
+      "class_multiplicities": {
+        "7": 3
+      },
+      "rank": 238
+    },
+    {
+      "class_multiplicities": {
+        "17": 3
+      },
+      "rank": 239
+    },
+    {
+      "class_multiplicities": {
+        "17": 3
+      },
+      "rank": 240
+    },
+    {
+      "class_multiplicities": {
+        "13": 3,
+        "29": 3,
+        "45": 3
+      },
+      "rank": 241
+    },
+    {
+      "class_multiplicities": {
+        "13": 3,
+        "29": 3,
+        "45": 3
+      },
+      "rank": 242
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 243
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 244
+    },
+    {
+      "class_multiplicities": {
+        "18": 3,
+        "49": 3
+      },
+      "rank": 245
+    },
+    {
+      "class_multiplicities": {
+        "52": 3
+      },
+      "rank": 246
+    },
+    {
+      "class_multiplicities": {
+        "52": 3
+      },
+      "rank": 247
+    },
+    {
+      "class_multiplicities": {
+        "18": 3,
+        "49": 3
+      },
+      "rank": 248
+    },
+    {
+      "class_multiplicities": {
+        "43": 3
+      },
+      "rank": 249
+    },
+    {
+      "class_multiplicities": {
+        "43": 3
+      },
+      "rank": 250
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 251
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 252
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 253
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 254
+    },
+    {
+      "class_multiplicities": {
+        "18": 3,
+        "49": 3
+      },
+      "rank": 255
+    },
+    {
+      "class_multiplicities": {
+        "18": 3,
+        "49": 3
+      },
+      "rank": 256
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 257
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 258
+    },
+    {
+      "class_multiplicities": {
+        "22": 3
+      },
+      "rank": 259
+    },
+    {
+      "class_multiplicities": {
+        "22": 3
+      },
+      "rank": 260
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 261
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 262
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 263
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 264
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 265
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 266
+    },
+    {
+      "class_multiplicities": {
+        "15": 3,
+        "32": 3,
+        "61": 3
+      },
+      "rank": 267
+    },
+    {
+      "class_multiplicities": {
+        "15": 3,
+        "32": 3,
+        "61": 3
+      },
+      "rank": 268
+    },
+    {
+      "class_multiplicities": {
+        "51": 3
+      },
+      "rank": 269
+    },
+    {
+      "class_multiplicities": {
+        "51": 3
+      },
+      "rank": 270
+    },
+    {
+      "class_multiplicities": {
+        "23": 3,
+        "28": 3,
+        "59": 3
+      },
+      "rank": 271
+    },
+    {
+      "class_multiplicities": {
+        "23": 3,
+        "28": 3,
+        "59": 3
+      },
+      "rank": 272
+    },
+    {
+      "class_multiplicities": {
+        "21": 3,
+        "58": 3
+      },
+      "rank": 273
+    },
+    {
+      "class_multiplicities": {
+        "21": 3,
+        "58": 3
+      },
+      "rank": 274
+    },
+    {
+      "class_multiplicities": {
+        "51": 3
+      },
+      "rank": 275
+    },
+    {
+      "class_multiplicities": {
+        "51": 3
+      },
+      "rank": 276
+    },
+    {
+      "class_multiplicities": {
+        "31": 3
+      },
+      "rank": 277
+    },
+    {
+      "class_multiplicities": {
+        "31": 3
+      },
+      "rank": 278
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 279
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 280
+    },
+    {
+      "class_multiplicities": {
+        "22": 3
+      },
+      "rank": 281
+    },
+    {
+      "class_multiplicities": {
+        "22": 3
+      },
+      "rank": 282
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 283
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 284
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 285
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 286
+    },
+    {
+      "class_multiplicities": {
+        "12": 3
+      },
+      "rank": 287
+    },
+    {
+      "class_multiplicities": {
+        "12": 3
+      },
+      "rank": 288
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 289
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 290
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 291
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 292
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 293
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 294
+    },
+    {
+      "class_multiplicities": {
+        "25": 3,
+        "44": 3
+      },
+      "rank": 295
+    },
+    {
+      "class_multiplicities": {
+        "25": 3,
+        "44": 3
+      },
+      "rank": 296
+    },
+    {
+      "class_multiplicities": {
+        "1": 3,
+        "24": 3
+      },
+      "rank": 297
+    },
+    {
+      "class_multiplicities": {
+        "1": 3,
+        "24": 3
+      },
+      "rank": 298
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 299
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 300
+    },
+    {
+      "class_multiplicities": {
+        "53": 3
+      },
+      "rank": 301
+    },
+    {
+      "class_multiplicities": {
+        "53": 3
+      },
+      "rank": 302
+    },
+    {
+      "class_multiplicities": {
+        "57": 3
+      },
+      "rank": 303
+    },
+    {
+      "class_multiplicities": {
+        "57": 3
+      },
+      "rank": 304
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 305
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 306
+    },
+    {
+      "class_multiplicities": {
+        "57": 3
+      },
+      "rank": 307
+    },
+    {
+      "class_multiplicities": {
+        "57": 3
+      },
+      "rank": 308
+    },
+    {
+      "class_multiplicities": {
+        "13": 3,
+        "29": 3,
+        "45": 3
+      },
+      "rank": 309
+    },
+    {
+      "class_multiplicities": {
+        "13": 3,
+        "29": 3,
+        "45": 3
+      },
+      "rank": 310
+    },
+    {
+      "class_multiplicities": {
+        "53": 3
+      },
+      "rank": 311
+    },
+    {
+      "class_multiplicities": {
+        "53": 3
+      },
+      "rank": 312
+    },
+    {
+      "class_multiplicities": {
+        "57": 3
+      },
+      "rank": 313
+    },
+    {
+      "class_multiplicities": {
+        "57": 3
+      },
+      "rank": 314
+    },
+    {
+      "class_multiplicities": {
+        "22": 3
+      },
+      "rank": 315
+    },
+    {
+      "class_multiplicities": {
+        "22": 3
+      },
+      "rank": 316
+    },
+    {
+      "class_multiplicities": {
+        "4": 3
+      },
+      "rank": 317
+    },
+    {
+      "class_multiplicities": {
+        "4": 3
+      },
+      "rank": 318
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 319
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 320
+    },
+    {
+      "class_multiplicities": {
+        "25": 3,
+        "44": 3
+      },
+      "rank": 321
+    },
+    {
+      "class_multiplicities": {
+        "25": 3,
+        "44": 3
+      },
+      "rank": 322
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 323
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 324
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 325
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 326
+    },
+    {
+      "class_multiplicities": {
+        "5": 3,
+        "48": 3
+      },
+      "rank": 327
+    },
+    {
+      "class_multiplicities": {
+        "5": 3,
+        "48": 3
+      },
+      "rank": 328
+    },
+    {
+      "class_multiplicities": {
+        "10": 3
+      },
+      "rank": 329
+    },
+    {
+      "class_multiplicities": {
+        "10": 3
+      },
+      "rank": 330
+    },
+    {
+      "class_multiplicities": {
+        "13": 3,
+        "29": 3,
+        "45": 3
+      },
+      "rank": 331
+    },
+    {
+      "class_multiplicities": {
+        "13": 3,
+        "29": 3,
+        "45": 3
+      },
+      "rank": 332
+    },
+    {
+      "class_multiplicities": {
+        "43": 3
+      },
+      "rank": 333
+    },
+    {
+      "class_multiplicities": {
+        "43": 3
+      },
+      "rank": 334
+    },
+    {
+      "class_multiplicities": {
+        "1": 3,
+        "24": 3
+      },
+      "rank": 335
+    },
+    {
+      "class_multiplicities": {
+        "1": 3,
+        "24": 3
+      },
+      "rank": 336
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 337
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 338
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 339
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 340
+    },
+    {
+      "class_multiplicities": {
+        "12": 3
+      },
+      "rank": 341
+    },
+    {
+      "class_multiplicities": {
+        "11": 3
+      },
+      "rank": 342
+    },
+    {
+      "class_multiplicities": {
+        "11": 3
+      },
+      "rank": 343
+    },
+    {
+      "class_multiplicities": {
+        "12": 3
+      },
+      "rank": 344
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 345
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 346
+    },
+    {
+      "class_multiplicities": {
+        "31": 3
+      },
+      "rank": 347
+    },
+    {
+      "class_multiplicities": {
+        "31": 3
+      },
+      "rank": 348
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 349
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 350
+    },
+    {
+      "class_multiplicities": {
+        "8": 3,
+        "41": 3
+      },
+      "rank": 351
+    },
+    {
+      "class_multiplicities": {
+        "8": 3,
+        "41": 3
+      },
+      "rank": 352
+    },
+    {
+      "class_multiplicities": {
+        "18": 3,
+        "49": 3
+      },
+      "rank": 353
+    },
+    {
+      "class_multiplicities": {
+        "18": 3,
+        "49": 3
+      },
+      "rank": 354
+    },
+    {
+      "class_multiplicities": {
+        "13": 3,
+        "29": 3,
+        "45": 3
+      },
+      "rank": 355
+    },
+    {
+      "class_multiplicities": {
+        "13": 3,
+        "29": 3,
+        "45": 3
+      },
+      "rank": 356
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 357
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 358
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 359
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 360
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 361
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 362
+    },
+    {
+      "class_multiplicities": {
+        "4": 3
+      },
+      "rank": 363
+    },
+    {
+      "class_multiplicities": {
+        "4": 3
+      },
+      "rank": 364
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 365
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 366
+    },
+    {
+      "class_multiplicities": {
+        "15": 3,
+        "32": 3,
+        "61": 3
+      },
+      "rank": 367
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 368
+    },
+    {
+      "class_multiplicities": {
+        "15": 3,
+        "32": 3,
+        "61": 3
+      },
+      "rank": 369
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 370
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 371
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 372
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 373
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 374
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 375
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 376
+    },
+    {
+      "class_multiplicities": {
+        "52": 3
+      },
+      "rank": 377
+    },
+    {
+      "class_multiplicities": {
+        "52": 3
+      },
+      "rank": 378
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 379
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 380
+    },
+    {
+      "class_multiplicities": {
+        "21": 3,
+        "58": 3
+      },
+      "rank": 381
+    },
+    {
+      "class_multiplicities": {
+        "21": 3,
+        "58": 3
+      },
+      "rank": 382
+    },
+    {
+      "class_multiplicities": {
+        "21": 3,
+        "58": 3
+      },
+      "rank": 383
+    },
+    {
+      "class_multiplicities": {
+        "21": 3,
+        "58": 3
+      },
+      "rank": 384
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 385
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 386
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 387
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 388
+    },
+    {
+      "class_multiplicities": {
+        "2": 3
+      },
+      "rank": 389
+    },
+    {
+      "class_multiplicities": {
+        "2": 3
+      },
+      "rank": 390
+    },
+    {
+      "class_multiplicities": {
+        "30": 3
+      },
+      "rank": 391
+    },
+    {
+      "class_multiplicities": {
+        "30": 3
+      },
+      "rank": 392
+    },
+    {
+      "class_multiplicities": {
+        "7": 3
+      },
+      "rank": 393
+    },
+    {
+      "class_multiplicities": {
+        "7": 3
+      },
+      "rank": 394
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 395
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 396
+    },
+    {
+      "class_multiplicities": {
+        "18": 3,
+        "49": 3
+      },
+      "rank": 397
+    },
+    {
+      "class_multiplicities": {
+        "52": 3
+      },
+      "rank": 398
+    },
+    {
+      "class_multiplicities": {
+        "52": 3
+      },
+      "rank": 399
+    },
+    {
+      "class_multiplicities": {
+        "18": 3,
+        "49": 3
+      },
+      "rank": 400
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 401
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 402
+    },
+    {
+      "class_multiplicities": {
+        "18": 3,
+        "49": 3
+      },
+      "rank": 403
+    },
+    {
+      "class_multiplicities": {
+        "18": 3,
+        "49": 3
+      },
+      "rank": 404
+    },
+    {
+      "class_multiplicities": {
+        "51": 3
+      },
+      "rank": 405
+    },
+    {
+      "class_multiplicities": {
+        "51": 3
+      },
+      "rank": 406
+    },
+    {
+      "class_multiplicities": {
+        "23": 3,
+        "28": 3,
+        "59": 3
+      },
+      "rank": 407
+    },
+    {
+      "class_multiplicities": {
+        "23": 3,
+        "28": 3,
+        "59": 3
+      },
+      "rank": 408
+    },
+    {
+      "class_multiplicities": {
+        "15": 3,
+        "32": 3,
+        "61": 3
+      },
+      "rank": 409
+    },
+    {
+      "class_multiplicities": {
+        "15": 3,
+        "32": 3,
+        "61": 3
+      },
+      "rank": 410
+    },
+    {
+      "class_multiplicities": {
+        "57": 3
+      },
+      "rank": 411
+    },
+    {
+      "class_multiplicities": {
+        "57": 3
+      },
+      "rank": 412
+    },
+    {
+      "class_multiplicities": {
+        "60": 6
+      },
+      "rank": 413
+    },
+    {
+      "class_multiplicities": {
+        "60": 6
+      },
+      "rank": 414
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 415
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 416
+    },
+    {
+      "class_multiplicities": {
+        "63": 3
+      },
+      "rank": 417
+    },
+    {
+      "class_multiplicities": {
+        "63": 3
+      },
+      "rank": 418
+    },
+    {
+      "class_multiplicities": {
+        "13": 3,
+        "29": 3,
+        "45": 3
+      },
+      "rank": 419
+    },
+    {
+      "class_multiplicities": {
+        "13": 3,
+        "29": 3,
+        "45": 3
+      },
+      "rank": 420
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 421
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 422
+    },
+    {
+      "class_multiplicities": {
+        "21": 3,
+        "58": 3
+      },
+      "rank": 423
+    },
+    {
+      "class_multiplicities": {
+        "21": 3,
+        "58": 3
+      },
+      "rank": 424
+    },
+    {
+      "class_multiplicities": {
+        "21": 3,
+        "58": 3
+      },
+      "rank": 425
+    },
+    {
+      "class_multiplicities": {
+        "21": 3,
+        "58": 3
+      },
+      "rank": 426
+    },
+    {
+      "class_multiplicities": {
+        "25": 3,
+        "44": 3
+      },
+      "rank": 427
+    },
+    {
+      "class_multiplicities": {
+        "25": 3,
+        "44": 3
+      },
+      "rank": 428
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 429
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 430
+    },
+    {
+      "class_multiplicities": {
+        "4": 3
+      },
+      "rank": 431
+    },
+    {
+      "class_multiplicities": {
+        "4": 3
+      },
+      "rank": 432
+    },
+    {
+      "class_multiplicities": {
+        "30": 3
+      },
+      "rank": 433
+    },
+    {
+      "class_multiplicities": {
+        "30": 3
+      },
+      "rank": 434
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 435
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 436
+    },
+    {
+      "class_multiplicities": {
+        "51": 3
+      },
+      "rank": 437
+    },
+    {
+      "class_multiplicities": {
+        "51": 3
+      },
+      "rank": 438
+    },
+    {
+      "class_multiplicities": {
+        "51": 3
+      },
+      "rank": 439
+    },
+    {
+      "class_multiplicities": {
+        "23": 3,
+        "28": 3,
+        "59": 3
+      },
+      "rank": 440
+    },
+    {
+      "class_multiplicities": {
+        "51": 3
+      },
+      "rank": 441
+    },
+    {
+      "class_multiplicities": {
+        "23": 3,
+        "28": 3,
+        "59": 3
+      },
+      "rank": 442
+    },
+    {
+      "class_multiplicities": {
+        "1": 3,
+        "24": 3
+      },
+      "rank": 443
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 444
+    },
+    {
+      "class_multiplicities": {
+        "1": 3,
+        "24": 3
+      },
+      "rank": 445
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 446
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 447
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 448
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 449
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 450
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 451
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 452
+    },
+    {
+      "class_multiplicities": {
+        "53": 3
+      },
+      "rank": 453
+    },
+    {
+      "class_multiplicities": {
+        "53": 3
+      },
+      "rank": 454
+    },
+    {
+      "class_multiplicities": {
+        "57": 3
+      },
+      "rank": 455
+    },
+    {
+      "class_multiplicities": {
+        "57": 3
+      },
+      "rank": 456
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 457
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 458
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 459
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 460
+    },
+    {
+      "class_multiplicities": {
+        "51": 3
+      },
+      "rank": 461
+    },
+    {
+      "class_multiplicities": {
+        "51": 3
+      },
+      "rank": 462
+    },
+    {
+      "class_multiplicities": {
+        "30": 3
+      },
+      "rank": 463
+    },
+    {
+      "class_multiplicities": {
+        "30": 3
+      },
+      "rank": 464
+    },
+    {
+      "class_multiplicities": {
+        "2": 3
+      },
+      "rank": 465
+    },
+    {
+      "class_multiplicities": {
+        "2": 3
+      },
+      "rank": 466
+    },
+    {
+      "class_multiplicities": {
+        "11": 3
+      },
+      "rank": 467
+    },
+    {
+      "class_multiplicities": {
+        "11": 3
+      },
+      "rank": 468
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 469
+    },
+    {
+      "class_multiplicities": {
+        "19": 3
+      },
+      "rank": 470
+    },
+    {
+      "class_multiplicities": {
+        "19": 3
+      },
+      "rank": 471
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 472
+    },
+    {
+      "class_multiplicities": {
+        "15": 3,
+        "32": 3,
+        "61": 3
+      },
+      "rank": 473
+    },
+    {
+      "class_multiplicities": {
+        "15": 3,
+        "32": 3,
+        "61": 3
+      },
+      "rank": 474
+    },
+    {
+      "class_multiplicities": {
+        "2": 3
+      },
+      "rank": 475
+    },
+    {
+      "class_multiplicities": {
+        "2": 3
+      },
+      "rank": 476
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 477
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 478
+    },
+    {
+      "class_multiplicities": {
+        "57": 3
+      },
+      "rank": 479
+    },
+    {
+      "class_multiplicities": {
+        "57": 3
+      },
+      "rank": 480
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 481
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 482
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 483
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 484
+    },
+    {
+      "class_multiplicities": {
+        "63": 3
+      },
+      "rank": 485
+    },
+    {
+      "class_multiplicities": {
+        "63": 3
+      },
+      "rank": 486
+    },
+    {
+      "class_multiplicities": {
+        "63": 3
+      },
+      "rank": 487
+    },
+    {
+      "class_multiplicities": {
+        "63": 3
+      },
+      "rank": 488
+    },
+    {
+      "class_multiplicities": {
+        "50": 3
+      },
+      "rank": 489
+    },
+    {
+      "class_multiplicities": {
+        "50": 3
+      },
+      "rank": 490
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 491
+    },
+    {
+      "class_multiplicities": {
+        "15": 3,
+        "32": 3,
+        "61": 3
+      },
+      "rank": 492
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 493
+    },
+    {
+      "class_multiplicities": {
+        "15": 3,
+        "32": 3,
+        "61": 3
+      },
+      "rank": 494
+    },
+    {
+      "class_multiplicities": {
+        "6": 3
+      },
+      "rank": 495
+    },
+    {
+      "class_multiplicities": {
+        "6": 3
+      },
+      "rank": 496
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 497
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 498
+    },
+    {
+      "class_multiplicities": {
+        "10": 3
+      },
+      "rank": 499
+    },
+    {
+      "class_multiplicities": {
+        "10": 3
+      },
+      "rank": 500
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 501
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 502
+    },
+    {
+      "class_multiplicities": {
+        "14": 3,
+        "46": 3
+      },
+      "rank": 503
+    },
+    {
+      "class_multiplicities": {
+        "14": 3,
+        "46": 3
+      },
+      "rank": 504
+    },
+    {
+      "class_multiplicities": {
+        "17": 3
+      },
+      "rank": 505
+    },
+    {
+      "class_multiplicities": {
+        "7": 3
+      },
+      "rank": 506
+    },
+    {
+      "class_multiplicities": {
+        "17": 3
+      },
+      "rank": 507
+    },
+    {
+      "class_multiplicities": {
+        "7": 3
+      },
+      "rank": 508
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 509
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 510
+    },
+    {
+      "class_multiplicities": {
+        "19": 3
+      },
+      "rank": 511
+    },
+    {
+      "class_multiplicities": {
+        "19": 3
+      },
+      "rank": 512
+    },
+    {
+      "class_multiplicities": {
+        "63": 3
+      },
+      "rank": 513
+    },
+    {
+      "class_multiplicities": {
+        "63": 3
+      },
+      "rank": 514
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 515
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 516
+    },
+    {
+      "class_multiplicities": {
+        "11": 3
+      },
+      "rank": 517
+    },
+    {
+      "class_multiplicities": {
+        "11": 3
+      },
+      "rank": 518
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 519
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 520
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 521
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 522
+    },
+    {
+      "class_multiplicities": {
+        "19": 3
+      },
+      "rank": 523
+    },
+    {
+      "class_multiplicities": {
+        "19": 3
+      },
+      "rank": 524
+    },
+    {
+      "class_multiplicities": {
+        "22": 3
+      },
+      "rank": 525
+    },
+    {
+      "class_multiplicities": {
+        "22": 3
+      },
+      "rank": 526
+    },
+    {
+      "class_multiplicities": {
+        "25": 3,
+        "44": 3
+      },
+      "rank": 527
+    },
+    {
+      "class_multiplicities": {
+        "25": 3,
+        "44": 3
+      },
+      "rank": 528
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 529
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 530
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 531
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 532
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 533
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 534
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 535
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 536
+    },
+    {
+      "class_multiplicities": {
+        "18": 3,
+        "49": 3
+      },
+      "rank": 537
+    },
+    {
+      "class_multiplicities": {
+        "18": 3,
+        "49": 3
+      },
+      "rank": 538
+    },
+    {
+      "class_multiplicities": {
+        "60": 6
+      },
+      "rank": 539
+    },
+    {
+      "class_multiplicities": {
+        "60": 6
+      },
+      "rank": 540
+    },
+    {
+      "class_multiplicities": {
+        "18": 3,
+        "49": 3
+      },
+      "rank": 541
+    },
+    {
+      "class_multiplicities": {
+        "18": 3,
+        "49": 3
+      },
+      "rank": 542
+    },
+    {
+      "class_multiplicities": {
+        "52": 3
+      },
+      "rank": 543
+    },
+    {
+      "class_multiplicities": {
+        "52": 3
+      },
+      "rank": 544
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 545
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 546
+    },
+    {
+      "class_multiplicities": {
+        "14": 3,
+        "46": 3
+      },
+      "rank": 547
+    },
+    {
+      "class_multiplicities": {
+        "14": 3,
+        "46": 3
+      },
+      "rank": 548
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 549
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 550
+    },
+    {
+      "class_multiplicities": {
+        "10": 3
+      },
+      "rank": 551
+    },
+    {
+      "class_multiplicities": {
+        "10": 3
+      },
+      "rank": 552
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 553
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 554
+    },
+    {
+      "class_multiplicities": {
+        "17": 3
+      },
+      "rank": 555
+    },
+    {
+      "class_multiplicities": {
+        "17": 3
+      },
+      "rank": 556
+    },
+    {
+      "class_multiplicities": {
+        "22": 3
+      },
+      "rank": 557
+    },
+    {
+      "class_multiplicities": {
+        "22": 3
+      },
+      "rank": 558
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 559
+    },
+    {
+      "class_multiplicities": {
+        "1": 3,
+        "24": 3
+      },
+      "rank": 560
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 561
+    },
+    {
+      "class_multiplicities": {
+        "1": 3,
+        "24": 3
+      },
+      "rank": 562
+    },
+    {
+      "class_multiplicities": {
+        "14": 3,
+        "46": 3
+      },
+      "rank": 563
+    },
+    {
+      "class_multiplicities": {
+        "14": 3,
+        "46": 3
+      },
+      "rank": 564
+    },
+    {
+      "class_multiplicities": {
+        "10": 3
+      },
+      "rank": 565
+    },
+    {
+      "class_multiplicities": {
+        "10": 3
+      },
+      "rank": 566
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 567
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 568
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 569
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 570
+    },
+    {
+      "class_multiplicities": {
+        "52": 3
+      },
+      "rank": 571
+    },
+    {
+      "class_multiplicities": {
+        "52": 3
+      },
+      "rank": 572
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 573
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 574
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 575
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 576
+    },
+    {
+      "class_multiplicities": {
+        "6": 3
+      },
+      "rank": 577
+    },
+    {
+      "class_multiplicities": {
+        "6": 3
+      },
+      "rank": 578
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 579
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 580
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 581
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 582
+    },
+    {
+      "class_multiplicities": {
+        "50": 3
+      },
+      "rank": 583
+    },
+    {
+      "class_multiplicities": {
+        "50": 3
+      },
+      "rank": 584
+    },
+    {
+      "class_multiplicities": {
+        "21": 3,
+        "58": 3
+      },
+      "rank": 585
+    },
+    {
+      "class_multiplicities": {
+        "21": 3,
+        "58": 3
+      },
+      "rank": 586
+    },
+    {
+      "class_multiplicities": {
+        "52": 3
+      },
+      "rank": 587
+    },
+    {
+      "class_multiplicities": {
+        "52": 3
+      },
+      "rank": 588
+    },
+    {
+      "class_multiplicities": {
+        "31": 3
+      },
+      "rank": 589
+    },
+    {
+      "class_multiplicities": {
+        "31": 3
+      },
+      "rank": 590
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 591
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 592
+    },
+    {
+      "class_multiplicities": {
+        "7": 3
+      },
+      "rank": 593
+    },
+    {
+      "class_multiplicities": {
+        "7": 3
+      },
+      "rank": 594
+    },
+    {
+      "class_multiplicities": {
+        "12": 3
+      },
+      "rank": 595
+    },
+    {
+      "class_multiplicities": {
+        "12": 3
+      },
+      "rank": 596
+    },
+    {
+      "class_multiplicities": {
+        "11": 3
+      },
+      "rank": 597
+    },
+    {
+      "class_multiplicities": {
+        "11": 3
+      },
+      "rank": 598
+    },
+    {
+      "class_multiplicities": {
+        "14": 3,
+        "46": 3
+      },
+      "rank": 599
+    },
+    {
+      "class_multiplicities": {
+        "14": 3,
+        "46": 3
+      },
+      "rank": 600
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 601
+    },
+    {
+      "class_multiplicities": {
+        "19": 3
+      },
+      "rank": 602
+    },
+    {
+      "class_multiplicities": {
+        "19": 3
+      },
+      "rank": 603
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 604
+    },
+    {
+      "class_multiplicities": {
+        "14": 3,
+        "46": 3
+      },
+      "rank": 605
+    },
+    {
+      "class_multiplicities": {
+        "14": 3,
+        "46": 3
+      },
+      "rank": 606
+    },
+    {
+      "class_multiplicities": {
+        "10": 3
+      },
+      "rank": 607
+    },
+    {
+      "class_multiplicities": {
+        "10": 3
+      },
+      "rank": 608
+    },
+    {
+      "class_multiplicities": {
+        "12": 3
+      },
+      "rank": 609
+    },
+    {
+      "class_multiplicities": {
+        "12": 3
+      },
+      "rank": 610
+    },
+    {
+      "class_multiplicities": {
+        "30": 3
+      },
+      "rank": 611
+    },
+    {
+      "class_multiplicities": {
+        "30": 3
+      },
+      "rank": 612
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 613
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 614
+    },
+    {
+      "class_multiplicities": {
+        "4": 3
+      },
+      "rank": 615
+    },
+    {
+      "class_multiplicities": {
+        "4": 3
+      },
+      "rank": 616
+    },
+    {
+      "class_multiplicities": {
+        "4": 3
+      },
+      "rank": 617
+    },
+    {
+      "class_multiplicities": {
+        "4": 3
+      },
+      "rank": 618
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 619
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 620
+    },
+    {
+      "class_multiplicities": {
+        "17": 3
+      },
+      "rank": 621
+    },
+    {
+      "class_multiplicities": {
+        "17": 3
+      },
+      "rank": 622
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 623
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 624
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 625
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 626
+    },
+    {
+      "class_multiplicities": {
+        "14": 3,
+        "46": 3
+      },
+      "rank": 627
+    },
+    {
+      "class_multiplicities": {
+        "14": 3,
+        "46": 3
+      },
+      "rank": 628
+    },
+    {
+      "class_multiplicities": {
+        "21": 3,
+        "58": 3
+      },
+      "rank": 629
+    },
+    {
+      "class_multiplicities": {
+        "21": 3,
+        "58": 3
+      },
+      "rank": 630
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 631
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 632
+    },
+    {
+      "class_multiplicities": {
+        "52": 3
+      },
+      "rank": 633
+    },
+    {
+      "class_multiplicities": {
+        "52": 3
+      },
+      "rank": 634
+    },
+    {
+      "class_multiplicities": {
+        "10": 3
+      },
+      "rank": 635
+    },
+    {
+      "class_multiplicities": {
+        "10": 3
+      },
+      "rank": 636
+    },
+    {
+      "class_multiplicities": {
+        "14": 3,
+        "46": 3
+      },
+      "rank": 637
+    },
+    {
+      "class_multiplicities": {
+        "14": 3,
+        "46": 3
+      },
+      "rank": 638
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 639
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 640
+    },
+    {
+      "class_multiplicities": {
+        "31": 3
+      },
+      "rank": 641
+    },
+    {
+      "class_multiplicities": {
+        "31": 3
+      },
+      "rank": 642
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 643
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 644
+    },
+    {
+      "class_multiplicities": {
+        "11": 3
+      },
+      "rank": 645
+    },
+    {
+      "class_multiplicities": {
+        "11": 3
+      },
+      "rank": 646
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 647
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 648
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 649
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 650
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 651
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 652
+    },
+    {
+      "class_multiplicities": {
+        "23": 3,
+        "28": 3,
+        "59": 3
+      },
+      "rank": 653
+    },
+    {
+      "class_multiplicities": {
+        "23": 3,
+        "28": 3,
+        "59": 3
+      },
+      "rank": 654
+    },
+    {
+      "class_multiplicities": {
+        "25": 3,
+        "44": 3
+      },
+      "rank": 655
+    },
+    {
+      "class_multiplicities": {
+        "25": 3,
+        "44": 3
+      },
+      "rank": 656
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 657
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 658
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 659
+    },
+    {
+      "class_multiplicities": {
+        "19": 3
+      },
+      "rank": 660
+    },
+    {
+      "class_multiplicities": {
+        "19": 3
+      },
+      "rank": 661
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 662
+    },
+    {
+      "class_multiplicities": {
+        "4": 3
+      },
+      "rank": 663
+    },
+    {
+      "class_multiplicities": {
+        "4": 3
+      },
+      "rank": 664
+    },
+    {
+      "class_multiplicities": {
+        "63": 3
+      },
+      "rank": 665
+    },
+    {
+      "class_multiplicities": {
+        "63": 3
+      },
+      "rank": 666
+    },
+    {
+      "class_multiplicities": {
+        "6": 3
+      },
+      "rank": 667
+    },
+    {
+      "class_multiplicities": {
+        "6": 3
+      },
+      "rank": 668
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 669
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 670
+    },
+    {
+      "class_multiplicities": {
+        "21": 3,
+        "58": 3
+      },
+      "rank": 671
+    },
+    {
+      "class_multiplicities": {
+        "21": 3,
+        "58": 3
+      },
+      "rank": 672
+    },
+    {
+      "class_multiplicities": {
+        "54": 3
+      },
+      "rank": 673
+    },
+    {
+      "class_multiplicities": {
+        "54": 3
+      },
+      "rank": 674
+    },
+    {
+      "class_multiplicities": {
+        "43": 3
+      },
+      "rank": 675
+    },
+    {
+      "class_multiplicities": {
+        "43": 3
+      },
+      "rank": 676
+    },
+    {
+      "class_multiplicities": {
+        "25": 3,
+        "44": 3
+      },
+      "rank": 677
+    },
+    {
+      "class_multiplicities": {
+        "25": 3,
+        "44": 3
+      },
+      "rank": 678
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 679
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 680
+    },
+    {
+      "class_multiplicities": {
+        "7": 3
+      },
+      "rank": 681
+    },
+    {
+      "class_multiplicities": {
+        "7": 3
+      },
+      "rank": 682
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 683
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 684
+    },
+    {
+      "class_multiplicities": {
+        "7": 3
+      },
+      "rank": 685
+    },
+    {
+      "class_multiplicities": {
+        "7": 3
+      },
+      "rank": 686
+    },
+    {
+      "class_multiplicities": {
+        "4": 3
+      },
+      "rank": 687
+    },
+    {
+      "class_multiplicities": {
+        "4": 3
+      },
+      "rank": 688
+    },
+    {
+      "class_multiplicities": {
+        "30": 3
+      },
+      "rank": 689
+    },
+    {
+      "class_multiplicities": {
+        "30": 3
+      },
+      "rank": 690
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 691
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 692
+    },
+    {
+      "class_multiplicities": {
+        "22": 3
+      },
+      "rank": 693
+    },
+    {
+      "class_multiplicities": {
+        "22": 3
+      },
+      "rank": 694
+    },
+    {
+      "class_multiplicities": {
+        "15": 3,
+        "32": 3,
+        "61": 3
+      },
+      "rank": 695
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 696
+    },
+    {
+      "class_multiplicities": {
+        "15": 3,
+        "32": 3,
+        "61": 3
+      },
+      "rank": 697
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 698
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 699
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 700
+    },
+    {
+      "class_multiplicities": {
+        "13": 3,
+        "29": 3,
+        "45": 3
+      },
+      "rank": 701
+    },
+    {
+      "class_multiplicities": {
+        "13": 3,
+        "29": 3,
+        "45": 3
+      },
+      "rank": 702
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 703
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 704
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 705
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 706
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 707
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 708
+    },
+    {
+      "class_multiplicities": {
+        "53": 3
+      },
+      "rank": 709
+    },
+    {
+      "class_multiplicities": {
+        "53": 3
+      },
+      "rank": 710
+    },
+    {
+      "class_multiplicities": {
+        "57": 3
+      },
+      "rank": 711
+    },
+    {
+      "class_multiplicities": {
+        "57": 3
+      },
+      "rank": 712
+    },
+    {
+      "class_multiplicities": {
+        "30": 3
+      },
+      "rank": 713
+    },
+    {
+      "class_multiplicities": {
+        "30": 3
+      },
+      "rank": 714
+    },
+    {
+      "class_multiplicities": {
+        "2": 3
+      },
+      "rank": 715
+    },
+    {
+      "class_multiplicities": {
+        "2": 3
+      },
+      "rank": 716
+    },
+    {
+      "class_multiplicities": {
+        "4": 3
+      },
+      "rank": 717
+    },
+    {
+      "class_multiplicities": {
+        "4": 3
+      },
+      "rank": 718
+    },
+    {
+      "class_multiplicities": {
+        "60": 6
+      },
+      "rank": 719
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 720
+    },
+    {
+      "class_multiplicities": {
+        "60": 6
+      },
+      "rank": 721
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 722
+    },
+    {
+      "class_multiplicities": {
+        "13": 3,
+        "29": 3,
+        "45": 3
+      },
+      "rank": 723
+    },
+    {
+      "class_multiplicities": {
+        "13": 3,
+        "29": 3,
+        "45": 3
+      },
+      "rank": 724
+    },
+    {
+      "class_multiplicities": {
+        "5": 3,
+        "48": 3
+      },
+      "rank": 725
+    },
+    {
+      "class_multiplicities": {
+        "5": 3,
+        "48": 3
+      },
+      "rank": 726
+    },
+    {
+      "class_multiplicities": {
+        "1": 3,
+        "24": 3
+      },
+      "rank": 727
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 728
+    },
+    {
+      "class_multiplicities": {
+        "1": 3,
+        "24": 3
+      },
+      "rank": 729
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 730
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 731
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 732
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 733
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 734
+    },
+    {
+      "class_multiplicities": {
+        "54": 3
+      },
+      "rank": 735
+    },
+    {
+      "class_multiplicities": {
+        "54": 3
+      },
+      "rank": 736
+    },
+    {
+      "class_multiplicities": {
+        "43": 3
+      },
+      "rank": 737
+    },
+    {
+      "class_multiplicities": {
+        "43": 3
+      },
+      "rank": 738
+    },
+    {
+      "class_multiplicities": {
+        "23": 3,
+        "28": 3,
+        "59": 3
+      },
+      "rank": 739
+    },
+    {
+      "class_multiplicities": {
+        "23": 3,
+        "28": 3,
+        "59": 3
+      },
+      "rank": 740
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 741
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 742
+    },
+    {
+      "class_multiplicities": {
+        "10": 3
+      },
+      "rank": 743
+    },
+    {
+      "class_multiplicities": {
+        "10": 3
+      },
+      "rank": 744
+    },
+    {
+      "class_multiplicities": {
+        "63": 3
+      },
+      "rank": 745
+    },
+    {
+      "class_multiplicities": {
+        "63": 3
+      },
+      "rank": 746
+    },
+    {
+      "class_multiplicities": {
+        "12": 3
+      },
+      "rank": 747
+    },
+    {
+      "class_multiplicities": {
+        "11": 3
+      },
+      "rank": 748
+    },
+    {
+      "class_multiplicities": {
+        "11": 3
+      },
+      "rank": 749
+    },
+    {
+      "class_multiplicities": {
+        "12": 3
+      },
+      "rank": 750
+    },
+    {
+      "class_multiplicities": {
+        "5": 3,
+        "48": 3
+      },
+      "rank": 751
+    },
+    {
+      "class_multiplicities": {
+        "5": 3,
+        "48": 3
+      },
+      "rank": 752
+    },
+    {
+      "class_multiplicities": {
+        "17": 3
+      },
+      "rank": 753
+    },
+    {
+      "class_multiplicities": {
+        "17": 3
+      },
+      "rank": 754
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 755
+    },
+    {
+      "class_multiplicities": {
+        "15": 3,
+        "32": 3,
+        "61": 3
+      },
+      "rank": 756
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 757
+    },
+    {
+      "class_multiplicities": {
+        "15": 3,
+        "32": 3,
+        "61": 3
+      },
+      "rank": 758
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 759
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 760
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 761
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 762
+    },
+    {
+      "class_multiplicities": {
+        "8": 3,
+        "41": 3
+      },
+      "rank": 763
+    },
+    {
+      "class_multiplicities": {
+        "8": 3,
+        "41": 3
+      },
+      "rank": 764
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 765
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 766
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 767
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 768
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 769
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 770
+    },
+    {
+      "class_multiplicities": {
+        "9": 3,
+        "34": 3
+      },
+      "rank": 771
+    },
+    {
+      "class_multiplicities": {
+        "9": 3,
+        "34": 3
+      },
+      "rank": 772
+    },
+    {
+      "class_multiplicities": {
+        "20": 3
+      },
+      "rank": 773
+    },
+    {
+      "class_multiplicities": {
+        "20": 3
+      },
+      "rank": 774
+    },
+    {
+      "class_multiplicities": {
+        "26": 3
+      },
+      "rank": 775
+    },
+    {
+      "class_multiplicities": {
+        "26": 3
+      },
+      "rank": 776
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 777
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 778
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 779
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 780
+    },
+    {
+      "class_multiplicities": {
+        "16": 6
+      },
+      "rank": 781
+    },
+    {
+      "class_multiplicities": {
+        "26": 3
+      },
+      "rank": 782
+    },
+    {
+      "class_multiplicities": {
+        "26": 3
+      },
+      "rank": 783
+    },
+    {
+      "class_multiplicities": {
+        "20": 3
+      },
+      "rank": 784
+    },
+    {
+      "class_multiplicities": {
+        "20": 3
+      },
+      "rank": 785
+    },
+    {
+      "class_multiplicities": {
+        "36": 3
+      },
+      "rank": 786
+    },
+    {
+      "class_multiplicities": {
+        "36": 3
+      },
+      "rank": 787
+    },
+    {
+      "class_multiplicities": {
+        "33": 3
+      },
+      "rank": 788
+    },
+    {
+      "class_multiplicities": {
+        "33": 3
+      },
+      "rank": 789
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 790
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 791
+    },
+    {
+      "class_multiplicities": {
+        "27": 6
+      },
+      "rank": 792
+    },
+    {
+      "class_multiplicities": {
+        "56": 3
+      },
+      "rank": 793
+    },
+    {
+      "class_multiplicities": {
+        "56": 3
+      },
+      "rank": 794
+    },
+    {
+      "class_multiplicities": {
+        "40": 3
+      },
+      "rank": 795
+    },
+    {
+      "class_multiplicities": {
+        "40": 3
+      },
+      "rank": 796
+    },
+    {
+      "class_multiplicities": {
+        "33": 3
+      },
+      "rank": 797
+    },
+    {
+      "class_multiplicities": {
+        "33": 3
+      },
+      "rank": 798
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 799
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 800
+    },
+    {
+      "class_multiplicities": {
+        "26": 3
+      },
+      "rank": 801
+    },
+    {
+      "class_multiplicities": {
+        "26": 3
+      },
+      "rank": 802
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 803
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 804
+    },
+    {
+      "class_multiplicities": {
+        "33": 3
+      },
+      "rank": 805
+    },
+    {
+      "class_multiplicities": {
+        "33": 3
+      },
+      "rank": 806
+    },
+    {
+      "class_multiplicities": {
+        "16": 6
+      },
+      "rank": 807
+    },
+    {
+      "class_multiplicities": {
+        "40": 3
+      },
+      "rank": 808
+    },
+    {
+      "class_multiplicities": {
+        "40": 3
+      },
+      "rank": 809
+    },
+    {
+      "class_multiplicities": {
+        "36": 3
+      },
+      "rank": 810
+    },
+    {
+      "class_multiplicities": {
+        "36": 3
+      },
+      "rank": 811
+    },
+    {
+      "class_multiplicities": {
+        "27": 6
+      },
+      "rank": 812
+    },
+    {
+      "class_multiplicities": {
+        "9": 3,
+        "34": 3
+      },
+      "rank": 813
+    },
+    {
+      "class_multiplicities": {
+        "9": 3,
+        "34": 3
+      },
+      "rank": 814
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 815
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 816
+    },
+    {
+      "class_multiplicities": {
+        "9": 3,
+        "34": 3
+      },
+      "rank": 817
+    },
+    {
+      "class_multiplicities": {
+        "9": 3,
+        "34": 3
+      },
+      "rank": 818
+    },
+    {
+      "class_multiplicities": {
+        "33": 3
+      },
+      "rank": 819
+    },
+    {
+      "class_multiplicities": {
+        "33": 3
+      },
+      "rank": 820
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 821
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 822
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 823
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 824
+    },
+    {
+      "class_multiplicities": {
+        "36": 3
+      },
+      "rank": 825
+    },
+    {
+      "class_multiplicities": {
+        "36": 3
+      },
+      "rank": 826
+    },
+    {
+      "class_multiplicities": {
+        "27": 6
+      },
+      "rank": 827
+    },
+    {
+      "class_multiplicities": {
+        "40": 3
+      },
+      "rank": 828
+    },
+    {
+      "class_multiplicities": {
+        "40": 3
+      },
+      "rank": 829
+    },
+    {
+      "class_multiplicities": {
+        "56": 3
+      },
+      "rank": 830
+    },
+    {
+      "class_multiplicities": {
+        "56": 3
+      },
+      "rank": 831
+    },
+    {
+      "class_multiplicities": {
+        "20": 3
+      },
+      "rank": 832
+    },
+    {
+      "class_multiplicities": {
+        "20": 3
+      },
+      "rank": 833
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 834
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 835
+    },
+    {
+      "class_multiplicities": {
+        "16": 6
+      },
+      "rank": 836
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 837
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 838
+    },
+    {
+      "class_multiplicities": {
+        "56": 3
+      },
+      "rank": 839
+    },
+    {
+      "class_multiplicities": {
+        "56": 3
+      },
+      "rank": 840
+    },
+    {
+      "class_multiplicities": {
+        "20": 3
+      },
+      "rank": 841
+    },
+    {
+      "class_multiplicities": {
+        "20": 3
+      },
+      "rank": 842
+    },
+    {
+      "class_multiplicities": {
+        "36": 3
+      },
+      "rank": 843
+    },
+    {
+      "class_multiplicities": {
+        "36": 3
+      },
+      "rank": 844
+    },
+    {
+      "class_multiplicities": {
+        "56": 3
+      },
+      "rank": 845
+    },
+    {
+      "class_multiplicities": {
+        "56": 3
+      },
+      "rank": 846
+    },
+    {
+      "class_multiplicities": {
+        "16": 6
+      },
+      "rank": 847
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 848
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 849
+    },
+    {
+      "class_multiplicities": {
+        "26": 3
+      },
+      "rank": 850
+    },
+    {
+      "class_multiplicities": {
+        "26": 3
+      },
+      "rank": 851
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 852
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 853
+    },
+    {
+      "class_multiplicities": {
+        "9": 3,
+        "34": 3
+      },
+      "rank": 854
+    },
+    {
+      "class_multiplicities": {
+        "9": 3,
+        "34": 3
+      },
+      "rank": 855
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 856
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 857
+    },
+    {
+      "class_multiplicities": {
+        "40": 3
+      },
+      "rank": 858
+    },
+    {
+      "class_multiplicities": {
+        "40": 3
+      },
+      "rank": 859
+    },
+    {
+      "class_multiplicities": {
+        "27": 6
+      },
+      "rank": 860
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 861
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 862
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 863
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 864
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 865
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 866
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 867
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 868
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 869
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 870
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 871
+    },
+    {
+      "class_multiplicities": {
+        "39": 3
+      },
+      "rank": 872
+    },
+    {
+      "class_multiplicities": {
+        "39": 3
+      },
+      "rank": 873
+    },
+    {
+      "class_multiplicities": {
+        "47": 6
+      },
+      "rank": 874
+    },
+    {
+      "class_multiplicities": {
+        "42": 3
+      },
+      "rank": 875
+    },
+    {
+      "class_multiplicities": {
+        "47": 6
+      },
+      "rank": 876
+    },
+    {
+      "class_multiplicities": {
+        "42": 3
+      },
+      "rank": 877
+    },
+    {
+      "class_multiplicities": {
+        "33": 3
+      },
+      "rank": 878
+    },
+    {
+      "class_multiplicities": {
+        "20": 3
+      },
+      "rank": 879
+    },
+    {
+      "class_multiplicities": {
+        "20": 3
+      },
+      "rank": 880
+    },
+    {
+      "class_multiplicities": {
+        "33": 3
+      },
+      "rank": 881
+    },
+    {
+      "class_multiplicities": {
+        "36": 3
+      },
+      "rank": 882
+    },
+    {
+      "class_multiplicities": {
+        "36": 3
+      },
+      "rank": 883
+    },
+    {
+      "class_multiplicities": {
+        "3": 3,
+        "37": 3
+      },
+      "rank": 884
+    },
+    {
+      "class_multiplicities": {
+        "3": 3,
+        "37": 3
+      },
+      "rank": 885
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 886
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 887
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 888
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 889
+    },
+    {
+      "class_multiplicities": {
+        "16": 6
+      },
+      "rank": 890
+    },
+    {
+      "class_multiplicities": {
+        "16": 6
+      },
+      "rank": 891
+    },
+    {
+      "class_multiplicities": {
+        "9": 3,
+        "34": 3
+      },
+      "rank": 892
+    },
+    {
+      "class_multiplicities": {
+        "9": 3,
+        "34": 3
+      },
+      "rank": 893
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 894
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 895
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 896
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 897
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 898
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 899
+    },
+    {
+      "class_multiplicities": {
+        "39": 3
+      },
+      "rank": 900
+    },
+    {
+      "class_multiplicities": {
+        "39": 3
+      },
+      "rank": 901
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 902
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 903
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 904
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 905
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 906
+    },
+    {
+      "class_multiplicities": {
+        "55": 3
+      },
+      "rank": 907
+    },
+    {
+      "class_multiplicities": {
+        "55": 3
+      },
+      "rank": 908
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 909
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 910
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 911
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 912
+    },
+    {
+      "class_multiplicities": {
+        "39": 3
+      },
+      "rank": 913
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 914
+    },
+    {
+      "class_multiplicities": {
+        "39": 3
+      },
+      "rank": 915
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 916
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 917
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 918
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 919
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 920
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 921
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 922
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 923
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 924
+    },
+    {
+      "class_multiplicities": {
+        "55": 3
+      },
+      "rank": 925
+    },
+    {
+      "class_multiplicities": {
+        "55": 3
+      },
+      "rank": 926
+    },
+    {
+      "class_multiplicities": {
+        "56": 3
+      },
+      "rank": 927
+    },
+    {
+      "class_multiplicities": {
+        "56": 3
+      },
+      "rank": 928
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 929
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 930
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 931
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 932
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 933
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 934
+    },
+    {
+      "class_multiplicities": {
+        "40": 3
+      },
+      "rank": 935
+    },
+    {
+      "class_multiplicities": {
+        "40": 3
+      },
+      "rank": 936
+    },
+    {
+      "class_multiplicities": {
+        "3": 3,
+        "37": 3
+      },
+      "rank": 937
+    },
+    {
+      "class_multiplicities": {
+        "3": 3,
+        "37": 3
+      },
+      "rank": 938
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 939
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 940
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 941
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 942
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 943
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 944
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 945
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 946
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 947
+    },
+    {
+      "class_multiplicities": {
+        "27": 6
+      },
+      "rank": 948
+    },
+    {
+      "class_multiplicities": {
+        "27": 6
+      },
+      "rank": 949
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 950
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 951
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 952
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 953
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 954
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 955
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 956
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 957
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 958
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 959
+    },
+    {
+      "class_multiplicities": {
+        "36": 3
+      },
+      "rank": 960
+    },
+    {
+      "class_multiplicities": {
+        "36": 3
+      },
+      "rank": 961
+    },
+    {
+      "class_multiplicities": {
+        "3": 3,
+        "37": 3
+      },
+      "rank": 962
+    },
+    {
+      "class_multiplicities": {
+        "3": 3,
+        "37": 3
+      },
+      "rank": 963
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 964
+    },
+    {
+      "class_multiplicities": {
+        "39": 3
+      },
+      "rank": 965
+    },
+    {
+      "class_multiplicities": {
+        "39": 3
+      },
+      "rank": 966
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 967
+    },
+    {
+      "class_multiplicities": {
+        "56": 3
+      },
+      "rank": 968
+    },
+    {
+      "class_multiplicities": {
+        "56": 3
+      },
+      "rank": 969
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 970
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 971
+    },
+    {
+      "class_multiplicities": {
+        "55": 3
+      },
+      "rank": 972
+    },
+    {
+      "class_multiplicities": {
+        "55": 3
+      },
+      "rank": 973
+    },
+    {
+      "class_multiplicities": {
+        "39": 3
+      },
+      "rank": 974
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 975
+    },
+    {
+      "class_multiplicities": {
+        "39": 3
+      },
+      "rank": 976
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 977
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 978
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 979
+    },
+    {
+      "class_multiplicities": {
+        "42": 3
+      },
+      "rank": 980
+    },
+    {
+      "class_multiplicities": {
+        "42": 3
+      },
+      "rank": 981
+    },
+    {
+      "class_multiplicities": {
+        "20": 3
+      },
+      "rank": 982
+    },
+    {
+      "class_multiplicities": {
+        "33": 3
+      },
+      "rank": 983
+    },
+    {
+      "class_multiplicities": {
+        "33": 3
+      },
+      "rank": 984
+    },
+    {
+      "class_multiplicities": {
+        "20": 3
+      },
+      "rank": 985
+    },
+    {
+      "class_multiplicities": {
+        "56": 3
+      },
+      "rank": 986
+    },
+    {
+      "class_multiplicities": {
+        "56": 3
+      },
+      "rank": 987
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 988
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 989
+    },
+    {
+      "class_multiplicities": {
+        "55": 3
+      },
+      "rank": 990
+    },
+    {
+      "class_multiplicities": {
+        "55": 3
+      },
+      "rank": 991
+    },
+    {
+      "class_multiplicities": {
+        "36": 3
+      },
+      "rank": 992
+    },
+    {
+      "class_multiplicities": {
+        "36": 3
+      },
+      "rank": 993
+    },
+    {
+      "class_multiplicities": {
+        "3": 3,
+        "37": 3
+      },
+      "rank": 994
+    },
+    {
+      "class_multiplicities": {
+        "3": 3,
+        "37": 3
+      },
+      "rank": 995
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 996
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 997
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 998
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 999
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1000
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1001
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1002
+    },
+    {
+      "class_multiplicities": {
+        "16": 6
+      },
+      "rank": 1003
+    },
+    {
+      "class_multiplicities": {
+        "16": 6
+      },
+      "rank": 1004
+    },
+    {
+      "class_multiplicities": {
+        "9": 3,
+        "34": 3
+      },
+      "rank": 1005
+    },
+    {
+      "class_multiplicities": {
+        "9": 3,
+        "34": 3
+      },
+      "rank": 1006
+    },
+    {
+      "class_multiplicities": {
+        "9": 3,
+        "34": 3
+      },
+      "rank": 1007
+    },
+    {
+      "class_multiplicities": {
+        "9": 3,
+        "34": 3
+      },
+      "rank": 1008
+    },
+    {
+      "class_multiplicities": {
+        "9": 3,
+        "34": 3
+      },
+      "rank": 1009
+    },
+    {
+      "class_multiplicities": {
+        "9": 3,
+        "34": 3
+      },
+      "rank": 1010
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1011
+    },
+    {
+      "class_multiplicities": {
+        "26": 3
+      },
+      "rank": 1012
+    },
+    {
+      "class_multiplicities": {
+        "26": 3
+      },
+      "rank": 1013
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1014
+    },
+    {
+      "class_multiplicities": {
+        "40": 3
+      },
+      "rank": 1015
+    },
+    {
+      "class_multiplicities": {
+        "40": 3
+      },
+      "rank": 1016
+    },
+    {
+      "class_multiplicities": {
+        "47": 6
+      },
+      "rank": 1017
+    },
+    {
+      "class_multiplicities": {
+        "47": 6
+      },
+      "rank": 1018
+    },
+    {
+      "class_multiplicities": {
+        "55": 3
+      },
+      "rank": 1019
+    },
+    {
+      "class_multiplicities": {
+        "55": 3
+      },
+      "rank": 1020
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1021
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1022
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1023
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1024
+    },
+    {
+      "class_multiplicities": {
+        "33": 3
+      },
+      "rank": 1025
+    },
+    {
+      "class_multiplicities": {
+        "20": 3
+      },
+      "rank": 1026
+    },
+    {
+      "class_multiplicities": {
+        "20": 3
+      },
+      "rank": 1027
+    },
+    {
+      "class_multiplicities": {
+        "33": 3
+      },
+      "rank": 1028
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1029
+    },
+    {
+      "class_multiplicities": {
+        "39": 3
+      },
+      "rank": 1030
+    },
+    {
+      "class_multiplicities": {
+        "39": 3
+      },
+      "rank": 1031
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1032
+    },
+    {
+      "class_multiplicities": {
+        "56": 3
+      },
+      "rank": 1033
+    },
+    {
+      "class_multiplicities": {
+        "56": 3
+      },
+      "rank": 1034
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1035
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1036
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1037
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1038
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1039
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1040
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1041
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1042
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1043
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1044
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1045
+    },
+    {
+      "class_multiplicities": {
+        "27": 6
+      },
+      "rank": 1046
+    },
+    {
+      "class_multiplicities": {
+        "27": 6
+      },
+      "rank": 1047
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1048
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1049
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1050
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1051
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1052
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1053
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1054
+    },
+    {
+      "class_multiplicities": {
+        "26": 3
+      },
+      "rank": 1055
+    },
+    {
+      "class_multiplicities": {
+        "26": 3
+      },
+      "rank": 1056
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1057
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1058
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1059
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1060
+    },
+    {
+      "class_multiplicities": {
+        "26": 3
+      },
+      "rank": 1061
+    },
+    {
+      "class_multiplicities": {
+        "26": 3
+      },
+      "rank": 1062
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1063
+    },
+    {
+      "class_multiplicities": {
+        "39": 3
+      },
+      "rank": 1064
+    },
+    {
+      "class_multiplicities": {
+        "39": 3
+      },
+      "rank": 1065
+    },
+    {
+      "class_multiplicities": {
+        "47": 6
+      },
+      "rank": 1066
+    },
+    {
+      "class_multiplicities": {
+        "42": 3
+      },
+      "rank": 1067
+    },
+    {
+      "class_multiplicities": {
+        "47": 6
+      },
+      "rank": 1068
+    },
+    {
+      "class_multiplicities": {
+        "42": 3
+      },
+      "rank": 1069
+    },
+    {
+      "class_multiplicities": {
+        "3": 3,
+        "37": 3
+      },
+      "rank": 1070
+    },
+    {
+      "class_multiplicities": {
+        "3": 3,
+        "37": 3
+      },
+      "rank": 1071
+    },
+    {
+      "class_multiplicities": {
+        "42": 3
+      },
+      "rank": 1072
+    },
+    {
+      "class_multiplicities": {
+        "42": 3
+      },
+      "rank": 1073
+    },
+    {
+      "class_multiplicities": {
+        "20": 3
+      },
+      "rank": 1074
+    },
+    {
+      "class_multiplicities": {
+        "33": 3
+      },
+      "rank": 1075
+    },
+    {
+      "class_multiplicities": {
+        "33": 3
+      },
+      "rank": 1076
+    },
+    {
+      "class_multiplicities": {
+        "20": 3
+      },
+      "rank": 1077
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1078
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1079
+    },
+    {
+      "class_multiplicities": {
+        "40": 3
+      },
+      "rank": 1080
+    },
+    {
+      "class_multiplicities": {
+        "40": 3
+      },
+      "rank": 1081
+    },
+    {
+      "class_multiplicities": {
+        "39": 3
+      },
+      "rank": 1082
+    },
+    {
+      "class_multiplicities": {
+        "39": 3
+      },
+      "rank": 1083
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1084
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1085
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1086
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1087
+    },
+    {
+      "class_multiplicities": {
+        "3": 3,
+        "37": 3
+      },
+      "rank": 1088
+    },
+    {
+      "class_multiplicities": {
+        "3": 3,
+        "37": 3
+      },
+      "rank": 1089
+    },
+    {
+      "class_multiplicities": {
+        "55": 3
+      },
+      "rank": 1090
+    },
+    {
+      "class_multiplicities": {
+        "55": 3
+      },
+      "rank": 1091
+    },
+    {
+      "class_multiplicities": {
+        "3": 3,
+        "37": 3
+      },
+      "rank": 1092
+    },
+    {
+      "class_multiplicities": {
+        "3": 3,
+        "37": 3
+      },
+      "rank": 1093
+    },
+    {
+      "class_multiplicities": {
+        "55": 3
+      },
+      "rank": 1094
+    },
+    {
+      "class_multiplicities": {
+        "55": 3
+      },
+      "rank": 1095
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1096
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1097
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1098
+    },
+    {
+      "class_multiplicities": {
+        "26": 3
+      },
+      "rank": 1099
+    },
+    {
+      "class_multiplicities": {
+        "26": 3
+      },
+      "rank": 1100
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1101
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1102
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1103
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1104
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1105
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1106
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1107
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1108
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1109
+    },
+    {
+      "class_multiplicities": {
+        "40": 3
+      },
+      "rank": 1110
+    },
+    {
+      "class_multiplicities": {
+        "40": 3
+      },
+      "rank": 1111
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1112
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1113
+    },
+    {
+      "class_multiplicities": {
+        "47": 6
+      },
+      "rank": 1114
+    },
+    {
+      "class_multiplicities": {
+        "47": 6
+      },
+      "rank": 1115
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1116
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1117
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1118
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1119
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1120
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1121
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1122
+    },
+    {
+      "class_multiplicities": {
+        "55": 3
+      },
+      "rank": 1123
+    },
+    {
+      "class_multiplicities": {
+        "55": 3
+      },
+      "rank": 1124
+    },
+    {
+      "class_multiplicities": {
+        "36": 3
+      },
+      "rank": 1125
+    },
+    {
+      "class_multiplicities": {
+        "36": 3
+      },
+      "rank": 1126
+    },
+    {
+      "class_multiplicities": {
+        "3": 3,
+        "37": 3
+      },
+      "rank": 1127
+    },
+    {
+      "class_multiplicities": {
+        "3": 3,
+        "37": 3
+      },
+      "rank": 1128
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1129
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1130
+    },
+    {
+      "class_multiplicities": {
+        "62": 3
+      },
+      "rank": 1131
+    },
+    {
+      "class_multiplicities": {
+        "62": 3
+      },
+      "rank": 1132
+    },
+    {
+      "class_multiplicities": {
+        "35": 3,
+        "38": 3
+      },
+      "rank": 1133
+    },
+    {
+      "class_multiplicities": {
+        "35": 3,
+        "38": 3
+      },
+      "rank": 1134
+    },
+    {
+      "class_multiplicities": {
+        "35": 3,
+        "38": 3
+      },
+      "rank": 1135
+    },
+    {
+      "class_multiplicities": {
+        "35": 3,
+        "38": 3
+      },
+      "rank": 1136
+    },
+    {
+      "class_multiplicities": {
+        "35": 3,
+        "38": 3
+      },
+      "rank": 1137
+    },
+    {
+      "class_multiplicities": {
+        "35": 3,
+        "38": 3
+      },
+      "rank": 1138
+    },
+    {
+      "class_multiplicities": {
+        "62": 3
+      },
+      "rank": 1139
+    },
+    {
+      "class_multiplicities": {
+        "62": 3
+      },
+      "rank": 1140
+    },
+    {
+      "class_multiplicities": {
+        "35": 3,
+        "38": 3
+      },
+      "rank": 1141
+    },
+    {
+      "class_multiplicities": {
+        "35": 3,
+        "38": 3
+      },
+      "rank": 1142
+    },
+    {
+      "class_multiplicities": {
+        "35": 3,
+        "38": 3
+      },
+      "rank": 1143
+    },
+    {
+      "class_multiplicities": {
+        "35": 3,
+        "38": 3
+      },
+      "rank": 1144
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1145
+    },
+    {
+      "class_multiplicities": {},
+      "rank": 1146
+    },
+    {
+      "class_multiplicities": {
+        "62": 3
+      },
+      "rank": 1147
+    },
+    {
+      "class_multiplicities": {
+        "62": 3
+      },
+      "rank": 1148
+    },
+    {
+      "class_multiplicities": {
+        "62": 3
+      },
+      "rank": 1149
+    },
+    {
+      "class_multiplicities": {
+        "62": 3
+      },
+      "rank": 1150
+    },
+    {
+      "class_multiplicities": {
+        "35": 3,
+        "38": 3
+      },
+      "rank": 1151
+    },
+    {
+      "class_multiplicities": {
+        "35": 3,
+        "38": 3
+      },
+      "rank": 1152
+    },
+    {
+      "class_multiplicities": {
+        "62": 3
+      },
+      "rank": 1153
+    },
+    {
+      "class_multiplicities": {
+        "62": 3
+      },
+      "rank": 1154
+    },
+    {
+      "class_multiplicities": {
+        "62": 3
+      },
+      "rank": 1155
+    },
+    {
+      "class_multiplicities": {
+        "62": 3
+      },
+      "rank": 1156
+    },
+    {
+      "class_multiplicities": {
+        "62": 3
+      },
+      "rank": 1157
+    },
+    {
+      "class_multiplicities": {
+        "62": 3
+      },
+      "rank": 1158
+    },
+    {
+      "class_multiplicities": {
+        "35": 3,
+        "38": 3
+      },
+      "rank": 1159
+    },
+    {
+      "class_multiplicities": {
+        "35": 3,
+        "38": 3
+      },
+      "rank": 1160
+    },
+    {
+      "class_multiplicities": {
+        "62": 3
+      },
+      "rank": 1161
+    },
+    {
+      "class_multiplicities": {
+        "62": 3
+      },
+      "rank": 1162
+    },
+    {
+      "class_multiplicities": {
+        "35": 3,
+        "38": 3
+      },
+      "rank": 1163
+    },
+    {
+      "class_multiplicities": {
+        "35": 3,
+        "38": 3
+      },
+      "rank": 1164
+    }
+  ],
+  "branches_per_class_histogram": {
+    "8": 6,
+    "16": 57
+  },
+  "classes": [
+    {
+      "branch_multiplicities": {
+        "151": 3,
+        "152": 3,
+        "154": 3,
+        "156": 3,
+        "193": 3,
+        "194": 3,
+        "297": 3,
+        "298": 3,
+        "335": 3,
+        "336": 3,
+        "443": 3,
+        "445": 3,
+        "560": 3,
+        "562": 3,
+        "727": 3,
+        "729": 3
+      },
+      "canonical_masks": [
+        24584796859,
+        1843183514747
+      ],
+      "class_id": 1,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "69": 3,
+        "70": 3,
+        "195": 3,
+        "196": 3,
+        "201": 3,
+        "202": 3,
+        "211": 3,
+        "212": 3,
+        "389": 3,
+        "390": 3,
+        "465": 3,
+        "466": 3,
+        "475": 3,
+        "476": 3,
+        "715": 3,
+        "716": 3
+      },
+      "canonical_masks": [
+        27358083919,
+        1433500742199
+      ],
+      "class_id": 2,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "884": 3,
+        "885": 3,
+        "937": 3,
+        "938": 3,
+        "962": 3,
+        "963": 3,
+        "994": 3,
+        "995": 3,
+        "1070": 3,
+        "1071": 3,
+        "1088": 3,
+        "1089": 3,
+        "1092": 3,
+        "1093": 3,
+        "1127": 3,
+        "1128": 3
+      },
+      "canonical_masks": [
+        28845104743,
+        744719184183
+      ],
+      "class_id": 3,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "317": 3,
+        "318": 3,
+        "363": 3,
+        "364": 3,
+        "431": 3,
+        "432": 3,
+        "615": 3,
+        "616": 3,
+        "617": 3,
+        "618": 3,
+        "663": 3,
+        "664": 3,
+        "687": 3,
+        "688": 3,
+        "717": 3,
+        "718": 3
+      },
+      "canonical_masks": [
+        29724223847,
+        1358122478423
+      ],
+      "class_id": 4,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "175": 3,
+        "176": 3,
+        "177": 3,
+        "178": 3,
+        "179": 3,
+        "180": 3,
+        "181": 3,
+        "182": 3,
+        "233": 3,
+        "234": 3,
+        "327": 3,
+        "328": 3,
+        "725": 3,
+        "726": 3,
+        "751": 3,
+        "752": 3
+      },
+      "canonical_masks": [
+        29745633487,
+        2686312083813
+      ],
+      "class_id": 5,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "9": 3,
+        "10": 3,
+        "31": 3,
+        "32": 3,
+        "39": 3,
+        "40": 3,
+        "63": 3,
+        "64": 3,
+        "125": 3,
+        "126": 3,
+        "495": 3,
+        "496": 3,
+        "577": 3,
+        "578": 3,
+        "667": 3,
+        "668": 3
+      },
+      "canonical_masks": [
+        30716643191,
+        1427465657103
+      ],
+      "class_id": 6,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "213": 3,
+        "214": 3,
+        "222": 3,
+        "224": 3,
+        "237": 3,
+        "238": 3,
+        "393": 3,
+        "394": 3,
+        "506": 3,
+        "508": 3,
+        "593": 3,
+        "594": 3,
+        "681": 3,
+        "682": 3,
+        "685": 3,
+        "686": 3
+      },
+      "canonical_masks": [
+        30915612463,
+        1449497549015
+      ],
+      "class_id": 7,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "27": 3,
+        "28": 3,
+        "33": 3,
+        "34": 3,
+        "37": 3,
+        "38": 3,
+        "59": 3,
+        "60": 3,
+        "137": 3,
+        "138": 3,
+        "235": 3,
+        "236": 3,
+        "351": 3,
+        "352": 3,
+        "763": 3,
+        "764": 3
+      },
+      "canonical_masks": [
+        31028206255,
+        234726315719
+      ],
+      "class_id": 8,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "771": 3,
+        "772": 3,
+        "813": 3,
+        "814": 3,
+        "817": 3,
+        "818": 3,
+        "854": 3,
+        "855": 3,
+        "892": 3,
+        "893": 3,
+        "1005": 3,
+        "1006": 3,
+        "1007": 3,
+        "1008": 3,
+        "1009": 3,
+        "1010": 3
+      },
+      "canonical_masks": [
+        46795487963,
+        2401299479343
+      ],
+      "class_id": 9,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "105": 3,
+        "106": 3,
+        "329": 3,
+        "330": 3,
+        "499": 3,
+        "500": 3,
+        "551": 3,
+        "552": 3,
+        "565": 3,
+        "566": 3,
+        "607": 3,
+        "608": 3,
+        "635": 3,
+        "636": 3,
+        "743": 3,
+        "744": 3
+      },
+      "canonical_masks": [
+        48028280637,
+        1298105471543
+      ],
+      "class_id": 10,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "73": 3,
+        "74": 3,
+        "99": 3,
+        "100": 3,
+        "342": 3,
+        "343": 3,
+        "467": 3,
+        "468": 3,
+        "517": 3,
+        "518": 3,
+        "597": 3,
+        "598": 3,
+        "645": 3,
+        "646": 3,
+        "748": 3,
+        "749": 3
+      },
+      "canonical_masks": [
+        48745315447,
+        1399003403915
+      ],
+      "class_id": 11,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "97": 3,
+        "98": 3,
+        "157": 3,
+        "158": 3,
+        "219": 3,
+        "220": 3,
+        "287": 3,
+        "288": 3,
+        "341": 3,
+        "344": 3,
+        "595": 3,
+        "596": 3,
+        "609": 3,
+        "610": 3,
+        "747": 3,
+        "750": 3
+      },
+      "canonical_masks": [
+        49716813039,
+        1198683303123
+      ],
+      "class_id": 12,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "77": 3,
+        "78": 3,
+        "241": 3,
+        "242": 3,
+        "309": 3,
+        "310": 3,
+        "331": 3,
+        "332": 3,
+        "355": 3,
+        "356": 3,
+        "419": 3,
+        "420": 3,
+        "701": 3,
+        "702": 3,
+        "723": 3,
+        "724": 3
+      },
+      "canonical_masks": [
+        54412008287,
+        232941905127
+      ],
+      "class_id": 13,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "107": 3,
+        "108": 3,
+        "503": 3,
+        "504": 3,
+        "547": 3,
+        "548": 3,
+        "563": 3,
+        "564": 3,
+        "599": 3,
+        "600": 3,
+        "605": 3,
+        "606": 3,
+        "627": 3,
+        "628": 3,
+        "637": 3,
+        "638": 3
+      },
+      "canonical_masks": [
+        55488428603,
+        736425522327
+      ],
+      "class_id": 14,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "197": 3,
+        "198": 3,
+        "267": 3,
+        "268": 3,
+        "367": 3,
+        "369": 3,
+        "409": 3,
+        "410": 3,
+        "473": 3,
+        "474": 3,
+        "492": 3,
+        "494": 3,
+        "695": 3,
+        "697": 3,
+        "756": 3,
+        "758": 3
+      },
+      "canonical_masks": [
+        57362152055,
+        2621699814101
+      ],
+      "class_id": 15,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "781": 6,
+        "807": 6,
+        "836": 6,
+        "847": 6,
+        "890": 6,
+        "891": 6,
+        "1003": 6,
+        "1004": 6
+      },
+      "canonical_masks": [
+        57808352031,
+        768621334035
+      ],
+      "class_id": 16,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "215": 3,
+        "216": 3,
+        "221": 3,
+        "223": 3,
+        "229": 3,
+        "230": 3,
+        "239": 3,
+        "240": 3,
+        "505": 3,
+        "507": 3,
+        "555": 3,
+        "556": 3,
+        "621": 3,
+        "622": 3,
+        "753": 3,
+        "754": 3
+      },
+      "canonical_masks": [
+        61467200847,
+        1431510636711
+      ],
+      "class_id": 17,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "85": 3,
+        "86": 3,
+        "245": 3,
+        "248": 3,
+        "255": 3,
+        "256": 3,
+        "353": 3,
+        "354": 3,
+        "397": 3,
+        "400": 3,
+        "403": 3,
+        "404": 3,
+        "537": 3,
+        "538": 3,
+        "541": 3,
+        "542": 3
+      },
+      "canonical_masks": [
+        62053021079,
+        1496984296203
+      ],
+      "class_id": 18,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "66": 3,
+        "67": 3,
+        "187": 3,
+        "188": 3,
+        "189": 3,
+        "190": 3,
+        "470": 3,
+        "471": 3,
+        "511": 3,
+        "512": 3,
+        "523": 3,
+        "524": 3,
+        "602": 3,
+        "603": 3,
+        "660": 3,
+        "661": 3
+      },
+      "canonical_masks": [
+        81179925821,
+        1495620936813
+      ],
+      "class_id": 19,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "773": 3,
+        "774": 3,
+        "784": 3,
+        "785": 3,
+        "832": 3,
+        "833": 3,
+        "841": 3,
+        "842": 3,
+        "879": 3,
+        "880": 3,
+        "982": 3,
+        "985": 3,
+        "1026": 3,
+        "1027": 3,
+        "1074": 3,
+        "1077": 3
+      },
+      "canonical_masks": [
+        81195149549,
+        1429092601149
+      ],
+      "class_id": 20,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "273": 3,
+        "274": 3,
+        "381": 3,
+        "382": 3,
+        "383": 3,
+        "384": 3,
+        "423": 3,
+        "424": 3,
+        "425": 3,
+        "426": 3,
+        "585": 3,
+        "586": 3,
+        "629": 3,
+        "630": 3,
+        "671": 3,
+        "672": 3
+      },
+      "canonical_masks": [
+        82434665935,
+        926276557639
+      ],
+      "class_id": 21,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "159": 3,
+        "160": 3,
+        "205": 3,
+        "206": 3,
+        "259": 3,
+        "260": 3,
+        "281": 3,
+        "282": 3,
+        "315": 3,
+        "316": 3,
+        "525": 3,
+        "526": 3,
+        "557": 3,
+        "558": 3,
+        "693": 3,
+        "694": 3
+      },
+      "canonical_masks": [
+        82529934939,
+        841114315863
+      ],
+      "class_id": 22,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "90": 3,
+        "92": 3,
+        "169": 3,
+        "170": 3,
+        "231": 3,
+        "232": 3,
+        "271": 3,
+        "272": 3,
+        "407": 3,
+        "408": 3,
+        "440": 3,
+        "442": 3,
+        "653": 3,
+        "654": 3,
+        "739": 3,
+        "740": 3
+      },
+      "canonical_masks": [
+        82914814843,
+        870700870951
+      ],
+      "class_id": 23,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "151": 3,
+        "152": 3,
+        "154": 3,
+        "156": 3,
+        "193": 3,
+        "194": 3,
+        "297": 3,
+        "298": 3,
+        "335": 3,
+        "336": 3,
+        "443": 3,
+        "445": 3,
+        "560": 3,
+        "562": 3,
+        "727": 3,
+        "729": 3
+      },
+      "canonical_masks": [
+        84250292473,
+        1603709655247
+      ],
+      "class_id": 24,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "139": 3,
+        "140": 3,
+        "165": 3,
+        "166": 3,
+        "295": 3,
+        "296": 3,
+        "321": 3,
+        "322": 3,
+        "427": 3,
+        "428": 3,
+        "527": 3,
+        "528": 3,
+        "655": 3,
+        "656": 3,
+        "677": 3,
+        "678": 3
+      },
+      "canonical_masks": [
+        89365272399,
+        1149359219517
+      ],
+      "class_id": 25,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "775": 3,
+        "776": 3,
+        "782": 3,
+        "783": 3,
+        "801": 3,
+        "802": 3,
+        "850": 3,
+        "851": 3,
+        "1012": 3,
+        "1013": 3,
+        "1055": 3,
+        "1056": 3,
+        "1061": 3,
+        "1062": 3,
+        "1099": 3,
+        "1100": 3
+      },
+      "canonical_masks": [
+        89746406959,
+        1429904369107
+      ],
+      "class_id": 26,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "792": 6,
+        "812": 6,
+        "827": 6,
+        "860": 6,
+        "948": 6,
+        "949": 6,
+        "1046": 6,
+        "1047": 6
+      },
+      "canonical_masks": [
+        90679434863,
+        1268216833497
+      ],
+      "class_id": 27,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "90": 3,
+        "92": 3,
+        "169": 3,
+        "170": 3,
+        "231": 3,
+        "232": 3,
+        "271": 3,
+        "272": 3,
+        "407": 3,
+        "408": 3,
+        "440": 3,
+        "442": 3,
+        "653": 3,
+        "654": 3,
+        "739": 3,
+        "740": 3
+      },
+      "canonical_masks": [
+        93202271583,
+        860753745467
+      ],
+      "class_id": 28,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "77": 3,
+        "78": 3,
+        "241": 3,
+        "242": 3,
+        "309": 3,
+        "310": 3,
+        "331": 3,
+        "332": 3,
+        "355": 3,
+        "356": 3,
+        "419": 3,
+        "420": 3,
+        "701": 3,
+        "702": 3,
+        "723": 3,
+        "724": 3
+      },
+      "canonical_masks": [
+        93936638157,
+        2378653539991
+      ],
+      "class_id": 29,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "71": 3,
+        "72": 3,
+        "95": 3,
+        "96": 3,
+        "391": 3,
+        "392": 3,
+        "433": 3,
+        "434": 3,
+        "463": 3,
+        "464": 3,
+        "611": 3,
+        "612": 3,
+        "689": 3,
+        "690": 3,
+        "713": 3,
+        "714": 3
+      },
+      "canonical_masks": [
+        94050752061,
+        664072040013
+      ],
+      "class_id": 30,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "11": 3,
+        "12": 3,
+        "29": 3,
+        "30": 3,
+        "45": 3,
+        "46": 3,
+        "57": 3,
+        "58": 3,
+        "277": 3,
+        "278": 3,
+        "347": 3,
+        "348": 3,
+        "589": 3,
+        "590": 3,
+        "641": 3,
+        "642": 3
+      },
+      "canonical_masks": [
+        95369711603,
+        1832565027407
+      ],
+      "class_id": 31,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "197": 3,
+        "198": 3,
+        "267": 3,
+        "268": 3,
+        "367": 3,
+        "369": 3,
+        "409": 3,
+        "410": 3,
+        "473": 3,
+        "474": 3,
+        "492": 3,
+        "494": 3,
+        "695": 3,
+        "697": 3,
+        "756": 3,
+        "758": 3
+      },
+      "canonical_masks": [
+        95456901943,
+        342230979223
+      ],
+      "class_id": 32,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "788": 3,
+        "789": 3,
+        "797": 3,
+        "798": 3,
+        "805": 3,
+        "806": 3,
+        "819": 3,
+        "820": 3,
+        "878": 3,
+        "881": 3,
+        "983": 3,
+        "984": 3,
+        "1025": 3,
+        "1028": 3,
+        "1075": 3,
+        "1076": 3
+      },
+      "canonical_masks": [
+        95894157501,
+        1318073425717
+      ],
+      "class_id": 33,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "771": 3,
+        "772": 3,
+        "813": 3,
+        "814": 3,
+        "817": 3,
+        "818": 3,
+        "854": 3,
+        "855": 3,
+        "892": 3,
+        "893": 3,
+        "1005": 3,
+        "1006": 3,
+        "1007": 3,
+        "1008": 3,
+        "1009": 3,
+        "1010": 3
+      },
+      "canonical_masks": [
+        96458951411,
+        720245384523
+      ],
+      "class_id": 34,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "1133": 3,
+        "1134": 3,
+        "1135": 3,
+        "1136": 3,
+        "1137": 3,
+        "1138": 3,
+        "1141": 3,
+        "1142": 3,
+        "1143": 3,
+        "1144": 3,
+        "1151": 3,
+        "1152": 3,
+        "1159": 3,
+        "1160": 3,
+        "1163": 3,
+        "1164": 3
+      },
+      "canonical_masks": [
+        99234511283,
+        749909387071
+      ],
+      "class_id": 35,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "786": 3,
+        "787": 3,
+        "810": 3,
+        "811": 3,
+        "825": 3,
+        "826": 3,
+        "843": 3,
+        "844": 3,
+        "882": 3,
+        "883": 3,
+        "960": 3,
+        "961": 3,
+        "992": 3,
+        "993": 3,
+        "1125": 3,
+        "1126": 3
+      },
+      "canonical_masks": [
+        99353028443,
+        1474218498891
+      ],
+      "class_id": 36,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "884": 3,
+        "885": 3,
+        "937": 3,
+        "938": 3,
+        "962": 3,
+        "963": 3,
+        "994": 3,
+        "995": 3,
+        "1070": 3,
+        "1071": 3,
+        "1088": 3,
+        "1089": 3,
+        "1092": 3,
+        "1093": 3,
+        "1127": 3,
+        "1128": 3
+      },
+      "canonical_masks": [
+        101086353351,
+        1268954836299
+      ],
+      "class_id": 37,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "1133": 3,
+        "1134": 3,
+        "1135": 3,
+        "1136": 3,
+        "1137": 3,
+        "1138": 3,
+        "1141": 3,
+        "1142": 3,
+        "1143": 3,
+        "1144": 3,
+        "1151": 3,
+        "1152": 3,
+        "1159": 3,
+        "1160": 3,
+        "1163": 3,
+        "1164": 3
+      },
+      "canonical_masks": [
+        105988550555,
+        1358123311851
+      ],
+      "class_id": 38,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "872": 3,
+        "873": 3,
+        "900": 3,
+        "901": 3,
+        "913": 3,
+        "915": 3,
+        "965": 3,
+        "966": 3,
+        "974": 3,
+        "976": 3,
+        "1030": 3,
+        "1031": 3,
+        "1064": 3,
+        "1065": 3,
+        "1082": 3,
+        "1083": 3
+      },
+      "canonical_masks": [
+        108135965391,
+        736329379635
+      ],
+      "class_id": 39,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "795": 3,
+        "796": 3,
+        "808": 3,
+        "809": 3,
+        "828": 3,
+        "829": 3,
+        "858": 3,
+        "859": 3,
+        "935": 3,
+        "936": 3,
+        "1015": 3,
+        "1016": 3,
+        "1080": 3,
+        "1081": 3,
+        "1110": 3,
+        "1111": 3
+      },
+      "canonical_masks": [
+        108828806043,
+        869119082311
+      ],
+      "class_id": 40,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "27": 3,
+        "28": 3,
+        "33": 3,
+        "34": 3,
+        "37": 3,
+        "38": 3,
+        "59": 3,
+        "60": 3,
+        "137": 3,
+        "138": 3,
+        "235": 3,
+        "236": 3,
+        "351": 3,
+        "352": 3,
+        "763": 3,
+        "764": 3
+      },
+      "canonical_masks": [
+        112451755707,
+        390513713611
+      ],
+      "class_id": 41,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "875": 3,
+        "877": 3,
+        "980": 3,
+        "981": 3,
+        "1067": 3,
+        "1069": 3,
+        "1072": 3,
+        "1073": 3
+      },
+      "canonical_masks": [
+        117568067751,
+        1485595526495
+      ],
+      "class_id": 42,
+      "phase_gauged_members": 24,
+      "prescribed_ordered_members": 1944
+    },
+    {
+      "branch_multiplicities": {
+        "121": 3,
+        "122": 3,
+        "149": 3,
+        "150": 3,
+        "209": 3,
+        "210": 3,
+        "227": 3,
+        "228": 3,
+        "249": 3,
+        "250": 3,
+        "333": 3,
+        "334": 3,
+        "675": 3,
+        "676": 3,
+        "737": 3,
+        "738": 3
+      },
+      "canonical_masks": [
+        118229939575,
+        434752960339
+      ],
+      "class_id": 43,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "139": 3,
+        "140": 3,
+        "165": 3,
+        "166": 3,
+        "295": 3,
+        "296": 3,
+        "321": 3,
+        "322": 3,
+        "427": 3,
+        "428": 3,
+        "527": 3,
+        "528": 3,
+        "655": 3,
+        "656": 3,
+        "677": 3,
+        "678": 3
+      },
+      "canonical_masks": [
+        119374787431,
+        381815238307
+      ],
+      "class_id": 44,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "77": 3,
+        "78": 3,
+        "241": 3,
+        "242": 3,
+        "309": 3,
+        "310": 3,
+        "331": 3,
+        "332": 3,
+        "355": 3,
+        "356": 3,
+        "419": 3,
+        "420": 3,
+        "701": 3,
+        "702": 3,
+        "723": 3,
+        "724": 3
+      },
+      "canonical_masks": [
+        126060275103,
+        158088998551
+      ],
+      "class_id": 45,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "107": 3,
+        "108": 3,
+        "503": 3,
+        "504": 3,
+        "547": 3,
+        "548": 3,
+        "563": 3,
+        "564": 3,
+        "599": 3,
+        "600": 3,
+        "605": 3,
+        "606": 3,
+        "627": 3,
+        "628": 3,
+        "637": 3,
+        "638": 3
+      },
+      "canonical_masks": [
+        145813323431,
+        783004033821
+      ],
+      "class_id": 46,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "874": 6,
+        "876": 6,
+        "1017": 6,
+        "1018": 6,
+        "1066": 6,
+        "1068": 6,
+        "1114": 6,
+        "1115": 6
+      },
+      "canonical_masks": [
+        147498821047,
+        1333393467517
+      ],
+      "class_id": 47,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "175": 3,
+        "176": 3,
+        "177": 3,
+        "178": 3,
+        "179": 3,
+        "180": 3,
+        "181": 3,
+        "182": 3,
+        "233": 3,
+        "234": 3,
+        "327": 3,
+        "328": 3,
+        "725": 3,
+        "726": 3,
+        "751": 3,
+        "752": 3
+      },
+      "canonical_masks": [
+        151073183999,
+        1947275146095
+      ],
+      "class_id": 48,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "85": 3,
+        "86": 3,
+        "245": 3,
+        "248": 3,
+        "255": 3,
+        "256": 3,
+        "353": 3,
+        "354": 3,
+        "397": 3,
+        "400": 3,
+        "403": 3,
+        "404": 3,
+        "537": 3,
+        "538": 3,
+        "541": 3,
+        "542": 3
+      },
+      "canonical_masks": [
+        153716676463,
+        1213490634535
+      ],
+      "class_id": 49,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "83": 3,
+        "84": 3,
+        "191": 3,
+        "192": 3,
+        "489": 3,
+        "490": 3,
+        "583": 3,
+        "584": 3
+      },
+      "canonical_masks": [
+        157625804463,
+        376051609421
+      ],
+      "class_id": 50,
+      "phase_gauged_members": 24,
+      "prescribed_ordered_members": 1944
+    },
+    {
+      "branch_multiplicities": {
+        "89": 3,
+        "91": 3,
+        "93": 3,
+        "94": 3,
+        "269": 3,
+        "270": 3,
+        "275": 3,
+        "276": 3,
+        "405": 3,
+        "406": 3,
+        "437": 3,
+        "438": 3,
+        "439": 3,
+        "441": 3,
+        "461": 3,
+        "462": 3
+      },
+      "canonical_masks": [
+        157788128471,
+        1438029363981
+      ],
+      "class_id": 51,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "87": 3,
+        "88": 3,
+        "246": 3,
+        "247": 3,
+        "377": 3,
+        "378": 3,
+        "398": 3,
+        "399": 3,
+        "543": 3,
+        "544": 3,
+        "571": 3,
+        "572": 3,
+        "587": 3,
+        "588": 3,
+        "633": 3,
+        "634": 3
+      },
+      "canonical_masks": [
+        161989162511,
+        681460480419
+      ],
+      "class_id": 52,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "1": 3,
+        "2": 3,
+        "23": 3,
+        "24": 3,
+        "51": 3,
+        "52": 3,
+        "53": 3,
+        "54": 3,
+        "301": 3,
+        "302": 3,
+        "311": 3,
+        "312": 3,
+        "453": 3,
+        "454": 3,
+        "709": 3,
+        "710": 3
+      },
+      "canonical_masks": [
+        163048444333,
+        662203516267
+      ],
+      "class_id": 53,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "5": 3,
+        "6": 3,
+        "13": 3,
+        "14": 3,
+        "21": 3,
+        "22": 3,
+        "61": 3,
+        "62": 3,
+        "119": 3,
+        "120": 3,
+        "225": 3,
+        "226": 3,
+        "673": 3,
+        "674": 3,
+        "735": 3,
+        "736": 3
+      },
+      "canonical_masks": [
+        175285024423,
+        729683973693
+      ],
+      "class_id": 54,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "907": 3,
+        "908": 3,
+        "925": 3,
+        "926": 3,
+        "972": 3,
+        "973": 3,
+        "990": 3,
+        "991": 3,
+        "1019": 3,
+        "1020": 3,
+        "1090": 3,
+        "1091": 3,
+        "1094": 3,
+        "1095": 3,
+        "1123": 3,
+        "1124": 3
+      },
+      "canonical_masks": [
+        175656642875,
+        668434332085
+      ],
+      "class_id": 55,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "793": 3,
+        "794": 3,
+        "830": 3,
+        "831": 3,
+        "839": 3,
+        "840": 3,
+        "845": 3,
+        "846": 3,
+        "927": 3,
+        "928": 3,
+        "968": 3,
+        "969": 3,
+        "986": 3,
+        "987": 3,
+        "1033": 3,
+        "1034": 3
+      },
+      "canonical_masks": [
+        178740993627,
+        179641348279
+      ],
+      "class_id": 56,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "101": 3,
+        "102": 3,
+        "303": 3,
+        "304": 3,
+        "307": 3,
+        "308": 3,
+        "313": 3,
+        "314": 3,
+        "411": 3,
+        "412": 3,
+        "455": 3,
+        "456": 3,
+        "479": 3,
+        "480": 3,
+        "711": 3,
+        "712": 3
+      },
+      "canonical_masks": [
+        194296579431,
+        919706778395
+      ],
+      "class_id": 57,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "273": 3,
+        "274": 3,
+        "381": 3,
+        "382": 3,
+        "383": 3,
+        "384": 3,
+        "423": 3,
+        "424": 3,
+        "425": 3,
+        "426": 3,
+        "585": 3,
+        "586": 3,
+        "629": 3,
+        "630": 3,
+        "671": 3,
+        "672": 3
+      },
+      "canonical_masks": [
+        196102290205,
+        1407058501141
+      ],
+      "class_id": 58,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "90": 3,
+        "92": 3,
+        "169": 3,
+        "170": 3,
+        "231": 3,
+        "232": 3,
+        "271": 3,
+        "272": 3,
+        "407": 3,
+        "408": 3,
+        "440": 3,
+        "442": 3,
+        "653": 3,
+        "654": 3,
+        "739": 3,
+        "740": 3
+      },
+      "canonical_masks": [
+        216505356267,
+        1234059224461
+      ],
+      "class_id": 59,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "129": 6,
+        "131": 6,
+        "413": 6,
+        "414": 6,
+        "539": 6,
+        "540": 6,
+        "719": 6,
+        "721": 6
+      },
+      "canonical_masks": [
+        242245018967,
+        434795723475
+      ],
+      "class_id": 60,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "197": 3,
+        "198": 3,
+        "267": 3,
+        "268": 3,
+        "367": 3,
+        "369": 3,
+        "409": 3,
+        "410": 3,
+        "473": 3,
+        "474": 3,
+        "492": 3,
+        "494": 3,
+        "695": 3,
+        "697": 3,
+        "756": 3,
+        "758": 3
+      },
+      "canonical_masks": [
+        249793196959,
+        1325822275555
+      ],
+      "class_id": 61,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "1131": 3,
+        "1132": 3,
+        "1139": 3,
+        "1140": 3,
+        "1147": 3,
+        "1148": 3,
+        "1149": 3,
+        "1150": 3,
+        "1153": 3,
+        "1154": 3,
+        "1155": 3,
+        "1156": 3,
+        "1157": 3,
+        "1158": 3,
+        "1161": 3,
+        "1162": 3
+      },
+      "canonical_masks": [
+        300456585005,
+        1192115106489
+      ],
+      "class_id": 62,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    },
+    {
+      "branch_multiplicities": {
+        "113": 3,
+        "114": 3,
+        "117": 3,
+        "118": 3,
+        "417": 3,
+        "418": 3,
+        "485": 3,
+        "486": 3,
+        "487": 3,
+        "488": 3,
+        "513": 3,
+        "514": 3,
+        "665": 3,
+        "666": 3,
+        "745": 3,
+        "746": 3
+      },
+      "canonical_masks": [
+        306241502873,
+        676703638223
+      ],
+      "class_id": 63,
+      "phase_gauged_members": 48,
+      "prescribed_ordered_members": 3888
+    }
+  ],
+  "classes_per_branch_histogram": {
+    "0": 460,
+    "1": 496,
+    "2": 160,
+    "3": 48
+  },
+  "historical_crosswalk_status": "Unavailable historical list; class IDs are local canonical-mask order only.",
+  "interpretation": "Counts refine the fixed-prescription fibers. They are derivable from a complete global representative list plus orbit expansion; no logically new existence result or priority claim.",
+  "nonzero_incidence_entries": 960,
+  "script_sha256": "83f31dde8990565d692e5a8a19f868f2a44b7e60cf3487e0b2ea17a3599ea4b6",
+  "source_sha256": "8b1f02e6a3a97ae2231dfdc2d3936a6715b3fa8320d3ea3a9f27b8723a660b50"
+}

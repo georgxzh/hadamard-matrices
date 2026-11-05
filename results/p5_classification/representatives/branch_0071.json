@@ -1,0 +1,113 @@
+{
+  "all_solutions_direct_paf_sds_checked": true,
+  "canonical_pairs": 3,
+  "elapsed_seconds": 10.09343439998338,
+  "first": [
+    -1,
+    -3,
+    -1,
+    1,
+    1,
+    1,
+    3,
+    -1,
+    -1,
+    1,
+    1,
+    3,
+    -1,
+    -3,
+    1
+  ],
+  "independent_full_paf": {
+    "canonical_pairs": 3,
+    "complete": true,
+    "counts": [
+      59049,
+      177147
+    ],
+    "elapsed_seconds": 4.683718200016301,
+    "expected_counts": [
+      59049,
+      177147
+    ],
+    "ordered_pairs": 27,
+    "projected_histogram_sha256": [
+      "4fbb0ef51128db00493f52e1e3083d0838784c705cafe0bf78ef8f98963d697d",
+      "35fd9a5783b2a0622c70ad5f5a7275459968752dd12ebb2b194ff8c4bbf0a3f7"
+    ],
+    "solutions": [
+      [
+        14044321263778,
+        29166308730902
+      ],
+      [
+        15018708431126,
+        4017894303794
+      ],
+      [
+        31756184827270,
+        11608712268944
+      ]
+    ],
+    "stored_signatures": 59043
+  },
+  "magnitude_one_counts": [
+    11,
+    12
+  ],
+  "ordered_pairs": 27,
+  "peak_worker_working_set_bytes": 86089728,
+  "phase": {
+    "canonical_pairs": 3,
+    "complete": true,
+    "counts": [
+      59049,
+      177147
+    ],
+    "elapsed_seconds": 4.42402029997902,
+    "expected_counts": [
+      59049,
+      177147
+    ],
+    "ordered_pairs": 27,
+    "projected_histogram_sha256": [
+      "4fbb0ef51128db00493f52e1e3083d0838784c705cafe0bf78ef8f98963d697d",
+      "35fd9a5783b2a0622c70ad5f5a7275459968752dd12ebb2b194ff8c4bbf0a3f7"
+    ],
+    "solutions": [
+      [
+        14044321263778,
+        29166308730902
+      ],
+      [
+        15018708431126,
+        4017894303794
+      ],
+      [
+        31756184827270,
+        11608712268944
+      ]
+    ],
+    "stored_signatures": 59043
+  },
+  "rank": 71,
+  "second": [
+    -1,
+    -1,
+    1,
+    1,
+    -3,
+    1,
+    1,
+    1,
+    3,
+    -1,
+    1,
+    -3,
+    1,
+    -1,
+    1
+  ],
+  "status": "sat"
+}

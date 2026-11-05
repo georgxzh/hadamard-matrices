@@ -1,0 +1,51 @@
+{
+  "algorithm": "sha256",
+  "base_commit": "9ed23ba6252ddfec41a79b6eff5af93f7ef10c6c",
+  "files": [
+    {
+      "bytes": 21680,
+      "path": "research/phase_exchange_rigidity.md",
+      "sha256": "58b727eaad396c525e8e79066bae427898acf05d6ddf64fec2c8deb056c7eb15"
+    },
+    {
+      "bytes": 302464,
+      "path": "results/phase_exchange/audit.json",
+      "sha256": "ee13e32e0a983225bd4db27b490be918a2937c6a739ed7b7757bfeb966ea5a61"
+    },
+    {
+      "bytes": 1479,
+      "path": "results/phase_exchange/integrity.json",
+      "sha256": "b35baf8d9b1f36baa7ad48f104104c55e2d5bf6fa3f7881a1f53b4305c817ad4"
+    },
+    {
+      "bytes": 130810,
+      "path": "results/phase_exchange/pilot.json",
+      "sha256": "e13484b5de9ed6d65da93becdce3838a992866cb1ee1e5e4d7c973cb415abe22"
+    },
+    {
+      "bytes": 294,
+      "path": "results/phase_exchange/tests.json",
+      "sha256": "1d4968c0f0bff9d3287e769052f639c03555366a76802b17111e7a63f748842c"
+    },
+    {
+      "bytes": 7092,
+      "path": "scripts/audit_phase_exchange.py",
+      "sha256": "1cd752cbdae806cbfddcd8a8fd53472cddf826087e3bf72c7e28133d6a7821bc"
+    },
+    {
+      "bytes": 4794,
+      "path": "scripts/package_phase_exchange.py",
+      "sha256": "76a8ef8275752094d5feb16eec01d94e6c08bf2cd759d557ecb9723d7320ed80"
+    },
+    {
+      "bytes": 2611,
+      "path": "scripts/phase_exchange.py",
+      "sha256": "5467fc6e7731ab901966a3b7195cd2ccd27188da23fe968945960e117307c31b"
+    },
+    {
+      "bytes": 3055,
+      "path": "tests/test_phase_exchange.py",
+      "sha256": "4570dd86acc223a95c1e589b96e1b299497482405b0f20b1acb49c16ea35eb26"
+    }
+  ]
+}

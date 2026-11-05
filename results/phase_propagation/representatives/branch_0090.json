@@ -1,0 +1,80 @@
+{
+  "elapsed_seconds": 10.439666100020986,
+  "join_baseline": {
+    "canonical_pairs": 9,
+    "complete": true,
+    "elapsed_seconds": 1.4408838999806903,
+    "ordered_pairs": 81,
+    "solutions": [],
+    "stop_reason": "exhausted",
+    "stored_candidates": 59049,
+    "stored_signatures": 58992,
+    "streamed_candidates": 177147
+  },
+  "matches_reference": true,
+  "peak_working_set_bytes": 97452032,
+  "propagation": {
+    "canonical_lower_bound": 9,
+    "canonical_pairs": 9,
+    "complete": true,
+    "elapsed_seconds": 8.974866100004874,
+    "folded_bounds": true,
+    "node_limit": 5000000,
+    "ordered_pairs": 81,
+    "partner_filter": true,
+    "seconds_limit": 90,
+    "solutions": [
+      [
+        463735786278,
+        7259957223958
+      ],
+      [
+        4825204097982,
+        2773797763658
+      ],
+      [
+        4827288865590,
+        642049879602
+      ],
+      [
+        11473075553158,
+        32537954585092
+      ],
+      [
+        13519496661932,
+        30255178027646
+      ],
+      [
+        15853807453094,
+        11651628648980
+      ],
+      [
+        17883385537460,
+        16045479996978
+      ],
+      [
+        22332837438340,
+        30330207379974
+      ],
+      [
+        24669232210702,
+        9388348259932
+      ]
+    ],
+    "stats": {
+      "distinct_signatures": 58992,
+      "leaves": 9,
+      "nodes": 116176,
+      "pruned": 77442,
+      "stored_candidates": 59049
+    },
+    "stop_reason": "exhausted",
+    "stored_candidate_limit": 250000,
+    "stored_side": 0
+  },
+  "rank": 90,
+  "split": [
+    11,
+    12
+  ]
+}

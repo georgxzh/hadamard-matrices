@@ -1,0 +1,7756 @@
+{
+  "base_commit": "9ed23ba6252ddfec41a79b6eff5af93f7ef10c6c",
+  "cap_seconds": 120,
+  "caps_hit": false,
+  "checks": [
+    {
+      "affected_edge_counts": [
+        0,
+        4,
+        4,
+        2,
+        4,
+        3,
+        1,
+        3,
+        3,
+        1,
+        3,
+        4,
+        2,
+        4,
+        4,
+        0,
+        4,
+        4,
+        2,
+        4,
+        3,
+        1,
+        3,
+        3,
+        1,
+        3,
+        4,
+        2,
+        4,
+        4,
+        0,
+        4,
+        4,
+        2,
+        4,
+        3,
+        1,
+        3,
+        3,
+        1,
+        3,
+        4,
+        2,
+        4,
+        4
+      ],
+      "delta_B": [
+        0,
+        1,
+        2,
+        1,
+        0,
+        3,
+        -1,
+        1,
+        0,
+        1,
+        -2,
+        -1,
+        0,
+        -2,
+        0,
+        0,
+        -1,
+        0,
+        -1,
+        1,
+        -1,
+        0,
+        -1,
+        -1,
+        0,
+        -1,
+        1,
+        -1,
+        0,
+        -1,
+        0,
+        0,
+        -2,
+        0,
+        -1,
+        -2,
+        1,
+        0,
+        1,
+        -1,
+        3,
+        0,
+        1,
+        2,
+        1
+      ],
+      "delta_F": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        2,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        1
+      ],
+      "delta_J": null,
+      "delta_S": [
+        1,
+        7,
+        5,
+        2,
+        -3,
+        6,
+        -4,
+        -1,
+        -3,
+        3,
+        1,
+        0,
+        0,
+        -8,
+        0,
+        -1,
+        3,
+        1,
+        1,
+        4,
+        3,
+        -2,
+        -7,
+        -3
+      ],
+      "delta_in_9O": false,
+      "endpoint": {
+        "B": [
+          0,
+          1,
+          2,
+          1,
+          0,
+          3,
+          -1,
+          1,
+          0,
+          1,
+          -2,
+          -1,
+          0,
+          -2,
+          0,
+          0,
+          -1,
+          0,
+          -1,
+          1,
+          -1,
+          0,
+          -1,
+          -1,
+          0,
+          -1,
+          1,
+          -1,
+          0,
+          -1,
+          0,
+          0,
+          -2,
+          0,
+          -1,
+          -2,
+          1,
+          0,
+          1,
+          -1,
+          3,
+          0,
+          1,
+          2,
+          1
+        ],
+        "F": [
+          [
+            0,
+            -2,
+            0,
+            -1,
+            0,
+            1,
+            -2,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            -2,
+            1,
+            0
+          ],
+          [
+            -1,
+            0,
+            -1,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            -2,
+            1,
+            -1,
+            0,
+            -1,
+            1,
+            0,
+            0,
+            -1,
+            -2,
+            1,
+            -1,
+            1,
+            -1,
+            0
+          ]
+        ],
+        "G": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "J": null,
+        "Q": [
+          -1,
+          -1,
+          1,
+          1
+        ],
+        "S": [
+          1,
+          7,
+          5,
+          2,
+          -3,
+          6,
+          -4,
+          -1,
+          -3,
+          3,
+          1,
+          0,
+          0,
+          -8,
+          0,
+          -1,
+          3,
+          1,
+          1,
+          4,
+          3,
+          -2,
+          -7,
+          -3
+        ],
+        "charges": [
+          {
+            "beta": [
+              -1,
+              1,
+              3
+            ],
+            "charges": [
+              [
+                0,
+                -1,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ],
+            "row": [
+              -1,
+              -3,
+              3,
+              1,
+              1,
+              -1,
+              -1,
+              1,
+              1
+            ]
+          },
+          {
+            "beta": [
+              -3,
+              1,
+              3
+            ],
+            "charges": [
+              [
+                -1,
+                0,
+                -1
+              ],
+              [
+                -1,
+                0,
+                2
+              ],
+              [
+                -1,
+                2,
+                1
+              ]
+            ],
+            "row": [
+              -1,
+              3,
+              5,
+              -3,
+              1,
+              -1,
+              -1,
+              -3,
+              1
+            ]
+          }
+        ],
+        "combined_PAF": [
+          90,
+          2,
+          6,
+          2,
+          -2,
+          10,
+          -6,
+          2,
+          -2,
+          2,
+          -10,
+          -6,
+          -2,
+          -10,
+          -2,
+          -2,
+          -6,
+          -2,
+          -6,
+          2,
+          -6,
+          -2,
+          -6,
+          -6,
+          -2,
+          -6,
+          2,
+          -6,
+          -2,
+          -6,
+          -2,
+          -2,
+          -10,
+          -2,
+          -6,
+          -10,
+          2,
+          -2,
+          2,
+          -6,
+          10,
+          -2,
+          2,
+          6,
+          2
+        ],
+        "full_domain": false,
+        "masks": [
+          4891176064928,
+          11681458143385
+        ],
+        "phases": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          2,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          2,
+          1,
+          2,
+          0,
+          0,
+          0,
+          0,
+          1,
+          2,
+          0
+        ],
+        "tensor": [
+          [
+            -2,
+            6,
+            -6,
+            -1,
+            3,
+            -3
+          ],
+          [
+            -1,
+            0,
+            0,
+            -2,
+            0,
+            0
+          ],
+          [
+            -3,
+            -1,
+            0,
+            0,
+            4,
+            3
+          ],
+          [
+            -4,
+            0,
+            1,
+            -2,
+            3,
+            5
+          ]
+        ]
+      },
+      "max_abs_delta_B": 3,
+      "move": {
+        "labels": [
+          1,
+          2
+        ],
+        "new_phases": [
+          1,
+          0
+        ],
+        "old_phases": [
+          2,
+          2
+        ],
+        "phase_indices": [
+          2,
+          11
+        ],
+        "phases": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          2,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          2,
+          1,
+          2,
+          0,
+          0,
+          0,
+          0,
+          1,
+          2,
+          0
+        ],
+        "positions": [
+          2,
+          14
+        ],
+        "side": 0,
+        "status": "permitted"
+      },
+      "origin_masks": [
+        22487656929184,
+        11681458143385
+      ]
+    },
+    {
+      "affected_edge_counts": [
+        0,
+        4,
+        3,
+        2,
+        4,
+        3,
+        1,
+        4,
+        4,
+        1,
+        3,
+        4,
+        2,
+        3,
+        4,
+        0,
+        4,
+        3,
+        2,
+        4,
+        3,
+        1,
+        4,
+        4,
+        1,
+        3,
+        4,
+        2,
+        3,
+        4,
+        0,
+        4,
+        3,
+        2,
+        4,
+        3,
+        1,
+        4,
+        4,
+        1,
+        3,
+        4,
+        2,
+        3,
+        4
+      ],
+      "delta_B": [
+        0,
+        3,
+        3,
+        0,
+        3,
+        3,
+        0,
+        1,
+        3,
+        1,
+        -1,
+        1,
+        1,
+        -2,
+        0,
+        0,
+        -3,
+        -1,
+        -1,
+        -4,
+        -2,
+        -1,
+        -4,
+        -4,
+        -1,
+        -2,
+        -4,
+        -1,
+        -1,
+        -3,
+        0,
+        0,
+        -2,
+        1,
+        1,
+        -1,
+        1,
+        3,
+        1,
+        0,
+        3,
+        3,
+        0,
+        3,
+        3
+      ],
+      "delta_F": [
+        0,
+        0,
+        -2,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "delta_J": null,
+      "delta_S": [
+        2,
+        12,
+        18,
+        -2,
+        -3,
+        -3,
+        -2,
+        -6,
+        -4,
+        3,
+        5,
+        11,
+        0,
+        -10,
+        -10,
+        1,
+        2,
+        8,
+        -1,
+        -1,
+        5,
+        -4,
+        -16,
+        -18
+      ],
+      "delta_in_9O": false,
+      "endpoint": {
+        "B": [
+          0,
+          3,
+          3,
+          6,
+          3,
+          3,
+          3,
+          1,
+          3,
+          4,
+          -1,
+          1,
+          -2,
+          -2,
+          0,
+          0,
+          -3,
+          -1,
+          -4,
+          -4,
+          -2,
+          -7,
+          -4,
+          -4,
+          -7,
+          -2,
+          -4,
+          -4,
+          -1,
+          -3,
+          0,
+          0,
+          -2,
+          -2,
+          1,
+          -1,
+          4,
+          3,
+          1,
+          3,
+          3,
+          3,
+          6,
+          3,
+          3
+        ],
+        "F": [
+          [
+            -3,
+            -3,
+            -2,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            -2,
+            -2,
+            -1,
+            2,
+            1,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -2,
+            0,
+            3,
+            2,
+            1
+          ],
+          [
+            -2,
+            0,
+            1,
+            -1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            -1,
+            0,
+            -1,
+            0,
+            1,
+            -1,
+            0,
+            0,
+            1,
+            -1,
+            1,
+            0,
+            1,
+            1,
+            0
+          ]
+        ],
+        "G": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "J": null,
+        "Q": [
+          7,
+          20,
+          16,
+          2
+        ],
+        "S": [
+          20,
+          12,
+          18,
+          -2,
+          -3,
+          -3,
+          -11,
+          -6,
+          -4,
+          21,
+          5,
+          11,
+          -18,
+          -10,
+          -10,
+          10,
+          2,
+          8,
+          8,
+          -1,
+          5,
+          -31,
+          -16,
+          -18
+        ],
+        "charges": [
+          {
+            "beta": [
+              -1,
+              1,
+              3
+            ],
+            "charges": [
+              [
+                -1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                2
+              ],
+              [
+                2,
+                1,
+                0
+              ]
+            ],
+            "row": [
+              1,
+              1,
+              -1,
+              -1,
+              1,
+              1,
+              -1,
+              -3,
+              3
+            ]
+          },
+          {
+            "beta": [
+              -3,
+              1,
+              3
+            ],
+            "charges": [
+              [
+                0,
+                -1,
+                -1
+              ],
+              [
+                0,
+                2,
+                -1
+              ],
+              [
+                2,
+                1,
+                -1
+              ]
+            ],
+            "row": [
+              -3,
+              1,
+              -1,
+              -1,
+              -3,
+              1,
+              -1,
+              3,
+              5
+            ]
+          }
+        ],
+        "combined_PAF": [
+          90,
+          10,
+          10,
+          22,
+          10,
+          10,
+          10,
+          2,
+          10,
+          14,
+          -6,
+          2,
+          -10,
+          -10,
+          -2,
+          -2,
+          -14,
+          -6,
+          -18,
+          -18,
+          -10,
+          -30,
+          -18,
+          -18,
+          -30,
+          -10,
+          -18,
+          -18,
+          -6,
+          -14,
+          -2,
+          -2,
+          -10,
+          -10,
+          2,
+          -6,
+          14,
+          10,
+          2,
+          10,
+          10,
+          10,
+          22,
+          10,
+          10
+        ],
+        "full_domain": false,
+        "masks": [
+          446608806272,
+          2830005805622
+        ],
+        "phases": [
+          0,
+          0,
+          2,
+          0,
+          2,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          0,
+          0,
+          0,
+          2,
+          2,
+          0,
+          1,
+          2,
+          1,
+          0,
+          1
+        ],
+        "tensor": [
+          [
+            -1,
+            7,
+            3,
+            10,
+            5,
+            -3
+          ],
+          [
+            10,
+            10,
+            10,
+            20,
+            11,
+            -1
+          ],
+          [
+            -3,
+            2,
+            14,
+            18,
+            10,
+            7
+          ],
+          [
+            -11,
+            -4,
+            8,
+            2,
+            4,
+            7
+          ]
+        ]
+      },
+      "max_abs_delta_B": 4,
+      "move": {
+        "labels": [
+          0,
+          1
+        ],
+        "new_phases": [
+          2,
+          1
+        ],
+        "old_phases": [
+          0,
+          0
+        ],
+        "phase_indices": [
+          2,
+          5
+        ],
+        "phases": [
+          0,
+          0,
+          2,
+          0,
+          2,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          0,
+          0,
+          0,
+          2,
+          2,
+          0,
+          1,
+          2,
+          1,
+          0,
+          1
+        ],
+        "positions": [
+          2,
+          5
+        ],
+        "side": 0,
+        "status": "permitted"
+      },
+      "origin_masks": [
+        442312790436,
+        2830005805622
+      ]
+    },
+    {
+      "affected_edge_counts": [
+        0,
+        4,
+        3,
+        2,
+        4,
+        3,
+        1,
+        4,
+        4,
+        1,
+        3,
+        4,
+        2,
+        3,
+        4,
+        0,
+        4,
+        3,
+        2,
+        4,
+        3,
+        1,
+        4,
+        4,
+        1,
+        3,
+        4,
+        2,
+        3,
+        4,
+        0,
+        4,
+        3,
+        2,
+        4,
+        3,
+        1,
+        4,
+        4,
+        1,
+        3,
+        4,
+        2,
+        3,
+        4
+      ],
+      "delta_B": [
+        0,
+        1,
+        0,
+        -2,
+        0,
+        2,
+        -1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        -2,
+        0,
+        1,
+        -1,
+        0,
+        -1,
+        -3,
+        1,
+        -1,
+        -1,
+        1,
+        -3,
+        -1,
+        0,
+        -1,
+        1,
+        0,
+        -2,
+        1,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        -1,
+        2,
+        0,
+        -2,
+        0,
+        1
+      ],
+      "delta_F": [
+        0,
+        0,
+        -2,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "delta_J": null,
+      "delta_S": [
+        -4,
+        9,
+        0,
+        -2,
+        -6,
+        0,
+        1,
+        0,
+        -1,
+        -3,
+        5,
+        2,
+        6,
+        -4,
+        -4,
+        -2,
+        8,
+        -1,
+        -4,
+        -1,
+        -4,
+        5,
+        -7,
+        -3
+      ],
+      "delta_in_9O": false,
+      "endpoint": {
+        "B": [
+          0,
+          1,
+          -3,
+          -2,
+          0,
+          2,
+          -1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          2,
+          -2,
+          -2,
+          0,
+          1,
+          5,
+          0,
+          -1,
+          -3,
+          1,
+          -1,
+          -1,
+          1,
+          -3,
+          -1,
+          0,
+          5,
+          1,
+          0,
+          -2,
+          -2,
+          2,
+          1,
+          1,
+          0,
+          0,
+          1,
+          -1,
+          2,
+          0,
+          -2,
+          -3,
+          1
+        ],
+        "F": [
+          [
+            -2,
+            -1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            -1,
+            -1,
+            -1,
+            0,
+            1,
+            0,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            2,
+            2,
+            1,
+            0,
+            -1
+          ],
+          [
+            -2,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            -1,
+            -1,
+            0,
+            1,
+            0,
+            1,
+            -2,
+            0,
+            0,
+            0,
+            -2,
+            -1,
+            2,
+            1,
+            -1,
+            -2
+          ]
+        ],
+        "G": [
+          0,
+          6,
+          -3,
+          0,
+          -3,
+          -3,
+          0,
+          -3,
+          6
+        ],
+        "J": null,
+        "Q": [
+          -3,
+          2,
+          -6,
+          4
+        ],
+        "S": [
+          -4,
+          0,
+          0,
+          -2,
+          -6,
+          0,
+          1,
+          9,
+          -1,
+          -3,
+          -4,
+          2,
+          6,
+          -4,
+          -4,
+          -2,
+          8,
+          8,
+          -4,
+          -10,
+          -4,
+          5,
+          2,
+          -3
+        ],
+        "charges": [
+          {
+            "beta": [
+              -1,
+              1,
+              3
+            ],
+            "charges": [
+              [
+                -2,
+                -1,
+                2
+              ],
+              [
+                0,
+                0,
+                2
+              ],
+              [
+                1,
+                1,
+                1
+              ]
+            ],
+            "row": [
+              3,
+              1,
+              1,
+              1,
+              1,
+              1,
+              -5,
+              -3,
+              1
+            ]
+          },
+          {
+            "beta": [
+              -3,
+              1,
+              3
+            ],
+            "charges": [
+              [
+                -1,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                2,
+                0
+              ]
+            ],
+            "row": [
+              -1,
+              1,
+              3,
+              -3,
+              -1,
+              -1,
+              -1,
+              1,
+              3
+            ]
+          }
+        ],
+        "combined_PAF": [
+          90,
+          2,
+          -14,
+          -10,
+          -2,
+          6,
+          -6,
+          2,
+          -2,
+          -2,
+          2,
+          2,
+          6,
+          -10,
+          -10,
+          -2,
+          2,
+          18,
+          -2,
+          -6,
+          -14,
+          2,
+          -6,
+          -6,
+          2,
+          -14,
+          -6,
+          -2,
+          18,
+          2,
+          -2,
+          -10,
+          -10,
+          6,
+          2,
+          2,
+          -2,
+          -2,
+          2,
+          -6,
+          6,
+          -2,
+          -10,
+          -14,
+          2
+        ],
+        "full_domain": false,
+        "masks": [
+          31214947369416,
+          20580563788346
+        ],
+        "phases": [
+          0,
+          0,
+          2,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          2,
+          2,
+          0,
+          2,
+          1,
+          1,
+          2,
+          0,
+          2,
+          2,
+          1,
+          0,
+          2
+        ],
+        "tensor": [
+          [
+            -1,
+            4,
+            0,
+            -2,
+            -4,
+            -6
+          ],
+          [
+            -2,
+            4,
+            4,
+            -4,
+            2,
+            2
+          ],
+          [
+            -3,
+            -4,
+            2,
+            -6,
+            -8,
+            1
+          ],
+          [
+            1,
+            2,
+            8,
+            2,
+            1,
+            -2
+          ]
+        ]
+      },
+      "max_abs_delta_B": 3,
+      "move": {
+        "labels": [
+          0,
+          1
+        ],
+        "new_phases": [
+          2,
+          1
+        ],
+        "old_phases": [
+          0,
+          0
+        ],
+        "phase_indices": [
+          2,
+          5
+        ],
+        "phases": [
+          0,
+          0,
+          2,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          2,
+          2,
+          0,
+          2,
+          1,
+          1,
+          2,
+          0,
+          2,
+          2,
+          1,
+          0,
+          2
+        ],
+        "positions": [
+          2,
+          5
+        ],
+        "side": 0,
+        "status": "permitted"
+      },
+      "origin_masks": [
+        31210651353580,
+        20580563788346
+      ]
+    }
+  ],
+  "estimated_memory_bytes": 150000000,
+  "estimated_storage_bytes": 1000000,
+  "evaluated_nontrivial_neighbors": 3,
+  "inventories": [
+    {
+      "counts": {
+        "gauge_violation": 1,
+        "noop": 9,
+        "permitted": 7,
+        "residue_or_sign_mismatch": 104
+      },
+      "origin_masks": [
+        22487656929184,
+        11681458143385
+      ],
+      "pairs": [
+        {
+          "phase_indices": [
+            0,
+            1
+          ],
+          "positions": [
+            0,
+            1
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            0,
+            2
+          ],
+          "positions": [
+            0,
+            2
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            0,
+            1
+          ],
+          "new_phases": [
+            2,
+            1
+          ],
+          "old_phases": [
+            0,
+            0
+          ],
+          "phase_indices": [
+            0,
+            3
+          ],
+          "positions": [
+            0,
+            3
+          ],
+          "side": 0,
+          "status": "gauge_violation"
+        },
+        {
+          "phase_indices": [
+            0,
+            4
+          ],
+          "positions": [
+            0,
+            4
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            0,
+            5
+          ],
+          "positions": [
+            0,
+            5
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            0,
+            6
+          ],
+          "positions": [
+            0,
+            6
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            0,
+            7
+          ],
+          "positions": [
+            0,
+            9
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            0,
+            8
+          ],
+          "positions": [
+            0,
+            10
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            0,
+            0
+          ],
+          "new_phases": [
+            0,
+            1
+          ],
+          "old_phases": [
+            0,
+            1
+          ],
+          "phase_indices": [
+            0,
+            9
+          ],
+          "positions": [
+            0,
+            12
+          ],
+          "side": 0,
+          "status": "noop"
+        },
+        {
+          "phase_indices": [
+            0,
+            10
+          ],
+          "positions": [
+            0,
+            13
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            0,
+            11
+          ],
+          "positions": [
+            0,
+            14
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            1,
+            2
+          ],
+          "positions": [
+            1,
+            2
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            1,
+            3
+          ],
+          "positions": [
+            1,
+            3
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            1,
+            4
+          ],
+          "positions": [
+            1,
+            4
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            1,
+            5
+          ],
+          "positions": [
+            1,
+            5
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            1,
+            6
+          ],
+          "positions": [
+            1,
+            6
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            1,
+            7
+          ],
+          "positions": [
+            1,
+            9
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            1,
+            8
+          ],
+          "positions": [
+            1,
+            10
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            1,
+            9
+          ],
+          "positions": [
+            1,
+            12
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            1,
+            10
+          ],
+          "positions": [
+            1,
+            13
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            1,
+            11
+          ],
+          "positions": [
+            1,
+            14
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            2,
+            3
+          ],
+          "positions": [
+            2,
+            3
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            2,
+            4
+          ],
+          "positions": [
+            2,
+            4
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            1,
+            1
+          ],
+          "new_phases": [
+            2,
+            0
+          ],
+          "old_phases": [
+            2,
+            0
+          ],
+          "phase_indices": [
+            2,
+            5
+          ],
+          "positions": [
+            2,
+            5
+          ],
+          "side": 0,
+          "status": "noop"
+        },
+        {
+          "phase_indices": [
+            2,
+            6
+          ],
+          "positions": [
+            2,
+            6
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            2,
+            7
+          ],
+          "positions": [
+            2,
+            9
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            2,
+            8
+          ],
+          "positions": [
+            2,
+            10
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            2,
+            9
+          ],
+          "positions": [
+            2,
+            12
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            2,
+            10
+          ],
+          "positions": [
+            2,
+            13
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            1,
+            2
+          ],
+          "new_phases": [
+            1,
+            0
+          ],
+          "old_phases": [
+            2,
+            2
+          ],
+          "phase_indices": [
+            2,
+            11
+          ],
+          "positions": [
+            2,
+            14
+          ],
+          "side": 0,
+          "status": "permitted"
+        },
+        {
+          "phase_indices": [
+            3,
+            4
+          ],
+          "positions": [
+            3,
+            4
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            3,
+            5
+          ],
+          "positions": [
+            3,
+            5
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            3,
+            6
+          ],
+          "positions": [
+            3,
+            6
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            3,
+            7
+          ],
+          "positions": [
+            3,
+            9
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            3,
+            8
+          ],
+          "positions": [
+            3,
+            10
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            1,
+            0
+          ],
+          "new_phases": [
+            1,
+            0
+          ],
+          "old_phases": [
+            0,
+            1
+          ],
+          "phase_indices": [
+            3,
+            9
+          ],
+          "positions": [
+            3,
+            12
+          ],
+          "side": 0,
+          "status": "permitted"
+        },
+        {
+          "phase_indices": [
+            3,
+            10
+          ],
+          "positions": [
+            3,
+            13
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            3,
+            11
+          ],
+          "positions": [
+            3,
+            14
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            4,
+            5
+          ],
+          "positions": [
+            4,
+            5
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            4,
+            6
+          ],
+          "positions": [
+            4,
+            6
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            4,
+            7
+          ],
+          "positions": [
+            4,
+            9
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            0,
+            0
+          ],
+          "new_phases": [
+            1,
+            0
+          ],
+          "old_phases": [
+            1,
+            0
+          ],
+          "phase_indices": [
+            4,
+            8
+          ],
+          "positions": [
+            4,
+            10
+          ],
+          "side": 0,
+          "status": "noop"
+        },
+        {
+          "phase_indices": [
+            4,
+            9
+          ],
+          "positions": [
+            4,
+            12
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            0,
+            0
+          ],
+          "new_phases": [
+            1,
+            1
+          ],
+          "old_phases": [
+            1,
+            1
+          ],
+          "phase_indices": [
+            4,
+            10
+          ],
+          "positions": [
+            4,
+            13
+          ],
+          "side": 0,
+          "status": "noop"
+        },
+        {
+          "phase_indices": [
+            4,
+            11
+          ],
+          "positions": [
+            4,
+            14
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            5,
+            6
+          ],
+          "positions": [
+            5,
+            6
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            5,
+            7
+          ],
+          "positions": [
+            5,
+            9
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            5,
+            8
+          ],
+          "positions": [
+            5,
+            10
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            5,
+            9
+          ],
+          "positions": [
+            5,
+            12
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            5,
+            10
+          ],
+          "positions": [
+            5,
+            13
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            1,
+            2
+          ],
+          "new_phases": [
+            2,
+            0
+          ],
+          "old_phases": [
+            0,
+            2
+          ],
+          "phase_indices": [
+            5,
+            11
+          ],
+          "positions": [
+            5,
+            14
+          ],
+          "side": 0,
+          "status": "permitted"
+        },
+        {
+          "labels": [
+            0,
+            0
+          ],
+          "new_phases": [
+            2,
+            0
+          ],
+          "old_phases": [
+            2,
+            0
+          ],
+          "phase_indices": [
+            6,
+            7
+          ],
+          "positions": [
+            6,
+            9
+          ],
+          "side": 0,
+          "status": "noop"
+        },
+        {
+          "phase_indices": [
+            6,
+            8
+          ],
+          "positions": [
+            6,
+            10
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            6,
+            9
+          ],
+          "positions": [
+            6,
+            12
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            6,
+            10
+          ],
+          "positions": [
+            6,
+            13
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            6,
+            11
+          ],
+          "positions": [
+            6,
+            14
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            7,
+            8
+          ],
+          "positions": [
+            9,
+            10
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            7,
+            9
+          ],
+          "positions": [
+            9,
+            12
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            7,
+            10
+          ],
+          "positions": [
+            9,
+            13
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            7,
+            11
+          ],
+          "positions": [
+            9,
+            14
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            8,
+            9
+          ],
+          "positions": [
+            10,
+            12
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            0,
+            0
+          ],
+          "new_phases": [
+            0,
+            1
+          ],
+          "old_phases": [
+            0,
+            1
+          ],
+          "phase_indices": [
+            8,
+            10
+          ],
+          "positions": [
+            10,
+            13
+          ],
+          "side": 0,
+          "status": "noop"
+        },
+        {
+          "phase_indices": [
+            8,
+            11
+          ],
+          "positions": [
+            10,
+            14
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            9,
+            10
+          ],
+          "positions": [
+            12,
+            13
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            9,
+            11
+          ],
+          "positions": [
+            12,
+            14
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            10,
+            11
+          ],
+          "positions": [
+            13,
+            14
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            12,
+            13
+          ],
+          "positions": [
+            1,
+            2
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            12,
+            14
+          ],
+          "positions": [
+            1,
+            3
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            12,
+            15
+          ],
+          "positions": [
+            1,
+            5
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            12,
+            16
+          ],
+          "positions": [
+            1,
+            6
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            12,
+            17
+          ],
+          "positions": [
+            1,
+            7
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            12,
+            18
+          ],
+          "positions": [
+            1,
+            9
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            12,
+            19
+          ],
+          "positions": [
+            1,
+            11
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            12,
+            20
+          ],
+          "positions": [
+            1,
+            12
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            12,
+            21
+          ],
+          "positions": [
+            1,
+            13
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            12,
+            22
+          ],
+          "positions": [
+            1,
+            14
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            13,
+            14
+          ],
+          "positions": [
+            2,
+            3
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            1,
+            2
+          ],
+          "new_phases": [
+            1,
+            0
+          ],
+          "old_phases": [
+            2,
+            2
+          ],
+          "phase_indices": [
+            13,
+            15
+          ],
+          "positions": [
+            2,
+            5
+          ],
+          "side": 1,
+          "status": "permitted"
+        },
+        {
+          "phase_indices": [
+            13,
+            16
+          ],
+          "positions": [
+            2,
+            6
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            13,
+            17
+          ],
+          "positions": [
+            2,
+            7
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            13,
+            18
+          ],
+          "positions": [
+            2,
+            9
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            13,
+            19
+          ],
+          "positions": [
+            2,
+            11
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            13,
+            20
+          ],
+          "positions": [
+            2,
+            12
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            13,
+            21
+          ],
+          "positions": [
+            2,
+            13
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            1,
+            1
+          ],
+          "new_phases": [
+            2,
+            0
+          ],
+          "old_phases": [
+            2,
+            0
+          ],
+          "phase_indices": [
+            13,
+            22
+          ],
+          "positions": [
+            2,
+            14
+          ],
+          "side": 1,
+          "status": "noop"
+        },
+        {
+          "phase_indices": [
+            14,
+            15
+          ],
+          "positions": [
+            3,
+            5
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            0,
+            2
+          ],
+          "new_phases": [
+            2,
+            2
+          ],
+          "old_phases": [
+            1,
+            0
+          ],
+          "phase_indices": [
+            14,
+            16
+          ],
+          "positions": [
+            3,
+            6
+          ],
+          "side": 1,
+          "status": "permitted"
+        },
+        {
+          "phase_indices": [
+            14,
+            17
+          ],
+          "positions": [
+            3,
+            7
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            0,
+            0
+          ],
+          "new_phases": [
+            1,
+            0
+          ],
+          "old_phases": [
+            1,
+            0
+          ],
+          "phase_indices": [
+            14,
+            18
+          ],
+          "positions": [
+            3,
+            9
+          ],
+          "side": 1,
+          "status": "noop"
+        },
+        {
+          "phase_indices": [
+            14,
+            19
+          ],
+          "positions": [
+            3,
+            11
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            14,
+            20
+          ],
+          "positions": [
+            3,
+            12
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            14,
+            21
+          ],
+          "positions": [
+            3,
+            13
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            14,
+            22
+          ],
+          "positions": [
+            3,
+            14
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            15,
+            16
+          ],
+          "positions": [
+            5,
+            6
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            15,
+            17
+          ],
+          "positions": [
+            5,
+            7
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            15,
+            18
+          ],
+          "positions": [
+            5,
+            9
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            15,
+            19
+          ],
+          "positions": [
+            5,
+            11
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            15,
+            20
+          ],
+          "positions": [
+            5,
+            12
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            15,
+            21
+          ],
+          "positions": [
+            5,
+            13
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            2,
+            1
+          ],
+          "new_phases": [
+            0,
+            2
+          ],
+          "old_phases": [
+            2,
+            0
+          ],
+          "phase_indices": [
+            15,
+            22
+          ],
+          "positions": [
+            5,
+            14
+          ],
+          "side": 1,
+          "status": "permitted"
+        },
+        {
+          "phase_indices": [
+            16,
+            17
+          ],
+          "positions": [
+            6,
+            7
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            2,
+            0
+          ],
+          "new_phases": [
+            2,
+            1
+          ],
+          "old_phases": [
+            0,
+            0
+          ],
+          "phase_indices": [
+            16,
+            18
+          ],
+          "positions": [
+            6,
+            9
+          ],
+          "side": 1,
+          "status": "permitted"
+        },
+        {
+          "phase_indices": [
+            16,
+            19
+          ],
+          "positions": [
+            6,
+            11
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            16,
+            20
+          ],
+          "positions": [
+            6,
+            12
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            16,
+            21
+          ],
+          "positions": [
+            6,
+            13
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            16,
+            22
+          ],
+          "positions": [
+            6,
+            14
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            17,
+            18
+          ],
+          "positions": [
+            7,
+            9
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            17,
+            19
+          ],
+          "positions": [
+            7,
+            11
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            17,
+            20
+          ],
+          "positions": [
+            7,
+            12
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            2,
+            2
+          ],
+          "new_phases": [
+            0,
+            2
+          ],
+          "old_phases": [
+            0,
+            2
+          ],
+          "phase_indices": [
+            17,
+            21
+          ],
+          "positions": [
+            7,
+            13
+          ],
+          "side": 1,
+          "status": "noop"
+        },
+        {
+          "phase_indices": [
+            17,
+            22
+          ],
+          "positions": [
+            7,
+            14
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            18,
+            19
+          ],
+          "positions": [
+            9,
+            11
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            18,
+            20
+          ],
+          "positions": [
+            9,
+            12
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            18,
+            21
+          ],
+          "positions": [
+            9,
+            13
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            18,
+            22
+          ],
+          "positions": [
+            9,
+            14
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            19,
+            20
+          ],
+          "positions": [
+            11,
+            12
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            19,
+            21
+          ],
+          "positions": [
+            11,
+            13
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            19,
+            22
+          ],
+          "positions": [
+            11,
+            14
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            20,
+            21
+          ],
+          "positions": [
+            12,
+            13
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            20,
+            22
+          ],
+          "positions": [
+            12,
+            14
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            21,
+            22
+          ],
+          "positions": [
+            13,
+            14
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        }
+      ]
+    },
+    {
+      "counts": {
+        "gauge_violation": 4,
+        "noop": 4,
+        "permitted": 9,
+        "residue_or_sign_mismatch": 104
+      },
+      "origin_masks": [
+        442312790436,
+        2830005805622
+      ],
+      "pairs": [
+        {
+          "phase_indices": [
+            0,
+            1
+          ],
+          "positions": [
+            0,
+            1
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            0,
+            2
+          ],
+          "positions": [
+            0,
+            2
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            0,
+            1
+          ],
+          "new_phases": [
+            2,
+            1
+          ],
+          "old_phases": [
+            0,
+            0
+          ],
+          "phase_indices": [
+            0,
+            3
+          ],
+          "positions": [
+            0,
+            3
+          ],
+          "side": 0,
+          "status": "gauge_violation"
+        },
+        {
+          "phase_indices": [
+            0,
+            4
+          ],
+          "positions": [
+            0,
+            4
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            0,
+            5
+          ],
+          "positions": [
+            0,
+            5
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            0,
+            6
+          ],
+          "positions": [
+            0,
+            6
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            0,
+            7
+          ],
+          "positions": [
+            0,
+            9
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            0,
+            8
+          ],
+          "positions": [
+            0,
+            10
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            0,
+            2
+          ],
+          "new_phases": [
+            1,
+            1
+          ],
+          "old_phases": [
+            0,
+            2
+          ],
+          "phase_indices": [
+            0,
+            9
+          ],
+          "positions": [
+            0,
+            12
+          ],
+          "side": 0,
+          "status": "gauge_violation"
+        },
+        {
+          "phase_indices": [
+            0,
+            10
+          ],
+          "positions": [
+            0,
+            13
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            0,
+            11
+          ],
+          "positions": [
+            0,
+            14
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            1,
+            2
+          ],
+          "positions": [
+            1,
+            2
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            1,
+            3
+          ],
+          "positions": [
+            1,
+            3
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            1,
+            4
+          ],
+          "positions": [
+            1,
+            4
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            1,
+            5
+          ],
+          "positions": [
+            1,
+            5
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            1,
+            6
+          ],
+          "positions": [
+            1,
+            6
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            1,
+            7
+          ],
+          "positions": [
+            1,
+            9
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            1,
+            8
+          ],
+          "positions": [
+            1,
+            10
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            1,
+            9
+          ],
+          "positions": [
+            1,
+            12
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            1,
+            10
+          ],
+          "positions": [
+            1,
+            13
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            1,
+            11
+          ],
+          "positions": [
+            1,
+            14
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            2,
+            3
+          ],
+          "positions": [
+            2,
+            3
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            2,
+            4
+          ],
+          "positions": [
+            2,
+            4
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            0,
+            1
+          ],
+          "new_phases": [
+            2,
+            1
+          ],
+          "old_phases": [
+            0,
+            0
+          ],
+          "phase_indices": [
+            2,
+            5
+          ],
+          "positions": [
+            2,
+            5
+          ],
+          "side": 0,
+          "status": "permitted"
+        },
+        {
+          "phase_indices": [
+            2,
+            6
+          ],
+          "positions": [
+            2,
+            6
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            2,
+            7
+          ],
+          "positions": [
+            2,
+            9
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            2,
+            8
+          ],
+          "positions": [
+            2,
+            10
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            2,
+            9
+          ],
+          "positions": [
+            2,
+            12
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            2,
+            10
+          ],
+          "positions": [
+            2,
+            13
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            0,
+            0
+          ],
+          "new_phases": [
+            0,
+            1
+          ],
+          "old_phases": [
+            0,
+            1
+          ],
+          "phase_indices": [
+            2,
+            11
+          ],
+          "positions": [
+            2,
+            14
+          ],
+          "side": 0,
+          "status": "noop"
+        },
+        {
+          "phase_indices": [
+            3,
+            4
+          ],
+          "positions": [
+            3,
+            4
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            3,
+            5
+          ],
+          "positions": [
+            3,
+            5
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            3,
+            6
+          ],
+          "positions": [
+            3,
+            6
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            3,
+            7
+          ],
+          "positions": [
+            3,
+            9
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            3,
+            8
+          ],
+          "positions": [
+            3,
+            10
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            1,
+            2
+          ],
+          "new_phases": [
+            2,
+            0
+          ],
+          "old_phases": [
+            0,
+            2
+          ],
+          "phase_indices": [
+            3,
+            9
+          ],
+          "positions": [
+            3,
+            12
+          ],
+          "side": 0,
+          "status": "permitted"
+        },
+        {
+          "phase_indices": [
+            3,
+            10
+          ],
+          "positions": [
+            3,
+            13
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            3,
+            11
+          ],
+          "positions": [
+            3,
+            14
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            4,
+            5
+          ],
+          "positions": [
+            4,
+            5
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            4,
+            6
+          ],
+          "positions": [
+            4,
+            6
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            4,
+            7
+          ],
+          "positions": [
+            4,
+            9
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            2,
+            2
+          ],
+          "new_phases": [
+            2,
+            1
+          ],
+          "old_phases": [
+            2,
+            1
+          ],
+          "phase_indices": [
+            4,
+            8
+          ],
+          "positions": [
+            4,
+            10
+          ],
+          "side": 0,
+          "status": "noop"
+        },
+        {
+          "phase_indices": [
+            4,
+            9
+          ],
+          "positions": [
+            4,
+            12
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            2,
+            0
+          ],
+          "new_phases": [
+            1,
+            2
+          ],
+          "old_phases": [
+            2,
+            1
+          ],
+          "phase_indices": [
+            4,
+            10
+          ],
+          "positions": [
+            4,
+            13
+          ],
+          "side": 0,
+          "status": "permitted"
+        },
+        {
+          "phase_indices": [
+            4,
+            11
+          ],
+          "positions": [
+            4,
+            14
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            5,
+            6
+          ],
+          "positions": [
+            5,
+            6
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            5,
+            7
+          ],
+          "positions": [
+            5,
+            9
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            5,
+            8
+          ],
+          "positions": [
+            5,
+            10
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            5,
+            9
+          ],
+          "positions": [
+            5,
+            12
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            5,
+            10
+          ],
+          "positions": [
+            5,
+            13
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            1,
+            0
+          ],
+          "new_phases": [
+            1,
+            0
+          ],
+          "old_phases": [
+            0,
+            1
+          ],
+          "phase_indices": [
+            5,
+            11
+          ],
+          "positions": [
+            5,
+            14
+          ],
+          "side": 0,
+          "status": "permitted"
+        },
+        {
+          "labels": [
+            1,
+            2
+          ],
+          "new_phases": [
+            0,
+            2
+          ],
+          "old_phases": [
+            1,
+            1
+          ],
+          "phase_indices": [
+            6,
+            7
+          ],
+          "positions": [
+            6,
+            9
+          ],
+          "side": 0,
+          "status": "permitted"
+        },
+        {
+          "phase_indices": [
+            6,
+            8
+          ],
+          "positions": [
+            6,
+            10
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            6,
+            9
+          ],
+          "positions": [
+            6,
+            12
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            6,
+            10
+          ],
+          "positions": [
+            6,
+            13
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            6,
+            11
+          ],
+          "positions": [
+            6,
+            14
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            7,
+            8
+          ],
+          "positions": [
+            9,
+            10
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            7,
+            9
+          ],
+          "positions": [
+            9,
+            12
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            7,
+            10
+          ],
+          "positions": [
+            9,
+            13
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            7,
+            11
+          ],
+          "positions": [
+            9,
+            14
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            8,
+            9
+          ],
+          "positions": [
+            10,
+            12
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            2,
+            0
+          ],
+          "new_phases": [
+            0,
+            2
+          ],
+          "old_phases": [
+            1,
+            1
+          ],
+          "phase_indices": [
+            8,
+            10
+          ],
+          "positions": [
+            10,
+            13
+          ],
+          "side": 0,
+          "status": "permitted"
+        },
+        {
+          "phase_indices": [
+            8,
+            11
+          ],
+          "positions": [
+            10,
+            14
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            9,
+            10
+          ],
+          "positions": [
+            12,
+            13
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            9,
+            11
+          ],
+          "positions": [
+            12,
+            14
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            10,
+            11
+          ],
+          "positions": [
+            13,
+            14
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            12,
+            13
+          ],
+          "positions": [
+            0,
+            2
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            0,
+            1
+          ],
+          "new_phases": [
+            2,
+            1
+          ],
+          "old_phases": [
+            0,
+            0
+          ],
+          "phase_indices": [
+            12,
+            14
+          ],
+          "positions": [
+            0,
+            3
+          ],
+          "side": 1,
+          "status": "gauge_violation"
+        },
+        {
+          "phase_indices": [
+            12,
+            15
+          ],
+          "positions": [
+            0,
+            4
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            12,
+            16
+          ],
+          "positions": [
+            0,
+            5
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            0,
+            2
+          ],
+          "new_phases": [
+            1,
+            2
+          ],
+          "old_phases": [
+            0,
+            0
+          ],
+          "phase_indices": [
+            12,
+            17
+          ],
+          "positions": [
+            0,
+            6
+          ],
+          "side": 1,
+          "status": "gauge_violation"
+        },
+        {
+          "phase_indices": [
+            12,
+            18
+          ],
+          "positions": [
+            0,
+            7
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            12,
+            19
+          ],
+          "positions": [
+            0,
+            11
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            12,
+            20
+          ],
+          "positions": [
+            0,
+            12
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            12,
+            21
+          ],
+          "positions": [
+            0,
+            13
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            12,
+            22
+          ],
+          "positions": [
+            0,
+            14
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            13,
+            14
+          ],
+          "positions": [
+            2,
+            3
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            13,
+            15
+          ],
+          "positions": [
+            2,
+            4
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            13,
+            16
+          ],
+          "positions": [
+            2,
+            5
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            13,
+            17
+          ],
+          "positions": [
+            2,
+            6
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            13,
+            18
+          ],
+          "positions": [
+            2,
+            7
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            0,
+            1
+          ],
+          "new_phases": [
+            2,
+            0
+          ],
+          "old_phases": [
+            0,
+            2
+          ],
+          "phase_indices": [
+            13,
+            19
+          ],
+          "positions": [
+            2,
+            11
+          ],
+          "side": 1,
+          "status": "permitted"
+        },
+        {
+          "phase_indices": [
+            13,
+            20
+          ],
+          "positions": [
+            2,
+            12
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            13,
+            21
+          ],
+          "positions": [
+            2,
+            13
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            0,
+            0
+          ],
+          "new_phases": [
+            0,
+            1
+          ],
+          "old_phases": [
+            0,
+            1
+          ],
+          "phase_indices": [
+            13,
+            22
+          ],
+          "positions": [
+            2,
+            14
+          ],
+          "side": 1,
+          "status": "noop"
+        },
+        {
+          "phase_indices": [
+            14,
+            15
+          ],
+          "positions": [
+            3,
+            4
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            14,
+            16
+          ],
+          "positions": [
+            3,
+            5
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            1,
+            2
+          ],
+          "new_phases": [
+            2,
+            1
+          ],
+          "old_phases": [
+            0,
+            0
+          ],
+          "phase_indices": [
+            14,
+            17
+          ],
+          "positions": [
+            3,
+            6
+          ],
+          "side": 1,
+          "status": "permitted"
+        },
+        {
+          "phase_indices": [
+            14,
+            18
+          ],
+          "positions": [
+            3,
+            7
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            14,
+            19
+          ],
+          "positions": [
+            3,
+            11
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            14,
+            20
+          ],
+          "positions": [
+            3,
+            12
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            14,
+            21
+          ],
+          "positions": [
+            3,
+            13
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            14,
+            22
+          ],
+          "positions": [
+            3,
+            14
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            15,
+            16
+          ],
+          "positions": [
+            4,
+            5
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            15,
+            17
+          ],
+          "positions": [
+            4,
+            6
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            15,
+            18
+          ],
+          "positions": [
+            4,
+            7
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            15,
+            19
+          ],
+          "positions": [
+            4,
+            11
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            15,
+            20
+          ],
+          "positions": [
+            4,
+            12
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            15,
+            21
+          ],
+          "positions": [
+            4,
+            13
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            15,
+            22
+          ],
+          "positions": [
+            4,
+            14
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            16,
+            17
+          ],
+          "positions": [
+            5,
+            6
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            16,
+            18
+          ],
+          "positions": [
+            5,
+            7
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            16,
+            19
+          ],
+          "positions": [
+            5,
+            11
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            16,
+            20
+          ],
+          "positions": [
+            5,
+            12
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            16,
+            21
+          ],
+          "positions": [
+            5,
+            13
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            16,
+            22
+          ],
+          "positions": [
+            5,
+            14
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            17,
+            18
+          ],
+          "positions": [
+            6,
+            7
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            17,
+            19
+          ],
+          "positions": [
+            6,
+            11
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            17,
+            20
+          ],
+          "positions": [
+            6,
+            12
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            17,
+            21
+          ],
+          "positions": [
+            6,
+            13
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            17,
+            22
+          ],
+          "positions": [
+            6,
+            14
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            18,
+            19
+          ],
+          "positions": [
+            7,
+            11
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            18,
+            20
+          ],
+          "positions": [
+            7,
+            12
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            1,
+            1
+          ],
+          "new_phases": [
+            1,
+            0
+          ],
+          "old_phases": [
+            1,
+            0
+          ],
+          "phase_indices": [
+            18,
+            21
+          ],
+          "positions": [
+            7,
+            13
+          ],
+          "side": 1,
+          "status": "noop"
+        },
+        {
+          "phase_indices": [
+            18,
+            22
+          ],
+          "positions": [
+            7,
+            14
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            19,
+            20
+          ],
+          "positions": [
+            11,
+            12
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            19,
+            21
+          ],
+          "positions": [
+            11,
+            13
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            1,
+            0
+          ],
+          "new_phases": [
+            0,
+            0
+          ],
+          "old_phases": [
+            2,
+            1
+          ],
+          "phase_indices": [
+            19,
+            22
+          ],
+          "positions": [
+            11,
+            14
+          ],
+          "side": 1,
+          "status": "permitted"
+        },
+        {
+          "phase_indices": [
+            20,
+            21
+          ],
+          "positions": [
+            12,
+            13
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            20,
+            22
+          ],
+          "positions": [
+            12,
+            14
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            21,
+            22
+          ],
+          "positions": [
+            13,
+            14
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        }
+      ]
+    },
+    {
+      "counts": {
+        "gauge_violation": 2,
+        "noop": 5,
+        "permitted": 10,
+        "residue_or_sign_mismatch": 104
+      },
+      "origin_masks": [
+        31210651353580,
+        20580563788346
+      ],
+      "pairs": [
+        {
+          "phase_indices": [
+            0,
+            1
+          ],
+          "positions": [
+            0,
+            1
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            0,
+            2
+          ],
+          "positions": [
+            0,
+            2
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            0,
+            0
+          ],
+          "new_phases": [
+            0,
+            1
+          ],
+          "old_phases": [
+            0,
+            1
+          ],
+          "phase_indices": [
+            0,
+            3
+          ],
+          "positions": [
+            0,
+            3
+          ],
+          "side": 0,
+          "status": "noop"
+        },
+        {
+          "phase_indices": [
+            0,
+            4
+          ],
+          "positions": [
+            0,
+            4
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            0,
+            5
+          ],
+          "positions": [
+            0,
+            5
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            0,
+            6
+          ],
+          "positions": [
+            0,
+            6
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            0,
+            7
+          ],
+          "positions": [
+            0,
+            9
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            0,
+            8
+          ],
+          "positions": [
+            0,
+            10
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            0,
+            1
+          ],
+          "new_phases": [
+            2,
+            1
+          ],
+          "old_phases": [
+            0,
+            0
+          ],
+          "phase_indices": [
+            0,
+            9
+          ],
+          "positions": [
+            0,
+            12
+          ],
+          "side": 0,
+          "status": "gauge_violation"
+        },
+        {
+          "phase_indices": [
+            0,
+            10
+          ],
+          "positions": [
+            0,
+            13
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            0,
+            11
+          ],
+          "positions": [
+            0,
+            14
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            1,
+            2
+          ],
+          "positions": [
+            1,
+            2
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            1,
+            3
+          ],
+          "positions": [
+            1,
+            3
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            1,
+            4
+          ],
+          "positions": [
+            1,
+            4
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            1,
+            5
+          ],
+          "positions": [
+            1,
+            5
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            1,
+            6
+          ],
+          "positions": [
+            1,
+            6
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            1,
+            7
+          ],
+          "positions": [
+            1,
+            9
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            1,
+            8
+          ],
+          "positions": [
+            1,
+            10
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            1,
+            9
+          ],
+          "positions": [
+            1,
+            12
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            1,
+            10
+          ],
+          "positions": [
+            1,
+            13
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            1,
+            11
+          ],
+          "positions": [
+            1,
+            14
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            2,
+            3
+          ],
+          "positions": [
+            2,
+            3
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            2,
+            4
+          ],
+          "positions": [
+            2,
+            4
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            0,
+            1
+          ],
+          "new_phases": [
+            2,
+            1
+          ],
+          "old_phases": [
+            0,
+            0
+          ],
+          "phase_indices": [
+            2,
+            5
+          ],
+          "positions": [
+            2,
+            5
+          ],
+          "side": 0,
+          "status": "permitted"
+        },
+        {
+          "phase_indices": [
+            2,
+            6
+          ],
+          "positions": [
+            2,
+            6
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            2,
+            7
+          ],
+          "positions": [
+            2,
+            9
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            2,
+            8
+          ],
+          "positions": [
+            2,
+            10
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            2,
+            9
+          ],
+          "positions": [
+            2,
+            12
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            2,
+            10
+          ],
+          "positions": [
+            2,
+            13
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            0,
+            2
+          ],
+          "new_phases": [
+            1,
+            1
+          ],
+          "old_phases": [
+            0,
+            2
+          ],
+          "phase_indices": [
+            2,
+            11
+          ],
+          "positions": [
+            2,
+            14
+          ],
+          "side": 0,
+          "status": "permitted"
+        },
+        {
+          "phase_indices": [
+            3,
+            4
+          ],
+          "positions": [
+            3,
+            4
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            3,
+            5
+          ],
+          "positions": [
+            3,
+            5
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            3,
+            6
+          ],
+          "positions": [
+            3,
+            6
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            3,
+            7
+          ],
+          "positions": [
+            3,
+            9
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            3,
+            8
+          ],
+          "positions": [
+            3,
+            10
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            0,
+            1
+          ],
+          "new_phases": [
+            0,
+            1
+          ],
+          "old_phases": [
+            1,
+            0
+          ],
+          "phase_indices": [
+            3,
+            9
+          ],
+          "positions": [
+            3,
+            12
+          ],
+          "side": 0,
+          "status": "permitted"
+        },
+        {
+          "phase_indices": [
+            3,
+            10
+          ],
+          "positions": [
+            3,
+            13
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            3,
+            11
+          ],
+          "positions": [
+            3,
+            14
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            4,
+            5
+          ],
+          "positions": [
+            4,
+            5
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            4,
+            6
+          ],
+          "positions": [
+            4,
+            6
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            4,
+            7
+          ],
+          "positions": [
+            4,
+            9
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            0,
+            2
+          ],
+          "new_phases": [
+            2,
+            0
+          ],
+          "old_phases": [
+            1,
+            1
+          ],
+          "phase_indices": [
+            4,
+            8
+          ],
+          "positions": [
+            4,
+            10
+          ],
+          "side": 0,
+          "status": "permitted"
+        },
+        {
+          "phase_indices": [
+            4,
+            9
+          ],
+          "positions": [
+            4,
+            12
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            0,
+            2
+          ],
+          "new_phases": [
+            2,
+            1
+          ],
+          "old_phases": [
+            1,
+            2
+          ],
+          "phase_indices": [
+            4,
+            10
+          ],
+          "positions": [
+            4,
+            13
+          ],
+          "side": 0,
+          "status": "permitted"
+        },
+        {
+          "phase_indices": [
+            4,
+            11
+          ],
+          "positions": [
+            4,
+            14
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            5,
+            6
+          ],
+          "positions": [
+            5,
+            6
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            5,
+            7
+          ],
+          "positions": [
+            5,
+            9
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            5,
+            8
+          ],
+          "positions": [
+            5,
+            10
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            5,
+            9
+          ],
+          "positions": [
+            5,
+            12
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            5,
+            10
+          ],
+          "positions": [
+            5,
+            13
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            1,
+            2
+          ],
+          "new_phases": [
+            2,
+            0
+          ],
+          "old_phases": [
+            0,
+            2
+          ],
+          "phase_indices": [
+            5,
+            11
+          ],
+          "positions": [
+            5,
+            14
+          ],
+          "side": 0,
+          "status": "permitted"
+        },
+        {
+          "labels": [
+            2,
+            2
+          ],
+          "new_phases": [
+            0,
+            1
+          ],
+          "old_phases": [
+            0,
+            1
+          ],
+          "phase_indices": [
+            6,
+            7
+          ],
+          "positions": [
+            6,
+            9
+          ],
+          "side": 0,
+          "status": "noop"
+        },
+        {
+          "phase_indices": [
+            6,
+            8
+          ],
+          "positions": [
+            6,
+            10
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            6,
+            9
+          ],
+          "positions": [
+            6,
+            12
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            6,
+            10
+          ],
+          "positions": [
+            6,
+            13
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            6,
+            11
+          ],
+          "positions": [
+            6,
+            14
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            7,
+            8
+          ],
+          "positions": [
+            9,
+            10
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            7,
+            9
+          ],
+          "positions": [
+            9,
+            12
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            7,
+            10
+          ],
+          "positions": [
+            9,
+            13
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            7,
+            11
+          ],
+          "positions": [
+            9,
+            14
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            8,
+            9
+          ],
+          "positions": [
+            10,
+            12
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            2,
+            2
+          ],
+          "new_phases": [
+            1,
+            2
+          ],
+          "old_phases": [
+            1,
+            2
+          ],
+          "phase_indices": [
+            8,
+            10
+          ],
+          "positions": [
+            10,
+            13
+          ],
+          "side": 0,
+          "status": "noop"
+        },
+        {
+          "phase_indices": [
+            8,
+            11
+          ],
+          "positions": [
+            10,
+            14
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            9,
+            10
+          ],
+          "positions": [
+            12,
+            13
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            9,
+            11
+          ],
+          "positions": [
+            12,
+            14
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            10,
+            11
+          ],
+          "positions": [
+            13,
+            14
+          ],
+          "side": 0,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            12,
+            13
+          ],
+          "positions": [
+            0,
+            2
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            0,
+            0
+          ],
+          "new_phases": [
+            0,
+            1
+          ],
+          "old_phases": [
+            0,
+            1
+          ],
+          "phase_indices": [
+            12,
+            14
+          ],
+          "positions": [
+            0,
+            3
+          ],
+          "side": 1,
+          "status": "noop"
+        },
+        {
+          "phase_indices": [
+            12,
+            15
+          ],
+          "positions": [
+            0,
+            4
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            12,
+            16
+          ],
+          "positions": [
+            0,
+            5
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            0,
+            2
+          ],
+          "new_phases": [
+            1,
+            2
+          ],
+          "old_phases": [
+            0,
+            0
+          ],
+          "phase_indices": [
+            12,
+            17
+          ],
+          "positions": [
+            0,
+            6
+          ],
+          "side": 1,
+          "status": "gauge_violation"
+        },
+        {
+          "phase_indices": [
+            12,
+            18
+          ],
+          "positions": [
+            0,
+            7
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            12,
+            19
+          ],
+          "positions": [
+            0,
+            11
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            12,
+            20
+          ],
+          "positions": [
+            0,
+            12
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            12,
+            21
+          ],
+          "positions": [
+            0,
+            13
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            12,
+            22
+          ],
+          "positions": [
+            0,
+            14
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            13,
+            14
+          ],
+          "positions": [
+            2,
+            3
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            13,
+            15
+          ],
+          "positions": [
+            2,
+            4
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            13,
+            16
+          ],
+          "positions": [
+            2,
+            5
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            13,
+            17
+          ],
+          "positions": [
+            2,
+            6
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            13,
+            18
+          ],
+          "positions": [
+            2,
+            7
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            1,
+            1
+          ],
+          "new_phases": [
+            2,
+            2
+          ],
+          "old_phases": [
+            2,
+            2
+          ],
+          "phase_indices": [
+            13,
+            19
+          ],
+          "positions": [
+            2,
+            11
+          ],
+          "side": 1,
+          "status": "noop"
+        },
+        {
+          "phase_indices": [
+            13,
+            20
+          ],
+          "positions": [
+            2,
+            12
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            13,
+            21
+          ],
+          "positions": [
+            2,
+            13
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            1,
+            2
+          ],
+          "new_phases": [
+            1,
+            0
+          ],
+          "old_phases": [
+            2,
+            2
+          ],
+          "phase_indices": [
+            13,
+            22
+          ],
+          "positions": [
+            2,
+            14
+          ],
+          "side": 1,
+          "status": "permitted"
+        },
+        {
+          "phase_indices": [
+            14,
+            15
+          ],
+          "positions": [
+            3,
+            4
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            14,
+            16
+          ],
+          "positions": [
+            3,
+            5
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            0,
+            2
+          ],
+          "new_phases": [
+            2,
+            2
+          ],
+          "old_phases": [
+            1,
+            0
+          ],
+          "phase_indices": [
+            14,
+            17
+          ],
+          "positions": [
+            3,
+            6
+          ],
+          "side": 1,
+          "status": "permitted"
+        },
+        {
+          "phase_indices": [
+            14,
+            18
+          ],
+          "positions": [
+            3,
+            7
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            14,
+            19
+          ],
+          "positions": [
+            3,
+            11
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            14,
+            20
+          ],
+          "positions": [
+            3,
+            12
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            14,
+            21
+          ],
+          "positions": [
+            3,
+            13
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            14,
+            22
+          ],
+          "positions": [
+            3,
+            14
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            15,
+            16
+          ],
+          "positions": [
+            4,
+            5
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            15,
+            17
+          ],
+          "positions": [
+            4,
+            6
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            15,
+            18
+          ],
+          "positions": [
+            4,
+            7
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            15,
+            19
+          ],
+          "positions": [
+            4,
+            11
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            15,
+            20
+          ],
+          "positions": [
+            4,
+            12
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            15,
+            21
+          ],
+          "positions": [
+            4,
+            13
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            15,
+            22
+          ],
+          "positions": [
+            4,
+            14
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            16,
+            17
+          ],
+          "positions": [
+            5,
+            6
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            16,
+            18
+          ],
+          "positions": [
+            5,
+            7
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            16,
+            19
+          ],
+          "positions": [
+            5,
+            11
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            16,
+            20
+          ],
+          "positions": [
+            5,
+            12
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            16,
+            21
+          ],
+          "positions": [
+            5,
+            13
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            16,
+            22
+          ],
+          "positions": [
+            5,
+            14
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            17,
+            18
+          ],
+          "positions": [
+            6,
+            7
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            17,
+            19
+          ],
+          "positions": [
+            6,
+            11
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            17,
+            20
+          ],
+          "positions": [
+            6,
+            12
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            17,
+            21
+          ],
+          "positions": [
+            6,
+            13
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            17,
+            22
+          ],
+          "positions": [
+            6,
+            14
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            18,
+            19
+          ],
+          "positions": [
+            7,
+            11
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            18,
+            20
+          ],
+          "positions": [
+            7,
+            12
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            0,
+            1
+          ],
+          "new_phases": [
+            1,
+            1
+          ],
+          "old_phases": [
+            2,
+            0
+          ],
+          "phase_indices": [
+            18,
+            21
+          ],
+          "positions": [
+            7,
+            13
+          ],
+          "side": 1,
+          "status": "permitted"
+        },
+        {
+          "phase_indices": [
+            18,
+            22
+          ],
+          "positions": [
+            7,
+            14
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            19,
+            20
+          ],
+          "positions": [
+            11,
+            12
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            19,
+            21
+          ],
+          "positions": [
+            11,
+            13
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "labels": [
+            1,
+            2
+          ],
+          "new_phases": [
+            1,
+            0
+          ],
+          "old_phases": [
+            2,
+            2
+          ],
+          "phase_indices": [
+            19,
+            22
+          ],
+          "positions": [
+            11,
+            14
+          ],
+          "side": 1,
+          "status": "permitted"
+        },
+        {
+          "phase_indices": [
+            20,
+            21
+          ],
+          "positions": [
+            12,
+            13
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            20,
+            22
+          ],
+          "positions": [
+            12,
+            14
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        },
+        {
+          "phase_indices": [
+            21,
+            22
+          ],
+          "positions": [
+            13,
+            14
+          ],
+          "side": 1,
+          "status": "residue_or_sign_mismatch"
+        }
+      ]
+    }
+  ],
+  "multi_step_search": false,
+  "neighbor_depth": 1,
+  "origins": [
+    {
+      "B": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "F": [
+        [
+          0,
+          -2,
+          0,
+          -1,
+          0,
+          1,
+          -2,
+          1,
+          -1,
+          2,
+          0,
+          1,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          -1,
+          1,
+          0,
+          1,
+          -2,
+          1,
+          -1
+        ],
+        [
+          -1,
+          0,
+          -1,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          -2,
+          1,
+          -1,
+          0,
+          -1,
+          1,
+          0,
+          0,
+          -1,
+          -2,
+          1,
+          -1,
+          1,
+          -1,
+          0
+        ]
+      ],
+      "G": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "J": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Q": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "S": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "charges": [
+        {
+          "beta": [
+            -1,
+            1,
+            3
+          ],
+          "charges": [
+            [
+              0,
+              -1,
+              0
+            ],
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "row": [
+            -1,
+            -3,
+            3,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            1
+          ]
+        },
+        {
+          "beta": [
+            -3,
+            1,
+            3
+          ],
+          "charges": [
+            [
+              -1,
+              0,
+              -1
+            ],
+            [
+              -1,
+              0,
+              2
+            ],
+            [
+              -1,
+              2,
+              1
+            ]
+          ],
+          "row": [
+            -1,
+            3,
+            5,
+            -3,
+            1,
+            -1,
+            -1,
+            -3,
+            1
+          ]
+        }
+      ],
+      "combined_PAF": [
+        90,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      "full_domain": true,
+      "masks": [
+        22487656929184,
+        11681458143385
+      ],
+      "phases": [
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        1,
+        1,
+        2,
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      "rank": 277,
+      "rows": [
+        [
+          -1,
+          -1,
+          1,
+          -1,
+          1,
+          1,
+          1,
+          -3,
+          -3,
+          1,
+          1,
+          3,
+          -1,
+          1,
+          1
+        ],
+        [
+          -3,
+          -1,
+          1,
+          -1,
+          -3,
+          1,
+          -1,
+          1,
+          3,
+          -1,
+          3,
+          -1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "tensor": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "B": [
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        3,
+        0,
+        0,
+        3,
+        0,
+        0,
+        -3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -3,
+        0,
+        0,
+        -6,
+        0,
+        0,
+        -6,
+        0,
+        0,
+        -3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -3,
+        0,
+        0,
+        3,
+        0,
+        0,
+        3,
+        0,
+        0,
+        6,
+        0,
+        0
+      ],
+      "F": [
+        [
+          -3,
+          -3,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          -2,
+          -2,
+          -1,
+          2,
+          1,
+          0,
+          -1,
+          -1,
+          0,
+          -1,
+          -2,
+          -1,
+          3,
+          2,
+          1
+        ],
+        [
+          -2,
+          0,
+          1,
+          -1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          -1,
+          0,
+          -1,
+          0,
+          1,
+          -1,
+          0,
+          0,
+          1,
+          -1,
+          1,
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      "G": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "J": [
+        1,
+        0,
+        2,
+        2
+      ],
+      "Q": [
+        3,
+        9,
+        6,
+        -3
+      ],
+      "S": [
+        18,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -9,
+        0,
+        0,
+        18,
+        0,
+        0,
+        -18,
+        0,
+        0,
+        9,
+        0,
+        0,
+        9,
+        0,
+        0,
+        -27,
+        0,
+        0
+      ],
+      "charges": [
+        {
+          "beta": [
+            -1,
+            1,
+            3
+          ],
+          "charges": [
+            [
+              -1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              2
+            ],
+            [
+              2,
+              1,
+              0
+            ]
+          ],
+          "row": [
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            -3,
+            3
+          ]
+        },
+        {
+          "beta": [
+            -3,
+            1,
+            3
+          ],
+          "charges": [
+            [
+              0,
+              -1,
+              -1
+            ],
+            [
+              0,
+              2,
+              -1
+            ],
+            [
+              2,
+              1,
+              -1
+            ]
+          ],
+          "row": [
+            -3,
+            1,
+            -1,
+            -1,
+            -3,
+            1,
+            -1,
+            3,
+            5
+          ]
+        }
+      ],
+      "combined_PAF": [
+        90,
+        -2,
+        -2,
+        22,
+        -2,
+        -2,
+        10,
+        -2,
+        -2,
+        10,
+        -2,
+        -2,
+        -14,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -14,
+        -2,
+        -2,
+        -26,
+        -2,
+        -2,
+        -26,
+        -2,
+        -2,
+        -14,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -14,
+        -2,
+        -2,
+        10,
+        -2,
+        -2,
+        10,
+        -2,
+        -2,
+        22,
+        -2,
+        -2
+      ],
+      "full_domain": true,
+      "masks": [
+        442312790436,
+        2830005805622
+      ],
+      "phases": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        2,
+        0,
+        1,
+        2,
+        1,
+        0,
+        1
+      ],
+      "rank": 279,
+      "rows": [
+        [
+          -1,
+          -1,
+          1,
+          -1,
+          1,
+          1,
+          1,
+          -3,
+          -3,
+          1,
+          1,
+          3,
+          -1,
+          1,
+          1
+        ],
+        [
+          -1,
+          -3,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          3,
+          -3,
+          3,
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "tensor": [
+        [
+          0,
+          0,
+          0,
+          9,
+          0,
+          0
+        ],
+        [
+          9,
+          0,
+          0,
+          18,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          18,
+          0,
+          0
+        ],
+        [
+          -9,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "B": [
+        0,
+        0,
+        -3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -3,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        -3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -3,
+        0
+      ],
+      "F": [
+        [
+          -2,
+          -1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          0,
+          1,
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          0,
+          -1,
+          2,
+          1,
+          1,
+          0,
+          -1
+        ],
+        [
+          -2,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          0,
+          1,
+          0,
+          1,
+          -2,
+          0,
+          0,
+          0,
+          -2,
+          -1,
+          2,
+          1,
+          -1,
+          -2
+        ]
+      ],
+      "G": [
+        0,
+        6,
+        -3,
+        0,
+        -3,
+        -3,
+        0,
+        -3,
+        6
+      ],
+      "J": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "Q": [
+        0,
+        0,
+        -6,
+        3
+      ],
+      "S": [
+        0,
+        -9,
+        0,
+        0,
+        0,
+        0,
+        0,
+        9,
+        0,
+        0,
+        -9,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        9,
+        0,
+        -9,
+        0,
+        0,
+        9,
+        0
+      ],
+      "charges": [
+        {
+          "beta": [
+            -1,
+            1,
+            3
+          ],
+          "charges": [
+            [
+              -2,
+              -1,
+              2
+            ],
+            [
+              0,
+              0,
+              2
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "row": [
+            3,
+            1,
+            1,
+            1,
+            1,
+            1,
+            -5,
+            -3,
+            1
+          ]
+        },
+        {
+          "beta": [
+            -3,
+            1,
+            3
+          ],
+          "charges": [
+            [
+              -1,
+              0,
+              -1
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              2,
+              0
+            ]
+          ],
+          "row": [
+            -1,
+            1,
+            3,
+            -3,
+            -1,
+            -1,
+            -1,
+            1,
+            3
+          ]
+        }
+      ],
+      "combined_PAF": [
+        90,
+        -2,
+        -14,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -14,
+        -2,
+        -2,
+        -2,
+        22,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        22,
+        -2,
+        -2,
+        -2,
+        -14,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -2,
+        -14,
+        -2
+      ],
+      "full_domain": true,
+      "masks": [
+        31210651353580,
+        20580563788346
+      ],
+      "phases": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        2,
+        2,
+        0,
+        2,
+        1,
+        1,
+        2,
+        0,
+        2,
+        2,
+        1,
+        0,
+        2
+      ],
+      "rank": 279,
+      "rows": [
+        [
+          -1,
+          -1,
+          1,
+          -1,
+          1,
+          1,
+          1,
+          -3,
+          -3,
+          1,
+          1,
+          3,
+          -1,
+          1,
+          1
+        ],
+        [
+          -1,
+          -3,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          3,
+          -3,
+          3,
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "tensor": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          -9,
+          0,
+          0,
+          -9,
+          0
+        ],
+        [
+          0,
+          0,
+          9,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ],
+  "projected_seconds_5x": 12.551027494482696,
+  "raw_pairs_per_origin": 121,
+  "raw_pairs_total": 363,
+  "seconds": 0.02074549999088049,
+  "source_hashes": {
+    "results/compression_residue/audit.json": "b55f2c261abb480d501d5c89bc7b066efd2525579bc03e5cde7416c7b61b6432",
+    "results/p5_branch_portfolio/canonical_branches.json": "6b8123e1c398fdc408c6efff323739bacf168468b93db46a4228e0a8d94ba35c",
+    "scripts/audit_phase_exchange.py": "1cd752cbdae806cbfddcd8a8fd53472cddf826087e3bf72c7e28133d6a7821bc",
+    "scripts/phase_exchange.py": "5467fc6e7731ab901966a3b7195cd2ccd27188da23fe968945960e117307c31b"
+  },
+  "stage": "pilot",
+  "workers": 1
+}

@@ -1,0 +1,8 @@
+{
+  "command": ".venv/Scripts/python.exe -m pytest tests/test_residual_obstruction.py -q --basetemp=tmp/pytest_residual_obstruction",
+  "date": "2026-10-12",
+  "exit_code": 0,
+  "result": "4 passed, 1 warning in 0.25s",
+  "warnings": "Pytest could not create its cache nodeids path (WinError 183). The Python launcher also printed a real-location diagnostic; execution completed successfully.",
+  "provenance": "Recorded from completed command output, not inferred from source inspection."
+}

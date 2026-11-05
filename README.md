@@ -3,12 +3,61 @@
 Rigorous, reproducible computational research toward the FrontierMath open
 problem of constructing a Hadamard matrix of order 668.
 
-> **Research status (2026-09-27): unsolved.** This repository does not contain
+> **Research status (2026-10-06): unsolved.** This repository does not contain
 > a Hadamard matrix of order 668. A candidate counts as a solution only after
 > two independent exact verifiers establish
 > \(H H^{\mathsf T}=668I_{668}\) for the complete \(668\times668\) ±1 matrix.
 
 ## Current milestone
+
+The complete prescribed p=5 lift census is now audited: all **1,164**
+intermediate translation orbits are resolved, with **704 liftable** and
+**460 empty** branches. Exact counts, multiplicities, symmetry maps and
+independent checks are in [research/p5_classification.md](research/p5_classification.md).
+The research draft is [paper/manuscript.tex](paper/manuscript.tex), with
+primary-literature comparisons and explicit unresolved novelty questions.
+Length-45 classification already exists in the literature; this is a
+restricted reproducible census. No p=37 search was performed.
+
+The new phase-propagation search also reproduces every branch and solution
+in that census, but its row-conditioned variant is slower than the existing
+join in the recorded comparison. The restricted solutions occupy **63**
+classes under the published length-45 equivalence convention. Details and
+bounded p=7 outcomes are in [research/phase_propagation.md](research/phase_propagation.md).
+
+The certified spectral join now directly reproduces all 1,164 p=5 branches
+and exhausts the **saved p=7 intermediate pair with zero binary lifts**.
+An independent full-PAF enumeration confirms this restricted nonexistence
+result. On that one branch, prefix filtering takes 2.64 seconds versus
+26.13 seconds for the matched native unfiltered join; these are single-run
+engine timings, not a general scaling claim. Proofs, primary precedents,
+bounded pilots and reproducible evidence are in
+[research/spectral_join.md](research/spectral_join.md). Other p=7 branches
+remain unclassified.
+
+The subsequent deterministic p=7 portfolio now resolves **four translation
+classes across three active-count patterns**, all with zero binary lifts.
+All **36** shuffled serial native trials exhaust, and an independent full-PAF
+enumerator confirms each class. The observed balanced-case median favors
+leaf-only filtering over prefix testing, with overlapping ranges. The
+selection, bounded pilots, timing phases and paper assessment are in
+[research/p7_portfolio.md](research/p7_portfolio.md). The evidence supports
+a restricted census/reproducibility draft. The published positive p=7 control
+has since been exhausted: three anchor-fixed pairs / 27 ordered
+fixed-intermediate lifts. Full literature comparison, the historical-list
+crosswalk and external replication remain outstanding. The
+[publication-gap audit](research/publication_gap_audit.md) records the
+separate Clang/MSVC replication, conditional branch/class incidence, access
+limitations and revised paper scope. It does not establish novelty or
+submission readiness.
+
+The [conditional-fiber investigation](research/conditional_fiber_theorem.md)
+proves that fixed length-N compression fibers of normalized binary Legendre
+pairs of length qN have ordered size divisible by q³ when N is odd and q is
+an odd prime dividing N. It explains the factor 27
+and supplies a third ternary phase gauge. The underlying multiplier obstruction
+has explicit prior art; this attributed corollary does not establish a new
+research-paper contribution. All 2,979 saved pairs pass the new action audit.
 
 The low-risk foundations, order-428 warm-up, and exact Legendre core are complete:
 
@@ -42,13 +91,35 @@ The low-risk foundations, order-428 warm-up, and exact Legendre core are complet
   do not justify an LP(333) run;
 - a primary-source reproduction of the structured LP(45), its successive
   3-compressions, both p=5 OPB models, and a dual-verified H(92);
+- an exact conditional two-stage q=3 model: proof-producing staged searches
+  solve both p=3 variants in under one second, while bounded p=5 searches
+  time out and remain an explicit gap;
+- an exact first-stage q=3 model and exhaustive generator: p=3 has 792 and
+  p=5 has 10,476 ordered compatible intermediate pairs; the published p=5
+  branch is recovered and both known-branch certificates pass VeriPB;
+- a complete p=5 branch profile reducing those pairs to 1,164 translation
+  orbits, plus a three-branch exhaustive portfolio yielding exact solution
+  counts 27, 27, and 0 and a distinct dual-verified H(92) artifact;
+- a non-enumerative p=37 first-stage OPB and an exact factor-three projection
+  theorem reducing a future fixed-branch length-333 model to 73,926 variables
+  and 293,372 records, validated exhaustively at p=3 and p=5;
+- proved first-stage translation canonicalization with an exact factor-nine
+  reduction, plus bounded p=5/p=7 scaling: all six p=5 first-stage searches
+  succeed, all six p=7 searches time out, and the p=5 binary-lift comparison
+  favors investigating a specialized cross-term-aware formulation;
+- an exact ternary phase formulation and incremental PAF join, reproducing
+  the p=3/p=5 counts and reducing fixed-branch PB model sizes; a seeded p=7
+  intermediate branch passes VeriPB, but all bounded p=5/p=7 binary-lift
+  probes still time out, motivating finite-domain phase propagation;
 - a versioned audit of the current common-multiplier artifacts, locally
   reproducing 15 of 25 reported exclusions and recording the ten-case full
   proof gap;
 - a phase-ordered plan and source-backed derivation for the remaining work.
 
-No expensive computation has been started. The largest run to date enumerated
-1,778,112 candidates on one core in 8.5 seconds.
+The census used a bounded 21-branch pilot followed by 79 direct symmetry
+representatives on three workers. The reduced run took 6.58 minutes and
+stayed within the repository's resource limits. It preserves an exact result
+for every one of the 1,164 original catalogue branches.
 
 The reproduced order-428 candidate has SHA-256
 `c00e3f86da7acdab1123fb9d2ed5fc887d5b86dd786662ab37e46a3072cc7869`.
@@ -104,6 +175,18 @@ The proof-backend benchmark and its negative search result are in
 [research/pb_backend_benchmark.md](research/pb_backend_benchmark.md).
 The bounded p=5 witness and encoding audit are in
 [research/p5_validation.md](research/p5_validation.md).
+The successive-q branch model and proof benchmark are in
+[research/staged_uncompression.md](research/staged_uncompression.md).
+The complete small-case first-stage derivation and enumeration are in
+[research/intermediate_stage.md](research/intermediate_stage.md).
+The exact p=5 branch ranking and bounded second-stage portfolio are in
+[research/p5_branch_portfolio.md](research/p5_branch_portfolio.md).
+The p=37 first-stage model and sufficient projected PAF key are derived in
+[research/projected_uncompression.md](research/projected_uncompression.md).
+The canonicalization proof, bounded scaling results, and next solver decision
+are in [research/intermediate_scaling.md](research/intermediate_scaling.md).
+The implemented ternary model, exact join, and saved p=7 branch are described
+in [research/ternary_phase.md](research/ternary_phase.md).
 The common-multiplier artifact boundary is documented in
 [research/multiplier_artifact_audit.md](research/multiplier_artifact_audit.md).
 

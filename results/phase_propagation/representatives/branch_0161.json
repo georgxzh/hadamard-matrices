@@ -1,0 +1,43 @@
+{
+  "elapsed_seconds": 11.227032599970698,
+  "join_baseline": {
+    "canonical_pairs": 0,
+    "complete": true,
+    "elapsed_seconds": 1.6190056999912485,
+    "ordered_pairs": 0,
+    "solutions": [],
+    "stop_reason": "exhausted",
+    "stored_candidates": 59049,
+    "stored_signatures": 59031,
+    "streamed_candidates": 177147
+  },
+  "matches_reference": true,
+  "peak_working_set_bytes": 98562048,
+  "propagation": {
+    "canonical_lower_bound": 0,
+    "canonical_pairs": 0,
+    "complete": true,
+    "elapsed_seconds": 9.582081500033382,
+    "folded_bounds": true,
+    "node_limit": 5000000,
+    "ordered_pairs": 0,
+    "partner_filter": true,
+    "seconds_limit": 90,
+    "solutions": [],
+    "stats": {
+      "distinct_signatures": 59031,
+      "leaves": 0,
+      "nodes": 116041,
+      "pruned": 77361,
+      "stored_candidates": 59049
+    },
+    "stop_reason": "exhausted",
+    "stored_candidate_limit": 250000,
+    "stored_side": 0
+  },
+  "rank": 161,
+  "split": [
+    11,
+    12
+  ]
+}

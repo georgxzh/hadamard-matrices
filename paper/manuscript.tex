@@ -1,0 +1,1984 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,booktabs,longtable,array}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{xurl}
+\hypersetup{colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue}
+\setlength{\emergencystretch}{2em}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newcommand{\PAF}{\operatorname{PAF}}
+\newcommand{\DFT}{\operatorname{DFT}}
+\newcommand{\PSD}{\operatorname{PSD}}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\ind}[1]{\mathbf 1_{\{#1\}}}
+\newcommand{\pending}[1]{\textbf{Unresolved:} #1}
+\title{Exact staged lifting of prescribed Legendre compressions:\\
+ternary phases, spectral bounds, and restricted branch censuses}
+\author{Working draft; authorship to be confirmed}
+\date{October 12, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+We study binary lifts of a prescribed quadratic-character compression at
+length $9p$. Established compression identities give an exact two-stage
+formulation through length $3p$. We spell out translation gauges, a
+sufficient projected set of autocorrelation equations, and a ternary
+minority-layer parameterization retaining every cross term and layer carry.
+Two independent exhaustive enumerators support a restricted census for
+$p=5$: the domain consists of the 1,164 translation orbits of intermediate
+pairs above the specified length-five pair: 704 have lifts and 460 are empty,
+with exact multiplicities retained. This is not a classification of all Legendre
+pairs of length 45 or of Hadamard equivalence classes. Bounded $p=5,7$
+experiments compare exact enumeration with pseudo-Boolean (PB) encodings.
+A certified spectral implementation reproduces the whole restricted census
+and a deterministic portfolio exhausts four prescribed $p=7$ intermediate
+translation classes with zero binary lifts, independently confirmed using
+all nonredundant PAF shifts. Three shuffled serial replicates compare matched
+unfiltered, leaf-spectral and prefix-spectral joins across three active-count
+patterns. Prefix testing is not uniformly fastest in the recorded medians.
+A published prescribed length-63 witness is independently reproduced;
+its positive intermediate branch is exhausted by all three matched modes
+and a separate full-PAF enumerator, yielding three anchor-fixed pairs or
+27 ordered fixed-intermediate lifts. This deliberately selected control
+does not turn the portfolio into an unbiased sample or a global census.
+Order 668 motivates the longer-term problem, but none of these experiments
+establish proximity to a solution; no $p=37$ search is performed.
+Novelty is provisional: compression, character prescriptions, successive
+lifting, symmetry reduction, and correlation matching have primary precedents.
+Fresh Clang/MSVC execution of the existing full-PAF auditor reproduces all
+1,164 census branches and all five completed $p=7$ classes with exact
+solution-set agreement. This is a second local toolchain, not external
+replication. A publication-gap audit identifies conditional branch/class
+incidence and reproducibility software as the strongest candidate contribution;
+missing full algorithms and the historical representative list prevent a
+priority or submission-readiness claim.
+A focused mathematical audit proves a prime-kernel divisibility corollary:
+for odd prime $q\mid N$, fixed length-$N$ compression fibers of normalized
+binary Legendre pairs of length $qN$ have ordered size divisible by $q^3$.
+It explains the ternary factor 27 and yields a third phase gauge. The underlying
+one-row multiplier obstruction has an explicit prior public derivation;
+these consequences strengthen the exposition without establishing a new
+research-paper contribution.
+An exact simultaneous-compression margin obstruction is then proved and
+challenged on every frozen branch. It rejects none. A positive and an empty
+branch have identical margin profiles and alternate feasible sets, proving
+that this relaxation loses information needed to explain residual emptiness.
+\end{abstract}
+
+\section{Scope and relation to primary literature}
+Binary Legendre pairs yield Hadamard matrices of order $2(L+1)$ through a
+standard two-core construction \cite{fletcher}. Thus $L=333=9\cdot37$ is one
+possible route to order 668. This paper studies small exact validation
+problems for that route. A lift satisfying compressed necessary conditions
+need not exist. We make no claim that an order-668 matrix is close, that the
+prescribed family must contain one, or that our timings extrapolate to $p=37$.
+
+The contribution under investigation is a reproducible restricted census,
+with explicit count conventions and independently checked computations,
+together with concrete exact formulations. The following ledger distinguishes
+mathematical provenance from what this repository has reproduced.
+
+\begin{longtable}{p{.22\linewidth}p{.35\linewidth}p{.35\linewidth}}
+\toprule
+Item & Primary comparison & Status in this draft\\\midrule
+\endhead
+PAF/PSD, SDS, and Hadamard connection & Fletcher, Gysin, and Seberry
+\cite{fletcher}; compression treatment \cite{compression}. & Established;
+integer identities and small witnesses independently checked.\\
+Exact compression and Fourier identities & Theorem 3 of
+\cite{compression}. & Established; proofs specialized here for auditability.\\
+Character prescription and successive $q$-lifts & Theorem 3.2, equation (5),
+and Section 4 of \cite{issac}. & Established; our derivation and staged
+implementation are independent reproductions, not new existence results.\\
+Translation/reversal/decimation reduction & Necklaces, bracelets, and charm
+bracelets in \cite{compression}; decimation reduction in \cite{issac};
+orbit counting in \cite{turner}. & Established principles. The explicit
+four-inequality gauge and 79-case restricted partition are concrete
+specializations; priority of these specializations is unresolved.\\
+Projected PAF theorem & Direct consequence of the compression identity and
+real PAF symmetry \cite{compression}. & Proved specialization; no claim of
+new underlying theory or of minimal equation count.\\
+Minority-layer phases and shared differences & Successive lifting already
+in \cite{issac}; compare the later $pq^2$ search \cite{pq2}. & Exact formulas
+and PB implementation checked here. Potentially useful formulation;
+novelty unresolved pending a full comparison with \cite{pq2}.\\
+Gray updates and PAF joins & Correlation-vector matching and divisor chains
+in the quaternary setting \cite{lebedev}; fast spectral search
+\cite{perera}; matching and multilevel lifting \cite{lumsden}. & Established general ideas. The particular ternary update
+implementation is benchmarked; no new complexity bound is claimed.\\
+Difference propagation and partner bounds & Exact phase identity above;
+matching and recursive lifting precedents \cite{issac,lumsden}. & A concrete
+exact implementation audited here. Priority of the combined filters is
+unresolved; no asymptotic or performance improvement is claimed.\\
+Certified spectral pruning and compact joining & The PSD exclusion test in
+\cite[Section 5.1]{fletcher}; filtering and matching in
+\cite[Sections 2 and 3.4]{lumsden}. & Established PSD criterion reproduced
+with rational coefficient certificates and partial-phase rectangles.
+Priority of this specialization is unresolved; native execution is an
+engineering improvement, not a new complexity bound.\\
+All 1,164 prescribed intermediate orbits & Exhaustive length-45 classification
+already in \cite[Section 5.4, Table 3]{fletcher}; related compression families
+\cite{mod5}. & Restricted census is a potentially novel computational
+artifact, not a new length. Prior exhaustive counts must still be compared.\\
+Certificates and reproducibility & PB proof logging \cite{koops}; explicit
+evidence distinctions in \cite{lebedev}. & Established methodology applied
+here. Hashes identify files; they do not prove exhaustion.\\
+\bottomrule
+\end{longtable}
+
+\paragraph{Literature access and remaining gaps.}
+The full primary compression text and the relevant sections of the quaternary
+and multiple-of-five papers were read. The ISSAC primary publisher text identifies the exact
+prescription and successive-lifting algorithm. The publisher abstract and
+metadata of the later $pq^2$ paper were checked, but its full algorithm and
+tables have not been audited. Full comparisons with the low-complexity
+spectral algorithm and decimation-counting
+work remain incomplete. These are substantive novelty gaps. We do not claim
+a first algorithm, first classification, or state-of-the-art speed.
+The quaternary Gray map in \cite{lebedev} is distinct from the reflected
+ternary Gray traversal used here; quaternary existence results do not settle
+binary length 333.
+
+Fletcher, Gysin, and Seberry already report 3,058 inequivalent length-45
+pairs in Table 3 of \cite{fletcher}, identifying row exchange, independent
+cyclic shifts and reversals, and common decimation. Our count uses a fixed
+ordered compression and keeps those multiplicities. We now convert our subset
+to their stated equivalence convention, obtaining 63 classes below. Their
+underlying list has not been obtained, so a record-by-record crosswalk is
+still missing. Section 2, Tables 1--2 of
+\cite{mod5} include length 45 and the magnitude pattern $(1,3,3,3,3)$
+used here, alongside $(1,1,1,3,5)$ and other spectral families. Our census
+does not cover these other prescriptions. No conjectural balance, trace,
+or linear-complexity filter is used to exclude a lift within our domain.
+In particular, the trace/linear-complexity discard in Section 4 of
+\cite{issac} invokes its Conjecture 3.5 and is not used here.
+Sections 3.4--5 of \cite{lumsden} give primary precedents for
+complementary-signature matching with all bucket combinations, multilevel
+compression, recursive uncompression, and equivalence filtering. Our exact
+integer PAF keys and phase-support filters are implementation choices within
+this established framework. We have not benchmarked their implementation.
+Bright et al.\ \cite[Sections 3.3 and 3.5]{brightgolay} already combine
+partial-correlation conflicts with spectral filtering in a complex aperiodic
+Golay search. Their FFT filter uses an explicit numerical tolerance and
+precomputed contributions. Here the periodic binary PSD threshold is
+certified using rational coefficient bounds and rectangles for partial
+ternary assignments. This specialization is potentially useful, but its
+priority remains unresolved; it is not a new PSD exclusion principle.
+
+For the present portfolio milestone, the indexed publisher introduction and
+Section 3--4 previews of \cite{perera} identify a Bluestein/FFTW structured
+DFT approach. Direct retrieval returned HTTP 403; the complete factorization
+and search/numerical conventions remain inaccessible. The indexed abstract
+of \cite{pq2} discusses compression, decimations, cosets and SDS, but full
+HTML/PDF retrieval again failed despite an open-access label. These partial
+comparisons do not settle algorithmic overlap or priority. They supply no
+benchmark baseline; a full-algorithm comparison remains a submission gap.
+The access attempts and exact scope are pinned in
+\path{results/p7_portfolio/literature_access.json}.
+
+\section{Mathematical setup and exact compression}
+Indices of a length-$L$ sequence lie in $\Z_L$. For a real sequence $x$, put
+\[
+ \PAF_x(s)=\sum_{i\in\Z_L}x_i x_{i+s},\qquad
+ \DFT_x(t)=\sum_{j\in\Z_L}x_j e^{2\pi\mathrm{i}jt/L},\qquad
+ \PSD_x(t)=|\DFT_x(t)|^2.
+\]
+A normalized binary Legendre pair is an ordered pair
+$(x,y)\in\{\pm1\}^L\times\{\pm1\}^L$, with odd $L$, both row sums 1,
+and
+\begin{equation}\label{eq:lp}
+ F(0)=2L,\quad F(s)=-2\ (s\ne0),\qquad
+ F(s)=\PAF_x(s)+\PAF_y(s).
+\end{equation}
+Its nonzero-frequency PSD sum is $2L+2$; its zero-frequency sum is 2.
+For negative supports $X,Y$, both sizes are $(L-1)/2$, and the combined
+number of ordered support differences at each nonzero shift is
+$\lambda=(L-3)/2$. Indeed,
+$\PAF_x(s)=L-4|X|+4|X\cap(X-s)|$. These identities permit independent
+integer PAF and SDS validation without floating-point tolerances.
+
+For $L=md$ define compression $C_d(x)_j=\sum_{k=0}^{m-1}x_{j+kd}$.
+The standard identities \cite{compression} are
+\begin{align}
+ \PAF_{C_d(x)}(r)&=\sum_{h=0}^{m-1}\PAF_x(r+hd),\label{eq:compress}\\
+ \DFT_{C_d(x)}(t)&=\DFT_x(mt),\label{eq:fourier}\\
+ C_e(C_d(x))&=C_e(x)\qquad(e\mid d\mid L).\label{eq:associate}
+\end{align}
+For completeness, expanding the left side of \eqref{eq:compress} gives
+all pairs of layers exactly once after grouping their difference modulo $m$.
+In \eqref{eq:fourier}, the exponential is constant on each residue class
+modulo $d$. Equation \eqref{eq:associate} follows by partitioning the same
+index set twice. For a Legendre pair, the compressed PAF sum is therefore
+$2L-2(m-1)$ at zero and $-2m$ elsewhere.
+
+Take $L=9p$, $N=3p$, with odd prime $p$, and let $\chi_p$ be the quadratic
+character, extended by $\chi_p(0)=0$. The prescribed length-$p$ pair is
+\begin{equation}\label{eq:prescribed}
+ A_0=B_0=1,\qquad A_j=3\chi_p(j),\quad B_j=-3\chi_p(j)\quad(j\ne0).
+\end{equation}
+This is the $q=3$ instance of the established prescription in
+\cite[Theorem 3.2]{issac}. Writing $A=e_0+3\chi_p$, $B=e_0-3\chi_p$
+cancels the mixed terms. The character autocorrelation is $p-1$ at zero
+and $-1$ elsewhere, yielding $18p-16$ and $-18$, respectively. Each row
+sums to 1. This verifies compressed necessary conditions, not liftability;
+the universal uncompression claim in \cite{issac} is conjectural.
+
+An admissible intermediate pair $(C,D)$ has length $N$, entries
+$\{-3,-1,1,3\}$, compressions $(A,B)$, and
+\begin{equation}\label{eq:intermediate}
+ G(0)=6N-4,\qquad G(r)=-6\ (r\ne0),\quad
+ G(r)=\PAF_C(r)+\PAF_D(r).
+\end{equation}
+Both row sums are 1. If $k_C,k_D$ count magnitude-one entries, then
+$18N-8(k_C+k_D)=6N-4$, hence
+\begin{equation}\label{eq:active}
+ k_C+k_D=(3N+1)/2=(9p+1)/2.
+\end{equation}
+For $p=5$, $(A,B)=((1,3,-3,-3,3),(1,-3,3,3,-3))$ and the active total is 23.
+
+\section{Translation conventions and a projected PAF theorem}
+At the first stage, independent translations of $C,D$ by multiples of $p$
+preserve the prescribed pair and all PAFs. Anchor a residue whose prescribed
+sum is $1$ or $-1$. Its three intermediate entries cannot all be equal,
+so its rotation orbit has size three. Each pair orbit consequently has size
+nine. The saved catalogue uses the lexicographically least entire row under
+these rotations, separately for each row.
+
+The PB implementation instead chooses the lexicographically least anchor
+triple. To encode it, write its entries as $c_i=3-2n_i$ with
+$n_i=u_i+2v_i\in\{0,1,2,3\}$. Maximizing $16n_0+4n_1+n_2$ among rotations
+is equivalent to
+\begin{equation}\label{eq:gauge}
+ 15n_0-12n_1-3n_2\ge0,\qquad
+ 12n_0+3n_1-15n_2\ge0.
+\end{equation}
+There are two inequalities per row, four per pair, with no added variables.
+Both conventions select one representative per orbit, but need not select
+the same representative. Witnesses must be translated before comparing them.
+
+For a fixed intermediate row, binary translations by $N$ preserve it.
+An active residue has exactly one minority sign among three layers. Setting
+the first active residue's minority layer to zero fixes this free action.
+For the present row-sum-one branches, active residues always exist, giving
+another factor nine for ordered binary pairs. This phase-zero gauge differs
+from the binary PB lexicographic negative-bit gauge: the latter selects
+minority layer 2 when the anchor compression is $+1$, and layer 0 when it
+is $-1$. Controlled encoding comparisons align these choices explicitly.
+
+\begin{theorem}[Sufficient projected shifts]\label{thm:projected}
+Suppose binary rows of length $3N$ compress to an admissible intermediate
+pair satisfying \eqref{eq:intermediate}. They form a Legendre pair if and
+only if $F(s)=-2$ for every $1\le s<N$.
+\end{theorem}
+\begin{proof}
+Necessity is immediate. For $1\le r<N$, compression gives
+$F(r)+F(r+N)+F(r+2N)=-6$. Real PAF symmetry and periodicity give
+$F(r+2N)=F(N-r)=-2$, so $F(r+N)=-2$. At zero, $F(0)=6N$ and
+$G(0)=F(0)+F(N)+F(2N)=6N-4$. Symmetry gives $F(N)=F(2N)=-2$.
+All shifts are covered, and compression preserves the row sums.
+\end{proof}
+This is a specialization of established compression theory, not a claim of
+minimality or of novel general compression. Dropping equations is justified
+only after checking the intermediate constants exactly.
+
+\section{A prime-kernel divisibility corollary}\label{sec:fiber}
+The extra factor three in the phase-gauged census suggests a structural
+question beyond the two translation gauges. We prove its general explanation,
+while explicitly attributing the underlying obstruction. The public
+prime-square obstruction in \cite{kernelissue}, and its incorporated proof
+and provenance in \cite{kernelreport}, preclude a first-obstruction claim.
+The latter also reports prior affine-symmetry work whose cited archive was
+not accessible here. The fiber-count and gauge conclusions below are useful
+corollaries of this mechanism and standard orbit counting; their priority is
+unresolved. They do not establish a substantive original theorem sufficient
+to change the reproducibility/software assessment.
+
+For this section let $q$ be an odd prime, $N$ an odd multiple of $q$, and
+$L=qN$. Fix an indexed ordered length-$N$ compression pair $(C,D)$, both
+of row sum one. Let $\mathcal F(C,D)$ be the set of normalized binary
+Legendre pairs with exactly these compressions. All counts in $\mathcal F$
+are ordered; row exchange and other equivalences are not divided out.
+Let $\mu_x,\mu_y$ count monochromatic $q$-entry columns in the binary rows.
+The compression identity gives
+\begin{equation}\label{eq:fiberenergy}
+ E:=\sum_i(C_i^2+D_i^2)=2qN-2(q-1),\qquad
+ \mu_x+\mu_y\le\frac{2(N-1)}{q+1}.
+\end{equation}
+Indeed, every odd column sum has square at least one; each monochromatic
+column has square $q^2$, so $E\ge2N+(q^2-1)(\mu_x+\mu_y)$.
+For $q=3$ the inequality is an equality. This energy accounting is a
+standard compression consequence.
+
+\begin{proposition}[Affine kernel obstruction]\label{prop:kernel}
+No row of such a Legendre pair is fixed by
+$j\mapsto(1+aN)j+bN$ with $a\not\equiv0\pmod q$.
+\end{proposition}
+\begin{proof}
+As $q\mid N$, on column $i$ this map sends layer $k$ to
+$k+ai+b\pmod q$. Unless $i\equiv-b/a\pmod q$ it is a $q$-cycle,
+forcing the entire column to be monochromatic. Thus even one invariant
+row has at least $N-N/q$ monochromatic columns. This exceeds the pair's
+budget in \eqref{eq:fiberenergy}: after multiplying by $q(q+1)$, the
+difference is $N(q^2-2q-1)+2q>0$ for $q\ge3$. This is a contradiction.
+\end{proof}
+An arbitrary translation in an affine stabilizer reduces to $bN$ here:
+compression would otherwise give a nonidentity cyclic stabilizer of $C$.
+An integer row of sum one cannot have such a stabilizer, since a cycle
+length greater than one would divide its row sum. This also proves
+translation freeness without a genericity assumption.
+
+\begin{theorem}[Conditional fiber divisibility]\label{thm:fiber}
+Put $(T_bx)_j=x_{j+bN}$ and $(M_ax)_j=x_{(1+aN)j}$ for $a,b\in\Z_q$.
+The group
+\[
+ \mathcal G=\{(x,y)\mapsto(T_bM_ax,T_cM_ay):a,b,c\in\Z_q\}
+       \cong\Z_q^3
+\]
+acts freely on $\mathcal F(C,D)$. Hence $|\mathcal F(C,D)|=q^3r$ for
+some integer $r\ge0$. After independent translations by $N$, the fiber
+has $qr$ elements. Its intersection with any class under common unit
+decimation, independent shifts and reversals, and row exchange has the
+same respective divisibilities $q^3$ and $q$.
+\end{theorem}
+\begin{proof}
+Since $N^2\equiv0\pmod{qN}$, the $q$ distinct units $1+aN$ multiply
+by addition of their parameters and commute with translations by $N$.
+They form the kernel of reduction of units modulo $qN$ to units modulo
+$N$. The column action preserves the fixed compression. Translations
+preserve each row PAF, and the common multiplier permutes pair PAF shifts
+by $s\mapsto(1+aN)s$; thus $\mathcal G$ preserves the fiber.
+A stabilizer with $a\ne0$ contradicts Proposition~\ref{prop:kernel}.
+For $a=0$, row-sum-one translation freeness forces $b=c=0$.
+All orbits therefore have $q^3$ members. The subgroup of independent
+translations has order $q^2$; any kernel element fixing one of its orbits
+would give a nonidentity stabilizer in $\mathcal G$. Finally, every
+operation in $\mathcal G$ is among the stated global equivalences, so
+each intersection is a union of whole $\mathcal G$-orbits.
+\end{proof}
+
+There is no assumption that $N/q$ is prime or coprime to $q$, and no
+character prescription is required. Empty fibers are included. Composite
+$q$ is not covered by the cycle argument. If $q\nmid N$ the conclusion
+can fail: normalized binary length-three pairs all compress to $(1),(1)$
+and give nine ordered lifts, not a multiple of 27. Without the Legendre
+condition, at $q=N=3$ the pair $C=D=(1,3,-3)$ has nine binary preimage
+pairs; its squared energy 38 violates the required 14. Quotients by larger
+equivalence groups can have additional stabilizers and need not retain
+these divisibilities.
+
+\paragraph{An explicit third ternary gauge.}
+Return to $q=3$ and the minority phases used below. Each intermediate row
+has active columns in at least two residue classes modulo three; otherwise
+its at least $2N/3$ monochromatic columns violate \eqref{eq:fiberenergy}.
+Let $i_0$ be the first active column of the first row and $i_1$ the first
+with $i_1\not\equiv i_0\pmod3$. After applying $M_t$ and restoring both
+existing phase-zero anchors, the first-row phases become
+\[
+ a'_i=a_i-t(i-i_0)\pmod3.
+\]
+Exactly one $t$ makes $a'_{i_1}=0$. Fixing this additional phase therefore
+selects one pair from each 27-element orbit. The existing enumerators still
+use only two anchors; no frozen implementation or count was altered, and no
+speed improvement was measured.
+
+\paragraph{Finite checks and a failed stronger conjecture.}
+A read-only integer audit of all 1,169 completed branches checks the action
+on all 2,979 saved phase-gauged pairs, finding 992 $p=5$ kernel orbits and
+one positive $p=7$ orbit. Every triple remains in its local equivalence
+class and the third gauge selects exactly one member. All 960 nonzero
+$p=5$ branch/class entries are multiples of three, as the theorem predicts.
+The stronger single-orbit assertion is false: 928 entries contain one
+orbit and 32 contain two. Rank 129, local class 60, is an explicit
+counterexample with six saved mask pairs, recorded in
+\path{results/fiber_structure/audit.json}. The theorem does not predict
+the observed incidence degrees eight and sixteen, the maximum count 81,
+or which admissible branches are empty.
+
+The same audit finds that every saved first-row full PAF signature changes
+under the kernel generator. Consequently the divisibility applies to the
+whole fiber and class intersections, not individually to matching buckets.
+Complete bucket multiplicities and full-key collision checks remain essential.
+The elementary sum of products of complementary bucket sizes is established
+counting, not a further theorem. A tiny separate length-nine enumeration
+finds 18 nonempty length-three-compression fibers of size 54. Finite affine
+orbit checks at $(q,N)=(3,3),(5,5)$ corroborate the energy obstruction;
+neither substitutes for the proof. No spectral calculation enters this proof
+or these checks, and no completed lifting census was repeated.
+
+\paragraph{Prior art and remaining question.}
+Theorem 2.3, Corollaries 2.4--2.5 and Theorem 3.2 of \cite{turner77}
+(preprint pp.~5--6 and 8--9) already count decompression multiplicities
+using multiplier groups under coprime-factor hypotheses. Those hypotheses
+do not directly cover $q\mid N$. The public July 24 obstruction
+\cite{kernelissue} explicitly states the general prime-square case;
+\cite{kernelreport} incorporates the ternary proof and reports prior
+affine work with a Lean formalization. The latter archive was not obtained
+or checked. We therefore present the theorem as an attributed derivation
+and counting corollary, with no priority claim. The complete proof,
+candidate ranking, counterexamples, source-access limits and commands are
+in \path{research/conditional_fiber_theorem.md}; the new manifest pins
+the accompanying evidence. A meaningful unresolved target is a structural
+obstruction to the residual phase fibers after this free action is removed,
+capable of distinguishing empty intermediates that already satisfy all
+compressed energy equations.
+
+\section{A residual obstruction and its information loss}\label{sec:residual}
+The selected follow-up target is simultaneous binary feasibility of the
+fixed length-$3p$ compression and an alternate length-nine compression.
+We prove a sound obstruction, then establish its failure to distinguish
+the matched frozen branches. This is a negative mathematical case study;
+it supplies no new proof of emptiness for those branches.
+Simultaneous decompression and fixed-marginal binary matrices have a primary
+precedent in \cite[Section 3]{turner77}: Definition 3.1, equations (8),(9),
+Theorem 3.2, and the matrix discussion on PDF pages 6--9. That construction
+uses pairwise coprime factors. Here the two lengths share the factor three,
+so one applies the standard matrix construction separately in each common
+residue. The binary margin criterion below is classical; its integral-flow
+background is \cite[pp.~1075--1078]{gale}. No new margin theorem is claimed.
+
+Write $K_m x$ for compression to length $m$. Throughout this section $p$ is
+odd and coprime to three, $L=9p$, $N=3p$, and the fixed intermediates $C,D$
+have entries in $\{-3,-1,1,3\}$ and sum one in each row. Computation below
+is restricted to $p=5,7$.
+
+\begin{proposition}[Exact common-preimage criterion]\label{prop:margins}
+Let $U\in\{-p,-p+2,\ldots,p\}^9$. For each $r\in\{0,1,2\}$ put
+\[
+ S_a=(3-C_{r+3a})/2\quad(0\leq a<p),\qquad
+ R_b=(p-U_{r+3b})/2\quad(0\leq b<3).
+\]
+A binary sign vector $x$ with $K_Nx=C$, $K_9x=U$ exists if and only if
+in every block the degree totals agree and
+\begin{equation}\label{eq:margin}
+ \sum_{b=1}^k R_{(b)}\leq\sum_{a=0}^{p-1}\min(k,S_a),\qquad k=1,2,3,
+\end{equation}
+where $R_{(1)}\geq R_{(2)}\geq R_{(3)}$. Degrees are integers in the
+ranges $0\leq R_b\leq p$, $0\leq S_a\leq3$.
+\end{proposition}
+\begin{proof}
+The congruences $j\equiv r+3a\pmod{3p}$ and
+$j\equiv r+3b\pmod9$ identify one coordinate modulo $9p$ by CRT.
+Negative-entry indicators form three independent $3\times p$ binary
+matrices with row degrees $R$ and column degrees $S$. Necessity follows
+by counting ones in any $k$ rows.
+
+For sufficiency, use source-to-row capacities $R_b$, all row-to-column
+capacities one, and column-to-sink capacities $S_a$. Let $T$ be the
+common total. A cut with row set $A$ and column set $B$ on the source
+side has capacity
+\[
+ T-\sum_{b\in A}R_b+|A|(p-|B|)+\sum_{a\in B}S_a.
+\]
+Minimizing over $B$ replaces the last two terms by
+$\sum_a\min(|A|,S_a)$. For $|A|=k$, the largest row sum is the sum of
+the $k$ largest degrees, so \eqref{eq:margin} makes every cut at least $T$.
+Starting from zero, augment along residual source-to-sink paths by their
+minimum residual capacities. These are integers; each augmentation raises
+the value by at least one, and the value is bounded by $T$. If this process
+stopped below $T$, the residual-reachable vertices would give a cut of that
+smaller value, a contradiction. The resulting integral flow of value $T$
+gives the required binary matrix. Reconstruct the signs by CRT in all blocks.
+\end{proof}
+
+Let $M(C)$ be the set of $U$ passing Proposition~\ref{prop:margins}, and
+define $E(C,D)\subseteq M(C)\times M(D)$ by
+\begin{equation}\label{eq:alternate}
+ \sum_i(U_i^2+V_i^2)=16p+2,\qquad
+ \PAF_U(s)+\PAF_V(s)=-2p\quad(1\leq s\leq8).
+\end{equation}
+\begin{proposition}[Necessary obstruction on the quotient]
+If $E(C,D)=\varnothing$, the conditional Legendre fiber is empty.
+This necessary condition is invariant under the independent $N$-translations
+and common kernel multipliers $1+tN$, $t\in\Z/3\Z$.
+\end{proposition}
+\begin{proof}
+Every genuine lift supplies simultaneous preimages. Expanding compression
+gives $\PAF_{K_9x}(s)=\sum_{h=0}^{p-1}\PAF_x(s+9h)$.
+For $1\leq s\leq8$ the pair sum is $-2p$; at zero it is
+$2L-2(p-1)=16p+2$. Thus its alternate pair belongs to $E$.
+For a unit $u$ and offset $v$,
+$K_m(x_{u j+v})_i=(K_mx)_{u i+v\bmod m}$.
+Taking $u=1+tN$ and offsets $aN,bN$ preserves $C,D$ and induces a
+common unit decimation and independent shifts on the alternate rows.
+These preserve \eqref{eq:alternate}; transforming the binary preimages
+preserves their existence. This proves invariance and the implication.
+\end{proof}
+
+\begin{proposition}[Information lost by the margin profile]\label{prop:profile}
+If two intermediate pairs have the same six labeled multisets of entries
+in each residue modulo three, their $E$ sets are exactly equal.
+\end{proposition}
+\begin{proof}
+Permuting columns of any CRT block changes neither possible row margins
+nor their ordered length-nine labels. Equivalently, the right sides of
+\eqref{eq:margin} depend only on column multisets. Hence both $M$ sets
+are unchanged. The remaining conditions depend only on $U,V$.
+\end{proof}
+
+\paragraph{Matched counterexample after the third gauge.}
+Ranks 277 and 279 in the frozen $p=5$ census have active counts $(12,11)$,
+identical first rows, and equal profiles. Rank 277 has three phase-gauged
+pairs (27 ordered lifts, one residual kernel orbit); rank 279 has none.
+Both have exactly 2,943 ordered alternate pairs in $E$. An actual
+rank-277 pair, in the negative-support bit-mask convention, is
+$(5988272173974,31425271139033)$. Permuting the second row's CRT columns
+to the rank-279 intermediate gives $(5988272173974,31468172020371)$.
+The two pairs have the identical alternate compressions
+\[
+ U=(-1,1,-1,1,-3,1,-1,1,3),\quad
+ V=(-3,3,1,-1,1,5,-1,-3,-1).
+\]
+They satisfy \eqref{eq:alternate}, yet the transferred binary pair has
+full PAF sum 2 at shift 3. After imposing the third gauge of
+Section~\ref{sec:fiber}, its masks are
+$(22487656929184,9405125214970)$ and its shift-2 PAF sum is $-6$.
+Its alternate pair still coincides with the gauged positive witness's pair.
+All masks, intermediate rows, and violated shifts are saved in
+\path{results/residual_obstruction/counterexample.json}.
+The failed pair alone refutes sufficiency for that pair; refuting
+existential liftability of the branch also uses the frozen empty census.
+No new standalone exhaustion certificate is asserted.
+
+\paragraph{Complete bounded challenge.}
+The 1,164 frozen intermediates give 668 distinct labeled profiles; 18
+profiles mix positive and empty branches. The count of profiles has no
+relation to a Hadamard order. A two-case pilot predicted 161.70 seconds
+with a factor-three margin. The complete new projection run took 73.16
+seconds on one worker, rejecting none of the 1,164 branches, including
+all 460 empty ones. A separate $p=7$ projection pilot predicted 21.04
+seconds with a tenfold margin. The five completed classes all pass:
+the positive, control, $(14,18)$, further $(15,17)$ and $(16,16)$ branches
+have respectively 10,476, 10,755, 11,925, 11,943 and 12,006 alternate pairs.
+These are ordered compressed pairs, not binary lifts or free-action orbit
+counts; division by 27 is not justified. The full follow-up audit including
+hashing took 14.04 seconds. Guards were 1,200 and 120 seconds; each pilot
+budgeted 200 MB memory and 2 MB output (estimates, not measured peaks).
+No cap or timeout occurred, and no binary lifting exhaustion was repeated.
+
+Matching uses exact integer energy and PAF shifts 1--4; real PAF symmetry
+supplies shifts 5--8. The individual energy cutoff $16p-7$ is safe because
+each partner has nine odd coordinates. Four focused tests passed, including
+all 512 binary $3\times3$ matrices against all 4,096 degree pairs, exact
+row-set equality for the matched branches, every saved alternate witness,
+and the counterexample under every kernel element. These are local checks,
+not external replication or a substitute for the proofs.
+
+Proposition~\ref{prop:profile} proves that additional rules using only the
+same profile or $E$ cannot separate this matched pair. It leaves
+order-sensitive constraints on actual matrices and phases open.
+The selected approach therefore does not explain residual emptiness.
+Its useful result is an attributed relaxation and an exact limitation;
+the narrow reproducibility/software assessment remains unchanged.
+Proofs, source locations, commands and limits are detailed in
+\path{research/residual_compression_obstruction.md};
+\path{results/residual_obstruction/manifest.json} pins this study's evidence.
+The counterexample SHA-256 is
+\begin{center}\footnotesize\texttt{8eeb9bf7bbdcd96c2d046c769f3efae9396142c2df5457aa03eeafe622450f23}\end{center}
+and the audit SHA-256 is
+\begin{center}\footnotesize\texttt{1e798d5a92017a2ca93db7ed9a74431e26d6aad7c48dda81588d2690ef75ad60}\end{center}
+All 6,715 baseline result files are unchanged; the ordered path/hash digest
+is recorded with starting commit and environment in the audit.
+
+\section{Ternary phases and exact cross terms}
+For one intermediate row define $b_i=\operatorname{sgn}(C_i)$ and
+$d_i=-2b_i$ when $|C_i|=1$, otherwise $d_i=0$. Associate a phase
+$a_i\in\Z_3$ to each active residue. Every binary preimage is uniquely
+\begin{equation}\label{eq:decode}
+ x_{i+kN}=b_i+d_i\ind{k=a_i}\qquad(0\le i<N,\ k\in\Z_3).
+\end{equation}
+Inactive phases can be assigned arbitrarily because their coefficients vanish.
+For a shift $s=r+\ell N$, $0\le r<N$, put
+$j=(i+r)\bmod N$ and $h_i=\ell+\lfloor(i+r)/N\rfloor\pmod3$.
+Expanding \eqref{eq:decode} and summing over layers gives the exact identity
+\begin{equation}\label{eq:phase}
+ \PAF_x(s)=\sum_{i=0}^{N-1}
+ \left(3b_i b_j+d_i b_j+b_i d_j+
+ d_i d_j\ind{a_j-a_i=h_i}\right).
+\end{equation}
+The carry in $h_i$ is essential. Diagonal terms at multiples of $N$ are
+handled by the same formula. The derivation uses the fact that two minority
+indicators coincide in exactly one layer precisely when their phase
+difference equals $h_i$.
+
+\paragraph{PB encoding.}
+Use one-hot bits $X_{i,a}$ for phases and $D_{ij,h}$ for each unordered pair
+of active residues and each difference $h\in\Z_3$. Add exactly-one equations
+for each triple and nine implications per edge:
+\[
+ -X_{i,a}-X_{j,b}+D_{ij,b-a}\ge-1\qquad(a,b\in\Z_3).
+\]
+The selected endpoint phases force their unique difference bit. Conversely
+every phase assignment extends uniquely to all difference bits. Substitute
+these bits in \eqref{eq:phase}, with a fixed orientation and sign reversal
+when an edge is reversed, and impose shifts $1,\ldots,N-1$. Coefficients of
+the variable terms are multiples of four and can be divided by four along
+with the integer target. Fixing the anchor phase removes translations.
+This formulation is equivalent to binary lifting by
+Theorem~\ref{thm:projected}. It is not a relaxation.
+
+For $k_C,k_D$ active residues the encoding has $3(k_C+k_D)$ phase bits and
+$3\{\binom{k_C}{2}+\binom{k_D}{2}\}$ difference bits. Cross terms between
+any proposed partition of a row remain present. The interaction graph is
+complete within each row; a small separator or square-root search bound
+cannot be assumed.
+
+\paragraph{Exact enumeration and incremental updates.}
+With the anchor fixed, a row has $3^{k-1}$ assignments. Reflected ternary
+Gray order changes one phase per step. For active positions $u<v$ of
+distance $r$, its weight $d_ud_v$ contributes to projected coordinate $r$
+if $a_v-a_u=0$, to coordinate $N-r$ if the difference is 2, and to neither
+if it is 1. Removing and reinserting all incident-edge contributions updates
+the entire PAF vector exactly. This costs $O(k)$ arithmetic operations per
+transition, rather than eliminating the exponential enumeration.
+Join the two row streams by complementary PAF vectors. Signature buckets
+retain every multiplicity and, for the census, every matched binary pair.
+
+\subsection{Sound propagation and a row-conditioned search}
+For each ordered orientation $u<v$ of active positions, let
+$e_{uv}=a_v-a_u\in\Z_3$. A finite domain $D_{uv}\subseteq\Z_3$ is
+propagated against $e_{uv}+e_{vw}=e_{uw}$ on triangles. The implementation
+tabulates exact supports for all $8^3$ triples of domain masks. It either
+uses all triangles or only those incident with anchor 0. At singleton
+domains the latter suffice: setting $a_0=0$ and $a_v=e_{0v}$ realizes every
+edge, since $e_{uv}=e_{0v}-e_{0u}$.
+
+After grouping each edge's contribution, a projected PAF equation has form
+$\sum_e f_e(e)=T$. For current domains, set
+$l_e=\min_{h\in D_e}f_e(h)$ and $u_e=\max_{h\in D_e}f_e(h)$.
+Reject if $T\notin[\sum l_e,\sum u_e]$, and remove value $h\in D_e$
+if $T-f_e(h)\notin[\sum_{g\ne e}l_g,\sum_{g\ne e}u_g]$.
+\begin{proposition}
+Triangle-support and interval propagation preserve every feasible phase
+assignment. Exhaustive branching on the anchor edges, with exact leaf
+checks, enumerates each phase-gauged lift once.
+\end{proposition}
+\begin{proof}
+Every feasible triangle supplies a support to each selected value. The sum
+of all other selected edge contributions lies within their summed bounds,
+even when those edges are correlated. Thus neither rule deletes a feasible
+value. Anchored phases determine all edges uniquely, and branching assigns
+each such phase tuple exactly once. Theorem~\ref{thm:projected} and the exact
+phase identity give the leaf criterion. A stopped traversal gives only a
+lower bound, never an exact count.
+\end{proof}
+
+The row-conditioned variant first exhausts the smaller row and stores every
+phase tuple in its projected-signature bucket. For a partial assignment of
+the other row, all assigned edges contribute exactly; every remaining edge
+contributes a rigorous interval. No edge across a partial assignment is
+discarded. Besides the $N-1$ projected coordinates, optional folded features
+$\PAF(s)+\PAF(N-s)$ have target sum $-4$. For an edge of distance $r$
+and weight $w$, its folded contribution is $w$ for differences 0 or 2 and
+zero for difference 1, giving a tighter bound than two independent intervals.
+
+For each feature, a sorted index of target values stores cumulative bitsets
+of partner signatures. Intersecting the bitsets for the current feasible
+intervals removes signatures incompatible with at least one feature; it
+does not assert joint feasibility of surviving signatures. An empty
+intersection safely prunes the partial assignment. At a full assignment,
+exact complementary-key lookup emits every partner tuple in the bucket.
+Sound intervals preserve all feasible partners, and the complete stored
+row and phase traversal prove exhaustion. Multiplicities are therefore
+unchanged. Cycles hold by construction because this variant assigns phases
+directly. The precomputed row remains exponential in its active count;
+this is a decomposition between the two rows, with no omission of cross
+terms within either row and no new complexity bound.
+
+\subsection{Certified spectral rectangles and compact exact joining}
+The earlier partner-support search exhausts a row before it can prune the
+other row, and reaches its storage cap on the saved $p=7$ branch. We instead
+filter each row against the established necessary condition
+$\PSD_x(f)\le 2L+2$ for nonzero frequencies \cite{fletcher,lumsden}.
+The implementation tests $1\le f\le\lfloor L/2\rfloor$ with $3\nmid f$;
+the omitted frequencies are fixed by the length-$N$ compression. Omitting
+any necessary test only weakens pruning and cannot remove a valid lift.
+
+Put $S=2^{20}$. Certified integers $c_{fi},s_{fi}$ approximate
+$S\cos(2\pi fi/L)$ and $S\sin(2\pi fi/L)$ respectively, with absolute error
+at most one. They are constructed without floating point: Machin's identity
+$\pi=16\arctan(1/5)-4\arctan(1/239)$ and alternating rational sums with
+32 and 31 terms enclose $\pi$. The interval is rounded outward to denominator
+$10^{40}$. Reduction of a cosine argument to $[0,\pi]$, monotonicity, and
+alternating cosine partial sums through indices 21 and 20 give lower and
+upper bounds. Each stored coefficient is checked to enclose the resulting
+interval within its center plus or minus one unit. Sine uses
+$\sin\theta=\cos(\pi/2-\theta)$. The coefficient files and generator are
+hashed, and the rational arithmetic is independently checked in tests.
+
+For a partial phase assignment $P$, write the approximate Fourier sum as
+\[
+ \widetilde R_f+\mathrm{i}\widetilde I_f
+ =\sum_{i=0}^{N-1}\sum_{k=0}^2 b_i(c_{f,i+kN}+\mathrm{i}s_{f,i+kN})
+ +\sum_{i\text{ active}}d_i(c_{f,i+a_iN}+\mathrm{i}s_{f,i+a_iN}).
+\]
+Assigned phases give exact integer contributions. For every unassigned
+phase, independently minimize and maximize its three possible real and
+imaginary contributions. Summing gives integer intervals
+$[R_f^-,R_f^+]$ and $[I_f^-,I_f^+]$. Component-wise extrema need not be
+simultaneously attainable: the rectangle is a relaxation containing every
+actual completion. Inflate each interval by $L$ at both endpoints to
+account for coefficient errors in the final binary sum. Let $r_f,t_f$ be
+the distances from zero to the two inflated intervals.
+\begin{proposition}[Safe spectral exclusion]\label{prop:spectral}
+If $r_f^2+t_f^2>S^2(2L+2)$ for any tested frequency, no completion of $P$
+can occur in a binary Legendre lift of the intermediate pair.
+\end{proposition}
+\begin{proof}
+For any completed binary row, the error in each approximate Fourier
+component is at most $\sum_i|x_i|=L$. Its scaled exact Fourier components
+therefore lie in the inflated rectangle, so its scaled PSD is at least
+$r_f^2+t_f^2$. A Legendre pair has PSD sum $2L+2$ at nonzero frequencies,
+and each PSD is nonnegative. The strict inequality contradicts this
+necessary condition. Squaring the complete Fourier sum includes every
+phase cross term; the rectangle relaxes these interactions without
+discarding their contribution from the exact leaf equations.
+\end{proof}
+
+The native search fixes each active anchor phase to zero and traverses all
+remaining phases in deterministic order. Mode 0 disables spectral tests;
+mode 1 tests only complete rows; mode 2 also tests partial assignments.
+Deleting a prefix in mode 2 excludes exactly $3^q$ assignments, where $q$
+phases remain unassigned. The sum of visited leaves and excluded completion
+masses must equal $3^{k-1}$ for every exhausted row. Each surviving row is
+encoded as its full negative-support bitmask. All projected PAF coordinates
+are evaluated by the exact rotation/popcount identity. A compact hash table
+stores an entry for every surviving mask, including repeated PAF signatures.
+Hash collisions require equality of the complete integer key; every equal
+signature entry is visited. Thus collisions cannot add or omit solutions,
+and bucket multiplicities are preserved.
+
+Complementary keys have sum $-2$ in all projected coordinates. Full PAF,
+row-sum, compression, and SDS checks validate the emitted masks. Theorem
+\ref{thm:projected} supplies the sufficiency argument, and all modes keep
+the original phase gauge and the factor-nine ordered multiplicity. Caps
+return null exact counts and separately record verified lower bounds.
+The native program accepts only intermediate lengths 9, 15, and 21; it
+cannot launch a $p=37$ search. This remains exponential row enumeration.
+All pruning arithmetic uses signed 64-bit integers. Each coordinate bound
+has absolute value at most $3L(S+1)+L$ after inflation, and for $L\le63$
+twice its square is below $2^{63}-1$. The threshold also fits; the tested
+integer exclusions therefore incur no overflow within the supported domain.
+
+\section{Restricted census and verification methodology}
+The catalogue is all admissible intermediate pairs above \eqref{eq:prescribed}
+at $p=5$, modulo independent translations by five. Exhaustive intermediate
+enumeration gives 10,476 ordered pairs and 1,164 translation representatives.
+Its active-count strata have sizes 384 each for $(11,12),(12,11)$; 180 each
+for $(10,13),(13,10)$; and 18 each for $(9,14),(14,9)$.
+Ranks order these representatives by the existing repository's exact scan-cost
+rule and lexicographic tie breaking; the catalogue file fixes that order.
+
+\subsection{A bijective reduction to 79 direct enumerations}
+For $p=5$, $\chi_5(-1)=1$. Choose $u\in\Z_{15}^{\times}$, a common
+decimation, and independent signs $\epsilon_C,\epsilon_D\in\{\pm1\}$.
+Swap the two rows if $\chi_5(u)=-1$, then replace each row by
+$C_{\epsilon u i\bmod15}$ and restore its catalogue translation gauge.
+The prescription is preserved: the swap compensates for the nonsquare
+character, and independent reversals do not alter its character.
+Reversal preserves each real PAF, while common decimation permutes shifts.
+Every chosen unit modulo 15 is also a unit modulo 45. If the final
+catalogue-normalizing offset is $t\in\{0,5,10\}$, the corresponding binary
+map is
+\begin{equation}\label{eq:transfer}
+ x'_i=x_{\epsilon u(i+t)\bmod45},
+\end{equation}
+after the same possible row swap. Compression commutes with this map.
+It is a permutation, with an inverse, and preserves the full Legendre
+condition. Restoring the phase-zero gauge gives a bijection on translation
+classes of binary lifts. Thus exact lift counts transfer, including zero.
+
+Computing this action on the whole catalogue yields 79 disjoint classes:
+67 of size 16, 11 of size 8, and one of size 4. Every target retains its own
+rank, transformation, count, and solutions; the classes are computational
+reuse, not a redefinition of the reported census. No uniform multiplicity
+of 16 is assumed. The independent implementation checks every transformed
+positive witness and directly re-enumerates pilot targets to check transfer.
+
+\subsection{Two exhaustive enumerators and evidence levels}
+The first enumerator uses the ternary Gray update and the 14 projected
+PAF shifts. The second constructs binary residue masks by Cartesian products
+of negative-support subsets, without using the phase identity, and uses
+all 22 nonredundant length-45 PAF shifts. A mask $m$ is evaluated by
+$45-2\operatorname{popcount}(m\mathbin{\mathtt{xor}}\operatorname{rot}_s(m))$.
+For every directly enumerated representative, the programs compare expected
+candidate counts, complete projected-signature histograms including
+multiplicities, exact solution counts, and every matching mask pair.
+Matched pairs undergo direct integer full-PAF, negative-support SDS, and
+compression checks. The intermediate catalogue is regenerated separately.
+Known ranks 1 and 2 have 27 ordered lifts each; rank 3 is empty. The
+published structured length-45 witness maps to rank 771 and provides another
+positive control.
+
+An empty branch is recorded only after both enumerators exhaust their
+domains, or via a proved recorded bijection from such a branch. This is a
+verified computational nonexistence result conditional on the enumerator
+implementations and finite-domain coverage argument. It is not a standalone
+PB UNSAT certificate or a formally verified program. The implementations
+share the input catalogue and some final-check routines, so independence is
+at the enumeration and PAF-evaluation levels, not separate teams or hardware.
+SAT proof logs and compact witness certificates from PB runs are checked
+with VeriPB. A timeout, cap, or unverified solver status remains unresolved;
+it never contributes a zero to an exact census.
+
+\subsection{Pilot, resource gate, and census outcome}
+A 21-branch stratified pilot, including known positive and empty cases,
+completed in 205.25 seconds on four workers. A conservative direct scan of
+all 1,164 branches was estimated at 6,513.69 seconds, exceeding the
+repository's 30-minute per-run limit. The proved 79-case reduction gave a
+three-worker estimate of 763.19 seconds with 50\% margin, 1.43 GB of worker
+memory with margin, and 8.73 MB of result storage. The reduced run has a
+27-minute wall budget and 120-second per-branch deadlines. These fit the
+limits of four cores, 30 minutes per run, and 10 GB. Longer work requires
+prior approval.
+
+% CENSUS_RESULTS_BEGIN
+The reduced run completed in 394.57 seconds (6.58 minutes), with no unresolved
+branch. The 79 direct cases comprise 47 positive and 32 empty representatives.
+After transferring exact counts, the complete 1,164-branch census is:
+\begin{center}
+\begin{tabular}{rrr}
+\toprule
+Ordered lifts of a fixed intermediate pair & Phase-gauged lifts & Branches\\
+\midrule
+0 & 0 & 460\\
+27 & 3 & 464\\
+54 & 6 & 192\\
+81 & 9 & 48\\
+\midrule
+\multicolumn{2}{l}{Total branches (704 positive, 460 empty)} & 1,164\\
+\bottomrule
+\end{tabular}
+\end{center}
+There are 2,976 phase-gauged solutions, 26,784 ordered lifts summed over
+catalogue representatives, and 241,056 ordered binary pairs after restoring
+all prescribed intermediate translations. Rank 771 has 54 ordered lifts.
+The separate 13.84-second audit regenerated all intermediate pairs, checked
+every canonical solution by full PAF and SDS, inverted all recorded solution
+maps, compared all 21 direct pilot cases, recovered the published witness,
+and expanded all translations to verify that the 241,056 pairs are distinct.
+The largest recorded worker peak was 317.23 MB; three times this peak is a
+951.68 MB conservative worker-sum bound, not a simultaneous whole-system
+measurement. Classification records including the audit and manifest occupy
+about 1.14 MB. The run reused seven directly verified pilot representatives;
+pilot and reduced-run times must be added when budgeting a fresh reproduction.
+% CENSUS_RESULTS_END
+
+If $c_r$ is the phase-gauged count for catalogue rank $r$, the number of
+ordered binary lifts of that fixed intermediate pair is $9c_r$. Summing
+over all 10,476 intermediates gives $81\sum_{r=1}^{1164}c_r$. These are
+ordered indexed binary pairs with row sums 1 and prescribed compression.
+They are not counts modulo arbitrary shifts, reversal, decimation, row swap,
+sign changes, or Hadamard equivalence.
+
+\subsection{Conversion to the published equivalence convention}
+For each of the 2,976 canonical pairs, we take a numerical minimum over
+common units modulo 45, independent row bracelets (all cyclic shifts and
+reversals), and row exchange. Bracelet reduction commutes with subsequent
+decimation up to another bracelet operation. Thus the minimum over the 24
+units is an exact invariant for the operations in Section 5.4 of
+\cite{fletcher}. The mask order used to choose representatives is arbitrary
+and is recorded in the code; it need not match the older printed ordering.
+The result is 63 classes intersecting our prescribed subset: 61 contain 48
+phase-gauged records and two contain 24. Their intersections with the full
+prescribed ordered set therefore have sizes 3,888 and 1,944 respectively.
+These are intersection sizes, not full unrestricted orbit sizes.
+All 63 representatives pass exact full PAF and SDS checks. An independent
+tuple implementation checks the canonicalizer on all 1,024 length-five
+binary mask pairs and a deterministic sample of length-45 solutions.
+The conversion took 1.39 seconds and peaked at 41.46 MB, following a
+5.11-second pilot estimate. This computes our labels under the published
+convention; it neither reproduces the complete count 3,058 nor matches
+individual entries in the historical list.
+
+\section{Controlled experiments and limitations}
+Earlier bounded runs found all six tested $p=5$ first-stage PB instances
+satisfiable and timed out on all six $p=7$ first-stage instances. Translation
+canonicalization reduced the exact domain but slowed each paired $p=5$
+solver comparison. A reproducible heuristic then acquired a $p=7$
+intermediate branch with active counts $(15,17)$; exact integer checks and
+VeriPB certify its intermediate constraints, not its binary liftability.
+Binary Legendre pairs of length 63 were already constructed in
+\cite{issac}; this branch acquisition is not a new existence result.
+
+The phase and projected binary models have respectively 171/454 and
+486/1,758 variables/records for the chosen $p=3$ branch; 432/1,249 and
+1,350/5,088 for $p=5$ rank 1; and 819/2,464 and 2,646/10,146 for the
+saved $p=7$ branch. In the earlier experiment both $p=3$ encodings solved,
+but all twelve ten-second $p=5,7$ probes timed out. Their gauges differed,
+so their timings alone do not isolate encoding effects. The $p=7$ phase
+join hit a 250,000-signature cap before streaming the partner row; zero
+matches at that point provides no nonexistence evidence.
+
+% CONTROL_RESULTS_BEGIN
+The controlled join comparison holds Gray traversal, mask maintenance,
+projected coordinates, byte keys, multiplicity buckets, and stream hashing
+fixed. Only the translation gauge and PAF evaluator change. Three repeats
+per configuration run in a deterministic shuffled order. Ordered stream
+hashes agree between the incremental and recomputed evaluators. Rank 1 gives
+27 ordered lifts and rank 3 gives zero in every trial. A separate timing
+batch ran with no concurrent repository computations; background OS load and
+CPU frequency were not controlled. Its medians and ranges are:
+\begin{center}
+\begin{tabular}{llrr}
+\toprule
+Branch / gauge & PAF evaluation & Median (s) & Range (s)\\
+\midrule
+Rank 1 / off & recompute & 5.737 & 5.387--7.314\\
+Rank 1 / off & incremental & 5.706 & 5.186--7.161\\
+Rank 1 / on & recompute & 1.879 & 1.807--2.590\\
+Rank 1 / on & incremental & 1.709 & 1.697--1.778\\
+Rank 3 / off & recompute & 5.903 & 5.450--10.115\\
+Rank 3 / off & incremental & 5.192 & 5.172--5.859\\
+Rank 3 / on & recompute & 1.839 & 1.803--2.499\\
+Rank 3 / on & incremental & 1.717 & 1.657--1.806\\
+\bottomrule
+\end{tabular}
+\end{center}
+The gauge reduces the two-row candidate scan exactly threefold,
+from 708,588 to 236,196, while the pair-orbit reduction is ninefold.
+With the gauge on, incremental updates improve the median by factors 1.10
+and 1.07 on ranks 1 and 3; the timing ranges overlap. This is materially
+less than the earlier single-trial comparison using different traversals.
+There is no robust large update-only speedup claim.
+
+The aligned PB comparison uses the same intermediate branches, projected
+shifts, and binary lexicographic anchor gauges in both encodings. It uses
+RoundingSat with LP reasoning disabled, restart multiplier 100, a ten-second
+internal limit, proof logging, and a fifteen-second external timeout.
+Three shuffled-order repetitions are timing replicates of deterministic
+search, not independent random seeds. The results are:
+\begin{center}
+\begin{tabular}{lll}
+\toprule
+Branch & Binary PB & Phase PB\\\midrule
+$p=3$ known & 3/3 SAT; 1.659 s & 3/3 SAT; 0.165 s\\
+$p=5$ rank 1 & 3/3 timeout; 11.087 s & 3/3 timeout; 11.087 s\\
+$p=7$ saved & 3/3 timeout; 11.088 s & 3/3 timeout; 11.074 s\\
+\bottomrule
+\end{tabular}
+\end{center}
+Each SAT result passed exact witness checks, full VeriPB proof verification,
+and compact certificate verification. Timeouts remain unresolved in solver
+records. The earlier 13.84-second census audit overlapped part of this PB
+batch, so these wall times have that additional limitation. It cannot alter
+the exact outcomes or justify ranking censored searches. The phase encoding
+wins the tiny positive control, while both encodings fail the tested larger
+budgets. Complete p=5 enumeration remains the stronger demonstrated route
+for this restricted task, not a demonstrated scalable algorithm.
+
+The artifact audit checked 139 hashes, regenerated 35 OPB files byte-for-byte,
+and reverified 19 SAT proofs/certificates. All 156 repository tests passed
+using an in-repository temporary directory. The first test attempt encountered
+a system-temporary-directory permission error; that run is not counted as a
+passing verification. The control batch took 253.16 seconds on one worker,
+with a 39.04 MB Python-process peak and 206.90 MB of proof logs.
+The separate join batch took 96.99 seconds; its measured process peak was 35.51 MB.
+
+% CONTROL_RESULTS_END
+
+All comparisons are local to the recorded implementation, branch, solver
+build, and limits. Model size does not imply solver speed. Censored ten-second
+probes cannot rank algorithms by time to completion. Enumeration remains
+exponential; a fixed $p=7$ branch with 32 active entries has $3^{30}$ paired
+assignments after the two phase gauges. No result justifies a $p=37$ search.
+% PROPAGATION_RESULTS_BEGIN
+\subsection{Propagation validation and controlled ablations}
+An 11-case stratified pilot for the row-conditioned search completed in
+67.00 seconds on three workers. Its conservative estimates were 484.14
+seconds for the full comparison, 420.82 MB of worker memory, and 10 MB of
+storage. The full run reused the pilot cases and completed in 268.73 seconds.
+All 79 representatives exhausted; the proved bijections give exact count
+and solution-list agreement on all 1,164 branches, including all 460 empty
+branches. The largest worker peak was 98.56 MB (295.69 MB when conservatively
+multiplied by three). Pilot and full-run times must be added for a fresh run.
+
+The sum of recorded per-case propagation wall times was 755.60 seconds,
+versus 212.18 seconds for the existing join: a ratio of 3.56. These are
+concurrent three-worker measurements, with propagation preceding the join
+within each case; they are not CPU times or a randomized speed comparison.
+Propagation retains its solution masks while the baseline only counts
+matches. Both retain signature multiplicity. The result supplies no
+evidence that this propagation implementation is faster.
+
+A separate one-worker batch varied partner-signature filtering and folded
+PAF bounds, holding the row domain and exact leaf criterion fixed. Each
+configuration ran once, with no simultaneous repository computation other
+than document/file work. These are mechanism ablations, not estimates of
+a timing distribution:
+\begin{center}
+\begin{tabular}{llrrrr}
+\toprule
+Branch & Partner filter & Folded bounds & Nodes & Leaves & Seconds\\
+\midrule
+Rank 1 & off & off & 263668 & 167877 & 3.990\\
+Rank 1 & off & on  & 262579 & 163608 & 4.072\\
+Rank 1 & on  & off & 148315 & 3 & 7.665\\
+Rank 1 & on  & on  & 114763 & 3 & 8.688\\
+Rank 3 & off & off & 265345 & 169034 & 2.416\\
+Rank 3 & off & on  & 265162 & 165432 & 3.110\\
+Rank 3 & on  & off & 153769 & 0 & 5.709\\
+Rank 3 & on  & on  & 115366 & 0 & 6.129\\
+\bottomrule
+\end{tabular}
+\end{center}
+Leaves count full phase assignments reaching exact partner lookup, not
+solutions. Every rank-1 variant returned 27 ordered lifts and every rank-3
+variant proved zero. Partner filtering sharply reduces nodes and leaf
+lookups but costs more time; folded bounds further reduce nodes when the
+filter is on, again without improving these timings.
+
+The standalone difference solver with anchor or all triangles exhausted the
+$p=3$ control in 0.492 and 0.489 seconds respectively, returning all 135
+ordered lifts. Both variants timed out after ten seconds on each of ranks
+1 and 3 at $p=5$. The saved $p=7$ difference probe timed out after 30 seconds;
+its row-conditioned probe hit the 250,000-candidate cap after 1.74 seconds,
+before partner search. Their exact counts remain null in those historical
+records; the spectral milestone below subsequently resolves the branch.
+The complete control batch took 114.65 seconds and peaked at
+182.44 MB. The new JSON evidence package occupies about 0.71 MB.
+
+Tests exhaustively check all 512 triangle-domain triples, compare all four
+conditioned variants and both difference variants to independent binary
+enumeration at $p=3$, and verify that domain propagation preserves every one
+of the 2,976 known canonical $p=5$ solutions. The result audit also checks
+all frozen solution lists, symmetry transfers, null counts on stopped runs,
+and equivalence labels. Hashes cover inputs, implementations, and all cases.
+All 23 targeted tests passed, including the pre-existing ternary-phase tests;
+the historical 156-test full-suite result above predates this extension.
+These are implementation checks, not formal verification. The established
+join was the strongest demonstrated route in this historical batch;
+neither those propagation results nor the earlier censored PB runs showed
+scaling to $p=7$. This negative result motivated the proved spectral filter
+and matched controls in the next milestone.
+% PROPAGATION_RESULTS_END
+
+% SPECTRAL_RESULTS_BEGIN
+\subsection{Spectral milestone: direct census validation and one empty $p=7$ branch}
+The 12-case pilot took 5.63 seconds on three workers,
+including native compilation and bounded $p=7$ row probes. Its estimates
+were 324.73 seconds and
+277.05 MB for the full
+$p=5$ validation, and 64.15
+seconds per $p=7$ method with a tenfold timing margin. The $p=7$ memory
+envelope was 1.2 GB; the initial storage estimate was 20 MB. These fit the
+four-core, 30-minute, 10-GB limits. The deterministic early-prefix probes
+are not a random sample or a proven runtime upper bound.
+
+The full validation finished in 63.90 seconds on three
+workers, reusing 12 pilot cases. Every one of the 1,164 catalogue branches
+was directly enumerated by both native modes 0 and 2, with no symmetry reuse.
+Exact solution lists agree with the independent frozen census: 460 empty
+branches, 464 with 27 ordered lifts, 192 with 54, and 48 with 81. All 2,976
+canonical mask pairs are retained. The conservative sum of Python-wrapper and
+native-worker peaks is 139.54
+MB; it sums process maxima, not simultaneous whole-system measurements.
+
+The sum of native engine times over the catalogue was
+42.11 seconds without spectral tests and
+30.14 seconds with prefix tests. These concurrent
+measurements do not isolate timing effects. A separate one-worker batch
+ran three shuffled replicates per configuration, with no concurrent
+repository experiment. Its medians, in seconds, are:
+\begin{center}
+\begin{tabular}{lrrrr}
+\toprule
+Branch & Existing Python join & Native, off & Native, leaf & Native, prefix\\
+\midrule
+$p=3$ & 0.0110 & 0.0012 & 0.0012 & 0.0015\\
+Rank 1 & 1.6556 & 0.0335 & 0.0342 & 0.0316\\
+Rank 3 & 1.5332 & 0.0387 & 0.0262 & 0.0257\\
+Rank 1133 & 10.9219 & 0.1782 & 0.1587 & 0.1143\\
+\bottomrule
+\end{tabular}
+\end{center}
+Native engine time excludes setup and process startup; wrapper wall times
+are recorded separately. The Python/native comparison changes execution
+language, traversal, PAF evaluation, and mask retention, so it is not an
+isolated measure of spectral pruning. The native modes share traversal,
+full-key lookup, mask retention, and exact verification. Prefix filtering
+improves the recorded $p=5$ medians but slows the tiny $p=3$ control.
+Ranges overlap on ranks 1 and 3; rank 1133 has disjoint recorded ranges
+(off: 0.164--0.179 s; prefix: 0.073--0.130 s). These three deterministic
+replicates are too narrow for a broad performance claim.
+
+All three native modes exhaust the saved length-21 intermediate pair at
+$p=7$ with \emph{zero} canonical and ordered binary lifts. The exact domains
+have $3^{14}=4{,}782{,}969$ and $3^{16}=43{,}046{,}721$ anchor-zero rows.
+The observed single-run resources are:
+\begin{center}
+\begin{tabular}{lrrr}
+\toprule
+Method & Engine seconds & Stored masks & Native peak (MB)\\
+\midrule
+Unfiltered & 26.135 & 4,782,969 & 375.66\\
+Leaf spectral & 4.186 & 38,907 & 8.91\\
+Prefix spectral & 2.635 & 38,907 & 8.91\\
+\bottomrule
+\end{tabular}
+\end{center}
+Leaf and prefix tests retain the same 38,907 stored-side rows and 28,134
+partner-side rows. Prefix exclusion accounts for 3,126,363 and 36,148,041
+complete phase tuples respectively, before visiting leaves. The compact
+table capacity falls from 369.10 MB to 2.88 MB. The prefix run is about
+9.9 times faster than this matched unfiltered run; this is one branch and
+one trial per method, not an estimate of general scaling. There is no
+binary witness because the branch is empty. The intermediate witness and
+its earlier checked constraints remain distinct from binary liftability.
+
+An additional independent auditor enumerates Cartesian binary residue
+patterns, uses the negative-support intersection PAF identity at all 31
+nonredundant shifts, and sorts fingerprints with exact full-key collision
+checks. It uses no spectral coefficients or projected equations. Positive
+and empty $p=5$ controls reproduce 27 and zero ordered lifts. A bounded
+pilot estimated 169.56 seconds and 406.11 MB; the complete $p=7$ audit
+enumerates all 4,782,969 and 43,046,721 rows and again returns zero, in
+54.75 seconds with a 140.52 MB native peak. This independently checks
+computational nonexistence for the saved intermediate pair, conditional
+on the two implementations and coverage arguments. It supplies no formal
+UNSAT certificate and does not exclude other $p=7$ intermediates or any
+length-63 Legendre pair in another branch.
+
+The next justified experiment is a bounded portfolio of other verified
+$p=7$ intermediate translation classes, initially with balanced active
+counts, retaining exact per-branch outcomes and new pilot gates. The
+single-row enumeration is still exponential, and no $p=37$ run follows
+from these results. Hashes below pin the coefficient certificates, all
+branch inputs/results, source, compiler configuration, and independent
+audit. The larger package exceeds its 20-MB storage estimate because it
+preserves each native input, while remaining far below the 10-GB limit.
+All 35 targeted tests passed in 22.29 seconds, including native modes,
+coefficient bounds, cap semantics, phase propagation, ternary formulation,
+equivalence conventions, and prior classification checks. The historical
+156-test full-suite result predates these extensions; it was not rerun here.
+The preserved spectral evidence occupies 29.65 MB.
+
+% SPECTRAL_RESULTS_END
+
+\subsection{Portfolio domain and selection soundness}
+Let $k_C,k_D$ be the numbers of magnitude-one entries of the length-21
+intermediates. Their zero-shift compressed PAF equation gives
+\[
+ 122=\sum_i(C_i^2+D_i^2)=378-8(k_C+k_D),
+ \qquad k_C+k_D=32.
+\]
+Thus every such intermediate has $3^{k_C-1}3^{k_D-1}=3^{30}$ paired
+anchor-zero binary preimages. This is a direct consequence of the established
+zero-shift compression identity, not a new counting theorem. Balancing the
+active counts changes table/stream costs without changing this pair-domain
+size. We target several ordered splits to test that dependence.
+
+The acquisition objective adds a penalty for distance from a target split
+to the existing integer-PAF residual energy. It is only a heuristic proposal
+mechanism, never a constraint on admitted binary lifts. Every admitted
+intermediate is rechecked directly against its prescribed compression,
+all intermediate PAF constants, row sums, and first-stage OPB constraints.
+Selection fixes the exact finite domain before lift timings; no acquisition
+failure excludes any unacquired intermediate. Inside each admitted branch,
+the proved spectral rules, projected theorem and anchor gauge are unchanged,
+so all cross terms and multiplicities remain as in Proposition
+\ref{prop:spectral}. Results are conditional on the selected classes.
+
+% P7_PORTFOLIO_RESULTS_BEGIN
+\subsection{Bounded systematic $p=7$ portfolio}
+The starting commit \texttt{03876f3} was checked before extension:
+5,081 manifest entries matched, and a fresh consistency audit rechecked
+the frozen $p=5$ lists and saved $p=7$ evidence. Original artifacts remain
+unchanged. This was not a new exhaustive $p=5$ run.
+
+Targeted acquisition used the ordered splits $(12,20),(13,19),(14,18)$,
+$(15,17),(16,16)$, four seeds per split, 200,000 iterations and a 20-second
+wall guard per attempt. Seeds are $20261006+100j+h$, where $j$ indexes the
+listed split from zero and $h=0,1,2,3$. The 20 attempts
+took 54.04 seconds, producing 4
+verified intermediates, with 0 wall guards firing. The admitted
+pool contains the last three splits. Absence of an acquired $(12,20)$ or
+$(13,19)$ class is unresolved, not an impossibility result.
+
+For each acquired split select the minimum compact-JSON pair SHA-256,
+after the existing independent-translation-by-seven gauge and deduplication.
+Add the previous empty branch as a mandatory control. The resulting four
+ordered translation classes are frozen before lift pilots and outcomes.
+This targeted first-hit heuristic pool is neither exhaustive nor uniform;
+minimum-hash selection cannot remove acquisition bias. No row-exchange,
+reversal or decimation quotient changes the counts. Every binary lift keeps
+the anchor-zero phase convention and factor-nine ordered multiplicity.
+
+The prefix probes took 3.72 seconds.
+Because they omit joins, they underestimate unfiltered cost; a supplementary
+3.69-second real-key pilot capped
+stored masks at 250,000 and nodes at one million. Tenfold extrapolations
+are empirical early-prefix estimates, not time guarantees. The memory
+envelope is 1.68 GB; expected evidence is 30 MB with a conservative 1-GB
+storage allowance. These gates fit four cores, 30 minutes and 10 GB.
+All selected classes remain scheduled under equal budgets, regardless of
+their timing estimate. Each trial has 80 seconds, two billion nodes per row,
+15 million stored masks and 100,000 solutions as caps; any stop has null
+exact counts. Each serial batch has a 1,500-second controller guard and at
+most 960 seconds of capped engine work.
+
+Three batches shuffle the 12 branch/mode jobs with seeds 20261006,
+20261007 and 20261008, using one worker and no concurrent repository
+experiment. Their wall times are 171.50, 166.72, 160.38 seconds.
+All variants use the same frozen native executable. Modes 1 and 2 share
+bound maintenance; mode 0 disables it with the spectral tests. This ablation
+compares the entire spectral mechanism, and the leaf/prefix comparison
+isolates prefix testing. Python/native, PB, translation and incremental-PAF
+effects are not credited to this experiment.
+
+\begin{center}
+\begin{tabular}{lrrrr}
+\toprule
+Branch & Active counts & Off (s) & Leaf (s) & Prefix (s)\\
+\midrule
+control & 15,17 & 24.197 & 3.751 & 2.685\\
+a14\_18 & 14,18 & 68.352 & 9.612 & 6.031\\
+a15\_17 & 15,17 & 22.940 & 3.969 & 2.445\\
+a16\_16 & 16,16 & 14.113 & 2.536 & 2.723\\
+\bottomrule
+\end{tabular}
+\end{center}
+The following ranges expose repeat variability rather than treating a
+single median as robust improvement:
+\begin{center}
+\begin{tabular}{lrrr}
+\toprule
+Branch & Off range (s) & Leaf range (s) & Prefix range (s)\\
+\midrule
+control & 22.056--28.649 & 3.744--3.754 & 2.420--4.038\\
+a14\_18 & 68.192--69.726 & 9.238--9.795 & 5.213--7.285\\
+a15\_17 & 22.681--24.229 & 3.783--4.117 & 2.418--3.143\\
+a16\_16 & 13.841--14.858 & 2.233--2.666 & 1.718--3.952\\
+\bottomrule
+\end{tabular}
+\end{center}
+Engine time excludes native preparation. Python setup, process wall time,
+native wall minus engine, exact validation and total wrapper times are
+separately recorded; coefficient warmup is outside engines. Native residual
+includes startup and native pre/post work, not a pure setup measurement.
+Wrapper time is measured before the final JSON rewrite. OS load/frequency
+were not controlled. Repeats are deterministic timing replicates, not
+independent samples of classes or solutions.
+
+\begin{center}
+\begin{tabular}{lrrr}
+\toprule
+Prefix configuration & Python setup (ms) & Native residual (ms) & Wrapper (s)\\
+\midrule
+control & 8.33 & 24.37 & 2.718\\
+a14\_18 & 5.80 & 28.09 & 6.073\\
+a15\_17 & 5.26 & 24.87 & 2.476\\
+a16\_16 & 6.72 & 33.14 & 2.763\\
+\bottomrule
+\end{tabular}
+\end{center}
+These columns are separately recorded medians and need not add to the
+engine median. Full phase measurements for all configurations are preserved.
+
+\begin{center}
+\begin{tabular}{lrrrr}
+\toprule
+Branch & Ordered lifts & Independent complete & Audit (s) & Peak native (MB)\\
+\midrule
+control & 0 & yes & 43.758 & 375.03\\
+a14\_18 & 0 & yes & 84.903 & 98.21\\
+a15\_17 & 0 & yes & 36.257 & 375.03\\
+a16\_16 & 0 & yes & 18.977 & 744.39\\
+\bottomrule
+\end{tabular}
+\end{center}
+Prefix pruning retains the same rows as leaf testing. Its recorded
+survivors and coverage masses (identical across timing replicates) are:
+\begin{center}
+\begin{tabular}{lrrr}
+\toprule
+Branch & Kept rows C/D & Prefix excluded C/D & Prefix nodes\\
+\midrule
+control & 38,907/28,134 & 3,126,363/36,148,041 & 26,725,487\\
+a14\_18 & 37,185/17,865 & 846,162/116,297,190 & 58,161,374\\
+a15\_17 & 38,406/26,823 & 3,120,732/36,174,852 & 26,755,955\\
+a16\_16 & 36,258/36,762 & 10,864,629/10,860,957 & 18,667,898\\
+\bottomrule
+\end{tabular}
+\end{center}
+For the balanced class, prefix testing has median 2.723 s versus 2.536 s for leaf testing, despite fewer nodes. Its timing ranges overlap; this is an observed median regression, not a robust general ranking.
+The native trial peak is 744.39 MB. The preserved study package occupies 1.46 MB, below both pilot allowances. All 36 native trials exhaust, with no timeout or cap.
+The complete solution lists and exact counts agree across all completed variants: 4 of four branches are resolved.
+All four branches are empty in all 36 native trials. These records
+therefore contain no binary witness; every complete solution list is empty.
+Their intermediate witnesses were checked, and the prior full $p=5$ census
+still supplies positive exact controls. This does not establish nonexistence
+for any other intermediate or for the full prescribed $p=7$ family.
+Each independent check uses the unchanged binary-column enumerator,
+all 31 PAF shifts, the support-intersection identity, and exact sorted-key
+collision checks. A separate 200,000-row-per-class pilot preceded its
+180-second attempts. No spectral or projected filter is used. Complete
+checks enumerate both full row domains and compare exact solution lists;
+incomplete checks remain unresolved. The independent compiler/input are
+shared, so this is not an external replication or a formal UNSAT proof.
+Hashes pin coverage, excluded completion masses, every input/result and
+the separately measured setup/wrapper phases.
+Five new protocol tests passed in 1.59 seconds before timing, checking
+the translation class, witness rejection, and byte-identical input/row
+counter parity with the frozen wrapper under caps in all three modes.
+Both native binaries rebuilt byte-identically after timings. The historical
+35 targeted and 156 full-suite test records retain their original dates;
+they are not presented as fresh full-suite executions.
+
+\paragraph{Publication assessment.}
+This evidence supports a narrower restricted-census/reproducibility draft
+with a proved spectral specialization. It does not yet support priority or
+competitive-method claims: the full fast-spectral and $pq^2$ algorithms
+remain unaudited, the pool is small and biased, this October 6 portfolio
+contains no positive branch, and external replication is missing. The
+subsequent positive-control subsection closes that validation gap without
+changing the frozen pool. Prefix pruning need
+not improve on leaf filtering; bound-testing overhead must be reported with
+its node reduction. A publishable methods claim needs broader independent
+classes, completed positive controls, complete primary comparisons,
+and comparable external baselines. A future bounded acquisition should
+include unsuccessful strata and opposite row orientations without treating
+heuristic failure as an exclusion. No $p=37$ search is warranted or started.
+
+% P7_PORTFOLIO_RESULTS_END
+
+
+% P7_POSITIVE_RESULTS_BEGIN
+\subsection{Published positive $p=7$ control (October 9, 2026)}
+The previous portfolio and its assessment above are frozen historical evidence.
+The next control is deliberately selected from a published positive example,
+not from the heuristic pool: Section 5.3.3 of \cite{issac} prints two length-63
+rows. The primary publisher's indexed HTML supplied the numerical block;
+direct retrieval returned HTTP 403. \path{results/p7_positive_control/witness.json}
+pins its locator, transcription, signs and verification vectors. We use the
+first printed element as index zero. Standalone nested integer loops verify
+all 62 nonzero PAF sums are $-2$, both row sums are 1, and the combined
+negative-support difference counts are 30 (each block has size 31).
+The printed pair has exactly the prescribed length-seven compression
+\[
+(1,3,3,-3,3,-3,-3),\qquad(1,-3,-3,3,-3,3,3).
+\]
+It therefore validates the prescribed family, beyond merely testing an
+unrelated domain. Its existence is established literature, independently
+reproduced here; trace and linear-complexity assertions are not reverified.
+
+\paragraph{Normalization and count convention.}
+The length-21 rows are minimized independently among shifts $0,7,14$;
+the chosen shifts are 0 and 14. In each binary row the first active minority
+phase is then moved to zero by a further shift of 21. With the convention
+$x'[j]=x[(j+t)\bmod63]$, the recovered primary representative has total
+shifts 21 and 35 and negative masks
+\[
+7677489779817452654,\qquad 5050907891639286294.
+\]
+The resulting intermediate is
+\begin{align*}
+C={}&(-1,-1,-1,-1,1,-3,-1,-1,3,1,1,\\
+ &\hspace{1em}1,-1,-1,3,1,3,-3,1,1,-1),\\
+D={}&(-1,-3,1,1,-3,3,3,1,1,-3,1,\\
+ &\hspace{1em}-1,-1,-1,1,-1,-1,1,1,1,1).
+\end{align*}
+This translation class differs from the four frozen empty classes.
+
+\begin{proposition}
+This normalization preserves every PAF equation, and each anchor-fixed
+pair above $(C,D)$ represents exactly nine ordered fixed-intermediate lifts.
+\end{proposition}
+\begin{proof}
+For any cyclic shift $t$, replacing the summation index $j$ by $j+t$ in
+$\sum_jx[j+t]x[j+s+t]$ preserves $\PAF_x(s)$. A shift by 7 at length 21
+preserves length-seven compression. A binary shift by 21 preserves $(C,D)$
+and subtracts one from each minority phase modulo 3. Since each row has
+active residues, neither nontrivial such shift fixes it. Each independent
+row action is free of size three; their product has size nine. This is the
+existing gauge applied to a known witness and introduces no pruning rule
+or additional exchange, reversal or decimation quotient.
+\end{proof}
+
+\paragraph{Resource gates and controlled recovery.}
+Both rows have 16 active entries, giving $3^{15}=14,348,907$ anchor-fixed
+candidates each. The 400,000-node probes omit table work; in particular
+their mode-zero estimate understates the join cost. Real capped table
+pilots preceded full attempts, with 10-fold empirical timing extrapolations
+of 30.68, 31.65 and 21.95 seconds for off, leaf and prefix modes.
+These pilot caps remain unresolved, not exact branch outcomes.
+The conservative allocation/reallocation envelope is 1.676 GB and the
+storage allowance 100 MB. Full attempts use one worker, a 180-second time
+cap, two billion nodes per row, 14,348,907 stored masks and 100,000 solutions.
+Three serial batches shuffle the three modes with seeds 20261009--20261011.
+The native implementation and compiler binary hashes match the frozen
+baseline; only the control harness is new. The old virtual-environment
+launcher could not find its base executable, so the bundled Python 3.12.14
+was used. Timing phases are measured separately; no concurrent experiment
+ran, while background OS load and clock frequency were not controlled.
+
+\begin{center}
+\begin{tabular}{lrrr}
+\toprule
+Mode & Engine median (s) & Range (s) & Wrapper median (s)\\\midrule
+Off & 15.298 & 14.060--15.825 & 15.364\\
+Leaf spectral & 2.477 & 2.259--3.582 & 2.520\\
+Prefix spectral & 2.212 & 1.730--2.591 & 2.256\\
+\bottomrule
+\end{tabular}
+\end{center}
+All nine trials exhaust to identical complete lists containing the published
+control: three anchor-fixed pairs and 27 ordered lifts of this fixed
+intermediate. \path{solutions.json} expands and verifies all 27 distinct
+ordered masks; repeated PAF keys retain every mask in the native table.
+This is a conditional count, not a count of the entire prescribed family.
+Leaf/prefix timing ranges overlap, so their median order supports no
+universal ranking. Median setup costs are 0.006--0.007 seconds; native
+process time minus engine time is 0.031--0.051 seconds; witness validation
+adds approximately 0.003 seconds. Exact per-run phases are retained.
+Leaf and prefix modes retain 35,223 and 34,746 masks on the two sides.
+Prefix mode excludes 10,821,357 and 10,850,193 completion masses before
+leaves. Every exhausted row satisfies its exact coverage identity.
+The three batch walls are 22.31, 20.75, 19.26 seconds. The largest native process peak is 744.65 MB.
+
+The independent full-PAF pilot enumerates 200,000 candidates and estimates
+92.39 seconds with a tenfold margin and a 1.118 GB envelope. After all
+native sets agree, the unchanged binary-column enumerator exhausts both
+full row domains using all 31 nonredundant PAF shifts and support-intersection
+keys, with no spectral or projected filter.
+It returns the same three pairs and ordered count 27 in 23.16 seconds, with peak 274.91 MB.
+Standalone definition/SDS checks additionally verify every emitted
+pair at all 62 nonzero shifts, including the 27 expanded ordered pairs.
+This is independent implementation evidence, sharing input and compiler,
+not external replication or a formal exhaustion certificate. The four old
+empty classes and all frozen census/source manifests remain byte-identical;
+the baseline read-only audit checked 5,258 manifest entries without rerunning
+the censuses. The new complete list closes the positive-control gap but
+does not create an unbiased five-class sample or a global $p=7$ census.
+
+\paragraph{Full-algorithm access and revised publication assessment.}
+The primary abstract of \cite{perera} describes arbitrary odd-length DFT
+computation using matrix spectra and an FFT-like algorithm; \cite{pq2}
+describes fixed partial sums at length $pq^2$ with decimation, coset and SDS
+techniques. Neither full algorithm was retrieved. Publisher HTML/PDF,
+author/institutional records, targeted repository/preprint/code searches,
+and public Crossref/OpenAlex location discovery were checked lawfully.
+The institutional record for \cite{perera} links only the DOI; metadata
+lists only publisher locations for both papers. The advertised publisher
+API returns only core metadata in its default view and HTTP 401 for FULL
+view. The $pq^2$ paper is marked CC BY 4.0, but its algorithm body remains
+inaccessible in this session. Failed discovery does not prove no copy exists.
+\path{literature_access.json} records the limits; no missing procedure is
+assumed absent and no paywall workaround or author messaging is used.
+
+\begin{longtable}{p{.18\linewidth}p{.33\linewidth}p{.38\linewidth}}
+\toprule
+Dimension & This audited implementation & Limits of primary comparison\\\midrule
+\endhead
+Domain & Fixed prescribed branch at $L=27,45,63$. & Fast spectral abstract:
+odd lengths; $pq^2$ abstract: fixed partial sums. Exact domains unaudited.\\
+Symmetry & Ordered rows; intermediate translations and free phase anchors. &
+Fast spectral quotient unknown; $pq^2$ mentions decimation/cosets, exact
+quotient and multiplicities unknown.\\
+Pruning & Necessary PSD ceiling, rational partial rectangles, strict rejection. &
+Fast spectral matrix/DFT framework known from abstract; detailed search
+tests in both algorithms unknown.\\
+Matching & Exact projected PAF keys, complete buckets, full collision checks. &
+Both full matching algorithms inaccessible.\\
+Lifting & Bijective ternary columns with every cross term and carry. &
+Both full lifting procedures inaccessible; compression is established.\\
+Numerical safety & Certified integer coefficients and final integer PAFs. &
+Error bounds, tolerances and acceptance checks of both algorithms unaudited.\\
+\bottomrule
+\end{longtable}
+
+The strongest defensible contribution remains a restricted census and
+reproducibility artifact: the complete 1,164-class $p=5$ census, four
+conditional empty $p=7$ classes and one complete positive fixed branch,
+with explicit multiplicities, proved specializations and controlled filter
+ablation. Compression, PSD exclusion, matching and published LP(63)
+existence are established; their reproduction here is not a new existence
+result. Priority of the rational prefix rectangle and conditional census
+artifact remains unresolved. A competitive methods or first-method paper
+is not supported. Before submission, obtain full primary algorithms and
+code, compare the historical complete length-45 lists, secure external
+replication and an archival release, confirm authorship and verify PDF
+compilation/layout. Broader predetermined $p=7$ sampling may be needed
+depending on the chosen scope. Evidence gaps take priority over further
+optimization; no extrapolation to $p=37$ or proximity to order 668 follows.
+
+\paragraph{Reproduction.}
+Use the frozen executable hashes; the current harness allows a fresh output
+directory inside the repository. Python 3.12.14 was used in this milestone.
+\begin{verbatim}
+# PowerShell: set to the bundled or an equivalent Python executable.
+$positivePython = 'python'
+$env:HADAMARD_POSITIVE_OUT = 'tmp/p7_positive_replication'
+& $positivePython -m scripts.p7_positive_control setup
+& $positivePython -m scripts.p7_positive_control pilot
+& $positivePython -m scripts.p7_positive_control join-pilot
+& $positivePython -m scripts.p7_positive_control trial 0
+& $positivePython -m scripts.p7_positive_control trial 1
+& $positivePython -m scripts.p7_positive_control trial 2
+& $positivePython -m scripts.p7_positive_control independent-pilot
+& $positivePython -m scripts.p7_positive_control independent
+& $positivePython -m scripts.p7_positive_control audit
+Remove-Item Env:HADAMARD_POSITIVE_OUT
+\end{verbatim}
+The initial and timing protocol snapshots preserve the actual source hashes
+used before later audit refinements. Fresh runs use the current script;
+their caps remain unresolved if exhaustion fails. See
+\path{research/p7_positive_control.md} for exact runtime/build paths and the
+lawful metadata probe command. The positive-control manifest pins all
+inputs, complete sets, pilot limits, timing phases and literature receipts.
+
+% P7_POSITIVE_RESULTS_END
+
+% PUBLICATION_GAP_BEGIN
+\section{Publication-gap audit and revised contribution}\label{sec:gap}
+This October 10, 2026 audit starts from commit
+\path{e76084054f594f2af89831cc377d88994ba7b4e6} on
+\path{agent/order-428-reproduction}. All 5,330 pre-existing manifest entries
+matched before editing. The frozen census, four empty $p=7$ classes, positive
+control, source files and provenance records are preserved byte for byte.
+The new evidence is in \path{results/publication_gap_audit/}; the complete
+access ledger and reproduction procedure are in
+\path{research/publication_gap_audit.md}.
+
+\paragraph{What could be original.}
+The strongest defensible candidate is an auditable conditional lifting
+dataset and software workflow: every binary solution fiber over the 1,164
+prescribed intermediate translation classes at $p=5$, with exact
+multiplicities, explicit symmetry maps, and incidence with the 63 classes
+under the published equivalence; five individually exhausted $p=7$ fibers
+provide four negative cases and one published positive control. The rational
+spectral enclosures and exact matching are useful checked specializations.
+Neither their priority nor the dataset's first-publication status is
+established. These are candidate artifact contributions, not a new existence
+result, a first classification, or a new general search principle.
+
+\paragraph{Access boundary and comparison.}
+Fresh publisher HTML and PDF requests for \cite{perera,pq2} returned HTTP 403.
+Public OpenAlex records listed only the publisher DOI for each, with no PDF
+location. The fast-spectral institutional record linked only its DOI.
+Exact-title, author, arXiv and institutional-repository searches located no
+accessible complete algorithm. The Cantabria repository was robots-restricted
+through the web service. The open-access label on \cite{pq2} did not provide
+full-text access in this session. No authors were contacted. Full algorithms,
+code and numerical conventions in these two papers remain unread; abstract
+claims are not used to fill those gaps or infer performance superiority.
+
+\begin{longtable}{p{.20\linewidth}p{.49\linewidth}p{.22\linewidth}}
+\toprule
+Axis & Present implementation & Full \cite{perera,pq2} comparison\\\midrule
+\endhead
+Domain & Fixed prescription; all $p=5$ intermediate classes, five selected
+$p=7$ fibers & Unknown beyond headline abstract scope\\
+Symmetry & Two free translation gauges; proved 79-case transfer, also
+directly checked over all 1,164 classes & Unresolved\\
+Pruning & Necessary rational PSD enclosures and exact PAF; no conjectural
+trace or complexity exclusions & Unresolved\\
+Matching & All masks retained, full-key equality on hash collisions,
+all matching bucket combinations & Unresolved\\
+Lifting & $p\to3p\to9p$ with complete minority-phase parameterization & Unresolved\\
+Numerics & Integer acceptance keys; outward error bounds; strict rejection
+retains threshold equality & Unresolved\\
+\bottomrule
+\end{longtable}
+
+Accessible text still establishes substantial prior overlap. The indexed
+primary Section 4.1 of \cite{issac} gives the complete listed sequence of
+intermediate generation, decimation reduction, conjectural trace/complexity
+discard and binary lifting; its C source was offered on request. We do not
+adopt the conjectural discard or infer undocumented bucket counts. Appendix A's
+displayed DFT helper uses \texttt{evalf}; a search-wide numerical error bound
+was not supplied in the accessible sections. This is a predecessor comparison,
+not a reading of the later $pq^2$ algorithm.
+In \cite[Section 3.4, Algorithm 1]{lumsden}, every equal-signature bucket
+combination is retained; Sections 4.1--4.2, Theorem 3 and Algorithms 2--3
+give multilevel compression and recursive preimages. Section 3.4 explicitly
+rounds PSD values to nearest integers and checks matches. That text addresses
+false positives, but supplies no rigorous rounding bound excluding missed
+matches. We do not assert an observed failure. Exact integer PAF keys avoid
+this issue in our implementation. The periodic Golay domain is distinct;
+its equivalence and timing results are not binary Legendre baselines.
+
+\paragraph{Historical data and conditional branch structure.}
+Both the journal and author copies of \cite{fletcher} were obtained.
+Printed p.\ 83, below Table 3, offers the complete lists on request;
+the author version's PDF p.\ 8 says the same and describes compatible
+decimation-class records. The public copies contain samples, not all 3,058
+representatives. Author publication/library pages and targeted searches did
+not recover the full list. Thus no historical record-by-record crosswalk is
+claimed, and our 63 local labels are not historical record identifiers.
+
+An exact reorganization of the frozen solutions gives the following new
+incidence summary; no new binary solutions were generated for this table.
+\begin{center}
+\begin{tabular}{rr}\toprule
+Distinct LP classes reached by one intermediate class & Intermediate classes\\\midrule
+0 & 460\\ 1 & 496\\ 2 & 160\\ 3 & 48\\\bottomrule
+\end{tabular}
+\end{center}
+There are 960 nonzero intermediate/LP-class incidences: 928 contain three
+phase-gauged solutions, and 32 contain six. Of the 63 LP classes, 57 meet
+16 intermediate classes each and six meet eight each. The exact incidence
+matrix, local canonical masks and multiplicities are retained in
+\path{conditional_incidence.json}. This records failed intermediates,
+fiber sizes and the distribution of equivalent lifts across branches.
+A global count alone does not display this information, but a complete
+historical representative list with exact orbit expansion and compression
+could recover it. It is a refinement of established classification data,
+not logically new existence information. Whether that refinement was
+previously computed or published remains unresolved.
+
+The pending crosswalk must preserve the historical encoding and record IDs,
+decode any compatible-decimation-class format, validate PAFs, normalize row
+sums and canonicalize under the actual Section 5.4 operations. It must then
+compare keys and expand the relevant orbits to recover the prescribed fibers.
+Count agreement alone cannot identify representatives or certify the list.
+
+\paragraph{Fresh second-toolchain replication.}
+The unchanged \path{src/full_paf_audit.cpp} was compiled with Clang 22.1.8,
+Microsoft STL 14.44.35207, \texttt{lld-link}, and \texttt{libcmt}, separately
+from GCC 15.2.0/MinGW/libstdc++. The compiler required \texttt{-include string}
+because the original source relied on a transitive header include. This
+compiler flag preserves the frozen source. The compiler driver record pins
+headers, target, linker, flags and executable hash.
+This is a separate local compiler/STL/runtime execution of the existing
+independent full-PAF implementation. It is not a third newly written
+enumerator, a different machine, or external independent replication.
+The Python runtime and input catalogue are shared. First-stage catalogue
+completeness retains its previous audit; it was not independently rederived.
+
+The six-stratum $p=5$ pilot projected 577.31 seconds with a twofold margin.
+Capped $p=7$ prefixes gave tenfold-margin estimates of 196.76--919.48 seconds,
+omitting large-table sort/lookup costs; these are not completion guarantees.
+The admitted trial used one worker, 240-second native and 250-second hard
+per-case caps, a 1,500-second controller guard, a 2-GB memory allowance and
+100-MB output allowance. The conservative table allocation was 805,306,368
+bytes. Stopped pilots remained unresolved, never empty.
+
+All 1,164 $p=5$ branches were directly exhausted in 364.78
+seconds, matching every one of the 2,976 canonical mask pairs and the count
+histogram $(460,464,192,48)$ for ordered counts $(0,27,54,81)$.
+All five $p=7$ classes were directly exhausted in 322.91
+seconds, with the same four empty lists and the same three positive
+anchor-fixed pairs (27 ordered fixed-intermediate lifts). No full trial hit
+a cap. Maximum native peak working sets were
+5.95 MB and
+388.58 MB respectively (decimal MB).
+The read-only audit compared all exact lists and coverage counters and
+checked all 2,979 reported pairs by full integer PAF and compression.
+It verified preservation of 5,513 frozen result files.
+
+Each command below is a separate bounded stage, run serially from the root:
+\begin{verbatim}
+.venv/Scripts/python.exe -m scripts.publication_gap_replication baseline
+.venv/Scripts/python.exe -m scripts.publication_gap_replication build
+.venv/Scripts/python.exe -m scripts.publication_gap_replication pilot
+.venv/Scripts/python.exe -m scripts.publication_gap_replication p5
+.venv/Scripts/python.exe -m scripts.publication_gap_replication p7
+.venv/Scripts/python.exe -m scripts.publication_gap_replication audit
+.venv/Scripts/python.exe -m scripts.publication_gap_incidence
+\end{verbatim}
+For external replication, use a fresh checkout/output location, record the
+environment and any launcher adaptations, rerun pilots under the same limits,
+and compare full solution sets rather than counts alone. The research note
+specifies Linux build adaptations and warns that the native Windows memory
+counter is unmeasured on other systems. No Linux run is claimed.
+
+\paragraph{Revised submission assessment.}
+The evidence supports developing a narrow reproducibility/software paper
+centered on conditional fibers and auditable exact computation. A novel
+methods or general classification research-paper claim is not supported.
+Submission remains gated by the full algorithm/priority comparison,
+historical-list crosswalk, external replication and archival release,
+authorship/expository review, and visual PDF layout review. The built-in
+compiler status for the October 12 source is recorded below; visual layout
+inspection remains pending. The residual margin obstruction rejects no
+frozen empty branch and supports no upgrade of this assessment.
+No standalone formal exhaustion certificate is available. Broader
+predetermined $p=7$ strata are needed for statistical/scaling claims, not
+as a substitute for these evidence gaps. More optimization is not the next
+priority. No $p=37$ search follows from this assessment.
+
+\paragraph{New evidence hashes.}
+The supplementary manifest \path{results/publication_gap_audit/manifest.json}
+pins all new records and scripts; \path{paper/artifact_manifest.json} pins
+the saved manuscript and that manifest. SHA-256 identifies evidence, not
+mathematical exhaustion. Principal hashes follow.
+\begin{description}
+\item[\normalfont\footnotesize\path{build.json}] \hfill\break
+{\footnotesize\texttt{24b9a95f3f2d260b5a3debc67ef9837621f38a296c75e31adecedea306541171}}
+\item[\normalfont\footnotesize\path{resource_plan.json}] \hfill\break
+{\footnotesize\texttt{0829c0215b2ef04d1c13b4f386aef69e8d658c51e135d76b54d5f74f9ccaf1c3}}
+\item[\normalfont\footnotesize\path{p5_summary.json}] \hfill\break
+{\footnotesize\texttt{3b8a47e49eeb88947dbbf7b6af61848acd5373ef8dd310d32b48f0099a1cf967}}
+\item[\normalfont\footnotesize\path{p7_summary.json}] \hfill\break
+{\footnotesize\texttt{91f93b1a994c645e8738985fc457f38dd7a1c6498b2b5619c4675f37c6f38808}}
+\item[\normalfont\footnotesize\path{replication_audit.json}] \hfill\break
+{\footnotesize\texttt{d3cbf436c431797ce73f5f993d4e87f31192c3b814c54b19f80401c88b4785eb}}
+\item[\normalfont\footnotesize\path{conditional_incidence.json}] \hfill\break
+{\footnotesize\texttt{24960211ab5711cb0bcfd5e9f8556a905b4b096aba5e5da15c7364c8ac431740}}
+\item[\normalfont\footnotesize\path{access_probes.json}] \hfill\break
+{\footnotesize\texttt{ac0c68980ef27b0c23de152d415a20c2649824ca6a66fbc83fd93d003e127fde}}
+\end{description}
+% PUBLICATION_GAP_END
+
+\section{Reproduction and outstanding work}
+Commands below are issued from the repository root using the recorded
+Python environment. This standalone source targets the native LaTeX editor;
+no external bibliography or data input is needed. The built-in desktop
+compiler result for the October 12 source and its saved-source hash are
+recorded in \path{results/residual_obstruction/latex_status.json}.
+The earlier successful October 11 compile and publication-gap compiler
+records are preserved separately and do not validate these later edits.
+Visual inspection of the rendered PDF and layout remains unverified.
+The residual study is reproduced in a disposable checkout with:
+\begin{verbatim}
+.venv/Scripts/python.exe -m scripts.residual_compression_obstruction pilot
+.venv/Scripts/python.exe -m scripts.residual_compression_obstruction census
+.venv/Scripts/python.exe -m scripts.audit_residual_obstruction
+.venv/Scripts/python.exe -m pytest tests/test_residual_obstruction.py -q
+\end{verbatim}
+These commands overwrite only the new study's outputs. The commands below
+document earlier studies and need not be rerun to verify their frozen records.
+\begin{verbatim}
+.venv/Scripts/python.exe -m scripts.classify_p5_lifts --pilot --workers 4
+.venv/Scripts/python.exe -m scripts.classify_p5_lifts --full --workers 3
+.venv/Scripts/python.exe -m scripts.benchmark_phase_controls
+.venv/Scripts/python.exe -m scripts.benchmark_phase_isolated_joins
+.venv/Scripts/python.exe -m scripts.audit_p5_classification
+.venv/Scripts/python.exe -m scripts.audit_ternary_phase
+.venv/Scripts/python.exe -m scripts.benchmark_phase_propagation pilot --workers 3
+.venv/Scripts/python.exe -m scripts.benchmark_phase_propagation full --workers 3
+.venv/Scripts/python.exe -m scripts.benchmark_phase_propagation controls
+.venv/Scripts/python.exe -m scripts.crosswalk_p5_equivalence
+.venv/Scripts/python.exe -m scripts.audit_phase_propagation
+.venv/Scripts/python.exe -m scripts.benchmark_spectral_join pilot --workers 3
+.venv/Scripts/python.exe -m scripts.benchmark_spectral_join full --workers 3
+.venv/Scripts/python.exe -m scripts.benchmark_spectral_join controls
+.venv/Scripts/python.exe -m scripts.benchmark_spectral_join p7
+.venv/Scripts/python.exe -m scripts.audit_saved_p7
+.venv/Scripts/python.exe -m scripts.audit_spectral_join
+.venv/Scripts/python.exe -m scripts.p7_study acquire
+.venv/Scripts/python.exe -m scripts.build_p7_study
+.venv/Scripts/python.exe -m scripts.p7_study pilot
+.venv/Scripts/python.exe -m scripts.p7_join_pilot
+.venv/Scripts/python.exe -m scripts.p7_study trial --trial 0
+.venv/Scripts/python.exe -m scripts.p7_study trial --trial 1
+.venv/Scripts/python.exe -m scripts.p7_study trial --trial 2
+.venv/Scripts/python.exe -m scripts.p7_study independent-pilot
+.venv/Scripts/python.exe -m scripts.p7_study independent
+.venv/Scripts/python.exe -m scripts.check_p7_invariants
+.venv/Scripts/python.exe -m scripts.p7_study audit
+.venv/Scripts/python.exe -m pytest -q --basetemp=tmp/pytest_paper
+.venv/Scripts/python.exe -m scripts.update_paper_results
+.venv/Scripts/python.exe -m scripts.verify_spectral_paper
+\end{verbatim}
+The pilot and full classification are separate bounded runs. Independent
+auditing also has its own bounded command. Benchmark metadata records exact
+solver arguments, executable hashes, deterministic restart settings, proof
+locations, timestamps, and measurements. Failed or censored trials remain
+in the record. No command above initiates a length-333 search.
+The native pilot uses the installed GNU C++ 15.2.0 compiler, with
+\texttt{-std=c++17 -O3 -mpopcnt -static -Wl,--no-insert-timestamp -lpsapi}.
+The current launcher targets Windows x86 with popcount support and PSAPI
+memory measurements; the second local Clang build is audited in
+Section~\ref{sec:gap}; other operating systems and hardware remain untested.
+Generated executables live under \path{tmp/}; compiler, executable, source,
+and command hashes are recorded in the frozen metadata.
+Historical first-stage and phase runs are reproduced by
+\path{scripts/benchmark_intermediate_scaling.py} and
+\path{scripts/benchmark_ternary_phase.py}; their metadata records the complete
+commands, including solver/verifier paths and ten-second search limits.
+
+% ARTIFACT_HASHES_BEGIN
+The following SHA-256 values pin the principal evidence. The census
+manifest also pins every branch record and symmetry map. The supplementary
+\path{paper/artifact_manifest.json} pins the manuscript, scripts, tests,
+and supporting records; it is regenerated only after the paper is updated.
+\begin{description}
+\item[\normalfont\footnotesize\path{results/intermediate_scaling/metadata.json}] \hfill\break
+{\footnotesize\texttt{4e1e24fc535a2f818cd45cf28556b56fa4cea0c6817fd4fe55b36e3287903f90}}
+\item[\normalfont\footnotesize\path{results/ternary_phase/metadata.json}] \hfill\break
+{\footnotesize\texttt{913e45f6c290bb27c603dd996446aab3b3d324ba82ccee7f51d5a0664f88a42f}}
+\item[\normalfont\footnotesize\path{results/p5_branch_portfolio/canonical_branches.json}] \hfill\break
+{\footnotesize\texttt{6b8123e1c398fdc408c6efff323739bacf168468b93db46a4228e0a8d94ba35c}}
+\item[\normalfont\footnotesize\path{results/p5_classification/classification.json}] \hfill\break
+{\footnotesize\texttt{8cf7c10075511c30a765c4bb36aa37924a6af8e835cd86f2ef82a98ff7bfe1ea}}
+\item[\normalfont\footnotesize\path{results/p5_classification/audit.json}] \hfill\break
+{\footnotesize\texttt{0355f1de249a049db9bb4a88a78397860ed47f15605c3ec35f9431908c5b01d2}}
+\item[\normalfont\footnotesize\path{results/p5_classification/manifest.json}] \hfill\break
+{\footnotesize\texttt{57b17a1f512da294eba7e285b38bb311978b8a4af6cb8b0e75239ae7d4a18b75}}
+\item[\normalfont\footnotesize\path{results/phase_controls/metadata.json}] \hfill\break
+{\footnotesize\texttt{2dc999add128bb32855ca0ceb8da43ab22348e591f5d8ba73e6005fa6c010b7c}}
+\item[\normalfont\footnotesize\path{results/phase_controls/isolated_joins.json}] \hfill\break
+{\footnotesize\texttt{7f2eac56399470852f1ec3ebefab7a6dc8d2b51d88539c5b0bd1d20dd0602265}}
+\item[\normalfont\footnotesize\path{results/phase_controls/audit.json}] \hfill\break
+{\footnotesize\texttt{6761c4ec7c1124437383da0097342ec3fe77a32be013c652486b7ebfb00a3702}}
+\item[\normalfont\footnotesize\path{scripts/classify_p5_lifts.py}] \hfill\break
+{\footnotesize\texttt{17d68b9a74253485bb4b82d716db176ccf10c55b76c591ec229b1db23c5bb367}}
+\item[\normalfont\footnotesize\path{src/ternary_phase.py}] \hfill\break
+{\footnotesize\texttt{132c62ad74fe8e7d13b79de3e6b74ea648ab91da8073722a6e7cc8063bb235dc}}
+\item[\normalfont\footnotesize\path{results/phase_propagation/metadata.json}] \hfill\break
+{\footnotesize\texttt{ff164e24c20872680b6320eef39177a3c02049b0d70246759483ec127c7af716}}
+\item[\normalfont\footnotesize\path{results/phase_propagation/controls.json}] \hfill\break
+{\footnotesize\texttt{f071b3eadd854b716280134eb6638f618265071f6d56588cc750f1e9e821dfc8}}
+\item[\normalfont\footnotesize\path{results/phase_propagation/census_validation.json}] \hfill\break
+{\footnotesize\texttt{1fae392f84564e8f04a4f1e57adf7da4e27a8120216cc23df2b62d67a46c6cbe}}
+\item[\normalfont\footnotesize\path{results/phase_propagation/equivalence_crosswalk.json}] \hfill\break
+{\footnotesize\texttt{8b1f02e6a3a97ae2231dfdc2d3936a6715b3fa8320d3ea3a9f27b8723a660b50}}
+\item[\normalfont\footnotesize\path{results/phase_propagation/audit.json}] \hfill\break
+{\footnotesize\texttt{17c2451ce30046633060d2217e381b4ab1ba039ec68b4d5c950471584669a3f2}}
+\item[\normalfont\footnotesize\path{results/phase_propagation/manifest.json}] \hfill\break
+{\footnotesize\texttt{de757e2b62e6da07aa9ff5777b46bc586192cab827a794ca25bb9f9d7d851a27}}
+\item[\normalfont\footnotesize\path{results/spectral_join/pilot.json}] \hfill\break
+{\footnotesize\texttt{740ed9dc90e7c9f7204b32fa7cb57196c1eebb7414a4373b67e2b48022dddcff}}
+\item[\normalfont\footnotesize\path{results/spectral_join/metadata.json}] \hfill\break
+{\footnotesize\texttt{41ecc4ee0680f76364b77aebd2103a983e3b321eceacf8d31e233d03dc492d82}}
+\item[\normalfont\footnotesize\path{results/spectral_join/controls.json}] \hfill\break
+{\footnotesize\texttt{757de3c0f978f8b2dd1689fffc8444ec7f64bc44689a0053afc67a4d65f110bb}}
+\item[\normalfont\footnotesize\path{results/spectral_join/p7_metadata.json}] \hfill\break
+{\footnotesize\texttt{0617942da643f3614d639ed086e3c7534bca41e1492f3ed5216bdbcd12c05f98}}
+\item[\normalfont\footnotesize\path{results/spectral_join/coefficients_63.json}] \hfill\break
+{\footnotesize\texttt{8d1faf4921c4d3959016ee816970fe5deee884ad63b85b20c8826a85c4108f3e}}
+\item[\normalfont\footnotesize\path{results/spectral_join/full_paf_p7.json}] \hfill\break
+{\footnotesize\texttt{87c2d69fa4ae97fce25ceb447c0db2cbef8fafc8e3fd36149a35c9920f1c89e5}}
+\item[\normalfont\footnotesize\path{results/spectral_join/independent_audit.json}] \hfill\break
+{\footnotesize\texttt{baeb2f8222f30a363c3c06dc19f2d17e494108c62d50c48552e8e29b0af3e4fa}}
+\item[\normalfont\footnotesize\path{results/spectral_join/audit.json}] \hfill\break
+{\footnotesize\texttt{27bc160182a6799a9b31d157c06f82d7640b5b3d06c89cfef7f90177ccf0d9a3}}
+\item[\normalfont\footnotesize\path{results/spectral_join/manifest.json}] \hfill\break
+{\footnotesize\texttt{39e56606c32b603d74e983471ebc4d98dea9d361b8ffaf570d7738e5c863d682}}
+\item[\normalfont\footnotesize\path{results/p7_portfolio/starting_evidence.json}] \hfill\break
+{\footnotesize\texttt{7a03f22ba8184da092a42c1b5f9d680c1f86342a0d711d0ff9a6844c1f4f4ad9}}
+\item[\normalfont\footnotesize\path{results/p7_portfolio/literature_access.json}] \hfill\break
+{\footnotesize\texttt{56fc86179152087f16e683881701d6ac83449d84b0f600b3458a9947a3f563b6}}
+\item[\normalfont\footnotesize\path{results/p7_portfolio/acquisition.json}] \hfill\break
+{\footnotesize\texttt{70529a711430db3af3a59307ce96f50ec6b17806ed8c5f130403c0768f446051}}
+\item[\normalfont\footnotesize\path{results/p7_portfolio/portfolio.json}] \hfill\break
+{\footnotesize\texttt{89ddeb0ec8a73747779b6f12886caa663a42b51e2ffb1939c8bf353f77ef1b49}}
+\item[\normalfont\footnotesize\path{results/p7_portfolio/pilot.json}] \hfill\break
+{\footnotesize\texttt{3739e808a786b1c072e4f31cca3f4aabba0af4038d17be46372cf9ab87e1f0f8}}
+\item[\normalfont\footnotesize\path{results/p7_portfolio/join_pilot.json}] \hfill\break
+{\footnotesize\texttt{cd4b56046b24e69c837cbb86a97e7372617c499dac1fb57f7361011a2c3199c3}}
+\item[\normalfont\footnotesize\path{results/p7_portfolio/summary.json}] \hfill\break
+{\footnotesize\texttt{b681c2e4d26dbeb39c03ee96bc6995c1509b0fe2a58de7f2b4348c56c750a3d7}}
+\item[\normalfont\footnotesize\path{results/p7_portfolio/independent.json}] \hfill\break
+{\footnotesize\texttt{bd93a12b168abedec829aa93b3336c49b2f8b214c2c7e763620db5d3fa9b6bb0}}
+\item[\normalfont\footnotesize\path{results/p7_portfolio/publication_assessment.json}] \hfill\break
+{\footnotesize\texttt{08f406a47017d51fcd64ec32a2638c49eda98ec3eca03080fb5f80d3f16fdda2}}
+\item[\normalfont\footnotesize\path{results/p7_portfolio/audit.json}] \hfill\break
+{\footnotesize\texttt{f8431354917f8b7d377978b8b7e3d3a8016547ad94f783489b76e0bf05a2a63f}}
+\item[\normalfont\footnotesize\path{results/p7_portfolio/manifest.json}] \hfill\break
+{\footnotesize\texttt{40fe52a4f632660d5e786ffb23cc50b0cdff464e0aecf0b2b8cd29fa5724e8a7}}
+\item[\normalfont\footnotesize\path{results/p7_positive_control/baseline.json}] \hfill\break
+{\footnotesize\texttt{d681fe88d3c08b5d5b8176900978d72a9fe08d54f8709324a113debd87c77b7f}}
+\item[\normalfont\footnotesize\path{results/p7_positive_control/witness.json}] \hfill\break
+{\footnotesize\texttt{f2b7a2479c0c25c715ad25541bb99a1ba92f0f80362965cc31928d5d12362cfc}}
+\item[\normalfont\footnotesize\path{results/p7_positive_control/pilot.json}] \hfill\break
+{\footnotesize\texttt{22704789ab6abb18f0963d72a3c3ec021a7b149569a310bb06fa5abc8f528f24}}
+\item[\normalfont\footnotesize\path{results/p7_positive_control/join_pilot.json}] \hfill\break
+{\footnotesize\texttt{3037c96be60cf08d887275831ec2e5ed2debc0f827bfc4bb80310efd89a4a2a2}}
+\item[\normalfont\footnotesize\path{results/p7_positive_control/independent_pilot.json}] \hfill\break
+{\footnotesize\texttt{a64054bb6f5768d5b5f4e373ba005d4d0c8e4455895f3a67f9d10ba10d32bc51}}
+\item[\normalfont\footnotesize\path{results/p7_positive_control/independent/full.json}] \hfill\break
+{\footnotesize\texttt{1ff504f0a5ec93acc739310c6e0cdb0c524c9b333d1ad1090516823fdb87ee03}}
+\item[\normalfont\footnotesize\path{results/p7_positive_control/summary.json}] \hfill\break
+{\footnotesize\texttt{a4d8b65d26f0f1475790576f1023a9b2a52f38f265365ff5709e6d31657813b8}}
+\item[\normalfont\footnotesize\path{results/p7_positive_control/solutions.json}] \hfill\break
+{\footnotesize\texttt{e1909aafacf15059be8c6fb17fb3e4e5c681e49401fe9d40969ef3589b4fe7e6}}
+\item[\normalfont\footnotesize\path{results/p7_positive_control/literature_access.json}] \hfill\break
+{\footnotesize\texttt{ba104e59fe8a44493183bf47a40fcf5711f30363275272d14dca2cedd644ec6d}}
+\item[\normalfont\footnotesize\path{results/p7_positive_control/publication_assessment.json}] \hfill\break
+{\footnotesize\texttt{21846c469d19543b1dbb38f3809e77d46a2ea582598efcf1ff15fb2143fb5c71}}
+\item[\normalfont\footnotesize\path{results/p7_positive_control/audit.json}] \hfill\break
+{\footnotesize\texttt{aa5d645b056f6b0368a23fd3ed929acc4887565eab29e0a5af9d3ba74fcfed8e}}
+\item[\normalfont\footnotesize\path{results/p7_positive_control/manifest.json}] \hfill\break
+{\footnotesize\texttt{401fc0a74866f7f0aa9cac01e18a7d1072ccbb110c553188ae5b5b93d6b184fd}}
+\end{description}
+% ARTIFACT_HASHES_END
+
+
+\paragraph{Open evidence and novelty questions.}
+Before a submission, complete the full-text comparison with the later
+$pq^2$ and fast spectral algorithms, obtain the historical length-45
+representative list to match the 63 converted subset classes, and seek an
+independent external replication. No formal exhaustion certificate is
+provided for enumeration. The current hardware sample and deterministic
+solver settings are too narrow for broad performance claims. The saved $p=7$
+branch and three further portfolio classes are computationally verified
+empty, and the published positive control has a complete conditional lift
+list, while other intermediate branches
+remain unclassified. A successful general
+cross-term-aware decomposition with demonstrated scaling and any applicability
+at $p=37$ remain open.
+
+\begin{thebibliography}{99}
+\bibitem{gale} D. Gale. A theorem on flows in networks.
+\emph{Pacific Journal of Mathematics} 7 (1957), 1073--1082.
+Publisher full text: \url{https://msp.org/pjm/1957/7-2/pjm-v7-n2-p04-p.pdf}.
+\bibitem{turner77} J. Turner, I. Kotsireas, D. Bulutoglu, and A. Geyer.
+A Legendre pair of length 77 using complementary binary matrices with fixed
+marginals. \emph{Designs, Codes and Cryptography} 89 (2021), 1321--1333.
+Primary preprint: \url{https://arxiv.org/abs/2101.10918}.
+\bibitem{kernelissue} Claude with Patrick White (account \texttt{byclaude}).
+A small extension to your id2 classification. Public primary research
+communication, issue 2, July 24, 2026; claim/proof and generalization paragraphs.
+\url{https://github.com/Arthur742Ramos/hadamard-668-multiplier-obstructions/issues/2}.
+\bibitem{kernelreport} A. F. Ramos and contributors.
+A congruence-kernel obstruction for multiplier ID 2. Repository report,
+Theorem, Proof, and Provenance sections; accessed October 11, 2026.
+\url{https://github.com/Arthur742Ramos/hadamard-668-multiplier-obstructions/blob/main/lp333/id2_congruence_kernel/report.md}.
+Its cited affine-symmetry archive, \url{https://doi.org/10.5281/zenodo.21779001},
+was inaccessible in this audit; no verification of its formal proof is claimed.
+\bibitem{brightgolay} C. Bright, I. Kotsireas, A. Heinle, and V. Ganesh.
+Complex Golay pairs up to length 28: a search via computer algebra and
+programmatic SAT. Primary author version (2019).
+\url{https://arxiv.org/abs/1907.11981}.
+\url{https://doi.org/10.1016/j.jsc.2019.10.013}.
+\bibitem{fletcher} R. J. Fletcher, M. Gysin, and J. Seberry.
+Application of the discrete Fourier transform to the search for generalised
+Legendre pairs and Hadamard matrices. \emph{Australas. J. Combin.} 23
+(2001), 75--86.
+\url{https://ajc.maths.uq.edu.au/pdf/23/ocr-ajc-v23-p75.pdf}.
+\bibitem{compression} D. \v{Z}. \DJ{}okovi\'c and I. S. Kotsireas.
+Compression of periodic complementary sequences and applications.
+\emph{Designs, Codes and Cryptography} 74 (2015), 365--377.
+\url{https://doi.org/10.1007/s10623-013-9862-z}.
+Primary preprint: \url{https://arxiv.org/abs/1302.0571}.
+\bibitem{issac} I. S. Kotsireas, A. I. G\'omez, and D. G\'omez-P\'erez.
+On properties of Legendre pairs under compression.
+\emph{ISSAC 2025}, 79--86.
+\url{https://doi.org/10.1145/3747199.3747549}.
+\bibitem{pq2} I. Kotsireas, R. Gallardo-Cava, A. I. G\'omez, and
+D. G\'omez-P\'erez. On the search of binary Legendre pairs of length $pq^2$.
+\emph{J. Symbolic Computation} 138 (2027), 102606; online 2026.
+\url{https://doi.org/10.1016/j.jsc.2026.102606}.
+\bibitem{turner} J. S. Turner, D. A. Bulutoglu, D. Baczkowski, and A. J. Geyer.
+Counting the decimation classes of binary vectors with relatively prime
+length and density. \emph{J. Algebraic Combinatorics} 55 (2022), 61--87.
+\url{https://doi.org/10.1007/s10801-020-00990-z}.
+\bibitem{lebedev} N. Lebedev. Quaternary Legendre pairs of lengths
+42, 46, 52, 58, 66, 72, and 80. Preprint (2026).
+\url{https://arxiv.org/abs/2609.04589}. Methodological comparison only.
+\bibitem{perera} S. M. Perera and I. S. Kotsireas.
+A low-complexity algorithm to search for Legendre pairs.
+\emph{Linear Algebra and its Applications} 721 (2025), 149--171.
+\url{https://doi.org/10.1016/j.laa.2025.01.010}.
+\bibitem{mod5} I. S. Kotsireas, C. Koutschan, D. A. Bulutoglu,
+D. M. Arquette, J. S. Turner, and K. J. Ryan.
+Legendre pairs of lengths $\ell\equiv0\pmod5$.
+\emph{Special Matrices} 11 (2023), 20230105.
+\url{https://doi.org/10.1515/spma-2023-0105}.
+Primary preprint version 3: \url{https://arxiv.org/abs/2111.02105v3}.
+\bibitem{koops} W. Koops, D. Le Berre, M. O. Myreen, J. Nordstr\"om,
+A. Oertel, Y. K. Tan, and M. Vinyals.
+Practically feasible proof logging for pseudo-Boolean optimization.
+\emph{CP 2025}, LIPIcs 340, 21:1--21:27.
+\url{https://doi.org/10.4230/LIPIcs.CP.2025.21}.
+\bibitem{lumsden} T. Lumsden, I. Kotsireas, and C. Bright.
+New results on periodic Golay pairs. Primary preprint, version 3 (2025).
+\url{https://arxiv.org/abs/2408.15611v3}.
+Sections 3.4--5 provide the methodological comparison used here.
+\end{thebibliography}
+\end{document}

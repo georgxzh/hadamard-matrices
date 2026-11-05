@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-10",
+  "method": "Public web search, publisher/author/institutional page reads, public metadata, bounded unauthenticated HTTP probes; no contacts.",
+  "queries": [
+    "\"A low-complexity algorithm to search for Legendre pairs\" pdf",
+    "\"10.1016/j.jsc.2026.102606\"",
+    "\"On the search of binary Legendre pairs\" pdf",
+    "\"A low-complexity algorithm\" \"Legendre\" site:arxiv.org",
+    "\"Legendre pairs\" site:burjcdigital.urjc.es",
+    "\"Legendre pairs\" site:repositorio.unican.es",
+    "\"Legendre pairs\" \"Perera\" pdf -site:researchgate.net -site:sciencedirect.com -site:linkedin.com",
+    "\"Legendre pairs\" \"list\" \"Fletcher\" -site:researchgate.net",
+    "\"Legendre pairs\" \"45\" \"database\"",
+    "\"Legendre pairs\" \"3058\" \"data\"",
+    "\"On properties of Legendre pairs under compression\" \"4\" \"algorithm\""
+  ],
+  "outcome": "No accessible complete fast-spectral/pq-squared algorithms or historical complete LP(45) list located. Negative discovery is session-limited, not proof of nonexistence of copies.",
+  "pages": [
+    {"url": "https://portfolio.erau.edu/en/publications/a-low-complexity-algorithm-to-search-for-legendre-pairs/", "location": "Access to Document", "observed": "DOI link only; 23-page metadata, no full manuscript."},
+    {"url": "https://web.wlu.ca/science/physcomp/ikotsireas/", "location": "CV, Publications link", "observed": "Homepage/CV checked; no target manuscript located."},
+    {"url": "https://documents.uow.edu.au/~jennie/94-04publications.html", "location": "2001 Refereed Journal Articles, item 112", "observed": "Links WEBPDF/2001_02.pdf, not a complete data list."},
+    {"url": "https://documents.uow.edu.au/~jennie/hadamard.html", "location": "Complete page", "observed": "Small-order Hadamard matrix library, not the requested LP(45) list."},
+    {"url": "https://documents.uow.edu.au/~jennie/inequivalent.html", "location": "Complete page", "observed": "Hadamard matrix equivalence counts, not LP(45) representatives."},
+    {"url": "https://ajc.maths.uq.edu.au/pdf/23/ocr-ajc-v23-p75.pdf", "location": "Sections 5.1-5.4, printed pages 80-83; PDF page 9 visually inspected", "observed": "Complete article accessible. Table 3 has 3058; following paragraph says complete lists available on request. Not the full list."},
+    {"url": "https://documents.uow.edu.au/~jennie/WEBPDF/2001_02.pdf", "location": "PDF page 8, Table 3 and following paragraph", "observed": "Author version accessible. Lists on request in compatible decimation-class format; not the full list."},
+    {"url": "https://doi.org/10.1145/3747199.3747549", "location": "Indexed Theorem 3.2, Section 4 and all Section 4.1 procedure steps; Appendix A displayed DFT helper", "observed": "Primary algorithm sections read through indexing; direct full HTML unavailable, figures/C source not audited. Two successive lifts, decimation reduction, conjectural trace/complexity filter; code on request."},
+    {"url": "https://arxiv.org/html/2408.15611v3", "location": "Sections 2, 3.4 Algorithm 1, 4.1-4.2 Theorem 3 and Algorithms 2-3, 5", "observed": "Full accessible algorithm text: all matching bucket combinations, recursive lifting, equivalence filtering. Section 3.4 rounds PSD values and validates matches; a rigorous missed-match error bound is not stated there."}
+  ],
+  "limitations": ["Web service reported robots restriction for repositorio.unican.es.", "Publisher HTML/PDF probes returned 403 for both target papers despite pq-squared open-access metadata.", "Prior October 9 publisher API FULL attempts were 401; not repeated or treated as algorithm access.", "Some targeted queries returned irrelevant results or this repository itself; neither is independent evidence."]
+}

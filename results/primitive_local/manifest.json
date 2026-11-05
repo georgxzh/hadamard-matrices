@@ -1,0 +1,61 @@
+{
+  "algorithm": "sha256",
+  "base_commit": "beac2a4ca80d8087b01780f677596d60717e178a",
+  "files": [
+    {
+      "bytes": 19067,
+      "path": "research/primitive_local_obstruction.md",
+      "sha256": "2cfe798422906514be367dda5f70c92c20f6007fd4b1dffc0120a81746077b0e"
+    },
+    {
+      "bytes": 2892504,
+      "path": "results/primitive_local/audit.json",
+      "sha256": "8f4fc9739c9a727c2b4e608287bbd22b8a78e7e44778d35bebbfdb29bb66add0"
+    },
+    {
+      "bytes": 1527,
+      "path": "results/primitive_local/next_residue.json",
+      "sha256": "3dd82a672bf6e068cfe18f203015f78bc00dd9aa3405464b5e249522e9b675ff"
+    },
+    {
+      "bytes": 102203,
+      "path": "results/primitive_local/pilot.json",
+      "sha256": "6d0785f364963ac18820c46895bd9df94ae5e09815ada0c021483993bc250774"
+    },
+    {
+      "bytes": 210,
+      "path": "results/primitive_local/positive_pilot.json",
+      "sha256": "c7df5041cdef457961a4f0a370c9f8abfb2f391c95ddf2f74febe78fbaa3aa4f"
+    },
+    {
+      "bytes": 693,
+      "path": "results/primitive_local/test_run.json",
+      "sha256": "d48903da0463ed87bdf23ff2c9195aa7d9e442578001c169e6309679993f4427"
+    },
+    {
+      "bytes": 22635,
+      "path": "results/primitive_local/verification.json",
+      "sha256": "102210b5ec74bbc2bb8c2eac9bf8828b3931e854ec7aa5cea14a5293f7e55336"
+    },
+    {
+      "bytes": 1885,
+      "path": "scripts/package_primitive_local.py",
+      "sha256": "6ab41e1207e64b0237f2f0a8707781e2af3516eedca599b54dd838534a151fb4"
+    },
+    {
+      "bytes": 6188,
+      "path": "scripts/primitive_local_audit.py",
+      "sha256": "3fadb0ee4fcdad54541c82b8821e07c768e1bc5d99b7a4dafcf85fc59246f26b"
+    },
+    {
+      "bytes": 7551,
+      "path": "scripts/verify_primitive_local.py",
+      "sha256": "7ea91797fa306a5fcd8a23f6a40c457039b8dbd9c1d3e49961fffc6de79e6398"
+    },
+    {
+      "bytes": 2662,
+      "path": "tests/test_primitive_local.py",
+      "sha256": "0d60df9d006b5edfd357a9feedfa674bb196b99b7948a3964f7600280c2bf136"
+    }
+  ]
+}

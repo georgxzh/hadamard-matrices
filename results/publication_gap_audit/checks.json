@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-10",
+  "equivalence_tests": {
+    "command": ".venv/Scripts/python.exe -m pytest tests/test_p5_equivalence.py -q --basetemp=tmp/pytest_publication_gap",
+    "result": "2 passed in 2.26 seconds",
+    "scope": "Canonical masks against separate tuple orbit oracle for all length-five mask pairs and a deterministic length-45 census sample.",
+    "warning": "Pytest could not create an existing cache directory; tests passed.",
+    "timing_context": "Ran during serial p7 enumeration. Replication wall times are not controlled benchmark comparisons."
+  },
+  "python_syntax": "All four new scripts passed py_compile.",
+  "full_suite": "Not rerun: no frozen mathematical implementation was changed. Historical full-suite evidence remains historical.",
+  "new_validation": "Full direct native exact-set comparison and definition-level PAF/compression checks are separately recorded in replication_audit.json."
+}

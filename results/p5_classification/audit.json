@@ -1,0 +1,27 @@
+{
+  "canonical_solutions_direct_paf_sds_compression_checked": 2976,
+  "catalog_orbits": 1164,
+  "catalog_regenerated": true,
+  "classification_sha256": "8cf7c10075511c30a765c4bb36aa37924a6af8e835cd86f2ef82a98ff7bfe1ea",
+  "completed_utc": "2026-09-29T01:10:48.899677+00:00",
+  "elapsed_seconds": 13.84269590000622,
+  "limitations": "Audit reads representative exhaustion records; does not perform a third exhaustive binary enumeration. No formal UNSAT proof.",
+  "ordered_solution_histogram": {
+    "0": 460,
+    "27": 464,
+    "54": 192,
+    "81": 48
+  },
+  "peak_working_set_bytes": 98775040,
+  "pilot_direct_comparisons": 21,
+  "published_rank771_witness_present": true,
+  "raw_intermediates": 10476,
+  "representatives_audited": 79,
+  "source_sha256": "273e8469195a5a3b2ddcfcbad6773612749172c6a6f4bf90b5dc5a47a7274231",
+  "status": "passed",
+  "status_counts": {
+    "sat": 704,
+    "verified_empty": 460
+  },
+  "unique_ordered_prescribed_binary_pairs_after_translation_expansion": 241056
+}

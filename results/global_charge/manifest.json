@@ -1,0 +1,51 @@
+{
+  "algorithm": "sha256",
+  "base_commit": "2b7e9c712c23cf859e1bd54146f8a39bc2424724",
+  "files": [
+    {
+      "bytes": 23192,
+      "path": "research/global_charge_coverage.md",
+      "sha256": "544a2c20e81367d38b8568fbbb797740fbca5a75b2a82544efdbe05783382141"
+    },
+    {
+      "bytes": 144093,
+      "path": "results/global_charge/audit.json",
+      "sha256": "e1868834fdb63d2515c738b3be393202a9069c5ebf7120b618d0ba9551562573"
+    },
+    {
+      "bytes": 1631,
+      "path": "results/global_charge/integrity.json",
+      "sha256": "d24b5b7f4fb7483690d9a8211b558d43d246942aabd247e079e932a4ee57ae91"
+    },
+    {
+      "bytes": 21750,
+      "path": "results/global_charge/pilot.json",
+      "sha256": "aa721ccc1cd72d83d8de5a636359f15ef0e0dab31e42cf180cb5ff2894adfa48"
+    },
+    {
+      "bytes": 244,
+      "path": "results/global_charge/tests.json",
+      "sha256": "1cd5f59fe2691999bfdfd351f2e0bd7dde9103e24a2d5326084d73e17519cc23"
+    },
+    {
+      "bytes": 5297,
+      "path": "scripts/audit_global_charge.py",
+      "sha256": "cfdfea75570e53d446c94311f136614f07ddd58bcd81a719fc89fd3293250d4b"
+    },
+    {
+      "bytes": 3162,
+      "path": "scripts/global_charge.py",
+      "sha256": "d416c54ef5aec3f201cb10a416c9404191f2d7f9053eb8d47bfe66c4ff9970c8"
+    },
+    {
+      "bytes": 4941,
+      "path": "scripts/package_global_charge.py",
+      "sha256": "7ae9f7b3d3c4fc6672fe3d601217f3a8f7f3d09366ba39cdda85529c305b4f88"
+    },
+    {
+      "bytes": 3027,
+      "path": "tests/test_global_charge.py",
+      "sha256": "1683d17dd2e1cf4fa004f59d1714e8fd96f730c6672172a16ea01b8c0be16e3a"
+    }
+  ]
+}

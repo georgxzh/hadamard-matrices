@@ -1,0 +1,27 @@
+{
+  "study_date": "2026-10-06",
+  "preferred_scope": "Restricted census/reproducibility paper with proved specializations",
+  "evidence": [
+    "Complete prior 1,164-class prescribed p=5 census with independent exact checks.",
+    "Four frozen p=7 translation classes across three ordered active-count patterns, all empty in 36 completed matched native trials.",
+    "All four p=7 classes independently exhausted using full PAFs and binary-column enumeration.",
+    "Controlled filter ablation with separate setup, engine, process and wrapper timings; prefix testing is not uniformly fastest."
+  ],
+  "established": ["Compression, successive lifting, PSD exclusion, symmetry reduction and matching."],
+  "independent_reproductions": ["Prescribed compression identities and small known lifts", "All frozen p=5 mask sets and prior saved empty p=7 branch"],
+  "potential_specializations": ["Rational partial-phase rectangular PSD exclusion and its reproducible implementation; priority unresolved", "Restricted census artifact under explicit count conventions; prior-list novelty unresolved"],
+  "submission_gaps": [
+    "Full fast-spectral and pq-squared algorithms/code inaccessible; full priority/performance comparison remains missing.",
+    "Historical complete LP(45) representative-list crosswalk and external replication absent.",
+    "Small heuristic-biased p=7 pool; no positive p=7 branch or entire-family classification in this study.",
+    "No formal UNSAT certificate; compiler/input shared by independent implementations.",
+    "Native LaTeX compilation must be checked separately; prior editor compiler environment was unavailable."
+  ],
+  "next_justified_experiments": [
+    "Reproduce a published positive p=7 witness, or acquire a positive branch under a fresh bounded pilot, and audit its complete mask list.",
+    "Broaden predetermined strata and include opposite row orientations without dropping difficult cases.",
+    "Test safe prefix-check cadence or frequency ordering against leaf-only filtering using matched controls; skipping necessary checks weakens pruning without deleting valid lifts."
+  ],
+  "no_claims": ["First algorithm", "New Legendre-pair length", "General scaling", "Uniform superiority of prefix over leaf filtering", "Proximity to H(668)"],
+  "no_p37_search": true
+}

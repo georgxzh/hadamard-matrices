@@ -1,0 +1,167 @@
+{
+  "50": {
+    "run": {
+      "command": [
+        "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\roundingsat\\roundingsat.exe",
+        "--print-sol=1",
+        "--verbosity=1",
+        "--lp=0",
+        "--luby-mult=50",
+        "--proof-log=C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\ternary_phase\\p7_acquisition_r50.pbp",
+        "--time-limit=20",
+        "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\ternary_phase\\p7_acquisition_r50.opb"
+      ],
+      "elapsed_seconds": 21.09892,
+      "exit_code": 4,
+      "externally_timed_out": false,
+      "reported_status": "TIMELIMIT",
+      "peak_working_set_bytes": 17899520,
+      "stdout": {
+        "path": "results/ternary_phase/p7_acquisition_r50_solver.txt",
+        "bytes": 4330,
+        "sha256": "5c5d08eb49fd6f40b963c8978c22fcff2ac39fb961a3fff23054f28b25c4838c",
+        "tracked": true
+      }
+    },
+    "model_stats": {
+      "prescribed_length": 7,
+      "intermediate_length": 21,
+      "base_variables": 84,
+      "square_xor_variables": 42,
+      "product_variables": 1680,
+      "variables": 1806,
+      "square_xor_inequalities": 168,
+      "product_inequalities": 5040,
+      "compression_equalities": 14,
+      "zero_shift_equalities": 1,
+      "correlation_equalities": 10,
+      "symmetry_inequalities": 4,
+      "constraint_records": 5237,
+      "normalized_inequalities": 5262
+    },
+    "opb": {
+      "path": "results/ternary_phase/p7_acquisition_r50.opb",
+      "bytes": 146506,
+      "sha256": "86be10f43409791250db7d8ea3a072b98b645fdc1655ef9ef79345790805a6c1",
+      "tracked": true
+    },
+    "search_proof": {
+      "path": "tmp/ternary_phase/p7_acquisition_r50.pbp",
+      "bytes": 42765169,
+      "sha256": "98c4af0e778ce4d094689208d5351e92561e3293a943432d8887b25d4babbeff",
+      "tracked": false
+    },
+    "search_proof_verified": false,
+    "restart_multiplier": 50
+  },
+  "100": {
+    "run": {
+      "command": [
+        "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\roundingsat\\roundingsat.exe",
+        "--print-sol=1",
+        "--verbosity=1",
+        "--lp=0",
+        "--luby-mult=100",
+        "--proof-log=C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\ternary_phase\\p7_acquisition_r100.pbp",
+        "--time-limit=20",
+        "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\ternary_phase\\p7_acquisition_r100.opb"
+      ],
+      "elapsed_seconds": 21.064863,
+      "exit_code": 4,
+      "externally_timed_out": false,
+      "reported_status": "TIMELIMIT",
+      "peak_working_set_bytes": 17956864,
+      "stdout": {
+        "path": "results/ternary_phase/p7_acquisition_r100_solver.txt",
+        "bytes": 4243,
+        "sha256": "c9e67444e8f3df7e25c75776b765838b8a5244415c1dcceef5b252e8a07cc592",
+        "tracked": true
+      }
+    },
+    "model_stats": {
+      "prescribed_length": 7,
+      "intermediate_length": 21,
+      "base_variables": 84,
+      "square_xor_variables": 42,
+      "product_variables": 1680,
+      "variables": 1806,
+      "square_xor_inequalities": 168,
+      "product_inequalities": 5040,
+      "compression_equalities": 14,
+      "zero_shift_equalities": 1,
+      "correlation_equalities": 10,
+      "symmetry_inequalities": 4,
+      "constraint_records": 5237,
+      "normalized_inequalities": 5262
+    },
+    "opb": {
+      "path": "results/ternary_phase/p7_acquisition_r100.opb",
+      "bytes": 146506,
+      "sha256": "86be10f43409791250db7d8ea3a072b98b645fdc1655ef9ef79345790805a6c1",
+      "tracked": true
+    },
+    "search_proof": {
+      "path": "tmp/ternary_phase/p7_acquisition_r100.pbp",
+      "bytes": 41419675,
+      "sha256": "a60721f657fda0344f458ca02efd8d904b6278dd35db0331dadac2c0cfa9c0c7",
+      "tracked": false
+    },
+    "search_proof_verified": false,
+    "restart_multiplier": 100
+  },
+  "200": {
+    "run": {
+      "command": [
+        "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\roundingsat\\roundingsat.exe",
+        "--print-sol=1",
+        "--verbosity=1",
+        "--lp=0",
+        "--luby-mult=200",
+        "--proof-log=C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\ternary_phase\\p7_acquisition_r200.pbp",
+        "--time-limit=20",
+        "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\ternary_phase\\p7_acquisition_r200.opb"
+      ],
+      "elapsed_seconds": 21.064045,
+      "exit_code": 4,
+      "externally_timed_out": false,
+      "reported_status": "TIMELIMIT",
+      "peak_working_set_bytes": 18034688,
+      "stdout": {
+        "path": "results/ternary_phase/p7_acquisition_r200_solver.txt",
+        "bytes": 4085,
+        "sha256": "23078cd310dc8fc9411a8cd54ee063367329d2d8820044cb466bc584f7806027",
+        "tracked": true
+      }
+    },
+    "model_stats": {
+      "prescribed_length": 7,
+      "intermediate_length": 21,
+      "base_variables": 84,
+      "square_xor_variables": 42,
+      "product_variables": 1680,
+      "variables": 1806,
+      "square_xor_inequalities": 168,
+      "product_inequalities": 5040,
+      "compression_equalities": 14,
+      "zero_shift_equalities": 1,
+      "correlation_equalities": 10,
+      "symmetry_inequalities": 4,
+      "constraint_records": 5237,
+      "normalized_inequalities": 5262
+    },
+    "opb": {
+      "path": "results/ternary_phase/p7_acquisition_r200.opb",
+      "bytes": 146506,
+      "sha256": "86be10f43409791250db7d8ea3a072b98b645fdc1655ef9ef79345790805a6c1",
+      "tracked": true
+    },
+    "search_proof": {
+      "path": "tmp/ternary_phase/p7_acquisition_r200.pbp",
+      "bytes": 34948380,
+      "sha256": "49e70dcfa855a7094072ec48d6b4cadd7662171ec69501e33e76aeff1dd7c172",
+      "tracked": false
+    },
+    "search_proof_verified": false,
+    "restart_multiplier": 200
+  }
+}

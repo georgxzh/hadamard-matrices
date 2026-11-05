@@ -1,0 +1,52 @@
+{
+  "audit_date": "2026-10-06",
+  "candidate_contribution": "A proved rational rectangular exclusion for partial minority-layer assignments, audited restricted branch classification, and controlled matched implementation evidence. No new PSD principle or general complexity claim.",
+  "sources": [
+    {
+      "key": "perera2025fast",
+      "doi": "10.1016/j.laa.2025.01.010",
+      "primary_url": "https://www.sciencedirect.com/science/article/pii/S0024379525000102",
+      "access": "Indexed publisher introduction and Section 3/4 previews; direct HTML fetch 403, full algorithm/PDF inaccessible.",
+      "observed": "Preview identifies a Bluestein/FFTW structured DFT factorization. Full factorization, numeric error handling and search-loop conventions remain unaudited.",
+      "comparison": "Fourier evaluation acceleration and our partial-assignment exclusion address different costs; overlap and performance superiority cannot be ruled on without the complete algorithm and code.",
+      "repository_check": "Author institution metadata at https://portfolio.erau.edu/en/publications/a-low-complexity-algorithm-to-search-for-legendre-pairs/ links to DOI, not an accessible full manuscript. Targeted author/repository/preprint searches found no accessible primary full text."
+    },
+    {
+      "key": "kotsireas2027pq2",
+      "doi": "10.1016/j.jsc.2026.102606",
+      "primary_url": "https://www.sciencedirect.com/science/article/pii/S0747717126000544?dgcid=rss_sd_all",
+      "access": "Indexed publisher abstract/metadata only; direct HTML and PDF attempts failed. Full algorithm inaccessible to this session despite publisher open-access label.",
+      "observed": "Abstract studies compression, decimation, cosets and SDS. No complete phase/pruning implementation comparison possible.",
+      "comparison": "Successive lifting is already established by the accessible ISSAC predecessor. No first pq-squared formulation or novelty claim is warranted."
+    },
+    {
+      "key": "kotsireas2025compression",
+      "primary_url": "https://doi.org/10.1145/3747199.3747549",
+      "access": "Indexed primary Sections 3 and 4.1 reread; printed sequences/figures for LP(63) not recovered or transcribed in this milestone.",
+      "comparison": "Prescribed character compression, successive q-lifts, decimation and matching precede this work. The predecessor's conjectural trace/linear-complexity discard is not used in our exact portfolio."
+    },
+    {
+      "key": "fletcher2001",
+      "primary_url": "https://ajc.maths.uq.edu.au/pdf/23/ocr-ajc-v23-p75.pdf",
+      "access": "Full journal PDF previously read and frozen in source ledger.",
+      "comparison": "PSD exclusion, correlation matching and LP(45) classification are established."
+    },
+    {
+      "key": "bright2019complexgolay",
+      "primary_url": "https://cs.uwaterloo.ca/~cbright/reports/jsc-cgolay.pdf",
+      "access": "Primary author Sections 3.3/3.5 audited in preceding milestone.",
+      "comparison": "Partial-correlation conflicts, spectral exclusion, precomputed contributions and tolerance precede the present periodic binary specialization."
+    },
+    {
+      "key": "lumsden2025periodic",
+      "primary_url": "https://arxiv.org/html/2408.15611v3",
+      "access": "Primary preprint Sections 2 and 3.4--5 audited in preceding milestone.",
+      "comparison": "All matching bucket combinations, recursive uncompression and equivalence filtering are established."
+    }
+  ],
+  "unresolved": [
+    "Priority of rational partial-phase rectangle specialization.",
+    "Full algorithms/code and comparable candidate domains in fast spectral and pq-squared papers.",
+    "Historical LP(45) representative-list crosswalk and independent external replication."
+  ]
+}

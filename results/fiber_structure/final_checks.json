@@ -1,0 +1,14 @@
+{
+  "all_new_python_syntax": "passed",
+  "compiled_source_sha256": "eecce61a7a33ddbab61341866e58faee9d108a664a0295f5194c59530f7e0a2a",
+  "date": "2026-10-11",
+  "evidence_bytes": 447917,
+  "evidence_files": 6,
+  "external_replication": false,
+  "frozen_result_files_unchanged": 6707,
+  "no_p37_search": true,
+  "old_publication_manifest_entries_verified": 1198,
+  "static_verifier_record": "paper/verification_status.json",
+  "storage_scope": "results/fiber_structure excluding final_checks.json and manifest.json",
+  "visual_pdf_layout": "unverified"
+}

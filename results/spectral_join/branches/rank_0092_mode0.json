@@ -1,0 +1,86 @@
+{
+  "canonical_lower_bound": 9,
+  "canonical_pairs": 9,
+  "command": [
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\spectral_join.exe",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\spectral_join\\branches\\rank_0092_mode0.input.txt",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\spectral_join\\branches\\rank_0092_mode0.json"
+  ],
+  "complete": true,
+  "elapsed_seconds": 0.0320147,
+  "mode": 0,
+  "node_limit": 100000000,
+  "ordered_pairs": 81,
+  "peak_working_set_bytes": 8822784,
+  "probe": false,
+  "rows": [
+    {
+      "accepted": 59049,
+      "complete": true,
+      "elapsed_seconds": 0.003616,
+      "excluded_completions": 0,
+      "expected": 59049,
+      "full_rejections": 0,
+      "leaves": 59049,
+      "nodes": 88573,
+      "prefix_conflicts": 0
+    },
+    {
+      "accepted": 177147,
+      "complete": true,
+      "elapsed_seconds": 0.0272663,
+      "excluded_completions": 0,
+      "expected": 177147,
+      "full_rejections": 0,
+      "leaves": 177147,
+      "nodes": 265720,
+      "prefix_conflicts": 0
+    }
+  ],
+  "seconds_limit": 120,
+  "solution_limit": 100000,
+  "solutions": [
+    [
+      463735786278,
+      28664431023704
+    ],
+    [
+      4825204097982,
+      22642383054928
+    ],
+    [
+      4827288865590,
+      21017308146240
+    ],
+    [
+      11473075553158,
+      8883723237998
+    ],
+    [
+      13519496661932,
+      34713824299126
+    ],
+    [
+      15853807453094,
+      11085263849044
+    ],
+    [
+      17883385537460,
+      21016636160604
+    ],
+    [
+      22332837438340,
+      26462621854326
+    ],
+    [
+      24669232210702,
+      16077759833156
+    ]
+  ],
+  "stop_reason": "exhausted",
+  "stored_candidate_limit": 5000000,
+  "stored_side": 0,
+  "table_capacity_bytes": 2883584,
+  "table_entries": 59049,
+  "wrapper_elapsed_seconds": 0.07432089999201708
+}

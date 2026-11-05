@@ -1,0 +1,68 @@
+{
+  "classification_audit": "results/p5_classification/audit.json",
+  "fiber_structure_audit": "results/fiber_structure/audit.json",
+  "fiber_structure_manifest": "results/fiber_structure/manifest.json",
+  "independent_p7_audit": "results/spectral_join/independent_audit.json",
+  "manifest_entries_checked": 6554,
+  "manifests_checked": [
+    "paper/artifact_manifest.json",
+    "results/p5_classification/manifest.json",
+    "results/phase_propagation/manifest.json",
+    "results/spectral_join/manifest.json",
+    "results/p7_portfolio/manifest.json",
+    "results/p7_positive_control/manifest.json"
+  ],
+  "manuscript_sha256": "69e6f7555d5872d78924b60b56dfb494bd3c4c17f8d15899c492089ccc0536a6",
+  "native_latex_compilation": {
+    "date": "2026-10-12",
+    "record": "results/residual_obstruction/latex_status.json",
+    "source_sha256": "69e6f7555d5872d78924b60b56dfb494bd3c4c17f8d15899c492089ccc0536a6",
+    "status": "success",
+    "visual_layout": "unverified"
+  },
+  "no_p37_search": true,
+  "p7_portfolio_audit": "results/p7_portfolio/audit.json",
+  "p7_portfolio_storage_bytes": 1463422,
+  "p7_positive_audit": "results/p7_positive_control/audit.json",
+  "p7_positive_outcome": "Published prescribed LP(63) reproduced; positive fixed branch independently exhausted: 3 canonical / 27 ordered lifts",
+  "p7_positive_storage_bytes": 448415,
+  "p7_protocol_tests": {
+    "command": ".venv/Scripts/python.exe -m pytest tests/test_p7_study.py -q --basetemp=tmp/pytest_p7_protocol",
+    "provenance": "Completed tool output on 2026-10-06, before portfolio timings; verifier does not rerun tests",
+    "reported_result": "5 passed in 1.59s"
+  },
+  "propagation_audit": "results/phase_propagation/audit.json",
+  "publication_gap_audit": "results/publication_gap_audit/replication_audit.json",
+  "publication_gap_manifest_entries_checked": 1198,
+  "residual_obstruction_audit": "results/residual_obstruction/audit.json",
+  "residual_obstruction_manifest": "results/residual_obstruction/manifest.json",
+  "residual_obstruction_tests": {
+    "command": ".venv/Scripts/python.exe -m pytest tests/test_residual_obstruction.py -q --basetemp=tmp/pytest_residual_obstruction",
+    "date": "2026-10-12",
+    "exit_code": 0,
+    "provenance": "Recorded from completed command output, not inferred from source inspection.",
+    "result": "4 passed, 1 warning in 0.25s",
+    "warnings": "Pytest could not create its cache nodeids path (WinError 183). The Python launcher also printed a real-location diagnostic; execution completed successfully."
+  },
+  "spectral_artifact_files": 4796,
+  "spectral_audit": "results/spectral_join/audit.json",
+  "spectral_extension_tests": {
+    "command": ".venv/Scripts/python.exe -m pytest tests/test_spectral_join.py tests/test_phase_propagation.py tests/test_p5_equivalence.py tests/test_ternary_phase.py tests/test_p5_classification.py -q --basetemp=tmp/pytest_spectral_final",
+    "provenance": "Completed tool output on 2026-10-04; verifier records this result and does not rerun tests",
+    "reported_result": "35 passed in 22.29s"
+  },
+  "spectral_storage_bytes": 29654396,
+  "static_tex_checks": "balanced braces/environments; citations/references and result markers resolve; no PDF/layout check",
+  "targeted_extension_tests": {
+    "command": ".venv/Scripts/python.exe -m pytest tests/test_phase_propagation.py tests/test_p5_equivalence.py tests/test_ternary_phase.py -q --basetemp=tmp/pytest_phase_final",
+    "provenance": "Completed tool output; old full-suite result predates this extension",
+    "reported_result": "23 passed in 11.32s"
+  },
+  "ternary_and_controls_audit": "results/phase_controls/audit.json",
+  "tests": {
+    "command": ".venv/Scripts/python.exe -m pytest -q --basetemp=tmp/pytest_paper_audit",
+    "earlier_attempt": "106 passed, 50 setup errors due to system temporary-directory permissions; resolved by repository-local basetemp",
+    "provenance": "Recorded from completed tool output, not a new test execution",
+    "reported_result": "156 passed in 1699.43s (0:28:19)"
+  }
+}

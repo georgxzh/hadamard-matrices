@@ -1,0 +1,49 @@
+{
+  "canonical_lower_bound": 0,
+  "canonical_pairs": null,
+  "command": [
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\spectral_join.exe",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\p7_portfolio\\pilot\\join_a15_17_m1.input.txt",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\p7_portfolio\\pilot\\join_a15_17_m1.json"
+  ],
+  "complete": false,
+  "elapsed_seconds": 0.187668,
+  "mode": 1,
+  "node_limit": 1000000,
+  "ordered_pairs": null,
+  "peak_working_set_bytes": 6111232,
+  "probe": false,
+  "rows": [
+    {
+      "accepted": 5274,
+      "complete": false,
+      "elapsed_seconds": 0.1866336,
+      "excluded_completions": 0,
+      "expected": 4782969,
+      "full_rejections": 661388,
+      "leaves": 666662,
+      "nodes": 1000000,
+      "prefix_conflicts": 0
+    },
+    {
+      "accepted": 0,
+      "complete": false,
+      "elapsed_seconds": 0,
+      "excluded_completions": 0,
+      "expected": 0,
+      "full_rejections": 0,
+      "leaves": 0,
+      "nodes": 0,
+      "prefix_conflicts": 0
+    }
+  ],
+  "seconds_limit": 5,
+  "solution_limit": 1000,
+  "solutions": [],
+  "stop_reason": "node_limit",
+  "stored_candidate_limit": 250000,
+  "stored_side": 0,
+  "table_capacity_bytes": 360448,
+  "table_entries": 5274,
+  "wrapper_elapsed_seconds": 0.2545014999923296
+}

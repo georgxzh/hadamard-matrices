@@ -168,10 +168,17 @@ through the remaining gates:
    not yet combined into a canonical encoding;
 2. **Complete for pipeline validation:** exact proof-check time, memory, and
    proof sizes are recorded; unfixed LP(27) solving remains unsuccessful;
-3. **Complete for a fixed witness:** the published structured LP(45) validates
-   both p=5 models and the exact certificate path; implement and validate the
-   source-backed successive-q formulation next;
-4. request approval with measured resources before any LP(333) solver run.
+3. **Complete at small first-stage parameters:** the conditional successive-q
+   formulation solves p=3 with checked proofs but times out at p=5; exhaustive
+   first-stage generation at p=3 and p=5 finds 792 and 10,476 ordered
+   intermediate pairs. The p=5 set reduces to 1,164 translation orbits; a
+   three-branch exhaustive portfolio finds two satisfiable branches and one
+   branch with no binary pair;
+4. **Complete as a reference formulation:** the non-enumerative p=37
+   first-stage OPB has 49,506 variables and 147,538 records; the exact
+   factor-three projection reduces a future fixed-branch second stage to
+   73,926 variables and 293,372 records, with exhaustive p=3/p=5 validation;
+5. request approval with measured resources before any LP(333) solver run.
 
 This is a research hypothesis, not evidence that the conjectured
 uncompression exists at 333.
@@ -210,8 +217,9 @@ remains, in order:
    the ten locally unreproduced exclusions;
 2. locate and audit the inputs behind the reported 12,017,243 9-compressed
    configurations;
-3. implement the paper's successive-q uncompression as an exact model and
-   require it to reproduce LP(27) and the published LP(45) before any larger
-   solver proposal; the present direct-model LP(27) timeouts prohibit one.
+3. prove and encode first-stage translation canonicalization, then benchmark
+   the first-stage model at p=5 and p=7 with short proof budgets. The current
+   projected second-stage model is smaller but a p=37 branch still has
+   `3^167` paired binary preimages.
 
 No expensive computation is authorized by this recommendation.

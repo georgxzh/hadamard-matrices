@@ -1,0 +1,42 @@
+{
+  "binary_sha256": "00545a4f774e9be6be01daef2ba7618d49000d61807bbfa8e9c76507f7bc76d3",
+  "compiler_sha256": "6a04eb37164c195b14f104a84a679fd5ce855cbc6d49dda0d340362019b8b61d",
+  "elapsed_seconds": 0.5030216000159271,
+  "estimates": [
+    {
+      "estimated_memory_bytes": 506110016,
+      "estimated_seconds_10x": 203.5545512958,
+      "id": "control"
+    },
+    {
+      "estimated_memory_bytes": 302036672,
+      "estimated_seconds_10x": 643.7013107527799,
+      "id": "a14_18"
+    },
+    {
+      "estimated_memory_bytes": 506110016,
+      "estimated_seconds_10x": 225.52488024885,
+      "id": "a15_17"
+    },
+    {
+      "estimated_memory_bytes": 1118330048,
+      "estimated_seconds_10x": 124.78110854247,
+      "id": "a16_16"
+    }
+  ],
+  "flags": [
+    "-std=c++17",
+    "-O3",
+    "-mpopcnt",
+    "-static",
+    "-Wl,--no-insert-timestamp",
+    "-lpsapi"
+  ],
+  "limitation": "Stored-row prefix, unknown streaming/sorting costs covered empirically, not a proven time bound.",
+  "native_sha256": "3bc0a21d0e69ede1ea4d9eaa7966b2cef6ac3c220335642c892c3d1a4163c328",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "portfolio_sha256": "89ddeb0ec8a73747779b6f12886caa663a42b51e2ffb1939c8bf353f77ef1b49",
+  "python": "3.14.6",
+  "script_sha256": "ee0d8ef5f93ab17770251979b61afce859e8a956fe140152bae1f6506040b0cc",
+  "source_sha256": "ec5b82ec6e56526b7b8025a91186a949b3fce143375784838ffbcc81cdc323ec"
+}

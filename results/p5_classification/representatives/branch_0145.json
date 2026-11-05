@@ -1,0 +1,87 @@
+{
+  "all_solutions_direct_paf_sds_checked": true,
+  "canonical_pairs": 0,
+  "elapsed_seconds": 8.855285199999344,
+  "first": [
+    -1,
+    -1,
+    -3,
+    1,
+    3,
+    1,
+    3,
+    1,
+    -3,
+    1,
+    1,
+    1,
+    -1,
+    -1,
+    -1
+  ],
+  "independent_full_paf": {
+    "canonical_pairs": 0,
+    "complete": true,
+    "counts": [
+      59049,
+      177147
+    ],
+    "elapsed_seconds": 4.251076400047168,
+    "expected_counts": [
+      59049,
+      177147
+    ],
+    "ordered_pairs": 0,
+    "projected_histogram_sha256": [
+      "3427dcd04a735cedaa74678ca6bbf309befa8379e53a1eceedc70315e12f1d7d",
+      "114ef450afc42b062041678e1e8c9a8878a7e814e7fe4eea8de0cdf2a9c9cbe4"
+    ],
+    "solutions": [],
+    "stored_signatures": 59034
+  },
+  "magnitude_one_counts": [
+    11,
+    12
+  ],
+  "ordered_pairs": 0,
+  "peak_worker_working_set_bytes": 88207360,
+  "phase": {
+    "canonical_pairs": 0,
+    "complete": true,
+    "counts": [
+      59049,
+      177147
+    ],
+    "elapsed_seconds": 3.6425909999525174,
+    "expected_counts": [
+      59049,
+      177147
+    ],
+    "ordered_pairs": 0,
+    "projected_histogram_sha256": [
+      "3427dcd04a735cedaa74678ca6bbf309befa8379e53a1eceedc70315e12f1d7d",
+      "114ef450afc42b062041678e1e8c9a8878a7e814e7fe4eea8de0cdf2a9c9cbe4"
+    ],
+    "solutions": [],
+    "stored_signatures": 59034
+  },
+  "rank": 145,
+  "second": [
+    -1,
+    -1,
+    1,
+    1,
+    -3,
+    1,
+    1,
+    -1,
+    1,
+    -1,
+    1,
+    -3,
+    3,
+    1,
+    1
+  ],
+  "status": "verified_empty"
+}

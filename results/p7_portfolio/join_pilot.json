@@ -1,0 +1,111 @@
+{
+  "compiler_sha256": "6a04eb37164c195b14f104a84a679fd5ce855cbc6d49dda0d340362019b8b61d",
+  "conservative_storage_envelope_bytes": 1000000000,
+  "elapsed_seconds": 3.687106999976095,
+  "expected_storage_bytes": 30000000,
+  "flags": [
+    "-std=c++17",
+    "-O3",
+    "-mpopcnt",
+    "-static",
+    "-Wl,--no-insert-timestamp",
+    "-lpsapi"
+  ],
+  "limitation": "Prefix-only probes omit joins and underestimate the native-off cost. Real-key pilot also samples early prefixes and may omit streaming; estimates are empirical. Hard trials remain scheduled under equal caps regardless of estimate.",
+  "memory_envelope_bytes": 1676395008,
+  "native_sha256": "3bc0a21d0e69ede1ea4d9eaa7966b2cef6ac3c220335642c892c3d1a4163c328",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "portfolio_sha256": "89ddeb0ec8a73747779b6f12886caa663a42b51e2ffb1939c8bf353f77ef1b49",
+  "python": "3.14.6",
+  "records": [
+    {
+      "expected_seconds_10x": 95.26603674179553,
+      "id": "control",
+      "mode": 0,
+      "result_file": "pilot/join_control_m0.json",
+      "stop_reason": "stored_candidate_limit"
+    },
+    {
+      "expected_seconds_10x": 82.98962877009201,
+      "id": "control",
+      "mode": 1,
+      "result_file": "pilot/join_control_m1.json",
+      "stop_reason": "node_limit"
+    },
+    {
+      "expected_seconds_10x": 132.177609535958,
+      "id": "control",
+      "mode": 2,
+      "result_file": "pilot/join_control_m2.json",
+      "stop_reason": "node_limit"
+    },
+    {
+      "expected_seconds_10x": 265.8230333921837,
+      "id": "a14_18",
+      "mode": 0,
+      "result_file": "pilot/join_a14_18_m0.json",
+      "stop_reason": "stored_candidate_limit"
+    },
+    {
+      "expected_seconds_10x": 397.31837737142394,
+      "id": "a14_18",
+      "mode": 1,
+      "result_file": "pilot/join_a14_18_m1.json",
+      "stop_reason": "node_limit"
+    },
+    {
+      "expected_seconds_10x": 579.5180616700479,
+      "id": "a14_18",
+      "mode": 2,
+      "result_file": "pilot/join_a14_18_m2.json",
+      "stop_reason": "node_limit"
+    },
+    {
+      "expected_seconds_10x": 120.09631969178339,
+      "id": "a15_17",
+      "mode": 0,
+      "result_file": "pilot/join_a15_17_m0.json",
+      "stop_reason": "stored_candidate_limit"
+    },
+    {
+      "expected_seconds_10x": 133.899406607424,
+      "id": "a15_17",
+      "mode": 1,
+      "result_file": "pilot/join_a15_17_m1.json",
+      "stop_reason": "node_limit"
+    },
+    {
+      "expected_seconds_10x": 177.747154729534,
+      "id": "a15_17",
+      "mode": 2,
+      "result_file": "pilot/join_a15_17_m2.json",
+      "stop_reason": "node_limit"
+    },
+    {
+      "expected_seconds_10x": 49.12601745318791,
+      "id": "a16_16",
+      "mode": 0,
+      "result_file": "pilot/join_a16_16_m0.json",
+      "stop_reason": "stored_candidate_limit"
+    },
+    {
+      "expected_seconds_10x": 57.157693096319996,
+      "id": "a16_16",
+      "mode": 1,
+      "result_file": "pilot/join_a16_16_m1.json",
+      "stop_reason": "node_limit"
+    },
+    {
+      "expected_seconds_10x": 74.41585493856,
+      "id": "a16_16",
+      "mode": 2,
+      "result_file": "pilot/join_a16_16_m2.json",
+      "stop_reason": "node_limit"
+    }
+  ],
+  "script_sha256": "ee0d8ef5f93ab17770251979b61afce859e8a956fe140152bae1f6506040b0cc",
+  "source_sha256": "b0a6131155582dcc77864efd02eead5b161446da0f08712a3933dfb94c765208",
+  "trial_seconds_cap": 80,
+  "workers": 1,
+  "worst_trial_batch_engine_seconds": 960
+}

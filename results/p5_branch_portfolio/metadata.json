@@ -1,0 +1,265 @@
+{
+  "branch_profile": {
+    "catalog": {
+      "bytes": 596976,
+      "path": "results/p5_branch_portfolio/canonical_branches.json",
+      "sha256": "6b8123e1c398fdc408c6efff323739bacf168468b93db46a4228e0a8d94ba35c",
+      "tracked": true
+    },
+    "elapsed_seconds": 4.93104,
+    "independent_translation_orbits": 1164,
+    "magnitude_one_total": 23,
+    "minimum_candidate_rows_scanned": 708588,
+    "orbit_size": 9,
+    "ordered_intermediate_pairs": 10476,
+    "ordered_split_histogram": {
+      "10+13": 1620,
+      "11+12": 3456,
+      "12+11": 3456,
+      "13+10": 1620,
+      "14+9": 162,
+      "9+14": 162
+    },
+    "published_branch_rank": 771
+  },
+  "command": "python -m scripts.benchmark_p5_branch_portfolio --verifier tmp/tools/veripb-3.0.2/bin/veripb.exe --portfolio-size 3",
+  "cpu_cores_used": 1,
+  "deterministic": true,
+  "elapsed_seconds_this_run": 29.612982,
+  "hadamard": {
+    "candidate": {
+      "bytes": 21026,
+      "path": "results/p5_branch_portfolio/H92.csv",
+      "sha256": "a2081037642e242729aebec4a94529f400dc49b326f69f6b74c0521b9ae33389",
+      "tracked": true
+    },
+    "candidate_sha256": "a2081037642e242729aebec4a94529f400dc49b326f69f6b74c0521b9ae33389",
+    "direct_report_sha256": "8d180a4f93b580e1f8d8ff2f5619dc95a1ac97ba454981cdbdfc2cb695fc43ae",
+    "direct_verifier": true,
+    "independent_bitpacked_verifier": true,
+    "independent_report_sha256": "accb7f544ef76ce291261a791072b30f5e1bc7217d0ef4b559da37e5ae85c30e",
+    "order": 92
+  },
+  "logical_cpu_count": 16,
+  "parameters": {
+    "binary_length": 45,
+    "p": 5,
+    "q": 3
+  },
+  "peak_memory": "not instrumented; smaller preimage row stored as signature table",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "portfolio": [
+    {
+      "branch_first": [
+        -3,
+        -1,
+        -1,
+        -3,
+        1,
+        3,
+        1,
+        -1,
+        -1,
+        1,
+        1,
+        3,
+        -1,
+        1,
+        1
+      ],
+      "branch_second": [
+        -1,
+        -1,
+        3,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        -3,
+        1,
+        -3,
+        1,
+        1,
+        1
+      ],
+      "rank": 1,
+      "result": "SAT",
+      "search": {
+        "complete": true,
+        "elapsed_seconds": 7.771051,
+        "first_candidates": 177147,
+        "matched_streamed_rows": 9,
+        "ordered_pairs_found": 27,
+        "orientation": "second row streamed; first row stored",
+        "second_candidates": 531441,
+        "stored_signature_vectors": 59001,
+        "total_candidate_rows_scanned": 708588
+      },
+      "witness_first": "--+--+----++--+----+++--+++-+--+--++++++-++++",
+      "witness_second": "--+-+++-+-+-+-+--++--+++-+--+-++++-+------+++"
+    },
+    {
+      "branch_first": [
+        -3,
+        -1,
+        -1,
+        -3,
+        1,
+        3,
+        1,
+        -1,
+        -1,
+        1,
+        1,
+        3,
+        -1,
+        1,
+        1
+      ],
+      "branch_second": [
+        -1,
+        1,
+        1,
+        1,
+        -3,
+        1,
+        -3,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        3,
+        -1
+      ],
+      "rank": 2,
+      "result": "SAT",
+      "search": {
+        "complete": true,
+        "elapsed_seconds": 8.64898,
+        "first_candidates": 177147,
+        "matched_streamed_rows": 9,
+        "ordered_pairs_found": 27,
+        "orientation": "second row streamed; first row stored",
+        "second_candidates": 531441,
+        "stored_signature_vectors": 59001,
+        "total_candidate_rows_scanned": 708588
+      },
+      "witness_first": "-----++-++++--+--+-+++--++++++-+--++-+---+-+-",
+      "witness_second": "--++---+-+---++-+++-+-++-+-++-++---+---+++++-"
+    },
+    {
+      "branch_first": [
+        -3,
+        -1,
+        -1,
+        -3,
+        1,
+        3,
+        3,
+        -1,
+        -1,
+        1,
+        1,
+        1,
+        -1,
+        1,
+        1
+      ],
+      "branch_second": [
+        -1,
+        -1,
+        -1,
+        1,
+        -1,
+        -1,
+        1,
+        1,
+        1,
+        -1,
+        3,
+        -3,
+        3,
+        1,
+        -1
+      ],
+      "rank": 3,
+      "result": "UNSAT_BY_EXHAUSTIVE_JOIN",
+      "search": {
+        "complete": true,
+        "elapsed_seconds": 7.816479,
+        "first_candidates": 177147,
+        "matched_streamed_rows": 0,
+        "ordered_pairs_found": 0,
+        "orientation": "second row streamed; first row stored",
+        "second_candidates": 531441,
+        "stored_signature_vectors": 58935,
+        "total_candidate_rows_scanned": 708588
+      },
+      "witness_first": null,
+      "witness_second": null
+    }
+  ],
+  "processor": "AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD",
+  "python": "3.14.6",
+  "random_seed": null,
+  "ranking": "ascending total candidate-row scans, maximum row count, minimum row count, then lexicographic branch rows",
+  "selected_branch_model": {
+    "certificate": {
+      "bytes": 12423,
+      "path": "results/p5_branch_portfolio/selected_branch_witness.pbp",
+      "sha256": "1b5404b66f1c0cca249aa9aace8eeeefb833815733a1130e6378c293cd3abfb8",
+      "tracked": true
+    },
+    "opb": {
+      "bytes": 252348,
+      "path": "results/p5_branch_portfolio/selected_branch.opb",
+      "sha256": "91a191e4be2e64963416c09e4e902479ae9aa8f98ae9c6004a98f37bb8e5315b",
+      "tracked": true
+    },
+    "stats": {
+      "base_variables": 90,
+      "compressed_length": 15,
+      "compression_equalities": 30,
+      "constraint_records": 7972,
+      "correlation_equalities": 22,
+      "factor": 3,
+      "normalized_inequalities": 8024,
+      "symmetry_inequalities": 0,
+      "uncompressed_length": 45,
+      "variables": 2070,
+      "xor_inequalities": 7920,
+      "xor_variables": 1980
+    },
+    "veripb": {
+      "elapsed_seconds": 0.044562,
+      "exit_code": 0,
+      "status": "VERIFIED SATISFIABLE",
+      "stdout": {
+        "bytes": 179,
+        "path": "results/p5_branch_portfolio/selected_branch_witness_veripb.txt",
+        "sha256": "4dc1eb8fd2528b46b7bee67050ec1d5527dadea94f4649be6039c0ae042c1a35",
+        "tracked": true
+      }
+    }
+  },
+  "selected_witness": {
+    "bytes": 600,
+    "path": "results/p5_branch_portfolio/lp45_witness.json",
+    "sha256": "6e1ac7a60cac6299bb8b05e59d9be82fbb009218330a7d5ef33f0812546263d7",
+    "tracked": true
+  },
+  "source_basis": "successive q-uncompression in kotsireas2025compression",
+  "started_utc": "2026-09-28T01:35:39.299030+00:00",
+  "status": "complete p=5 branch profile and three-branch exhaustive portfolio; no LP(333) run and no order-668 result",
+  "verifier": {
+    "bytes": 2588160,
+    "path": "tmp/tools/veripb-3.0.2/bin/veripb.exe",
+    "sha256": "c3e3d547112c5cf0f9bf610438bb0b629a8699b85dcaa337ed0af55978bad676",
+    "tracked": false
+  },
+  "verifier_version": "VeriPB 3.0.2"
+}

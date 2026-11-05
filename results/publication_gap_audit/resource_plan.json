@@ -1,0 +1,23 @@
+{
+  "controller_guard_seconds": 1500,
+  "hard_timeout_seconds_per_case": 250,
+  "memory_allowance_bytes": 2000000000,
+  "native_seconds_per_case": 240,
+  "p5_estimated_seconds_with_2x_margin": 577.3087068004534,
+  "p5_pilot_max_peak_bytes": 6549504,
+  "p5_strata": 6,
+  "p7_estimate_limitation": "Prefixes omit large-table sorting and streaming lookup; estimates are not guaranteed bounds. Serial capped trials only.",
+  "p7_pilot_max_peak_bytes": 8855552,
+  "p7_prefix_estimates_with_10x_margin": {
+    "p7_a14_18": 919.4830941385138,
+    "p7_a15_17": 357.4183593610713,
+    "p7_a16_16": 196.75938720776628,
+    "p7_control": 326.4261551600475,
+    "p7_positive": 223.4377360540892
+  },
+  "p7_worst_hard_timeout_sum_seconds": 1250,
+  "pilot_seconds": 2.9925202000013087,
+  "serial_workers": 1,
+  "storage_allowance_bytes": 100000000,
+  "table_allocation_conservative_bytes": 805306368
+}

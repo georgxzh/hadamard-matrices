@@ -1,0 +1,8150 @@
+[
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 2,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 3,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 4,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 5,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 6,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 7,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 8,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 9,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 10,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 11,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 12,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 13,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 14,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 15,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 16,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 17,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 18,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 19,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 20,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 21,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 22,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 23,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 24,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 25,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 26,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 27,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 28,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 29,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 30,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 31,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 32,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 33,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 34,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 35,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 36,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 37,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 38,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 39,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 40,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 41,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 42,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 43,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 44,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 45,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 46,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 47,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 48,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 49,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 50,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 51,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 52,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 53,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 54,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 55,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 56,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 57,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 58,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 59,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 60,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 61,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 62,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 63,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 64,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 65,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 66,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 67,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 68,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 69,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 70,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 71,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 72,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 73,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 74,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 75,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 76,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 77,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 78,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 79,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 80,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 81,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 82,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 83,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 84,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 85,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 86,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 87,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 88,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 89,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 90,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 91,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 92,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 93,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 94,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 95,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 96,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 97,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 98,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 99,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 100,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 101,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 102,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 103,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 104,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 105,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 106,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 107,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 108,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 109,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 110,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 111,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 112,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 113,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 114,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 115,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 116,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 117,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 118,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 119,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 120,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 121,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 122,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 123,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 124,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 125,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 126,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 127,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 128,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 129,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 130,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 131,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 132,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 133,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 134,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 135,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 136,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 137,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 138,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 139,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 140,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 141,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 142,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 143,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 144,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 145,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 146,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 147,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 148,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 149,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 150,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 151,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 152,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 153,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 154,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 155,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 156,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 157,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 158,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 159,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 160,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 161,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 162,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 163,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 164,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 165,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 166,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 167,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 168,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 169,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 170,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 171,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 172,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 173,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 174,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 175,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 176,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 177,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 178,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 179,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 180,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 181,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 182,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 183,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 184,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 185,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 186,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 187,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 188,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 189,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 190,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 191,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 192,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 193,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 194,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 195,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 196,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 197,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 198,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 199,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 200,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 201,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 202,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 203,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 204,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 205,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 206,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 207,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 208,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 209,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 210,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 211,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 212,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 213,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 214,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 215,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 216,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 217,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 218,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 219,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 220,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 221,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 222,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 223,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 224,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 225,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 226,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 227,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 228,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 229,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 230,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 231,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 232,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 233,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 234,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 235,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 236,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 237,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 238,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 239,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 240,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 241,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 242,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 243,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 244,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 245,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 246,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 247,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 248,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 249,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 250,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 251,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 252,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 253,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 254,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 255,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 256,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 257,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 258,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 259,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 260,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 261,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 262,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 263,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 264,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 265,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 266,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 267,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 268,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 269,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 270,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 271,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 272,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 273,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 274,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 275,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 276,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 277,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 278,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 279,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 280,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 281,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 282,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 283,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 284,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 285,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 286,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 287,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 288,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 289,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 290,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 291,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 292,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 293,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 294,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 295,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 296,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 297,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 298,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 299,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 300,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 301,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 302,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 303,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 304,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 305,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 306,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 307,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 308,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 309,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 310,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 311,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 312,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 313,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 314,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 315,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 316,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 317,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 318,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 319,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 320,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 321,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 322,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 323,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 324,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 325,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 326,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 327,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 328,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 329,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 330,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 331,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 332,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 333,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 334,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 335,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 336,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 337,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 338,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 339,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 340,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 341,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 342,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 343,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 344,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 345,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 346,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 347,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 348,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 349,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 350,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 351,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 352,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 353,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 354,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 355,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 356,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 357,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 358,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 359,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 360,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 361,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 362,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 363,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 364,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 365,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 366,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 367,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 368,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 369,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 370,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 371,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 372,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 373,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 374,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 375,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 376,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 377,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 378,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 379,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 380,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 381,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 382,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 383,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 384,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 385,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 386,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 387,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 388,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 389,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 390,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 391,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 392,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 393,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 394,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 395,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 396,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 397,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 398,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 399,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 400,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 401,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 402,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 403,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 404,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 405,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 406,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 407,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 408,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 409,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 410,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 411,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 412,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 413,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 414,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 415,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 416,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 417,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 418,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 419,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 420,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 421,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 422,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 423,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 424,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 425,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 426,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 427,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 428,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 429,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 430,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 431,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 432,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 433,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 434,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 435,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 436,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 437,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 438,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 439,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 440,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 441,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 442,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 443,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 444,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 445,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 446,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 447,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 448,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 449,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 450,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 451,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 452,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 453,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 454,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 455,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 456,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 457,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 458,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 459,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 460,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 461,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 462,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 463,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 464,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 465,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 466,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 467,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 468,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 469,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 470,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 471,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 472,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 473,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 474,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 475,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 476,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 477,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 478,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 479,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 480,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 481,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 482,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 483,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 484,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 485,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 486,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 487,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 488,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 489,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 490,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 491,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 492,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 493,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 494,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 495,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 496,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 497,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 498,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 499,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 500,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 501,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 502,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 503,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 504,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 505,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 506,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 507,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 508,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 509,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 510,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 511,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 512,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 513,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 514,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 515,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 516,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 517,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 518,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 519,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 520,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 521,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 522,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 523,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 524,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 525,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 526,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 527,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 528,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 529,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 530,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 531,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 532,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 533,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 534,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 535,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 536,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 537,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 538,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 539,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 540,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 541,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 542,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 543,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 544,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 545,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 546,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 547,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 548,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 549,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 550,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 551,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 552,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 553,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 554,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 555,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 556,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 557,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 558,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 559,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 560,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 561,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 562,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 563,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 564,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 565,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 566,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 567,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 568,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 569,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 570,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 571,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 572,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 573,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 574,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 575,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 576,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 577,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 578,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 579,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 580,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 581,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 582,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 583,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 584,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 585,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 586,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 587,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 588,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 589,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 590,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 591,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 592,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 593,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 594,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 595,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 596,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 597,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 598,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 599,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 600,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 601,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 602,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 603,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 604,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 605,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 606,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 607,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 608,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 609,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 610,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 611,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 612,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 613,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 614,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 615,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 616,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 617,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 618,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 619,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 620,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 621,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 622,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 623,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 624,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 625,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 626,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 627,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 628,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 629,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 630,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 631,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 632,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 633,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 634,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 635,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 636,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 637,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 638,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 639,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 640,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 641,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 642,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 643,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 644,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 645,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 646,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 647,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 648,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 649,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 650,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 651,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 652,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 653,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 654,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 655,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 656,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 657,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 658,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 659,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 660,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 661,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 662,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 663,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 664,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 665,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 666,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 667,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 668,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 669,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 670,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 671,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 672,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 673,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 674,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 675,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 676,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 677,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 678,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 679,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 680,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 681,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 682,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 683,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 684,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 685,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 686,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 687,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 688,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 689,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 690,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 691,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 692,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 693,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 694,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 695,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 696,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 697,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 698,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 699,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 700,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 701,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 702,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 703,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 704,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 705,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 706,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 707,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 708,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 709,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 710,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 711,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 712,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 713,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 714,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 715,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 716,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 717,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 718,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 719,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 720,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 721,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 722,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 723,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 724,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 725,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 726,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 727,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 728,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 729,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 730,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 731,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 732,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 733,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 734,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 735,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 736,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 737,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 738,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 739,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 740,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 741,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 742,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 743,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 744,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 745,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 746,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 747,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 748,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 749,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 750,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 751,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 752,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 753,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 754,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 755,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 756,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 757,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 9,
+    "ordered_pairs": 81,
+    "rank": 758,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 759,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 760,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 761,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 762,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 763,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 764,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 765,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 766,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 767,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 768,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 769,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 770,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 771,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 772,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 773,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 774,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 775,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 776,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 777,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 778,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 779,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 780,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 781,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 782,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 783,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 784,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 785,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 786,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 787,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 788,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 789,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 790,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 791,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 792,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 793,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 794,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 795,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 796,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 797,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 798,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 799,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 800,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 801,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 802,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 803,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 804,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 805,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 806,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 807,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 808,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 809,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 810,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 811,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 812,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 813,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 814,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 815,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 816,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 817,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 818,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 819,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 820,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 821,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 822,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 823,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 824,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 825,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 826,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 827,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 828,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 829,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 830,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 831,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 832,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 833,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 834,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 835,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 836,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 837,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 838,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 839,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 840,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 841,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 842,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 843,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 844,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 845,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 846,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 847,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 848,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 849,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 850,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 851,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 852,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 853,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 854,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 855,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 856,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 857,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 858,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 859,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 860,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 861,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 862,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 863,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 864,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 865,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 866,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 867,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 868,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 869,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 870,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 871,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 872,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 873,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 874,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 875,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 876,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 877,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 878,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 879,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 880,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 881,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 882,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 883,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 884,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 885,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 886,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 887,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 888,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 889,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 890,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 891,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 892,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 893,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 894,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 895,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 896,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 897,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 898,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 899,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 900,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 901,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 902,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 903,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 904,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 905,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 906,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 907,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 908,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 909,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 910,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 911,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 912,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 913,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 914,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 915,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 916,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 917,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 918,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 919,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 920,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 921,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 922,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 923,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 924,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 925,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 926,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 927,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 928,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 929,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 930,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 931,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 932,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 933,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 934,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 935,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 936,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 937,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 938,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 939,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 940,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 941,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 942,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 943,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 944,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 945,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 946,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 947,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 948,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 949,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 950,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 951,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 952,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 953,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 954,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 955,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 956,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 957,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 958,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 959,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 960,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 961,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 962,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 963,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 964,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 965,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 966,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 967,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 968,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 969,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 970,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 971,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 972,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 973,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 974,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 975,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 976,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 977,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 978,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 979,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 980,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 981,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 982,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 983,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 984,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 985,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 986,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 987,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 988,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 989,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 990,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 991,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 992,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 993,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 994,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 995,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 996,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 997,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 998,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 999,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1000,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1001,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1002,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1003,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1004,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1005,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1006,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1007,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1008,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1009,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1010,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1011,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1012,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1013,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1014,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1015,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1016,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1017,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1018,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1019,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1020,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1021,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1022,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1023,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1024,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1025,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1026,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1027,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1028,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1029,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1030,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1031,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1032,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1033,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1034,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1035,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1036,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1037,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1038,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1039,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1040,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1041,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1042,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1043,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1044,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1045,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1046,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1047,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1048,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1049,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1050,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1051,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1052,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1053,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1054,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1055,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1056,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1057,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1058,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1059,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1060,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1061,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1062,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1063,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1064,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1065,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1066,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1067,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1068,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1069,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1070,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1071,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1072,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1073,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1074,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1075,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1076,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1077,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1078,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1079,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1080,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1081,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1082,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1083,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1084,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1085,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1086,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1087,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1088,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1089,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1090,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1091,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1092,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1093,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1094,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1095,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1096,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1097,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1098,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1099,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1100,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1101,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1102,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1103,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1104,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1105,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1106,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1107,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1108,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1109,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1110,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1111,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1112,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1113,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1114,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1115,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1116,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1117,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1118,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1119,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1120,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1121,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1122,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1123,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1124,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1125,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1126,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1127,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1128,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1129,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1130,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1131,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1132,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1133,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1134,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1135,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1136,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1137,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1138,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1139,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1140,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1141,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1142,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1143,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1144,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1145,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 0,
+    "ordered_pairs": 0,
+    "rank": 1146,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1147,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1148,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1149,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1150,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1151,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1152,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1153,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1154,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1155,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1156,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1157,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1158,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1159,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1160,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1161,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 3,
+    "ordered_pairs": 27,
+    "rank": 1162,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1163,
+    "status": "exact_match"
+  },
+  {
+    "baseline_solutions_match": true,
+    "canonical_pairs": 6,
+    "ordered_pairs": 54,
+    "rank": 1164,
+    "status": "exact_match"
+  }
+]

@@ -1,0 +1,86 @@
+{
+  "canonical_lower_bound": 9,
+  "canonical_pairs": 9,
+  "command": [
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\spectral_join.exe",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\spectral_join\\branches\\rank_0232_mode2.input.txt",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\spectral_join\\branches\\rank_0232_mode2.json"
+  ],
+  "complete": true,
+  "elapsed_seconds": 0.0183178,
+  "mode": 2,
+  "node_limit": 100000000,
+  "ordered_pairs": 81,
+  "peak_working_set_bytes": 6144000,
+  "probe": false,
+  "rows": [
+    {
+      "accepted": 1335,
+      "complete": true,
+      "elapsed_seconds": 0.0125398,
+      "excluded_completions": 100161,
+      "expected": 177147,
+      "full_rejections": 75651,
+      "leaves": 76986,
+      "nodes": 158737,
+      "prefix_conflicts": 28839
+    },
+    {
+      "accepted": 1740,
+      "complete": true,
+      "elapsed_seconds": 0.0050977,
+      "excluded_completions": 25164,
+      "expected": 59049,
+      "full_rejections": 32145,
+      "leaves": 33885,
+      "nodes": 62302,
+      "prefix_conflicts": 7650
+    }
+  ],
+  "seconds_limit": 120,
+  "solution_limit": 100000,
+  "solutions": [
+    [
+      4616998089508,
+      18489417578062
+    ],
+    [
+      13520448246984,
+      18491162486346
+    ],
+    [
+      14894554739078,
+      21515029430850
+    ],
+    [
+      22829235434754,
+      28127424644932
+    ],
+    [
+      23516976099694,
+      12721309402974
+    ],
+    [
+      30798335111502,
+      19331574630988
+    ],
+    [
+      31144566830594,
+      30312824559448
+    ],
+    [
+      31761193472036,
+      901593230934
+    ],
+    [
+      32280303424390,
+      1741401741902
+    ]
+  ],
+  "stop_reason": "exhausted",
+  "stored_candidate_limit": 5000000,
+  "stored_side": 1,
+  "table_capacity_bytes": 90112,
+  "table_entries": 1740,
+  "wrapper_elapsed_seconds": 0.06692270000348799
+}

@@ -1,0 +1,77 @@
+{
+  "group_by": [],
+  "meta": {
+    "cost_usd": 0.0001,
+    "count": 1,
+    "db_response_time_ms": 8,
+    "groups_count": null,
+    "page": 1,
+    "per_page": 25,
+    "x_query": {
+      "oql": "get works where DOI is (10.1016/j.laa.2025.01.010)",
+      "oqo": {
+        "filter_rows": [
+          {
+            "column_id": "doi",
+            "value": "10.1016/j.laa.2025.01.010"
+          }
+        ],
+        "get_rows": "works"
+      },
+      "url": "/works?filter=doi:10.1016%2Fj.laa.2025.01.010"
+    }
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W4406308961",
+      "locations": [
+        {
+          "id": "doi:10.1016/j.laa.2025.01.010",
+          "is_accepted": true,
+          "is_oa": false,
+          "is_published": true,
+          "landing_page_url": "https://doi.org/10.1016/j.laa.2025.01.010",
+          "license": null,
+          "license_id": null,
+          "pdf_url": null,
+          "raw_source_name": "Linear Algebra and its Applications",
+          "raw_type": "journal-article",
+          "source": {
+            "display_name": "Linear Algebra and its Applications",
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "host_organization_name": "Elsevier BV",
+            "id": "https://openalex.org/S159544283",
+            "is_core": true,
+            "is_in_doaj": false,
+            "is_oa": false,
+            "issn": [
+              "0024-3795",
+              "1873-1856"
+            ],
+            "issn_l": "0024-3795",
+            "listed_in": [
+              "cwts-core",
+              "jufo-2",
+              "norway-1"
+            ],
+            "type": "journal"
+          },
+          "version": "publishedVersion"
+        }
+      ],
+      "open_access": {
+        "any_repository_has_fulltext": false,
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null
+      },
+      "title": "A low-complexity algorithm to search for Legendre pairs"
+    }
+  ]
+}

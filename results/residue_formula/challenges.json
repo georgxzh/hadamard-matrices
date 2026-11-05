@@ -1,0 +1,198 @@
+{
+  "candidate": "For branch 279, the moments and S in 9O force the constant coordinate J_0 to be nonzero.",
+  "counterexample": {
+    "J": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "Q": [
+      0,
+      0,
+      -6,
+      3
+    ],
+    "alternate_paf_sums": [
+      14,
+      -22,
+      -10,
+      -22,
+      -22,
+      -10,
+      -22,
+      14
+    ],
+    "masks": [
+      31210651353580,
+      20580563788346
+    ],
+    "phases": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      2,
+      2,
+      0,
+      2,
+      1,
+      1,
+      2,
+      0,
+      2,
+      2,
+      1,
+      0,
+      2
+    ],
+    "qualification": "Does not satisfy the exact length-nine compression PAFs; the strengthened claim remains open structurally."
+  },
+  "failed_early_reduction": {
+    "examples": [
+      {
+        "J": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "Q": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "masks": [
+          22487656929184,
+          11681458143385
+        ],
+        "rank": 277
+      },
+      {
+        "J": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "Q": [
+          0,
+          0,
+          -6,
+          3
+        ],
+        "masks": [
+          18570512807384,
+          19927795344025
+        ],
+        "rank": 277
+      },
+      {
+        "J": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "Q": [
+          0,
+          0,
+          -6,
+          3
+        ],
+        "masks": [
+          31210651353580,
+          20580563788346
+        ],
+        "rank": 279
+      },
+      {
+        "J": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "Q": [
+          3,
+          9,
+          3,
+          3
+        ],
+        "masks": [
+          416258831260,
+          11737627988606
+        ],
+        "rank": 279
+      },
+      {
+        "J": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "Q": [
+          6,
+          9,
+          9,
+          9
+        ],
+        "masks": [
+          428621558224,
+          824046633594
+        ],
+        "rank": 279
+      },
+      {
+        "J": [
+          1,
+          0,
+          2,
+          2
+        ],
+        "Q": [
+          3,
+          9,
+          6,
+          -3
+        ],
+        "masks": [
+          442312790436,
+          2830005805622
+        ],
+        "rank": 279
+      }
+    ],
+    "explanation": "All six Q vectors reduce to zero modulo three, although their quotient residues differ."
+  },
+  "next_target": "Use the two degree-six coordinates jointly with exact length-nine signed balances to derive a support-dependent identity excluding their common zero. No such identity proved.",
+  "out_of_domain_saved_witness": {
+    "J": null,
+    "Q": [
+      -3,
+      0,
+      -3,
+      6
+    ],
+    "explanation": "The polynomial extension is defined here but is not the residue of S/9 in O.",
+    "masks": [
+      22964264347100,
+      2872821395978
+    ],
+    "polynomial_extension": [
+      2,
+      0,
+      2,
+      2
+    ]
+  },
+  "outcome": "refuted by an existing allowed third-gauged phase assignment"
+}

@@ -1,0 +1,117 @@
+{
+  "all_pilot_branches_verified": true,
+  "catalog_sha256": "6b8123e1c398fdc408c6efff323739bacf168468b93db46a4228e0a8d94ba35c",
+  "completed_utc": "2026-09-29T00:22:29.838238+00:00",
+  "elapsed_seconds": 205.24823170003947,
+  "estimated_full_wall_seconds_conservative": 6513.6934645231695,
+  "estimated_peak_memory_bytes": 1267630080,
+  "estimated_record_storage_bytes": 2182056.5714285714,
+  "mode": "pilot",
+  "selected_ranks": [
+    1,
+    2,
+    3,
+    15,
+    327,
+    433,
+    762,
+    768,
+    769,
+    771,
+    821,
+    863,
+    1007,
+    1120,
+    1128,
+    1129,
+    1135,
+    1142,
+    1148,
+    1160,
+    1164
+  ],
+  "strata": [
+    {
+      "branches": 384,
+      "estimated_worker_seconds": 4443.769881606102,
+      "sample_seconds": [
+        7.205550199956633,
+        7.251877999980934,
+        7.322629799949937,
+        11.546149400004651,
+        11.57231740001589
+      ],
+      "split": [
+        11,
+        12
+      ]
+    },
+    {
+      "branches": 384,
+      "estimated_worker_seconds": 4552.456819206476,
+      "sample_seconds": [
+        7.251132100005634,
+        11.566307200002484,
+        11.855356300016865
+      ],
+      "split": [
+        12,
+        11
+      ]
+    },
+    {
+      "branches": 180,
+      "estimated_worker_seconds": 4933.846314002294,
+      "sample_seconds": [
+        27.06542840000475,
+        27.160585100005846,
+        27.410257300012745,
+        26.16451520001283
+      ],
+      "split": [
+        10,
+        13
+      ]
+    },
+    {
+      "branches": 180,
+      "estimated_worker_seconds": 5047.00181999593,
+      "sample_seconds": [
+        25.471216099977028,
+        27.663597999955527,
+        28.03889899997739
+      ],
+      "split": [
+        13,
+        10
+      ]
+    },
+    {
+      "branches": 18,
+      "estimated_worker_seconds": 1378.8346913997084,
+      "sample_seconds": [
+        75.18008459999692,
+        76.6019272999838,
+        56.88252210000064
+      ],
+      "split": [
+        9,
+        14
+      ]
+    },
+    {
+      "branches": 18,
+      "estimated_worker_seconds": 1356.4020222000545,
+      "sample_seconds": [
+        75.35566790000303,
+        75.02781160001177,
+        63.4497718999628
+      ],
+      "split": [
+        14,
+        9
+      ]
+    }
+  ],
+  "workers": 4
+}

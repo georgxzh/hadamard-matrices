@@ -1,0 +1,246 @@
+"""Published LP(63) control using frozen engines; serial bounded stages.
+
+Do not rerun frozen censuses. Run setup, pilot, trial 0/1/2, independent-pilot,
+independent, audit in that order. Every enumeration is capped below 30 min.
+"""
+import argparse
+import json
+import random
+import subprocess
+import time
+from pathlib import Path
+
+from scripts.classify_p5_lifts import ROOT, digest, save
+from scripts.p7_study import timed_search, verify_masks
+from src.legendre import compress, structured_compressed_pair
+from src.spectral_join import search, coefficients, NATIVE
+from src.ternary_phase import PhaseRow
+
+OUT = ROOT / 'results/p7_positive_control'
+AUDITOR = ROOT / 'tmp/full_paf_audit.exe'
+# Numerical data transcribed from primary publisher indexed text, Section 5.3.3.
+# First printed element becomes index zero; signs are used as printed.
+A = [-1,-1,1,-1,-1,-1,-1,-1,1,-1,1,1,1,-1,1,
+     -1,1,-1,1,-1,-1,1,-1,-1,-1,1,-1,-1,1,1,1,-1,1,
+     -1,1,1,1,1,-1,-1,1,-1,-1,1,-1,1,1,-1,1,-1,1,1,
+     1,-1,-1,-1,1,1,1,-1,1,1,1]
+B = [-1,-1,-1,1,-1,-1,-1,1,-1,-1,-1,-1,-1,1,
+     -1,-1,1,-1,-1,1,1,1,1,-1,-1,1,1,1,1,-1,-1,1,1,
+     1,-1,1,-1,-1,1,-1,1,1,1,1,-1,1,-1,-1,-1,-1,1,
+     1,1,1,1,1,-1,-1,1,1,-1,1,1]
+
+
+def full_check(rows):
+    """Standalone definition/SDS check, not the phase or projected checker."""
+    assert len(rows) == 2 and all(len(r) == 63 for r in rows)
+    assert all(set(r) <= {-1, 1} and sum(r) == 1 for r in rows)
+    pafs = [[sum(r[i]*r[(i+s)%63] for i in range(63)) for s in range(63)]
+            for r in rows]
+    assert [sum(x) for x in zip(*pafs)] == [126]+[-2]*62
+    supports = [{i for i,x in enumerate(r) if x == -1} for r in rows]
+    assert all(len(s) == 31 for s in supports)
+    counts = [sum(sum((i+d)%63 in s for i in s) for s in supports)
+              for d in range(1,63)]
+    assert counts == [30]*62
+    return {'paf_vectors': pafs, 'paf_sum': [126]+[-2]*62,
+            'negative_supports': [sorted(s) for s in supports],
+            'sds_difference_counts': counts, 'checked_nonzero_shifts': 62}
+
+
+def load(name):
+    return json.loads((OUT/name).read_text())
+
+
+def frozen_check():
+    count = 0
+    manifest_names = ['paper/artifact_manifest.json'] + [
+        f'results/{p}/manifest.json' for p in
+        ('p5_classification','phase_propagation','spectral_join','p7_portfolio')]
+    for name in manifest_names:
+        for e in json.loads((ROOT/name).read_text())['files']:
+            p = ROOT/e['path']
+            assert digest(p) == e['sha256'] and p.stat().st_size == e['bytes'], str(p)
+            count += 1
+    expected = json.loads((ROOT/'results/spectral_join/pilot.json').read_text())
+    for key,p in [('native_sha256',NATIVE), ('implementation_sha256',ROOT/'src/spectral_join.cpp'),
+                  ('wrapper_sha256',ROOT/'src/spectral_join.py')]:
+        assert digest(p) == expected[key]
+    assert digest(AUDITOR) == json.loads((ROOT/'results/spectral_join/independent_audit.json').read_text())['binary_sha256']
+    return {'checked_entries': count, 'manifests': {n:digest(ROOT/n) for n in manifest_names},
+            'native_sha256':digest(NATIVE),'independent_sha256':digest(AUDITOR)}
+
+
+def setup():
+    OUT.mkdir(exist_ok=True)
+    baseline = frozen_check()
+    baseline['git_head'] = subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip()
+    assert baseline['git_head'] == '69aa1ae2634a27f1468bf7279222b288a10a0471'
+    save(OUT/'baseline.json',baseline)
+    check = full_check([A,B])
+    prescribed = structured_compressed_pair(7,3)
+    compression7 = [compress(r,7) for r in (A,B)]
+    assert compression7 == list(prescribed)
+    canonical_rows=[]; pair=[]; maps=[]; masks=[]
+    for row in (A,B):
+        candidates = [(compress(tuple(row[(j+t)%63] for j in range(63)),21),t)
+                      for t in (0,7,14)]
+        c,t = min(candidates)
+        shifted = tuple(row[(j+t)%63] for j in range(63))
+        phase_row = PhaseRow(c); original = phase_row.encode(shifted)
+        phases = phase_row.canonical_phases(original)
+        canonical = phase_row.decode(phases)
+        assert canonical == tuple(row[(j+t+21*original[0])%63] for j in range(63))
+        canonical_rows.append(canonical); pair.append(c)
+        maps.append({'intermediate_shift':t,'binary_anchor_shift':21*original[0],
+                     'convention':'new[j]=published[(j+intermediate_shift+binary_anchor_shift)%63]',
+                     'original_phases':original,'canonical_phases':phases})
+        masks.append(sum(1<<i for i,x in enumerate(canonical) if x == -1))
+    verify_masks(pair,masks); full_check(canonical_rows)
+    record={'source':{'title':'On properties of Legendre pairs under compression',
+             'authors':['Ilias Kotsireas','Ana Isabel Gómez','Domingo Gómez-Pérez'],
+             'doi':'10.1145/3747199.3747549','url':'https://doi.org/10.1145/3747199.3747549',
+             'section':'5.3.3 LP(63)','access_date':'2026-10-09',
+             'access':'Primary publisher indexed HTML returned by targeted web search; direct fetch 403.',
+             'indexing':'First printed element is index zero; signs unchanged.',
+             'scope':'Numerical sequence data transcribed; trace claims not independently checked.'},
+             'published_rows':[A,B],'full_check':check,'compression7':compression7,
+             'prescribed_family':True,'pair':pair,'translation_and_phase_maps':maps,
+             'canonical_witness_masks':masks,'canonical_binary_rows':canonical_rows,
+             'active_counts':[len(PhaseRow(c).active) for c in pair],
+             'row_domains':[PhaseRow(c).canonical_count for c in pair],
+             'symmetry':'Ordered fixed-intermediate mask pairs, independent phase anchors zero; ordered multiplier 9. No reversal/exchange/decimation quotient.',
+             'script_sha256':digest(Path(__file__))}
+    save(OUT/'witness.json',record)
+    print(json.dumps({k:record[k] for k in ('compression7','prescribed_family','pair','active_counts','row_domains','canonical_witness_masks')},indent=2))
+
+
+def pilot():
+    w=load('witness.json'); records=[]; coefficients(63)
+    for mode in (0,1,2):
+        r=search(*w['pair'],OUT/'pilot'/f'm{mode}.json',mode=mode,probe=True,
+                 seconds=10,node_limit=400_000,stored_candidate_limit=100_000,solution_limit=10_000)
+        estimate=10*sum(1.5*s['expected']*s['elapsed_seconds']/max(1,s['nodes']) for s in r['rows'])
+        records.append({'mode':mode,'estimated_seconds_10x':estimate})
+    smallest=min(w['row_domains']); capacity=1<<(smallest-1).bit_length()
+    memory=2*(40*capacity+4*capacity)+200_000_000
+    assert memory < 8_000_000_000
+    save(OUT/'pilot.json',{'estimates':records,'memory_envelope_bytes':memory,
+         'storage_envelope_bytes':100_000_000,'seconds_per_trial':180,'node_cap':2_000_000_000,
+         'table_cap':min(smallest,15_000_000),'solution_cap':100_000,'workers':1,
+         'batch_seconds_guard':900,'script_sha256':digest(Path(__file__)),
+         'native_sha256':digest(NATIVE),'witness_sha256':digest(OUT/'witness.json'),
+         'limitation':'Early-prefix probes with empirical 10x margin, not a proven runtime bound; conservative table allocation/reallocation envelope.'})
+    print(json.dumps(load('pilot.json'),indent=2))
+
+
+def trial(number):
+    w=load('witness.json'); p=load('pilot.json')
+    assert digest(NATIVE)==p['native_sha256'] and digest(OUT/'witness.json')==p['witness_sha256']
+    modes=[0,1,2]; seed=20261009+number; random.Random(seed).shuffle(modes)
+    start=time.perf_counter(); records=[]; warm=time.perf_counter(); coefficients(63)
+    warm=time.perf_counter()-warm
+    for mode in modes:
+        assert time.perf_counter()-start+p['seconds_per_trial']+15 < p['batch_seconds_guard']
+        r=timed_search(w['pair'],OUT/'trials'/f'm{mode}_t{number}.json',mode,p)
+        contains=w['canonical_witness_masks'] in r['solutions']
+        if r['complete']: assert contains
+        records.append({'mode':mode,'contains_published_control':contains,
+                        'result_path':f'results/p7_positive_control/trials/m{mode}_t{number}.json'})
+        print(number,mode,r['complete'],r['canonical_pairs'],r['elapsed_seconds'],contains,flush=True)
+    save(OUT/f'trial_{number}.json',{'seed':seed,'order':modes,'records':records,
+         'coefficient_warmup_seconds':warm,'batch_wall_seconds':time.perf_counter()-start,
+         'concurrent_experiments':False,'workers':1})
+
+
+def independent_run(label,cap,seconds):
+    pair=load('witness.json')['pair']; directory=OUT/'independent'; directory.mkdir(exist_ok=True)
+    path=directory/f'{label}.json'; inp=path.with_suffix('.input.txt')
+    inp.write_text('21\n'+'\n'.join(' '.join(map(str,r)) for r in pair)+'\n',newline='\n')
+    command=[str(AUDITOR),str(inp),str(path),str(cap),str(seconds),'full-key']
+    start=time.perf_counter(); run=subprocess.run(command,capture_output=True,text=True,timeout=seconds+15)
+    if run.returncode: raise RuntimeError(run.stderr)
+    r=json.loads(path.read_text()); r.update(command=command,wrapper_elapsed_seconds=time.perf_counter()-start)
+    save(path,r); return r
+
+
+def independent_pilot():
+    r=independent_run('pilot',200_000,10); w=load('witness.json')
+    memory=4*16*min(w['row_domains'])+200_000_000
+    estimate=10*r['elapsed_seconds']*sum(w['row_domains'])/max(1,sum(r['enumerated']))
+    assert memory<8_000_000_000
+    save(OUT/'independent_pilot.json',{'estimated_seconds_10x':estimate,'memory_envelope_bytes':memory,
+         'storage_envelope_bytes':100_000_000,'solution_storage_bound':'At most the native complete count if all three modes exhaust to equal lists; otherwise independent full enumeration is not authorized by this pilot.',
+         'seconds_limit':180,'candidate_limit':2_000_000_000,'binary_sha256':digest(AUDITOR)})
+    print(json.dumps(load('independent_pilot.json'),indent=2))
+
+
+def independent():
+    p=load('independent_pilot.json'); trials=[load(f'trials/m{m}_t{t}.json') for t in range(3) for m in range(3)]
+    assert all(r['complete'] for r in trials) and all(r['solutions']==trials[0]['solutions'] for r in trials)
+    assert digest(AUDITOR)==p['binary_sha256'] and p['memory_envelope_bytes']<8_000_000_000
+    assert len(trials[0]['solutions'])*120 < p['storage_envelope_bytes']
+    r=independent_run('full',p['candidate_limit'],p['seconds_limit'])
+    if r['complete']: assert r['solutions']==trials[0]['solutions']
+    print(json.dumps({k:v for k,v in r.items() if k!='solutions'},indent=2))
+
+
+def audit():
+    from statistics import median
+    w=load('witness.json'); summary=[]; reference=None; checked=0
+    for mode in (0,1,2):
+        values=[load(f'trials/m{mode}_t{t}.json') for t in range(3)]
+        for r in values:
+            assert r['mode']==mode and r['peak_working_set_bytes']<10_000_000_000 and r['elapsed_seconds']<1800
+            for masks in r['solutions']:
+                verify_masks(w['pair'],masks)
+                full_check([[1-2*((mask>>i)&1) for i in range(63)] for mask in masks]); checked+=1
+            if r['complete']:
+                assert r['canonical_pairs']==len(r['solutions']) and r['ordered_pairs']==9*len(r['solutions'])
+                for row in r['rows']: assert row['complete'] and row['leaves']+row['excluded_completions']==row['expected']
+                assert w['canonical_witness_masks'] in r['solutions']
+                if reference is None: reference=r['solutions']
+                else: assert r['solutions']==reference
+        summary.append({'mode':mode,'complete_trials':sum(r['complete'] for r in values),
+             'median_engine_seconds':median(r['elapsed_seconds'] for r in values),
+             'engine_range_seconds':[min(r['elapsed_seconds'] for r in values),max(r['elapsed_seconds'] for r in values)],
+             'median_setup_seconds':median(r['python_setup_seconds'] for r in values),
+             'median_native_nonengine_seconds':median(r['native_nonengine_seconds'] for r in values),
+             'median_validation_seconds':median(r['validation_seconds'] for r in values),
+             'median_wrapper_seconds':median(r['wrapper_elapsed_seconds'] for r in values),
+             'peak_working_set_bytes':max(r['peak_working_set_bytes'] for r in values)})
+    independent_result=load('independent/full.json')
+    if independent_result['complete']: assert independent_result['solutions']==reference
+    for masks in independent_result['solutions']:
+        verify_masks(w['pair'],masks); full_check([[1-2*((mask>>i)&1) for i in range(63)] for mask in masks]); checked+=1
+    frozen_names=['results/'+p+'/manifest.json' for p in ('p5_classification','phase_propagation','spectral_join','p7_portfolio')]
+    for name in frozen_names:
+        assert digest(ROOT/name)==load('baseline.json')['manifests'][name]
+        for e in json.loads((ROOT/name).read_text())['files']:
+            assert digest(ROOT/e['path'])==e['sha256'] and (ROOT/e['path']).stat().st_size==e['bytes']
+    complete=all(s['complete_trials']==3 for s in summary) and independent_result['complete']
+    result={'complete':complete,'native_summary':summary,'prescribed_family':w['prescribed_family'],
+         'canonical_pairs':len(reference) if complete else None,'ordered_pairs':9*len(reference) if complete else None,
+         'witness_checks_all_62_shifts_and_sds':checked,'independent_complete':independent_result['complete'],
+         'independent_engine_seconds':independent_result['elapsed_seconds'],
+         'independent_peak_bytes':independent_result.get('peak_working_set_bytes'),
+         'batch_walls':[load(f'trial_{t}.json')['batch_wall_seconds'] for t in range(3)],
+         'all_frozen_evidence_rechecked':True,'no_p37_search':True}
+    save(OUT/'summary.json',result)
+    paths=[p for p in OUT.rglob('*') if p.is_file() and p.name not in ('manifest.json','audit.json')]
+    paths += [Path(__file__)]
+    save(OUT/'manifest.json',{'algorithm':'sha256','files':[{'path':p.relative_to(ROOT).as_posix(),
+         'bytes':p.stat().st_size,'sha256':digest(p)} for p in sorted(paths)]})
+    save(OUT/'audit.json',{'manifest_sha256':digest(OUT/'manifest.json'),'files':len(paths),
+         'storage_bytes':sum(p.stat().st_size for p in OUT.rglob('*') if p.is_file()),'summary':result})
+    print(json.dumps(result,indent=2))
+
+
+def main():
+    parser=argparse.ArgumentParser(); parser.add_argument('stage',choices=['setup','pilot','trial','independent-pilot','independent','audit'])
+    parser.add_argument('number',nargs='?',type=int); args=parser.parse_args()
+    if args.stage=='trial':
+        assert args.number in (0,1,2); trial(args.number)
+    else: {'setup':setup,'pilot':pilot,'independent-pilot':independent_pilot,'independent':independent,'audit':audit}[args.stage]()
+
+
+if __name__=='__main__': main()

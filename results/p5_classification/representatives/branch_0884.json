@@ -1,0 +1,137 @@
+{
+  "all_solutions_direct_paf_sds_checked": true,
+  "canonical_pairs": 6,
+  "elapsed_seconds": 26.53047300002072,
+  "first": [
+    -1,
+    -1,
+    -1,
+    -1,
+    1,
+    1,
+    1,
+    1,
+    -1,
+    1,
+    1,
+    3,
+    -3,
+    -1,
+    1
+  ],
+  "independent_full_paf": {
+    "canonical_pairs": 6,
+    "complete": true,
+    "counts": [
+      531441,
+      19683
+    ],
+    "elapsed_seconds": 14.876980400003958,
+    "expected_counts": [
+      531441,
+      19683
+    ],
+    "ordered_pairs": 54,
+    "projected_histogram_sha256": [
+      "b5b9194975e1bba9bfd5683eb0fc5193a137d6b40a5a6f28a7f5dca6e4404b82",
+      "cbe129a139e9e6e5430cc21275fb7d7b603055ce4e75ea5e8df9f0062a86018d"
+    ],
+    "solutions": [
+      [
+        4706628990474,
+        2917577559922
+      ],
+      [
+        4707201757634,
+        8344141728472
+      ],
+      [
+        14578625269878,
+        7242477244286
+      ],
+      [
+        14619668755340,
+        3877516380756
+      ],
+      [
+        30933875135294,
+        3085115034320
+      ],
+      [
+        30974390678852,
+        7693478234712
+      ]
+    ],
+    "stored_signatures": 19677
+  },
+  "magnitude_one_counts": [
+    13,
+    10
+  ],
+  "ordered_pairs": 54,
+  "peak_worker_working_set_bytes": 125341696,
+  "phase": {
+    "canonical_pairs": 6,
+    "complete": true,
+    "counts": [
+      531441,
+      19683
+    ],
+    "elapsed_seconds": 8.540793300024234,
+    "expected_counts": [
+      531441,
+      19683
+    ],
+    "ordered_pairs": 54,
+    "projected_histogram_sha256": [
+      "b5b9194975e1bba9bfd5683eb0fc5193a137d6b40a5a6f28a7f5dca6e4404b82",
+      "cbe129a139e9e6e5430cc21275fb7d7b603055ce4e75ea5e8df9f0062a86018d"
+    ],
+    "solutions": [
+      [
+        4706628990474,
+        2917577559922
+      ],
+      [
+        4707201757634,
+        8344141728472
+      ],
+      [
+        14578625269878,
+        7242477244286
+      ],
+      [
+        14619668755340,
+        3877516380756
+      ],
+      [
+        30933875135294,
+        3085115034320
+      ],
+      [
+        30974390678852,
+        7693478234712
+      ]
+    ],
+    "stored_signatures": 19677
+  },
+  "rank": 884,
+  "second": [
+    -1,
+    1,
+    1,
+    -1,
+    -3,
+    1,
+    -1,
+    1,
+    1,
+    -3,
+    1,
+    -3,
+    1,
+    3,
+    3
+  ],
+  "status": "sat"
+}

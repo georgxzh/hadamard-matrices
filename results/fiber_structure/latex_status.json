@@ -1,0 +1,10 @@
+{
+  "compilation": "success",
+  "date": "2026-10-11",
+  "editor": "Existing LaTeX editor retained; not closed or replaced.",
+  "layout_access": "The built-in compiler returns diagnostics without exporting a PDF. No manuscript PDF was present under paper or the accessible repository scratch paths; native desktop screenshot control is unavailable. No visual inspection is claimed.",
+  "manuscript_sha256": "eecce61a7a33ddbab61341866e58faee9d108a664a0295f5194c59530f7e0a2a",
+  "tool": "mcp__codex_app__compile_latex_document",
+  "tool_message": "The current source compiled successfully with the desktop editor's compiler.",
+  "visual_pdf_layout": "unverified"
+}

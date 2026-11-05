@@ -1,6 +1,6 @@
 # Source ledger
 
-Last audited: 2026-09-27
+Last audited: 2026-10-06
 
 Labels:
 
@@ -23,7 +23,8 @@ Labels:
 | `djokovic2015compression` | P | complete arXiv PDF; Definition 3 and Theorem 3 visually audited | exact compression identities | generic and 3/9/37 paths implemented and tested |
 | `kotsireas2021mod3` | P | complete arXiv PDF; Corollary 1 visually audited | length divisible by 3 exact PSD constraints | implemented; LP(27) special frequency reproduced |
 | `kotsireas2027pq2` | P, online 2026 | substantial publisher text; direct PDF blocked | structured \(pq^2\) uncompression route | route cited only; compressed rows independently **derived and proved**, not retrieved; factor-9 uncompression reproduced at \(p=3\) |
-| `kotsireas2025compression` | P | publisher HTML, especially Sections 4 and 5.3.2; direct PDF blocked | successive uncompression scheme and printed structured LP(45) | LP(45), both compression stages, p=5 OPB certificates, and H(92) reproduced |
+| `kotsireas2025compression` | P | publisher HTML, especially Sections 4 and 5.3.2; direct PDF blocked | successive uncompression scheme and printed structured LP(45) | LP(45), both compression stages, exact first-stage models, exhaustive p=3/p=5 intermediate generation, p=5 branch portfolio, certificates, and H(92) reproductions completed |
+| `lebedev2026quaternary` | PP | arXiv abstract and metadata | contemporary methodological context for exact autocorrelation-vector matching and divisor-chain compression | context only; quaternary results not used as binary evidence |
 | `cati2024database` | PP/software | arXiv and Sage docs | construction coverage/database | executable audit pending |
 | `eliahou2025modular` | P | open PDF text | modular near-result at 668 | pending |
 | `chojecki2026status` | R | full PDF indexed | previous computational approach | claims not reproduced |
@@ -91,6 +92,10 @@ reports are under `results/legendre_examples/`.
 - Locate code and complete outputs underlying `chojecki2026status`.
 - Check SageMath's exact reason/dispatch trace for nonconstruction at 668.
 - Search citation indexes again before any major experiment or public claim.
+- Relevant full-text sections 4, 5 and 8 of `lebedev2026quaternary` were
+  audited on 2026-09-29 UTC for correlation-vector joins, divisor chains and
+  evidence levels. Its quaternary Gray map differs from our ternary traversal.
+  This supplies methodological precedent, not a binary LP(333) result.
 
 ## Citation discipline
 
@@ -110,3 +115,99 @@ has 198,965,505 bytes and verified SHA-256
 It was not extracted or fully checked. Exact commands, per-certificate hashes,
 post-v1 distinctions, and the ten-case gap are in
 `multiplier_artifact_audit.md` and `results/multiplier_audit/metadata.json`.
+
+## Paper-draft novelty audit, 2026-09-29 UTC
+
+- `fletcher2001`: primary journal PDF, Section 5.4/Table 3 checked again.
+  Exhaustive length-45 classification already reported (3,058 inequivalent
+  pairs). Our fixed-compression ordered census uses different conventions;
+  conversion to the complete old representative list is still missing.
+- `djokovic2015compression`: primary arXiv HTML, Theorem 3 and Section 6.
+  Exact compression identities and symmetry search are established.
+- `kotsireas2025compression`: indexed primary publisher text, Theorem 3.2,
+  equation (5), Section 4 and the printed small examples. The prescribed
+  character pair and two q-lifts are established, independently reproduced
+  here. The universal uncompression claim remains conjectural.
+- `kotsireas2023mod5`: primary arXiv v3, Section 2/Tables 1--2. The
+  `(1,3,3,3,3)` magnitude pattern is already listed at length 45, alongside
+  other families. Our exact census is confined to one ordered prescription.
+- `turner2022decimation`: publisher abstract/metadata only; full theory and
+  its relation to our concrete gauge still need comparison.
+- `perera2025fast`: publisher abstract/metadata only. The FFT-like search
+  algorithm benchmarks lengths 45 and 63. Our implementation timings are
+  not a comparison against this work and do not establish state-of-the-art.
+- `kotsireas2027pq2`: primary abstract/metadata checked, full algorithm and
+  tables still inaccessible. This is a material gap for any phase-formulation
+  or restricted-census novelty claim.
+
+The claim-by-claim ledger and proofs are in `../paper/manuscript.tex`.
+
+### Propagation and equivalence follow-up, 2026-09-29 UTC
+
+- `fletcher2001`, Section 5.4/Table 3: converted all 2,976 phase-gauged
+  solutions in our subset to the published operations (row exchange,
+  independent cyclic shifts/reversals, common decimation). The result is
+  **63 classes**: 61 with 48 records and two with 24. This is a restricted
+  subset conversion, not reproduction of the complete 3,058-class count.
+  The underlying historical list, stated to be available from the authors,
+  has not been retrieved or matched. No author contact was initiated.
+- `kotsireas2025compression`, Section 4: its trace/linear-complexity discard
+  invokes Conjecture 3.5. Our complete restricted census uses no such filter.
+- `lumsden2025periodic`, primary arXiv v3 Sections 3.4--5:
+  <https://arxiv.org/html/2408.15611v3>. Matching retains all combinations in
+  equal-signature buckets; multilevel compression, recursive uncompression,
+  and equivalence filtering are explicit precedents. The authors' software
+  <https://github.com/tylerlumsden/GolayPair> documents a general PAF constant,
+  including -2, but has not been run or benchmarked here. Our choice of exact
+  PAF coordinates does not make the generic joining method novel.
+- Phase-difference triangle supports, sum intervals, and partner-signature
+  bitsets now have an exact implementation and soundness argument. The
+  priority of this particular combination remains unresolved. A negative
+  timing result cannot establish novelty or rule out other implementations.
+
+Full-text gaps for `kotsireas2027pq2`, `perera2025fast`, and
+`turner2022decimation` remain open. No first-method or new-length claim is made.
+
+### Certified spectral milestone, 2026-10-04 UTC
+
+- `fletcher2001`: primary journal PDF, Sections 5.1 and 5.3 reread:
+  <https://ajc.maths.uq.edu.au/pdf/23/ocr-ajc-v23-p75.pdf>.
+  Single-row PSD exclusion and filtering before matching are established.
+- `lumsden2025periodic`: primary arXiv v3, Sections 2 and 3.4--5 reread:
+  <https://arxiv.org/html/2408.15611v3>. PSD filtering, full matching buckets,
+  recursive uncompression and equivalence reduction precede this work.
+- `bright2019complexgolay`: full primary author text, Sections 3.3 and 3.5:
+  <https://cs.uwaterloo.ca/~cbright/reports/jsc-cgolay.pdf>, author preprint
+  <https://arxiv.org/abs/1907.11981>, DOI
+  <https://doi.org/10.1016/j.jsc.2019.10.013>. Partial-correlation conflicts,
+  FFT-based spectral exclusion with explicit numeric tolerance, precomputed
+  contributions and frequency ordering are precedents. This is a complex
+  aperiodic search; no periodic binary classification is inferred from it.
+
+The proved rational rectangle specialization and complete saved-branch p=7
+result are in `spectral_join.md`. Priority of that specialization is unresolved;
+native engineering speed is not a new complexity result. The full-text gaps
+listed above and historical LP(45) representative-list comparison remain.
+
+### Systematic p=7 portfolio comparison, 2026-10-06
+
+- `perera2025fast`: indexed primary publisher introduction and Section 3/4
+  previews identify Bluestein/FFTW Fourier evaluation. Direct HTML returned
+  403; complete factorization, numerical safeguards and search conventions
+  remain inaccessible. The author-institution page links to DOI metadata,
+  not an accessible full text. No code or comparative baseline was run.
+- `kotsireas2027pq2`: indexed primary publisher abstract/metadata checked;
+  direct HTML/PDF retrieval still failed despite the open-access label.
+  Full phase/pruning/decimation details remain unaudited. Targeted repository
+  and preprint searches did not recover complete primary manuscripts.
+- `kotsireas2025compression`: primary Section 4.1 reread for successive
+  lifting and the explicitly conjectural trace/linear-complexity discard.
+  LP(63) existence is a prior result; its printed witness was not recovered
+  or added as a positive portfolio control in this milestone.
+
+The candidate-contribution ledger and access URLs are frozen in
+`../results/p7_portfolio/literature_access.json`. Priority of the rational
+partial-phase specialization and the restricted-census artifact remains
+unresolved. The preferred paper scope is census/reproducibility with proved
+specializations, contingent on completed evidence, full comparisons and
+external replication; no new existence or competitive-method claim follows.

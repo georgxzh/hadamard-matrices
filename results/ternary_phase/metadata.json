@@ -1,0 +1,1556 @@
+{
+  "branch_acquisition": [
+    {
+      "best_energy": 0,
+      "elapsed_seconds": 3.8715560999698937,
+      "iterations": 89695,
+      "max_iterations": 200000,
+      "pair": [
+        [
+          -3,
+          1,
+          1,
+          -3,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -3,
+          3,
+          1,
+          1,
+          -1,
+          1,
+          -3,
+          -1
+        ],
+        [
+          -1,
+          -1,
+          -1,
+          1,
+          -3,
+          -1,
+          3,
+          1,
+          -1,
+          1,
+          1,
+          -1,
+          3,
+          1,
+          1,
+          -1,
+          -3,
+          1,
+          1,
+          1,
+          -1
+        ]
+      ],
+      "prime": 7,
+      "seed": 20260928,
+      "status": "exact_branch_found",
+      "time_limit": 10
+    }
+  ],
+  "command": "python -m scripts.benchmark_ternary_phase --solver tmp/tools/roundingsat/roundingsat.exe --verifier tmp/tools/veripb-3.0.2/bin/veripb.exe --search-seconds 10",
+  "completed_utc": "2026-09-29T00:05:44.772129+00:00",
+  "elapsed_seconds": 148.79190730000846,
+  "models": {
+    "p3_binary_r100": {
+      "certificate": {
+        "bytes": 2654,
+        "path": "results/ternary_phase/p3_binary_r100_witness.pbp",
+        "sha256": "524c8bed27597df89e286947225752b9d5c9b12cc273ebd64c98fc4616b720bf",
+        "tracked": true
+      },
+      "certificate_verification": {
+        "command": [
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\veripb-3.0.2\\bin\\veripb.exe",
+          "--stats",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\ternary_phase\\p3_binary_r100.opb",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\ternary_phase\\p3_binary_r100_witness.pbp"
+        ],
+        "elapsed_seconds": 0.070893,
+        "exit_code": 0,
+        "externally_timed_out": false,
+        "peak_working_set_bytes": 6914048,
+        "reported_status": null,
+        "stdout": {
+          "bytes": 179,
+          "path": "results/ternary_phase/p3_binary_r100_witness_veripb.txt",
+          "sha256": "dcf377a37e188d01c1a911a0b78fd6bc76e027d75d1e752b12204abb2bea361b",
+          "tracked": true
+        }
+      },
+      "opb": {
+        "bytes": 54117,
+        "path": "results/ternary_phase/p3_binary_r100.opb",
+        "sha256": "f73d3b225e8cad6e9ca0fab07092f91a239c4a3405dfe2228ee0d05a616f0697",
+        "tracked": true
+      },
+      "proof_verification": {
+        "command": [
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\veripb-3.0.2\\bin\\veripb.exe",
+          "--stats",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\ternary_phase\\p3_binary_r100.opb",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\ternary_phase\\p3_binary_r100.pbp"
+        ],
+        "elapsed_seconds": 0.391993,
+        "exit_code": 0,
+        "externally_timed_out": false,
+        "peak_working_set_bytes": 13955072,
+        "reported_status": null,
+        "stdout": {
+          "bytes": 234,
+          "path": "results/ternary_phase/p3_binary_r100_search_veripb.txt",
+          "sha256": "b625414a401b4db272591a6498559d5cb1d581dec55ff00fe1aa9fe952ca1d86",
+          "tracked": true
+        }
+      },
+      "run": {
+        "command": [
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\roundingsat\\roundingsat.exe",
+          "--lp=0",
+          "--print-sol=1",
+          "--verbosity=1",
+          "--luby-mult=100",
+          "--time-limit=10",
+          "--proof-log=C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\ternary_phase\\p3_binary_r100.pbp",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\ternary_phase\\p3_binary_r100.opb"
+        ],
+        "elapsed_seconds": 3.13479,
+        "exit_code": 0,
+        "externally_timed_out": false,
+        "peak_working_set_bytes": 8052736,
+        "reported_status": "SATISFIABLE",
+        "stdout": {
+          "bytes": 5655,
+          "path": "results/ternary_phase/p3_binary_r100_solver.txt",
+          "sha256": "a078a14fcf05afbbfa42ef027418a5ec4e9254a4a001a927aed75d434de5662b",
+          "tracked": true
+        }
+      },
+      "search_proof": {
+        "bytes": 3528035,
+        "path": "tmp/ternary_phase/p3_binary_r100.pbp",
+        "sha256": "19b063edfdb33693b2052cda568fd26bb4143a4c85dcc372e369fa34b46250bc",
+        "tracked": false
+      },
+      "stats": {
+        "base_variables": 54,
+        "compressed_length": 9,
+        "compression_equalities": 18,
+        "constraint_records": 1758,
+        "correlation_equalities": 8,
+        "factor": 3,
+        "normalized_inequalities": 1784,
+        "symmetry_inequalities": 4,
+        "uncompressed_length": 27,
+        "variables": 486,
+        "xor_inequalities": 1728,
+        "xor_variables": 432
+      },
+      "witness": {
+        "bytes": 474,
+        "path": "results/ternary_phase/p3_binary_r100_witness.json",
+        "sha256": "f885a069c724d75731f98afa6e2335ad4aa24e6e75fab3582c1631f651a3d0e6",
+        "tracked": true
+      }
+    },
+    "p3_phase_r100": {
+      "certificate": {
+        "bytes": 956,
+        "path": "results/ternary_phase/p3_phase_r100_witness.pbp",
+        "sha256": "63c89aa234e241236a4cda602cf5125a4290697480923f6598d0bf25379ffa71",
+        "tracked": true
+      },
+      "certificate_verification": {
+        "command": [
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\veripb-3.0.2\\bin\\veripb.exe",
+          "--stats",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\ternary_phase\\p3_phase_r100.opb",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\ternary_phase\\p3_phase_r100_witness.pbp"
+        ],
+        "elapsed_seconds": 0.071324,
+        "exit_code": 0,
+        "externally_timed_out": false,
+        "peak_working_set_bytes": 6193152,
+        "reported_status": null,
+        "stdout": {
+          "bytes": 179,
+          "path": "results/ternary_phase/p3_phase_r100_witness_veripb.txt",
+          "sha256": "18892a33c6db4ad6997fa06fc60066ec70231ff9047d72c8bf551e2366bcc021",
+          "tracked": true
+        }
+      },
+      "opb": {
+        "bytes": 13702,
+        "path": "results/ternary_phase/p3_phase_r100.opb",
+        "sha256": "f271227d0534a9528abcd5f5a9775f57f8586fbf845e137107f4b0e729a4407f",
+        "tracked": true
+      },
+      "proof_verification": {
+        "command": [
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\veripb-3.0.2\\bin\\veripb.exe",
+          "--stats",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\ternary_phase\\p3_phase_r100.opb",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\ternary_phase\\p3_phase_r100.pbp"
+        ],
+        "elapsed_seconds": 0.123138,
+        "exit_code": 0,
+        "externally_timed_out": false,
+        "peak_working_set_bytes": 7229440,
+        "reported_status": null,
+        "stdout": {
+          "bytes": 179,
+          "path": "results/ternary_phase/p3_phase_r100_search_veripb.txt",
+          "sha256": "041e0542a1d31028a0c1b454f2d5b5be4256274a1c2d914ed5d47600bfd67eef",
+          "tracked": true
+        }
+      },
+      "run": {
+        "command": [
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\roundingsat\\roundingsat.exe",
+          "--lp=0",
+          "--print-sol=1",
+          "--verbosity=1",
+          "--luby-mult=100",
+          "--time-limit=10",
+          "--proof-log=C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\ternary_phase\\p3_phase_r100.pbp",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\ternary_phase\\p3_phase_r100.opb"
+        ],
+        "elapsed_seconds": 0.330354,
+        "exit_code": 0,
+        "externally_timed_out": false,
+        "peak_working_set_bytes": 6090752,
+        "reported_status": "SATISFIABLE",
+        "stdout": {
+          "bytes": 3327,
+          "path": "results/ternary_phase/p3_phase_r100_solver.txt",
+          "sha256": "6ecb158f6b374c6163131524ba4e3184fc6fa7353b0cc7721c18b23c2b45b9c7",
+          "tracked": true
+        }
+      },
+      "search_proof": {
+        "bytes": 272383,
+        "path": "tmp/ternary_phase/p3_phase_r100.pbp",
+        "sha256": "a7c84012ff54a6972b4ade91f88c086f403702ae864d4b7b4a2658c6f0961734",
+        "tracked": false
+      },
+      "stats": {
+        "channel_inequalities": 387,
+        "constraint_records": 454,
+        "correlation_equalities": 8,
+        "difference_equalities": 43,
+        "difference_variables": 129,
+        "gauge_equalities": 2,
+        "normalized_inequalities": 521,
+        "phase_equalities": 14,
+        "phase_variables": 42,
+        "variables": 171
+      },
+      "witness": {
+        "bytes": 474,
+        "path": "results/ternary_phase/p3_phase_r100_witness.json",
+        "sha256": "2afa6e0a046a32df88a050ca36e9e374746fa4767fa4fdacff1d2087efb0d21c",
+        "tracked": true
+      }
+    },
+    "p5_rank1_binary_r100": {
+      "opb": {
+        "bytes": 159492,
+        "path": "results/ternary_phase/p5_rank1_binary_r100.opb",
+        "sha256": "a0ff2a4cef0bf340ba68bde8bc51b4199ca1cee44db2a28a390a1cb470252a42",
+        "tracked": true
+      },
+      "run": {
+        "command": [
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\roundingsat\\roundingsat.exe",
+          "--lp=0",
+          "--print-sol=1",
+          "--verbosity=1",
+          "--luby-mult=100",
+          "--time-limit=10",
+          "--proof-log=C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\ternary_phase\\p5_rank1_binary_r100.pbp",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\ternary_phase\\p5_rank1_binary_r100.opb"
+        ],
+        "elapsed_seconds": 11.080841,
+        "exit_code": 4,
+        "externally_timed_out": false,
+        "peak_working_set_bytes": 11210752,
+        "reported_status": "TIMELIMIT",
+        "stdout": {
+          "bytes": 4423,
+          "path": "results/ternary_phase/p5_rank1_binary_r100_solver.txt",
+          "sha256": "497abe3e966398f604d53266c67a2120992a4be608aeb38972cc68c68bf95477",
+          "tracked": true
+        }
+      },
+      "search_proof": {
+        "bytes": 13808148,
+        "path": "tmp/ternary_phase/p5_rank1_binary_r100.pbp",
+        "sha256": "681a054aa91df403288d07bd4a0328f1121ed4aa48c3982c01cd2e85faf55cd5",
+        "tracked": false
+      },
+      "stats": {
+        "base_variables": 90,
+        "compressed_length": 15,
+        "compression_equalities": 30,
+        "constraint_records": 5088,
+        "correlation_equalities": 14,
+        "factor": 3,
+        "normalized_inequalities": 5132,
+        "symmetry_inequalities": 4,
+        "uncompressed_length": 45,
+        "variables": 1350,
+        "xor_inequalities": 5040,
+        "xor_variables": 1260
+      }
+    },
+    "p5_rank1_binary_r200": {
+      "opb": {
+        "bytes": 159492,
+        "path": "results/ternary_phase/p5_rank1_binary_r200.opb",
+        "sha256": "a0ff2a4cef0bf340ba68bde8bc51b4199ca1cee44db2a28a390a1cb470252a42",
+        "tracked": true
+      },
+      "run": {
+        "command": [
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\roundingsat\\roundingsat.exe",
+          "--lp=0",
+          "--print-sol=1",
+          "--verbosity=1",
+          "--luby-mult=200",
+          "--time-limit=10",
+          "--proof-log=C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\ternary_phase\\p5_rank1_binary_r200.pbp",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\ternary_phase\\p5_rank1_binary_r200.opb"
+        ],
+        "elapsed_seconds": 11.048393,
+        "exit_code": 4,
+        "externally_timed_out": false,
+        "peak_working_set_bytes": 13209600,
+        "reported_status": "TIMELIMIT",
+        "stdout": {
+          "bytes": 5687,
+          "path": "results/ternary_phase/p5_rank1_binary_r200_solver.txt",
+          "sha256": "d04d1490d4b51d4e688e7af15f008b2f0397533b713e0025df5b03dc299141d2",
+          "tracked": true
+        }
+      },
+      "search_proof": {
+        "bytes": 23410417,
+        "path": "tmp/ternary_phase/p5_rank1_binary_r200.pbp",
+        "sha256": "bd17ae704344a175ee48cc636d5352fc8c4dfd57530ca7190a891e3c7b47b9d8",
+        "tracked": false
+      },
+      "stats": {
+        "base_variables": 90,
+        "compressed_length": 15,
+        "compression_equalities": 30,
+        "constraint_records": 5088,
+        "correlation_equalities": 14,
+        "factor": 3,
+        "normalized_inequalities": 5132,
+        "symmetry_inequalities": 4,
+        "uncompressed_length": 45,
+        "variables": 1350,
+        "xor_inequalities": 5040,
+        "xor_variables": 1260
+      }
+    },
+    "p5_rank1_binary_r50": {
+      "opb": {
+        "bytes": 159492,
+        "path": "results/ternary_phase/p5_rank1_binary_r50.opb",
+        "sha256": "a0ff2a4cef0bf340ba68bde8bc51b4199ca1cee44db2a28a390a1cb470252a42",
+        "tracked": true
+      },
+      "run": {
+        "command": [
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\roundingsat\\roundingsat.exe",
+          "--lp=0",
+          "--print-sol=1",
+          "--verbosity=1",
+          "--luby-mult=50",
+          "--time-limit=10",
+          "--proof-log=C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\ternary_phase\\p5_rank1_binary_r50.pbp",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\ternary_phase\\p5_rank1_binary_r50.opb"
+        ],
+        "elapsed_seconds": 11.062594,
+        "exit_code": 4,
+        "externally_timed_out": false,
+        "peak_working_set_bytes": 10792960,
+        "reported_status": "TIMELIMIT",
+        "stdout": {
+          "bytes": 3991,
+          "path": "results/ternary_phase/p5_rank1_binary_r50_solver.txt",
+          "sha256": "adceed7083c8bb689f3508cc159331d22b3b0c040eb51c29768b4bfbdd78302a",
+          "tracked": true
+        }
+      },
+      "search_proof": {
+        "bytes": 10914786,
+        "path": "tmp/ternary_phase/p5_rank1_binary_r50.pbp",
+        "sha256": "9108220d057607f7f6842dd6cf876038bf26f35f51457cae902c3fc382a6197a",
+        "tracked": false
+      },
+      "stats": {
+        "base_variables": 90,
+        "compressed_length": 15,
+        "compression_equalities": 30,
+        "constraint_records": 5088,
+        "correlation_equalities": 14,
+        "factor": 3,
+        "normalized_inequalities": 5132,
+        "symmetry_inequalities": 4,
+        "uncompressed_length": 45,
+        "variables": 1350,
+        "xor_inequalities": 5040,
+        "xor_variables": 1260
+      }
+    },
+    "p5_rank1_phase_r100": {
+      "opb": {
+        "bytes": 38680,
+        "path": "results/ternary_phase/p5_rank1_phase_r100.opb",
+        "sha256": "ff97c3f4696521d10562c22a5e20500d788cec544862b60a8b00d29373a8ec9b",
+        "tracked": true
+      },
+      "run": {
+        "command": [
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\roundingsat\\roundingsat.exe",
+          "--lp=0",
+          "--print-sol=1",
+          "--verbosity=1",
+          "--luby-mult=100",
+          "--time-limit=10",
+          "--proof-log=C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\ternary_phase\\p5_rank1_phase_r100.pbp",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\ternary_phase\\p5_rank1_phase_r100.opb"
+        ],
+        "elapsed_seconds": 11.048977,
+        "exit_code": 4,
+        "externally_timed_out": false,
+        "peak_working_set_bytes": 9646080,
+        "reported_status": "TIMELIMIT",
+        "stdout": {
+          "bytes": 5927,
+          "path": "results/ternary_phase/p5_rank1_phase_r100_solver.txt",
+          "sha256": "c81932f9a5626416e7a957e52aaec1fb4ab3d22445552dbd4339e851d23b4376",
+          "tracked": true
+        }
+      },
+      "search_proof": {
+        "bytes": 14199272,
+        "path": "tmp/ternary_phase/p5_rank1_phase_r100.pbp",
+        "sha256": "3cad88cc5e54f64409c9b981b5394d3a482c29ff4c05e0e8cc754969f357eb47",
+        "tracked": false
+      },
+      "stats": {
+        "channel_inequalities": 1089,
+        "constraint_records": 1249,
+        "correlation_equalities": 14,
+        "difference_equalities": 121,
+        "difference_variables": 363,
+        "gauge_equalities": 2,
+        "normalized_inequalities": 1409,
+        "phase_equalities": 23,
+        "phase_variables": 69,
+        "variables": 432
+      }
+    },
+    "p5_rank1_phase_r200": {
+      "opb": {
+        "bytes": 38680,
+        "path": "results/ternary_phase/p5_rank1_phase_r200.opb",
+        "sha256": "ff97c3f4696521d10562c22a5e20500d788cec544862b60a8b00d29373a8ec9b",
+        "tracked": true
+      },
+      "run": {
+        "command": [
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\roundingsat\\roundingsat.exe",
+          "--lp=0",
+          "--print-sol=1",
+          "--verbosity=1",
+          "--luby-mult=200",
+          "--time-limit=10",
+          "--proof-log=C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\ternary_phase\\p5_rank1_phase_r200.pbp",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\ternary_phase\\p5_rank1_phase_r200.opb"
+        ],
+        "elapsed_seconds": 11.073348,
+        "exit_code": 4,
+        "externally_timed_out": false,
+        "peak_working_set_bytes": 9793536,
+        "reported_status": "TIMELIMIT",
+        "stdout": {
+          "bytes": 6720,
+          "path": "results/ternary_phase/p5_rank1_phase_r200_solver.txt",
+          "sha256": "e215adced866b44567254c76fe1526ae19766c4851824080f95f93f904399221",
+          "tracked": true
+        }
+      },
+      "search_proof": {
+        "bytes": 17483686,
+        "path": "tmp/ternary_phase/p5_rank1_phase_r200.pbp",
+        "sha256": "8b3a09073036397b64b3913562e66649506afbfaea3d5b9bf56e2788c735d688",
+        "tracked": false
+      },
+      "stats": {
+        "channel_inequalities": 1089,
+        "constraint_records": 1249,
+        "correlation_equalities": 14,
+        "difference_equalities": 121,
+        "difference_variables": 363,
+        "gauge_equalities": 2,
+        "normalized_inequalities": 1409,
+        "phase_equalities": 23,
+        "phase_variables": 69,
+        "variables": 432
+      }
+    },
+    "p5_rank1_phase_r50": {
+      "opb": {
+        "bytes": 38680,
+        "path": "results/ternary_phase/p5_rank1_phase_r50.opb",
+        "sha256": "ff97c3f4696521d10562c22a5e20500d788cec544862b60a8b00d29373a8ec9b",
+        "tracked": true
+      },
+      "run": {
+        "command": [
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\roundingsat\\roundingsat.exe",
+          "--lp=0",
+          "--print-sol=1",
+          "--verbosity=1",
+          "--luby-mult=50",
+          "--time-limit=10",
+          "--proof-log=C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\ternary_phase\\p5_rank1_phase_r50.pbp",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\ternary_phase\\p5_rank1_phase_r50.opb"
+        ],
+        "elapsed_seconds": 11.075849,
+        "exit_code": 4,
+        "externally_timed_out": false,
+        "peak_working_set_bytes": 9220096,
+        "reported_status": "TIMELIMIT",
+        "stdout": {
+          "bytes": 5445,
+          "path": "results/ternary_phase/p5_rank1_phase_r50_solver.txt",
+          "sha256": "a9df542c787208308dd9f5788168f63db5de9b65839d1ec616607b351f8fe2f5",
+          "tracked": true
+        }
+      },
+      "search_proof": {
+        "bytes": 12427254,
+        "path": "tmp/ternary_phase/p5_rank1_phase_r50.pbp",
+        "sha256": "b38f1b22b97ac9e82c2153a5b9156fb384bc46b525c65f63bb90635390a83da5",
+        "tracked": false
+      },
+      "stats": {
+        "channel_inequalities": 1089,
+        "constraint_records": 1249,
+        "correlation_equalities": 14,
+        "difference_equalities": 121,
+        "difference_variables": 363,
+        "gauge_equalities": 2,
+        "normalized_inequalities": 1409,
+        "phase_equalities": 23,
+        "phase_variables": 69,
+        "variables": 432
+      }
+    },
+    "p7_binary_r100": {
+      "opb": {
+        "bytes": 327801,
+        "path": "results/ternary_phase/p7_binary_r100.opb",
+        "sha256": "500461912b11e6ac4de90cd92956bc76d31f93da21f01a6b0627a65c49ef4395",
+        "tracked": true
+      },
+      "run": {
+        "command": [
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\roundingsat\\roundingsat.exe",
+          "--lp=0",
+          "--print-sol=1",
+          "--verbosity=1",
+          "--luby-mult=100",
+          "--time-limit=10",
+          "--proof-log=C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\ternary_phase\\p7_binary_r100.pbp",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\ternary_phase\\p7_binary_r100.opb"
+        ],
+        "elapsed_seconds": 11.087908,
+        "exit_code": 4,
+        "externally_timed_out": false,
+        "peak_working_set_bytes": 14258176,
+        "reported_status": "TIMELIMIT",
+        "stdout": {
+          "bytes": 4430,
+          "path": "results/ternary_phase/p7_binary_r100_solver.txt",
+          "sha256": "1136d03ca2875863bb8f09c86f9d565aa6cc012251f1ed2dd26ac2f2464d1f83",
+          "tracked": true
+        }
+      },
+      "search_proof": {
+        "bytes": 18008958,
+        "path": "tmp/ternary_phase/p7_binary_r100.pbp",
+        "sha256": "0f187e28c59d782db5066c62b108382343be265da6170f874180556d2042de53",
+        "tracked": false
+      },
+      "stats": {
+        "base_variables": 126,
+        "compressed_length": 21,
+        "compression_equalities": 42,
+        "constraint_records": 10146,
+        "correlation_equalities": 20,
+        "factor": 3,
+        "normalized_inequalities": 10208,
+        "symmetry_inequalities": 4,
+        "uncompressed_length": 63,
+        "variables": 2646,
+        "xor_inequalities": 10080,
+        "xor_variables": 2520
+      }
+    },
+    "p7_binary_r200": {
+      "opb": {
+        "bytes": 327801,
+        "path": "results/ternary_phase/p7_binary_r200.opb",
+        "sha256": "500461912b11e6ac4de90cd92956bc76d31f93da21f01a6b0627a65c49ef4395",
+        "tracked": true
+      },
+      "run": {
+        "command": [
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\roundingsat\\roundingsat.exe",
+          "--lp=0",
+          "--print-sol=1",
+          "--verbosity=1",
+          "--luby-mult=200",
+          "--time-limit=10",
+          "--proof-log=C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\ternary_phase\\p7_binary_r200.pbp",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\ternary_phase\\p7_binary_r200.opb"
+        ],
+        "elapsed_seconds": 11.085424,
+        "exit_code": 4,
+        "externally_timed_out": false,
+        "peak_working_set_bytes": 14528512,
+        "reported_status": "TIMELIMIT",
+        "stdout": {
+          "bytes": 4377,
+          "path": "results/ternary_phase/p7_binary_r200_solver.txt",
+          "sha256": "4dfd9dbf645c0ffe30fe7a36141e943b9c771dc9e86426e9f9ffb298b4df2293",
+          "tracked": true
+        }
+      },
+      "search_proof": {
+        "bytes": 18500299,
+        "path": "tmp/ternary_phase/p7_binary_r200.pbp",
+        "sha256": "aed7c3e840e6d664b7a817abeec53467ea22354e0ce75a94b25bb95a1e5e81e7",
+        "tracked": false
+      },
+      "stats": {
+        "base_variables": 126,
+        "compressed_length": 21,
+        "compression_equalities": 42,
+        "constraint_records": 10146,
+        "correlation_equalities": 20,
+        "factor": 3,
+        "normalized_inequalities": 10208,
+        "symmetry_inequalities": 4,
+        "uncompressed_length": 63,
+        "variables": 2646,
+        "xor_inequalities": 10080,
+        "xor_variables": 2520
+      }
+    },
+    "p7_binary_r50": {
+      "opb": {
+        "bytes": 327801,
+        "path": "results/ternary_phase/p7_binary_r50.opb",
+        "sha256": "500461912b11e6ac4de90cd92956bc76d31f93da21f01a6b0627a65c49ef4395",
+        "tracked": true
+      },
+      "run": {
+        "command": [
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\roundingsat\\roundingsat.exe",
+          "--lp=0",
+          "--print-sol=1",
+          "--verbosity=1",
+          "--luby-mult=50",
+          "--time-limit=10",
+          "--proof-log=C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\ternary_phase\\p7_binary_r50.pbp",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\ternary_phase\\p7_binary_r50.opb"
+        ],
+        "elapsed_seconds": 11.08803,
+        "exit_code": 4,
+        "externally_timed_out": false,
+        "peak_working_set_bytes": 14036992,
+        "reported_status": "TIMELIMIT",
+        "stdout": {
+          "bytes": 4670,
+          "path": "results/ternary_phase/p7_binary_r50_solver.txt",
+          "sha256": "559b122a1b57b5df0e600b13fd3cb6b75b8f7e8cea5109646eea4bda298aae58",
+          "tracked": true
+        }
+      },
+      "search_proof": {
+        "bytes": 20982826,
+        "path": "tmp/ternary_phase/p7_binary_r50.pbp",
+        "sha256": "77586ab878dae1a3d2979b9960f58187a174fc5fa7c820cc723e6620d1aa5114",
+        "tracked": false
+      },
+      "stats": {
+        "base_variables": 126,
+        "compressed_length": 21,
+        "compression_equalities": 42,
+        "constraint_records": 10146,
+        "correlation_equalities": 20,
+        "factor": 3,
+        "normalized_inequalities": 10208,
+        "symmetry_inequalities": 4,
+        "uncompressed_length": 63,
+        "variables": 2646,
+        "xor_inequalities": 10080,
+        "xor_variables": 2520
+      }
+    },
+    "p7_phase_r100": {
+      "opb": {
+        "bytes": 76895,
+        "path": "results/ternary_phase/p7_phase_r100.opb",
+        "sha256": "c233802325d02cf107a88db79d1d9560414a22caa3b74135a9ede378f640a141",
+        "tracked": true
+      },
+      "run": {
+        "command": [
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\roundingsat\\roundingsat.exe",
+          "--lp=0",
+          "--print-sol=1",
+          "--verbosity=1",
+          "--luby-mult=100",
+          "--time-limit=10",
+          "--proof-log=C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\ternary_phase\\p7_phase_r100.pbp",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\ternary_phase\\p7_phase_r100.opb"
+        ],
+        "elapsed_seconds": 11.104186,
+        "exit_code": 4,
+        "externally_timed_out": false,
+        "peak_working_set_bytes": 10801152,
+        "reported_status": "TIMELIMIT",
+        "stdout": {
+          "bytes": 5791,
+          "path": "results/ternary_phase/p7_phase_r100_solver.txt",
+          "sha256": "386037bf07d790a601306924ea7b9c619b1e4acaaaf5a8c53eb8526c890d459f",
+          "tracked": true
+        }
+      },
+      "search_proof": {
+        "bytes": 16688416,
+        "path": "tmp/ternary_phase/p7_phase_r100.pbp",
+        "sha256": "9d261b73e1242dd2276ebb3d15d78c8a30f877f207b74a5e8dc814b7f6d65fec",
+        "tracked": false
+      },
+      "stats": {
+        "channel_inequalities": 2169,
+        "constraint_records": 2464,
+        "correlation_equalities": 20,
+        "difference_equalities": 241,
+        "difference_variables": 723,
+        "gauge_equalities": 2,
+        "normalized_inequalities": 2759,
+        "phase_equalities": 32,
+        "phase_variables": 96,
+        "variables": 819
+      }
+    },
+    "p7_phase_r200": {
+      "opb": {
+        "bytes": 76895,
+        "path": "results/ternary_phase/p7_phase_r200.opb",
+        "sha256": "c233802325d02cf107a88db79d1d9560414a22caa3b74135a9ede378f640a141",
+        "tracked": true
+      },
+      "run": {
+        "command": [
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\roundingsat\\roundingsat.exe",
+          "--lp=0",
+          "--print-sol=1",
+          "--verbosity=1",
+          "--luby-mult=200",
+          "--time-limit=10",
+          "--proof-log=C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\ternary_phase\\p7_phase_r200.pbp",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\ternary_phase\\p7_phase_r200.opb"
+        ],
+        "elapsed_seconds": 11.117649,
+        "exit_code": 4,
+        "externally_timed_out": false,
+        "peak_working_set_bytes": 11149312,
+        "reported_status": "TIMELIMIT",
+        "stdout": {
+          "bytes": 5980,
+          "path": "results/ternary_phase/p7_phase_r200_solver.txt",
+          "sha256": "1d413faedc8a85998a5026a17881dc1ef5698fdf2a1bf44fc19a62d49c9c17b3",
+          "tracked": true
+        }
+      },
+      "search_proof": {
+        "bytes": 18039438,
+        "path": "tmp/ternary_phase/p7_phase_r200.pbp",
+        "sha256": "00706f0607021ef9d94b889a99b28ae95b2c64459aff9f71d9684ea5c3c58324",
+        "tracked": false
+      },
+      "stats": {
+        "channel_inequalities": 2169,
+        "constraint_records": 2464,
+        "correlation_equalities": 20,
+        "difference_equalities": 241,
+        "difference_variables": 723,
+        "gauge_equalities": 2,
+        "normalized_inequalities": 2759,
+        "phase_equalities": 32,
+        "phase_variables": 96,
+        "variables": 819
+      }
+    },
+    "p7_phase_r50": {
+      "opb": {
+        "bytes": 76895,
+        "path": "results/ternary_phase/p7_phase_r50.opb",
+        "sha256": "c233802325d02cf107a88db79d1d9560414a22caa3b74135a9ede378f640a141",
+        "tracked": true
+      },
+      "run": {
+        "command": [
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\roundingsat\\roundingsat.exe",
+          "--lp=0",
+          "--print-sol=1",
+          "--verbosity=1",
+          "--luby-mult=50",
+          "--time-limit=10",
+          "--proof-log=C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\ternary_phase\\p7_phase_r50.pbp",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\ternary_phase\\p7_phase_r50.opb"
+        ],
+        "elapsed_seconds": 11.092332,
+        "exit_code": 4,
+        "externally_timed_out": false,
+        "peak_working_set_bytes": 10280960,
+        "reported_status": "TIMELIMIT",
+        "stdout": {
+          "bytes": 5152,
+          "path": "results/ternary_phase/p7_phase_r50_solver.txt",
+          "sha256": "14ba7a3ad513ceb67e39093ee59ac5a04f829a4a3a5fb6ea73a2680b30e37f65",
+          "tracked": true
+        }
+      },
+      "search_proof": {
+        "bytes": 13776910,
+        "path": "tmp/ternary_phase/p7_phase_r50.pbp",
+        "sha256": "03c847e8cd733a89c33c9195bcbe557e5b07765917f7d701eefb1fe6bee8ec53",
+        "tracked": false
+      },
+      "stats": {
+        "channel_inequalities": 2169,
+        "constraint_records": 2464,
+        "correlation_equalities": 20,
+        "difference_equalities": 241,
+        "difference_variables": 723,
+        "gauge_equalities": 2,
+        "normalized_inequalities": 2759,
+        "phase_equalities": 32,
+        "phase_variables": 96,
+        "variables": 819
+      }
+    }
+  },
+  "parallel_processes": 1,
+  "phase_joins": {
+    "p3": {
+      "canonical_pairs": 15,
+      "complete": true,
+      "elapsed_seconds": 0.010903700022026896,
+      "ordered_pairs": 135,
+      "solutions": [
+        [
+          [
+            1,
+            -1,
+            1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            1,
+            -1,
+            -1
+          ],
+          [
+            1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1
+          ]
+        ]
+      ],
+      "stop_reason": "exhausted",
+      "stored_candidates": 243,
+      "stored_signatures": 243,
+      "streamed_candidates": 2187
+    },
+    "p5_rank1": {
+      "canonical_pairs": 3,
+      "complete": true,
+      "elapsed_seconds": 2.4447448000428267,
+      "ordered_pairs": 27,
+      "solutions": [
+        [
+          [
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            1,
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1
+          ]
+        ]
+      ],
+      "stop_reason": "exhausted",
+      "stored_candidates": 59049,
+      "stored_signatures": 59001,
+      "streamed_candidates": 177147
+    },
+    "p7": {
+      "canonical_pairs": 0,
+      "complete": false,
+      "elapsed_seconds": 2.001227499975357,
+      "ordered_pairs": 0,
+      "solutions": [],
+      "stop_reason": "signature_limit",
+      "stored_candidates": 250001,
+      "stored_signatures": 250000,
+      "streamed_candidates": 0
+    }
+  },
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+  "same_domain_controls": {
+    "completed_utc": "2026-09-29T00:06:37.825983+00:00",
+    "domain": "same anchor-zero assignments; Gray incremental vs packed exact PAF",
+    "elapsed_seconds": 2.8156721999985166,
+    "results": {
+      "p3": {
+        "incremental": {
+          "canonical_pairs": 15,
+          "complete": true,
+          "elapsed_seconds": 0.00678719999268651,
+          "ordered_pairs": 135,
+          "solutions": [
+            [
+              [
+                1,
+                -1,
+                1,
+                1,
+                1,
+                -1,
+                1,
+                1,
+                -1,
+                -1,
+                1,
+                1,
+                -1,
+                -1,
+                -1,
+                -1,
+                1,
+                -1,
+                -1,
+                1,
+                -1,
+                1,
+                1,
+                1,
+                1,
+                -1,
+                -1
+              ],
+              [
+                1,
+                1,
+                1,
+                -1,
+                1,
+                1,
+                1,
+                -1,
+                -1,
+                -1,
+                -1,
+                1,
+                1,
+                -1,
+                1,
+                1,
+                -1,
+                -1,
+                -1,
+                -1,
+                1,
+                -1,
+                1,
+                -1,
+                1,
+                -1,
+                1
+              ]
+            ]
+          ],
+          "stop_reason": "exhausted",
+          "stored_candidates": 243,
+          "stored_signatures": 243,
+          "streamed_candidates": 2187
+        },
+        "packed": {
+          "canonical_pairs": 15,
+          "complete": true,
+          "elapsed_seconds": 0.011416999972425401,
+          "ordered_pairs": 135,
+          "solutions": [
+            [
+              [
+                1,
+                -1,
+                1,
+                1,
+                -1,
+                -1,
+                1,
+                1,
+                -1,
+                -1,
+                1,
+                1,
+                -1,
+                1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                1,
+                -1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                -1
+              ],
+              [
+                1,
+                -1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                -1,
+                -1,
+                -1,
+                1,
+                1,
+                -1,
+                -1,
+                -1,
+                1,
+                -1,
+                1,
+                -1,
+                -1,
+                1,
+                -1,
+                1,
+                1,
+                1,
+                -1,
+                -1
+              ]
+            ]
+          ],
+          "stop_reason": "exhausted",
+          "stored_candidates": 243,
+          "stored_signatures": 243,
+          "streamed_candidates": 2187
+        }
+      },
+      "p5_rank1": {
+        "incremental": {
+          "canonical_pairs": 3,
+          "complete": true,
+          "elapsed_seconds": 0.9635849000187591,
+          "ordered_pairs": 27,
+          "solutions": [
+            [
+              [
+                -1,
+                1,
+                -1,
+                -1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                -1,
+                1,
+                1,
+                1,
+                1,
+                -1,
+                -1,
+                1,
+                -1,
+                -1,
+                1,
+                -1,
+                -1,
+                -1,
+                -1,
+                1,
+                1,
+                -1,
+                -1,
+                1,
+                -1,
+                -1,
+                -1,
+                -1,
+                1,
+                1,
+                1,
+                -1,
+                -1,
+                1,
+                1,
+                1,
+                -1,
+                1,
+                -1
+              ],
+              [
+                1,
+                1,
+                1,
+                1,
+                -1,
+                1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                1,
+                1,
+                1,
+                -1,
+                -1,
+                1,
+                -1,
+                1,
+                1,
+                1,
+                -1,
+                1,
+                -1,
+                1,
+                -1,
+                1,
+                -1,
+                1,
+                -1,
+                -1,
+                1,
+                1,
+                -1,
+                -1,
+                1,
+                1,
+                1,
+                -1,
+                1,
+                -1,
+                -1,
+                1,
+                -1
+              ]
+            ]
+          ],
+          "stop_reason": "exhausted",
+          "stored_candidates": 59049,
+          "stored_signatures": 59001,
+          "streamed_candidates": 177147
+        },
+        "packed": {
+          "canonical_pairs": 3,
+          "complete": true,
+          "elapsed_seconds": 1.8096027999999933,
+          "ordered_pairs": 27,
+          "solutions": [
+            [
+              [
+                -1,
+                1,
+                -1,
+                -1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                -1,
+                1,
+                1,
+                1,
+                1,
+                -1,
+                -1,
+                1,
+                -1,
+                -1,
+                1,
+                -1,
+                -1,
+                -1,
+                -1,
+                1,
+                1,
+                -1,
+                -1,
+                1,
+                -1,
+                -1,
+                -1,
+                -1,
+                1,
+                1,
+                1,
+                -1,
+                -1,
+                1,
+                1,
+                1,
+                -1,
+                1,
+                -1
+              ],
+              [
+                1,
+                1,
+                1,
+                1,
+                -1,
+                1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                1,
+                1,
+                1,
+                -1,
+                -1,
+                1,
+                -1,
+                1,
+                1,
+                1,
+                -1,
+                1,
+                -1,
+                1,
+                -1,
+                1,
+                -1,
+                1,
+                -1,
+                -1,
+                1,
+                1,
+                -1,
+                -1,
+                1,
+                1,
+                1,
+                -1,
+                1,
+                -1,
+                -1,
+                1,
+                -1
+              ]
+            ]
+          ],
+          "stop_reason": "exhausted",
+          "stored_candidates": 59049,
+          "stored_signatures": 59001,
+          "streamed_candidates": 177147
+        }
+      }
+    }
+  },
+  "search_seconds": 10,
+  "solver": {
+    "bytes": 2149376,
+    "path": "tmp/tools/roundingsat/roundingsat.exe",
+    "sha256": "12a98e4ca9e91cd0fe344e88760fe0eaced3c1e4cf377b5134379ef4fec9fedf",
+    "tracked": false
+  },
+  "solver_cores": 1,
+  "started_utc": "2026-09-29T00:03:15.994575+00:00",
+  "status": "bounded exact ternary formulation validation; no p=37 run",
+  "validation": {
+    "p3": {
+      "certificate": {
+        "bytes": 956,
+        "path": "results/ternary_phase/p3_known_phase.pbp",
+        "sha256": "63c89aa234e241236a4cda602cf5125a4290697480923f6598d0bf25379ffa71",
+        "tracked": true
+      },
+      "opb": {
+        "bytes": 13702,
+        "path": "results/ternary_phase/p3_known_phase.opb",
+        "sha256": "f271227d0534a9528abcd5f5a9775f57f8586fbf845e137107f4b0e729a4407f",
+        "tracked": true
+      },
+      "verification": {
+        "command": [
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\veripb-3.0.2\\bin\\veripb.exe",
+          "--stats",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\ternary_phase\\p3_known_phase.opb",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\ternary_phase\\p3_known_phase.pbp"
+        ],
+        "elapsed_seconds": 0.042704,
+        "exit_code": 0,
+        "externally_timed_out": false,
+        "peak_working_set_bytes": 4386816,
+        "reported_status": null,
+        "stdout": {
+          "bytes": 179,
+          "path": "results/ternary_phase/p3_known_phase_veripb.txt",
+          "sha256": "bff5bdb22d58b00eb48b48c2835830bb2d6a4069a6318586a322a1980692d729",
+          "tracked": true
+        }
+      }
+    },
+    "p3_all_preimages": {
+      "exact_checks": 196830,
+      "rows": 7290,
+      "shifts_each": 27
+    },
+    "p5_rank1": {
+      "certificate": {
+        "bytes": 2436,
+        "path": "results/ternary_phase/p5_rank1_known_phase.pbp",
+        "sha256": "c04d317e6d09437356396e3d8daec6c093dbddb0bc0b52d88dfb7ddb434f1eb1",
+        "tracked": true
+      },
+      "opb": {
+        "bytes": 38680,
+        "path": "results/ternary_phase/p5_rank1_known_phase.opb",
+        "sha256": "ff97c3f4696521d10562c22a5e20500d788cec544862b60a8b00d29373a8ec9b",
+        "tracked": true
+      },
+      "verification": {
+        "command": [
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\veripb-3.0.2\\bin\\veripb.exe",
+          "--stats",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\ternary_phase\\p5_rank1_known_phase.opb",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\ternary_phase\\p5_rank1_known_phase.pbp"
+        ],
+        "elapsed_seconds": 0.06883,
+        "exit_code": 0,
+        "externally_timed_out": false,
+        "peak_working_set_bytes": 7233536,
+        "reported_status": null,
+        "stdout": {
+          "bytes": 179,
+          "path": "results/ternary_phase/p5_rank1_known_phase_veripb.txt",
+          "sha256": "ac86e5121b154c689b3d97f9b4ae128c5e091ed1939f0113f0549b7b8433d8a4",
+          "tracked": true
+        }
+      }
+    },
+    "p7_intermediate": {
+      "certificate": {
+        "bytes": 11098,
+        "path": "results/ternary_phase/p7_intermediate.pbp",
+        "sha256": "1a7369bccf1e01abe37665ee71c76d8f09e7397460a5ab7deb7faeec0b617bfb",
+        "tracked": true
+      },
+      "opb": {
+        "bytes": 146506,
+        "path": "results/ternary_phase/p7_intermediate.opb",
+        "sha256": "86be10f43409791250db7d8ea3a072b98b645fdc1655ef9ef79345790805a6c1",
+        "tracked": true
+      },
+      "verification": {
+        "command": [
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\tools\\veripb-3.0.2\\bin\\veripb.exe",
+          "--stats",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\ternary_phase\\p7_intermediate.opb",
+          "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\ternary_phase\\p7_intermediate.pbp"
+        ],
+        "elapsed_seconds": 0.072048,
+        "exit_code": 0,
+        "externally_timed_out": false,
+        "peak_working_set_bytes": 9494528,
+        "reported_status": null,
+        "stdout": {
+          "bytes": 179,
+          "path": "results/ternary_phase/p7_intermediate_veripb.txt",
+          "sha256": "964c6aa70c6f489927dc47f4c3d918764b10d412915e95c8d2a551db1eed7d2d",
+          "tracked": true
+        }
+      }
+    }
+  },
+  "verifier": {
+    "bytes": 2588160,
+    "path": "tmp/tools/veripb-3.0.2/bin/veripb.exe",
+    "sha256": "c3e3d547112c5cf0f9bf610438bb0b629a8699b85dcaa337ed0af55978bad676",
+    "tracked": false
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "canonical_lower_bound": 9,
+  "canonical_pairs": 9,
+  "command": [
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\tmp\\spectral_join.exe",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\spectral_join\\branches\\rank_0739_mode2.input.txt",
+    "C:\\Users\\georg\\OneDrive\\Documents\\math problems\\epoch ai\\hadamard matrices\\results\\spectral_join\\branches\\rank_0739_mode2.json"
+  ],
+  "complete": true,
+  "elapsed_seconds": 0.020697,
+  "mode": 2,
+  "node_limit": 100000000,
+  "ordered_pairs": 81,
+  "peak_working_set_bytes": 6148096,
+  "probe": false,
+  "rows": [
+    {
+      "accepted": 1335,
+      "complete": true,
+      "elapsed_seconds": 0.0133855,
+      "excluded_completions": 99972,
+      "expected": 177147,
+      "full_rejections": 75840,
+      "leaves": 77175,
+      "nodes": 159277,
+      "prefix_conflicts": 29010
+    },
+    {
+      "accepted": 1740,
+      "complete": true,
+      "elapsed_seconds": 0.0063423,
+      "excluded_completions": 24822,
+      "expected": 59049,
+      "full_rejections": 32487,
+      "leaves": 34227,
+      "nodes": 62770,
+      "prefix_conflicts": 7620
+    }
+  ],
+  "seconds_limit": 120,
+  "solution_limit": 100000,
+  "solutions": [
+    [
+      6890700715260,
+      3530239623702
+    ],
+    [
+      7573616504984,
+      28196035592278
+    ],
+    [
+      7921405967256,
+      3255353328662
+    ],
+    [
+      13371840436568,
+      27581276473234
+    ],
+    [
+      13732332485128,
+      19331118247190
+    ],
+    [
+      14870735657384,
+      1674503384534
+    ],
+    [
+      15738308695996,
+      28131074228370
+    ],
+    [
+      16416579304732,
+      20640848397394
+    ],
+    [
+      16923397896648,
+      17956762267158
+    ]
+  ],
+  "stop_reason": "exhausted",
+  "stored_candidate_limit": 5000000,
+  "stored_side": 1,
+  "table_capacity_bytes": 90112,
+  "table_entries": 1740,
+  "wrapper_elapsed_seconds": 0.07054099999368191
+}

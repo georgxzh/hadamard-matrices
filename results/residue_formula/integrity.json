@@ -1,0 +1,16 @@
+{
+  "all_frozen_artifacts_preserved": true,
+  "base_commit": "d441e0d8bfe6052c6574ca3702f1b3d40129ff7e",
+  "baseline": {
+    "files": 6741,
+    "manuscript_sha256": "69e6f7555d5872d78924b60b56dfb494bd3c4c17f8d15899c492089ccc0536a6",
+    "ordered_path_sha256_digest": "48c12b971ab73be56b2535aed6de5e16f8fe888b1936f2d0ed58bab17c4ec929"
+  },
+  "explanatory_empty_fiber_theorem_proved": false,
+  "formula_deliverable_proved": true,
+  "manuscript_edited_or_compiled": false,
+  "mathematical_advance_beyond_saved_point_evaluation": true,
+  "originality_established": false,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.14.6"
+}

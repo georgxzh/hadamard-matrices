@@ -1,0 +1,9 @@
+{
+  "binary_sha256": "00545a4f774e9be6be01daef2ba7618d49000d61807bbfa8e9c76507f7bc76d3",
+  "candidate_limit": 2000000000,
+  "estimated_seconds_10x": 92.38859447904,
+  "memory_envelope_bytes": 1118330048,
+  "seconds_limit": 180,
+  "solution_storage_bound": "At most the native complete count if all three modes exhaust to equal lists; otherwise independent full enumeration is not authorized by this pilot.",
+  "storage_envelope_bytes": 100000000
+}
